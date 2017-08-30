@@ -10,10 +10,21 @@ xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 xmlns:local="clr-namespace:AVAS_GUI"
 mc:Ignorable="d"
-Title="MainWindow" Height="350" Width="525">
+ WindowStartupLocation="CenterScreen"
+Title="AVAS" Height="800" Width="800">
 <Grid>
+<Label Content="Jméno stanice:" HorizontalAlignment="Left" Margin="32.704,60.377,0,0" VerticalAlignment="Top"/>
+<Label Content="Aktivace provedena dne:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,93.08,0,0"/>
+<Label Content="Tester:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,117.05,0,0"/>
+<Label Content="Jméno sítě:;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,142,0,0"/>
+<Label Content="Jméno uživatele:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,60.377,0,0"/>
+<Label Content="Kancelář:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,93.08,0,0"/>
+<Label Content="Číslo zásuvky:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,117.05,0,0"/>
+<Label Content="Sériové číslo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,150.01,0,0"/>
+<Label Content="Prostor pro chybové hlášky" HorizontalAlignment="Left" Margin="42,227,0,0" VerticalAlignment="Top" Height="61.96" Width="592.317" Background="#FFF97575"/>
 
 </Grid>
+
 </Window>
 '@
 #Read XAML
