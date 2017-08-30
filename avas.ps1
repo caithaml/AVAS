@@ -3,28 +3,51 @@
 #==============================================================================================
 [void][System.Reflection.Assembly]::LoadWithPartialName('presentationframework')
 [xml]$XAML = @'
-<Window x:Class="AVAS_GUI.MainWindow"
+<Window 
 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 xmlns:local="clr-namespace:AVAS_GUI"
-mc:Ignorable="d"
  WindowStartupLocation="CenterScreen"
 Title="AVAS" Height="800" Width="800">
 <Grid>
-<Label Content="Jméno stanice:" HorizontalAlignment="Left" Margin="32.704,60.377,0,0" VerticalAlignment="Top"/>
+<Label Content="Nazev stanice:" HorizontalAlignment="Left" Margin="32.704,60.377,0,0" VerticalAlignment="Top"/>
 <Label Content="Aktivace provedena dne:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,93.08,0,0"/>
-<Label Content="Tester:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,117.05,0,0"/>
-<Label Content="Jméno sítě:;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,142,0,0"/>
-<Label Content="Jméno uživatele:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,60.377,0,0"/>
-<Label Content="Kancelář:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,93.08,0,0"/>
-<Label Content="Číslo zásuvky:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,117.05,0,0"/>
-<Label Content="Sériové číslo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,150.01,0,0"/>
+<Label Content="Tester:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,124.05,0,0"/>
+<Label Content="Nazev site:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,153,0,0"/>
+<Label Content="Jmeno uzivatele:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,60.377,0,0"/>
+<Label Content="Kancelar:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,93.08,0,0"/>
+<Label Content="Cislo zasuvky:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,117.05,0,0"/>
+<Label Content="Seriove cislo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,150.01,0,0"/>
 <Label Content="Prostor pro chybové hlášky" HorizontalAlignment="Left" Margin="42,227,0,0" VerticalAlignment="Top" Height="61.96" Width="592.317" Background="#FFF97575"/>
-
+<Label Content="Integrita datoveho souboru" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,321,0,0"/>
+<Label Content="Prostredi" HorizontalAlignment="Left" Height="30" Margin="32.704,370,0,0" VerticalAlignment="Top" Width="155.293"/>
+<Label Content="Stav antiviru" HorizontalAlignment="Left" Height="31" Margin="33,405,0,0" VerticalAlignment="Top" Width="145.997"/>
+<Label Content="Scripty" HorizontalAlignment="Left" Height="35" Margin="33,451,0,0" Width="137.881" VerticalAlignment="Top"/>
+<Label Content="NT syslog" HorizontalAlignment="Left" Height="31" Margin="31,492,0,0" Width="69.251" VerticalAlignment="Top"/>
+<Label Content="Operacni system" HorizontalAlignment="Left" Height="36" Margin="30,523,0,0" Width="109.091" VerticalAlignment="Top"/>
+<Label Content="Protect" HorizontalAlignment="Left" Height="41" Margin="32,568,0,0" Width="109.091" VerticalAlignment="Top"/>
+<Label Content="Logy" HorizontalAlignment="Left" Height="29" Margin="33,608,0,0" Width="102.091" VerticalAlignment="Top"/>
+<Label Content="Zaplneni disku" HorizontalAlignment="Left" Height="28" Margin="33,662,0,0" Width="102.091" VerticalAlignment="Top"/>
+<Label Content="Aplikace GP" HorizontalAlignment="Left" Height="31" Margin="35,699,0,0" Width="109.091" VerticalAlignment="Top"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="233.091,60.377,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="231.881,96.08,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="230.251,157.01,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="231.251,127.04,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,60.377,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,93.08,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,124.04,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,155,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,321,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,370,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,405,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,452,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,487,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,523,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,572.05,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,614.05,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,660.05,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,700.05,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134.909"/>
 </Grid>
-
 </Window>
 '@
 #Read XAML
@@ -40,22 +63,13 @@ $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name ($_.Name) -Value $Form.Fi
 #===========================================================================
 # Akce pro tlačítka
 #===========================================================================
-$btnExit.Add_Click({$form.Close()}) #tlacitko konec
+
 
 #####################################################################################
 # Skripty a funkcionality - začátek
 #####################################################################################
 $data = Import-Clixml soubor.xml
-Function Get-FileName($initialDirectory)
-{
-    [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-    
-    $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
-    $OpenFileDialog.initialDirectory = $initialDirectory
-    $OpenFileDialog.filter = "XML (*.xml)| *.xml"
-    $OpenFileDialog.ShowDialog() | Out-Null
-    $OpenFileDialog.filename
-}
+
 
 #####################################################################################
 # Skripty a funkcionality - konec
