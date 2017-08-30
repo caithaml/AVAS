@@ -1,3 +1,5 @@
+Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+Write-Host "Nacitam GUI"
 #==============================================================================================
 # XAML - GUI
 #==============================================================================================
@@ -59,7 +61,7 @@ catch{Write-Host "Unable to load Windows.Markup.XamlReader. Some possible causes
 # Form objekty PowerShell
 #===========================================================================
 $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name ($_.Name) -Value $Form.FindName($_.Name)}
-
+Write-Host "GUI bylo nacteno"
 #===========================================================================
 # Akce pro tlačítka
 #===========================================================================
@@ -68,6 +70,7 @@ $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name ($_.Name) -Value $Form.Fi
 #####################################################################################
 # Skripty a funkcionality - začátek
 #####################################################################################
+Write-Host "Probiha import cli-xml"
 $data = Import-Clixml soubor.xml
 
 
@@ -79,4 +82,6 @@ $data = Import-Clixml soubor.xml
 #===========================================================================
 # Zobrazeni formu
 #===========================================================================
+Write-Host "Okno aplikace bylo nacteno"
 $Form.ShowDialog() | out-null
+Write-Host "Okno aplikace bylo zavreno"
