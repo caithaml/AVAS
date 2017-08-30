@@ -1,8 +1,0 @@
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\bin\Debug\GUI_AVAS.exe.config
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\bin\Debug\GUI_AVAS.exe
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\bin\Debug\GUI_AVAS.pdb
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\obj\Debug\GUI_AVAS.csprojResolveAssemblyReference.cache
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\obj\Debug\GUI_AVAS.Properties.Resources.resources
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\obj\Debug\GUI_AVAS.csproj.GenerateResource.Cache
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\obj\Debug\GUI_AVAS.exe
-C:\Users\Lukas\OneDrive\Documents\GitHub\ICWSC\GUI_AVAS\GUI_AVAS\obj\Debug\GUI_AVAS.pdb
