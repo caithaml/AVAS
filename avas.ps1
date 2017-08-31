@@ -1,7 +1,7 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
-Write-Host "Nacitam GUI"
+Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
-Write-Host "Nacitani .ini konfiguracniho souboru"
+Write-Host -Object "$(Get-Date) -Nacitani .ini konfiguracniho souboru"
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 ####################################################################################
 ##Nacteni konfigurace ze souboru .ini
@@ -31,7 +31,7 @@ else
 {
 $DebugPreference = 'SilentlyContinue'
 }
-Write-Host "Pokracuje zpracovani dalsich prikazu, soubor ini byl nacten"
+Write-Host -Object "$(Get-Date) Pokracuje zpracovani dalsich prikazu, soubor ini byl nacten"
 
 #==============================================================================================
 # XAML - GUI
@@ -77,7 +77,7 @@ Title="AVAS" Height="800" Width="800">
 <TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_stavantiviru"/>
 <TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,452,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_scripty"/>
 <TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,487,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_ntsyslog"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_operacnisystem"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_operacnisystem" Name="txtbox_operacnisystem"/>
 <TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,572.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_protect"/>
 <TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,614.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_logy"/>
 <TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,660.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_zaplnenidisku"/>
@@ -88,13 +88,13 @@ Title="AVAS" Height="800" Width="800">
 #Read XAML
 $reader=(New-Object System.Xml.XmlNodeReader $xaml) 
 try{$Form=[Windows.Markup.XamlReader]::Load( $reader )}
-catch{Write-Host "Unable to load Windows.Markup.XamlReader. Some possible causes for this problem include: .NET Framework is missing PowerShell must be launched with PowerShell -sta, invalid XAML code was encountered."; exit}
+catch{Write-Host -Object "$(Get-Date) Unable to load Windows.Markup.XamlReader. Some possible causes for this problem include: .NET Framework is missing PowerShell must be launched with PowerShell -sta, invalid XAML code was encountered."; exit}
 
 #===========================================================================
 # Form objekty PowerShell
 #===========================================================================
 $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name ($_.Name) -Value $Form.FindName($_.Name)}
-Write-Host "GUI bylo nacteno"
+Write-Host -Object "$(Get-Date) GUI bylo nacteno"
 #===========================================================================
 # Akce pro tlačítka
 #===========================================================================
@@ -103,8 +103,13 @@ Write-Host "GUI bylo nacteno"
 #####################################################################################
 # Skripty a funkcionality - začátek
 #####################################################################################
-Write-Host "Probiha import cli-xml"
+Write-Host -Object "$(Get-Date) Probiha import cli-xml"
 $data = Import-Clixml soubor.xml
+
+$oWMIOS = Get-WmiObject win32_OperatingSystem
+#$txtHostName.Text = $oWMIOS.PSComputerName
+$txtbox_operacnisystem.Text=$oWMIOS.PSComputerName
+
 
 
 #####################################################################################
@@ -115,6 +120,6 @@ $data = Import-Clixml soubor.xml
 #===========================================================================
 # Zobrazeni formu
 #===========================================================================
-Write-Host "Okno aplikace bylo nacteno"
+Write-Host -Object "$(Get-Date) Okno aplikace bylo nacteno"
 $Form.ShowDialog() | out-null
-Write-Host "Okno aplikace bylo zavreno"
+Write-Host -Object "$(Get-Date) Okno aplikace bylo zavreno"
