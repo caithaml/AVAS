@@ -53,7 +53,7 @@ Title="AVAS" Height="800" Width="800">
 <Label Content="Kancelar:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,93.08,0,0"/>
 <Label Content="Cislo zasuvky:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,117.05,0,0"/>
 <Label Content="Seriove cislo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,150.01,0,0"/>
-<Label Content="" HorizontalAlignment="Left" Margin="42,211,0,0" VerticalAlignment="Top" Height="78" Width="678" Background="#FFF97575" Uid="label_chyboveokno"/>
+<Label Content="" HorizontalAlignment="Left" Margin="42,211,0,0" VerticalAlignment="Top" Height="78" Width="678" Background="#FFF97575" Name="label_chyboveokno"/>
 <Label Content="Integrita datoveho souboru" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32.704,321,0,0"/>
 <Label Content="Prostredi" HorizontalAlignment="Left" Height="30" Margin="32.704,370,0,0" VerticalAlignment="Top" Width="155.293"/>
 <Label Content="Stav antiviru" HorizontalAlignment="Left" Height="31" Margin="33,405,0,0" VerticalAlignment="Top" Width="145.997"/>
@@ -64,24 +64,24 @@ Title="AVAS" Height="800" Width="800">
 <Label Content="Logy" HorizontalAlignment="Left" Height="29" Margin="33,608,0,0" Width="102.091" VerticalAlignment="Top"/>
 <Label Content="Zaplneni disku" HorizontalAlignment="Left" Height="28" Margin="33,662,0,0" Width="102.091" VerticalAlignment="Top"/>
 <Label Content="Aplikace GP" HorizontalAlignment="Left" Height="31" Margin="35,699,0,0" Width="109.091" VerticalAlignment="Top"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="233.091,60.377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_nazevstanice"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="231.881,96.08,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_akitvaceprovedenadne"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="230.251,157.01,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_nazevsite"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="231.251,127.04,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_tester"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,60.377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_nazevuzivatele"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,93.08,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_kancelar"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,124.04,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_cislozasuvky"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_seriovecslo"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_integritadatovehosouboru"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_prostredi"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_stavantiviru"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,452,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_scripty"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,487,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_ntsyslog"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_operacnisystem" Name="txtbox_operacnisystem"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,572.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_protect"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,614.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_logy"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,660.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_zaplnenidisku"/>
-<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,700.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Uid="txtbox_aplikacegp"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="233.091,60.377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_nazevstanice"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="231.881,96.08,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_aktivaceprovedenadne"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="230.251,157.01,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_nazevsite"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="231.251,127.04,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_tester"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,60.377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_nazevuzivatele"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,93.08,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_kancelar"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,124.04,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_cislozasuvky"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="585.251,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_seriovecislo"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_integritadatovehosouboru"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_prostredi"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_stavantiviru"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,452,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_scripty"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,487,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_ntsyslog"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_operacnisystem" Name="txtbox_operacnisystem"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,572.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_protect"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,614.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_logy"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,660.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_zaplnenidisku"/>
+<TextBox HorizontalAlignment="Left" Height="25.96" Margin="270.251,700.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134.909" Name="txtbox_aplikacegp"/>
 </Grid>
 </Window>
 '@
@@ -95,9 +95,6 @@ catch{Write-Host -Object "$(Get-Date) Unable to load Windows.Markup.XamlReader. 
 #===========================================================================
 $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name ($_.Name) -Value $Form.FindName($_.Name)}
 Write-Host -Object "$(Get-Date) GUI bylo nacteno"
-#===========================================================================
-# Akce pro tlačítka
-#===========================================================================
 
 
 #####################################################################################
@@ -108,9 +105,68 @@ $data = Import-Clixml soubor.xml
 
 $oWMIOS = Get-WmiObject win32_OperatingSystem
 #$txtHostName.Text = $oWMIOS.PSComputerName
+Write-Host -Object "$(Get-Date) txtbox_operacnisystem"
 $txtbox_operacnisystem.Text=$oWMIOS.PSComputerName
 
+Write-Host -Object "$(Get-Date) txtbox_nazevstanice"
+$txtbox_nazevstanice
 
+Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne"
+$txtbox_aktivaceprovedenadne
+
+Write-Host -Object "$(Get-Date) txtbox_nazevsite"
+$txtbox_nazevsite
+
+Write-Host -Object "$(Get-Date) txtbox_tester"
+$txtbox_tester
+
+Write-Host -Object "$(Get-Date) txtbox_nazevuzivatele"
+$txtbox_nazevuzivatele
+
+Write-Host -Object "$(Get-Date) txtbox_kancelar"
+$txtbox_kancelar
+
+Write-Host -Object "$(Get-Date) txtbox_cislozasuvky"
+$txtbox_cislozasuvky
+
+Write-Host -Object "$(Get-Date) txtbox_seriovecislo"
+$txtbox_seriovecislo
+
+Write-Host -Object "$(Get-Date) txtbox_integritadatovehosouboru"
+$txtbox_integritadatovehosouboru
+
+Write-Host -Object "$(Get-Date) txtbox_prostredi"
+$txtbox_prostredi
+
+Write-Host -Object "$(Get-Date) txtbox_stavantiviru"
+$txtbox_stavantiviru
+
+Write-Host -Object "$(Get-Date) txtbox_scripty"
+$txtbox_scripty
+
+Write-Host -Object "$(Get-Date) txtbox_ntsyslog"
+$txtbox_ntsyslog
+
+Write-Host -Object "$(Get-Date) txtbox_operacnisystem"
+$txtbox_operacnisystem
+
+Write-Host -Object "$(Get-Date) txtbox_protect"
+$txtbox_protect
+
+Write-Host -Object "$(Get-Date) txtbox_logy"
+$txtbox_logy
+
+Write-Host -Object "$(Get-Date) txtbox_zaplnenidisku"
+$txtbox_zaplnenidisku
+
+Write-Host -Object "$(Get-Date) txtbox_aplikacegp"
+$txtbox_aplikacegp
+
+Write-Host -Object "$(Get-Date) label_chyboveokno"
+$label_chyboveokno
+
+Write-Host -Object "$(Get-Date) nacteni aplikaci"
+$label_aplikace=(Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*)
 
 #####################################################################################
 # Skripty a funkcionality - konec
