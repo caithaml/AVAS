@@ -60,3 +60,6 @@ computerName                   DESKTOP-JJRV9GQ
 instanceId                     3a9f621a-810f-493e-88ee-f7bd168f4d84
 
 
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Name"
