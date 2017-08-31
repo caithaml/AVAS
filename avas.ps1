@@ -1,5 +1,38 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 Write-Host "Nacitam GUI"
+
+Write-Host "Nacitani .ini konfiguracniho souboru"
+$scriptpath = $MyInvocation.MyCommand.Path | Split-Path
+####################################################################################
+##Nacteni konfigurace ze souboru .ini
+####################################################################################
+if (!(Test-Path -Path "$scriptpath\soubor.ini"))
+{
+Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\soubor.ini `r"
+#Stop-Transcript
+exit
+#Write-Host "Chyba : nebyl nalezen ini soubor"
+}
+
+Get-Content -Path "$scriptpath\soubor.ini" | ForEach-Object -Begin {
+$set = @{}
+} -Process {
+$k = [regex]::split($_,'=')
+if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true))
+{
+$set.Add($k[0], $k[1])
+}
+}
+if($set.debug -eq '1')
+{
+$DebugPreference = 'Continue'
+}
+else
+{
+$DebugPreference = 'SilentlyContinue'
+}
+Write-Host "Pokracuje zpracovani dalsich prikazu, soubor ini byl nacten"
+
 #==============================================================================================
 # XAML - GUI
 #==============================================================================================

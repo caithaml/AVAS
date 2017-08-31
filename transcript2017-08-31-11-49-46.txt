@@ -1,0 +1,44 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170831114947
+Username: DESKTOP-JJRV9GQ\lukas
+RunAs User: DESKTOP-JJRV9GQ\lukas
+Configuration Name: 
+Machine: DESKTOP-JJRV9GQ (Microsoft Windows NT 10.0.16251.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\avas.ps1'
+Process ID: 10144
+PSVersion: 5.1.16251.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16251.1000
+BuildVersion: 10.0.16251.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-08-31-11-49-46.txt
+Nacitam GUI
+GUI bylo nacteno
+Probiha import cli-xml
+PS>TerminatingError(Import-Clixml): "Soubor C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\soubor.xml nebyl nalezen."
+Import-Clixml : Soubor C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\soubor.xml nebyl nalezen.
+At C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\avas.ps1:74 char:9
++ $data = Import-Clixml soubor.xml
++         ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Clixml], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportClixmlCommand
+Import-Clixml : Soubor C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\soubor.xml nebyl nalezen.
+At C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\avas.ps1:74 char:9
++ $data = Import-Clixml soubor.xml
++         ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Clixml], FileNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportClixmlCommand
+
+Okno aplikace bylo nacteno
+Okno aplikace bylo zavreno
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20170831114958
+**********************
