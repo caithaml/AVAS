@@ -235,3 +235,713 @@ REMARKS
 
 
 
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Exit-PSHostProcess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Exit-PSHostProcess                                 3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Exit-PSHostProcess"
+
+NAME
+    Exit-PSHostProcess
+
+SYNTAX
+    Exit-PSHostProcess  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Exit-PSHostProcess -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=403737.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Expand-Archive"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Expand-Archive                                     1.0.1.0    Microsoft.PowerShell.Archive
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Expand-Archive"
+
+NAME
+    Expand-Archive
+
+SYNTAX
+    Expand-Archive [-Path] <string> [[-DestinationPath] <string>] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Expand-Archive [[-DestinationPath] <string>] -LiteralPath <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Expand-Archive -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=393253.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNTAX
+    Export-Alias [-Path] <string> [[-Name] <string[]>] [-PassThru] [-As {Csv | Script}] [-Append] [-Force] [-NoClobber] [-Description <string>] [-Scope <string>] [-WhatIf]
+    [-Confirm]  [<CommonParameters>]
+
+    Export-Alias [[-Name] <string[]>] -LiteralPath <string> [-PassThru] [-As {Csv | Script}] [-Append] [-Force] [-NoClobber] [-Description <string>] [-Scope <string>] [-Wha
+    tIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    epal
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Alias -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113296.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNTAX
+    Export-Alias [-Path] <string> [[-Name] <string[]>] [-PassThru] [-As {Csv | Script}] [-Append] [-Force] [-NoClobber] [-Description <string>] [-Scope <string>] [-WhatIf]
+    [-Confirm]  [<CommonParameters>]
+
+    Export-Alias [[-Name] <string[]>] -LiteralPath <string> [-PassThru] [-As {Csv | Script}] [-Append] [-Force] [-NoClobber] [-Description <string>] [-Scope <string>] [-Wha
+    tIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    epal
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Alias -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113296.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNTAX
+    Export-Alias [-Path] <string> [[-Name] <string[]>] [-PassThru] [-As {Csv | Script}] [-Append] [-Force] [-NoClobber] [-Description <string>] [-Scope <string>] [-WhatIf]
+    [-Confirm]  [<CommonParameters>]
+
+    Export-Alias [[-Name] <string[]>] -LiteralPath <string> [-PassThru] [-As {Csv | Script}] [-Append] [-Force] [-NoClobber] [-Description <string>] [-Scope <string>] [-Wha
+    tIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    epal
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Alias -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113296.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-BCCachePackage"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Export-BCCachePackage                              1.0.0.0    BranchCache
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-BCCachePackage"
+
+NAME
+    Export-BCCachePackage
+
+SYNTAX
+    Export-BCCachePackage [[-StagingPath] <string>] -Destination <string> [-Force] [-OutputReferenceFile <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJ
+    ob] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Export-BCCachePackage -Destination <string> -ExportDataCache [-Force] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-WhatIf] [-Confirm]  [<CommonParamet
+    ers>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-BCSecretKey"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Export-BCSecretKey                                 1.0.0.0    BranchCache
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-BCSecretKey"
+
+NAME
+    Export-BCSecretKey
+
+SYNTAX
+    Export-BCSecretKey [-Filename] <string> [-FilePassphrase] <string> [-Force] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-WhatIf] [-Confirm]  [<CommonP
+    arameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-BinaryMiLog"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-BinaryMiLog                                 1.0.0.0    CimCmdlets
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-BinaryMiLog"
+
+NAME
+    Export-BinaryMiLog
+
+SYNTAX
+    Export-BinaryMiLog [-Path] <string> [-InputObject <ciminstance>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-BinaryMiLog -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=301310.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Certificate"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Certificate                                 1.0.0.0    pki
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Certificate"
+
+NAME
+    Export-Certificate
+
+SYNTAX
+    Export-Certificate -FilePath <string> -Cert <Certificate> [-Type {SST | CERT | P7B}] [-NoClobber] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Certificate -Online" or
+           go to http://go.microsoft.com/fwlink/?LinkId=386818.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Certificate"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Certificate                                 1.0.0.0    pki
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Certificate"
+
+NAME
+    Export-Certificate
+
+SYNTAX
+    Export-Certificate -FilePath <string> -Cert <Certificate> [-Type {SST | CERT | P7B}] [-NoClobber] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Certificate -Online" or
+           go to http://go.microsoft.com/fwlink/?LinkId=386818.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Clixml"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Clixml                                      3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Clixml"
+
+NAME
+    Export-Clixml
+
+SYNTAX
+    Export-Clixml [-Path] <string> -InputObject <psobject> [-Depth <int>] [-Force] [-NoClobber] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Defau
+    lt | OEM}] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Export-Clixml -LiteralPath <string> -InputObject <psobject> [-Depth <int>] [-Force] [-NoClobber] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode |
+    Default | OEM}] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Clixml -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113297.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Clixml"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Clixml                                      3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ItemProperty"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ItemProperty                                   3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ItemProperty"
+
+NAME
+    Get-ItemProperty
+
+SYNTAX
+    Get-ItemProperty [-Path] <string[]> [[-Name] <string[]>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Credential <pscredential>] [-UseTransaction]
+    [<CommonParameters>]
+
+    Get-ItemProperty [[-Name] <string[]>] -LiteralPath <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Credential <pscredential>] [-UseTransacti
+    on]  [<CommonParameters>]
+
+
+ALIASES
+    gp
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-ItemProperty -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113320.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(Get-WinEvent): "Parametr není správný"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(Confirm-SecureBootUEFI): "Unable to set proper privileges. Access was denied."
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(Get-WindowsOptionalFeature): "Požadovaná operace vyžaduje zvýšená oprávnění.
+"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(Get-AppxPackage): "Přístup byl odepřen.
+
+Přístup byl odepřen.
+"
+>> TerminatingError(Get-ItemProperty): "Určené přetypování není platné."
+
+
+ComputerName               : DESKTOP-JJRV9GQ
+Date                       : 04.09.2017 10:20:14
+User                       : lukas
+Last_User                  : lukas
+Domain                     : DESKTOP-JJRV9GQ
+Domain_TCP                 :
+Domain_DHCP                : sicz.local
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Enterprise Insider Preview
+OS_Build                   : 10.0.16251
+SP                         : 0
+Install_Date               : 23.08.2017 23:18:02
+Last_Boot_Time             : 04.09.2017 9:13:58
+RAM_Total                  : 8073
+RAM_Free                   : 1
+Virtual_Total              : 10
+Virtual_Free               : 2
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=MachinePolicy; ExecutionPolicy=Undefined}, @{Scope=UserPolicy; ExecutionPolicy=Undefined}, @{Scope=Process; ExecutionPolicy=RemoteSign
+                             ed}, @{Scope=CurrentUser; ExecutionPolicy=Undefined}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Místní pevný disk; Volume=C:; Available=110667100160; Computer=DESKTOP-JJRV9GQ; Used=387960348672; Size=498627448832},
+                              @{FileSystem=NTFS; Type=Síťové připojení; Volume=K:; Available=4499441143808; Computer=DESKTOP-JJRV9GQ; Used=7393652297728; Size=1189309344153
+                             6}, @{FileSystem=NTFS; Type=Místní pevný disk; Volume=L:; Available=198259634176; Computer=DESKTOP-JJRV9GQ; Used=301845053440; Size=50010468761
+                             6}}
+BIOS                       : DELL   - 6222004 | Default System BIOS
+BIOS_Date                  : 12.08.2015 2:00:00
+System_Locale              : 00000405
+Default_Locale             : 00000405
+Country                    : 420
+Locale                     : 00000405
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+AV_MS_Product              : Windows Defender
+AV_MS_ResidentOn           : False
+AV_MS_Version              : 4.12.16251.1000
+AV_MS_Scanner_Build        : 1.1.14104.0
+AV_MS_Scanner_Version      : 1.251.70.0
+System_Log_Length          : 3215360
+Secrutiy_Log_Length        : 20975616
+Application_Log_Length     : 7409664
+Setupapi_Length            : 0
+NetIPConfiguration         : {NetIPConfiguration, NetIPConfiguration, NetIPConfiguration, NetIPConfiguration}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData, Microsoft.PowerSh
+                             ell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Users                : {Administrator, DefaultAccount, Guest, lukas...}
+Local_Groups               : {Access Control Assistance Operators, Administrators, Backup Operators, Cryptographic Operators...}
+PCinfo                     : Microsoft.PowerShell.Commands.ComputerInfo
+Logs_Application           : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.Event
+                             LogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_System                : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.Event
+                             LogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         :
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {MSFT_ScheduledTask (TaskName = "CreateExplorerShellUnelevatedTask", TaskPath = "\"), MSFT_ScheduledTask (TaskName = "nWizard_{B2FE1952-0186-46
+                             C3-BAEC-A80AA3..., TaskPath = "\"), MSFT_ScheduledTask (TaskName = "OneDrive Standalone Update Task-S-1-5-2..., TaskPath = "\"), MSFT_Scheduled
+                             Task (TaskName = "User_Feed_Synchronization-{434F68DC-DC0..., TaskPath = "\")...}
+AppLocker                  : {}
+Bitlocker                  :
+UEFI_partition             :
+Hotfixes                   :
+Services                   : {AJRouter, ALG, ApHidMonitorService, AppIDSvc...}
+Processes                  : {System.Diagnostics.Process (ApMsgFwd), System.Diagnostics.Process (ApntEx), System.Diagnostics.Process (Apoint), System.Diagnostics.Process (A
+                             pplicationFrameHost)...}
+UWF                        :
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8276
+computerName                   DESKTOP-JJRV9GQ
+instanceId                     cb7fff1e-4f1d-4d26-875e-3711f8437860
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Service"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Service"
+
+NAME
+    Get-Service
+
+SYNTAX
+    Get-Service [[-Name] <string[]>] [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>]  [<CommonParameters>]
+
+    Get-Service -DisplayName <string[]> [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>]  [<CommonParameters>
+    ]
+
+    Get-Service [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>] [-InputObject <ServiceController[]>]  [<Comm
+    onParameters>]
+
+
+ALIASES
+    gsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Service -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113332.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Service"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Service"
+
+NAME
+    Get-Service
+
+SYNTAX
+    Get-Service [[-Name] <string[]>] [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>]  [<CommonParameters>]
+
+    Get-Service -DisplayName <string[]> [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>]  [<CommonParameters>
+    ]
+
+    Get-Service [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>] [-InputObject <ServiceController[]>]  [<Comm
+    onParameters>]
+
+
+ALIASES
+    gsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Service -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113332.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8276
+computerName                   DESKTOP-JJRV9GQ
+instanceId                     cb7fff1e-4f1d-4d26-875e-3711f8437860
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ItemProperty"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ItemProperty                                   3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ItemProperty"
+
+NAME
+    Get-ItemProperty
+
+SYNTAX
+    Get-ItemProperty [-Path] <string[]> [[-Name] <string[]>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Credential <pscredential>] [-UseTransaction]
+    [<CommonParameters>]
+
+    Get-ItemProperty [[-Name] <string[]>] -LiteralPath <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Credential <pscredential>] [-UseTransacti
+    on]  [<CommonParameters>]
+
+
+ALIASES
+    gp
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-ItemProperty -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113320.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(Get-WinEvent): "Parametr není správný"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8276
+computerName                   DESKTOP-JJRV9GQ
+instanceId                     cb7fff1e-4f1d-4d26-875e-3711f8437860
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ItemProperty"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ItemProperty                                   3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ItemProperty"
+
+NAME
+    Get-ItemProperty
+
+SYNTAX
+    Get-ItemProperty [-Path] <string[]> [[-Name] <string[]>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Credential <pscredential>] [-UseTransaction]
+    [<CommonParameters>]
+
+    Get-ItemProperty [[-Name] <string[]>] -LiteralPath <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Credential <pscredential>] [-UseTransacti
+    on]  [<CommonParameters>]
+
+
+ALIASES
+    gp
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-ItemProperty -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113320.
+
+
+

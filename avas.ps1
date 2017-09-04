@@ -1,9 +1,37 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
-Write-Host -Object "$(Get-Date) -Nacitani json konfiguracniho souboru"
+Write-Host -Object "$(Get-Date) -Nacitani .ini konfiguracniho souboru"
+$scriptpath = $MyInvocation.MyCommand.Path | Split-Path
+####################################################################################
+##Nacteni konfigurace ze souboru .ini
+####################################################################################
+if (!(Test-Path -Path "$scriptpath\soubor.ini"))
+{
+Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\soubor.ini `r"
+#Stop-Transcript
+exit
+#Write-Host "Chyba : nebyl nalezen ini soubor"
+}
 
-$json = ConvertFrom-Json -InputObject (gc C:\SICZ\hash.json -Raw)
+Get-Content -Path "$scriptpath\soubor.ini" | ForEach-Object -Begin {
+$set = @{}
+} -Process {
+$k = [regex]::split($_,'=')
+if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true))
+{
+$set.Add($k[0], $k[1])
+}
+}
+if($set.debug -eq '1')
+{
+$DebugPreference = 'Continue'
+}
+else
+{
+$DebugPreference = 'SilentlyContinue'
+}
+Write-Host -Object "$(Get-Date) Pokracuje zpracovani dalsich prikazu, soubor ini byl nacten"
 
 #==============================================================================================
 # XAML - GUI
@@ -72,12 +100,13 @@ Write-Host -Object "$(Get-Date) GUI bylo nacteno"
 #####################################################################################
 # Skripty a funkcionality - začátek
 #####################################################################################
-
+Write-Host -Object "$(Get-Date) Probiha import cli-xml"
+$data = gc C:\SICZ\hash.json
 
 $oWMIOS = Get-WmiObject win32_OperatingSystem
 #$txtHostName.Text = $oWMIOS.PSComputerName
 Write-Host -Object "$(Get-Date) txtbox_operacnisystem"
-$txtbox_operacnisystem.Text=$oWMIOS.PSComputerName
+$txtbox_operacnisystem.Text=$data.OS
 
 Write-Host -Object "$(Get-Date) txtbox_nazevstanice"
 $txtbox_nazevstanice
@@ -149,4 +178,4 @@ $label_aplikace=(Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\Current
 #===========================================================================
 Write-Host -Object "$(Get-Date) Okno aplikace bylo nacteno"
 $Form.ShowDialog() | out-null
-Write-Host -Object "$(Get-Date) Okno aplikace bylo zavreno"
+Write-Host -Object "$(Get-Date) Okno aplikace bylo zavreno";
