@@ -509,3 +509,4 @@ $hash | Add-Member Noteproperty Deny_DeviceIDs (Get-ItemProperty -Path 'HKLM:\So
 $hash
 
 $hash | ConvertTo-Json | Out-File "hash.json"
+$hash | Export-Clixml | Out-File "clixml.xml"
