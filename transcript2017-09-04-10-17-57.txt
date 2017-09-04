@@ -1,0 +1,237 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170904101758
+Username: DESKTOP-JJRV9GQ\lukas
+RunAs User: DESKTOP-JJRV9GQ\lukas
+Configuration Name: 
+Machine: DESKTOP-JJRV9GQ (Microsoft Windows NT 10.0.16251.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\logs\1504511294-fc35c9d6-60a7-4d9e-99a0-a45fbf02d26e1504511067648\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\sessions\PSES-VSCode-4628-335911' -FeatureFlags @()
+Process ID: 8276
+PSVersion: 5.1.16251.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16251.1000
+BuildVersion: 10.0.16251.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-04-10-17-57.txt
+09/04/2017 10:17:58 - Nacitam GUI
+09/04/2017 10:17:58 -Nacitani json konfiguracniho souboru
+PS>TerminatingError(ConvertFrom-Json): "Cannot bind argument to parameter 'InputObject' because it is null."
+>> TerminatingError(New-Object): "A constructor was not found. Cannot find an appropriate constructor for type System.Xml.XmlNodeReader."
+09/04/2017 10:18:06 Unable to load Windows.Markup.XamlReader. Some possible causes for this problem include: .NET Framework is missing PowerShell must be launched with PowerShell -sta, invalid XAML code was encountered.
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8276
+computerName                   DESKTOP-JJRV9GQ
+instanceId                     cb7fff1e-4f1d-4d26-875e-3711f8437860
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNTAX
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time |
+    DateTime}] [-Format <string>]  [<CommonParameters>]
+
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time |
+    DateTime}] [-UFormat <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Date -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113313.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Import-Clixml"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Import-Clixml                                      3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Import-Clixml"
+
+NAME
+    Import-Clixml
+
+SYNTAX
+    Import-Clixml [-Path] <string[]> [-IncludeTotalCount] [-Skip <uint64>] [-First <uint64>]  [<CommonParameters>]
+
+    Import-Clixml -LiteralPath <string[]> [-IncludeTotalCount] [-Skip <uint64>] [-First <uint64>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Import-Clixml -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113340.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Import-Clixml"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Import-Clixml                                      3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Import-Clixml"
+
+NAME
+    Import-Clixml
+
+SYNTAX
+    Import-Clixml [-Path] <string[]> [-IncludeTotalCount] [-Skip <uint64>] [-First <uint64>]  [<CommonParameters>]
+
+    Import-Clixml -LiteralPath <string[]> [-IncludeTotalCount] [-Skip <uint64>] [-First <uint64>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Import-Clixml -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113340.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNTAX
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time |
+    DateTime}] [-Format <string>]  [<CommonParameters>]
+
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time |
+    DateTime}] [-UFormat <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Date -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113313.
+
+
+
