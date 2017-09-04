@@ -5,86 +5,6 @@ Write-Host -Object "$(Get-Date) - Nacitam GUI"
 Write-Host -Object "$(Get-Date) -Nacitani json konfiguracniho souboru"
 $json=gc C:\SICZ\hash.json | ConvertFrom-Json
 
-Write-Host -Object "$(Get-Date) Probiha import json"
-$data = gc C:\SICZ\hash.json | ConvertFrom-Json
-
-Write-Host -Object "$(Get-Date) txtbox_operacnisystem"
-$txtbox_operacnisystem.Text=($json.OS)
-Write-Host $json.OS
-
-Write-Host -Object "$(Get-Date) txtbox_nazevstanice"
-$txtbox_nazevstanice.Text=($data.ComputerName)
-Write-Host $json.ComputerName
-
-Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne"
-$txtbox_aktivaceprovedenadne
-
-Write-Host -Object "$(Get-Date) txtbox_nazevsite"
-$txtbox_nazevsite
-Write-Host $json.Domain
-
-Write-Host -Object "$(Get-Date) txtbox_tester"
-$txtbox_tester
-
-Write-Host -Object "$(Get-Date) txtbox_nazevuzivatele"
-$txtbox_nazevuzivatele
-Write-Host $json.User
-
-Write-Host -Object "$(Get-Date) txtbox_kancelar"
-$txtbox_kancelar
-
-Write-Host -Object "$(Get-Date) txtbox_cislozasuvky"
-$txtbox_cislozasuvky
-
-Write-Host -Object "$(Get-Date) txtbox_seriovecislo"
-$txtbox_seriovecislo
-
-Write-Host -Object "$(Get-Date) txtbox_integritadatovehosouboru"
-$txtbox_integritadatovehosouboru
-
-Write-Host -Object "$(Get-Date) txtbox_prostredi"
-$txtbox_prostredi
-Write-Host $json.Locale
-
-Write-Host -Object "$(Get-Date) txtbox_stavantiviru"
-$txtbox_stavantiviru
-Write-Host $json.AV_MS_ResidentOn
-
-Write-Host -Object "$(Get-Date) txtbox_scripty"
-$txtbox_scripty
-
-Write-Host $json.Script_StartUp
-
-Write-Host -Object "$(Get-Date) txtbox_ntsyslog"
-$txtbox_ntsyslog
-
-Write-Host -Object "$(Get-Date) txtbox_operacnisystem"
-$txtbox_operacnisystem
-Write-Host $json.OS
-
-Write-Host -Object "$(Get-Date) txtbox_protect"
-$txtbox_protect
-Write-Host $json.Protect_Ini
-
-Write-Host -Object "$(Get-Date) txtbox_logy"
-$txtbox_logy
-Write-Host $json.Logs_Application
-Write-Host $json.Logs_LanPCS
-Write-Host $json.Logs_System
-
-Write-Host -Object "$(Get-Date) txtbox_zaplnenidisku"
-$txtbox_zaplnenidisku
-Write-Host $json.Local_Disks
-
-Write-Host -Object "$(Get-Date) txtbox_aplikacegp"
-$txtbox_aplikacegp
-Write-Host $json.Execution_Policy
-
-Write-Host -Object "$(Get-Date) label_chyboveokno"
-$label_chyboveokno
-
-Write-Host -Object "$(Get-Date) nacteni aplikaci"
-$label_aplikace=(Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*)
 
 
 #==============================================================================================
@@ -122,7 +42,7 @@ $txtbox_nazevstanice.Height = 20
 $txtbox_nazevstanice.location = new-object system.drawing.point(114,21)
 $txtbox_nazevstanice.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_nazevstanice)
-$txtbox_nazevstanice.Text=$data.ComputerName
+$txtbox_nazevstanice.Text=$json.ComputerName
 
 $txtbox_nazevstanice = New-Object system.windows.Forms.TextBox
 $txtbox_nazevstanice.Width = 202
@@ -130,7 +50,7 @@ $txtbox_nazevstanice.Height = 20
 $txtbox_nazevstanice.location = new-object system.drawing.point(114,21)
 $txtbox_nazevstanice.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_nazevstanice)
-$txtbox_nazevstanice.Text=$data.ComputerName
+$txtbox_nazevstanice.Text=$json.ComputerName
 
 $lbl_aktivace = New-Object system.windows.Forms.Label
 $lbl_aktivace.Text = "Aktivace provedena dne:"
@@ -213,7 +133,7 @@ $txtbox_nazevsite.Height = 20
 $txtbox_nazevsite.location = new-object system.drawing.point(102,95)
 $txtbox_nazevsite.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_nazevsite)
-$txtbox_nazevsite.Text=$data.Domain
+$txtbox_nazevsite.Text=$json.Domain
 
 $txtbox_nazevsite = New-Object system.windows.Forms.TextBox
 $txtbox_nazevsite.Width = 201
@@ -221,7 +141,7 @@ $txtbox_nazevsite.Height = 20
 $txtbox_nazevsite.location = new-object system.drawing.point(102,95)
 $txtbox_nazevsite.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_nazevsite)
-$txtbox_nazevsite.Text=$data.Domain
+$txtbox_nazevsite.Text=$json.Domain
 
 $lbl_jmenouzivatele = New-Object system.windows.Forms.Label
 $lbl_jmenouzivatele.Text = "Jméno uživatele"
@@ -247,7 +167,7 @@ $txtbox_jmenouzivatele.Height = 20
 $txtbox_jmenouzivatele.location = new-object system.drawing.point(490,20)
 $txtbox_jmenouzivatele.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_jmenouzivatele)
-$txtbox_jmenouzivatele.Text=$data.User
+$txtbox_jmenouzivatele.Text=$json.User
 
 $txtbox_jmenouzivatele = New-Object system.windows.Forms.TextBox
 $txtbox_jmenouzivatele.Width = 100
@@ -255,7 +175,7 @@ $txtbox_jmenouzivatele.Height = 20
 $txtbox_jmenouzivatele.location = new-object system.drawing.point(490,20)
 $txtbox_jmenouzivatele.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_jmenouzivatele)
-$txtbox_jmenouzivatele.Text=$data.User
+$txtbox_jmenouzivatele.Text=$json.User
 
 $lbl_kancelar = New-Object system.windows.Forms.Label
 $lbl_kancelar.Text = "Kancelář"
@@ -391,7 +311,7 @@ $txtbox_prostredi.Height = 20
 $txtbox_prostredi.location = new-object system.drawing.point(119,176)
 $txtbox_prostredi.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_prostredi)
-$txtbox_prostredi.Text=$data.Locale
+$txtbox_prostredi.Text=$json.Locale
 
 $txtbox_prostredi = New-Object system.windows.Forms.TextBox
 $txtbox_prostredi.Width = 100
@@ -399,7 +319,7 @@ $txtbox_prostredi.Height = 20
 $txtbox_prostredi.location = new-object system.drawing.point(119,176)
 $txtbox_prostredi.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_prostredi)
-$txtbox_prostredi.Text=$data.Locale
+$txtbox_prostredi.Text=$json.Locale
 
 $lbl_prostredi = New-Object system.windows.Forms.Label
 $lbl_prostredi.Text = "Prostředí"
@@ -494,7 +414,7 @@ $txtbox_os.Height = 20
 $txtbox_os.location = new-object system.drawing.point(121,279)
 $txtbox_os.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_os)
-$txtbox_os.Text=$data.OS
+$txtbox_os.Text=$json.OS
 
 $txtbox_os = New-Object system.windows.Forms.TextBox
 $txtbox_os.Width = 100
@@ -502,7 +422,7 @@ $txtbox_os.Height = 20
 $txtbox_os.location = new-object system.drawing.point(121,279)
 $txtbox_os.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_os)
-$txtbox_os.Text=$data.OS
+$txtbox_os.Text=$json.OS
 
 $lbl_os = New-Object system.windows.Forms.Label
 $lbl_os.Text = "Operační systém"
@@ -532,14 +452,14 @@ Write-Host -Object "$(Get-Date) GUI bylo nacteno"
 # Skripty a funkcionality - začátek
 #####################################################################################
 Write-Host -Object "$(Get-Date) Probiha import json"
-$data = gc C:\SICZ\hash.json
+$json = gc C:\SICZ\hash.json
 
 
 Write-Host -Object "$(Get-Date) txtbox_operacnisystem"
-$txtbox_operacnisystem.Text=($data.OS)
+$txtbox_operacnisystem.Text=($json.OS)
 
 Write-Host -Object "$(Get-Date) txtbox_nazevstanice"
-$txtbox_nazevstanice.Text=($data.ComputerName)
+$txtbox_nazevstanice.Text=($json.ComputerName)
 
 Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne"
 $txtbox_aktivaceprovedenadne
