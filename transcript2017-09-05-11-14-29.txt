@@ -1,0 +1,23 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170905111429
+Username: DESKTOP-JJRV9GQ\lukas
+RunAs User: DESKTOP-JJRV9GQ\lukas
+Configuration Name: 
+Machine: DESKTOP-JJRV9GQ (Microsoft Windows NT 10.0.16251.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\test.ps1'
+Process ID: 7448
+PSVersion: 5.1.16251.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16251.1000
+BuildVersion: 10.0.16251.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-05-11-14-29.txt
+09/05/2017 11:14:29 - Nacitam GUI
+09/05/2017 11:14:29 - Nacitani json konfiguracniho souboru
+09/05/2017 11:14:33 - Dokonce nacitani json konfiguracniho souboru
+09/05/2017 11:14:33 Probiha nacitani GUI

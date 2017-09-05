@@ -326,16 +326,20 @@ $Form.controls.Add($lbl_prostredi)
 $txtbox_prostredi = New-Object system.windows.Forms.TextBox
 $txtbox_prostredi.Width = 150
 $txtbox_prostredi.Height = 40
+$txtbox_prostredi.Text=($json.Locale)
 $txtbox_prostredi.location = new-object system.drawing.point(174,205)
 $txtbox_prostredi.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_prostredi)
+$txtbox_prostredi.Text=$json.Locale
 
 $txtbox_prostredi = New-Object system.windows.Forms.TextBox
 $txtbox_prostredi.Width = 150
 $txtbox_prostredi.Height = 40
+$txtbox_prostredi.Text=($json.Locale)
 $txtbox_prostredi.location = new-object system.drawing.point(174,205)
 $txtbox_prostredi.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($txtbox_prostredi)
+$txtbox_prostredi.Text=$json.Locale
 
 $lbl_stavantiviru = New-Object system.windows.Forms.Label
 $lbl_stavantiviru.Text = "Stav antiviru"
@@ -405,8 +409,8 @@ $Form.controls.Add($txtbox_scripty)
 
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
-$btn_scripty.Width = 60
-$btn_scripty.Height = 30
+$btn_scripty.Width = 90
+$btn_scripty.Height = 40
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
@@ -422,12 +426,32 @@ $btn_scripty.Add_Click({
     $scripty.TopMost = $true
     $scripty.Width = 400
     $scripty.Height = 400
+    $startupscriptvypis=$json.Script_StartUp
+    $lbl_vypisscriptu = New-Object system.windows.Forms.Label
+    $lbl_vypisscriptu.Text = $startupscriptvypis
+    $lbl_vypisscriptu.AutoSize = $true
+    $lbl_vypisscriptu.Width = 25
+    $lbl_vypisscriptu.Height = 10
+    $lbl_vypisscriptu.location = new-object system.drawing.point(100,200)
+    $lbl_vypisscriptu.Font = "Microsoft Sans Serif,10"
+    $scripty.controls.Add($lbl_vypisscriptu)
+    
+    $lbl_vypisscriptu = New-Object system.windows.Forms.Label
+    $lbl_vypisscriptu.Text =$startupscriptvypis
+    $lbl_vypisscriptu.AutoSize = $true
+    $lbl_vypisscriptu.Width = 25
+    $lbl_vypisscriptu.Height = 10
+    $lbl_vypisscriptu.location = new-object system.drawing.point(100,200)
+    $lbl_vypisscriptu.Font = "Microsoft Sans Serif,10"
+    $scripty.controls.Add($lbl_vypisscriptu)
+
+    
 
 
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
-$btn_scripty.Width = 60
-$btn_scripty.Height = 30
+$btn_scripty.Width = 90
+$btn_scripty.Height = 40
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
@@ -468,8 +492,8 @@ $Form.controls.Add($txtbox_ntsyslog)
 
 $btn_ntsyslog = New-Object system.windows.Forms.Button
 $btn_ntsyslog.Text = "Podrobnosti"
-$btn_ntsyslog.Width = 60
-$btn_ntsyslog.Height = 30
+$btn_ntsyslog.Width = 90
+$btn_ntsyslog.Height = 40
 $btn_ntsyslog.location = new-object system.drawing.point(356,347)
 $btn_ntsyslog.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_ntsyslog)
@@ -488,8 +512,8 @@ $btn_ntsyslog.Add_Click({
 
 $btn_ntsyslog = New-Object system.windows.Forms.Button
 $btn_ntsyslog.Text = "Podrobnosti"
-$btn_ntsyslog.Width = 60
-$btn_ntsyslog.Height = 30
+$btn_ntsyslog.Width = 90
+$btn_ntsyslog.Height = 40
 $btn_ntsyslog.location = new-object system.drawing.point(356,347)
 $btn_ntsyslog.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_ntsyslog)
@@ -898,28 +922,45 @@ $Form.controls.Add($txtbox_scripty)
 
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
-$btn_scripty.Width = 60
-$btn_scripty.Height = 30
+$btn_scripty.Width = 90
+$btn_scripty.Height = 40
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
 $btn_scripty.Add_Click({
     
         $scripty.ShowDialog()
+        
     })
     
-    #Add-Type -AssemblyName System.Windows.Forms
+    $scriptvypis = New-Object system.Windows.Forms.Form
+    $scriptvypis.Text = "Skript vypis"
+    $scriptvypis.TopMost = $true
+    $scriptvypis.Width = 200
+    $scriptvypis.Height = 200
     
-    $scripty = New-Object system.Windows.Forms.Form
-    $scripty.Text = "Scripty"
-    $scripty.TopMost = $true
-    $scripty.Width = 400
-    $scripty.Height = 400
+    $lbl_vypisscriptu = New-Object system.windows.Forms.Label
+    $lbl_vypisscriptu.Text = "text"
+    $lbl_vypisscriptu.AutoSize = $true
+    $lbl_vypisscriptu.Width = 25
+    $lbl_vypisscriptu.Height = 10
+    $lbl_vypisscriptu.location = new-object system.drawing.point(10,20)
+    $lbl_vypisscriptu.Font = "Microsoft Sans Serif,10"
+    $scriptvypis.controls.Add($lbl_vypisscriptu)
+    
+    $lbl_vypisscriptu = New-Object system.windows.Forms.Label
+    $lbl_vypisscriptu.Text = "text"
+    $lbl_vypisscriptu.AutoSize = $true
+    $lbl_vypisscriptu.Width = 25
+    $lbl_vypisscriptu.Height = 10
+    $lbl_vypisscriptu.location = new-object system.drawing.point(10,20)
+    $lbl_vypisscriptu.Font = "Microsoft Sans Serif,10"
+    $scriptvypis.controls.Add($lbl_vypisscriptu)
 
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
-$btn_scripty.Width = 60
-$btn_scripty.Height = 30
+$btn_scripty.Width = 90
+$btn_scripty.Height = 40
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
@@ -961,8 +1002,8 @@ $Form.controls.Add($txtbox_ntsyslog)
 
 $btn_ntsyslog = New-Object system.windows.Forms.Button
 $btn_ntsyslog.Text = "Podrobnosti"
-$btn_ntsyslog.Width = 60
-$btn_ntsyslog.Height = 30
+$btn_ntsyslog.Width = 90
+$btn_ntsyslog.Height = 40
 $btn_ntsyslog.location = new-object system.drawing.point(356,347)
 $btn_ntsyslog.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_ntsyslog)
@@ -971,7 +1012,6 @@ $btn_ntsyslog.Add_Click({
         $syslog.ShowDialog()
     })
     
-    #Add-Type -AssemblyName System.Windows.Forms
     
     $syslog = New-Object system.Windows.Forms.Form
     $syslog.Text = "NT syslog"
@@ -981,8 +1021,8 @@ $btn_ntsyslog.Add_Click({
 
 $btn_ntsyslog = New-Object system.windows.Forms.Button
 $btn_ntsyslog.Text = "Podrobnosti"
-$btn_ntsyslog.Width = 60
-$btn_ntsyslog.Height = 30
+$btn_ntsyslog.Width = 90
+$btn_ntsyslog.Height = 40
 $btn_ntsyslog.location = new-object system.drawing.point(356,347)
 $btn_ntsyslog.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_ntsyslog)
@@ -999,7 +1039,6 @@ $btn_napoveda.Add_Click({
         $napoveda.ShowDialog()
     })
     
-    #Add-Type -AssemblyName System.Windows.Forms
     
     $napoveda = New-Object system.Windows.Forms.Form
     $napoveda.Text = "Napoveda"
@@ -1007,8 +1046,6 @@ $btn_napoveda.Add_Click({
     $napoveda.Width = 400
     $napoveda.Height = 400
 
-#[void]$Form.ShowDialog()
-#$Form.Dispose()
 
 [void]$Form.ShowDialog()
 $Form.Dispose()

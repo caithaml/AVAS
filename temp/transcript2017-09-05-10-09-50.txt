@@ -1,0 +1,1242 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170905100950
+Username: DESKTOP-JJRV9GQ\lukas
+RunAs User: DESKTOP-JJRV9GQ\lukas
+Configuration Name: 
+Machine: DESKTOP-JJRV9GQ (Microsoft Windows NT 10.0.16251.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\logs\1504597425-30afa81e-98d4-47c2-9cb1-c8dbcac338fa1504595923016\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.1\sessions\PSES-VSCode-3456-472610' -FeatureFlags @()
+Process ID: 5648
+PSVersion: 5.1.16251.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16251.1000
+BuildVersion: 10.0.16251.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-05-10-09-50.txt
+09/05/2017 10:09:51 - Nacitam GUI
+09/05/2017 10:09:51 - Nacitani json konfiguracniho souboru
+09/05/2017 10:09:59 - Dokonce nacitani json konfiguracniho souboru
+09/05/2017 10:09:59 Probiha nacitani GUI
+09/05/2017 10:10:10 GUI bylo nacteno
+09/05/2017 10:10:10 txtbox_operacnisystem - nacitani
+09/05/2017 10:10:10 txtbox_operacnisystem - nacten
+09/05/2017 10:10:10 txtbox_nazevstanice - nacitani
+09/05/2017 10:10:10 txtbox_nazevstanice - nacten
+PS>TerminatingError(Write-Host): "A positional parameter cannot be found that accepts argument 'Â¨'."
+Write-Host : A positional parameter cannot be found that accepts argument 'Â¨'.
+At C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp\avas-LuKa.ps1:1035 char:1
++ Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne - nacitan ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Host], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.WriteHostCommand
+Write-Host : A positional parameter cannot be found that accepts argument 'Â¨'.
+At C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp\avas-LuKa.ps1:1035 char:1
++ Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne - nacitan ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Host], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.WriteHostCommand
+
+09/05/2017 10:10:11 txtbox_aktivaceprovedenadne - nacten
+09/05/2017 10:10:11 txtbox_nazevsite - nacitani
+09/05/2017 10:10:11 txtbox_nazevsite - nacten
+09/05/2017 10:10:12 txtbox_tester - nacitani
+09/05/2017 10:10:12 txtbox_tester - nacten
+09/05/2017 10:10:12 txtbox_nazevuzivatele - nacitani
+09/05/2017 10:10:12 txtbox_nazevuzivatele - nacten
+09/05/2017 10:10:12 txtbox_kancelar - nacitani
+09/05/2017 10:10:13 txtbox_kancelar - nacten
+09/05/2017 10:10:13 txtbox_cislozasuvky - nacitani
+09/05/2017 10:10:13 txtbox_cislozasuvky - nacten
+09/05/2017 10:10:13 txtbox_seriovecislo - nacitani
+09/05/2017 10:10:13 txtbox_seriovecislo - nacten
+09/05/2017 10:10:13 txtbox_integritadatovehosouboru - nacitani
+09/05/2017 10:10:13 txtbox_integritadatovehosouboru - nacten
+09/05/2017 10:10:13 txtbox_prostredi - nacitani
+09/05/2017 10:10:13 txtbox_prostredi - nacten
+09/05/2017 10:10:13 txtbox_stavantiviru - nacitani
+09/05/2017 10:10:13 txtbox_stavantiviru - nacten
+09/05/2017 10:10:13 txtbox_scripty - nacitani
+09/05/2017 10:10:13 txtbox_scripty - nacten
+09/05/2017 10:10:13 txtbox_ntsyslog - nacitani
+09/05/2017 10:10:13 txtbox_ntsyslog - nacten
+09/05/2017 10:10:13 txtbox_operacnisystem - nacitani
+09/05/2017 10:10:13 txtbox_operacnisystem - nacten
+09/05/2017 10:10:13 txtbox_protect - nacitani
+09/05/2017 10:10:13 txtbox_protect - nacten
+09/05/2017 10:10:13 txtbox_logy - nacitani
+09/05/2017 10:10:13 txtbox_logy - nacten
+09/05/2017 10:10:13 txtbox_zaplnenidisku - nacitani
+09/05/2017 10:10:13 txtbox_zaplnenidisku - nacten
+09/05/2017 10:10:13 txtbox_aplikacegp - nacitani
+09/05/2017 10:10:13 txtbox_aplikacegp - nacten
+09/05/2017 10:10:13 label_chyboveokno - nacitani
+09/05/2017 10:10:13 label_chyboveokno - nacten
+09/05/2017 10:10:13 nacteni aplikaci - nacitani
+09/05/2017 10:10:14 nacteni aplikaci - nacten
+09/05/2017 10:10:14 Okno aplikace bylo uspesne nacteno
+09/05/2017 10:10:14 Okno aplikace bylo uspesne zavreno
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5648
+computerName                   DESKTOP-JJRV9GQ
+instanceId                     cea8edd6-43a9-4432-ae4b-12dc982a2c9b
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-05-10-11-23.txt
+09/05/2017 10:11:23 - Nacitam GUI
+09/05/2017 10:11:23 - Nacitani json konfiguracniho souboru
+09/05/2017 10:11:31 - Dokonce nacitani json konfiguracniho souboru
+09/05/2017 10:11:31 Probiha nacitani GUI
+09/05/2017 10:11:35 GUI bylo nacteno
+09/05/2017 10:11:36 txtbox_operacnisystem - nacitani
+09/05/2017 10:11:36 txtbox_operacnisystem - nacten
+09/05/2017 10:11:36 txtbox_nazevstanice - nacitani
+09/05/2017 10:11:36 txtbox_nazevstanice - nacten
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> TerminatingError(Write-Host): "A positional parameter cannot be found that accepts argument 'Â¨'."
+Write-Host : A positional parameter cannot be found that accepts argument 'Â¨'.
+At C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp\avas-LuKa.ps1:1029 char:1
++ Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne - nacitan ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Host], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.WriteHostCommand
+Write-Host : A positional parameter cannot be found that accepts argument 'Â¨'.
+At C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp\avas-LuKa.ps1:1029 char:1
++ Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne - nacitan ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Write-Host], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.WriteHostCommand
+
+09/05/2017 10:11:37 txtbox_aktivaceprovedenadne - nacten
+09/05/2017 10:11:37 txtbox_nazevsite - nacitani
+09/05/2017 10:11:37 txtbox_nazevsite - nacten
+09/05/2017 10:11:37 txtbox_tester - nacitani
+09/05/2017 10:11:37 txtbox_tester - nacten
+09/05/2017 10:11:37 txtbox_nazevuzivatele - nacitani
+09/05/2017 10:11:37 txtbox_nazevuzivatele - nacten
+09/05/2017 10:11:37 txtbox_kancelar - nacitani
+09/05/2017 10:11:37 txtbox_kancelar - nacten
+09/05/2017 10:11:37 txtbox_cislozasuvky - nacitani
+09/05/2017 10:11:37 txtbox_cislozasuvky - nacten
+09/05/2017 10:11:37 txtbox_seriovecislo - nacitani
+09/05/2017 10:11:37 txtbox_seriovecislo - nacten
+09/05/2017 10:11:38 txtbox_integritadatovehosouboru - nacitani
+09/05/2017 10:11:38 txtbox_integritadatovehosouboru - nacten
+09/05/2017 10:11:38 txtbox_prostredi - nacitani
+09/05/2017 10:11:38 txtbox_prostredi - nacten
+09/05/2017 10:11:38 txtbox_stavantiviru - nacitani
+09/05/2017 10:11:38 txtbox_stavantiviru - nacten
+09/05/2017 10:11:38 txtbox_scripty - nacitani
+09/05/2017 10:11:38 txtbox_scripty - nacten
+09/05/2017 10:11:38 txtbox_ntsyslog - nacitani
+09/05/2017 10:11:38 txtbox_ntsyslog - nacten
+09/05/2017 10:11:38 txtbox_operacnisystem - nacitani
+09/05/2017 10:11:38 txtbox_operacnisystem - nacten
+09/05/2017 10:11:38 txtbox_protect - nacitani
+09/05/2017 10:11:38 txtbox_protect - nacten
+09/05/2017 10:11:38 txtbox_logy - nacitani
+09/05/2017 10:11:38 txtbox_logy - nacten
+09/05/2017 10:11:38 txtbox_zaplnenidisku - nacitani
+09/05/2017 10:11:38 txtbox_zaplnenidisku - nacten
+09/05/2017 10:11:38 txtbox_aplikacegp - nacitani
+09/05/2017 10:11:38 txtbox_aplikacegp - nacten
+09/05/2017 10:11:38 label_chyboveokno - nacitani
+09/05/2017 10:11:38 label_chyboveokno - nacten
+09/05/2017 10:11:38 nacteni aplikaci - nacitani
+09/05/2017 10:11:38 nacteni aplikaci - nacten
+09/05/2017 10:11:38 Okno aplikace bylo uspesne nacteno
+09/05/2017 10:11:38 Okno aplikace bylo uspesne zavreno
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5648
+computerName                   DESKTOP-JJRV9GQ
+instanceId                     cea8edd6-43a9-4432-ae4b-12dc982a2c9b
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Type"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Type                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Type"
+
+NAME
+    Add-Type
+
+SYNTAX
+    Add-Type [-TypeDefinition] <string> [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-Language {CSharp | CSharpVersion3 | CSharpVersion2
+     | VisualBasic | JScript}] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | ConsoleApplication | WindowsApplication}] [-PassThru] [
+    -IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type [-Name] <string> [-MemberDefinition] <string[]> [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-Namespace <string>] [-UsingNa
+    mespace <string[]>] [-Language {CSharp | CSharpVersion3 | CSharpVersion2 | VisualBasic | JScript}] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-Outpu
+    tType {Library | ConsoleApplication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type [-Path] <string[]> [-CompilerParameters <CompilerParameters>] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | ConsoleAppl
+    ication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type -LiteralPath <string[]> [-CompilerParameters <CompilerParameters>] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | Consol
+    eApplication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type -AssemblyName <string[]> [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Add-Type -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135195.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="txtbox_scriptvypis.Text=$json.Script_StartUp"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="txtbox_scriptvypis.Text=$json.Script_StartUp"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="txtbox_scriptvypis.Text=$json.Script_StartUp"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="txtbox_scriptvypis.Text=$json.Script_StartUp"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="txtbox_scriptvypis.Text=$json.Script_StartUp"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="txtbox_scriptvypis.Text=$json.Script_StartUp"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="$"
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="tee"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           tee -> Tee-Object
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Type"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Type                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Type"
+
+NAME
+    Add-Type
+
+SYNTAX
+    Add-Type [-TypeDefinition] <string> [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-Language {CSharp | CSharpVersion3 | CSharpVersion2
+     | VisualBasic | JScript}] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | ConsoleApplication | WindowsApplication}] [-PassThru] [
+    -IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type [-Name] <string> [-MemberDefinition] <string[]> [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-Namespace <string>] [-UsingNa
+    mespace <string[]>] [-Language {CSharp | CSharpVersion3 | CSharpVersion2 | VisualBasic | JScript}] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-Outpu
+    tType {Library | ConsoleApplication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type [-Path] <string[]> [-CompilerParameters <CompilerParameters>] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | ConsoleAppl
+    ication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type -LiteralPath <string[]> [-CompilerParameters <CompilerParameters>] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | Consol
+    eApplication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type -AssemblyName <string[]> [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Add-Type -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135195.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Type"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Type                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Type"
+
+NAME
+    Add-Type
+
+SYNTAX
+    Add-Type [-TypeDefinition] <string> [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-Language {CSharp | CSharpVersion3 | CSharpVersion2
+     | VisualBasic | JScript}] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | ConsoleApplication | WindowsApplication}] [-PassThru] [
+    -IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type [-Name] <string> [-MemberDefinition] <string[]> [-CodeDomProvider <CodeDomProvider>] [-CompilerParameters <CompilerParameters>] [-Namespace <string>] [-UsingNa
+    mespace <string[]>] [-Language {CSharp | CSharpVersion3 | CSharpVersion2 | VisualBasic | JScript}] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-Outpu
+    tType {Library | ConsoleApplication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type [-Path] <string[]> [-CompilerParameters <CompilerParameters>] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | ConsoleAppl
+    ication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type -LiteralPath <string[]> [-CompilerParameters <CompilerParameters>] [-ReferencedAssemblies <string[]>] [-OutputAssembly <string>] [-OutputType {Library | Consol
+    eApplication | WindowsApplication}] [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+    Add-Type -AssemblyName <string[]> [-PassThru] [-IgnoreWarnings]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Add-Type -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135195.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Start-Transcript"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Start-Transcript                                   3.0.0.0    Microsoft.PowerShell.Host
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Start-Transcript"
+
+NAME
+    Start-Transcript
+
+SYNTAX
+    Start-Transcript [[-Path] <string>] [-Append] [-Force] [-NoClobber] [-IncludeInvocationHeader] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Start-Transcript [[-LiteralPath] <string>] [-Append] [-Force] [-NoClobber] [-IncludeInvocationHeader] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Start-Transcript [[-OutputDirectory] <string>] [-Append] [-Force] [-NoClobber] [-IncludeInvocationHeader] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Start-Transcript -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113408.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="gc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           gc -> Get-Content
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Write-Host"
+
+NAME
+    Write-Host
+
+SYNTAX
+    Write-Host [[-Object] <Object>] [-NoNewline] [-Separator <Object>] [-ForegroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gra
+    y | DarkGray | Blue | Green | Cyan | Red | Magenta | Yellow | White}] [-BackgroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow |
+    Gray | DarkGray | Blue | Green | Cyan | Red | Magenta | Yellow | White}]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Write-Host -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113426.
+
+
+
