@@ -1,0 +1,40 @@
+otevření nového okna:
+
+using assembly PresentationFramework
+
+$outer = New-Object System.Windows.Window
+$button = New-Object System.Windows.Controls.Button
+$outer.Content = $button
+
+$button.Content = 'Name'
+$button.Add_Click( {
+    param (
+        $sender,
+        $eventArgs
+    )
+
+    $inner.ShowDialog()
+} )
+
+$inner = New-Object System.Windows.Window
+$inner.Content = 'New'
+
+$outer.ShowDialog()
+
+
+$btn_napoveda = New-Object system.windows.Forms.Button
+$btn_napoveda.Text = "Napoveda"
+$btn_napoveda.Width = 60
+$btn_napoveda.Height = 30
+$btn_napoveda.Add_Click({
+
+    $napoveda.ShowDialog()
+})
+
+#Add-Type -AssemblyName System.Windows.Forms
+
+$napoveda = New-Object system.Windows.Forms.Form
+$napoveda.Text = "Form"
+$napoveda.TopMost = $true
+$napoveda.Width = 200
+$napoveda.Height = 200

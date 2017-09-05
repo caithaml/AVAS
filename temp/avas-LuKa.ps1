@@ -903,6 +903,18 @@ $btn_scripty.Height = 30
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
+$btn_scripty.Add_Click({
+    
+        $scripty.ShowDialog()
+    })
+    
+    #Add-Type -AssemblyName System.Windows.Forms
+    
+    $scripty = New-Object system.Windows.Forms.Form
+    $scripty.Text = "Scripty"
+    $scripty.TopMost = $true
+    $scripty.Width = 400
+    $scripty.Height = 400
 
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
@@ -911,6 +923,7 @@ $btn_scripty.Height = 30
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
+
 
 $lbl_ntsyslog = New-Object system.windows.Forms.Label
 $lbl_ntsyslog.Text = "NT syslog"
@@ -953,6 +966,18 @@ $btn_ntsyslog.Height = 30
 $btn_ntsyslog.location = new-object system.drawing.point(356,347)
 $btn_ntsyslog.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_ntsyslog)
+$btn_ntsyslog.Add_Click({
+    
+        $syslog.ShowDialog()
+    })
+    
+    #Add-Type -AssemblyName System.Windows.Forms
+    
+    $syslog = New-Object system.Windows.Forms.Form
+    $syslog.Text = "NT syslog"
+    $syslog.TopMost = $true
+    $syslog.Width = 400
+    $syslog.Height = 400
 
 $btn_ntsyslog = New-Object system.windows.Forms.Button
 $btn_ntsyslog.Text = "Podrobnosti"
@@ -982,8 +1007,8 @@ $btn_napoveda.Add_Click({
     $napoveda.Width = 400
     $napoveda.Height = 400
 
-[void]$Form.ShowDialog()
-$Form.Dispose()
+#[void]$Form.ShowDialog()
+#$Form.Dispose()
 
 [void]$Form.ShowDialog()
 $Form.Dispose()
