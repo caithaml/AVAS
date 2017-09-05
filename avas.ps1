@@ -1,4 +1,10 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+$json=gc C:\SICZ\hash.json | ConvertFrom-Json
+
+Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
+
 
 Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 #overeni ze je uzivatel administrator
@@ -17,10 +23,6 @@ Write-Host -Object "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skr
 Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
 
-#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
-$json=gc C:\SICZ\hash.json | ConvertFrom-Json
-Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 #==============================================================================================
 # GUI
 #==============================================================================================
@@ -435,8 +437,6 @@ $btn_scripty.Add_Click({
         $scripty.ShowDialog()
     })
     
-    #Add-Type -AssemblyName System.Windows.Forms
-    
     $scripty = New-Object system.Windows.Forms.Form
     $scripty.Text = "Scripty"
     $scripty.TopMost = $true
@@ -518,7 +518,6 @@ $btn_ntsyslog.Add_Click({
         $ntsyslog.ShowDialog()
     })
     
-    #Add-Type -AssemblyName System.Windows.Forms
     
     $ntsyslog = New-Object system.Windows.Forms.Form
     $ntsyslog.Text = "NT syslog"
@@ -944,9 +943,7 @@ $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
 $btn_scripty.Add_Click({
-    
         $scripty.ShowDialog()
-        
     })
     
     $scripty = New-Object system.Windows.Forms.Form
@@ -961,8 +958,6 @@ $btn_scripty.Add_Click({
     $Label.Text =$json.OS
     $scripty.Controls.Add($Label)
     
-   
-
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
 $btn_scripty.Width = 90
@@ -970,7 +965,6 @@ $btn_scripty.Height = 40
 $btn_scripty.location = new-object system.drawing.point(355,288)
 $btn_scripty.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_scripty)
-
 
 $lbl_ntsyslog = New-Object system.windows.Forms.Label
 $lbl_ntsyslog.Text = "NT syslog"
@@ -1014,10 +1008,8 @@ $btn_ntsyslog.location = new-object system.drawing.point(356,347)
 $btn_ntsyslog.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_ntsyslog)
 $btn_ntsyslog.Add_Click({
-    
         $syslog.ShowDialog()
     })
-    
     
     $syslog = New-Object system.Windows.Forms.Form
     $syslog.Text = "NT syslog"
@@ -1051,7 +1043,6 @@ $btn_napoveda.Add_Click({
         $napoveda.ShowDialog()
     })
     
-    
     $napoveda = New-Object system.Windows.Forms.Form
     $napoveda.Text = "Napoveda"
     $napoveda.TopMost = $true
@@ -1069,125 +1060,6 @@ $Form.Dispose()
 
 Write-Host -Object "$(Get-Date) GUI bylo nacteno"
 
-#####################################################################################
-# Skripty a funkcionality - začátek
-#####################################################################################
-
-
-
-Write-Host -Object "$(Get-Date) txtbox_operacnisystem - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_operacnisystem - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_nazevstanice - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_nazevstanice - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne - nacitani"¨
-
-Write-Host -Object "$(Get-Date) txtbox_aktivaceprovedenadne - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_nazevsite - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_nazevsite - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_tester - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_tester - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_nazevuzivatele - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_nazevuzivatele - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_kancelar - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_kancelar - nacten"
-
-Write-Host -Object "$(Get-Date) txtbox_cislozasuvky - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_cislozasuvky - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_seriovecislo - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_seriovecislo - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_integritadatovehosouboru - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_integritadatovehosouboru - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_prostredi - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_prostredi - nacten"
-
-
-
-Write-Host -Object "$(Get-Date) txtbox_stavantiviru - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_stavantiviru - nacten"
-
-
-
-Write-Host -Object "$(Get-Date) txtbox_scripty - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_scripty - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_ntsyslog - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_ntsyslog - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_operacnisystem - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_operacnisystem - nacten"
-
-Write-Host -Object "$(Get-Date) txtbox_protect - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_protect - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_logy - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_logy - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_zaplnenidisku - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_zaplnenidisku - nacten"
-
-
-Write-Host -Object "$(Get-Date) txtbox_aplikacegp - nacitani"
-
-Write-Host -Object "$(Get-Date) txtbox_aplikacegp - nacten"
-
-
-Write-Host -Object "$(Get-Date) label_chyboveokno - nacitani "
-
-Write-Host -Object "$(Get-Date) label_chyboveokno - nacten"
-
-
-Write-Host -Object "$(Get-Date) nacteni aplikaci - nacitani"
-
-Write-Host -Object "$(Get-Date) nacteni aplikaci - nacten"
-
-
-#####################################################################################
-# Skripty a funkcionality - konec
-#####################################################################################
-
-
-#===========================================================================
-# Zobrazeni formu
-#===========================================================================
 Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne nacteno"
 
 
