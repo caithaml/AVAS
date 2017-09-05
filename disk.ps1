@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\ -Recurse |Out-File "diskC$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
