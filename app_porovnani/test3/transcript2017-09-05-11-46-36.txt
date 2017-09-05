@@ -11492,3 +11492,39 @@ computerName                   DESKTOP-JJRV9GQ
 instanceId                     b7e26e33-790d-4f05-882c-1c271a9eeeed
 
 
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\app_porovnani\test3> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\app_porovnani\test3> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNTAX
+    Out-File [-FilePath] <string> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Force] [-NoClobber
+    ] [-Width <int>] [-NoNewline] [-InputObject <psobject>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] -LiteralPath <string> [-Append] [-Force] [-NoClobbe
+    r] [-Width <int>] [-NoNewline] [-InputObject <psobject>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Out-File -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113363.
+
+
+
