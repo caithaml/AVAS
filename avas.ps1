@@ -461,9 +461,6 @@ $btn_scripty.Add_Click({
     $lbl_vypisscriptu.Font = "Microsoft Sans Serif,10"
     $scripty.controls.Add($lbl_vypisscriptu)
 
-    
-
-
 $btn_scripty = New-Object system.windows.Forms.Button
 $btn_scripty.Text = "Podrobnosti"
 $btn_scripty.Width = 90
