@@ -11,13 +11,13 @@ $aplikacedefault=$defaultjson | select DisplayName, Version, Publisher
 
  
 	
-
 Compare-Object $aplikace $aplikacedefault –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" | 
 Group-Object -Property DisplayName | % { New-Object psobject -Property @{        
     DisplayName=$_.DisplayName
     DisplayVersion=$_.group[0].DisplayVersion
    Publisher=$_.group[0].Publisher    
 }} | Select DisplayName, DisplayVersion, Publisher
+
 
 
 $Diff = ForEach ($line1 in $aplikace)   
