@@ -38,7 +38,7 @@ $Diff = ForEach ($line1 in $aplikace)
                 }
         }                                                
 }
-$Diff | Out-File "micavysledek$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+
 $Diff | select DisplayName, DisplayVersion, Publisher 
 $Diff | Format-List
-$Diff | Out-File "micavysledek$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$Diff
