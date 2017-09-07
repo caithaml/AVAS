@@ -30,8 +30,9 @@ $porovnej | foreach  {
  $porovnej | 
    select @{l='Hodnota';e={$_.InputObject}},@{l='V souboru';e={$_.SideIndicator}} |
    Out-File $outsouborapp
-$porovnej | Format-List
+$porovnej | Format-List 
   Write-Host "Hotovo"
+
 }
 
 porovnejapp

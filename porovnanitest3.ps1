@@ -28,10 +28,33 @@ $porovnej | foreach  {
      }
 
  $porovnej | 
-   select @{l='Hodnota';e={$_.InputObject}},@{l='V souboru';e={$_.SideIndicator}} |
-   Out-File $outsouborapp
-$porovnej | Format-List
+ select @{l='Hodnota';e={$_.InputObject}},@{l='V souboru';e={$_.SideIndicator}} 
+ $porovnej | Format-List
+
+ if($_.InputObject -match $pattern)
+ {
+     if($_.SideIndicator -ne "==")
+     {
+         if($_.SideIndicator -eq "=>")
+         {
+             $lineOperation = "added"
+         }
+         elseif($_.SideIndicator -eq "<=")
+         {
+             $lineOperation = "deleted"
+         }
+            
+         [PSCustomObject] @{
+             Line = $lineNumber
+             Operation =< span style="color: "> $lineOperation
+             Text = $_.InputObject 
+         }
+     }
+ }
+} 
+
   Write-Host "Hotovo"
+
 }
 
 porovnejapp

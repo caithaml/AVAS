@@ -8,8 +8,8 @@ $default = Read-Host "Soubor app"
 $outsouborapp = Read-Host "Kam ulozit"
 
 Try{
-    $prvni = Get-Content $souborapp
-    $druhy = Get-Content $default
+    $prvni = Get-Content -Raw $souborapp
+    $druhy = Get-Content -Raw $default
 } 
 Catch{
     Write-Host "neplatna cesta nebo neexistujici soubor "    
@@ -31,7 +31,9 @@ $porovnej | foreach  {
    select @{l='Hodnota';e={$_.InputObject}},@{l='V souboru';e={$_.SideIndicator}} |
    Out-File $outsouborapp
 $porovnej | Format-List
+
   Write-Host "Hotovo"
+
 }
 
 porovnejapp
