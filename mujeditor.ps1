@@ -1,81 +1,66 @@
-Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
-
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
  
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 function mouseDown { 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $Global:mCurFirstX = ([System.Windows.Forms.Cursor]::Position.X ) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $Global:mCurFirstY = ([System.Windows.Forms.Cursor]::Position.Y ) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"function mouseMove ($mControlName) { 
  
-    $mCurMoveX = ([System.Windows.Forms.Cursor]::Position.X )
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin" 
+function mouseMove ($mControlName) { 
+ 
+    $mCurMoveX = ([System.Windows.Forms.Cursor]::Position.X ) 
     $mCurMoveY = ([System.Windows.Forms.Cursor]::Position.Y ) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
  
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     if ($Global:mCurFirstX -ne 0 -and $Global:mCurFirstY -ne 0){ 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+      
         $mDifX = $Global:mCurFirstX - $mCurMoveX  
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
         $mDifY = $Global:mCurFirstY - $mCurMoveY  
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+          
         $this.Left = $this.Left - $mDifX 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
         $this.Top = $this.Top - $mDifY  
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
         $Global:mCurFirstX = $mCurMoveX  
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
         $Global:mCurFirstY = $mCurMoveY  
  
     } 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
  
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 function mouseUP ($mControlObj) { 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $mCurUpX = ([System.Windows.Forms.Cursor]::Position.X ) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $mCurUpY = ([System.Windows.Forms.Cursor]::Position.Y ) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $Global:mCurFirstX = 0 
-
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $Global:mCurFirstY = 0 
  
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     Foreach ($mElement In $Global:mFormObj.Elements){ 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
         if ($mElement.Name -eq $this.name){ 
-            Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
             foreach( $mProp in $mElement.Properties){ 
-                Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+              
                 Switch($mProp.Name){ 
-                    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
                     'Top'{ $mProp.Value = $this.Top} 
                     'Left'{$mProp.Value = $this.Left} 
-                    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
                 } 
             } 
         } 
     } 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+     
     renewGrids 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 Function renewGrids { 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $mList = New-Object System.Collections.ArrayList 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     [array]$mElementsArr = $mFormObj.Elements | select Name,Type 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $mList.AddRange($mElementsArr) 
     $mElemetnsGrid.DataSource =  $mList 
     $mElemetnsGrid.Columns[1].ReadOnly = $true 
@@ -87,24 +72,23 @@ Function renewGrids {
     $mPropertiesGrid.Columns[0].ReadOnly=$true 
  
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 Function DeleteElement { 
  
     $Global:mFormObj.Elements = $mFormObj.Elements | ?{$_.Name -notlike $mFormObj.Elements[$mElemetnsGrid.CurrentRow.Index].Name} 
     renewGrids 
  
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 Function AddProperty ($mName,$mValue){ 
  
     $mPropertyObj = New-Object PSCustomObject 
     $mPropertyObj | Add-Member -Name 'Name' -MemberType NoteProperty -Value $mName 
     $mPropertyObj | Add-Member -Name 'Value' -MemberType NoteProperty -Value $mValue 
     return $mPropertyObj 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 } 
  
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 Function ElementsChanged{ 
  
     $mList2 = New-Object System.Collections.ArrayList 
@@ -113,7 +97,7 @@ Function ElementsChanged{
     $mPropertiesGrid.DataSource = $mList2 
  
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 function ElementsEndEdit { 
  
     $Global:mFormObj.Elements[$mElemetnsGrid.CurrentRow.Index].Name =  $mElemetnsGrid.CurrentCell.FormattedValue 
@@ -123,7 +107,6 @@ function ElementsEndEdit {
  
  
  
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 Function AddElement { 
  
     $mPropertiesArr =@() 
@@ -158,15 +141,15 @@ Function AddElement {
     $Global:mFormObj.Elements += $mElementsObj 
  
     renewGrids 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     repaintForm 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 } 
  
 function AddControl ($mControl) { 
  
     $mReturnControl = $null 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     switch ($mControl.Type){ 
  
         "TextBox"        {$mReturnControl = New-Object System.Windows.Forms.TextBox} 
@@ -187,12 +170,12 @@ function AddControl ($mControl) {
     } 
  
     $mReturnControl.Name = $mControl.Name 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $mSizeX=$null 
     $mSizeY=$null 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     foreach ($mProperty in $mControl.Properties){ 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
         switch ($mProperty.Name){ 
             'Text'  {$mReturnControl.Text=$mProperty.Value} 
             'SizeX' {$mSizeX=$mProperty.Value} 
@@ -204,61 +187,58 @@ function AddControl ($mControl) {
  
  
     } 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $mReturnControl.Size = New-Object System.Drawing.Size($mSizeX,$mSizeY) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $mReturnControl.Add_MouseDown({MouseDown}) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $mReturnControl.Add_MouseMove({MouseMove ($mControl.Name)}) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
     $mReturnControl.Add_MouseUP({MouseUP}) 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     Return $mReturnControl 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 } 
  
 function PropertiesEndEdit{ 
  
     foreach ($mProperty in $Global:mFormObj.Elements[$mElemetnsGrid.CurrentRow.Index].Properties){ 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
         if ($mProperty.Name -eq $mPropertiesGrid.currentrow.Cells[0].FormattedValue){ 
-            Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
             $mProperty.Value = $mPropertiesGrid.currentrow.Cells[1].FormattedValue 
-            Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
         } 
  
     } 
  
     repaintForm 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 } 
  
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 Function repaintForm { 
  
     $mFormGroupBox.Size = New-Object System.Drawing.Size(($mFormObj.SizeX),($mFormObj.SizeY)) 
     $mFormGroupBox.controls.clear() 
  
     Foreach ($mElement in $mFormObj.Elements){ 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
         $mFormGroupBox.controls.add((AddControl $mElement)) 
-        Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     } 
  
 } 
  
 Function EditFormSize ($x,$y){ 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $Global:mFormObj.SizeX = $X 
     $Global:mFormObj.SizeY = $Y 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     repaintForm 
  
 } 
  
  
 function ExportForm { 
-    Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
     $mFormObj  
     $mExportString = " 
     " 
@@ -315,7 +295,7 @@ function ExportForm {
  
     } 
 } 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 Function Get-FileName($initialDirectory)  {        
  
     $SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog 
@@ -326,7 +306,7 @@ Function Get-FileName($initialDirectory)  {
           
 } 
  
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 $mForm = New-Object System.Windows.Forms.Form 
 $mForm.AutoSize = $true 
 $mForm.Text='FormsMaker' 
@@ -350,7 +330,7 @@ $mControlType.Items.Add("RichTextBox")
 $mControlType.Items.Add("TreeView") 
 $mControlType.Items.Add("WebBrowser") 
 $mForm.Controls.Add($mControlType) 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 $mAddButton = New-Object System.Windows.Forms.Button 
 $mAddButton.Anchor = 'Left,Top' 
 $mAddButton.Text = 'Add' 
@@ -359,7 +339,7 @@ $mAddButton.Top = 5
 $mAddButton.Size = New-Object System.Drawing.Size(50,23) 
 $mAddButton.Add_Click({AddElement}) 
 $mForm.Controls.Add($mAddButton) 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 $mFormLabel = New-Object System.Windows.Forms.Label 
 $mFormLabel.Text = 'Form Size:' 
 $mFormLabel.Top = 5 
@@ -368,7 +348,7 @@ $mFormLabel.Anchor = 'Left,Top'
 $mFormLabel.Size = New-Object System.Drawing.Size(80,23) 
 $mFormLabel.TextAlign='MiddleRight' 
 $mForm.Controls.Add($mFormLabel) 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 $mFormXTextBox = New-Object System.Windows.Forms.TextBox 
 $mFormXTextBox.left = 250 
 $mFormXTextBox.top = 5 
@@ -376,7 +356,7 @@ $mFormXTextBox.Size = New-Object System.Drawing.Size(30,23)
 $mFormXTextBox.Anchor = 'Left,Top' 
 $mFormXTextBox.Text=300 
 $mForm.Controls.Add($mFormXTextBox) 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 $mFormXLabel = New-Object System.Windows.Forms.Label 
 $mFormXLabel.Text = 'X' 
 $mFormXLabel.Top = 5 
@@ -386,7 +366,7 @@ $mFormXLabel.Size = New-Object System.Drawing.Size(20,23)
 $mFormXLabel.TextAlign='MiddleCenter' 
 $mFormXTextBox.Add_TextChanged({EditFormSize $mFormXTextBox.Text $mFormYTextBox.Text }) 
 $mForm.Controls.Add($mFormXLabel) 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+ 
 $mFormYTextBox = New-Object System.Windows.Forms.TextBox 
 $mFormYTextBox.left = 300 
 $mFormYTextBox.top = 5 
