@@ -1,7 +1,7 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
-$json=gc C:\SICZ\hash.json | ConvertFrom-Json
+$json=gc C:\SICZ\hash_mica.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
@@ -36,7 +36,7 @@ $Form.Width = 1024
 $Form.Height = 800
 
 $lbl_nazevstanice = New-Object system.windows.Forms.Label
-$lbl_nazevstanice.Text = "Nazev stanice"
+$lbl_nazevstanice.Text = "Nazev stanice $json.ComputerName"
 $lbl_nazevstanice.AutoSize = $true
 $lbl_nazevstanice.Width = 25
 $lbl_nazevstanice.Height = 10
@@ -45,7 +45,7 @@ $lbl_nazevstanice.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($lbl_nazevstanice)
 
 $lbl_nazevstanice = New-Object system.windows.Forms.Label
-$lbl_nazevstanice.Text = "Nazev stanice"
+$lbl_nazevstanice.Text = "Nazev stanice $json.ComputerName"
 $lbl_nazevstanice.AutoSize = $true
 $lbl_nazevstanice.Width = 25
 $lbl_nazevstanice.Height = 10
@@ -186,6 +186,7 @@ $txtbox_jmenouzivatele.Width = 150
 $txtbox_jmenouzivatele.Height = 40
 $txtbox_jmenouzivatele.location = new-object system.drawing.point(534,22)
 $txtbox_jmenouzivatele.Font = "Microsoft Sans Serif,10"
+$txtbox_jmenouzivatele.Text=$json.Last_User
 $Form.controls.Add($txtbox_jmenouzivatele)
 
 $txtbox_jmenouzivatele = New-Object system.windows.Forms.TextBox

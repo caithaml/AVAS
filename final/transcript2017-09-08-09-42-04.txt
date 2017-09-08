@@ -1,0 +1,33 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170908094204
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16281.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\avas\final\gui_info.ps1'
+Process ID: 4784
+PSVersion: 5.1.16281.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16281.1000
+BuildVersion: 10.0.16281.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-08-09-42-04.txt
+09/08/2017 09:42:04 - Nacitani json konfiguracniho souboru
+09/08/2017 09:42:08 - Dokonce nacitani json konfiguracniho souboru
+09/08/2017 09:42:08 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
+09/08/2017 09:42:08 - ukonceno zjistovani zda je uzivatel admin
+09/08/2017 09:42:08 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/08/2017 09:42:08 - Nacitam GUI
+09/08/2017 09:42:08 Probiha nacitani GUI
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20170908094212
+**********************
