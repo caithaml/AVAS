@@ -2,8 +2,8 @@ Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 
 $json=Get-Content hash_mica.json | ConvertFrom-Json
 
-$aplikace=$json.Processes
-$aplikace | select processname
+$aplikace=$json.Processes | select processname
+#$aplikace | select processname
 
 $defaultjson=Get-Content C:\SICZ\procesy_default.json | ConvertFrom-Json
 $aplikacedefault=$defaultjson | select processname
