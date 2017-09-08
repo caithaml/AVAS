@@ -104,3 +104,67 @@ REMARKS
 
 
 
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+

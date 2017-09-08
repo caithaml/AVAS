@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20170908132730
+Start time: 20170908132921
 Username: DESKTOP-V056PHL\lukas
 RunAs User: DESKTOP-V056PHL\lukas
 Configuration Name: 
@@ -16,54 +16,6 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is ./transcript2017-09-08-01-27-30.txt
-09/08/2017 13:27:30 - Nacitani json konfiguracniho souboru
-09/08/2017 13:27:34 - Dokonce nacitani json konfiguracniho souboru
-09/08/2017 13:27:34 - zjisteni zda je uzivatel admin
-WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
-09/08/2017 13:27:34 - ukonceno zjistovani zda je uzivatel admin
-09/08/2017 13:27:34 - uzivatel je admin pokracuje dalsi spusteni skriptu
-09/08/2017 13:27:34 - Nacitam GUI
-09/08/2017 13:27:34 Probiha nacitani GUI
-09/08/2017 13:27:59 GUI bylo nacteno
-09/08/2017 13:27:59 Okno aplikace bylo uspesne nacteno
-09/08/2017 13:27:59 Okno aplikace bylo uspesne zavreno
-PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      12128
-computerName                   DESKTOP-V056PHL
-instanceId                     24d2e454-debb-409c-bbab-ff46a0fdd3e4
-
-
-PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
-Transcript started, output file is ./transcript2017-09-08-01-28-05.txt
-09/08/2017 13:28:05 - Nacitani json konfiguracniho souboru
-09/08/2017 13:28:08 - Dokonce nacitani json konfiguracniho souboru
-09/08/2017 13:28:08 - zjisteni zda je uzivatel admin
-WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
-09/08/2017 13:28:08 - ukonceno zjistovani zda je uzivatel admin
-09/08/2017 13:28:08 - uzivatel je admin pokracuje dalsi spusteni skriptu
-09/08/2017 13:28:08 - Nacitam GUI
-09/08/2017 13:28:08 Probiha nacitani GUI
-09/08/2017 13:28:57 GUI bylo nacteno
-09/08/2017 13:28:57 Okno aplikace bylo uspesne nacteno
-09/08/2017 13:28:57 Okno aplikace bylo uspesne zavreno
-PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      12128
-computerName                   DESKTOP-V056PHL
-instanceId                     24d2e454-debb-409c-bbab-ff46a0fdd3e4
-
-
-PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
 Transcript started, output file is ./transcript2017-09-08-01-29-21.txt
 09/08/2017 13:29:21 - Nacitani json konfiguracniho souboru
 09/08/2017 13:29:25 - Dokonce nacitani json konfiguracniho souboru
@@ -125,6 +77,70 @@ REMARKS
         -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
         -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
            go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
 
 
 
