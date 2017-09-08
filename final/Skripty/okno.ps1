@@ -458,7 +458,7 @@ $btn_scripty.Add_Click({
     $Label.Location = New-Object System.Drawing.Size(5,5)
     $Label.Size = New-Object System.Drawing.size(375,90)
     $Label.Font = New-Object System.Drawing.Font("Times New Roman",15,[System.Drawing.FontStyle]::Italic)
-    $Label.Text ="vypis scriptu"
+    $Label.Text = $json.Logs_Application | Out-String | ConvertFrom-Json
     $scripty.Controls.Add($Label)
     
 $btn_scripty = New-Object system.windows.Forms.Button
@@ -557,6 +557,9 @@ $btn_napoveda.Add_Click({
     $Label.Font = New-Object System.Drawing.Font("Times New Roman",15,[System.Drawing.FontStyle]::Italic)
     $Label.Text = "Tady ma byt nejaka strasne chytra napoveda"
     $napoveda.Controls.Add($Label)
+
+
+   
 [void]$Form.ShowDialog()
 $Form.Dispose()
 

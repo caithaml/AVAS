@@ -8,9 +8,6 @@ $aplikace
 $defaultjson=Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
 $aplikacedefault=$defaultjson | select DisplayName, Version, Publisher
 
-
- 
-	
 Compare-Object $aplikace $aplikacedefault –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" | 
 Group-Object -Property DisplayName | % { New-Object psobject -Property @{        
     DisplayName=$_.DisplayName

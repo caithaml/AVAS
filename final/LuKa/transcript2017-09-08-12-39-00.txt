@@ -1,0 +1,2884 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170908123900
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16281.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.2' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\logs\1504861354-dd961e7f-5520-4f10-a8de-6d4f817f461e1504861349061\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\sessions\PSES-VSCode-11944-752647' -FeatureFlags @()
+Process ID: 11608
+PSVersion: 5.1.16281.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16281.1000
+BuildVersion: 10.0.16281.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-08-12-39-00.txt
+PS C:\avas\final\LuKa> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS C:\avas\final\LuKa> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas\final\LuKa> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS C:\avas\final\LuKa> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Object"
+
+NAME
+    Compare-Object
+
+SYNTAX
+    Compare-Object [-ReferenceObject] <psobject[]> [-DifferenceObject] <psobject[]> [-SyncWindow <int>] [-Property <Object[]>] [-ExcludeDifferent] [-IncludeEqual] [-Pas
+    sThru] [-Culture <string>] [-CaseSensitive]  [<CommonParameters>]
+
+
+ALIASES
+    compare
+    diff
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Compare-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113286.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas\final\LuKa> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas\final\LuKa> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$app= $mica(Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json)
+$app2 = $mica(Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json )
+
+Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" |
+At line:2 char:12
++ $app= $mica(Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json)
++            ~
+Unexpected token '(' in expression or statement.
+
+At line:3 char:14
++ $app2 = $mica(Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json )
++              ~
+Unexpected token '(' in expression or statement.
+
+At line:5 char:111
++ ... ayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" |
++                                                                          ~
+An empty pipe element is not allowed.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$app= $mica(Get-Content C:\SICZ\hash_mica.json )| ConvertFrom-Json
+$app2 = $mica(Get-Content C:\SICZ\hash_luka.json  )| ConvertFrom-Json
+
+Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" |
+At line:2 char:12
++ $app= $mica(Get-Content C:\SICZ\hash_mica.json )| ConvertFrom-Json
++            ~
+Unexpected token '(' in expression or statement.
+
+At line:3 char:14
++ $app2 = $mica(Get-Content C:\SICZ\hash_luka.json  )| ConvertFrom-Json
++              ~
+Unexpected token '(' in expression or statement.
+
+At line:5 char:111
++ ... ayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" |
++                                                                          ~
+An empty pipe element is not allowed.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$app= $mica(Get-Content C:\SICZ\hash_mica.json )| ConvertFrom-Json
+$app2 = $mica(Get-Content C:\SICZ\hash_luka.json  )| ConvertFrom-Json
+
+Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>" |
+At line:2 char:12
++ $app= $mica(Get-Content C:\SICZ\hash_mica.json )| ConvertFrom-Json
++            ~
+Unexpected token '(' in expression or statement.
+
+At line:3 char:14
++ $app2 = $mica(Get-Content C:\SICZ\hash_luka.json  )| ConvertFrom-Json
++              ~
+Unexpected token '(' in expression or statement.
+
+At line:5 char:62
++ Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>" |
++                                                              ~
+An empty pipe element is not allowed.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$app= $mica(Get-Content C:\SICZ\hash_mica.json )| ConvertFrom-Json
+$app2 = $mica(Get-Content C:\SICZ\hash_luka.json  )| ConvertFrom-Json
+
+Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>"
+At line:2 char:12
++ $app= $mica(Get-Content C:\SICZ\hash_mica.json )| ConvertFrom-Json
++            ~
+Unexpected token '(' in expression or statement.
+
+At line:3 char:14
++ $app2 = $mica(Get-Content C:\SICZ\hash_luka.json  )| ConvertFrom-Json
++              ~
+Unexpected token '(' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$app= $mica Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
+$app2 = $mica Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
+
+Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>"
+At line:2 char:13
++ $app= $mica Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
++             ~~~~~~~~~~~
+Unexpected token 'Get-Content' in expression or statement.
+
+At line:3 char:15
++ $app2 = $mica Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
++               ~~~~~~~~~~~
+Unexpected token 'Get-Content' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-08-12-43-42.txt
+
+PS C:\avas> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+DisplayName                                                                   Version   Publisher
+-----------                                                                   -------   ---------
+7-Zip 16.02 (x64)                                                                       Igor Pavlov
+
+
+Git version 2.12.0                                                                      The Git Development Community
+Logitech Unifying Software 2.10                                                         Logitech
+Microsoft Visual J# 2.0 Redistributable Package - SE (x64)                              Microsoft Corporation
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)                             Microsoft Corporation
+NTLite v1.2.0.4400                                                                      Nlitesoft
+Microsoft Office Professional Plus 2013                                                 Microsoft Corporation
+Microsoft Office Professional Plus 2016                                                 Microsoft Corporation
+Microsoft Visio Standard 2016                                                           Microsoft Corporation
+Dell SupportAssist                                                                      Dell
+Intel(R) Network Connections 21.0.504.0                                       352321536 Intel
+Sandboxie 5.20 (64-bit)                                                                 Sandboxie Holdings, LLC
+Speccy                                                                                  Piriform
+Total Commander 64-bit (Remove or Repair)                                     151062272 Ghisler Software GmbH
+Dell App Launcher for Unifying Software                                                 Logitech
+
+Intel(R) ME UninstallLegacy                                                   16777217  Intel Corporation
+Canon MG6100 series MP Drivers                                                          Canon Inc.
+64 Bit HP CIO Components Installer                                            352452609 HP Inc.
+Intel(R) Chipset Device Software                                              167837697 Intel Corporation
+TortoiseSVN 1.9.5.27581 (64 bit)                                              17394621  TortoiseSVN
+Intel(R) Management Engine Components                                         16777216  Intel Corporation
+Intel(R) Management Engine Components                                                   Intel Corporation
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219                   167812379 Microsoft Corporation
+Windows SDK for Windows Store Apps DirectX x64 Remote                         167848282 Microsoft Corporation
+TortoiseGit 2.5.0.0 (64 bit)                                                  33882112  TortoiseGit
+Microsoft Virtual Machine Converter                                           50397184  Microsoft Corporation
+Intel® PROSet/Wireless WiFi Software                                          304611328 Intel Corporation
+Veeam Agent for Microsoft Windows                                             33554432  Veeam Software AG
+Intel(R) Network Connections 21.0.504.0                                       352321536 Intel
+Intel(R) Rapid Storage Technology                                                       Intel Corporation
+Microsoft SQL Server 2012 Management Objects  (x64)                           184617912 Microsoft Corporation
+Universal CRT Tools x64                                                       167848282 Microsoft Corporation
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148                151025673 Microsoft Corporation
+Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.24215                    234905239 Microsoft Corporation
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161                151025673 Microsoft Corporation
+Windows SDK DirectX x64 Remote                                                167848282 Microsoft Corporation
+Microsoft Monitoring Agent                                                    134228777 Microsoft Corporation
+AutomatedLab                                                                  67108865  AutomatedLab Team
+Intel® Trusted Connect Service Client                                         19529745  Intel Corporation
+Intel(R) Management Engine Components                                         184549376 Intel Corporation
+Intel(R) PRO/Wireless Driver                                                  304611328 Intel Corporation
+AxCrypt 1.7.3156.0                                                            17239124  Axantum Software AB
+Microsoft Office Professional Plus 2013                                       251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3191872) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3172545) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB3114499) 64-Bit Edition                             Microsoft 
+Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition           Microsoft 
+Update for Microsoft Office 2013 (KB3085565) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3114488) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2760371) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2013 (KB3101503) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB2910941) 64-Bit Edition                    Microsoft 
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114818) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB3039756) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054783) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3101487) 64-Bit Edition                             Microsoft 
+Definition Update for Microsoft Office 2013 (KB3115404) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2013 (KB3039778) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3054856) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3127916) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB3039719) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2013 (KB3023049) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2889863) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039766) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039701) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039795) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition                       Microsoft 
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3023052) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054785) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2899522) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3172443) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3085587) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039750) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3191874) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2013 (KB4011078) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3172523) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3178709) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2013 (KB3054816) 64-Bit Edition                    Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB3114825) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3162051) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB2883095) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2760344) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3055007) 64-Bit Edition                             Microsoft 
+Microsoft Access MUI (Czech) 2013                                             251662809 Microsoft Corporation
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Excel MUI (Czech) 2013                                              251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3191872) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054819) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3162051) 64-Bit Edition                    Microsoft 
+Microsoft PowerPoint MUI (Czech) 2013                                         251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Microsoft Publisher MUI (Czech) 2013                                          251662809 Microsoft Corporation
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Outlook MUI (Czech) 2013                                            251662809 Microsoft Corporation
+Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition           Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2013 (KB4011078) 64-Bit Edition                   Microsoft 
+Microsoft Word MUI (Czech) 2013                                               251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Nástroje kontroly pravopisu pro Microsoft Office 2013 – čeština               251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Korrekturhilfen 2013 - Deutsch                               251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing Tools 2013 - English                                251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Nástroje korektúry balíka Microsoft Office 2013 - slovenčina                  251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing (Czech) 2013                                        251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft InfoPath MUI (Czech) 2013                                           251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Microsoft Office Shared MUI (Czech) 2013                                      251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3203392) 64-Bit Edition                    Microsoft 
+Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition                       Microsoft 
+Update for Microsoft Office 2013 (KB3039750) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Microsoft DCF MUI (Czech) 2013                                                251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft OneNote MUI (Czech) 2013                                            251662809 Microsoft Corporation
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Groove MUI (Czech) 2013                                             251662809 Microsoft Corporation
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office 32-bit Components 2013                                       251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3172545) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Project 2013 (KB4011084) 64-Bit Edition                            Microsoft 
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054785) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Microsoft Office Shared 32-bit MUI (Czech) 2013                               251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office OSM MUI (Czech) 2013                                         251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office OSM UX MUI (Czech) 2013                                      251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Lync MUI (Czech) 2013                                               251662809 Microsoft Corporation
+Security Update for Skype for Business 2015 (KB3191937) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Microsoft Office Professional Plus 2016                                       268439722 Microsoft Corporation
+Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Skype for Business 2016 (KB3213548) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition                  Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2016 (KB3115276) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3191868) 64-Bit Edition                             Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3115081) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2016 (KB3141506) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3114903) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191929) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191920) 64-Bit Edition                             Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3115501) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3191859) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178666) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition                             Microsoft 
+Microsoft Access MUI (Czech) 2016                                             268439722 Microsoft Corporation
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Microsoft Excel MUI (Czech) 2016                                              268439722 Microsoft Corporation
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Office 2016 (KB3191859) 64-Bit Edition                             Microsoft 
+Microsoft PowerPoint MUI (Czech) 2016                                         268439722 Microsoft Corporation
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Microsoft Publisher MUI (Czech) 2016                                          268439722 Microsoft Corporation
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Microsoft Outlook MUI (Czech) 2016                                            268439722 Microsoft Corporation
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Microsoft Word MUI (Czech) 2016                                               268439722 Microsoft Corporation
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Nástroje kontroly pravopisu pro Microsoft Office 2016 – čeština               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Korrekturhilfen 2016 – Deutsch                               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing Tools 2016 - English                                268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Nástroje korektúry balíka Microsoft Office 2016 - slovenčina                  268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing (Czech) 2016                                        268439722 Microsoft Corporation
+Microsoft InfoPath MUI (Czech) 2016                                           268439722 Microsoft Corporation
+Microsoft Visio Standard 2016                                                 268439722 Microsoft Corporation
+Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191920) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115501) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178666) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition                             Microsoft 
+Microsoft Visio MUI (Czech) 2016                                              268439722 Microsoft Corporation
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Microsoft Office Shared MUI (Czech) 2016                                      268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Microsoft DCF MUI (Czech) 2016                                                268439722 Microsoft Corporation
+Microsoft OneNote MUI (Czech) 2016                                            268439722 Microsoft Corporation
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Microsoft Groove MUI (Czech) 2016                                             268439722 Microsoft Corporation
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office 32-bit Components 2016                                       268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Skype for Business 2016 (KB3115408) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Skype for Business 2016 (KB3115408) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office Shared 32-bit MUI (Czech) 2016                               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office OSM MUI (Czech) 2016                                         268439722 Microsoft Corporation
+Microsoft Office OSM UX MUI (Czech) 2016                                      268439722 Microsoft Corporation
+Microsoft Skype for Business MUI (Czech) 2016                                 268439722 Microsoft Corporation
+Update for Skype for Business 2016 (KB3213548) 64-Bit Edition                           Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Microsoft Message Analyzer                                                    67116976  Microsoft Corporation
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)                   167823068 Microsoft Corporation
+Intel(R) Rapid Storage Technology                                             235405313 Intel Corporation
+Microsoft System CLR Types for SQL Server 2012 (x64)                          184617912 Microsoft Corporation
+Dell Touchpad                                                                           ALPS ELECTRIC CO., LTD.
+Intel(R) Management Engine Components                                         16777216  Intel Corporation
+Microsoft Visual J# 2.0 Redistributable Package - SE (x64)                    33605160  Microsoft Corporation
+Microsoft SQL Server 2012 Express LocalDB                                     184752004 Microsoft Corporation
+Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.24215                 234905239 Microsoft Corporation
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas\test_mica_hash> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas\test_mica_hash> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$app= $mica Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
+$app2 = $lukas Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
+
+Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>"
+At line:2 char:13
++ $app= $mica Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
++             ~~~~~~~~~~~
+Unexpected token 'Get-Content' in expression or statement.
+
+At line:3 char:16
++ $app2 = $lukas Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
++                ~~~~~~~~~~~
+Unexpected token 'Get-Content' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="$mica"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="$luka"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$mica = Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
+$luka = Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
+$app= $mica.OS
+$app2 = $luka.OS
+
+Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>"
+Transcript started, output file is ./transcript2017-09-08-12-44-57.txt
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$mica = Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
+$luka = Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
+$app= $mica.BIOS
+$app2 = $luka.BIOS
+
+Compare-Object $app $app2 | Where $_.SideIndicator –eq "=>"
+Transcript started, output file is ./transcript2017-09-08-12-45-32.txt
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$mica = Get-Content C:\SICZ\hash_mica.json | ConvertFrom-Json
+$luka = Get-Content C:\SICZ\hash_luka.json  | ConvertFrom-Json
+$app= $mica
+$app2 = $luka
+
+Compare-Object $app $app2 #| Where $_.SideIndicator –eq "=>"
+Transcript started, output file is ./transcript2017-09-08-12-45-59.txt
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      11608
+computerName                   DESKTOP-V056PHL
+instanceId                     71646db7-335b-4e39-bb31-ba0f766cc97f
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Compare-Json
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Json"
+
+NAME
+    Compare-Json
+
+SYNTAX
+    Compare-Json
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Configuration"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Configuration                                      1.1        PSDesiredStateConfiguration
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Configuration"
+
+NAME
+    Configuration
+
+SYNTAX
+    Configuration [[-ResourceModuleTuplesToImport] <List[Tuple[string[],ModuleSpecification[],version]]>] [[-OutputPath] <Object>] [[-Name] <Object>] [[-Body] <scriptbl
+    ock>] [[-ArgsToBody] <hashtable>] [[-ConfigurationData] <hashtable>] [[-InstanceName] <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Configuration -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=517195.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-Path"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-Path                                       3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-Path"
+
+NAME
+    Convert-Path
+
+SYNTAX
+    Convert-Path [-Path] <string[]> [-UseTransaction]  [<CommonParameters>]
+
+    Convert-Path -LiteralPath <string[]> [-UseTransaction]  [<CommonParameters>]
+
+
+ALIASES
+    cvpa
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-Path -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113289.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-Path"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-Path                                       3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-Path"
+
+NAME
+    Convert-Path
+
+SYNTAX
+    Convert-Path [-Path] <string[]> [-UseTransaction]  [<CommonParameters>]
+
+    Convert-Path -LiteralPath <string[]> [-UseTransaction]  [<CommonParameters>]
+
+
+ALIASES
+    cvpa
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-Path -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113289.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-String"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-String                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-String"
+
+NAME
+    Convert-String
+
+SYNTAX
+    Convert-String -InputObject <string> [-Example <List[psobject]>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-String -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=528577.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-CIPolicy"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-CIPolicy                               1.0        ConfigCI
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-CIPolicy"
+
+NAME
+    ConvertFrom-CIPolicy
+
+SYNTAX
+    ConvertFrom-CIPolicy [-XmlFilePath] <string> [-BinaryFilePath] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Csv                                    3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Csv"
+
+NAME
+    ConvertFrom-Csv
+
+SYNTAX
+    ConvertFrom-Csv [-InputObject] <psobject[]> [[-Delimiter] <char>] [-Header <string[]>]  [<CommonParameters>]
+
+    ConvertFrom-Csv [-InputObject] <psobject[]> -UseCulture [-Header <string[]>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Csv -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135201.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="C:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        C:
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="C:"
+
+NAME
+    C:
+
+SYNTAX
+    C:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="C"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Compare-Json
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Json"
+
+NAME
+    Compare-Json
+
+SYNTAX
+    Compare-Json
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Configuration"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Configuration                                      1.1        PSDesiredStateConfiguration
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Configuration"
+
+NAME
+    Configuration
+
+SYNTAX
+    Configuration [[-ResourceModuleTuplesToImport] <List[Tuple[string[],ModuleSpecification[],version]]>] [[-OutputPath] <Object>] [[-Name] <Object>] [[-Body] <scriptbl
+    ock>] [[-ArgsToBody] <hashtable>] [[-ConfigurationData] <hashtable>] [[-InstanceName] <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Configuration -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=517195.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Confirm-SecureBootUEFI"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Confirm-SecureBootUEFI                             2.0.0.0    SecureBoot
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Confirm-SecureBootUEFI"
+
+NAME
+    Confirm-SecureBootUEFI
+
+SYNTAX
+    Confirm-SecureBootUEFI  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-IscsiTarget"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Connect-IscsiTarget                                1.0.0.0    iSCSI
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-IscsiTarget"
+
+NAME
+    Connect-IscsiTarget
+
+SYNTAX
+    Connect-IscsiTarget -NodeAddress <string> [-TargetPortalAddress <string>] [-TargetPortalPortNumber <uint16>] [-InitiatorPortalAddress <string>] [-IsDataDigest <bool
+    >] [-IsHeaderDigest <bool>] [-IsPersistent <bool>] [-ReportToPnP <bool>] [-AuthenticationType <string>] [-IsMultipathEnabled <bool>] [-InitiatorInstanceName <string
+    >] [-ChapUsername <string>] [-ChapSecret <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob]  [<CommonParameters>]
+
+    Connect-IscsiTarget -InputObject <ciminstance[]> [-TargetPortalAddress <string>] [-TargetPortalPortNumber <uint16>] [-InitiatorPortalAddress <string>] [-IsDataDiges
+    t <bool>] [-IsHeaderDigest <bool>] [-ReportToPnP <bool>] [-AuthenticationType <string>] [-IsMultipathEnabled <bool>] [-InitiatorInstanceName <string>] [-ChapUsernam
+    e <string>] [-ChapSecret <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-PSSession"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Connect-PSSession                                  3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-PSSession"
+
+NAME
+    Connect-PSSession
+
+SYNTAX
+    Connect-PSSession -Name <string[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-Session] <PSSession[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession -ComputerName <string[]> -InstanceId <guid[]> [-ApplicationName <string>] [-ConfigurationName <string>] [-Credential <pscredential>] [-Authenticat
+    ion {Default | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-Port <int>] [-UseSSL] [-Sessi
+    onOption <PSSessionOption>] [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ComputerName] <string[]> [-ApplicationName <string>] [-ConfigurationName <string>] [-Name <string[]>] [-Credential <pscredential>] [-Authenticat
+    ion {Default | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-Port <int>] [-UseSSL] [-Sessi
+    onOption <PSSessionOption>] [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ConnectionUri] <uri[]> [-ConfigurationName <string>] [-AllowRedirection] [-Name <string[]>] [-Credential <pscredential>] [-Authentication {Defau
+    lt | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-SessionOption <PSSessionOption>] [-Thro
+    ttleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ConnectionUri] <uri[]> -InstanceId <guid[]> [-ConfigurationName <string>] [-AllowRedirection] [-Credential <pscredential>] [-Authentication {Def
+    ault | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-SessionOption <PSSessionOption>] [-Th
+    rottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession -InstanceId <guid[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-Id] <int[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    cnsn
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Connect-PSSession -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=210604.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-VirtualDisk"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Connect-VirtualDisk                                2.0.0.0    Storage
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-VirtualDisk"
+
+NAME
+    Connect-VirtualDisk
+
+SYNTAX
+    Connect-VirtualDisk [-FriendlyName] <string[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThru]  [<CommonParamet
+    ers>]
+
+    Connect-VirtualDisk -UniqueId <string[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThru]  [<CommonParameters>]
+
+    Connect-VirtualDisk -Name <string[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThru]  [<CommonParameters>]
+
+    Connect-VirtualDisk -InputObject <CimInstance#MSFT_VirtualDisk[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThr
+    u]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-PSSession"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Connect-PSSession                                  3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-PSSession"
+
+NAME
+    Connect-PSSession
+
+SYNTAX
+    Connect-PSSession -Name <string[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-Session] <PSSession[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession -ComputerName <string[]> -InstanceId <guid[]> [-ApplicationName <string>] [-ConfigurationName <string>] [-Credential <pscredential>] [-Authenticat
+    ion {Default | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-Port <int>] [-UseSSL] [-Sessi
+    onOption <PSSessionOption>] [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ComputerName] <string[]> [-ApplicationName <string>] [-ConfigurationName <string>] [-Name <string[]>] [-Credential <pscredential>] [-Authenticat
+    ion {Default | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-Port <int>] [-UseSSL] [-Sessi
+    onOption <PSSessionOption>] [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ConnectionUri] <uri[]> [-ConfigurationName <string>] [-AllowRedirection] [-Name <string[]>] [-Credential <pscredential>] [-Authentication {Defau
+    lt | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-SessionOption <PSSessionOption>] [-Thro
+    ttleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ConnectionUri] <uri[]> -InstanceId <guid[]> [-ConfigurationName <string>] [-AllowRedirection] [-Credential <pscredential>] [-Authentication {Def
+    ault | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-SessionOption <PSSessionOption>] [-Th
+    rottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession -InstanceId <guid[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-Id] <int[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    cnsn
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Connect-PSSession -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=210604.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-IscsiTarget"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Connect-IscsiTarget                                1.0.0.0    iSCSI
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-IscsiTarget"
+
+NAME
+    Connect-IscsiTarget
+
+SYNTAX
+    Connect-IscsiTarget -NodeAddress <string> [-TargetPortalAddress <string>] [-TargetPortalPortNumber <uint16>] [-InitiatorPortalAddress <string>] [-IsDataDigest <bool
+    >] [-IsHeaderDigest <bool>] [-IsPersistent <bool>] [-ReportToPnP <bool>] [-AuthenticationType <string>] [-IsMultipathEnabled <bool>] [-InitiatorInstanceName <string
+    >] [-ChapUsername <string>] [-ChapSecret <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob]  [<CommonParameters>]
+
+    Connect-IscsiTarget -InputObject <ciminstance[]> [-TargetPortalAddress <string>] [-TargetPortalPortNumber <uint16>] [-InitiatorPortalAddress <string>] [-IsDataDiges
+    t <bool>] [-IsHeaderDigest <bool>] [-ReportToPnP <bool>] [-AuthenticationType <string>] [-IsMultipathEnabled <bool>] [-InitiatorInstanceName <string>] [-ChapUsernam
+    e <string>] [-ChapSecret <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-PSSession"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Connect-PSSession                                  3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-PSSession"
+
+NAME
+    Connect-PSSession
+
+SYNTAX
+    Connect-PSSession -Name <string[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-Session] <PSSession[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession -ComputerName <string[]> -InstanceId <guid[]> [-ApplicationName <string>] [-ConfigurationName <string>] [-Credential <pscredential>] [-Authenticat
+    ion {Default | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-Port <int>] [-UseSSL] [-Sessi
+    onOption <PSSessionOption>] [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ComputerName] <string[]> [-ApplicationName <string>] [-ConfigurationName <string>] [-Name <string[]>] [-Credential <pscredential>] [-Authenticat
+    ion {Default | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-Port <int>] [-UseSSL] [-Sessi
+    onOption <PSSessionOption>] [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ConnectionUri] <uri[]> [-ConfigurationName <string>] [-AllowRedirection] [-Name <string[]>] [-Credential <pscredential>] [-Authentication {Defau
+    lt | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-SessionOption <PSSessionOption>] [-Thro
+    ttleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-ConnectionUri] <uri[]> -InstanceId <guid[]> [-ConfigurationName <string>] [-AllowRedirection] [-Credential <pscredential>] [-Authentication {Def
+    ault | Basic | Negotiate | NegotiateWithImplicitCredential | Credssp | Digest | Kerberos}] [-CertificateThumbprint <string>] [-SessionOption <PSSessionOption>] [-Th
+    rottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession -InstanceId <guid[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Connect-PSSession [-Id] <int[]> [-ThrottleLimit <int>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    cnsn
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Connect-PSSession -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=210604.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-VirtualDisk"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Connect-VirtualDisk                                2.0.0.0    Storage
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-VirtualDisk"
+
+NAME
+    Connect-VirtualDisk
+
+SYNTAX
+    Connect-VirtualDisk [-FriendlyName] <string[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThru]  [<CommonParamet
+    ers>]
+
+    Connect-VirtualDisk -UniqueId <string[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThru]  [<CommonParameters>]
+
+    Connect-VirtualDisk -Name <string[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThru]  [<CommonParameters>]
+
+    Connect-VirtualDisk -InputObject <CimInstance#MSFT_VirtualDisk[]> [-StorageNodeName <string>] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-AsJob] [-PassThr
+    u]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Connect-WSMan"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Connect-WSMan                                      3.0.0.0    Microsoft.WSMan.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Connect-WSMan"
+
+NAME
+    Connect-WSMan
+
+SYNTAX
+    Connect-WSMan [[-ComputerName] <string>] [-ApplicationName <string>] [-OptionSet <hashtable>] [-Port <int>] [-SessionOption <SessionOption>] [-UseSSL] [-Credential
+    <pscredential>] [-Authentication {None | Default | Digest | Negotiate | Basic | Kerberos | ClientCertificate | Credssp}] [-CertificateThumbprint <string>]  [<Common
+    Parameters>]
+
+    Connect-WSMan [-ConnectionURI <uri>] [-OptionSet <hashtable>] [-Port <int>] [-SessionOption <SessionOption>] [-Credential <pscredential>] [-Authentication {None | D
+    efault | Digest | Negotiate | Basic | Kerberos | ClientCertificate | Credssp}] [-CertificateThumbprint <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Connect-WSMan -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=141437.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Context"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Context                                            3.4.0      Pester
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Context"
+
+NAME
+    Context
+
+SYNOPSIS
+    Provides logical grouping of It blocks within a single Describe block. Any Mocks defined
+    inside a Context are removed at the end of the Context scope, as are any files or folders
+    added to the TestDrive during the Context block's execution. Any BeforeEach or AfterEach
+    blocks defined inside a Context also only apply to tests within that Context .
+
+
+SYNTAX
+    Context [-Name] <String> [[-Fixture] <ScriptBlock>] [<CommonParameters>]
+
+
+DESCRIPTION
+
+
+RELATED LINKS
+    Describe
+    It
+    BeforeEach
+    AfterEach
+    about_Should
+    about_Mocking
+    about_TestDrive
+
+REMARKS
+    To see the examples, type: "get-help Context -examples".
+    For more information, type: "get-help Context -detailed".
+    For technical information, type: "get-help Context -full".
+    For online help, type: "get-help Context -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-Path"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-Path                                       3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-Path"
+
+NAME
+    Convert-Path
+
+SYNTAX
+    Convert-Path [-Path] <string[]> [-UseTransaction]  [<CommonParameters>]
+
+    Convert-Path -LiteralPath <string[]> [-UseTransaction]  [<CommonParameters>]
+
+
+ALIASES
+    cvpa
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-Path -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113289.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-String"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-String                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-String"
+
+NAME
+    Convert-String
+
+SYNTAX
+    Convert-String -InputObject <string> [-Example <List[psobject]>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-String -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=528577.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-CIPolicy"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-CIPolicy                               1.0        ConfigCI
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-CIPolicy"
+
+NAME
+    ConvertFrom-CIPolicy
+
+SYNTAX
+    ConvertFrom-CIPolicy [-XmlFilePath] <string> [-BinaryFilePath] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Csv                                    3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Csv"
+
+NAME
+    ConvertFrom-Csv
+
+SYNTAX
+    ConvertFrom-Csv [-InputObject] <psobject[]> [[-Delimiter] <char>] [-Header <string[]>]  [<CommonParameters>]
+
+    ConvertFrom-Csv [-InputObject] <psobject[]> -UseCulture [-Header <string[]>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Csv -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135201.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+

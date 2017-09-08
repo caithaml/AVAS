@@ -548,7 +548,7 @@ $Form.Width = 1024
 $Form.Height = 800
 
 $lbl_nazevstanice = New-Object system.windows.Forms.Label
-$lbl_nazevstanice.Text = "Nazev stanice"
+$lbl_nazevstanice.Text = $json.ComputerName
 $lbl_nazevstanice.AutoSize = $true
 $lbl_nazevstanice.Width = 25
 $lbl_nazevstanice.Height = 10
@@ -557,7 +557,7 @@ $lbl_nazevstanice.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($lbl_nazevstanice)
 
 $lbl_nazevstanice = New-Object system.windows.Forms.Label
-$lbl_nazevstanice.Text = "Nazev stanice"
+$lbl_nazevstanice.Text = $json.ComputerName
 $lbl_nazevstanice.AutoSize = $true
 $lbl_nazevstanice.Width = 25
 $lbl_nazevstanice.Height = 10
