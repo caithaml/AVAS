@@ -31,5 +31,5 @@ $Diff = ForEach ($line1 in $app)
 
 $Diff | select DisplayName, DisplayVersion, Publisher 
 $Diff
-#$Diff | Format-List
-#$Diff | Out-GridView
+$Diff | Format-List
+$Diff | Out-GridView
