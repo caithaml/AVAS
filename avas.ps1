@@ -1037,7 +1037,6 @@ $btn_napoveda.location = new-object system.drawing.point(920,14)
 $btn_napoveda.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($btn_napoveda)
 $btn_napoveda.Add_Click({
-    
         $napoveda.ShowDialog()
     })
     
@@ -1062,4 +1061,3 @@ Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne nacteno"
 
 
 Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne zavreno";
-
