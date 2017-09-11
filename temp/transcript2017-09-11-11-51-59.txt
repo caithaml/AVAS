@@ -1,0 +1,1297 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170911115200
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16281.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.2' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\logs\1505123495-6aad6873-df96-42f9-b4ef-7ea0c3d99ede1505123068860\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\sessions\PSES-VSCode-6400-702141' -FeatureFlags @()
+Process ID: 10988
+PSVersion: 5.1.16281.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16281.1000
+BuildVersion: 10.0.16281.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-11-11-51-59.txt
+PS>TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At C:\avas\hotfixy.ps1:6 char:60
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At C:\avas\hotfixy.ps1:6 char:60
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10988
+computerName                   DESKTOP-V056PHL
+instanceId                     f9ea0a8a-aabf-43d1-bb8c-fbf959791847
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Defa
+    ult | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <S
+    tring>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | U
+    TF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String
+    >] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <s
+    witch>] [-Stream <string>] [-Wait] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and r
+    eturns a collection of objects, each of which represents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to an
+    other file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, typ
+    e "Get-Help Get-Content -Path $null" or see Get-Content at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="O:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        O:
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="O:"
+
+NAME
+    O:
+
+SYNTAX
+    O:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-CurrentFile"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Out-CurrentFile                                    0.1.1      PowerShellEditorServices.Commands
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-CurrentFile"
+
+NAME
+    Out-CurrentFile
+
+SYNOPSIS
+    Sends the output through Out-String to the current open editor file.
+
+
+SYNTAX
+    Out-CurrentFile [-InputObject] <Object> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-CurrentFile cmdlet sends output through Out-String to the current open editor file.
+
+
+RELATED LINKS
+    Online Version: https://github.com/PowerShell/PowerShellEditorServices/tree/master/module/docs/Out-CurrentFile.md
+
+REMARKS
+    To see the examples, type: "get-help Out-CurrentFile -examples".
+    For more information, type: "get-help Out-CurrentFile -detailed".
+    For technical information, type: "get-help Out-CurrentFile -full".
+    For online help, type: "get-help Out-CurrentFile -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-CurrentFile"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Out-CurrentFile                                    0.1.1      PowerShellEditorServices.Commands
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-CurrentFile"
+
+NAME
+    Out-CurrentFile
+
+SYNOPSIS
+    Sends the output through Out-String to the current open editor file.
+
+
+SYNTAX
+    Out-CurrentFile [-InputObject] <Object> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-CurrentFile cmdlet sends output through Out-String to the current open editor file.
+
+
+RELATED LINKS
+    Online Version: https://github.com/PowerShell/PowerShellEditorServices/tree/master/module/docs/Out-CurrentFile.md
+
+REMARKS
+    To see the examples, type: "get-help Out-CurrentFile -examples".
+    For more information, type: "get-help Out-CurrentFile -detailed".
+    For technical information, type: "get-help Out-CurrentFile -full".
+    For online help, type: "get-help Out-CurrentFile -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-Default"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-Default                                        3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-Default"
+
+NAME
+    Out-Default
+
+SYNOPSIS
+    Sends the output to the default formatter and to the default output cmdlet.
+
+
+SYNTAX
+    Out-Default [-InputObject <PSObject>] [-Transcript] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-Default cmdlet sends output to the default formatter and the default output cmdlet. This cmdlet has no effect on the formatting or output of Windows PowerSh
+    ell commands. It is a placeholder that lets you write your own Out-Default function or cmdlet.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821502
+
+REMARKS
+    To see the examples, type: "get-help Out-Default -examples".
+    For more information, type: "get-help Out-Default -detailed".
+    For technical information, type: "get-help Out-Default -full".
+    For online help, type: "get-help Out-Default -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNOPSIS
+    Sends output to a file.
+
+
+SYNTAX
+    Out-File [-FilePath] <String> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-For
+    ce] [-InputObject <PSObject>] [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-Force] [-InputObject <PS
+    Object>] -LiteralPath <String> [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-File cmdlet sends output to a file. You can use this cmdlet instead of the redirection operator (>) when you need to use its parameters.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821839
+    Out-GridView
+    Out-Printer
+    Out-String
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Out-File -examples".
+    For more information, type: "get-help Out-File -detailed".
+    For technical information, type: "get-help Out-File -full".
+    For online help, type: "get-help Out-File -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="E:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        E:
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="E:"
+
+NAME
+    E:
+
+SYNTAX
+    E:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="O:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        O:
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="O:"
+
+NAME
+    O:
+
+SYNTAX
+    O:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-CurrentFile"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Out-CurrentFile                                    0.1.1      PowerShellEditorServices.Commands
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-CurrentFile"
+
+NAME
+    Out-CurrentFile
+
+SYNOPSIS
+    Sends the output through Out-String to the current open editor file.
+
+
+SYNTAX
+    Out-CurrentFile [-InputObject] <Object> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-CurrentFile cmdlet sends output through Out-String to the current open editor file.
+
+
+RELATED LINKS
+    Online Version: https://github.com/PowerShell/PowerShellEditorServices/tree/master/module/docs/Out-CurrentFile.md
+
+REMARKS
+    To see the examples, type: "get-help Out-CurrentFile -examples".
+    For more information, type: "get-help Out-CurrentFile -detailed".
+    For technical information, type: "get-help Out-CurrentFile -full".
+    For online help, type: "get-help Out-CurrentFile -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-CurrentFile"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Out-CurrentFile                                    0.1.1      PowerShellEditorServices.Commands
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-CurrentFile"
+
+NAME
+    Out-CurrentFile
+
+SYNOPSIS
+    Sends the output through Out-String to the current open editor file.
+
+
+SYNTAX
+    Out-CurrentFile [-InputObject] <Object> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-CurrentFile cmdlet sends output through Out-String to the current open editor file.
+
+
+RELATED LINKS
+    Online Version: https://github.com/PowerShell/PowerShellEditorServices/tree/master/module/docs/Out-CurrentFile.md
+
+REMARKS
+    To see the examples, type: "get-help Out-CurrentFile -examples".
+    For more information, type: "get-help Out-CurrentFile -detailed".
+    For technical information, type: "get-help Out-CurrentFile -full".
+    For online help, type: "get-help Out-CurrentFile -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-CurrentFile"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Out-CurrentFile                                    0.1.1      PowerShellEditorServices.Commands
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-CurrentFile"
+
+NAME
+    Out-CurrentFile
+
+SYNOPSIS
+    Sends the output through Out-String to the current open editor file.
+
+
+SYNTAX
+    Out-CurrentFile [-InputObject] <Object> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-CurrentFile cmdlet sends output through Out-String to the current open editor file.
+
+
+RELATED LINKS
+    Online Version: https://github.com/PowerShell/PowerShellEditorServices/tree/master/module/docs/Out-CurrentFile.md
+
+REMARKS
+    To see the examples, type: "get-help Out-CurrentFile -examples".
+    For more information, type: "get-help Out-CurrentFile -detailed".
+    For technical information, type: "get-help Out-CurrentFile -full".
+    For online help, type: "get-help Out-CurrentFile -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-Default"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-Default                                        3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-Default"
+
+NAME
+    Out-Default
+
+SYNOPSIS
+    Sends the output to the default formatter and to the default output cmdlet.
+
+
+SYNTAX
+    Out-Default [-InputObject <PSObject>] [-Transcript] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-Default cmdlet sends output to the default formatter and the default output cmdlet. This cmdlet has no effect on the formatting or output of Windows PowerSh
+    ell commands. It is a placeholder that lets you write your own Out-Default function or cmdlet.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821502
+
+REMARKS
+    To see the examples, type: "get-help Out-Default -examples".
+    For more information, type: "get-help Out-Default -detailed".
+    For technical information, type: "get-help Out-Default -full".
+    For online help, type: "get-help Out-Default -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNOPSIS
+    Sends output to a file.
+
+
+SYNTAX
+    Out-File [-FilePath] <String> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-For
+    ce] [-InputObject <PSObject>] [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-Force] [-InputObject <PS
+    Object>] -LiteralPath <String> [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-File cmdlet sends output to a file. You can use this cmdlet instead of the redirection operator (>) when you need to use its parameters.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821839
+    Out-GridView
+    Out-Printer
+    Out-String
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Out-File -examples".
+    For more information, type: "get-help Out-File -detailed".
+    For technical information, type: "get-help Out-File -full".
+    For online help, type: "get-help Out-File -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="E:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        E:
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="E:"
+
+NAME
+    E:
+
+SYNTAX
+    E:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Exit-PSHostProcess"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Exit-PSHostProcess                                 3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Exit-PSHostProcess"
+
+NAME
+    Exit-PSHostProcess
+
+SYNOPSIS
+    Closes an interactive session with a local process.
+
+
+SYNTAX
+    Exit-PSHostProcess [<CommonParameters>]
+
+
+DESCRIPTION
+    The Exit-PSHostProcess cmdlet closes an interactive session with a local process that you have opened by running the Enter-PSHostProcess cmdlet. You run the Exit-PS
+    HostProcess cmdlet from within the process, when you are finished debugging or troubleshooting a script that is running within a process.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkID=403737
+    Enter-PSHostProcess
+
+REMARKS
+    To see the examples, type: "get-help Exit-PSHostProcess -examples".
+    For more information, type: "get-help Exit-PSHostProcess -detailed".
+    For technical information, type: "get-help Exit-PSHostProcess -full".
+    For online help, type: "get-help Exit-PSHostProcess -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Expand-Archive"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Expand-Archive                                     1.0.1.0    Microsoft.PowerShell.Archive
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Expand-Archive"
+
+NAME
+    Expand-Archive
+
+SYNOPSIS
+    Extracts files from a specified archive (zipped) file.
+
+
+SYNTAX
+    Expand-Archive [[-DestinationPath] <String>] [-Confirm] [-Force] -LiteralPath <String> [-WhatIf] [<CommonParameters>]
+
+    Expand-Archive [-Path] <String> [[-DestinationPath] <String>] [-Confirm] [-Force] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Expand-Archive cmdlet extracts files from a specified zipped archive file to a specified destination folder. An archive file allows multiple files to be package
+    d, and optionally compressed, into a single zipped file for easier distribution and storage.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821655
+
+REMARKS
+    To see the examples, type: "get-help Expand-Archive -examples".
+    For more information, type: "get-help Expand-Archive -detailed".
+    For technical information, type: "get-help Expand-Archive -full".
+    For online help, type: "get-help Expand-Archive -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNOPSIS
+    Exports information about currently defined aliases to a file.
+
+
+SYNTAX
+    Export-Alias [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] -LiteralPath <String> [-NoClobber] [-PassThru] [-Scope
+    <String>] [-WhatIf] [<CommonParameters>]
+
+    Export-Alias [-Path] <String> [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] [-NoClobber] [-PassThru] [-Scope <Stri
+    ng>] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-Alias cmdlet exports the aliases in the current session to a file. If the output file does not exist, the cmdlet will create it. Export-Alias can export
+    the aliases in a particular scope or all scopes, it can generate the data in CSV format or as a series of Set-Alias commands that you can add to a session or to a W
+    indows PowerShell profile.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821766
+    Get-Alias
+    Import-Alias
+    New-Alias
+    Set-Alias
+
+REMARKS
+    To see the examples, type: "get-help Export-Alias -examples".
+    For more information, type: "get-help Export-Alias -detailed".
+    For technical information, type: "get-help Export-Alias -full".
+    For online help, type: "get-help Export-Alias -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNOPSIS
+    Exports information about currently defined aliases to a file.
+
+
+SYNTAX
+    Export-Alias [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] -LiteralPath <String> [-NoClobber] [-PassThru] [-Scope
+    <String>] [-WhatIf] [<CommonParameters>]
+
+    Export-Alias [-Path] <String> [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] [-NoClobber] [-PassThru] [-Scope <Stri
+    ng>] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-Alias cmdlet exports the aliases in the current session to a file. If the output file does not exist, the cmdlet will create it. Export-Alias can export
+    the aliases in a particular scope or all scopes, it can generate the data in CSV format or as a series of Set-Alias commands that you can add to a session or to a W
+    indows PowerShell profile.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821766
+    Get-Alias
+    Import-Alias
+    New-Alias
+    Set-Alias
+
+REMARKS
+    To see the examples, type: "get-help Export-Alias -examples".
+    For more information, type: "get-help Export-Alias -detailed".
+    For technical information, type: "get-help Export-Alias -full".
+    For online help, type: "get-help Export-Alias -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNOPSIS
+    Exports information about currently defined aliases to a file.
+
+
+SYNTAX
+    Export-Alias [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] -LiteralPath <String> [-NoClobber] [-PassThru] [-Scope
+    <String>] [-WhatIf] [<CommonParameters>]
+
+    Export-Alias [-Path] <String> [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] [-NoClobber] [-PassThru] [-Scope <Stri
+    ng>] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-Alias cmdlet exports the aliases in the current session to a file. If the output file does not exist, the cmdlet will create it. Export-Alias can export
+    the aliases in a particular scope or all scopes, it can generate the data in CSV format or as a series of Set-Alias commands that you can add to a session or to a W
+    indows PowerShell profile.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821766
+    Get-Alias
+    Import-Alias
+    New-Alias
+    Set-Alias
+
+REMARKS
+    To see the examples, type: "get-help Export-Alias -examples".
+    For more information, type: "get-help Export-Alias -detailed".
+    For technical information, type: "get-help Export-Alias -full".
+    For online help, type: "get-help Export-Alias -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Alias                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Alias"
+
+NAME
+    Export-Alias
+
+SYNOPSIS
+    Exports information about currently defined aliases to a file.
+
+
+SYNTAX
+    Export-Alias [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] -LiteralPath <String> [-NoClobber] [-PassThru] [-Scope
+    <String>] [-WhatIf] [<CommonParameters>]
+
+    Export-Alias [-Path] <String> [[-Name] <String[]>] [-Append] [-As {Csv | Script}] [-Confirm] [-Description <String>] [-Force] [-NoClobber] [-PassThru] [-Scope <Stri
+    ng>] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-Alias cmdlet exports the aliases in the current session to a file. If the output file does not exist, the cmdlet will create it. Export-Alias can export
+    the aliases in a particular scope or all scopes, it can generate the data in CSV format or as a series of Set-Alias commands that you can add to a session or to a W
+    indows PowerShell profile.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821766
+    Get-Alias
+    Import-Alias
+    New-Alias
+    Set-Alias
+
+REMARKS
+    To see the examples, type: "get-help Export-Alias -examples".
+    For more information, type: "get-help Export-Alias -detailed".
+    For technical information, type: "get-help Export-Alias -full".
+    For online help, type: "get-help Export-Alias -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Certificate"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Certificate                                 1.0.0.0    PKI
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Certificate"
+
+NAME
+    Export-Certificate
+
+SYNOPSIS
+    Exports a certificate from a certificate store into a file.
+
+
+SYNTAX
+    Export-Certificate [-Force] [-NoClobber] [-Type {SST | CERT | P7B}] -Cert <Certificate> -FilePath <String> [-Confirm] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-Certificate cmdlet exports a certificate from a certificate store to a file. The private key is not included in the export. If more than one certificate
+    is being exported, then the default file format is SST. Otherwise, the default format is CERT. Use the Type parameter to change the file format.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/p/?linkid=287526
+    Get-ChildItem
+    Import-Certificate
+
+REMARKS
+    To see the examples, type: "get-help Export-Certificate -examples".
+    For more information, type: "get-help Export-Certificate -detailed".
+    For technical information, type: "get-help Export-Certificate -full".
+    For online help, type: "get-help Export-Certificate -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Csv"
+
+NAME
+    Export-Csv
+
+SYNOPSIS
+    Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file.
+
+
+SYNTAX
+    Export-Csv [[-Path] <String>] [[-Delimiter] <Char>] [-Append] [-Confirm] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Default | OEM}] [-Fo
+    rce] -InputObject <PSObject> [-LiteralPath <String>] [-NoClobber] [-NoTypeInformation] [-WhatIf] [<CommonParameters>]
+
+    Export-Csv [[-Path] <String>] [-Append] [-Confirm] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Default | OEM}] [-Force] -InputObject <PSO
+    bject> [-LiteralPath <String>] [-NoClobber] [-NoTypeInformation] [-UseCulture] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-CSV cmdlet creates a CSV file of the objects that you submit. Each object is represented as a line or row of the CSV. The row consists of a comma-separat
+    ed list of the values of object properties. You can use this cmdlet to create spreadsheets and share data with programs that take CSV files as input.
+
+    Do not format objects before sending them to the Export-CSV cmdlet. If you do, the format properties are represented in the CSV file, instead of the properties of t
+    he original objects. To export only selected properties of an object, use the Select-Object cmdlet.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821769
+    ConvertFrom-Csv
+    ConvertTo-Csv
+    Format-Table
+    Import-Csv
+    Select-Object
+
+REMARKS
+    To see the examples, type: "get-help Export-Csv -examples".
+    For more information, type: "get-help Export-Csv -detailed".
+    For technical information, type: "get-help Export-Csv -full".
+    For online help, type: "get-help Export-Csv -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Csv"
+
+NAME
+    Export-Csv
+
+SYNOPSIS
+    Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file.
+
+
+SYNTAX
+    Export-Csv [[-Path] <String>] [[-Delimiter] <Char>] [-Append] [-Confirm] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Default | OEM}] [-Fo
+    rce] -InputObject <PSObject> [-LiteralPath <String>] [-NoClobber] [-NoTypeInformation] [-WhatIf] [<CommonParameters>]
+
+    Export-Csv [[-Path] <String>] [-Append] [-Confirm] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Default | OEM}] [-Force] -InputObject <PSO
+    bject> [-LiteralPath <String>] [-NoClobber] [-NoTypeInformation] [-UseCulture] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Export-CSV cmdlet creates a CSV file of the objects that you submit. Each object is represented as a line or row of the CSV. The row consists of a comma-separat
+    ed list of the values of object properties. You can use this cmdlet to create spreadsheets and share data with programs that take CSV files as input.
+
+    Do not format objects before sending them to the Export-CSV cmdlet. If you do, the format properties are represented in the CSV file, instead of the properties of t
+    he original objects. To export only selected properties of an object, use the Select-Object cmdlet.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821769
+    ConvertFrom-Csv
+    ConvertTo-Csv
+    Format-Table
+    Import-Csv
+    Select-Object
+
+REMARKS
+    To see the examples, type: "get-help Export-Csv -examples".
+    For more information, type: "get-help Export-Csv -detailed".
+    For technical information, type: "get-help Export-Csv -full".
+    For online help, type: "get-help Export-Csv -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
