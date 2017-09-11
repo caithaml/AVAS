@@ -1,0 +1,294 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170911110750
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16281.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.2' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\logs\1505113584-66b26f5b-06d4-4e86-8161-5f93a35bb4c71505113551871\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\sessions\PSES-VSCode-12088-400931' -FeatureFlags @()
+Process ID: 13108
+PSVersion: 5.1.16281.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16281.1000
+BuildVersion: 10.0.16281.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-11-11-07-50.txt
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-11-11-07-57.txt
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-11-11-08-04.txt
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
