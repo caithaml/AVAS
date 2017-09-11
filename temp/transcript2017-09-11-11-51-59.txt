@@ -1295,3 +1295,959 @@ REMARKS
     For online help, type: "get-help Get-Date -online"
 
 
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-NetIPConfiguration"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Get-NetIPConfiguration                             1.0.0.0    NetTCPIP
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-NetIPConfiguration"
+
+NAME
+    Get-NetIPConfiguration
+
+SYNOPSIS
+    Gets IP network configuration.
+
+
+SYNTAX
+    Get-NetIPConfiguration [[-InterfaceAlias] <String>] [-AllCompartments] [-CimSession <CimSession>] [-CompartmentId <Int32>] [-Detailed] [<CommonParameters>]
+
+    Get-NetIPConfiguration [-AllCompartments] [-CimSession <CimSession>] [-CompartmentId <Int32>] [-Detailed] -All [<CommonParameters>]
+
+    Get-NetIPConfiguration [-AllCompartments] [-CimSession <CimSession>] [-CompartmentId <Int32>] [-Detailed] -InterfaceIndex <Int32> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-NetIPConfiguration cmdlet gets network configuration, including usable interfaces, IP addresses, and DNS servers.
+
+    If you do not specify any parameters, this cmdlet gets IP configuration properties for all non-virtual connected interfaces on a computer.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=288381
+    Get-DNSClientServerAddress
+    Get-NetAdapter
+    Get-NetIPAddress
+    Get-NetIPInterface
+    Get-NetRoute
+
+REMARKS
+    To see the examples, type: "get-help Get-NetIPConfiguration -examples".
+    For more information, type: "get-help Get-NetIPConfiguration -detailed".
+    For technical information, type: "get-help Get-NetIPConfiguration -full".
+    For online help, type: "get-help Get-NetIPConfiguration -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ChildItem"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ChildItem                                      3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ChildItem"
+
+NAME
+    Get-ChildItem
+
+SYNOPSIS
+    Gets the files and folders in a file system drive.
+
+
+SYNTAX
+    Get-ChildItem [[-Filter] <String>] [-Attributes {ReadOnly | Hidden | System | Directory | Archive | Device | Normal | Temporary | SparseFile | ReparsePoint | Compre
+    ssed | Offline | NotContentIndexed | Encrypted | IntegrityStream | NoScrubData}] [-Depth <UInt32>] [-Directory] [-Exclude <String[]>] [-File] [-Force] [-Hidden] [-I
+    nclude <String[]>] -LiteralPath <String[]> [-Name] [-ReadOnly] [-Recurse] [-System] [-UseTransaction] [<CommonParameters>]
+
+    Get-ChildItem [[-Path] <String[]>] [[-Filter] <String>] [-Attributes {ReadOnly | Hidden | System | Directory | Archive | Device | Normal | Temporary | SparseFile |
+    ReparsePoint | Compressed | Offline | NotContentIndexed | Encrypted | IntegrityStream | NoScrubData}] [-Depth <UInt32>] [-Directory] [-Exclude <String[]>] [-File] [
+    -Force] [-Hidden] [-Include <String[]>] [-Name] [-ReadOnly] [-Recurse] [-System] [-UseTransaction] [<CommonParameters>]
+
+    Get-ChildItem [-Attributes <FileAttributes]>] [-Directory] [-File] [-Force] [-Hidden] [-ReadOnly] [-System] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-ChildItem cmdlet gets the items in one or more specified locations. If the item is a container, it gets the items inside the container, known as child items
+    . You can use the Recurse parameter to get items in all child containers.
+
+    A location can be a file system location, such as a directory, or a location exposed by a different Windows PowerShell provider, such as a registry hive or a certif
+    icate store.
+    In a file system drive, the Get-ChildItem cmdlet gets the directories, subdirectories, and files. In a file system directory, it gets subdirectories and files.
+
+    By default, Get-ChildItem gets non-hidden items, but you can use the Directory, File, Hidden, ReadOnly, and System parameters to get only items with these attribute
+    s. To create a complex attribute search, use the Attributes parameter. If you use these parameters, Get-ChildItem gets only the items that meet all search condition
+    s, as though the parameters were connected by an AND operator.
+
+    Note: This custom cmdlet help file explains how the Get-ChildItem cmdlet works in a file system drive. For information about the Get-ChildItem cmdlet in all drives,
+     type "Get-Help Get-ChildItem -Path $null" or see Get-ChildItem at http://go.microsoft.com/fwlink/?LinkID=113308.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847897(v=wps.630).aspx
+    Get-ChildItem (generic); http://go.microsoft.com/fwlink/?LinkID=113308
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-ChildItem -examples".
+    For more information, type: "get-help Get-ChildItem -detailed".
+    For technical information, type: "get-help Get-ChildItem -full".
+    For online help, type: "get-help Get-ChildItem -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Format-List"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Format-List                                        3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Format-List"
+
+NAME
+    Format-List
+
+SYNOPSIS
+    Formats the output as a list of properties in which each property appears on a new line.
+
+
+SYNTAX
+    Format-List [[-Property] <Object[]>] [-DisplayError] [-Expand {CoreOnly | EnumOnly | Both}] [-Force] [-GroupBy <Object>] [-InputObject <PSObject>] [-ShowError] [-Vi
+    ew <String>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Format-List cmdlet formats the output of a command as a list of properties in which each property is displayed on a separate line. You can use Format-List to fo
+    rmat and display all or selected properties of an object as a list (format-list *).
+
+    Because more space is available for each item in a list than in a table, Windows PowerShell displays more properties of the object in the list, and the property val
+    ues are less likely to be truncated.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821774
+    Format-Custom
+    Format-Hex
+    Format-Table
+    Format-Wide
+
+REMARKS
+    To see the examples, type: "get-help Format-List -examples".
+    For more information, type: "get-help Format-List -detailed".
+    For technical information, type: "get-help Format-List -full".
+    For online help, type: "get-help Format-List -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ChildItem"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ChildItem                                      3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ChildItem"
+
+NAME
+    Get-ChildItem
+
+SYNOPSIS
+    Gets the files and folders in a file system drive.
+
+
+SYNTAX
+    Get-ChildItem [[-Filter] <String>] [-Attributes {ReadOnly | Hidden | System | Directory | Archive | Device | Normal | Temporary | SparseFile | ReparsePoint | Compre
+    ssed | Offline | NotContentIndexed | Encrypted | IntegrityStream | NoScrubData}] [-Depth <UInt32>] [-Directory] [-Exclude <String[]>] [-File] [-Force] [-Hidden] [-I
+    nclude <String[]>] -LiteralPath <String[]> [-Name] [-ReadOnly] [-Recurse] [-System] [-UseTransaction] [<CommonParameters>]
+
+    Get-ChildItem [[-Path] <String[]>] [[-Filter] <String>] [-Attributes {ReadOnly | Hidden | System | Directory | Archive | Device | Normal | Temporary | SparseFile |
+    ReparsePoint | Compressed | Offline | NotContentIndexed | Encrypted | IntegrityStream | NoScrubData}] [-Depth <UInt32>] [-Directory] [-Exclude <String[]>] [-File] [
+    -Force] [-Hidden] [-Include <String[]>] [-Name] [-ReadOnly] [-Recurse] [-System] [-UseTransaction] [<CommonParameters>]
+
+    Get-ChildItem [-Attributes <FileAttributes]>] [-Directory] [-File] [-Force] [-Hidden] [-ReadOnly] [-System] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-ChildItem cmdlet gets the items in one or more specified locations. If the item is a container, it gets the items inside the container, known as child items
+    . You can use the Recurse parameter to get items in all child containers.
+
+    A location can be a file system location, such as a directory, or a location exposed by a different Windows PowerShell provider, such as a registry hive or a certif
+    icate store.
+    In a file system drive, the Get-ChildItem cmdlet gets the directories, subdirectories, and files. In a file system directory, it gets subdirectories and files.
+
+    By default, Get-ChildItem gets non-hidden items, but you can use the Directory, File, Hidden, ReadOnly, and System parameters to get only items with these attribute
+    s. To create a complex attribute search, use the Attributes parameter. If you use these parameters, Get-ChildItem gets only the items that meet all search condition
+    s, as though the parameters were connected by an AND operator.
+
+    Note: This custom cmdlet help file explains how the Get-ChildItem cmdlet works in a file system drive. For information about the Get-ChildItem cmdlet in all drives,
+     type "Get-Help Get-ChildItem -Path $null" or see Get-ChildItem at http://go.microsoft.com/fwlink/?LinkID=113308.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847897(v=wps.630).aspx
+    Get-ChildItem (generic); http://go.microsoft.com/fwlink/?LinkID=113308
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-ChildItem -examples".
+    For more information, type: "get-help Get-ChildItem -detailed".
+    For technical information, type: "get-help Get-ChildItem -full".
+    For online help, type: "get-help Get-ChildItem -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-LocalGroup"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-LocalGroup                                     1.0.0.0    Microsoft.PowerShell.LocalAccounts
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-LocalGroup"
+
+NAME
+    Get-LocalGroup
+
+SYNOPSIS
+    Gets the local security groups.
+
+
+SYNTAX
+    Get-LocalGroup [[-Name] <String[]>] [<CommonParameters>]
+
+    Get-LocalGroup [[-SID] <SecurityIdentifier[]>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-LocalGroup cmdlet gets local security groups in Security Account Manager. This cmdlet gets default built-in groups and local security groups that you create
+    .
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=822511
+    New-LocalGroup
+    Remove-LocalGroup
+    Rename-LocalGroup
+    Set-LocalGroup
+
+REMARKS
+    To see the examples, type: "get-help Get-LocalGroup -examples".
+    For more information, type: "get-help Get-LocalGroup -detailed".
+    For technical information, type: "get-help Get-LocalGroup -full".
+    For online help, type: "get-help Get-LocalGroup -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-LocalUser"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-LocalUser                                      1.0.0.0    Microsoft.PowerShell.LocalAccounts
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-LocalUser"
+
+NAME
+    Get-LocalUser
+
+SYNOPSIS
+    Gets local user accounts.
+
+
+SYNTAX
+    Get-LocalUser [[-Name] <String[]>] [<CommonParameters>]
+
+    Get-LocalUser [[-SID] <SecurityIdentifier[]>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-LocalUser cmdlet gets local user accounts. This cmdlet gets default built-in user accounts, local user accounts that you created, and local accounts that yo
+    u connected to Microsoft accounts.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=822514
+    Disable-LocalUser
+    Enable-LocalUser
+    New-LocalUser
+    Remove-LocalUser
+    Rename-LocalUser
+    Set-LocalUser
+
+REMARKS
+    To see the examples, type: "get-help Get-LocalUser -examples".
+    For more information, type: "get-help Get-LocalUser -detailed".
+    For technical information, type: "get-help Get-LocalUser -full".
+    For online help, type: "get-help Get-LocalUser -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNOPSIS
+    Sends output to a file.
+
+
+SYNTAX
+    Out-File [-FilePath] <String> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-For
+    ce] [-InputObject <PSObject>] [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-Force] [-InputObject <PS
+    Object>] -LiteralPath <String> [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-File cmdlet sends output to a file. You can use this cmdlet instead of the redirection operator (>) when you need to use its parameters.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821839
+    Out-GridView
+    Out-Printer
+    Out-String
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Out-File -examples".
+    For more information, type: "get-help Out-File -detailed".
+    For technical information, type: "get-help Out-File -full".
+    For online help, type: "get-help Out-File -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNOPSIS
+    Sends output to a file.
+
+
+SYNTAX
+    Out-File [-FilePath] <String> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-For
+    ce] [-InputObject <PSObject>] [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Confirm] [-Force] [-InputObject <PS
+    Object>] -LiteralPath <String> [-NoClobber] [-NoNewline] [-WhatIf] [-Width <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Out-File cmdlet sends output to a file. You can use this cmdlet instead of the redirection operator (>) when you need to use its parameters.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821839
+    Out-GridView
+    Out-Printer
+    Out-String
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Out-File -examples".
+    For more information, type: "get-help Out-File -detailed".
+    For technical information, type: "get-help Out-File -full".
+    For online help, type: "get-help Out-File -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertTo-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertTo-Json                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertTo-Json"
+
+NAME
+    ConvertTo-Json
+
+SYNOPSIS
+    Converts an object to a JSON-formatted string.
+
+
+SYNTAX
+    ConvertTo-Json [-InputObject] <Object> [-Compress] [-Depth <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The ConvertTo-Json cmdlet converts any object to a string in JavaScript Object Notation (JSON) format. The properties are converted to field names, the field values
+     are converted to property values, and the methods are removed.
+
+    You can then use the ConvertFrom-Json cmdlet to convert a JSON-formatted string to a JSON object, which is easily managed in Windows PowerShell.
+
+    Many web sites use JSON instead of XML to serialize data for communication between servers and web-based apps.
+
+    This cmdlet was introduced in Windows PowerShell 3.0.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821759
+    ConvertFrom-Json
+    Get-UICulture
+    Invoke-WebRequest
+    Invoke-RestMethod
+
+REMARKS
+    To see the examples, type: "get-help ConvertTo-Json -examples".
+    For more information, type: "get-help ConvertTo-Json -detailed".
+    For technical information, type: "get-help ConvertTo-Json -full".
+    For online help, type: "get-help ConvertTo-Json -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-AppxPackage"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-AppxPackage                                    2.0.0.0    Appx
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-AppxPackage"
+
+NAME
+    Get-AppxPackage
+
+SYNTAX
+    Get-AppxPackage [[-Name] <string>] [[-Publisher] <string>] [-AllUsers] [-PackageTypeFilter {None | Main | Framework | Resource | Bundle | Xap | Optional}] [-User <s
+    tring>] [-Volume <AppxVolume>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-AppxPackage"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-AppxPackage                                    2.0.0.0    Appx
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-AppxPackage"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-AppxPackage                                    2.0.0.0    Appx
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-AppxPackage"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-AppxPackage                                    2.0.0.0    Appx
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-AppxPackage"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-AppxPackage                                    2.0.0.0    Appx
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ItemProperty"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ItemProperty                                   3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ItemProperty"
+
+NAME
+    Get-ItemProperty
+
+SYNOPSIS
+    Gets the properties of a specified item.
+
+
+SYNTAX
+    Get-ItemProperty [[-Name] <String[]>] [-Credential <PSCredential>] [-Exclude <String[]>] [-Filter <String>] [-Include <String[]>] -LiteralPath <String[]> [-UseTrans
+    action] [<CommonParameters>]
+
+    Get-ItemProperty [-Path] <String[]> [[-Name] <String[]>] [-Credential <PSCredential>] [-Exclude <String[]>] [-Filter <String>] [-Include <String[]>] [-UseTransactio
+    n] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-ItemProperty cmdlet gets the properties of the specified items. For example, you can use this cmdlet to get the value of the LastAccessTime property of a fi
+    le object. You can also use this cmdlet to view registry entries and their values.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821588
+    Clear-ItemProperty
+    Copy-ItemProperty
+    Move-ItemProperty
+    New-ItemProperty
+    Remove-ItemProperty
+    Rename-ItemProperty
+    Set-ItemProperty
+
+REMARKS
+    To see the examples, type: "get-help Get-ItemProperty -examples".
+    For more information, type: "get-help Get-ItemProperty -detailed".
+    For technical information, type: "get-help Get-ItemProperty -full".
+    For online help, type: "get-help Get-ItemProperty -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-WmiObject"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-WmiObject                                      3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-WmiObject"
+
+NAME
+    Get-WmiObject
+
+SYNOPSIS
+    Gets instances of WMI classes or information about the available classes.
+
+
+SYNTAX
+    Get-WmiObject [-Class] <String> [[-Property] <String[]>] [-Amended] [-AsJob] [-Authentication {Default | None | Connect | Call | Packet | PacketIntegrity | PacketPr
+    ivacy | Unchanged}] [-Authority <String>] [-ComputerName <String[]>] [-Credential <PSCredential>] [-DirectRead] [-EnableAllPrivileges] [-Filter <String>] [-Imperson
+    ation {Default | Anonymous | Identify | Impersonate | Delegate}] [-Locale <String>] [-Namespace <String>] [-ThrottleLimit <Int32>] [<CommonParameters>]
+
+    Get-WmiObject [[-Class] <String>] [-Amended] [-AsJob] [-Authentication {Default | None | Connect | Call | Packet | PacketIntegrity | PacketPrivacy | Unchanged}] [-A
+    uthority <String>] [-ComputerName <String[]>] [-Credential <PSCredential>] [-EnableAllPrivileges] [-Impersonation {Default | Anonymous | Identify | Impersonate | De
+    legate}] [-List] [-Locale <String>] [-Namespace <String>] [-Recurse] [-ThrottleLimit <Int32>] [<CommonParameters>]
+
+    Get-WmiObject [-Amended] [-AsJob] [-Authentication {Default | None | Connect | Call | Packet | PacketIntegrity | PacketPrivacy | Unchanged}] [-Authority <String>] [
+    -ComputerName <String[]>] [-Credential <PSCredential>] [-DirectRead] [-EnableAllPrivileges] [-Impersonation {Default | Anonymous | Identify | Impersonate | Delegate
+    }] [-Locale <String>] [-Namespace <String>] -Query <String> [-ThrottleLimit <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    Starting in Windows PowerShell 3.0, this cmdlet has been superseded by Get-CimInstancehttp://technet.microsoft.com/library/jj590758(v=wps.630).aspx.
+
+    The Get-WmiObject cmdlet gets instances of Windows Management Instrumentation (WMI) classes or information about the available WMI classes. To specify a remote comp
+    uter, use the ComputerName parameter. If the List parameter is specified, the cmdlet gets information about the WMI classes that are available in a specified namesp
+    ace. If the Query parameter is specified, the cmdlet runs a WMI query language (WQL) statement.
+
+    This cmdlet does not use Windows PowerShell remoting to perform remote operations. You can use the ComputerName parameter of the Get-WmiObject cmdlet even if your c
+    omputer does not meet the requirements for Windows PowerShellremoting or is not configured for remoting in Windows PowerShell.
+
+    Beginning in Windows PowerShell 3.0, the __Server property of the object that Get-WmiObject returns has a PSComputerName alias. This makes it easier to include the
+    source computer name in output and reports.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821595
+    Get-WSManInstance
+    Invoke-WSManAction
+    New-WSManInstance
+    Remove-WSManInstance
+    Invoke-WmiMethod
+    Remove-WmiObject
+    Set-WmiInstance
+
+REMARKS
+    To see the examples, type: "get-help Get-WmiObject -examples".
+    For more information, type: "get-help Get-WmiObject -detailed".
+    For technical information, type: "get-help Get-WmiObject -full".
+    For online help, type: "get-help Get-WmiObject -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-WinEvent"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-WinEvent                                       3.0.0.0    Microsoft.PowerShell.Diagnostics
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-WinEvent"
+
+NAME
+    Get-WinEvent
+
+SYNOPSIS
+    Gets events from event logs and event tracing log files on local and remote computers.
+
+
+SYNTAX
+    Get-WinEvent [[-LogName] <String[]>] [-ComputerName <String>] [-Credential <PSCredential>] [-FilterXPath <String>] [-Force] [-MaxEvents <Int64>] [-Oldest] [<CommonP
+    arameters>]
+
+    Get-WinEvent [-ListProvider] <String[]> [-ComputerName <String>] [-Credential <PSCredential>] [<CommonParameters>]
+
+    Get-WinEvent [-ProviderName] <String[]> [-ComputerName <String>] [-Credential <PSCredential>] [-FilterXPath <String>] [-Force] [-MaxEvents <Int64>] [-Oldest] [<Comm
+    onParameters>]
+
+    Get-WinEvent [-ListLog] <String[]> [-ComputerName <String>] [-Credential <PSCredential>] [-Force] [<CommonParameters>]
+
+    Get-WinEvent [-FilterHashtable] <Hashtable[]> [-ComputerName <String>] [-Credential <PSCredential>] [-Force] [-MaxEvents <Int64>] [-Oldest] [<CommonParameters>]
+
+    Get-WinEvent [-FilterXml] <XmlDocument> [-ComputerName <String>] [-Credential <PSCredential>] [-MaxEvents <Int64>] [-Oldest] [<CommonParameters>]
+
+    Get-WinEvent [-Path] <String[]> [-Credential <PSCredential>] [-FilterXPath <String>] [-MaxEvents <Int64>] [-Oldest] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-WinEvent cmdlet gets events from event logs, including classic logs, such as the System and Application logs, and the event logs that are generated by the W
+    indows Event Log technology introduced in Windows Vista. It also gets events in log files generated by Event Tracing for Windows (ETW).
+
+    Without parameters, a Get-WinEvent command gets all the events from all the event logs on the computer. To interrupt the command, press CTRL + C.
+
+    Get-WinEvent also lists event logs and event log providers. You can get events from selected logs or from logs generated by selected event providers. And, you can c
+    ombine events from multiple sources in a single command. Get-WinEvent allows you to filter events by using XPath queries, structured XML queries, and simplified has
+    h-table queries.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/p/?linkid=289626
+    Get-Counter
+    Get-EventLog
+    about_EventLogs
+
+REMARKS
+    To see the examples, type: "get-help Get-WinEvent -examples".
+    For more information, type: "get-help Get-WinEvent -detailed".
+    For technical information, type: "get-help Get-WinEvent -full".
+    For online help, type: "get-help Get-WinEvent -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-WinEvent"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-WinEvent                                       3.0.0.0    Microsoft.PowerShell.Diagnostics
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-WinEvent"
+
+NAME
+    Get-WinEvent
+
+SYNOPSIS
+    Gets events from event logs and event tracing log files on local and remote computers.
+
+
+SYNTAX
+    Get-WinEvent [[-LogName] <String[]>] [-ComputerName <String>] [-Credential <PSCredential>] [-FilterXPath <String>] [-Force] [-MaxEvents <Int64>] [-Oldest] [<CommonP
+    arameters>]
+
+    Get-WinEvent [-ListProvider] <String[]> [-ComputerName <String>] [-Credential <PSCredential>] [<CommonParameters>]
+
+    Get-WinEvent [-ProviderName] <String[]> [-ComputerName <String>] [-Credential <PSCredential>] [-FilterXPath <String>] [-Force] [-MaxEvents <Int64>] [-Oldest] [<Comm
+    onParameters>]
+
+    Get-WinEvent [-ListLog] <String[]> [-ComputerName <String>] [-Credential <PSCredential>] [-Force] [<CommonParameters>]
+
+    Get-WinEvent [-FilterHashtable] <Hashtable[]> [-ComputerName <String>] [-Credential <PSCredential>] [-Force] [-MaxEvents <Int64>] [-Oldest] [<CommonParameters>]
+
+    Get-WinEvent [-FilterXml] <XmlDocument> [-ComputerName <String>] [-Credential <PSCredential>] [-MaxEvents <Int64>] [-Oldest] [<CommonParameters>]
+
+    Get-WinEvent [-Path] <String[]> [-Credential <PSCredential>] [-FilterXPath <String>] [-MaxEvents <Int64>] [-Oldest] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-WinEvent cmdlet gets events from event logs, including classic logs, such as the System and Application logs, and the event logs that are generated by the W
+    indows Event Log technology introduced in Windows Vista. It also gets events in log files generated by Event Tracing for Windows (ETW).
+
+    Without parameters, a Get-WinEvent command gets all the events from all the event logs on the computer. To interrupt the command, press CTRL + C.
+
+    Get-WinEvent also lists event logs and event log providers. You can get events from selected logs or from logs generated by selected event providers. And, you can c
+    ombine events from multiple sources in a single command. Get-WinEvent allows you to filter events by using XPath queries, structured XML queries, and simplified has
+    h-table queries.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/p/?linkid=289626
+    Get-Counter
+    Get-EventLog
+    about_EventLogs
+
+REMARKS
+    To see the examples, type: "get-help Get-WinEvent -examples".
+    For more information, type: "get-help Get-WinEvent -detailed".
+    For technical information, type: "get-help Get-WinEvent -full".
+    For online help, type: "get-help Get-WinEvent -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNOPSIS
+    Creates an instance of a Microsoft .NET Framework or COM object.
+
+
+SYNTAX
+    New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>] [<CommonParameters>]
+
+    New-Object [-ComObject] <String> [-Property <IDictionary>] [-Strict] [<CommonParameters>]
+
+
+DESCRIPTION
+    The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+
+    You can specify either the type of a .NET Framework class or a ProgID of a COM object. By default, you type the fully qualified name of a .NET Framework class and t
+    he cmdlet returns a reference to an instance of that class. To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object
+    as its value.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821835
+    Compare-Object
+    Group-Object
+    Measure-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help New-Object -examples".
+    For more information, type: "get-help New-Object -detailed".
+    For technical information, type: "get-help New-Object -full".
+    For online help, type: "get-help New-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-ItemProperty"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ItemProperty                                   3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-ItemProperty"
+
+NAME
+    Get-ItemProperty
+
+SYNOPSIS
+    Gets the properties of a specified item.
+
+
+SYNTAX
+    Get-ItemProperty [[-Name] <String[]>] [-Credential <PSCredential>] [-Exclude <String[]>] [-Filter <String>] [-Include <String[]>] -LiteralPath <String[]> [-UseTrans
+    action] [<CommonParameters>]
+
+    Get-ItemProperty [-Path] <String[]> [[-Name] <String[]>] [-Credential <PSCredential>] [-Exclude <String[]>] [-Filter <String>] [-Include <String[]>] [-UseTransactio
+    n] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-ItemProperty cmdlet gets the properties of the specified items. For example, you can use this cmdlet to get the value of the LastAccessTime property of a fi
+    le object. You can also use this cmdlet to view registry entries and their values.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821588
+    Clear-ItemProperty
+    Copy-ItemProperty
+    Move-ItemProperty
+    New-ItemProperty
+    Remove-ItemProperty
+    Rename-ItemProperty
+    Set-ItemProperty
+
+REMARKS
+    To see the examples, type: "get-help Get-ItemProperty -examples".
+    For more information, type: "get-help Get-ItemProperty -detailed".
+    For technical information, type: "get-help Get-ItemProperty -full".
+    For online help, type: "get-help Get-ItemProperty -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="gethotfixes"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Member"
+
+NAME
+    Add-Member
+
+SYNOPSIS
+    Adds custom properties and methods to an instance of a Windows PowerShell object.
+
+
+SYNTAX
+    Add-Member [-MemberType] {AliasProperty | CodeProperty | Property | NoteProperty | ScriptProperty | Properties | PropertySet | Method | CodeMethod | ScriptMethod |
+    Methods | ParameterizedProperty | MemberSet | Event | Dynamic | All} [-Name] <String> [[-Value] <Object>] [[-SecondValue] <Object>] [-Force] -InputObject <PSObject>
+     [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyName] <String> [-NotePropertyValue] <Object> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyMembers] <IDictionary> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member -InputObject <PSObject> [-PassThru] -TypeName <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-Member cmdlet lets you add members (properties and methods) to an instance of a Windows PowerShell object. For instance, you can add a NoteProperty member t
+    hat contains a description of the object or a ScriptMethod member that runs a script to change the object.
+
+    To use Add-Member , pipe the object to Add-Member , or use the InputObject parameter to specify the object. Use the MemberType parameter to specify the type of memb
+    er that you want to add, use the Name parameter to assign a name to the new member, and use the Value parameter to set the value of the member.
+
+    The properties and methods that you add are added only to the particular instance of the object that you specify. Add-Member does not change the object type. To cre
+    ate a new object type, use the Add-Type cmdlet. You can also use the Export-Clixml cmdlet to save the instance of the object, including the additional members, in a
+     file. Then you can use the Import-Clixml cmdlet to re-create the instance of the object from the information that is stored in the exported file.
+
+    Beginning in Windows PowerShell 3.0, Add-Member has new features that make it easier to add note properties to objects. You can use the NotePropertyName and NotePro
+    pertyValue parameters to define a note property or use the NotePropertyMembers parameter, which takes a hash table of note property names and values.
+
+    Also, beginning in Windows PowerShell 3.0, the PassThru parameter, which generates an output object, is needed less frequently. Add-Member now adds the new members
+    directly to the input object of more types. For more information, see the PassThru parameter description.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821748
+    Export-Clixml
+    Get-Member
+    Import-Clixml
+    New-Object
+
+REMARKS
+    To see the examples, type: "get-help Add-Member -examples".
+    For more information, type: "get-help Add-Member -detailed".
+    For technical information, type: "get-help Add-Member -full".
+    For online help, type: "get-help Add-Member -online"
+
+
