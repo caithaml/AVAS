@@ -1,0 +1,865 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170911094700
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16281.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.2' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\logs\1505113584-66b26f5b-06d4-4e86-8161-5f93a35bb4c71505113551871\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\sessions\PSES-VSCode-12088-400931' -FeatureFlags @()
+Process ID: 13108
+PSVersion: 5.1.16281.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16281.1000
+BuildVersion: 10.0.16281.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./funkce-transcript2017-09-11-09-47-00.txt
+18944000
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+
+value               DateTime
+-----               --------
+22.12.2016 0:00:00  čtvrtek 22. prosince 2016 1:00:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MICA
+420
+07.09.2017 13:38:19 čtvrtek 7. září 2017 15:38:19
+00000409
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNTAX
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Tim
+    e | DateTime}] [-Format <string>]  [<CommonParameters>]
+
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Tim
+    e | DateTime}] [-UFormat <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Date -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113313.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./funkce-transcript2017-09-11-09-50-53.txt
+09/11/2017 09:50:59 Active DC
+09/11/2017 09:50:59 Allow deviceclasses
+09/11/2017 09:50:59 Allow deviceids
+09/11/2017 09:50:59 app log lenght
+18944000
+09/11/2017 09:50:59 applocker
+09/11/2017 09:50:59 bios
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+09/11/2017 09:50:59 bios datum
+
+09/11/2017 09:50:59 bitlocker
+09/11/2017 09:50:59 root certifikaty
+09/11/2017 09:50:59 PC nazev
+09/11/2017 09:50:59 zeme - lokalizace
+09/11/2017 09:50:59 default locale
+09/11/2017 09:50:59 deny device class
+09/11/2017 09:50:59 deny devices ID
+value              DateTime
+-----              --------
+22.12.2016 0:00:00 čtvrtek 22. prosince 2016 1:00:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MICA
+420
+00000409
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./funkce-transcript2017-09-11-09-51-59.txt
+09/11/2017 09:52:05 Active DC
+09/11/2017 09:52:05 Allow deviceclasses
+09/11/2017 09:52:05 Allow deviceids
+09/11/2017 09:52:05 app log lenght
+18944000
+09/11/2017 09:52:05 applocker
+09/11/2017 09:52:05 bios
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+09/11/2017 09:52:05 bios datum
+
+09/11/2017 09:52:05 bitlocker
+09/11/2017 09:52:05 root certifikaty
+09/11/2017 09:52:05 PC nazev
+09/11/2017 09:52:05 zeme - lokalizace
+09/11/2017 09:52:05 default locale
+09/11/2017 09:52:05 deny device class
+09/11/2017 09:52:05 deny devices ID
+ @{ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=09/05/2017 06:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}.Deny_DeviceIDs
+value              DateTime
+-----              --------
+22.12.2016 0:00:00 čtvrtek 22. prosince 2016 1:00:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MICA
+420
+00000409
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./funkce-transcript2017-09-11-09-52-23.txt
+09/11/2017 09:52:28 Active DC
+09/11/2017 09:52:28 Allow deviceclasses
+09/11/2017 09:52:28 Allow deviceids
+09/11/2017 09:52:28 app log lenght
+18944000
+09/11/2017 09:52:28 applocker
+09/11/2017 09:52:28 bios
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+09/11/2017 09:52:28 bios datum
+
+09/11/2017 09:52:28 bitlocker
+09/11/2017 09:52:28 root certifikaty
+09/11/2017 09:52:28 PC nazev
+09/11/2017 09:52:28 zeme - lokalizace
+09/11/2017 09:52:28 default locale
+09/11/2017 09:52:28 deny device class
+09/11/2017 09:52:28 deny devices ID
+ (@{ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=09/05/2017 06:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}.Deny_DeviceIDs)
+value              DateTime
+-----              --------
+22.12.2016 0:00:00 čtvrtek 22. prosince 2016 1:00:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MICA
+420
+00000409
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="json.Deny_DeviceIDs"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="json.Deny_DeviceIDs"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="json.Deny_DeviceIDs""
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="json.Deny_DeviceIDs""
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="json.Deny_DeviceIDs""
