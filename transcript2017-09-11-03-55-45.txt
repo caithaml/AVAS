@@ -928,3 +928,55 @@ computerName                   DESKTOP-V056PHL
 instanceId                     7ca19791-a655-451d-a13f-fc67e93ba3c4
 
 
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-11-04-26-37.txt
+09/11/2017 16:26:37 - Nacitani json konfiguracniho souboru
+09/11/2017 16:26:49 - Dokonce nacitani json konfiguracniho souboru
+09/11/2017 16:26:49 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
+09/11/2017 16:26:49 - ukonceno zjistovani zda je uzivatel admin
+09/11/2017 16:26:49 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/11/2017 16:26:49 - Nacitam GUI
+09/11/2017 16:26:49 Probiha nacitani GUI
+09/11/2017 16:27:09 GUI bylo nacteno
+09/11/2017 16:27:09 Okno aplikace bylo uspesne nacteno
+09/11/2017 16:27:09 Okno aplikace bylo uspesne zavreno
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      25640
+computerName                   DESKTOP-V056PHL
+instanceId                     7ca19791-a655-451d-a13f-fc67e93ba3c4
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-11-04-34-29.txt
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At C:\avas\hotfixy.ps1:6 char:60
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At C:\avas\hotfixy.ps1:6 char:60
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      25640
+computerName                   DESKTOP-V056PHL
+instanceId                     7ca19791-a655-451d-a13f-fc67e93ba3c4
+
+
