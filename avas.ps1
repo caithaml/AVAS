@@ -1062,3 +1062,4 @@ Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne nacteno"
 
 
 Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne zavreno";
+

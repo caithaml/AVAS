@@ -510,3 +510,4 @@ $hash
 
 $hash | ConvertTo-Json | Out-File "hash_luka.json"
 #$hash | Export-Clixml | Out-File "clixml.xml"
+$hash | Out-File -Path "./hash$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
