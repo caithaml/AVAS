@@ -41,4 +41,5 @@ Write-Host -Object "$(Get-Date) deny device class"
 $json.Deny_DeviceClasses
 
 Write-Host -Object "$(Get-Date) deny devices ID"
-Write-Host -Object " ($json.Deny_DeviceIDs)"
+Write-Host -Object "$(json.Deny_DeviceIDs)"
+

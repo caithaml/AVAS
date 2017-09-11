@@ -507,3 +507,2195 @@ PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
 PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
 >> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
 >> ParameterBinding(Get-Command): name="Name"; value="json.Deny_DeviceIDs""
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="¨$default="
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="¨$default="
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="¨$default="
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Defrag.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     Defrag.exe                                         10.0.16... C:\Windows\system32\Defrag.exe
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="def="
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="def="
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="def="
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Confirm-SecureBootUEFI"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Confirm-SecureBootUEFI                             2.0.0.0    SecureBoot
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Confirm-SecureBootUEFI"
+
+NAME
+    Confirm-SecureBootUEFI
+
+SYNTAX
+    Confirm-SecureBootUEFI  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Windowsfeature"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-HotFix"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-HotFix                                         3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-HotFix"
+
+NAME
+    Get-HotFix
+
+SYNTAX
+    Get-HotFix [[-Id] <string[]>] [-ComputerName <string[]>] [-Credential <pscredential>]  [<CommonParameters>]
+
+    Get-HotFix [-Description <string[]>] [-ComputerName <string[]>] [-Credential <pscredential>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-HotFix -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135217.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="inetcpl.cpl"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     inetcpl.cpl                                        11.0.16... C:\Windows\system32\inetcpl.cpl
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Install-Dtc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Install-Dtc                                        1.0.0.0    MsDtc
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Install-Dtc"
+
+NAME
+    Install-Dtc
+
+SYNTAX
+    Install-Dtc [-LogPath <string>] [-StartType {BootStart | SystemStart | AutoStart | DemandStart | Disabled}] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-As
+    Job]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Install-Dtc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Install-Dtc                                        1.0.0.0    MsDtc
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Install-Dtc"
+
+NAME
+    Install-Dtc
+
+SYNTAX
+    Install-Dtc [-LogPath <string>] [-StartType {BootStart | SystemStart | AutoStart | DemandStart | Disabled}] [-CimSession <CimSession[]>] [-ThrottleLimit <int>] [-As
+    Job]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="function"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="function"
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Object"
+
+NAME
+    Compare-Object
+
+SYNTAX
+    Compare-Object [-ReferenceObject] <psobject[]> [-DifferenceObject] <psobject[]> [-SyncWindow <int>] [-Property <Object[]>] [-ExcludeDifferent] [-IncludeEqual] [-Pas
+    sThru] [-Culture <string>] [-CaseSensitive]  [<CommonParameters>]
+
+
+ALIASES
+    compare
+    diff
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Compare-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113286.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Configuration"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Configuration                                      1.1        PSDesiredStateConfiguration
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Configuration"
+
+NAME
+    Configuration
+
+SYNTAX
+    Configuration [[-ResourceModuleTuplesToImport] <List[Tuple[string[],ModuleSpecification[],version]]>] [[-OutputPath] <Object>] [[-Name] <Object>] [[-Body] <scriptbl
+    ock>] [[-ArgsToBody] <hashtable>] [[-ConfigurationData] <hashtable>] [[-InstanceName] <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Configuration -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=517195.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-Path"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-Path                                       3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-Path"
+
+NAME
+    Convert-Path
+
+SYNTAX
+    Convert-Path [-Path] <string[]> [-UseTransaction]  [<CommonParameters>]
+
+    Convert-Path -LiteralPath <string[]> [-UseTransaction]  [<CommonParameters>]
+
+
+ALIASES
+    cvpa
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-Path -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113289.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-Path"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-Path                                       3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-Path"
+
+NAME
+    Convert-Path
+
+SYNTAX
+    Convert-Path [-Path] <string[]> [-UseTransaction]  [<CommonParameters>]
+
+    Convert-Path -LiteralPath <string[]> [-UseTransaction]  [<CommonParameters>]
+
+
+ALIASES
+    cvpa
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-Path -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113289.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-Path"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-Path                                       3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-Path"
+
+NAME
+    Convert-Path
+
+SYNTAX
+    Convert-Path [-Path] <string[]> [-UseTransaction]  [<CommonParameters>]
+
+    Convert-Path -LiteralPath <string[]> [-UseTransaction]  [<CommonParameters>]
+
+
+ALIASES
+    cvpa
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-Path -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113289.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Convert-String"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Convert-String                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Convert-String"
+
+NAME
+    Convert-String
+
+SYNTAX
+    Convert-String -InputObject <string> [-Example <List[psobject]>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Convert-String -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkId=528577.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-CIPolicy"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-CIPolicy                               1.0        ConfigCI
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-CIPolicy"
+
+NAME
+    ConvertFrom-CIPolicy
+
+SYNTAX
+    ConvertFrom-CIPolicy [-XmlFilePath] <string> [-BinaryFilePath] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Csv                                    3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Csv"
+
+NAME
+    ConvertFrom-Csv
+
+SYNTAX
+    ConvertFrom-Csv [-InputObject] <psobject[]> [[-Delimiter] <char>] [-Header <string[]>]  [<CommonParameters>]
+
+    ConvertFrom-Csv [-InputObject] <psobject[]> -UseCulture [-Header <string[]>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Csv -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=135201.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Cred
+    ential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32
+     | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [
+    -Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 |
+    UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="h"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           h -> Get-History
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="hotfixcompare"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        hotfixcompare
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="hotfixcompare"
+
+NAME
+    hotfixcompare
+
+SYNTAX
+    hotfixcompare [[-default] <Object>] [[-installed] <Object>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+HotFixID SideIndicator
+-------- -------------
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+         <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+ProcessName SideIndicator
+----------- -------------
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+            <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Property"
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+InputObject
+-----------
+@{CanPauseAndContinue=False; CanShutdown=True; CanStop=True; DisplayName=Windows Remote Management (WS-Management); DependentServices=; MachineName=.; ServiceName=Wi...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Windows Insider Service; DependentServices=; MachineName=.; ServiceName=wisvc; ServicesDep...
+@{CanPauseAndContinue=False; CanShutdown=True; CanStop=True; DisplayName=WLAN AutoConfig; DependentServices=; MachineName=.; ServiceName=WlanSvc; ServicesDependedOn=...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Microsoft Account Sign-in Assistant; DependentServices=; MachineName=.; ServiceName=wlidsv...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=LPA Service; DependentServices=; MachineName=.; ServiceName=wlpasvc; ServicesDependedOn=Rp...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=WMI Performance Adapter; DependentServices=; MachineName=.; ServiceName=wmiApSrv; Services...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Portable Device Enumerator Service; DependentServices=; MachineName=.; ServiceName=WPDBusE...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=True; DisplayName=Windows Push Notifications System Service; DependentServices=; MachineName=.; ServiceName=W...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=True; DisplayName=Windows Push Notifications User Service_46504; DependentServices=; MachineName=.; ServiceNa...
+@{CanPauseAndContinue=False; CanShutdown=True; CanStop=True; DisplayName=Security Center; DependentServices=; MachineName=.; ServiceName=wscsvc; ServicesDependedOn=R...
+@{CanPauseAndContinue=False; CanShutdown=True; CanStop=True; DisplayName=Windows Search; DependentServices=; MachineName=.; ServiceName=WSearch; ServicesDependedOn=R...
+@{CanPauseAndContinue=False; CanShutdown=True; CanStop=True; DisplayName=Windows Update; DependentServices=; MachineName=.; ServiceName=wuauserv; ServicesDependedOn=...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Windows Driver Foundation - User-mode Driver Framework; DependentServices=WbioSrvc SCardSv...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=WWAN AutoConfig; DependentServices=wlpasvc; MachineName=.; ServiceName=WwanSvc; ServicesDe...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Xbox Game Monitoring; DependentServices=; MachineName=.; ServiceName=xbgm; ServicesDepende...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Xbox Live Auth Manager; DependentServices=XblGameSave xbgm; MachineName=.; ServiceName=Xbl...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Xbox Live Game Save; DependentServices=; MachineName=.; ServiceName=XblGameSave; ServicesD...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Xbox Accessory Management Service; DependentServices=; MachineName=.; ServiceName=XboxGipS...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Xbox Live Networking Service; DependentServices=; MachineName=.; ServiceName=XboxNetApiSvc...
+@{CanPauseAndContinue=False; CanShutdown=False; CanStop=True; DisplayName=Intel(R) PROSet/Wireless Zero Configuration Service; DependentServices=; MachineName=.; Ser...
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Defa
+    ult | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <S
+    tring>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | U
+    TF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String
+    >] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <s
+    witch>] [-Stream <string>] [-Wait] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and r
+    eturns a collection of objects, each of which represents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to an
+    other file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, typ
+    e "Get-Help Get-Content -Path $null" or see Get-Content at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Defa
+    ult | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <S
+    tring>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | U
+    TF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String
+    >] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <s
+    witch>] [-Stream <string>] [-Wait] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and r
+    eturns a collection of objects, each of which represents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to an
+    other file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, typ
+    e "Get-Help Get-Content -Path $null" or see Get-Content at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Defa
+    ult | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <S
+    tring>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | U
+    TF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String
+    >] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <s
+    witch>] [-Stream <string>] [-Wait] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and r
+    eturns a collection of objects, each of which represents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to an
+    other file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, typ
+    e "Get-Help Get-Content -Path $null" or see Get-Content at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> c:\avas\sluzby.ps1
+At C:\avas\sluzby.ps1:5 char:128
++ ... nstalled  -Property DisplayName | Where $_.SideIndicator â€“eq "=>" |
++                                                                       ~~~
+The string is missing the terminator: ".
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Group-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Group-Object                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Group-Object"
+
+NAME
+    Group-Object
+
+SYNOPSIS
+    Groups objects that contain the same value for specified properties.
+
+
+SYNTAX
+    Group-Object [[-Property] <Object[]>] [-AsHashTable] [-AsString] [-CaseSensitive] [-Culture <String>] [-InputObject <PSObject>] [-NoElement] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Group-Object cmdlet displays objects in groups based on the value of a specified property. Group-Object returns a table with one row for each property value and
+     a column that displays the number of items with that value.
+
+    If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the va
+    lue of the next property.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821810
+    Compare-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Group-Object -examples".
+    For more information, type: "get-help Group-Object -detailed".
+    For technical information, type: "get-help Group-Object -full".
+    For online help, type: "get-help Group-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Group-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Group-Object                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Group-Object"
+
+NAME
+    Group-Object
+
+SYNOPSIS
+    Groups objects that contain the same value for specified properties.
+
+
+SYNTAX
+    Group-Object [[-Property] <Object[]>] [-AsHashTable] [-AsString] [-CaseSensitive] [-Culture <String>] [-InputObject <PSObject>] [-NoElement] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Group-Object cmdlet displays objects in groups based on the value of a specified property. Group-Object returns a table with one row for each property value and
+     a column that displays the number of items with that value.
+
+    If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the va
+    lue of the next property.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821810
+    Compare-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Group-Object -examples".
+    For more information, type: "get-help Group-Object -detailed".
+    For technical information, type: "get-help Group-Object -full".
+    For online help, type: "get-help Group-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Group-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Group-Object                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Group-Object"
+
+NAME
+    Group-Object
+
+SYNOPSIS
+    Groups objects that contain the same value for specified properties.
+
+
+SYNTAX
+    Group-Object [[-Property] <Object[]>] [-AsHashTable] [-AsString] [-CaseSensitive] [-Culture <String>] [-InputObject <PSObject>] [-NoElement] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Group-Object cmdlet displays objects in groups based on the value of a specified property. Group-Object returns a table with one row for each property value and
+     a column that displays the number of items with that value.
+
+    If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the va
+    lue of the next property.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821810
+    Compare-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Group-Object -examples".
+    For more information, type: "get-help Group-Object -detailed".
+    For technical information, type: "get-help Group-Object -full".
+    For online help, type: "get-help Group-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Group-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Group-Object                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Group-Object"
+
+NAME
+    Group-Object
+
+SYNOPSIS
+    Groups objects that contain the same value for specified properties.
+
+
+SYNTAX
+    Group-Object [[-Property] <Object[]>] [-AsHashTable] [-AsString] [-CaseSensitive] [-Culture <String>] [-InputObject <PSObject>] [-NoElement] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Group-Object cmdlet displays objects in groups based on the value of a specified property. Group-Object returns a table with one row for each property value and
+     a column that displays the number of items with that value.
+
+    If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the va
+    lue of the next property.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821810
+    Compare-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Group-Object -examples".
+    For more information, type: "get-help Group-Object -detailed".
+    For technical information, type: "get-help Group-Object -full".
+    For online help, type: "get-help Group-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Select"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           select -> Select-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Select"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           select -> Select-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Select"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           select -> Select-Object
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> c:\avas\sluzby.ps1
+At C:\avas\sluzby.ps1:5 char:128
++ ... nstalled  -Property DisplayName | Where $_.SideIndicator â€“eq "=>" |
++                                                                       ~~~
+The string is missing the terminator: ".
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="w32tm.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     w32tm.exe                                          10.0.16... C:\Windows\system32\w32tm.exe
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Group-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Group-Object                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Group-Object"
+
+NAME
+    Group-Object
+
+SYNOPSIS
+    Groups objects that contain the same value for specified properties.
+
+
+SYNTAX
+    Group-Object [[-Property] <Object[]>] [-AsHashTable] [-AsString] [-CaseSensitive] [-Culture <String>] [-InputObject <PSObject>] [-NoElement] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Group-Object cmdlet displays objects in groups based on the value of a specified property. Group-Object returns a table with one row for each property value and
+     a column that displays the number of items with that value.
+
+    If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the va
+    lue of the next property.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821810
+    Compare-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Group-Object -examples".
+    For more information, type: "get-help Group-Object -detailed".
+    For technical information, type: "get-help Group-Object -full".
+    For online help, type: "get-help Group-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Group-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Group-Object                                       3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Group-Object"
+
+NAME
+    Group-Object
+
+SYNOPSIS
+    Groups objects that contain the same value for specified properties.
+
+
+SYNTAX
+    Group-Object [[-Property] <Object[]>] [-AsHashTable] [-AsString] [-CaseSensitive] [-Culture <String>] [-InputObject <PSObject>] [-NoElement] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Group-Object cmdlet displays objects in groups based on the value of a specified property. Group-Object returns a table with one row for each property value and
+     a column that displays the number of items with that value.
+
+    If you specify more than one property, Group-Object first groups them by the values of the first property, and then, within each property group, it groups by the va
+    lue of the next property.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821810
+    Compare-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Group-Object -examples".
+    For more information, type: "get-help Group-Object -detailed".
+    For technical information, type: "get-help Group-Object -full".
+    For online help, type: "get-help Group-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="where"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           where -> Where-Object
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Object"
+
+NAME
+    Compare-Object
+
+SYNOPSIS
+    Compares two sets of objects.
+
+
+SYNTAX
+    Compare-Object [-ReferenceObject] <PSObject[]> [-DifferenceObject] <PSObject[]> [-CaseSensitive] [-Culture <String>] [-ExcludeDifferent] [-IncludeEqual] [-PassThru]
+     [-Property <Object[]>] [-SyncWindow <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Compare-Object cmdlet compares two sets of objects. One set of objects is the "reference set," and the other set is the "difference set."
+
+    The result of the comparison indicates whether a property value appeared only in the object from the reference set (indicated by the <= symbol), only in the object
+    from the difference set (indicated by the => symbol) or, if the IncludeEqual parameter is specified, in both objects (indicated by the == symbol).
+
+    If the reference set or the difference set is null ($null), this cmdlet generates a terminating error.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821751
+    Group-Object
+    Measure-Object
+    New-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help Compare-Object -examples".
+    For more information, type: "get-help Compare-Object -detailed".
+    For technical information, type: "get-help Compare-Object -full".
+    For online help, type: "get-help Compare-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> $vysledek
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13108
+computerName                   DESKTOP-V056PHL
+instanceId                     c8d8b270-7ee8-4246-92d3-e3e1235729a1
+
+
