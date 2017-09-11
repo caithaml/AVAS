@@ -1,3 +1,5 @@
+Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+ 
  param (     [string] $log = "",
             [switch] $fullreport = $false)
   
