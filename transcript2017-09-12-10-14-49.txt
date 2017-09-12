@@ -199,3 +199,135 @@ computerName                   DESKTOP-V056PHL
 instanceId                     5b2c0968-e524-4e98-9d3a-0ce301726e5f
 
 
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNOPSIS
+    Converts a JSON-formatted string to a custom object.
+
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The ConvertFrom-Json cmdlet converts a JavaScript Object Notation (JSON) formatted string to a custom PSCustomObject object that has a property for each field in th
+    e JSON string. JSON is commonly used by web sites to provide a textual representation of objects.
+
+    To generate a JSON string from any object, use the ConvertTo-Json cmdlet.
+
+    This cmdlet was introduced in Windows PowerShell 3.0.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821753
+    An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET http://msdn.microsoft.com/en-us/library/bb299886.aspx
+    ConvertTo-Json
+    Invoke-WebRequest
+    Invoke-RestMethod
+
+REMARKS
+    To see the examples, type: "get-help ConvertFrom-Json -examples".
+    For more information, type: "get-help ConvertFrom-Json -detailed".
+    For technical information, type: "get-help ConvertFrom-Json -full".
+    For online help, type: "get-help ConvertFrom-Json -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Write-Host"
+
+NAME
+    Write-Host
+
+SYNOPSIS
+    Writes customized output to a host.
+
+
+SYNTAX
+    Write-Host [[-Object] <Object>] [-BackgroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gray | DarkGray | Blue | Green | C
+    yan | Red | Magenta | Yellow | White}] [-ForegroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gray | DarkGray | Blue | Gr
+    een | Cyan | Red | Magenta | Yellow | White}] [-NoNewline] [-Separator <Object>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Write-Host cmdlet customizes output. You can specify the color of text by using the ForegroundColor parameter, and you can specify the background color by using
+     the BackgroundColor parameter. The Separator parameter lets you specify a string to use to separate displayed objects. The particular result depends on the program
+     that is hosting Windows PowerShell.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821876
+    Clear-Host
+    Write-Debug
+    Write-Error
+    Write-Output
+    Write-Progress
+    Write-Verbose
+    Write-Warning
+
+REMARKS
+    To see the examples, type: "get-help Write-Host -examples".
+    For more information, type: "get-help Write-Host -detailed".
+    For technical information, type: "get-help Write-Host -full".
+    For online help, type: "get-help Write-Host -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Object"
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-12-10-21-11.txt
+09/12/2017 10:21:11 - Nacitani json konfiguracniho souboru
+09/12/2017 10:21:16 - Dokonce nacitani json konfiguracniho souboru
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      3108
+computerName                   DESKTOP-V056PHL
+instanceId                     5b2c0968-e524-4e98-9d3a-0ce301726e5f
+
+
