@@ -1,3 +1,5 @@
+Start-Transcript -Path "./transcriptporovnejapp$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+
 $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json  
 $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json  
 	
@@ -32,4 +34,4 @@ $Diff = ForEach ($line1 in $app)
 $Diff | select DisplayName, DisplayVersion, Publisher 
 $Diff
 $Diff | Format-List
-$Diff | Out-GridView
+#$Diff | Out-GridView

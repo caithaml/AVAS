@@ -69,7 +69,7 @@ $json.WIN_Dir
 $json.RAM_Free
 $json.RAM_Total
 
-Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+
 
 
  
@@ -94,12 +94,14 @@ function compareHotfixes ($fobjColl, $fullreport){
                     $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
                     $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "Missing"
                     $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "OK"
-               } 
+               }
+
                "<=" {
                     $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
                     $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "OK"
                     $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "Missing"
                } 
+
                "==" {
                     $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
                     $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "OK"
@@ -114,10 +116,9 @@ function compareHotfixes ($fobjColl, $fullreport){
      writelog 1 "[done]" "extend"
 }
  
-##################################################### Body #####################################################
+##################################################### porovnani #####################################################
  
 
- 
 $hostlist = @($Input)
 $objColl = $script:ReturnObjColl = @()
 $hostlistlength = $hostlist.length
