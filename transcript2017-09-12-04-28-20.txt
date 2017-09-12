@@ -1,0 +1,608 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170912162820
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16353.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.2' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\logs\1505222757-4186a34b-a61e-4ef1-b866-10bb0d6bb4361505222746696\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\sessions\PSES-VSCode-8032-329842' -FeatureFlags @()
+Process ID: 16324
+PSVersion: 5.1.16353.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16353.1000
+BuildVersion: 10.0.16353.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-12-04-28-20.txt
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+Where-Object : Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that
+ is not null or empty, and then try the command again.
+At C:\avas\sluzby.ps1:7 char:112
++ ... ct $installed  -Property DisplayName | where $_.SideIndicator -EQ "=> ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Where-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WhereObjectCommand
+Export-Csv : Cannot bind argument to parameter 'InputObject' because it is null.
+At C:\avas\sluzby.ps1:10 char:13
++ $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Export-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ExportCsvComm
+and
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+Where-Object : Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command
+again.
+At C:\avas\sluzby.ps1:7 char:112
++ ... ct $installed  -Property DisplayName | where $_.SideIndicator -EQ "=> ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Where-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WhereObjectCommand
+
+Export-Csv : Cannot bind argument to parameter 'InputObject' because it is null.
+At C:\avas\sluzby.ps1:10 char:13
++ $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Export-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      16324
+computerName                   DESKTOP-V056PHL
+instanceId                     629f5bf8-7b37-4ac2-b498-8ee545aa3140
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-M
+    onth <Int32>] [-Second <Int32>] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Sec
+    ond <Int32>] [-UFormat <String>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX
+    formats. You can use Get-Date to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-12-04-28-28.txt
+
+PS C:\avas> TerminatingError(Where-Object): "Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+Where-Object : Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that
+ is not null or empty, and then try the command again.
+At C:\avas\sluzby.ps1:7 char:112
++ ... ct $installed  -Property DisplayName | where $_.SideIndicator -EQ "=> ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Where-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WhereObjectCommand
+Export-Csv : Cannot bind argument to parameter 'InputObject' because it is null.
+At C:\avas\sluzby.ps1:10 char:13
++ $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Export-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ExportCsvComm
+and
+DisplayName                                                           SideIndicator
+-----------                                                           -------------
+AssignedAccessManager Service                                         =>
+Capability Access Manager Service                                     =>
+Connected Devices Platform User Service_3477b                         =>
+DevicesFlow_3477b                                                     =>
+Diagnostic Execution Service                                          =>
+Fax                                                                   =>
+GraphicsPerfSvc                                                       =>
+Služba Aktualizace Google (gupdate)                                   =>
+Služba Aktualizace Google (gupdatem)                                  =>
+Windows Store Install Service                                         =>
+MessagingService_3477b                                                =>
+Mozilla Maintenance Service                                           =>
+Windows Defender Firewall                                             =>
+NVIDIA Display Container LS                                           =>
+Sync Host_3477b                                                       =>
+Contact Data_3477b                                                    =>
+PrintWorkflow_3477b                                                   =>
+Windows PushToInstall Service                                         =>
+Spatial Data Service                                                  =>
+Web Account Manager                                                   =>
+User Data Storage_3477b                                               =>
+User Data Access_3477b                                                =>
+WarpJITSvc                                                            =>
+Local Profile Assistant Service                                       =>
+Windows Media Player Network Sharing Service                          =>
+Work Folders                                                          =>
+Windows Push Notifications User Service_3477b                         =>
+Adobe Acrobat Update Service                                          <=
+Microsoft Monitoring Agent Audit Forwarding                           <=
+Connected Devices Platform User Service_46504                         <=
+DevicesFlow_46504                                                     <=
+Intel(R) PROSet/Wireless Event Log                                    <=
+Windows Presentation Foundation Font Cache 3.0.0.0                    <=
+Google Update Service (gupdate)                                       <=
+Google Update Service (gupdatem)                                      <=
+Microsoft Monitoring Agent                                            <=
+Host Network Service                                                  <=
+HomeGroup Listener                                                    <=
+Intel(R) Rapid Storage Technology                                     <=
+Intel Bluetooth Service                                               <=
+Intel(R) HD Graphics Control Panel Service                            <=
+Intel(R) Capability Licensing Service TCP IP Interface                <=
+Intel(R) PROSet Monitoring Service                                    <=
+Intel(R) Security Assist                                              <=
+Windows Phone IP over USB Transport (IpOverUsbSvc)                    <=
+Intel(R) Security Assist Helper                                       <=
+Intel(R) Dynamic Application Loader Host Interface Service            <=
+Intel(R) Management and Security Application Local Management Service <=
+MessagingService_46504                                                <=
+Microsoft Dependency Agent                                            <=
+Windows Firewall                                                      <=
+Wireless PAN DHCP Server                                              <=
+Net Driver HPZ12                                                      <=
+Sync Host_46504                                                       <=
+Contact Data_46504                                                    <=
+Pml Driver HPZ12                                                      <=
+Intel(R) PROSet/Wireless Registry Service                             <=
+Realtek Audio Service                                                 <=
+Sandboxie Service                                                     <=
+Skype Updater                                                         <=
+SQL Server VSS Writer                                                 <=
+TeamViewer 12                                                         <=
+TokenBroker                                                           <=
+User Data Storage_46504                                               <=
+User Data Access_46504                                                <=
+Unified Write Filter Servicing Helper Service                         <=
+Veeam Agent for Microsoft Windows                                     <=
+Hyper-V Host Compute Service                                          <=
+Hyper-V Virtual Machine Management                                    <=
+VMware USB Arbitration Service                                        <=
+LPA Service                                                           <=
+Windows Push Notifications User Service_46504                         <=
+Windows Driver Foundation - User-mode Driver Framework                <=
+Intel(R) PROSet/Wireless Zero Configuration Service                   <=
+Where-Object : Cannot validate argument on parameter 'Property'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command
+again.
+At C:\avas\sluzby.ps1:7 char:112
++ ... ct $installed  -Property DisplayName | where $_.SideIndicator -EQ "=> ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Where-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WhereObjectCommand
+
+Export-Csv : Cannot bind argument to parameter 'InputObject' because it is null.
+At C:\avas\sluzby.ps1:10 char:13
++ $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Export-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      16324
+computerName                   DESKTOP-V056PHL
+instanceId                     629f5bf8-7b37-4ac2-b498-8ee545aa3140
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNOPSIS
+    Creates an instance of a Microsoft .NET Framework or COM object.
+
+
+SYNTAX
+    New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>] [<CommonParameters>]
+
+    New-Object [-ComObject] <String> [-Property <IDictionary>] [-Strict] [<CommonParameters>]
+
+
+DESCRIPTION
+    The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+
+    You can specify either the type of a .NET Framework class or a ProgID of a COM object. By default, you type the fully qualified name of a .NET Framework class and t
+    he cmdlet returns a reference to an instance of that class. To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object
+    as its value.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821835
+    Compare-Object
+    Group-Object
+    Measure-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help New-Object -examples".
+    For more information, type: "get-help New-Object -detailed".
+    For technical information, type: "get-help New-Object -full".
+    For online help, type: "get-help New-Object -online"
+
+
+PS C:\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-12-04-28-39.txt
+09/12/2017 16:28:39 - Nacitani json konfiguracniho souboru
+09/12/2017 16:28:43 - Dokonce nacitani json konfiguracniho souboru
+09/12/2017 16:28:43 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
+09/12/2017 16:28:43 - ukonceno zjistovani zda je uzivatel admin
+09/12/2017 16:28:43 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/12/2017 16:28:43 - Nacitam GUI
+09/12/2017 16:28:43 Probiha nacitani GUI
+09/12/2017 16:28:51 GUI bylo nacteno
+09/12/2017 16:28:51 Okno aplikace bylo uspesne nacteno
+09/12/2017 16:28:51 Okno aplikace bylo uspesne zavreno
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      16324
+computerName                   DESKTOP-V056PHL
+instanceId                     629f5bf8-7b37-4ac2-b498-8ee545aa3140
+
+
+PS C:\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS C:\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNOPSIS
+    Creates an instance of a Microsoft .NET Framework or COM object.
+
+
+SYNTAX
+    New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>] [<CommonParameters>]
+
+    New-Object [-ComObject] <String> [-Property <IDictionary>] [-Strict] [<CommonParameters>]
+
+
+DESCRIPTION
+    The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+
+    You can specify either the type of a .NET Framework class or a ProgID of a COM object. By default, you type the fully qualified name of a .NET Framework class and t
+    he cmdlet returns a reference to an instance of that class. To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object
+    as its value.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821835
+    Compare-Object
+    Group-Object
+    Measure-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help New-Object -examples".
+    For more information, type: "get-help New-Object -detailed".
+    For technical information, type: "get-help New-Object -full".
+    For online help, type: "get-help New-Object -online"
+
+
