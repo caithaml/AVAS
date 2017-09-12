@@ -7,3 +7,5 @@ Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property
 
 $hotfixy=$def.Hotfixes
 $hotfixy2=$inst.Hotfixes
+$hotfixy
+$hotfixy2
