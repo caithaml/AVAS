@@ -7,5 +7,5 @@ Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property
 $vysledek=Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property DisplayName | where $_.SideIndicator -EQ "=>"
 #$vysledek
 $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).txt
-$vysledek | Export-Csv "./sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).csv"
+$vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).csv
 $vysledek
