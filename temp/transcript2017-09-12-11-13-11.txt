@@ -1,0 +1,155 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170912111311
+Username: DESKTOP-V056PHL\lukas
+RunAs User: DESKTOP-V056PHL\lukas
+Configuration Name: 
+Machine: DESKTOP-V056PHL (Microsoft Windows NT 10.0.16353.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.2' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\logs\1505207007-760bc1d3-5368-4017-bb5c-f396864f531c1505206960957\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.2\sessions\PSES-VSCode-8344-403728' -FeatureFlags @()
+Process ID: 9440
+PSVersion: 5.1.16353.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16353.1000
+BuildVersion: 10.0.16353.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-12-11-13-11.txt
+PS C:\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At C:\avas\hotfixy.ps1:6 char:60
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At C:\avas\hotfixy.ps1:6 char:60
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+
+Scope               : System.Management.ManagementScope
+Path                : \\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4022405",ServicePackInEffect=""
+Options             : System.Management.ObjectGetOptions
+ClassPath           : \\MICA\root\cimv2:Win32_QuickFixEngineering
+Properties          : System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Prop
+                      ertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                      ment.PropertyData System.Management.PropertyData
+SystemProperties    : System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Prop
+                      ertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                      ment.PropertyData
+Qualifiers          : System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData
+Site                :
+Container           :
+PSComputerName      : MICA
+InstalledOn         : @{value=13.06.2017 22:00:00; DateTime=středa 14. června 2017 0:00:00}
+__GENUS             : 2
+__CLASS             : Win32_QuickFixEngineering
+__SUPERCLASS        : CIM_LogicalElement
+__DYNASTY           : CIM_ManagedSystemElement
+__RELPATH           : Win32_QuickFixEngineering.HotFixID="KB4022405",ServicePackInEffect=""
+__PROPERTY_COUNT    : 11
+__DERIVATION        : CIM_LogicalElement CIM_ManagedSystemElement
+__SERVER            : MICA
+__NAMESPACE         : root\cimv2
+__PATH              : \\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4022405",ServicePackInEffect=""
+Caption             : http://support.microsoft.com/?kbid=4022405
+CSName              : MICA
+Description         : Update
+FixComments         :
+HotFixID            : KB4022405
+InstallDate         :
+InstalledBy         : NT AUTHORITY\SYSTEM
+Name                :
+ServicePackInEffect :
+Status              :
+
+Scope               : System.Management.ManagementScope
+Path                : \\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4034662",ServicePackInEffect=""
+Options             : System.Management.ObjectGetOptions
+ClassPath           : \\MICA\root\cimv2:Win32_QuickFixEngineering
+Properties          : System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Prop
+                      ertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                      ment.PropertyData System.Management.PropertyData
+SystemProperties    : System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Prop
+                      ertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                      ment.PropertyData
+Qualifiers          : System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData
+Site                :
+Container           :
+PSComputerName      : MICA
+InstalledOn         : @{value=09.08.2017 22:00:00; DateTime=čtvrtek 10. srpna 2017 0:00:00}
+__GENUS             : 2
+__CLASS             : Win32_QuickFixEngineering
+__SUPERCLASS        : CIM_LogicalElement
+__DYNASTY           : CIM_ManagedSystemElement
+__RELPATH           : Win32_QuickFixEngineering.HotFixID="KB4034662",ServicePackInEffect=""
+__PROPERTY_COUNT    : 11
+__DERIVATION        : CIM_LogicalElement CIM_ManagedSystemElement
+__SERVER            : MICA
+__NAMESPACE         : root\cimv2
+__PATH              : \\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4034662",ServicePackInEffect=""
+Caption             : http://support.microsoft.com/?kbid=4034662
+CSName              : MICA
+Description         : Security Update
+FixComments         :
+HotFixID            : KB4034662
+InstallDate         :
+InstalledBy         : NT AUTHORITY\SYSTEM
+Name                :
+ServicePackInEffect :
+Status              :
+
+Scope               : System.Management.ManagementScope
+Path                : \\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4034674",ServicePackInEffect=""
+Options             : System.Management.ObjectGetOptions
+ClassPath           : \\MICA\root\cimv2:Win32_QuickFixEngineering
+Properties          : System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Prop
+                      ertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                      ment.PropertyData System.Management.PropertyData
+SystemProperties    : System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Prop
+                      ertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                      ment.PropertyData
+Qualifiers          : System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData
+Site                :
+Container           :
+PSComputerName      : MICA
+InstalledOn         : @{value=11.08.2017 22:00:00; DateTime=sobota 12. srpna 2017 0:00:00}
+__GENUS             : 2
+__CLASS             : Win32_QuickFixEngineering
+__SUPERCLASS        : CIM_LogicalElement
+__DYNASTY           : CIM_ManagedSystemElement
+__RELPATH           : Win32_QuickFixEngineering.HotFixID="KB4034674",ServicePackInEffect=""
+__PROPERTY_COUNT    : 11
+__DERIVATION        : CIM_LogicalElement CIM_ManagedSystemElement
+__SERVER            : MICA
+__NAMESPACE         : root\cimv2
+__PATH              : \\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4034674",ServicePackInEffect=""
+Caption             : http://support.microsoft.com/?kbid=4034674
+CSName              : MICA
+Description         : Security Update
+FixComments         :
+HotFixID            : KB4034674
+InstallDate         :
+InstalledBy         : NT AUTHORITY\SYSTEM
+Name                :
+ServicePackInEffect :
+Status              :
+
+
+
+PS C:\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      9440
+computerName                   DESKTOP-V056PHL
+instanceId                     70ee7de7-5b8d-4b9a-ae64-5dc9745f8257
+
+
