@@ -459,7 +459,8 @@ $hash | Add-Member NoteProperty Logs_AppLocker_Execution $(Get-WinEvent -FilterH
 })
 
 $hash | Add-Member noteproperty Scheduled_Tasks (Get-ScheduledTask)
-$hash | Add-Member NoteProperty AppLocker (Get-AppLockerPolicy -Effective).rulecollections
+$hash | Add-Member NoteProperty AppLocker 
+
 $hash | Add-Member NoteProperty Bitlocker (Get-BitLockerVolume)
 
 $hash | Add-Member NoteProperty UEFIxBIOS (if (Test-Path -Path $env:WINDIR\Panther\setupact.log) {
@@ -509,5 +510,5 @@ $hash | Add-Member Noteproperty Deny_DeviceIDs (Get-ItemProperty -Path 'HKLM:\So
 $hash
 
 $hash | ConvertTo-Json | Out-File "hash_luka.json"
-$hash | Export-Clixml | Out-File "clixml.xml"
+#$hash | Export-Clixml | Out-File "clixml.xml"
 $hash | Out-File -Path "./hash$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"

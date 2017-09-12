@@ -5,7 +5,7 @@ Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
   
  if (!$log){
       $date = get-date -uformat "%Y-%m-%d-%H-%M-%S"
-      $log = "c:\temp\$scriptname-$date.log"
+      $log = "./$scriptname-$date.log"
       write-host -foregroundcolor 'yellow' "No logfile is specified, $log will be used." 
  }     
  $logfile = New-Item -type file $log -force
