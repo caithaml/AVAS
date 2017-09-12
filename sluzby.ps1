@@ -5,6 +5,7 @@ $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
 $installed=$inst.Services
 Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property DisplayName #| where $_.SideIndicator -EQ "=>"
 $vysledek=Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property DisplayName | where $_.SideIndicator -EQ "=>"
-$vysledek
+#$vysledek
 $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).txt
 $vysledek | Export-Csv "./sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).csv"
+$vysledek
