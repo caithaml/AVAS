@@ -6,11 +6,6 @@ $json=gc C:\SICZ\hash_mica.json | ConvertFrom-Json
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 $json.Active_DC
-$json.BIOS
-$json.Bitlocker
-$json.Computer_Root_Certificates | Format-List
-
-$json.Active_DC
 $json.Allow_DeviceClasses
 $json.Allow_DeviceIDs
 $json.Application_Log_Length
