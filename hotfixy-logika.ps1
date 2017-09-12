@@ -1,14 +1,8 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
  
- param (     [string] $log = "",
-            [switch] $fullreport = $false)
+
   
- if (!$log){
-      $date = get-date -uformat "%Y-%m-%d-%H-%M-%S"
-      $log = "./$scriptname-$date.log"
-      write-host -foregroundcolor 'yellow' "No logfile is specified, $log will be used." 
- }     
- $logfile = New-Item -type file $log -force
+
   
  ##################################################### Functions ##################################################### 
  # ================== Logging and reporting functions ==================

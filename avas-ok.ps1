@@ -69,3 +69,68 @@ $json.WIN_Dir
 $json.RAM_Free
 $json.RAM_Total
 
+Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+
+
+ 
+
+
+ 
+#### Function for comparing hotfixes between 2 hosts
+function compareHotfixes ($fobjColl, $fullreport){
+     writelog 0 "Comparing hotfixes between the 2 hosts......" "nonew"
+     # compare the list of hotfixes from the 2 hosts
+     if($fullreport)     {$comparedHotfixes = compare-object $fobjColl[0].hotfixes $fobjColl[1].hotfixes -SyncWindow 500 -IncludeEqual} #we need the equals for the host details output
+     else               {$comparedHotfixes = compare-object $fobjColl[0].hotfixes $fobjColl[1].hotfixes -SyncWindow 500}
+ 
+     # going through the output of compare-object's output and feed the data into an object collection
+     foreach ($c in $comparedHotfixes) { 
+          $fsObj = new-Object -typename System.Object
+          $hotfixId = $c.InputObject
+
+          switch ($c.SideIndicator) 
+          {
+               "=>" {
+                    $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
+                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "Missing"
+                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "OK"
+               } 
+               "<=" {
+                    $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
+                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "OK"
+                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "Missing"
+               } 
+               "==" {
+                    $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
+                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "OK"
+                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "OK"
+               } 
+          }
+
+          if($fsObj.item){
+               $script:ReturnObjColl += $fsObj
+          }
+     } 
+     writelog 1 "[done]" "extend"
+}
+ 
+##################################################### Body #####################################################
+ 
+
+ 
+$hostlist = @($Input)
+$objColl = $script:ReturnObjColl = @()
+$hostlistlength = $hostlist.length
+ 
+if($hostlistlength -eq 2){
+     foreach ($srv in $hostlist) {
+          $sObjHotfixes = new-Object -typename System.Object
+          $sObjHotfixes | add-Member -memberType noteProperty -name ComputerName -Value $srv
+          $sObjHotfixes | add-Member -memberType noteProperty -name hotfixes -Value ""
+          $sObjHotfixes.hotfixes = gethotfixes $srv
+          $objColl += $sObjHotfixes
+     }
+}
+ 
+compareHotfixes $objColl $fullreport
+$script:ReturnObjColl
