@@ -439,7 +439,7 @@ $btn_scripty.Add_Click({
     })
     
     $scripty = New-Object system.Windows.Forms.Form
-    $scripty.Text = "Scripty"
+    $scripty.Text = $json.StartupScript
     $scripty.TopMost = $true
     $scripty.Width = 400
     $scripty.Height = 400

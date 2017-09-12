@@ -70,12 +70,6 @@ $json.RAM_Free
 $json.RAM_Total
 
 
-
-
- 
-
-
- 
 #### Function for comparing hotfixes between 2 hosts
 function compareHotfixes ($fobjColl, $fullreport){
      writelog 0 "Comparing hotfixes between the 2 hosts......" "nonew"
