@@ -3,7 +3,7 @@ Start-Transcript -Path "./transcript-avas-$(get-date -f yyyy-MM-dd-hh-mm-ss).txt
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 $json=gc C:\SICZ\hash_mica.json | ConvertFrom-Json
 
-Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
+Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
 
 $json.Active_DC
 $json.Allow_DeviceClasses
@@ -66,3 +66,5 @@ $json.UWP_Apps
 $json.Virtual_Free
 $json.Virtual_Total
 $json.WIN_Dir
+$json.RAM_Free
+$json.RAM_Total
