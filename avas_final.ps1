@@ -19,7 +19,7 @@ function appdiff  {
     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json  
     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json  
         
-    
+
     Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" 
     Group-Object -Property DisplayName | % { New-Object psobject -Property @{        
         DisplayName=$_.DisplayName
@@ -71,3 +71,10 @@ servicesdiff
 #$testserv=servicesdiff
 #$testserv
 
+
+
+Write-Host -Object "$(Get-Date) GUI bylo nacteno"
+
+Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne nacteno"
+
+Write-Host -Object "$(Get-Date) Okno aplikace bylo uspesne zavreno"
