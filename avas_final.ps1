@@ -50,7 +50,6 @@ function appdiff  {
     $Diff | select DisplayName, DisplayVersion, Publisher 
     $Diff
 }
-
 appdiff
 
 function servicesdiff  {
@@ -65,7 +64,6 @@ function servicesdiff  {
     $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).csv
     $vysledek
 }
-
 servicesdiff
 
 $testapp=appdiff
