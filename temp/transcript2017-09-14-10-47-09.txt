@@ -1,0 +1,2720 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170914104709
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16288.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1505378001-6acdeb56-6e11-4eed-9cc4-26a2df3c67be1505377998023\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-9128-821090' -FeatureFlags @()
+Process ID: 10980
+PSVersion: 5.1.16288.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16288.1
+BuildVersion: 10.0.16288.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-14-10-47-09.txt
+09/14/2017 10:47:09 - Nacitani json konfiguracniho souboru
+09/14/2017 10:47:11 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 10:47:11 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
+09/14/2017 10:47:11 - ukonceno zjistovani zda je uzivatel admin
+09/14/2017 10:47:11 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 10:47:11 - Nacitam GUI
+09/14/2017 10:47:11 Probiha nacitani GUI
+09/14/2017 10:47:19 GUI bylo nacteno
+09/14/2017 10:47:19 Okno aplikace bylo uspesne nacteno
+09/14/2017 10:47:19 Okno aplikace bylo uspesne zavreno
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-10-57-25.txt
+09/14/2017 10:57:25 - Nacitani json konfiguracniho souboru
+09/14/2017 10:57:27 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 10:57:27 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 10:57:27 - Nacitam GUI
+Cancel
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcriptporovnani2017-09-14-10-57-51.txt
+PS D:\SICZ\avas> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-14-10-58-00.txt
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\final_test_porovnani.ps1:8 char:14
++ $defaultjson=Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+PS D:\SICZ\avas\temp> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\final_test_porovnani.ps1:15 char:26
++ Compare-Object $aplikace $aplikacedefault â€“property DisplayName, Di ...
++                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+DisplayName                                                                   Version   Publisher
+-----------                                                                   -------   ---------
+7-Zip 16.02 (x64)                                                                       Igor Pavlov
+
+
+Git version 2.12.0                                                                      The Git Development Community
+Logitech Unifying Software 2.10                                                         Logitech
+Microsoft Visual J# 2.0 Redistributable Package - SE (x64)                              Microsoft Corporation
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)                             Microsoft Corporation
+NTLite v1.2.0.4400                                                                      Nlitesoft
+Microsoft Office Professional Plus 2013                                                 Microsoft Corporation
+Microsoft Office Professional Plus 2016                                                 Microsoft Corporation
+Microsoft Visio Standard 2016                                                           Microsoft Corporation
+Dell SupportAssist                                                                      Dell
+Intel(R) Network Connections 21.0.504.0                                       352321536 Intel
+Sandboxie 5.20 (64-bit)                                                                 Sandboxie Holdings, LLC
+Speccy                                                                                  Piriform
+Total Commander 64-bit (Remove or Repair)                                     151062272 Ghisler Software GmbH
+Dell App Launcher for Unifying Software                                                 Logitech
+
+Intel(R) ME UninstallLegacy                                                   16777217  Intel Corporation
+Canon MG6100 series MP Drivers                                                          Canon Inc.
+64 Bit HP CIO Components Installer                                            352452609 HP Inc.
+Intel(R) Chipset Device Software                                              167837697 Intel Corporation
+TortoiseSVN 1.9.5.27581 (64 bit)                                              17394621  TortoiseSVN
+Intel(R) Management Engine Components                                         16777216  Intel Corporation
+Intel(R) Management Engine Components                                                   Intel Corporation
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219                   167812379 Microsoft Corporation
+Windows SDK for Windows Store Apps DirectX x64 Remote                         167848282 Microsoft Corporation
+TortoiseGit 2.5.0.0 (64 bit)                                                  33882112  TortoiseGit
+Microsoft Virtual Machine Converter                                           50397184  Microsoft Corporation
+Intel® PROSet/Wireless WiFi Software                                          304611328 Intel Corporation
+Veeam Agent for Microsoft Windows                                             33554432  Veeam Software AG
+Intel(R) Network Connections 21.0.504.0                                       352321536 Intel
+Intel(R) Rapid Storage Technology                                                       Intel Corporation
+Microsoft SQL Server 2012 Management Objects  (x64)                           184617912 Microsoft Corporation
+Universal CRT Tools x64                                                       167848282 Microsoft Corporation
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148                151025673 Microsoft Corporation
+Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.24215                    234905239 Microsoft Corporation
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161                151025673 Microsoft Corporation
+Windows SDK DirectX x64 Remote                                                167848282 Microsoft Corporation
+Microsoft Monitoring Agent                                                    134228777 Microsoft Corporation
+AutomatedLab                                                                  67108865  AutomatedLab Team
+Intel® Trusted Connect Service Client                                         19529745  Intel Corporation
+Intel(R) Management Engine Components                                         184549376 Intel Corporation
+Intel(R) PRO/Wireless Driver                                                  304611328 Intel Corporation
+AxCrypt 1.7.3156.0                                                            17239124  Axantum Software AB
+Microsoft Office Professional Plus 2013                                       251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3191872) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3172545) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB3114499) 64-Bit Edition                             Microsoft 
+Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition           Microsoft 
+Update for Microsoft Office 2013 (KB3085565) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3114488) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2760371) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2013 (KB3101503) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB2910941) 64-Bit Edition                    Microsoft 
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114818) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB3039756) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054783) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3101487) 64-Bit Edition                             Microsoft 
+Definition Update for Microsoft Office 2013 (KB3115404) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2013 (KB3039778) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3054856) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3127916) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB3039719) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2013 (KB3023049) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2889863) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039766) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039701) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039795) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition                       Microsoft 
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3023052) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054785) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2899522) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3172443) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3085587) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039750) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3191874) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2013 (KB4011078) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3172523) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3178709) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2013 (KB3054816) 64-Bit Edition                    Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB3114825) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3162051) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB2883095) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2760344) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3055007) 64-Bit Edition                             Microsoft 
+Microsoft Access MUI (Czech) 2013                                             251662809 Microsoft Corporation
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Excel MUI (Czech) 2013                                              251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3191872) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054819) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3162051) 64-Bit Edition                    Microsoft 
+Microsoft PowerPoint MUI (Czech) 2013                                         251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Microsoft Publisher MUI (Czech) 2013                                          251662809 Microsoft Corporation
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Outlook MUI (Czech) 2013                                            251662809 Microsoft Corporation
+Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition           Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2013 (KB4011078) 64-Bit Edition                   Microsoft 
+Microsoft Word MUI (Czech) 2013                                               251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Nástroje kontroly pravopisu pro Microsoft Office 2013 – čeština               251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Korrekturhilfen 2013 - Deutsch                               251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing Tools 2013 - English                                251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Nástroje korektúry balíka Microsoft Office 2013 - slovenčina                  251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing (Czech) 2013                                        251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft InfoPath MUI (Czech) 2013                                           251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Microsoft Office Shared MUI (Czech) 2013                                      251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3203392) 64-Bit Edition                    Microsoft 
+Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition                       Microsoft 
+Update for Microsoft Office 2013 (KB3039750) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Microsoft DCF MUI (Czech) 2013                                                251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft OneNote MUI (Czech) 2013                                            251662809 Microsoft Corporation
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Groove MUI (Czech) 2013                                             251662809 Microsoft Corporation
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office 32-bit Components 2013                                       251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3172545) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Project 2013 (KB4011084) 64-Bit Edition                            Microsoft 
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054785) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Microsoft Office Shared 32-bit MUI (Czech) 2013                               251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office OSM MUI (Czech) 2013                                         251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office OSM UX MUI (Czech) 2013                                      251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Lync MUI (Czech) 2013                                               251662809 Microsoft Corporation
+Security Update for Skype for Business 2015 (KB3191937) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Microsoft Office Professional Plus 2016                                       268439722 Microsoft Corporation
+Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Skype for Business 2016 (KB3213548) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition                  Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2016 (KB3115276) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3191868) 64-Bit Edition                             Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3115081) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2016 (KB3141506) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3114903) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191929) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191920) 64-Bit Edition                             Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3115501) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3191859) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178666) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition                             Microsoft 
+Microsoft Access MUI (Czech) 2016                                             268439722 Microsoft Corporation
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Microsoft Excel MUI (Czech) 2016                                              268439722 Microsoft Corporation
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Office 2016 (KB3191859) 64-Bit Edition                             Microsoft 
+Microsoft PowerPoint MUI (Czech) 2016                                         268439722 Microsoft Corporation
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Microsoft Publisher MUI (Czech) 2016                                          268439722 Microsoft Corporation
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Microsoft Outlook MUI (Czech) 2016                                            268439722 Microsoft Corporation
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Microsoft Word MUI (Czech) 2016                                               268439722 Microsoft Corporation
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Nástroje kontroly pravopisu pro Microsoft Office 2016 – čeština               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Korrekturhilfen 2016 – Deutsch                               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing Tools 2016 - English                                268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Nástroje korektúry balíka Microsoft Office 2016 - slovenčina                  268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing (Czech) 2016                                        268439722 Microsoft Corporation
+Microsoft InfoPath MUI (Czech) 2016                                           268439722 Microsoft Corporation
+Microsoft Visio Standard 2016                                                 268439722 Microsoft Corporation
+Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191920) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115501) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178666) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition                             Microsoft 
+Microsoft Visio MUI (Czech) 2016                                              268439722 Microsoft Corporation
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Microsoft Office Shared MUI (Czech) 2016                                      268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Microsoft DCF MUI (Czech) 2016                                                268439722 Microsoft Corporation
+Microsoft OneNote MUI (Czech) 2016                                            268439722 Microsoft Corporation
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Microsoft Groove MUI (Czech) 2016                                             268439722 Microsoft Corporation
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office 32-bit Components 2016                                       268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Skype for Business 2016 (KB3115408) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Skype for Business 2016 (KB3115408) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office Shared 32-bit MUI (Czech) 2016                               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office OSM MUI (Czech) 2016                                         268439722 Microsoft Corporation
+Microsoft Office OSM UX MUI (Czech) 2016                                      268439722 Microsoft Corporation
+Microsoft Skype for Business MUI (Czech) 2016                                 268439722 Microsoft Corporation
+Update for Skype for Business 2016 (KB3213548) 64-Bit Edition                           Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Microsoft Message Analyzer                                                    67116976  Microsoft Corporation
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)                   167823068 Microsoft Corporation
+Intel(R) Rapid Storage Technology                                             235405313 Intel Corporation
+Microsoft System CLR Types for SQL Server 2012 (x64)                          184617912 Microsoft Corporation
+Dell Touchpad                                                                           ALPS ELECTRIC CO., LTD.
+Intel(R) Management Engine Components                                         16777216  Intel Corporation
+Microsoft Visual J# 2.0 Redistributable Package - SE (x64)                    33605160  Microsoft Corporation
+Microsoft SQL Server 2012 Express LocalDB                                     184752004 Microsoft Corporation
+Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.24215                 234905239 Microsoft Corporation
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\final_test_porovnani.ps1:8 char:14
++ $defaultjson=Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\final_test_porovnani.ps1:15 char:26
++ Compare-Object $aplikace $aplikacedefault â€“property DisplayName, Di ...
++                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+
+PS D:\SICZ\avas\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-14-10-58-37.txt
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\mica_test.ps1:8 char:14
++ $defaultjson=Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+PS D:\SICZ\avas\temp> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\mica_test.ps1:15 char:26
++ Compare-Object $aplikace $aplikacedefault â€“property DisplayName, Di ...
++                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+DisplayName                                                                   Version   Publisher
+-----------                                                                   -------   ---------
+7-Zip 16.02 (x64)                                                                       Igor Pavlov
+
+
+Git version 2.12.0                                                                      The Git Development Community
+Logitech Unifying Software 2.10                                                         Logitech
+Microsoft Visual J# 2.0 Redistributable Package - SE (x64)                              Microsoft Corporation
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)                             Microsoft Corporation
+NTLite v1.2.0.4400                                                                      Nlitesoft
+Microsoft Office Professional Plus 2013                                                 Microsoft Corporation
+Microsoft Office Professional Plus 2016                                                 Microsoft Corporation
+Microsoft Visio Standard 2016                                                           Microsoft Corporation
+Dell SupportAssist                                                                      Dell
+Intel(R) Network Connections 21.0.504.0                                       352321536 Intel
+Sandboxie 5.20 (64-bit)                                                                 Sandboxie Holdings, LLC
+Speccy                                                                                  Piriform
+Total Commander 64-bit (Remove or Repair)                                     151062272 Ghisler Software GmbH
+Dell App Launcher for Unifying Software                                                 Logitech
+
+Intel(R) ME UninstallLegacy                                                   16777217  Intel Corporation
+Canon MG6100 series MP Drivers                                                          Canon Inc.
+64 Bit HP CIO Components Installer                                            352452609 HP Inc.
+Intel(R) Chipset Device Software                                              167837697 Intel Corporation
+TortoiseSVN 1.9.5.27581 (64 bit)                                              17394621  TortoiseSVN
+Intel(R) Management Engine Components                                         16777216  Intel Corporation
+Intel(R) Management Engine Components                                                   Intel Corporation
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219                   167812379 Microsoft Corporation
+Windows SDK for Windows Store Apps DirectX x64 Remote                         167848282 Microsoft Corporation
+TortoiseGit 2.5.0.0 (64 bit)                                                  33882112  TortoiseGit
+Microsoft Virtual Machine Converter                                           50397184  Microsoft Corporation
+Intel® PROSet/Wireless WiFi Software                                          304611328 Intel Corporation
+Veeam Agent for Microsoft Windows                                             33554432  Veeam Software AG
+Intel(R) Network Connections 21.0.504.0                                       352321536 Intel
+Intel(R) Rapid Storage Technology                                                       Intel Corporation
+Microsoft SQL Server 2012 Management Objects  (x64)                           184617912 Microsoft Corporation
+Universal CRT Tools x64                                                       167848282 Microsoft Corporation
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148                151025673 Microsoft Corporation
+Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.24215                    234905239 Microsoft Corporation
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161                151025673 Microsoft Corporation
+Windows SDK DirectX x64 Remote                                                167848282 Microsoft Corporation
+Microsoft Monitoring Agent                                                    134228777 Microsoft Corporation
+AutomatedLab                                                                  67108865  AutomatedLab Team
+Intel® Trusted Connect Service Client                                         19529745  Intel Corporation
+Intel(R) Management Engine Components                                         184549376 Intel Corporation
+Intel(R) PRO/Wireless Driver                                                  304611328 Intel Corporation
+AxCrypt 1.7.3156.0                                                            17239124  Axantum Software AB
+Microsoft Office Professional Plus 2013                                       251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3191872) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3172545) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB3114499) 64-Bit Edition                             Microsoft 
+Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition           Microsoft 
+Update for Microsoft Office 2013 (KB3085565) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3114488) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2760371) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2013 (KB3101503) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB2910941) 64-Bit Edition                    Microsoft 
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114818) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB3039756) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054783) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3101487) 64-Bit Edition                             Microsoft 
+Definition Update for Microsoft Office 2013 (KB3115404) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2013 (KB3039778) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3054856) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3127916) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB3039719) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2013 (KB3023049) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2889863) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039766) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039701) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039795) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition                       Microsoft 
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3023052) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054785) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2899522) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3172443) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3085587) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039750) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3191874) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2013 (KB4011078) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3172523) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3178709) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2013 (KB3054816) 64-Bit Edition                    Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB3114825) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3162051) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB2883095) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB2760344) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3055007) 64-Bit Edition                             Microsoft 
+Microsoft Access MUI (Czech) 2013                                             251662809 Microsoft Corporation
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Excel MUI (Czech) 2013                                              251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3191872) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054819) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3162051) 64-Bit Edition                    Microsoft 
+Microsoft PowerPoint MUI (Czech) 2013                                         251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Microsoft Publisher MUI (Czech) 2013                                          251662809 Microsoft Corporation
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Outlook MUI (Czech) 2013                                            251662809 Microsoft Corporation
+Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition           Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2013 (KB4011078) 64-Bit Edition                   Microsoft 
+Microsoft Word MUI (Czech) 2013                                               251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Nástroje kontroly pravopisu pro Microsoft Office 2013 – čeština               251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Korrekturhilfen 2013 - Deutsch                               251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing Tools 2013 - English                                251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Nástroje korektúry balíka Microsoft Office 2013 - slovenčina                  251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3115156) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing (Czech) 2013                                        251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft InfoPath MUI (Czech) 2013                                           251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Microsoft Office Shared MUI (Czech) 2013                                      251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3203392) 64-Bit Edition                    Microsoft 
+Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition                       Microsoft 
+Update for Microsoft Office 2013 (KB3039750) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Microsoft DCF MUI (Czech) 2013                                                251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft OneNote MUI (Czech) 2013                                            251662809 Microsoft Corporation
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Groove MUI (Czech) 2013                                             251662809 Microsoft Corporation
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office 32-bit Components 2013                                       251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft Office 2013 (KB3172545) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2013 (KB4011077) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2013 (KB3172477) 64-Bit Edition                            Microsoft 
+Update for Microsoft Publisher 2013 (KB3114329) 64-Bit Edition                          Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Project 2013 (KB4011084) 64-Bit Edition                            Microsoft 
+Update for Microsoft Access 2013 (KB3118349) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3054785) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Update for Microsoft InfoPath 2013 (KB3114946) 64-Bit Edition                           Microsoft 
+Update for Microsoft PowerPoint 2013 (KB3203487) 64-Bit Edition                         Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2013 (KB4011070) 64-Bit Edition                             Microsoft 
+Microsoft Office Shared 32-bit MUI (Czech) 2013                               251662809 Microsoft Corporation
+Update for Microsoft Excel 2013 (KB4011080) 64-Bit Edition                              Microsoft 
+Update for Microsoft OneDrive for Business (KB3178645) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office OSM MUI (Czech) 2013                                         251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Office OSM UX MUI (Czech) 2013                                      251662809 Microsoft Corporation
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Microsoft Lync MUI (Czech) 2013                                               251662809 Microsoft Corporation
+Security Update for Skype for Business 2015 (KB3191937) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2013 (KB3039720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2013 (KB4011045) 64-Bit Edition                               Microsoft 
+Update for Skype for Business 2015 (KB4011046) 64-Bit Edition                           Microsoft 
+Microsoft Office Professional Plus 2016                                       268439722 Microsoft Corporation
+Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Skype for Business 2016 (KB3213548) 64-Bit Edition                           Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition                  Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2016 (KB3115276) 64-Bit Edition                             Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3191868) 64-Bit Edition                             Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3115081) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Update for Microsoft Office 2016 (KB3141506) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3114903) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191929) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191920) 64-Bit Edition                             Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3115501) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3191859) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178666) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition                             Microsoft 
+Microsoft Access MUI (Czech) 2016                                             268439722 Microsoft Corporation
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Microsoft Excel MUI (Czech) 2016                                              268439722 Microsoft Corporation
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Office 2016 (KB3191859) 64-Bit Edition                             Microsoft 
+Microsoft PowerPoint MUI (Czech) 2016                                         268439722 Microsoft Corporation
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Microsoft Publisher MUI (Czech) 2016                                          268439722 Microsoft Corporation
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Microsoft Outlook MUI (Czech) 2016                                            268439722 Microsoft Corporation
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Microsoft Word MUI (Czech) 2016                                               268439722 Microsoft Corporation
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Nástroje kontroly pravopisu pro Microsoft Office 2016 – čeština               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Korrekturhilfen 2016 – Deutsch                               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing Tools 2016 - English                                268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Nástroje korektúry balíka Microsoft Office 2016 - slovenčina                  268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141509) 64-Bit Edition                             Microsoft 
+Microsoft Office Proofing (Czech) 2016                                        268439722 Microsoft Corporation
+Microsoft InfoPath MUI (Czech) 2016                                           268439722 Microsoft Corporation
+Microsoft Visio Standard 2016                                                 268439722 Microsoft Corporation
+Security Update for Microsoft Office 2016 (KB3115135) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Definition Update for Microsoft Office 2016 (KB3115407) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920684) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Security Update for Microsoft Outlook 2016 (KB4011052) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3118262) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920720) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2910954) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118263) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115281) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920712) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920724) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3118264) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191920) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115501) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191867) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178666) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3115145) 64-Bit Edition                             Microsoft 
+Microsoft Visio MUI (Czech) 2016                                              268439722 Microsoft Corporation
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Microsoft Office Shared MUI (Czech) 2016                                      268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3203383) 64-Bit Edition                    Microsoft 
+Microsoft DCF MUI (Czech) 2016                                                268439722 Microsoft Corporation
+Microsoft OneNote MUI (Czech) 2016                                            268439722 Microsoft Corporation
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Microsoft Groove MUI (Czech) 2016                                             268439722 Microsoft Corporation
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office 32-bit Components 2016                                       268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Skype for Business 2016 (KB3115408) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB3213650) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3203472) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft Visio 2016 (KB4011033) 64-Bit Edition                              Microsoft 
+Update for Microsoft Project 2016 (KB4011034) 64-Bit Edition                            Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Update for Microsoft Office 2016 (KB3141457) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3191928) 64-Bit Edition                             Microsoft 
+Security Update for Microsoft Office 2016 (KB3085538) 64-Bit Edition                    Microsoft 
+Update for Microsoft PowerPoint 2016 (KB3203481) 64-Bit Edition                         Microsoft 
+Security Update for Microsoft Office 2016 (KB3178667) 64-Bit Edition                    Microsoft 
+Update for Microsoft OneNote 2016 (KB4011030) 64-Bit Edition                            Microsoft 
+Security Update for Microsoft Excel 2016 (KB3203477) 64-Bit Edition                     Microsoft 
+Update for Microsoft Publisher 2016 (KB3178696) 64-Bit Edition                          Microsoft 
+Update for Microsoft Office 2016 (KB3213547) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB3178658) 64-Bit Edition                             Microsoft 
+Security Update for Skype for Business 2016 (KB3115408) 64-Bit Edition                  Microsoft 
+Update for Microsoft Office 2016 (KB2920678) 64-Bit Edition                             Microsoft 
+Update for Microsoft Access 2016 (KB3191926) 64-Bit Edition                             Microsoft 
+Update for Microsoft Office 2016 (KB4011051) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office Shared 32-bit MUI (Czech) 2016                               268439722 Microsoft Corporation
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Update for Microsoft Office 2016 (KB4011037) 64-Bit Edition                             Microsoft 
+Update for Microsoft OneDrive for Business (KB3178707) 64-Bit Edition                   Microsoft 
+Microsoft Office OSM MUI (Czech) 2016                                         268439722 Microsoft Corporation
+Microsoft Office OSM UX MUI (Czech) 2016                                      268439722 Microsoft Corporation
+Microsoft Skype for Business MUI (Czech) 2016                                 268439722 Microsoft Corporation
+Update for Skype for Business 2016 (KB3213548) 64-Bit Edition                           Microsoft 
+Update for Microsoft Word 2016 (KB3213550) 64-Bit Edition                               Microsoft 
+Microsoft Message Analyzer                                                    67116976  Microsoft Corporation
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)                   167823068 Microsoft Corporation
+Intel(R) Rapid Storage Technology                                             235405313 Intel Corporation
+Microsoft System CLR Types for SQL Server 2012 (x64)                          184617912 Microsoft Corporation
+Dell Touchpad                                                                           ALPS ELECTRIC CO., LTD.
+Intel(R) Management Engine Components                                         16777216  Intel Corporation
+Microsoft Visual J# 2.0 Redistributable Package - SE (x64)                    33605160  Microsoft Corporation
+Microsoft SQL Server 2012 Express LocalDB                                     184752004 Microsoft Corporation
+Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.24215                 234905239 Microsoft Corporation
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\mica_test.ps1:8 char:14
++ $defaultjson=Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\mica_test.ps1:15 char:26
++ Compare-Object $aplikace $aplikacedefault â€“property DisplayName, Di ...
++                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+
+PS D:\SICZ\avas\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\diif-aplikace-ok.ps1:1 char:7
++ $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\temp\diif-aplikace-ok.ps1:2 char:9
++ $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\temp\diif-aplikace-ok.ps1:2 char:9
++ $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas\temp> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\temp\diif-aplikace-ok.ps1:5 char:16
++ Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publ ...
++                ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\temp\diif-aplikace-ok.ps1:5 char:16
++ Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publ ...
++                ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="fc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           fc -> Format-Custom
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="FunctionName"
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="FunctionName"
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="FunctionName"
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential
+    >] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF3
+    2}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscrede
+    ntial>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndia
+    nUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-18-38.txt
+09/14/2017 11:18:38 - Nacitani json konfiguracniho souboru
+09/14/2017 11:18:41 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:18:41 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:18:41 - Nacitam GUI
+PS D:\SICZ\avas\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ac"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           ac -> Add-Content
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-18-51.txt
+09/14/2017 11:18:51 - Nacitani json konfiguracniho souboru
+09/14/2017 11:18:53 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:18:53 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:18:53 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="fc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           fc -> Format-Custom
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="OptionalParameters"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-26-57.txt
+09/14/2017 11:26:57 - Nacitani json konfiguracniho souboru
+09/14/2017 11:26:59 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:26:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:26:59 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNTAX
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time | DateTime}] [-For
+    mat <string>]  [<CommonParameters>]
+
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time | DateTime}] [-UFo
+    rmat <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Date -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113313.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ac"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           ac -> Add-Content
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-27-37.txt
+09/14/2017 11:27:37 - Nacitani json konfiguracniho souboru
+09/14/2017 11:27:40 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:27:40 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:27:40 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-27-46.txt
+09/14/2017 11:27:46 - Nacitani json konfiguracniho souboru
+09/14/2017 11:27:49 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:27:49 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:27:49 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-27-57.txt
+09/14/2017 11:27:57 - Nacitani json konfiguracniho souboru
+09/14/2017 11:27:59 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:27:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:27:59 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-28-34.txt
+09/14/2017 11:28:34 - Nacitani json konfiguracniho souboru
+09/14/2017 11:28:36 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:28:36 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:28:36 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="sacfg"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           sacfg -> Start-DscConfiguration                    1.1        PSDesiredStateConfiguration
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="secinit.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     secinit.exe                                        10.0.16... C:\WINDOWS\system32\secinit.exe
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="services.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     services.exe                                       10.0.16... C:\WINDOWS\system32\services.exe
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="services.msc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     services.msc                                       0.0.0.0    C:\WINDOWS\system32\services.msc
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        servicesdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="servicesdiff"
+
+NAME
+    servicesdiff
+
+SYNTAX
+    servicesdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-28-57.txt
+09/14/2017 11:28:57 - Nacitani json konfiguracniho souboru
+09/14/2017 11:28:59 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:28:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:28:59 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Object"
+
+NAME
+    Compare-Object
+
+SYNTAX
+    Compare-Object [-ReferenceObject] <psobject[]> [-DifferenceObject] <psobject[]> [-SyncWindow <int>] [-Property <Object[]>] [-ExcludeDifferent] [-IncludeEqual] [-PassThru] [-Culture <st
+    ring>] [-CaseSensitive]  [<CommonParameters>]
+
+
+ALIASES
+    compare
+    diff
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Compare-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113286.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Csv"
+
+NAME
+    Export-Csv
+
+SYNTAX
+    Export-Csv [[-Path] <string>] [[-Delimiter] <char>] -InputObject <psobject> [-LiteralPath <string>] [-Force] [-NoClobber] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianU
+    nicode | Default | OEM}] [-Append] [-NoTypeInformation] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Export-Csv [[-Path] <string>] -InputObject <psobject> [-LiteralPath <string>] [-Force] [-NoClobber] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Default | OEM
+    }] [-Append] [-UseCulture] [-NoTypeInformation] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    epcsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Csv -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113299.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNTAX
+    Out-File [-FilePath] <string> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Force] [-NoClobber] [-Width <int>]
+     [-NoNewline] [-InputObject <psobject>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] -LiteralPath <string> [-Append] [-Force] [-NoClobber] [-Width <int>
+    ] [-NoNewline] [-InputObject <psobject>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Out-File -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113363.
+
+
+

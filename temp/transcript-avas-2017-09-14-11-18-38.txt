@@ -1,0 +1,1621 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170914111838
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16288.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1505378001-6acdeb56-6e11-4eed-9cc4-26a2df3c67be1505377998023\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-9128-821090' -FeatureFlags @()
+Process ID: 10980
+PSVersion: 5.1.16288.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16288.1
+BuildVersion: 10.0.16288.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript-avas-2017-09-14-11-18-38.txt
+09/14/2017 11:18:38 - Nacitani json konfiguracniho souboru
+09/14/2017 11:18:41 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:18:41 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:18:41 - Nacitam GUI
+PS D:\SICZ\avas\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ac"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           ac -> Add-Content
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-18-51.txt
+09/14/2017 11:18:51 - Nacitani json konfiguracniho souboru
+09/14/2017 11:18:53 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:18:53 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:18:53 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="fc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           fc -> Format-Custom
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="OptionalParameters"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-26-57.txt
+09/14/2017 11:26:57 - Nacitani json konfiguracniho souboru
+09/14/2017 11:26:59 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:26:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:26:59 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="get-date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNTAX
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time | DateTime}] [-For
+    mat <string>]  [<CommonParameters>]
+
+    Get-Date [[-Date] <datetime>] [-Year <int>] [-Month <int>] [-Day <int>] [-Hour <int>] [-Minute <int>] [-Second <int>] [-Millisecond <int>] [-DisplayHint {Date | Time | DateTime}] [-UFo
+    rmat <string>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Date -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113313.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <string>  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help ConvertFrom-Json -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=217031.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ac"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           ac -> Add-Content
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-27-37.txt
+09/14/2017 11:27:37 - Nacitani json konfiguracniho souboru
+09/14/2017 11:27:40 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:27:40 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:27:40 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-43.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-27-46.txt
+09/14/2017 11:27:46 - Nacitani json konfiguracniho souboru
+09/14/2017 11:27:49 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:27:49 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:27:49 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-27-52.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-27-57.txt
+09/14/2017 11:27:57 - Nacitani json konfiguracniho souboru
+09/14/2017 11:27:59 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:27:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:27:59 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-02.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-28-34.txt
+09/14/2017 11:28:34 - Nacitani json konfiguracniho souboru
+09/14/2017 11:28:36 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:28:36 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:28:36 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-28-39.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="sacfg"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           sacfg -> Start-DscConfiguration                    1.1        PSDesiredStateConfiguration
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="secinit.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     secinit.exe                                        10.0.16... C:\WINDOWS\system32\secinit.exe
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="services.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     services.exe                                       10.0.16... C:\WINDOWS\system32\services.exe
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="services.msc"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     services.msc                                       0.0.0.0    C:\WINDOWS\system32\services.msc
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicesdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        servicesdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="servicesdiff"
+
+NAME
+    servicesdiff
+
+SYNTAX
+    servicesdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-11-28-57.txt
+09/14/2017 11:28:57 - Nacitani json konfiguracniho souboru
+09/14/2017 11:28:59 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 11:28:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 11:28:59 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-01.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:19 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:20 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:23 char:20
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++                    ~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\avas_final.ps1:59 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:61 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas_final.ps1:62 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+PS D:\SICZ\avas> TerminatingError(Out-File): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.txt'."
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+Out-File : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.txt'.
+At D:\SICZ\avas\avas_final.ps1:64 char:17
++ ... $vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss) ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS D:\SICZ\avas> TerminatingError(Export-Csv): "Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.csv'."
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Could not find a part of the path 'C:\avas\sluzby2017-09-14-11-29-04.csv'.
+At D:\SICZ\avas\avas_final.ps1:65 char:17
++ ... $vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-s ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Export-Csv], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      10980
+computerName                   DESKTOP-TBE27PS
+instanceId                     de2df58b-4778-4cbb-a64c-20bb6dc687eb
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Object"
+
+NAME
+    Compare-Object
+
+SYNTAX
+    Compare-Object [-ReferenceObject] <psobject[]> [-DifferenceObject] <psobject[]> [-SyncWindow <int>] [-Property <Object[]>] [-ExcludeDifferent] [-IncludeEqual] [-PassThru] [-Culture <st
+    ring>] [-CaseSensitive]  [<CommonParameters>]
+
+
+ALIASES
+    compare
+    diff
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Compare-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113286.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Export-Csv"
+
+NAME
+    Export-Csv
+
+SYNTAX
+    Export-Csv [[-Path] <string>] [[-Delimiter] <char>] -InputObject <psobject> [-LiteralPath <string>] [-Force] [-NoClobber] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianU
+    nicode | Default | OEM}] [-Append] [-NoTypeInformation] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Export-Csv [[-Path] <string>] -InputObject <psobject> [-LiteralPath <string>] [-Force] [-NoClobber] [-Encoding {Unicode | UTF7 | UTF8 | ASCII | UTF32 | BigEndianUnicode | Default | OEM
+    }] [-Append] [-UseCulture] [-NoTypeInformation] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    epcsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Export-Csv -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113299.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Export-Csv"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Export-Csv                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Out-File"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Out-File"
+
+NAME
+    Out-File
+
+SYNTAX
+    Out-File [-FilePath] <string> [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] [-Append] [-Force] [-NoClobber] [-Width <int>]
+     [-NoNewline] [-InputObject <psobject>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+    Out-File [[-Encoding] {unknown | string | unicode | bigendianunicode | utf8 | utf7 | utf32 | ascii | default | oem}] -LiteralPath <string> [-Append] [-Force] [-NoClobber] [-Width <int>
+    ] [-NoNewline] [-InputObject <psobject>] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Out-File -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113363.
+
+
+
