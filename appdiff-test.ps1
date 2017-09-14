@@ -1,4 +1,4 @@
-function appdiff  {
+function appdiff$ {
     $app= Get-Content D:\SICZ\app_default.json | ConvertFrom-Json  
     $app2 = Get-Content D:\SICZ\app.json | ConvertFrom-Json  
         
