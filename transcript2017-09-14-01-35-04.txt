@@ -1,0 +1,151 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170914133504
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16288.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1505388793-abd46846-9ba6-4366-84f2-6c796e7b84e81505388787903\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-13760-111699' -FeatureFlags @()
+Process ID: 5152
+PSVersion: 5.1.16288.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16288.1
+BuildVersion: 10.0.16288.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-14-01-35-04.txt
+09/14/2017 13:35:04 - Nacitani json konfiguracniho souboru
+09/14/2017 13:35:10 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 13:35:10 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse funogvat korektne!!
+09/14/2017 13:35:10 - ukonceno zjistovani zda je uzivatel admin
+09/14/2017 13:35:10 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 13:35:10 - Nacitam GUI
+09/14/2017 13:35:10 Probiha nacitani GUI
+09/14/2017 13:35:19 GUI bylo nacteno
+09/14/2017 13:35:19 Okno aplikace bylo uspesne nacteno
+09/14/2017 13:35:19 Okno aplikace bylo uspesne zavreno
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, P
+ublisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
