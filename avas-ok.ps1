@@ -3,129 +3,39 @@ Start-Transcript -Path "./transcript-avas-$(get-date -f yyyy-MM-dd-hh-mm-ss).txt
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 $json=gc C:\SICZ\hash_mica.json | ConvertFrom-Json
 
-Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
-
-$json.Active_DC
-$json.Allow_DeviceClasses
-$json.Allow_DeviceIDs
-$json.Application_Log_Length
-$json.AppLocker
-$json.BIOS
-$json.BIOS_Date
-$json.Bitlocker
-$json.Computer_Root_Certificates
-$json.ComputerName
-$json.Country
-$json.Date
-$json.Default_Locale
-$json.Deny_DeviceClasses
-$json.Deny_DeviceIDs
-$json.Deny_UnspecifiedDevices
-$json.Domain
-$json.Domain_DHCP
-$json.Domain_TCP
-$json.Dslog_Service
-$json.Execution_Policy
-$json.GemPlus_Reader
-$json.Hotfixes
-$json.Install_Date
-$json.Installed_Apps
-$json.LAPS
-$json.Last_Boot_Time
-$json.Last_User
-$json.Local_Disks
-$json.Local_Groups
-$json.Local_Users
-$json.Locale
-$json.Logs_Application
-$json.Logs_AppLocker_Deploy
-$json.Logs_AppLocker_EXE
-$json.Logs_AppLocker_Execution
-$json.Logs_AppLocker_MSI
-$json.Logs_LanPCS
-$json.Logs_System
-$json.NetIPConfiguration
-$json.OS
-$json.OS_Build
-$json.PCinfo
-$json.Processes
-$json.Setupapi_Length
-$json.Scheduled_Tasks
-$json.Site_Name
-$json.SP
-$json.Protect_Ini
-$json.SYS_Dir
-$json.System_Locale
-$json.System_Log_Length
-$json.TEMP_Dir
-$json.TEMP_Encrypted
-$json.UEFI_partition
-$json.User
-$json.UWF
-$json.UWP_Apps
-$json.Virtual_Free
-$json.Virtual_Total
-$json.WIN_Dir
-$json.RAM_Free
-$json.RAM_Total
+Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 
-#### Function for comparing hotfixes between 2 hosts
-function compareHotfixes ($fobjColl, $fullreport){
-     writelog 0 "Comparing hotfixes between the 2 hosts......" "nonew"
-     # compare the list of hotfixes from the 2 hosts
-     if($fullreport)     {$comparedHotfixes = compare-object $fobjColl[0].hotfixes $fobjColl[1].hotfixes -SyncWindow 500 -IncludeEqual} #we need the equals for the host details output
-     else               {$comparedHotfixes = compare-object $fobjColl[0].hotfixes $fobjColl[1].hotfixes -SyncWindow 500}
- 
-     # going through the output of compare-object's output and feed the data into an object collection
-     foreach ($c in $comparedHotfixes) { 
-          $fsObj = new-Object -typename System.Object
-          $hotfixId = $c.InputObject
 
-          switch ($c.SideIndicator) 
-          {
-               "=>" {
-                    $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
-                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "Missing"
-                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "OK"
-               }
+Write-Host -Object "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
+Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
-               "<=" {
-                    $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
-                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "OK"
-                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "Missing"
-               } 
 
-               "==" {
-                    $fsObj | add-Member -memberType noteProperty -name "Item" -Value $hotfixId
-                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[0].ComputerName) -Value "OK"
-                    $fsObj | add-Member -memberType noteProperty -name $($fobjColl[1].ComputerName) -Value "OK"
-               } 
-          }
+#==============================================================================================
+# GUI
+#==============================================================================================
 
-          if($fsObj.item){
-               $script:ReturnObjColl += $fsObj
-          }
-     } 
-     writelog 1 "[done]" "extend"
-}
- 
-##################################################### porovnani #####################################################
+Add-Type -AssemblyName System.Windows.Forms 
+Add-Type -AssemblyName System.Drawing 
+$MyForm = New-Object System.Windows.Forms.Form 
+$MyForm.Text="MyForm" 
+$MyForm.Size = New-Object System.Drawing.Size(300,300) 
  
 
-$hostlist = @($Input)
-$objColl = $script:ReturnObjColl = @()
-$hostlistlength = $hostlist.length
- 
-if($hostlistlength -eq 2){
-     foreach ($srv in $hostlist) {
-          $sObjHotfixes = new-Object -typename System.Object
-          $sObjHotfixes | add-Member -memberType noteProperty -name ComputerName -Value $srv
-          $sObjHotfixes | add-Member -memberType noteProperty -name hotfixes -Value ""
-          $sObjHotfixes.hotfixes = gethotfixes $srv
-          $objColl += $sObjHotfixes
-     }
-}
- 
-compareHotfixes $objColl $fullreport
-$script:ReturnObjColl
+    $mlbl_OS = New-Object System.Windows.Forms.Label 
+            $mlbl_OS.Text=$json.OS
+            $mlbl_OS.Top="64" 
+            $mlbl_OS.Left="14" 
+            $mlbl_OS.Anchor="Left,Top" 
+    $mlbl_OS.Size = New-Object System.Drawing.Size(100,23) 
+    $MyForm.Controls.Add($mlbl_OS) 
+     
+
+    $mRichTextBox1 = New-Object System.Windows.Forms.RichTextBox 
+            $mRichTextBox1.Text= $json.Computer_Root_Certificates
+            $mRichTextBox1.Top="120" 
+            $mRichTextBox1.Left="49" 
+            $mRichTextBox1.Anchor="Left,Top" 
+    $mRichTextBox1.Size = New-Object System.Drawing.Size(100,23) 
+    $MyForm.Controls.Add($mRichTextBox1) 
+    $MyForm.ShowDialog()
