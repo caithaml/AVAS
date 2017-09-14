@@ -138,3 +138,523 @@ REMARKS
 
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> d:\SICZ\avas\temp\AVAS-LuKa.ps1
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:30 char:58
++             IF ($line1.DisplayName -eq $line2.DisplayName)   # If ste ...
++                                                          ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:31 char:64
++ ...          IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If  ...
++                                                                 ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:41 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:45 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas\temp> d:\SICZ\avas\temp\AVAS-LuKa.ps1
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:25 char:58
++             IF ($line1.DisplayName -eq $line2.DisplayName)   # If ste ...
++                                                          ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:26 char:64
++ ...          IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If  ...
++                                                                 ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:36 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:40 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas\temp> d:\SICZ\avas\temp\AVAS-LuKa.ps1
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:23 char:58
++             IF ($line1.DisplayName -eq $line2.DisplayName)   # If ste ...
++                                                          ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:24 char:64
++ ...          IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If  ...
++                                                                 ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:34 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:38 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas\temp> d:\SICZ\avas\temp\AVAS-LuKa.ps1
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:23 char:58
++             IF ($line1.DisplayName -eq $line2.DisplayName)   # If ste ...
++                                                          ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:24 char:64
++ ...          IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If  ...
++                                                                 ~
+Missing statement block after IF ( condition ).
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:34 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+
+At D:\SICZ\avas\temp\AVAS-LuKa.ps1:38 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Compare-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Compare-Object                                     3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Compare-Object"
+
+NAME
+    Compare-Object
+
+SYNTAX
+    Compare-Object [-ReferenceObject] <psobject[]> [-DifferenceObject] <psobject[]> [-SyncWindow <int>] [-Property <Object[]>] [-ExcludeDifferent] [-IncludeEqual] [-PassThru] [-Culture <st
+    ring>] [-CaseSensitive]  [<CommonParameters>]
+
+
+ALIASES
+    compare
+    diff
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Compare-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113286.
+
+
+
+PS D:\SICZ\avas\temp> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas\temp> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, P
+ublisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas\temp> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, P
+ublisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'."
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, P
+ublisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+Compare-Object : A positional parameter cannot be found that accepts argument 'â€property DisplayName, DisplayVersion, Publisher | Where .SideIndicator â€eq'.
+At D:\SICZ\avas\appdiff-test.ps1:5 char:5
++     Compare-Object $app $app2 â€“property DisplayName, DisplayVersion ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Compare-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="new-object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNTAX
+    New-Object [-TypeName] <string> [[-ArgumentList] <Object[]>] [-Property <IDictionary>]  [<CommonParameters>]
+
+    New-Object [-ComObject] <string> [-Strict] [-Property <IDictionary>]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-Object -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113355.
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript-avas-2017-09-14-02-21-17.txt
+09/14/2017 14:21:17 - Nacitani json konfiguracniho souboru
+09/14/2017 14:21:20 - Dokonce nacitani json konfiguracniho souboru
+09/14/2017 14:21:20 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/14/2017 14:21:20 - Nacitam GUI
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\avas_final.ps1:17 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app_default.json' because it does not exist.
+At D:\SICZ\avas\temp\avas_final.ps1:17 char:11
++     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app_default.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\temp\avas_final.ps1:18 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\app.json' because it does not exist.
+At D:\SICZ\avas\temp\avas_final.ps1:18 char:13
++     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\app.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\temp\avas_final.ps1:47 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\SICZ\hash_luka.json' because it does not exist.
+At D:\SICZ\avas\temp\avas_final.ps1:47 char:11
++     $inst=Get-Content C:\SICZ\hash_luka.json | ConvertFrom-Json
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\SICZ\hash_luka.json:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\SICZ\avas> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\avas_final.ps1:49 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\avas_final.ps1:49 char:64
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+>> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\avas_final.ps1:50 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\temp\avas_final.ps1:50 char:74
++ ... Object -ReferenceObject $default -DifferenceObject $installed  -Prope ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+09/14/2017 14:21:25 Probiha nacitani GUI
+09/14/2017 14:21:33 GUI bylo nacteno
+09/14/2017 14:21:33 Okno aplikace bylo uspesne nacteno
+09/14/2017 14:21:33 Okno aplikace bylo uspesne zavreno
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      5152
+computerName                   DESKTOP-TBE27PS
+instanceId                     4b68ce27-6687-4ce0-b24e-02d73c781cd1
+
+

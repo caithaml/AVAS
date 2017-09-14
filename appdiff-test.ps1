@@ -1,15 +1,7 @@
 function appdiff$ {
     $app= Get-Content D:\SICZ\app_default.json | ConvertFrom-Json  
     $app2 = Get-Content D:\SICZ\app.json | ConvertFrom-Json  
-        
-    Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" 
-    Group-Object -Property DisplayName | % { New-Object psobject -Property @{        
-        DisplayName=$_.DisplayName
-        DisplayVersion=$_.group[0].DisplayVersion
-       Publisher=$_.group[0].Publisher    
-    }} | Select DisplayName, DisplayVersion, Publisher
-    
-    
+
     $Diff = ForEach ($line1 in $app)   
     {
         ForEach ($line2 in $app2)   

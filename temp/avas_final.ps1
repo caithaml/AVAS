@@ -17,14 +17,6 @@ function appdiff  {
     $app= Get-Content C:\SICZ\app_default.json | ConvertFrom-Json  
     $app2 = Get-Content C:\SICZ\app.json | ConvertFrom-Json  
         
-    Compare-Object $app $app2 –property DisplayName, DisplayVersion, Publisher | Where $_.SideIndicator –eq "=>" 
-    Group-Object -Property DisplayName | % { New-Object psobject -Property @{        
-        DisplayName=$_.DisplayName
-        DisplayVersion=$_.group[0].DisplayVersion
-       Publisher=$_.group[0].Publisher    
-    }} | Select DisplayName, DisplayVersion, Publisher
-    
-    
     $Diff = ForEach ($line1 in $app)   
     {
         ForEach ($line2 in $app2)   
@@ -56,17 +48,11 @@ function servicesdiff  {
     $installed=$inst.Services
     Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property DisplayName #| where $_.SideIndicator -EQ "=>"
     $vysledek=Compare-Object -ReferenceObject $default -DifferenceObject $installed  -Property DisplayName | where $_.SideIndicator -EQ "=>"
-    #$vysledek
-    #$vysledek | Out-File C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).txt
-    #$vysledek | Export-Csv C:\avas\sluzby$(get-date -f yyyy-MM-dd-hh-mm-ss).csv
+    
     $vysledek
 }
 servicesdiff
 
-#$testapp=appdiff
-#$testapp
-#$testserv=servicesdiff
-#$testserv
 
 Write-Host -Object "$(Get-Date) Probiha nacitani GUI"
 Add-Type -AssemblyName System.Windows.Forms
@@ -1095,7 +1081,6 @@ $btn_napoveda.Add_Click({
     $napoveda.Controls.Add($Label)
 [void]$Form.ShowDialog()
 $Form.Dispose()
-
 
 Write-Host -Object "$(Get-Date) GUI bylo nacteno"
 
