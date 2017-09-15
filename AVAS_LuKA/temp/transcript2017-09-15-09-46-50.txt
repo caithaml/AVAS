@@ -1,0 +1,414 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170915094650
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16288.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1505457688-b3006301-d173-4048-8dc9-68c99562eb051505457685583\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-24232-362006' -FeatureFlags @()
+Process ID: 19332
+PSVersion: 5.1.16288.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16288.1
+BuildVersion: 10.0.16288.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-15-09-46-50.txt
+09/15/2017 09:46:50 - Nacitani json konfiguracniho souboru
+09/15/2017 09:46:52 - Dokonce nacitani json konfiguracniho souboru
+09/15/2017 09:46:52 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/15/2017 09:46:52 - ukonceno zjistovani zda je uzivatel admin
+09/15/2017 09:46:52 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/15/2017 09:46:52 - Nacitam GUI
+Cancel
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      19332
+computerName                   DESKTOP-TBE27PS
+instanceId                     e100af08-4fd2-49d5-8572-ae4bea0d481d
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        D:
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="D:"
+
+NAME
+    D:
+
+SYNTAX
+    D:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="callgui2"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="callgui2"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value=""C:\users\awittig\desktop\GUI2.ps1""
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value=""C:\users\awittig\desktop\GUI2.ps1""
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value=""C:\users\awittig\desktop\GUI2.ps1""
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value=""C:\users\awittig\desktop\GUI2.ps1""
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value=""C:\users\awittig\desktop\GUI2.ps1""
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value=""C:\users\awittig\desktop\GUI2.ps1""
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+ExternalScript  icwsc_template.ps1                                            D:\SICZ\avas\AVAS_LuKA\icwsc_template.ps1
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="$"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-ArgumentList"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-ArgumentList"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Object"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Object"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="expand.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     expand.exe                                         5.0.1.1    C:\WINDOWS\system32\expand.exe
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="expand.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     expand.exe                                         5.0.1.1    C:\WINDOWS\system32\expand.exe
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="W:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        W:
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="W:"
+
+NAME
+    W:
+
+SYNTAX
+    W:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-WmiObject"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-WmiObject                                      3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-WmiObject"
+
+NAME
+    Get-WmiObject
+
+SYNOPSIS
+    Gets instances of WMI classes or information about the available classes.
+
+
+SYNTAX
+    Get-WmiObject [-Class] <String> [[-Property] <String[]>] [-Amended] [-AsJob] [-Authentication {Default | None | Connect | Call | Packet | PacketIntegrity | PacketPrivacy | Unchanged}]
+    [-Authority <String>] [-ComputerName <String[]>] [-Credential <PSCredential>] [-DirectRead] [-EnableAllPrivileges] [-Filter <String>] [-Impersonation {Default | Anonymous | Identify |
+    Impersonate | Delegate}] [-Locale <String>] [-Namespace <String>] [-ThrottleLimit <Int32>] [<CommonParameters>]
+
+    Get-WmiObject [[-Class] <String>] [-Amended] [-AsJob] [-Authentication {Default | None | Connect | Call | Packet | PacketIntegrity | PacketPrivacy | Unchanged}] [-Authority <String>] [
+    -ComputerName <String[]>] [-Credential <PSCredential>] [-EnableAllPrivileges] [-Impersonation {Default | Anonymous | Identify | Impersonate | Delegate}] [-List] [-Locale <String>] [-Na
+    mespace <String>] [-Recurse] [-ThrottleLimit <Int32>] [<CommonParameters>]
+
+    Get-WmiObject [-Amended] [-AsJob] [-Authentication {Default | None | Connect | Call | Packet | PacketIntegrity | PacketPrivacy | Unchanged}] [-Authority <String>] [-ComputerName <Strin
+    g[]>] [-Credential <PSCredential>] [-DirectRead] [-EnableAllPrivileges] [-Impersonation {Default | Anonymous | Identify | Impersonate | Delegate}] [-Locale <String>] [-Namespace <Strin
+    g>] -Query <String> [-ThrottleLimit <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    Starting in Windows PowerShell 3.0, this cmdlet has been superseded by Get-CimInstancehttp://technet.microsoft.com/library/jj590758(v=wps.630).aspx.
+
+    The Get-WmiObject cmdlet gets instances of Windows Management Instrumentation (WMI) classes or information about the available WMI classes. To specify a remote computer, use the Comput
+    erName parameter. If the List parameter is specified, the cmdlet gets information about the WMI classes that are available in a specified namespace. If the Query parameter is specified
+    , the cmdlet runs a WMI query language (WQL) statement.
+
+    This cmdlet does not use Windows PowerShell remoting to perform remote operations. You can use the ComputerName parameter of the Get-WmiObject cmdlet even if your computer does not mee
+    t the requirements for Windows PowerShellremoting or is not configured for remoting in Windows PowerShell.
+
+    Beginning in Windows PowerShell 3.0, the __Server property of the object that Get-WmiObject returns has a PSComputerName alias. This makes it easier to include the source computer name
+     in output and reports.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821595
+    Get-WSManInstance
+    Invoke-WSManAction
+    New-WSManInstance
+    Remove-WSManInstance
+    Invoke-WmiMethod
+    Remove-WmiObject
+    Set-WmiInstance
+
+REMARKS
+    To see the examples, type: "get-help Get-WmiObject -examples".
+    For more information, type: "get-help Get-WmiObject -detailed".
+    For technical information, type: "get-help Get-WmiObject -full".
+    For online help, type: "get-help Get-WmiObject -online"
+
+
