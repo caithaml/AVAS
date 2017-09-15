@@ -858,6 +858,38 @@ $mbtn_vytvoritsablonu.Add_Click({
 
 $MyForm.Controls.Add($mbtn_vytvoritsablonu)
 
+$mbtn_syslog = New-Object System.Windows.Forms.Button 
+$mbtn_syslog.Text="Syslog" 
+$mbtn_syslog.Top="677" 
+$mbtn_syslog.Left="229" 
+$mbtn_syslog.Anchor="Left,Top" 
+$mbtn_syslog.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_syslog.Add_Click({
+        #$btnsablona_OnClick
+        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\syslog.ps1'
+        
+        })
+$MyForm.Controls.Add($mbtn_syslog) 
+
+
+$mbtn_applog = New-Object System.Windows.Forms.Button 
+$mbtn_applog.Text="Applog" 
+$mbtn_applog.Top="678" 
+$mbtn_applog.Left="347" 
+$mbtn_applog.Anchor="Left,Top" 
+$mbtn_applog.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_applog.Add_Click({
+        #$btnsablona_OnClick
+        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\applog.ps1'
+        
+        })
+$MyForm.Controls.Add($mbtn_applog) 
+
+
 $MyForm.ShowDialog()
 
 
