@@ -806,7 +806,7 @@ $MyForm.Controls.Add($mbtn_rootcert)
 
 
 $mlbl_uefixbios = New-Object System.Windows.Forms.Label 
-    $mlbl_uefixbios.Text="UEFIx BIOS" 
+    $mlbl_uefixbios.Text="UEFIxBIOS" 
     $mlbl_uefixbios.Top="644" 
     $mlbl_uefixbios.Left="232" 
     $mlbl_uefixbios.Anchor="Left,Top" 
