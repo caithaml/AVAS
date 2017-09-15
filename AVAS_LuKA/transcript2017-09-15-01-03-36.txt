@@ -37,3 +37,174 @@ At D:\SICZ\avas\AVAS_LuKA\avas_LuKa.ps1:898 char:1
     + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
     + FullyQualifiedErrorId : InvokeMethodOnNull
 
+PS>TerminatingError(): "The pipeline has been stopped."
+>> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      18612
+computerName                   DESKTOP-TBE27PS
+instanceId                     623f08b5-2b15-4333-925f-1d70c9836651
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNOPSIS
+    Creates an instance of a Microsoft .NET Framework or COM object.
+
+
+SYNTAX
+    New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>] [<CommonParameters>]
+
+    New-Object [-ComObject] <String> [-Property <IDictionary>] [-Strict] [<CommonParameters>]
+
+
+DESCRIPTION
+    The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+
+    You can specify either the type of a .NET Framework class or a ProgID of a COM object. By default, you type the fully qualified name of a .NET Framework class and the cmdlet returns a
+    reference to an instance of that class. To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object as its value.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821835
+    Compare-Object
+    Group-Object
+    Measure-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help New-Object -examples".
+    For more information, type: "get-help New-Object -detailed".
+    For technical information, type: "get-help New-Object -full".
+    For online help, type: "get-help New-Object -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndia
+    nUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <In
+    t64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Defau
+    lt | Oem | BigEndianUTF32}] [-Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>]
+     [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <switch>] [-Stream <st
+    ring>] [-Wait] [-UseTransaction] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and returns a collection
+    of objects, each of which represents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to another file. It is no
+    t valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, type "Get-Help Get-Cont
+    ent -Path $null" or see Get-Content at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ConvertFrom-Json"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ConvertFrom-Json                                   3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ConvertFrom-Json"
+
+NAME
+    ConvertFrom-Json
+
+SYNOPSIS
+    Converts a JSON-formatted string to a custom object.
+
+
+SYNTAX
+    ConvertFrom-Json [-InputObject] <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The ConvertFrom-Json cmdlet converts a JavaScript Object Notation (JSON) formatted string to a custom PSCustomObject object that has a property for each field in the JSON string. JSON
+    is commonly used by web sites to provide a textual representation of objects.
+
+    To generate a JSON string from any object, use the ConvertTo-Json cmdlet.
+
+    This cmdlet was introduced in Windows PowerShell 3.0.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821753
+    An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET http://msdn.microsoft.com/en-us/library/bb299886.aspx
+    ConvertTo-Json
+    Invoke-WebRequest
+    Invoke-RestMethod
+
+REMARKS
+    To see the examples, type: "get-help ConvertFrom-Json -examples".
+    For more information, type: "get-help ConvertFrom-Json -detailed".
+    For technical information, type: "get-help ConvertFrom-Json -full".
+    For online help, type: "get-help ConvertFrom-Json -online"
+
+

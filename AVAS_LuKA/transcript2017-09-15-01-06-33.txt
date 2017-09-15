@@ -37,3 +37,10 @@ At D:\SICZ\avas\AVAS_LuKA\avas_LuKa.ps1:898 char:1
     + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
     + FullyQualifiedErrorId : InvokeMethodOnNull
 
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20170915142121
+**********************
