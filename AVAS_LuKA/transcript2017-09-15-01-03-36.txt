@@ -1,0 +1,39 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170915130336
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16288.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1505472976-a13948ff-669f-421a-a6a8-5ac58e1902871505472973934\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-22732-902110' -FeatureFlags @()
+Process ID: 18612
+PSVersion: 5.1.16288.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16288.1
+BuildVersion: 10.0.16288.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-15-01-03-36.txt
+09/15/2017 13:03:36 - Nacitani json konfiguracniho souboru
+09/15/2017 13:03:36 - Dokonce nacitani json konfiguracniho souboru
+09/15/2017 13:03:36 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/15/2017 13:03:36 - ukonceno zjistovani zda je uzivatel admin
+09/15/2017 13:03:36 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/15/2017 13:03:36 - Nacitam GUI
+You cannot call a method on a null-valued expression.
+At D:\SICZ\avas\AVAS_LuKA\avas_LuKa.ps1:898 char:1
++ $mtbn_app.Add_Click({
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+You cannot call a method on a null-valued expression.
+At D:\SICZ\avas\AVAS_LuKA\avas_LuKa.ps1:898 char:1
++ $mtbn_app.Add_Click({
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+

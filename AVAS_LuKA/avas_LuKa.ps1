@@ -1,7 +1,7 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
-
+$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
 $jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
@@ -888,6 +888,36 @@ $mbtn_applog.Add_Click({
         
         })
 $MyForm.Controls.Add($mbtn_applog) 
+
+$mbtn_app = New-Object System.Windows.Forms.Button 
+$mbtn_app.Text="Apps" 
+$mbtn_app.Top="721" 
+$mbtn_app.Left="230" 
+$mbtn_app.Anchor="Left,Top" 
+$mbtn_app.Size = New-Object System.Drawing.Size(100,23) 
+$mtbn_app.Add_Click({
+        #$btnsablona_OnClick
+        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+        })
+$MyForm.Controls.Add($mbtn_app) 
+
+
+$mbtn_services = New-Object System.Windows.Forms.Button 
+$mbtn_services.Text="Services" 
+$mbtn_services.Top="725" 
+$mbtn_services.Left="348" 
+$mbtn_services.Anchor="Left,Top" 
+$mbtn_services.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_services.Add_Click({
+        #$btnsablona_OnClick
+        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\services.ps1'
+        
+        })
+$MyForm.Controls.Add($mbtn_services) 
 
 
 $MyForm.ShowDialog()
