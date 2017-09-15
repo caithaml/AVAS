@@ -254,6 +254,12 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
             $mbtn_scriptstartup.Top="487" 
             $mbtn_scriptstartup.Left="117" 
             $mbtn_scriptstartup.Anchor="Left,Top" 
+            $mbtn_scriptstartup.Add_Click({
+                #$btnsablona_OnClick
+                #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+                #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+                start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
+                })
     $mbtn_scriptstartup.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mbtn_scriptstartup) 
      
@@ -273,6 +279,13 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
             $mbtn_scriptshutdown.Left="116" 
             $mbtn_scriptshutdown.Anchor="Left,Top" 
     $mbtn_scriptshutdown.Size = New-Object System.Drawing.Size(100,23) 
+    $mbtn_scriptshutdown.Add_Click({
+        #$btnsablona_OnClick
+        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
+        
+        })
     $MyForm.Controls.Add($mbtn_scriptshutdown) 
      
 
