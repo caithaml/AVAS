@@ -28,3 +28,10 @@ WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jak
         start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
         $btnsablona_OnClick
 
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20170915102206
+**********************

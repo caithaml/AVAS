@@ -1,7 +1,7 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
-$json = Get-Content d:\SICZ\hash_mica.json | ConvertFrom-Json
+
 $jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
@@ -507,8 +507,11 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
             $mbtn_exepolicy.Left="430" 
             $mbtn_exepolicy.Anchor="Left,Top" 
             $mbtn_exepolicy.Add_Click({
+                #$btnsablona_OnClick
+                #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+                #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+                start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
                 
-                start -FilePath powershell.exe -ArgumentList "-nologo -noninteractive -command {Get-ExecutionPolicy -List}" 
                 })
              
             
@@ -840,11 +843,11 @@ $mbtn_vytvoritsablonu.Add_Click({
         
         })
 
-$mbtn_vytvoritsablonu.Click
-{
-        start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
-        $btnsablona_OnClick
-}
+#$mbtn_vytvoritsablonu.Click
+#{
+ #       start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+  #      $btnsablona_OnClick
+#}
 
 $MyForm.Controls.Add($mbtn_vytvoritsablonu)
 

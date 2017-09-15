@@ -264,3 +264,39 @@ CommandType     Name                                               Version    So
 Alias           start -> Start-Process
 
 
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-ArgumentList"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Object"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="-Object"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="expand.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     expand.exe                                         5.0.1.1    C:\WINDOWS\system32\expand.exe
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="expand.exe"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Application     expand.exe                                         5.0.1.1    C:\WINDOWS\system32\expand.exe
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
