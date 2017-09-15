@@ -513,3 +513,5 @@ $hash | ConvertTo-Json | Out-File "hash_sablona.json"
 $hash | ConvertTo-Json | Out-File "hash_sablona$(get-date -f yyyy-MM-dd-hh-mm-ss).json"
 #$hash | Export-Clixml | Out-File "clixml.xml"
 $hash | Out-File -Path "./hash$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+Read-Host "Press any key to exit..."
+exit

@@ -795,6 +795,13 @@ $mbtn_rootcert = New-Object System.Windows.Forms.Button
     $mbtn_rootcert.Left="431" 
     $mbtn_rootcert.Anchor="Left,Top" 
 $mbtn_rootcert.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_rootcert.Add_Click({
+        #$btnsablona_OnClick
+        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
+        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+        
+        })
 $MyForm.Controls.Add($mbtn_rootcert) 
 
 
