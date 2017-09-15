@@ -150,3 +150,78 @@ At D:\SICZ\avas\GUI-editor.ps1:304 char:52
     + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check th
+e spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check t
+he spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check th
+e spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check t
+he spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check th
+e spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check t
+he spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check th
+e spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check t
+he spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check th
+e spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+*.ps1 : The term '*.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check t
+he spelling of the name, or if a path was included, verify that the path is correct and try again.
+At D:\SICZ\avas\GUI-editor.ps1:304 char:52
++     $SaveFileDialog.filter = â€śPowershell Script (*.ps1)|*.ps1|All f ...
++                                                    ~~~~~
+    + CategoryInfo          : ObjectNotFound: (*.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
