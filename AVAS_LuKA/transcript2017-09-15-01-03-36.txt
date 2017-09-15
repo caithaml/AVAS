@@ -208,3 +208,110 @@ REMARKS
     For online help, type: "get-help ConvertFrom-Json -online"
 
 
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+appdiff : The term 'appdiff' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path i
+s correct and try again.
+At D:\SICZ\avas\AVAS_LuKA\apps.ps1:28 char:1
++ appdiff
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (appdiff:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\SICZ\avas\AVAS_LuKA> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      18612
+computerName                   DESKTOP-TBE27PS
+instanceId                     623f08b5-2b15-4333-925f-1d70c9836651
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff$"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff$
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff$"
+
+NAME
+    appdiff$
+
+SYNTAX
+    appdiff$
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff$"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff$
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff$"
+
+NAME
+    appdiff$
+
+SYNTAX
+    appdiff$
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas\AVAS_LuKA> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      18612
+computerName                   DESKTOP-TBE27PS
+instanceId                     623f08b5-2b15-4333-925f-1d70c9836651
+
+
