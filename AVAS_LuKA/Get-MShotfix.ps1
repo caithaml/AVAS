@@ -21,7 +21,7 @@ Function Get-MSHotfix
                 Description = [string]$parts[2] 
                 FixComments = [string]$parts[6] 
                 HotFixID = [string]$parts[3] 
-                InstalledOn = Get-Date($Dateis)-format "dddd d MMMM yyyy" 
+                InstalledOn = Get-Date($Dateis)-format "dddd MMMM yyyy" 
                 InstalledBy = [string]$parts[4] 
                 InstallDate = [string]$parts[7] 
                 Name = [string]$parts[8] 
