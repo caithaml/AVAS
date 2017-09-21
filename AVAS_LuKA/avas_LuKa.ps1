@@ -255,9 +255,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
             $mbtn_scriptstartup.Left="117" 
             $mbtn_scriptstartup.Anchor="Left,Top" 
             $mbtn_scriptstartup.Add_Click({
-                #$btnsablona_OnClick
-                #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-                #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+               
                 start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
                 })
     $mbtn_scriptstartup.Size = New-Object System.Drawing.Size(100,23) 
@@ -280,9 +278,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
             $mbtn_scriptshutdown.Anchor="Left,Top" 
     $mbtn_scriptshutdown.Size = New-Object System.Drawing.Size(100,23) 
     $mbtn_scriptshutdown.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+       
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
         
         })
@@ -520,9 +516,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
             $mbtn_exepolicy.Left="430" 
             $mbtn_exepolicy.Anchor="Left,Top" 
             $mbtn_exepolicy.Add_Click({
-                #$btnsablona_OnClick
-                #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-                #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+                
                 start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
                 
                 })
@@ -809,9 +803,7 @@ $mbtn_rootcert = New-Object System.Windows.Forms.Button
     $mbtn_rootcert.Anchor="Left,Top" 
 $mbtn_rootcert.Size = New-Object System.Drawing.Size(100,23) 
 $mbtn_rootcert.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+       
         start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
         
         })
@@ -856,18 +848,12 @@ function createtemplate {
         }
         $btnsablona_OnClick = ${function:createtemplate}
 $mbtn_vytvoritsablonu.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+     
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
         
         })
 
-#$mbtn_vytvoritsablonu.Click
-#{
- #       start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
-  #      $btnsablona_OnClick
-#}
+
 
 $MyForm.Controls.Add($mbtn_vytvoritsablonu)
 
@@ -878,9 +864,7 @@ $mbtn_syslog.Left="229"
 $mbtn_syslog.Anchor="Left,Top" 
 $mbtn_syslog.Size = New-Object System.Drawing.Size(100,23) 
 $mbtn_syslog.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+        
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\syslog.ps1'
         
         })
@@ -894,9 +878,7 @@ $mbtn_applog.Left="347"
 $mbtn_applog.Anchor="Left,Top" 
 $mbtn_applog.Size = New-Object System.Drawing.Size(100,23) 
 $mbtn_applog.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+      
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\applog.ps1'
         
         })
@@ -922,9 +904,7 @@ $mbtn_services.Left="348"
 $mbtn_services.Anchor="Left,Top" 
 $mbtn_services.Size = New-Object System.Drawing.Size(100,23) 
 $mbtn_services.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+      
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\services.ps1'
         
         })
