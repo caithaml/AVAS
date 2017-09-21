@@ -412,7 +412,6 @@ else
   $result = 'Not Installed'
 }
 $hash | Add-Member Noteproperty LAPS $result 
-
 $hash | Add-Member NoteProperty Computer_Root_Certificates (Get-ChildItem -Path Cert:\LocalMachine\Root | Format-List)
 $hash | Add-Member NoteProperty Local_Users (Get-LocalUser)
 $hash | Add-Member NoteProperty Local_Groups (Get-LocalGroup)
@@ -459,7 +458,7 @@ $hash | Add-Member NoteProperty Logs_AppLocker_Execution $(Get-WinEvent -FilterH
 })
 
 $hash | Add-Member noteproperty Scheduled_Tasks (Get-ScheduledTask)
-$hash | Add-Member NoteProperty AppLocker 
+
 
 $hash | Add-Member NoteProperty Bitlocker (Get-BitLockerVolume)
 
@@ -513,5 +512,6 @@ $hash | ConvertTo-Json | Out-File "hash_sablona.json"
 $hash | ConvertTo-Json | Out-File "hash_sablona$(get-date -f yyyy-MM-dd-hh-mm-ss).json"
 #$hash | Export-Clixml | Out-File "clixml.xml"
 $hash | Out-File -Path "./hash$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$hash | Out-File -Path "./templatehash$(env:COMPUTERNAME)-$(get-date -f yyy-MM-dd-hh-mm-ss).json"
 Read-Host "Press any key to exit..."
 exit

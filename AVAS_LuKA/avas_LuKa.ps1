@@ -909,9 +909,7 @@ $mbtn_app.Left="230"
 $mbtn_app.Anchor="Left,Top" 
 $mbtn_app.Size = New-Object System.Drawing.Size(100,23) 
 $mtbn_app.Add_Click({
-        #$btnsablona_OnClick
-        #start -FilePath powershell.exe -ArgumentList "-command {D:\SICZ\avas\avas_luka\icwsc_template.ps1}" 
-        #start PowerShell.exe -FilePath D:\SICZ\avas\avas_luka\icwsc_template.ps1
+      
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
         })
 $MyForm.Controls.Add($mbtn_app) 
