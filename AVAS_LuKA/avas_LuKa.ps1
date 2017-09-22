@@ -30,11 +30,11 @@ Write-Host -Object "$(Get-Date) - Nacitam GUI"
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
 $MyForm = New-Object System.Windows.Forms.Form 
-$MyForm.Text="AVAS-porovnani testy "
-$MyForm.Size = New-Object System.Drawing.Size(800,800) 
+$MyForm.Text="AVAS - porovnani testy "
+$MyForm.Size = New-Object System.Drawing.Size(1024,800) 
  
 $mlbl_nazevstanice = New-Object System.Windows.Forms.Label 
-$mlbl_nazevstanice.Text="Název stanice" 
+$mlbl_nazevstanice.Text="Nazev stanice" 
 $mlbl_nazevstanice.Top="41" 
 $mlbl_nazevstanice.Left="6" 
 $mlbl_nazevstanice.Anchor="Left,Top" 
@@ -70,7 +70,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
      
 
     $mlbl_vypisinfotest = New-Object System.Windows.Forms.Label 
-            $mlbl_vypisinfotest.Text="Výpis informací o stanici - test!" 
+            $mlbl_vypisinfotest.Text="Vypis informaci o stanici - test!" 
             $mlbl_vypisinfotest.Top="137" 
             $mlbl_vypisinfotest.Left="6" 
             $mlbl_vypisinfotest.Anchor="Left,Top" 
@@ -81,7 +81,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_computername = New-Object System.Windows.Forms.Label 
             $mlbl_computername.Text="ComputerName" 
             $mlbl_computername.Top="195" 
-            $mlbl_computername.Left="12" 
+            $mlbl_computername.Left="10" 
             $mlbl_computername.Anchor="Left,Top" 
     $mlbl_computername.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_computername) 
@@ -99,7 +99,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_date = New-Object System.Windows.Forms.Label 
             $mlbl_date.Text="Date" 
             $mlbl_date.Top="227" 
-            $mlbl_date.Left="13" 
+            $mlbl_date.Left="10" 
             $mlbl_date.Anchor="Left,Top" 
     $mlbl_date.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_date) 
@@ -117,7 +117,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_user = New-Object System.Windows.Forms.Label 
             $mlbl_user.Text="User" 
             $mlbl_user.Top="259" 
-            $mlbl_user.Left="12" 
+            $mlbl_user.Left="10" 
             $mlbl_user.Anchor="Left,Top" 
     $mlbl_user.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_user) 
@@ -135,7 +135,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_lastuser = New-Object System.Windows.Forms.Label 
             $mlbl_lastuser.Text="Last user" 
             $mlbl_lastuser.Top="296" 
-            $mlbl_lastuser.Left="13" 
+            $mlbl_lastuser.Left="10" 
             $mlbl_lastuser.Anchor="Left,Top" 
     $mlbl_lastuser.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_lastuser) 
@@ -153,7 +153,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_domain = New-Object System.Windows.Forms.Label 
             $mlbl_domain.Text="Domain" 
             $mlbl_domain.Top="331" 
-            $mlbl_domain.Left="14" 
+            $mlbl_domain.Left="10" 
             $mlbl_domain.Anchor="Left,Top" 
     $mlbl_domain.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_domain) 
@@ -171,7 +171,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_domaintcp = New-Object System.Windows.Forms.Label 
             $mlbl_domaintcp.Text="Domain TCP" 
             $mlbl_domaintcp.Top="364" 
-            $mlbl_domaintcp.Left="12" 
+            $mlbl_domaintcp.Left="10" 
             $mlbl_domaintcp.Anchor="Left,Top" 
     $mlbl_domaintcp.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_domaintcp) 
@@ -189,7 +189,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_domaindhcp = New-Object System.Windows.Forms.Label 
             $mlbl_domaindhcp.Text="Domain DHCP" 
             $mlbl_domaindhcp.Top="397" 
-            $mlbl_domaindhcp.Left="13" 
+            $mlbl_domaindhcp.Left="10" 
             $mlbl_domaindhcp.Anchor="Left,Top" 
     $mlbl_domaindhcp.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_domaindhcp) 
@@ -207,7 +207,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_sitename = New-Object System.Windows.Forms.Label 
             $mlbl_sitename.Text="Site name" 
             $mlbl_sitename.Top="428" 
-            $mlbl_sitename.Left="13" 
+            $mlbl_sitename.Left="10" 
             $mlbl_sitename.Anchor="Left,Top" 
     $mlbl_sitename.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_sitename) 
@@ -225,7 +225,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_activedc = New-Object System.Windows.Forms.Label 
             $mlbl_activedc.Text="Active DC" 
             $mlbl_activedc.Top="461" 
-            $mlbl_activedc.Left="13" 
+            $mlbl_activedc.Left="10" 
             $mlbl_activedc.Anchor="Left,Top" 
     $mlbl_activedc.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_activedc) 
@@ -243,7 +243,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_scriptstartup = New-Object System.Windows.Forms.Label 
             $mlbl_scriptstartup.Text="Script start up" 
             $mlbl_scriptstartup.Top="493" 
-            $mlbl_scriptstartup.Left="14" 
+            $mlbl_scriptstartup.Left="10" 
             $mlbl_scriptstartup.Anchor="Left,Top" 
     $mlbl_scriptstartup.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_scriptstartup) 
@@ -265,7 +265,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_scriptshutdown = New-Object System.Windows.Forms.Label 
             $mlbl_scriptshutdown.Text="Script shutdown" 
             $mlbl_scriptshutdown.Top="523" 
-            $mlbl_scriptshutdown.Left="13" 
+            $mlbl_scriptshutdown.Left="10" 
             $mlbl_scriptshutdown.Anchor="Left,Top" 
     $mlbl_scriptshutdown.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_scriptshutdown) 
@@ -288,7 +288,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_os = New-Object System.Windows.Forms.Label 
             $mlbl_os.Text="OS" 
             $mlbl_os.Top="552" 
-            $mlbl_os.Left="15" 
+            $mlbl_os.Left="10" 
             $mlbl_os.Anchor="Left,Top" 
     $mlbl_os.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_os) 
@@ -306,7 +306,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_osbuild = New-Object System.Windows.Forms.Label 
             $mlbl_osbuild.Text="OS build" 
             $mlbl_osbuild.Top="580" 
-            $mlbl_osbuild.Left="14" 
+            $mlbl_osbuild.Left="10" 
             $mlbl_osbuild.Anchor="Left,Top" 
     $mlbl_osbuild.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_osbuild) 
@@ -324,7 +324,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_sp = New-Object System.Windows.Forms.Label 
             $mlbl_sp.Text="Service Pack" 
             $mlbl_sp.Top="615" 
-            $mlbl_sp.Left="15" 
+            $mlbl_sp.Left="10" 
             $mlbl_sp.Anchor="Left,Top" 
     $mlbl_sp.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_sp) 
@@ -360,7 +360,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_lastboottime = New-Object System.Windows.Forms.Label 
             $mlbl_lastboottime.Text="Last boot time" 
             $mlbl_lastboottime.Top="682" 
-            $mlbl_lastboottime.Left="16" 
+            $mlbl_lastboottime.Left="10" 
             $mlbl_lastboottime.Anchor="Left,Top" 
     $mlbl_lastboottime.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_lastboottime) 
@@ -378,7 +378,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_ramtotal = New-Object System.Windows.Forms.Label 
             $mlbl_ramtotal.Text="RAM total" 
             $mlbl_ramtotal.Top="714" 
-            $mlbl_ramtotal.Left="18" 
+            $mlbl_ramtotal.Left="10" 
             $mlbl_ramtotal.Anchor="Left,Top" 
     $mlbl_ramtotal.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_ramtotal) 
@@ -396,7 +396,7 @@ $MyForm.Controls.Add($mlbl_nazevstanice)
     $mlbl_ramfree = New-Object System.Windows.Forms.Label 
             $mlbl_ramfree.Text="RAM free" 
             $mlbl_ramfree.Top="744" 
-            $mlbl_ramfree.Left="19" 
+            $mlbl_ramfree.Left="10" 
             $mlbl_ramfree.Anchor="Left,Top" 
     $mlbl_ramfree.Size = New-Object System.Drawing.Size(100,23) 
     $MyForm.Controls.Add($mlbl_ramfree) 
@@ -891,7 +891,6 @@ $mbtn_app.Left="230"
 $mbtn_app.Anchor="Left,Top" 
 $mbtn_app.Size = New-Object System.Drawing.Size(100,23) 
 $mtbn_app.Add_Click({
-      
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
         })
 $MyForm.Controls.Add($mbtn_app) 

@@ -1,4 +1,4 @@
-Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+Start-Transcript -Path "./transcriptGUI$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
  
@@ -166,7 +166,7 @@ function AddControl ($mControl) {
         'RichTextBox'    {$mReturnControl = New-Object System.Windows.Forms.RichTextBox} 
         'TreeView'       {$mReturnControl = New-Object System.Windows.Forms.TreeView} 
         'WebBrowser'     {$mReturnControl = New-Object System.Windows.Forms.WebBrowser} 
-        "default" {write-host 'something goes wrong sorry :('} 
+        "default" {write-host 'neco se podelalo :('} 
  
     } 
  
@@ -247,7 +247,7 @@ function ExportForm {
     Add-Type -AssemblyName System.Windows.Forms 
     Add-Type -AssemblyName System.Drawing 
     $MyForm = New-Object System.Windows.Forms.Form 
-    $MyForm.Text="MyForm" 
+    $MyForm.Text="oknoformulare" 
     $MyForm.Size = New-Object System.Drawing.Size('+$mFormObj.SizeX+','+$mFormObj.SizeY+') 
     ' 
     foreach ($mElement in $mFormObj.Elements){ 
@@ -289,7 +289,7 @@ function ExportForm {
     $mExportString+= '$MyForm.ShowDialog()' 
  
     $mFileName='' 
-    $mFileName = get-filename 'C:\' 
+    $mFileName = get-filename 'D:\SICZ\avas\AVAS_LuKa\' 
     if ($mFileName -notlike ''){ 
             
         $mExportString > $mFileName 
@@ -310,7 +310,7 @@ Function Get-FileName($initialDirectory)  {
  
 $mForm = New-Object System.Windows.Forms.Form 
 $mForm.AutoSize = $true 
-$mForm.Text='FormsMaker' 
+$mForm.Text='AVAS GUI editor by LuKa - urceno pouze pro AVAS! Prubezne exportuj, muze kdykoli spadnout a budes v haji :-)' 
  
 $mControlType = New-Object System.Windows.Forms.ComboBoX 
 $mControlType.Anchor = 'Left,Top' 
@@ -382,7 +382,7 @@ $mFormGroupBox.left = 350
 $mFormGroupBox.top = 5 
 $mFormGroupBox.Anchor = 'Left,Top' 
 $mFormGroupBox.Size = New-Object System.Drawing.Size($mFormXTextBox.Text,$mFormYTextBox.Text) 
-$mFormGroupBox.Text = 'New Form' 
+$mFormGroupBox.Text = 'Nove okno' 
 $mForm.Controls.Add($mFormGroupBox) 
  
 $mElemetnsGrid = New-Object System.Windows.Forms.DataGridView 
