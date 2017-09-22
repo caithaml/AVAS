@@ -882,5 +882,21 @@ $mbtn_patchlevel.Add_Click({
            
            })
 $MyForm.Controls.Add($mbtn_patchlevel) 
+
+$mbtn_gui = New-Object System.Windows.Forms.Button 
+$mbtn_gui.Text="Upravit GUI" 
+$mbtn_gui.Top="163" 
+$mbtn_gui.Left="904" 
+$mbtn_gui.Anchor="Left,Top" 
+$mbtn_gui.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_gui.Add_Click({
+        
+           start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
+           
+           })
+
+$MyForm.Controls.Add($mbtn_gui) 
+
+
         
 $MyForm.ShowDialog()
