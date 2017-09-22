@@ -1,8 +1,8 @@
 $openFileDialog = New-Object windows.forms.openfiledialog   
 $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
-$openFileDialog.title = "Select JSON Configuration File to Import"   
+$openFileDialog.title = "Select PublishSettings Configuration File to Import"   
 $openFileDialog.filter = "All files (*.*)| *.*"   
-$openFileDialog.filter = "JSON|*.json|All Files|*.*" 
+$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
 $openFileDialog.ShowHelp = $True   
 Write-Host "Select Downloaded Settings File... (see FileOpen Dialog)" -ForegroundColor Green  
 $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
