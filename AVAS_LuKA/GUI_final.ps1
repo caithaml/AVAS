@@ -836,7 +836,7 @@ $mbtn_tisk.Add_Click({
         
         $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare</H2>" | 
         Out-File C:\SICZ\Testtisk.html
-
+        start chrome C:\SICZ\Testtisk.html
         })
 
 
@@ -877,8 +877,10 @@ $mbtn_patchlevel.Left="903"
 $mbtn_patchlevel.Anchor="Left,Top" 
 $mbtn_patchlevel.Size = New-Object System.Drawing.Size(100,23) 
 $mbtn_patchlevel.Add_Click({
-        
-           start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+        $patche=Get-Content "D:\SICZ\avas\AVAS_LuKA\hotfixy.csv" | ConvertFrom-Csv
+        #$patche
+        $patche | Out-GridView
+        #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
            
            })
 $MyForm.Controls.Add($mbtn_patchlevel) 
@@ -957,5 +959,19 @@ $mlbl_nactenyjson.Left="723"
 $mlbl_nactenyjson.Anchor="Left,Top" 
 $mlbl_nactenyjson.Size = New-Object System.Drawing.Size(100,23) 
 $MyForm.Controls.Add($mlbl_nactenyjson) 
+
+$mlbl_rootcertifikaty = New-Object System.Windows.Forms.Button 
+$mlbl_rootcertifikaty.Text="Root certifikaty" 
+$mlbl_rootcertifikaty.Top="265" 
+$mlbl_rootcertifikaty.Left="903" 
+$mlbl_rootcertifikaty.Anchor="Left,Top" 
+$mlbl_rootcertifikaty.Size = New-Object System.Drawing.Size(100,23) 
+$mlbl_rootcertifikaty.Add_Click({
+        #$json.rootcert | Out-GridView
+        $json.Computer_Root_Certificates | Out-GridView
+        #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+         
+         })
+$MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
 $MyForm.ShowDialog()
