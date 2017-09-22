@@ -1,10 +1,22 @@
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+Function Get-FileName($initialDirectory)
+{
+    [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+    
+    $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
+    $OpenFileDialog.initialDirectory = $initialDirectory
+    $OpenFileDialog.filter = "JSON (*.json)| *.json"
+    $OpenFileDialog.ShowDialog() | Out-Null
+    $OpenFileDialog.filename
+}
+$inputfile = Get-FileName "C:\SICZ"
+$inputdata = get-content $inputfile
 
 
-$jsoncesta = $OpenFileDialog.filename  | ConvertFrom-Json
-$json=$jsoncesta
+
+$json=$inputdata | ConvertFrom-Json
 $jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
@@ -34,26 +46,6 @@ Write-Host -Object "$(Get-Date) - Nacitam GUI"
     $MyForm.Text="oknoformulare" 
     $MyForm.Size = New-Object System.Drawing.Size(1024,850) 
      
-    $openFileDialog = New-Object windows.forms.openfiledialog   
-    $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
-    $openFileDialog.title = "Select JSON Configuration File to Import"   
-    $openFileDialog.filter = "All files (*.*)| *.*"   
-    $openFileDialog.filter = "JSON|*.json|All Files|*.*" 
-    $openFileDialog.ShowHelp = $True   
-    Write-Host "Select Downloaded Settings File... (see FileOpen Dialog)" -ForegroundColor Green  
-    $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
-    # in ISE you may have to alt-tab or minimize ISE to see dialog box 
-    $result 
-    if($result -eq "OK")    {    
-            Write-Host "Selected Downloaded Settings File:"  -ForegroundColor Green  
-            $OpenFileDialog.filename   
-            # $OpenFileDialog.CheckFileExists 
-             
-            # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
-            # Unremark the above line if you actually want to perform an import of a publish settings file  
-            Write-Host "Import Settings File Imported!" -ForegroundColor Green 
-        } 
-        else { Write-Host "Import Settings File Cancelled!" -ForegroundColor Yellow} 
         $mlbl_computername = New-Object System.Windows.Forms.Label 
                 $mlbl_computername.Text="Computer name" 
                 $mlbl_computername.Top="37" 
