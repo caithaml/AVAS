@@ -833,8 +833,11 @@ $mbtn_tisk.Add_Click({
         $a = $a + "TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}"
         $a = $a + "TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}"
         $a = $a + "</style>"
+        $tisk=$json.ComputerName
+        $tisk=$tisk+ $json.OS
+        $tisk=$tisk+ $json.os_build
         
-        $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare</H2>" | 
+        $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
         Out-File C:\SICZ\Testtisk.html
         start chrome C:\SICZ\Testtisk.html
         })
