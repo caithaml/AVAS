@@ -8601,3 +8601,819 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     d09d89c0-45d2-4ce1-9966-97094ce09e1d
 
 
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNOPSIS
+    Creates an instance of a Microsoft .NET Framework or COM object.
+
+
+SYNTAX
+    New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>] [<CommonParameters>]
+
+    New-Object [-ComObject] <String> [-Property <IDictionary>] [-Strict] [<CommonParameters>]
+
+
+DESCRIPTION
+    The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+
+    You can specify either the type of a .NET Framework class or a ProgID of a COM object. By default, you type the fully qualified name of a .NET Framework class and the cmdlet returns a reference
+     to an instance of that class. To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object as its value.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821835
+    Compare-Object
+    Group-Object
+    Measure-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help New-Object -examples".
+    For more information, type: "get-help New-Object -detailed".
+    For technical information, type: "get-help New-Object -full".
+    For online help, type: "get-help New-Object -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="A"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="A:"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        A:
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="A:"
+
+NAME
+    A:
+
+SYNTAX
+    A:
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-AppvClientConnectionGroup"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-AppvClientConnectionGroup                      1.0.0.0    AppvClient
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-AppvClientConnectionGroup"
+
+NAME
+    Add-AppvClientConnectionGroup
+
+SYNOPSIS
+    Creates a composition of multiple packages.
+
+
+SYNTAX
+    Add-AppvClientConnectionGroup [-Path] <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-AppvClientConnectionGroup cmdlet creates an Microsoft Application Virtualization (App-V) connection group. In order for the group to be applied, all packages in the group must be added
+    to the target computer, and must not be running.
+
+    This cmdlet can also be used to update an already existing connection group definition.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=827699
+    Disable-AppvClientConnectionGroup
+    Enable-AppvClientConnectionGroup
+    Get-AppvClientConnectionGroup
+    Mount-AppvClientConnectionGroup
+    Remove-AppvClientConnectionGroup
+    Repair-AppvClientConnectionGroup
+    Stop-AppvClientConnectionGroup
+
+REMARKS
+    To see the examples, type: "get-help Add-AppvClientConnectionGroup -examples".
+    For more information, type: "get-help Add-AppvClientConnectionGroup -detailed".
+    For technical information, type: "get-help Add-AppvClientConnectionGroup -full".
+    For online help, type: "get-help Add-AppvClientConnectionGroup -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-AppvClientConnectionGroup"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-AppvClientConnectionGroup                      1.0.0.0    AppvClient
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-AppvClientConnectionGroup"
+
+NAME
+    Add-AppvClientConnectionGroup
+
+SYNOPSIS
+    Creates a composition of multiple packages.
+
+
+SYNTAX
+    Add-AppvClientConnectionGroup [-Path] <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-AppvClientConnectionGroup cmdlet creates an Microsoft Application Virtualization (App-V) connection group. In order for the group to be applied, all packages in the group must be added
+    to the target computer, and must not be running.
+
+    This cmdlet can also be used to update an already existing connection group definition.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=827699
+    Disable-AppvClientConnectionGroup
+    Enable-AppvClientConnectionGroup
+    Get-AppvClientConnectionGroup
+    Mount-AppvClientConnectionGroup
+    Remove-AppvClientConnectionGroup
+    Repair-AppvClientConnectionGroup
+    Stop-AppvClientConnectionGroup
+
+REMARKS
+    To see the examples, type: "get-help Add-AppvClientConnectionGroup -examples".
+    For more information, type: "get-help Add-AppvClientConnectionGroup -detailed".
+    For technical information, type: "get-help Add-AppvClientConnectionGroup -full".
+    For online help, type: "get-help Add-AppvClientConnectionGroup -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-AppvClientConnectionGroup"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-AppvClientConnectionGroup                      1.0.0.0    AppvClient
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-AppvClientConnectionGroup"
+
+NAME
+    Add-AppvClientConnectionGroup
+
+SYNOPSIS
+    Creates a composition of multiple packages.
+
+
+SYNTAX
+    Add-AppvClientConnectionGroup [-Path] <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-AppvClientConnectionGroup cmdlet creates an Microsoft Application Virtualization (App-V) connection group. In order for the group to be applied, all packages in the group must be added
+    to the target computer, and must not be running.
+
+    This cmdlet can also be used to update an already existing connection group definition.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=827699
+    Disable-AppvClientConnectionGroup
+    Enable-AppvClientConnectionGroup
+    Get-AppvClientConnectionGroup
+    Mount-AppvClientConnectionGroup
+    Remove-AppvClientConnectionGroup
+    Repair-AppvClientConnectionGroup
+    Stop-AppvClientConnectionGroup
+
+REMARKS
+    To see the examples, type: "get-help Add-AppvClientConnectionGroup -examples".
+    For more information, type: "get-help Add-AppvClientConnectionGroup -detailed".
+    For technical information, type: "get-help Add-AppvClientConnectionGroup -full".
+    For online help, type: "get-help Add-AppvClientConnectionGroup -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Member"
+
+NAME
+    Add-Member
+
+SYNOPSIS
+    Adds custom properties and methods to an instance of a Windows PowerShell object.
+
+
+SYNTAX
+    Add-Member [-MemberType] {AliasProperty | CodeProperty | Property | NoteProperty | ScriptProperty | Properties | PropertySet | Method | CodeMethod | ScriptMethod | Methods | ParameterizedProper
+    ty | MemberSet | Event | Dynamic | All} [-Name] <String> [[-Value] <Object>] [[-SecondValue] <Object>] [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyName] <String> [-NotePropertyValue] <Object> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyMembers] <IDictionary> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member -InputObject <PSObject> [-PassThru] -TypeName <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-Member cmdlet lets you add members (properties and methods) to an instance of a Windows PowerShell object. For instance, you can add a NoteProperty member that contains a description of
+     the object or a ScriptMethod member that runs a script to change the object.
+
+    To use Add-Member , pipe the object to Add-Member , or use the InputObject parameter to specify the object. Use the MemberType parameter to specify the type of member that you want to add, use
+    the Name parameter to assign a name to the new member, and use the Value parameter to set the value of the member.
+
+    The properties and methods that you add are added only to the particular instance of the object that you specify. Add-Member does not change the object type. To create a new object type, use th
+    e Add-Type cmdlet. You can also use the Export-Clixml cmdlet to save the instance of the object, including the additional members, in a file. Then you can use the Import-Clixml cmdlet to re-cre
+    ate the instance of the object from the information that is stored in the exported file.
+
+    Beginning in Windows PowerShell 3.0, Add-Member has new features that make it easier to add note properties to objects. You can use the NotePropertyName and NotePropertyValue parameters to defi
+    ne a note property or use the NotePropertyMembers parameter, which takes a hash table of note property names and values.
+
+    Also, beginning in Windows PowerShell 3.0, the PassThru parameter, which generates an output object, is needed less frequently. Add-Member now adds the new members directly to the input object
+    of more types. For more information, see the PassThru parameter description.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821748
+    Export-Clixml
+    Get-Member
+    Import-Clixml
+    New-Object
+
+REMARKS
+    To see the examples, type: "get-help Add-Member -examples".
+    For more information, type: "get-help Add-Member -detailed".
+    For technical information, type: "get-help Add-Member -full".
+    For online help, type: "get-help Add-Member -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Member"
+
+NAME
+    Add-Member
+
+SYNOPSIS
+    Adds custom properties and methods to an instance of a Windows PowerShell object.
+
+
+SYNTAX
+    Add-Member [-MemberType] {AliasProperty | CodeProperty | Property | NoteProperty | ScriptProperty | Properties | PropertySet | Method | CodeMethod | ScriptMethod | Methods | ParameterizedProper
+    ty | MemberSet | Event | Dynamic | All} [-Name] <String> [[-Value] <Object>] [[-SecondValue] <Object>] [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyName] <String> [-NotePropertyValue] <Object> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyMembers] <IDictionary> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member -InputObject <PSObject> [-PassThru] -TypeName <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-Member cmdlet lets you add members (properties and methods) to an instance of a Windows PowerShell object. For instance, you can add a NoteProperty member that contains a description of
+     the object or a ScriptMethod member that runs a script to change the object.
+
+    To use Add-Member , pipe the object to Add-Member , or use the InputObject parameter to specify the object. Use the MemberType parameter to specify the type of member that you want to add, use
+    the Name parameter to assign a name to the new member, and use the Value parameter to set the value of the member.
+
+    The properties and methods that you add are added only to the particular instance of the object that you specify. Add-Member does not change the object type. To create a new object type, use th
+    e Add-Type cmdlet. You can also use the Export-Clixml cmdlet to save the instance of the object, including the additional members, in a file. Then you can use the Import-Clixml cmdlet to re-cre
+    ate the instance of the object from the information that is stored in the exported file.
+
+    Beginning in Windows PowerShell 3.0, Add-Member has new features that make it easier to add note properties to objects. You can use the NotePropertyName and NotePropertyValue parameters to defi
+    ne a note property or use the NotePropertyMembers parameter, which takes a hash table of note property names and values.
+
+    Also, beginning in Windows PowerShell 3.0, the PassThru parameter, which generates an output object, is needed less frequently. Add-Member now adds the new members directly to the input object
+    of more types. For more information, see the PassThru parameter description.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821748
+    Export-Clixml
+    Get-Member
+    Import-Clixml
+    New-Object
+
+REMARKS
+    To see the examples, type: "get-help Add-Member -examples".
+    For more information, type: "get-help Add-Member -detailed".
+    For technical information, type: "get-help Add-Member -full".
+    For online help, type: "get-help Add-Member -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Add-Member"
+
+NAME
+    Add-Member
+
+SYNOPSIS
+    Adds custom properties and methods to an instance of a Windows PowerShell object.
+
+
+SYNTAX
+    Add-Member [-MemberType] {AliasProperty | CodeProperty | Property | NoteProperty | ScriptProperty | Properties | PropertySet | Method | CodeMethod | ScriptMethod | Methods | ParameterizedProper
+    ty | MemberSet | Event | Dynamic | All} [-Name] <String> [[-Value] <Object>] [[-SecondValue] <Object>] [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyName] <String> [-NotePropertyValue] <Object> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member [-NotePropertyMembers] <IDictionary> [-Force] -InputObject <PSObject> [-PassThru] [-TypeName <String>] [<CommonParameters>]
+
+    Add-Member -InputObject <PSObject> [-PassThru] -TypeName <String> [<CommonParameters>]
+
+
+DESCRIPTION
+    The Add-Member cmdlet lets you add members (properties and methods) to an instance of a Windows PowerShell object. For instance, you can add a NoteProperty member that contains a description of
+     the object or a ScriptMethod member that runs a script to change the object.
+
+    To use Add-Member , pipe the object to Add-Member , or use the InputObject parameter to specify the object. Use the MemberType parameter to specify the type of member that you want to add, use
+    the Name parameter to assign a name to the new member, and use the Value parameter to set the value of the member.
+
+    The properties and methods that you add are added only to the particular instance of the object that you specify. Add-Member does not change the object type. To create a new object type, use th
+    e Add-Type cmdlet. You can also use the Export-Clixml cmdlet to save the instance of the object, including the additional members, in a file. Then you can use the Import-Clixml cmdlet to re-cre
+    ate the instance of the object from the information that is stored in the exported file.
+
+    Beginning in Windows PowerShell 3.0, Add-Member has new features that make it easier to add note properties to objects. You can use the NotePropertyName and NotePropertyValue parameters to defi
+    ne a note property or use the NotePropertyMembers parameter, which takes a hash table of note property names and values.
+
+    Also, beginning in Windows PowerShell 3.0, the PassThru parameter, which generates an output object, is needed less frequently. Add-Member now adds the new members directly to the input object
+    of more types. For more information, see the PassThru parameter description.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821748
+    Export-Clixml
+    Get-Member
+    Import-Clixml
+    New-Object
+
+REMARKS
+    To see the examples, type: "get-help Add-Member -examples".
+    For more information, type: "get-help Add-Member -detailed".
+    For technical information, type: "get-help Add-Member -full".
+    For online help, type: "get-help Add-Member -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-DiskFree"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-DiskFree"
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Second <Int32
+    >] [-Year <Int32>] [<CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Second <Int32>] [-UFormat <Strin
+    g>] [-Year <Int32>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX formats. You can use Get-Date
+     to generate a date or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Add-Member"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Add-Member                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Select Downloaded Settings File... (see FileOpen Dialog)
+OK
+Selected Downloaded Settings File:
+D:\SICZ\avas\AVAS_LuKA\gui1.ps1
+Import Settings File Imported!
+PS D:\SICZ\avas\AVAS_LuKA> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      8880
+computerName                   DESKTOP-TBE27PS
+instanceId                     d09d89c0-45d2-4ce1-9966-97094ce09e1d
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Write-Host"
+
+NAME
+    Write-Host
+
+SYNOPSIS
+    Writes customized output to a host.
+
+
+SYNTAX
+    Write-Host [[-Object] <Object>] [-BackgroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gray | DarkGray | Blue | Green | Cyan | Red | Magenta | Yellow
+    | White}] [-ForegroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gray | DarkGray | Blue | Green | Cyan | Red | Magenta | Yellow | White}] [-NoNewline]
+     [-Separator <Object>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Write-Host cmdlet customizes output. You can specify the color of text by using the ForegroundColor parameter, and you can specify the background color by using the BackgroundColor paramete
+    r. The Separator parameter lets you specify a string to use to separate displayed objects. The particular result depends on the program that is hosting Windows PowerShell.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821876
+    Clear-Host
+    Write-Debug
+    Write-Error
+    Write-Output
+    Write-Progress
+    Write-Verbose
+    Write-Warning
+
+REMARKS
+    To see the examples, type: "get-help Write-Host -examples".
+    For more information, type: "get-help Write-Host -detailed".
+    For technical information, type: "get-help Write-Host -full".
+    For online help, type: "get-help Write-Host -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Write-Host"
+
+NAME
+    Write-Host
+
+SYNOPSIS
+    Writes customized output to a host.
+
+
+SYNTAX
+    Write-Host [[-Object] <Object>] [-BackgroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gray | DarkGray | Blue | Green | Cyan | Red | Magenta | Yellow
+    | White}] [-ForegroundColor {Black | DarkBlue | DarkGreen | DarkCyan | DarkRed | DarkMagenta | DarkYellow | Gray | DarkGray | Blue | Green | Cyan | Red | Magenta | Yellow | White}] [-NoNewline]
+     [-Separator <Object>] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Write-Host cmdlet customizes output. You can specify the color of text by using the ForegroundColor parameter, and you can specify the background color by using the BackgroundColor paramete
+    r. The Separator parameter lets you specify a string to use to separate displayed objects. The particular result depends on the program that is hosting Windows PowerShell.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821876
+    Clear-Host
+    Write-Debug
+    Write-Error
+    Write-Output
+    Write-Progress
+    Write-Verbose
+    Write-Warning
+
+REMARKS
+    To see the examples, type: "get-help Write-Host -examples".
+    For more information, type: "get-help Write-Host -detailed".
+    For technical information, type: "get-help Write-Host -full".
+    For online help, type: "get-help Write-Host -online"
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Select Downloaded Settings File... (see FileOpen Dialog)

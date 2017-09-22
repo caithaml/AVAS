@@ -897,6 +897,39 @@ $mbtn_gui.Add_Click({
 
 $MyForm.Controls.Add($mbtn_gui) 
 
-
+$mbtn_sablonaverze = New-Object System.Windows.Forms.Button 
+$mbtn_sablonaverze.Text="Verzovani sablon" 
+$mbtn_sablonaverze.Top="200" 
+$mbtn_sablonaverze.Left="903" 
+$mbtn_sablonaverze.Anchor="Left,Top" 
+$mbtn_sablonaverze.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_sablonaverze.Add_Click({
         
+           start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
+           
+           })
+$MyForm.Controls.Add($mbtn_sablonaverze) 
+
+$mlbl_verzesablony = New-Object System.Windows.Forms.Label 
+$mlbl_verzesablony.Text=$json.verzesablony
+$mlbl_verzesablony.Top="17" 
+$mlbl_verzesablony.Left="751" 
+$mlbl_verzesablony.Anchor="Left,Top" 
+$mlbl_verzesablony.Size = New-Object System.Drawing.Size(150,40) 
+$MyForm.Controls.Add($mlbl_verzesablony) 
+        
+$mbtn_nacistjson = New-Object System.Windows.Forms.Button 
+$mbtn_nacistjson.Text="Nacist JSON" 
+$mbtn_nacistjson.Top="230" 
+$mbtn_nacistjson.Left="902" 
+$mbtn_nacistjson.Anchor="Left,Top" 
+$mbtn_nacistjson.Size = New-Object System.Drawing.Size(100,23) 
+$mbtn_nacistjson.Add_Click({
+        
+           start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+           
+           })
+$MyForm.Controls.Add($mbtn_nacistjson) 
+
+
 $MyForm.ShowDialog()

@@ -19,6 +19,7 @@ $System = Get-WmiObject -Class win32_OperatingSystem
 $win32_bios = Get-WmiObject -Class win32_bios
 
 $hash = New-Object -TypeName PSObject 
+$hash | Add-Member NoteProperty verzesablony $(Get-Date)
 $hash | Add-Member Noteproperty ComputerName $env:COMPUTERNAME
 $hash | Add-Member Noteproperty Date $(Get-Date)
 $hash | Add-Member Noteproperty User $env:USERNAME
