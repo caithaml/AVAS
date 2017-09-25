@@ -24,3 +24,10 @@ WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jak
 09/25/2017 14:45:53 - ukonceno zjistovani zda je uzivatel admin
 09/25/2017 14:45:53 - uzivatel je admin pokracuje dalsi spusteni skriptu
 09/25/2017 14:45:53 - Nacitam GUI
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20170925144805
+**********************
