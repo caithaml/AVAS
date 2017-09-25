@@ -28,7 +28,7 @@ Write-Host -Object "$(Get-Date) - Nacitam GUI"
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
 $MyForm = New-Object System.Windows.Forms.Form 
-$MyForm.Text = "oknoformulare" 
+$MyForm.Text = "AVAS" 
 $MyForm.Size = New-Object System.Drawing.Size(1024, 850) 
      
  
