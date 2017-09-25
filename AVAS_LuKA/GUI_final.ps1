@@ -203,13 +203,13 @@ Write-Host -Object "$(Get-Date) - Nacitam GUI"
         $MyForm.Controls.Add($mlbl_virtualtotal) 
          
  
-        $mlbl_vrtiaulfree = New-Object System.Windows.Forms.Label 
-                $mlbl_vrtiaulfree.Text="Virtual free" 
-                $mlbl_vrtiaulfree.Top="615" 
-                $mlbl_vrtiaulfree.Left="10" 
-                $mlbl_vrtiaulfree.Anchor="Left,Top" 
-        $mlbl_vrtiaulfree.Size = New-Object System.Drawing.Size(100,23) 
-        $MyForm.Controls.Add($mlbl_vrtiaulfree) 
+        $mlbl_virtualfree = New-Object System.Windows.Forms.Label 
+                $mlbl_virtualfree.Text="Virtual free" 
+                $mlbl_virtualfree.Top="615" 
+                $mlbl_virtualfree.Left="10" 
+                $mlbl_virtualfree.Anchor="Left,Top" 
+        $mlbl_virtualfree.Size = New-Object System.Drawing.Size(100,23) 
+        $MyForm.Controls.Add($mlbl_virtualfree) 
          
  
         $mlbl_windir = New-Object System.Windows.Forms.Label 
