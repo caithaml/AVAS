@@ -1,0 +1,85 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170925161923
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16296.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1506349106-663341a5-1ef7-455c-8d39-2be8c4d614f91506349103623\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-1216-822426' -FeatureFlags @()
+Process ID: 15632
+PSVersion: 5.1.16296.0
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16296.0
+BuildVersion: 10.0.16296.0
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-25-04-19-22.txt
+09/25/2017 16:19:23 - Nacitani json konfiguracniho souboru
+09/25/2017 16:19:29 - Dokonce nacitani json konfiguracniho souboru
+09/25/2017 16:19:29 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/25/2017 16:19:29 - ukonceno zjistovani zda je uzivatel admin
+09/25/2017 16:19:29 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/25/2017 16:19:29 - Nacitam GUI
+Cancel
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      15632
+computerName                   DESKTOP-TBE27PS
+instanceId                     dcde42f3-691e-4475-8b27-fdf50d1884c2
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="New-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          New-Object                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="New-Object"
+
+NAME
+    New-Object
+
+SYNOPSIS
+    Creates an instance of a Microsoft .NET Framework or COM object.
+
+
+SYNTAX
+    New-Object [-TypeName] <String> [[-ArgumentList] <Object[]>] [-Property <IDictionary>] [<CommonParameters>]
+
+    New-Object [-ComObject] <String> [-Property <IDictionary>] [-Strict] [<CommonParameters>]
+
+
+DESCRIPTION
+    The New-Object cmdlet creates an instance of a .NET Framework or COM object.
+
+    You can specify either the type of a .NET Framework class or a ProgID of a COM object. By default, you type the fully qualified name of a .NET Framework class and the cmdlet returns a reference
+     to an instance of that class. To create an instance of a COM object, use the ComObject parameter and specify the ProgID of the object as its value.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821835
+    Compare-Object
+    Group-Object
+    Measure-Object
+    Select-Object
+    Sort-Object
+    Tee-Object
+
+REMARKS
+    To see the examples, type: "get-help New-Object -examples".
+    For more information, type: "get-help New-Object -detailed".
+    For technical information, type: "get-help New-Object -full".
+    For online help, type: "get-help New-Object -online"
+
+
