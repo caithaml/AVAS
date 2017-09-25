@@ -132,3 +132,12 @@ REMARKS
     For online help, type: "get-help New-Object -online"
 
 
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="start"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           start -> Start-Process
+
+
