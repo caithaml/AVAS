@@ -492,3 +492,13 @@ WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jak
 09/25/2017 16:03:29 - ukonceno zjistovani zda je uzivatel admin
 09/25/2017 16:03:29 - uzivatel je admin pokracuje dalsi spusteni skriptu
 09/25/2017 16:03:29 - Nacitam GUI
+Cancel
+PS D:\SICZ\avas\AVAS_LuKA> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      13976
+computerName                   DESKTOP-TBE27PS
+instanceId                     4184d989-250f-4140-9594-a51c5cfa2877
+
+
