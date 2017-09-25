@@ -1,0 +1,80 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170925141942
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16296.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1506341195-58f92f5c-2fe3-4c4c-9058-9bc3608aada71506341192069\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-1268-498967' -FeatureFlags @()
+Process ID: 9540
+PSVersion: 5.1.16296.0
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16296.0
+BuildVersion: 10.0.16296.0
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-25-02-19-42.txt
+09/25/2017 14:19:42 - Nacitani json konfiguracniho souboru
+09/25/2017 14:19:51 - Dokonce nacitani json konfiguracniho souboru
+09/25/2017 14:19:51 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/25/2017 14:19:51 - ukonceno zjistovani zda je uzivatel admin
+09/25/2017 14:19:51 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/25/2017 14:19:51 - Nacitam GUI
+Cancel
+PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      9540
+computerName                   DESKTOP-TBE27PS
+instanceId                     a3818abe-183d-4249-a69b-be88935aaed6
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-25-02-26-11.txt
+09/25/2017 14:26:11 - Nacitani json konfiguracniho souboru
+09/25/2017 14:26:14 - Dokonce nacitani json konfiguracniho souboru
+09/25/2017 14:26:14 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/25/2017 14:26:14 - ukonceno zjistovani zda je uzivatel admin
+09/25/2017 14:26:14 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/25/2017 14:26:14 - Nacitam GUI
+Select  Settings File... (see FileOpen Dialog)
+Import Settings File Cancelled!
+Cancel
+PS D:\SICZ\avas\AVAS_LuKA> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      9540
+computerName                   DESKTOP-TBE27PS
+instanceId                     a3818abe-183d-4249-a69b-be88935aaed6
+
+
+PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is ./transcript2017-09-25-02-35-04.txt
+09/25/2017 14:35:04 - Nacitani json konfiguracniho souboru
+09/25/2017 14:35:08 - Dokonce nacitani json konfiguracniho souboru
+09/25/2017 14:35:08 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/25/2017 14:35:08 - ukonceno zjistovani zda je uzivatel admin
+09/25/2017 14:35:08 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/25/2017 14:35:08 - Nacitam GUI
+Cancel
+PS D:\SICZ\avas\AVAS_LuKA> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      9540
+computerName                   DESKTOP-TBE27PS
+instanceId                     a3818abe-183d-4249-a69b-be88935aaed6
+
+
