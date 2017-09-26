@@ -330,7 +330,7 @@ $MyForm.Controls.Add($mos)
          
  
 $mosbuild = New-Object System.Windows.Forms.Label 
-$mosbuild.Text = $json.os_build
+$mosbuild.Text = $json.os_build 
 $mosbuild.Top = "408" 
 $mosbuild.Left = "115" 
 $mosbuild.Anchor = "Left,Top" 
@@ -339,7 +339,7 @@ $MyForm.Controls.Add($mosbuild)
          
  
 $mservicepack = New-Object System.Windows.Forms.Label 
-$mservicepack.Text = $json.sp
+$mservicepack.Text = $json.sp 
 $mservicepack.Top = "438" 
 $mservicepack.Left = "115" 
 $mservicepack.Anchor = "Left,Top" 
@@ -348,7 +348,7 @@ $MyForm.Controls.Add($mservicepack)
          
  
 $mosinstalldate = New-Object System.Windows.Forms.Label 
-$mosinstalldate.Text = $json.date
+$mosinstalldate.Text = $json.date 
 $mosinstalldate.Top = "469" 
 $mosinstalldate.Left = "115" 
 $mosinstalldate.Anchor = "Left,Top" 
@@ -357,7 +357,7 @@ $MyForm.Controls.Add($mosinstalldate)
          
  
 $moslastboottime = New-Object System.Windows.Forms.Label 
-$moslastboottime.Text = $json.last_boot_time
+$moslastboottime.Text = $json.last_boot_time 
 $moslastboottime.Top = "497" 
 $moslastboottime.Left = "115" 
 $moslastboottime.Anchor = "Left,Top" 
@@ -366,7 +366,7 @@ $MyForm.Controls.Add($moslastboottime)
          
  
 $mramtotal = New-Object System.Windows.Forms.Label 
-$mramtotal.Text = $json.ram_total
+$mramtotal.Text = $json.ram_total 
 $mramtotal.Top = "531" 
 $mramtotal.Left = "115" 
 $mramtotal.Anchor = "Left,Top" 
@@ -506,7 +506,7 @@ $MyForm.Controls.Add($mlbl_biosdate)
          
  
 $mprotect = New-Object System.Windows.Forms.Label 
-$mprotect.Text = $json.protect_ini
+$mprotect.Text = $json.protect_ini 
 $mprotect.Top = "770" 
 $mprotect.Left = "120" 
 $mprotect.Anchor = "Left,Top" 
@@ -524,7 +524,7 @@ $MyForm.Controls.Add($mbios)
          
  
 $mbiosdate = New-Object System.Windows.Forms.Label 
-$mbiosdate.Text = $json.bios_date
+$mbiosdate.Text = $json.bios_date 
 $mbiosdate.Top = "823" 
 $mbiosdate.Left = "120" 
 $mbiosdate.Anchor = "Left,Top" 
