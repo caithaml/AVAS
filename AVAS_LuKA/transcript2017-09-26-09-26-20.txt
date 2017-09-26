@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20170926091740
+Start time: 20170926092620
 Username: DESKTOP-TBE27PS\lukas
 RunAs User: DESKTOP-TBE27PS\lukas
 Configuration Name: 
@@ -16,27 +16,6 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is ./transcript2017-09-26-09-17-40.txt
-09/26/2017 09:17:40 - Nacitani json konfiguracniho souboru
-09/26/2017 09:17:43 - Dokonce nacitani json konfiguracniho souboru
-09/26/2017 09:17:43 - zjisteni zda je uzivatel admin
-WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
-09/26/2017 09:17:43 - ukonceno zjistovani zda je uzivatel admin
-09/26/2017 09:17:43 - uzivatel je admin pokracuje dalsi spusteni skriptu
-09/26/2017 09:17:43 - Nacitam GUI
-Cancel
-PS>@{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      13372
-computerName                   DESKTOP-TBE27PS
-instanceId                     5579e4c7-5e8e-402b-9356-6d352838ddd3
-
-
-PS D:\SICZ\avas\AVAS_LuKA> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
 Transcript started, output file is ./transcript2017-09-26-09-26-20.txt
 09/26/2017 09:26:20 - Nacitani json konfiguracniho souboru
 09/26/2017 09:26:23 - Dokonce nacitani json konfiguracniho souboru
