@@ -28,10 +28,8 @@ function appdiff
 }
 appdiff
 
-$line2
+$apps=appdiff
+$apps | Out-GridView
 
+$line2 | Out-GridView
 
-
-
-Read-Host "Press any key to exit..."
-exit

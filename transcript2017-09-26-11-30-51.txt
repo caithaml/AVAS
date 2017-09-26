@@ -1,0 +1,33 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170926113051
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16296.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\AVAS.pS1'
+Process ID: 2224
+PSVersion: 5.1.16296.0
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16296.0
+BuildVersion: 10.0.16296.0
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-09-26-11-30-51.txt
+09/26/2017 11:30:51 - Nacitani json konfiguracniho souboru
+09/26/2017 11:30:54 - Dokonce nacitani json konfiguracniho souboru
+09/26/2017 11:30:54 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+09/26/2017 11:30:54 - ukonceno zjistovani zda je uzivatel admin
+09/26/2017 11:30:54 - uzivatel je admin pokracuje dalsi spusteni skriptu
+09/26/2017 11:30:54 - Nacitam GUI
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20170926113104
+**********************
