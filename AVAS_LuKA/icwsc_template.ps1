@@ -314,7 +314,7 @@ $hash | Add-Member Noteproperty System_Locale (Get-ItemProperty -Path 'HKLM:\Sys
 $hash | Add-Member Noteproperty Default_Locale (Get-ItemProperty -Path 'Microsoft.Powershell.Core\Registry::HKEY_USERS\.Default\Control Panel\International').'Locale'
 $hash | Add-Member Noteproperty Country (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'iCountry'
 $hash | Add-Member Noteproperty Locale (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'Locale'
-$hash | Add-Member Noteproperty GemPlus_Reader $(if (Test-Path -Path C:\windows\system32\drivers\gemser.sys) 
+$hash | Add-Member Noteproperty GemPlus_Reader $(if (Test-Path -Path $env:windir\system32\drivers\gemser.sys) 
   {
     Write-Output -InputObject 'Installed'
   }
@@ -403,7 +403,7 @@ $hash | Add-Member NoteProperty AV_MS_Scanner_Version (Get-ItemProperty -Path 'H
 ### LOGS
 $hash | Add-Member Noteproperty System_Log_Length $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path C:\windows\system32\config\SySEvent.Evt ).Length
+    (Get-ChildItem -Path $env:windir\system32\config\SySEvent.Evt ).Length
   }
   else 
   {
@@ -412,7 +412,7 @@ $hash | Add-Member Noteproperty System_Log_Length $(if ([IntPtr]::Size -eq 4)
 ) 
 $hash | Add-Member Noteproperty Secrutiy_Log_Length $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path C:\windows\system32\config\SecEvent.Evt ).Length
+    (Get-ChildItem -Path $env:windir\system32\config\SecEvent.Evt ).Length
   }
   else 
   {
@@ -421,14 +421,14 @@ $hash | Add-Member Noteproperty Secrutiy_Log_Length $(if ([IntPtr]::Size -eq 4)
 ) 
 $hash | Add-Member Noteproperty Application_Log_Length $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path C:\windows\system32\config\AppEvent.Evt ).Length
+    (Get-ChildItem -Path $env:windir\system32\config\AppEvent.Evt ).Length
   }
   else 
   {
     (Get-ChildItem -Path $env:SystemRoot\System32\Winevt\Logs\Application.evtx).Length
   }
 )
-$hash | Add-Member Noteproperty Setupapi_Length (Get-ChildItem -Path C:\windows\setupapi.log).Length
+$hash | Add-Member Noteproperty Setupapi_Length (Get-ChildItem -Path $env:windir\setupapi.log).Length
 $hash | Add-Member NoteProperty NetIPConfiguration (Get-NetIPConfiguration)
 
 if (Test-Path -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{937A3762-F1D545F3-AA20-F7C5CBA7FBAC')
@@ -547,3 +547,27 @@ $hash | Out-File -Path "./hash$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 $hash | Out-File -Path "./templatehash$(env:COMPUTERNAME)-$(Get-Date -Format yyy-MM-dd-hh-mm-ss).json"
 Read-Host -Prompt 'Press any key to exit...'
 exit
+# SIG # Begin signature block
+# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUUpU1u5rjV/7l5Sa0+Ea9YWdq
+# w1agggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUkjosDuAWx/ddRre7IvhDvDWCAAsw
+# DQYJKoZIhvcNAQEBBQAEgYBee2UcGsWaIaAKIu6j/SFbg5sy7kv6XXj5SKyfe/cr
+# DEOvhzQyVyhh/C+MwV6d7GP190gT2NkZSmuabJQGFKSaOBOzICR8m7lFnqITkVuk
+# iHFlSz82RFb1nz2Ea0VK7tYDJiJaQWzLspbbvZUVcTWcwuOBLzz/2OJwTaHtLwO+
+# 9g==
+# SIG # End signature block
