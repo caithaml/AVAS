@@ -1,4 +1,5 @@
-Start-Transcript -Path "./transcript$(get-date -Format yyyy-MM-dd-hh-mm-ss).txt"
+#requires -Version 3.0
+Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 $json                        = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
@@ -11,8 +12,9 @@ Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
 #overeni ze je uzivatel administrator
 Write-Verbose -Message 'Kontroluji admin prava'
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
-            [Security.Principal.WindowsBuiltInRole] 'Administrator')) {
-    Write-Warning -Message 'Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!'
+[Security.Principal.WindowsBuiltInRole] 'Administrator')) 
+{
+  Write-Warning -Message 'Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!'
 }
 
 Write-Verbose -Message "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
@@ -435,9 +437,8 @@ $mbtn_scriptstartup.Left     = '115'
 $mbtn_scriptstartup.Anchor   = 'Left,Top' 
 $mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptstartup.Add_Click( {
-            
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
+})
 $MyForm.Controls.Add($mbtn_scriptstartup) 
          
  
@@ -448,10 +449,8 @@ $mbtn_scriptshutdown.Left    = '115'
 $mbtn_scriptshutdown.Anchor  = 'Left,Top' 
 $mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptshutdown.Add_Click( {
-            
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
-             
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
+})
 $MyForm.Controls.Add($mbtn_scriptshutdown) 
          
  
@@ -471,10 +470,8 @@ $mbtn_executionpolicy.Left   = '117'
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
 $mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
-                
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
-                
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+})
 $MyForm.Controls.Add($mbtn_executionpolicy) 
          
  
@@ -755,10 +752,8 @@ $mbtn_executionpolicy.Left   = '330'
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
 $mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
-        
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
-        
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+})
      
 $MyForm.Controls.Add($mbtn_executionpolicy) 
 
@@ -827,20 +822,21 @@ $mbtn_tisk.Left              = '903'
 $mbtn_tisk.Anchor            = 'Left,Top' 
 $mbtn_tisk.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_tisk.Add_Click( {
-        $a    = '<style>'
-        $a    = $a + 'BODY{background-color:peachpuff;}'
-        $a    = $a + 'TABLE{border-width: 1px;border-style: solid;border-color: black;border-collapse: collapse;}'
-        $a    = $a + 'TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}'
-        $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
-        $a    = $a + '</style>'
-        $tisk = $json.ComputerName
-        $tisk = $tisk + $json.OS
-        $tisk = $tisk + $json.os_build
+    $a    = '<style>'
+    $a    = $a + 'BODY{background-color:peachpuff;}'
+    $a    = $a + 'TABLE{border-width: 1px;border-style: solid;border-color: black;border-collapse: collapse;}'
+    $a    = $a + 'TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}'
+    $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
+    $a    = $a + '</style>'
+    $tisk = $json.ComputerName
+    $tisk = $tisk + $json.OS
+    $tisk = $tisk + $json.os_build
         
-        $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
-            Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
-        Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
-    })
+    $json.Services |
+    ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
+    Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
+    Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
+})
 
 
 $MyForm.Controls.Add($mbtn_tisk) 
@@ -853,10 +849,8 @@ $mbtn_vytvoritsablonu.Left   = '903'
 $mbtn_vytvoritsablonu.Anchor = 'Left,Top' 
 $mbtn_vytvoritsablonu.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_vytvoritsablonu.Add_Click( {
-        
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
-           
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
+})
 $MyForm.Controls.Add($mbtn_vytvoritsablonu) 
 
 $mbtn_icwsc                  = New-Object -TypeName System.Windows.Forms.Button 
@@ -866,10 +860,8 @@ $mbtn_icwsc.Left             = '903'
 $mbtn_icwsc.Anchor           = 'Left,Top' 
 $mbtn_icwsc.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_icwsc.Add_Click( {
-        
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
-           
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
+})
 $MyForm.Controls.Add($mbtn_icwsc) 
 
 
@@ -880,12 +872,11 @@ $mbtn_patchlevel.Left        = '903'
 $mbtn_patchlevel.Anchor      = 'Left,Top' 
 $mbtn_patchlevel.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_patchlevel.Add_Click( {
-        $patche = Get-Content -Path 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
-        #$patche
-        $patche | Out-GridView
-        #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
-           
-    })
+    $patche = Get-Content -Path 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
+    #$patche
+    $patche | Out-GridView
+    #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+})
 $MyForm.Controls.Add($mbtn_patchlevel) 
 
 $mbtn_gui                    = New-Object -TypeName System.Windows.Forms.Button 
@@ -895,10 +886,8 @@ $mbtn_gui.Left               = '904'
 $mbtn_gui.Anchor             = 'Left,Top' 
 $mbtn_gui.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_gui.Add_Click( {
-        
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
-           
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
+})
 
 $MyForm.Controls.Add($mbtn_gui) 
 
@@ -909,10 +898,8 @@ $mbtn_sablonaverze.Left      = '903'
 $mbtn_sablonaverze.Anchor    = 'Left,Top' 
 $mbtn_sablonaverze.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_sablonaverze.Add_Click( {
-        
-        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
-           
-    })
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
+})
 $MyForm.Controls.Add($mbtn_sablonaverze) 
 
 $mlbl_verzesablony           = New-Object -TypeName System.Windows.Forms.Label 
@@ -930,30 +917,32 @@ $mbtn_nacistjson.Left        = '902'
 $mbtn_nacistjson.Anchor      = 'Left,Top' 
 $mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
-        
-        #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
-        $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
-        $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
-        $openFileDialog.title            = 'Select Settings Configuration File to Import'   
-        $openFileDialog.filter           = 'All files (*.*)| *.*'   
-        #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
-        $openFileDialog.ShowHelp         = $True   
-        Write-Verbose -Message 'Select  Settings File... (see FileOpen Dialog)'  
-        $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
-        # in ISE you may have to alt-tab or minimize ISE to see dialog box 
-        $result 
-        if ($result -eq 'OK') {    
-            Write-Verbose -Message 'Selected  Settings File:'  
-            $OpenFileDialog.filename   
-            $OpenFileDialog.CheckFileExists 
+    #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+    $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
+    $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
+    $openFileDialog.title            = 'Select Settings Configuration File to Import'   
+    $openFileDialog.filter           = 'All files (*.*)| *.*'   
+    #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
+    $openFileDialog.ShowHelp         = $True   
+    Write-Verbose -Message 'Select  Settings File... (see FileOpen Dialog)'  
+    $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+    # in ISE you may have to alt-tab or minimize ISE to see dialog box 
+    $result 
+    if ($result -eq 'OK') 
+    {    
+      Write-Verbose -Message 'Selected  Settings File:'  
+      $openFileDialog.filename   
+      $openFileDialog.CheckFileExists 
                     
-            # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
-            # Unremark the above line if you actually want to perform an import of a publish settings file  
-            Write-Verbose -Message 'Import Settings File Imported!' 
-                  
-        } 
-        else { Write-Verbose -Message 'Import Settings File Cancelled!'} 
-    })
+      # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
+      # Unremark the above line if you actually want to perform an import of a publish settings file  
+      Write-Verbose -Message 'Import Settings File Imported!'
+    } 
+    else 
+    {
+      Write-Verbose -Message 'Import Settings File Cancelled!'
+    } 
+})
 $MyForm.Controls.Add($mbtn_nacistjson) 
 $mlbl_nactenyjson            = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_nactenyjson.Text       = 'D:\SICZ\hash_luka.json' 
@@ -970,36 +959,12 @@ $mlbl_rootcertifikaty.Left   = '903'
 $mlbl_rootcertifikaty.Anchor = 'Left,Top' 
 $mlbl_rootcertifikaty.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mlbl_rootcertifikaty.Add_Click( {
-        #$json.rootcert | Out-GridView
-        $json.Computer_Root_Certificates | Out-GridView
-        #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
-         
-    })
+    #$json.rootcert | Out-GridView
+    $json.Computer_Root_Certificates | Out-GridView
+    #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+})
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
 $MyForm.ShowDialog()
 
-# SIG # Begin signature block
-# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
-# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU0iaOJZtUWKWaWwMjC6CBJaRF
-# Lk6gggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
-# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
-# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
-# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
-# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
-# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
-# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
-# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
-# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
-# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
-# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
-# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
-# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
-# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU8dAv6FY+5Z+QWTXIBEgIFJQ9yLww
-# DQYJKoZIhvcNAQEBBQAEgYB/oMNa7gWKXzU4Gxcy7ht/zmnuerHXc94leXrt+96b
-# 4MIQkyN7ca6l0NrM0PEdMlyULwN99l1aFpZlYC6d8jCGrGE/35Q5Uu9BOhnB6Dt0
-# SxtoUGkEQcR4NjGohqLQRtVm0Ls8j0W8gyuwx+I7grIUbA1ha685Gy7uSY2td0//
-# gA==
-# SIG # End signature block
+
