@@ -14,11 +14,11 @@
 Clear-Host
 $ErrorActionPreference = 'SilentlyContinue'
 #konfigurace sberu logu
-$limitlogs = (Get-Date).AddDays(-35)  
-$System = Get-WmiObject -Class win32_OperatingSystem
-$win32_bios = Get-WmiObject -Class win32_bios
+$limitlogs             = (Get-Date).AddDays(-35)  
+$System                = Get-WmiObject -Class win32_OperatingSystem
+$win32_bios            = Get-WmiObject -Class win32_bios
 
-$hash = New-Object -TypeName PSObject 
+$hash                  = New-Object -TypeName PSObject 
 $hash | Add-Member NoteProperty verzesablony $(Get-Date)
 $hash | Add-Member Noteproperty ComputerName $env:COMPUTERNAME
 $hash | Add-Member Noteproperty Date $(Get-Date)
@@ -254,17 +254,17 @@ function Get-DiskFree
           foreach ($disk in $disks)
           {
             $diskprops = @{
-              'Volume'   = $disk.DeviceID
-              'Size'     = $disk.Size
-              'Used'     = ($disk.Size - $disk.FreeSpace)
-              'Available' = $disk.FreeSpace
+              'Volume'     = $disk.DeviceID
+              'Size'       = $disk.Size
+              'Used'       = ($disk.Size - $disk.FreeSpace)
+              'Available'  = $disk.FreeSpace
               'FileSystem' = $disk.FileSystem
-              'Type'     = $disk.Description
-              'Computer' = $disk.SystemName
+              'Type'       = $disk.Description
+              'Computer'   = $disk.SystemName
             }
                     
             # Create custom PS object and apply type
-            $diskobj = New-Object -TypeName PSObject `
+            $diskobj   = New-Object -TypeName PSObject `
             -Property $diskprops
             $diskobj.PSObject.TypeNames.Insert(0,'BinaryNature.DiskFree')
                     
