@@ -966,5 +966,3 @@ $mlbl_rootcertifikaty.Add_Click( {
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
 $MyForm.ShowDialog()
-
-
