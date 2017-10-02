@@ -417,7 +417,7 @@ $mFormXLabel.Anchor                   = 'Left,Top'
 $mFormXLabel.Size                     = New-Object -TypeName System.Drawing.Size -ArgumentList (20, 23) 
 $mFormXLabel.TextAlign                = 'MiddleCenter' 
 $mFormXTextBox.Add_TextChanged({
-    EditFormSize -x $mFormXTextBox.Text -y $mFormYTextBox.Text 
+    EditFormSize -x $mFormXTextBox.Text -y $mFormYTextBox.Text
 }) 
 $mForm.Controls.Add($mFormXLabel) 
  
