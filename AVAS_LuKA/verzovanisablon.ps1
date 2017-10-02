@@ -1,3 +1,4 @@
+#requires -Version 3.0 -Modules Appx, BitLocker, CimCmdlets, Dism, Microsoft.PowerShell.LocalAccounts, Microsoft.PowerShell.Management, NetTCPIP, SecureBoot, ScheduledTasks
 <#..............................................................
     Script name: icwsc_object.ps1
     Creation Date: 01.11.2013
@@ -314,7 +315,7 @@ $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue System_Loca
 $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Default_Locale -InputObject (Get-ItemProperty -Path 'Microsoft.Powershell.Core\Registry::HKEY_USERS\.Default\Control Panel\International').'Locale'
 $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Country -InputObject (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'iCountry'
 $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Locale -InputObject (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'Locale'
-$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue GemPlus_Reader -InputObject $(if (Test-Path -Path $env:windir\system32\drivers\gemser.sys) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue GemPlus_Reader -InputObject $(if (Test-Path -Path $env:WINDIR\system32\drivers\gemser.sys) 
   {
     Write-Output -InputObject 'Installed'
   }
@@ -403,7 +404,7 @@ $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_Scann
 ### LOGS
 $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue System_Log_Length -InputObject $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path $env:windir\system32\config\SySEvent.Evt ).Length
+    (Get-ChildItem -Path $env:WINDIR\system32\config\SySEvent.Evt ).Length
   }
   else 
   {
@@ -412,7 +413,7 @@ $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue System_Log_
 ) 
 $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Secrutiy_Log_Length -InputObject $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path $env:windir\system32\config\SecEvent.Evt ).Length
+    (Get-ChildItem -Path $env:WINDIR\system32\config\SecEvent.Evt ).Length
   }
   else 
   {
@@ -421,14 +422,14 @@ $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Secrutiy_Lo
 ) 
 $hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Application_Log_Length -InputObject $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path $env:windir\system32\config\AppEvent.Evt ).Length
+    (Get-ChildItem -Path $env:WINDIR\system32\config\AppEvent.Evt ).Length
   }
   else 
   {
     (Get-ChildItem -Path $env:SystemRoot\System32\Winevt\Logs\Application.evtx).Length
   }
 )
-$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Setupapi_Length -InputObject (Get-ChildItem -Path $env:windir\setupapi.log).Length
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Setupapi_Length -InputObject (Get-ChildItem -Path $env:WINDIR\setupapi.log).Length
 $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue NetIPConfiguration -InputObject (Get-NetIPConfiguration)
 
 if (Test-Path -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{937A3762-F1D545F3-AA20-F7C5CBA7FBAC')
@@ -548,26 +549,26 @@ $hash | Out-File -FilePath  "./templatehash$(env:COMPUTERNAME)-$(Get-Date -Forma
 Read-Host -Prompt 'Template created.. Press any key to exit...'
 exit
 # SIG # Begin signature block
-# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
-# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUFVIXLWMuaMxaUnZmNlGQX17C
-# WBugggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
-# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
-# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
-# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
-# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
-# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
-# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
-# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
-# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
-# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
-# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
-# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
-# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
-# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU3SXst1OzdZlGb9bF9Y3CthQc0y8w
-# DQYJKoZIhvcNAQEBBQAEgYCXPbaVv3NnL+pTiwCXSXSCAsZCXh3gcFOJn/HDsRjz
-# sm38aP73U0KAp2XG7lbL2ucJDMceevyRmh6pHc2VqDc8u6meZtt0wVCJQt/Gv6MY
-# 2K2+T/9yyq+VPq1Qu5Gbc3ITBCdCdqECvq+vwqE69krPksO1g+gnnVjRUQk1qFTd
-# pQ==
+  # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+  # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+  # AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUFVIXLWMuaMxaUnZmNlGQX17C
+  # WBugggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+  # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+  # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+  # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+  # w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+  # H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+  # UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+  # HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+  # SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+  # Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+  # DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+  # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+  # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+  # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+  # KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU3SXst1OzdZlGb9bF9Y3CthQc0y8w
+  # DQYJKoZIhvcNAQEBBQAEgYCXPbaVv3NnL+pTiwCXSXSCAsZCXh3gcFOJn/HDsRjz
+  # sm38aP73U0KAp2XG7lbL2ucJDMceevyRmh6pHc2VqDc8u6meZtt0wVCJQt/Gv6MY
+  # 2K2+T/9yyq+VPq1Qu5Gbc3ITBCdCdqECvq+vwqE69krPksO1g+gnnVjRUQk1qFTd
+  # pQ==
 # SIG # End signature block
