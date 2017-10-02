@@ -19,44 +19,44 @@ $System = Get-WmiObject -Class win32_OperatingSystem
 $win32_bios = Get-WmiObject -Class win32_bios
 
 $hash = New-Object -TypeName PSObject 
-$hash | Add-Member NoteProperty verzesablony $(Get-Date)
-$hash | Add-Member Noteproperty ComputerName $env:COMPUTERNAME
-$hash | Add-Member Noteproperty Date $(Get-Date)
-$hash | Add-Member Noteproperty User $env:USERNAME
-$hash | Add-Member Noteproperty Last_User (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon').DefaultUserName
-$hash | Add-Member Noteproperty Domain (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon').DefaultDomainName
-$hash | Add-Member Noteproperty Domain_TCP (Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters').Domain
-$hash | Add-Member Noteproperty Domain_DHCP (Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters').DHCPDomain
-$hash | Add-Member Noteproperty Site_Name (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine').'Site-Name'
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue verzesablony -InputObject $(Get-Date)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue ComputerName -InputObject $env:COMPUTERNAME
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Date -InputObject $(Get-Date)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue User -InputObject $env:USERNAME
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Last_User -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon').DefaultUserName
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Domain -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon').DefaultDomainName
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Domain_TCP -InputObject (Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters').Domain
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Domain_DHCP -InputObject (Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters').DHCPDomain
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Site_Name -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine').'Site-Name'
 #$hash | Add-Member NoteProperty GroupPolicy_settings (Get-GPResultantSetofPolicy)
-$hash | Add-Member Noteproperty Active_DC (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\History').DCName
-$hash | Add-Member Noteproperty Script_StartUp (Get-ChildItem -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Startup\' | ForEach-Object -Process {
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Active_DC -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\History').DCName
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Script_StartUp -InputObject (Get-ChildItem -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Startup\' | ForEach-Object -Process {
     if ((Get-ItemProperty -Path $_.PSPath).'GPO-ID' -ne 'LocalGPO') 
     {
       (Get-ItemProperty -Path $_.PSPath).FileSysPath
     }
 })
-$hash | Add-Member Noteproperty Script_ShutDown (Get-ChildItem -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Shutdown\' | ForEach-Object -Process {
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Script_ShutDown -InputObject (Get-ChildItem -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Shutdown\' | ForEach-Object -Process {
     if ((Get-ItemProperty -Path $_.PSPath).'GPO-ID' -ne 'LocalGPO') 
     {
       (Get-ItemProperty -Path $_.PSPath).FileSysPath
     }
 })
 
-$hash | Add-Member Noteproperty OS ($System).Caption 
-$hash | Add-Member Noteproperty OS_Build ($System).Version
-$hash | Add-Member Noteproperty SP ($System).ServicePackMajorVersion
-$hash | Add-Member Noteproperty Install_Date ($System).ConvertToDateTime(($System).InstallDate) 
-$hash | Add-Member Noteproperty Last_Boot_Time (Get-CimInstance -ClassName win32_operatingsystem).lastbootuptime
-$hash | Add-Member Noteproperty RAM_Total $([Math]::round($((Get-WmiObject -Class win32_ComputerSystem).TotalPhysicalMemory /1MB)))
-$hash | Add-Member Noteproperty RAM_Free $([Math]::round(($System).FreePhysicalMemory /1MB))
-$hash | Add-Member Noteproperty Virtual_Total $([Math]::round(($System).TotalVirtualMemorySize /1MB))
-$hash | Add-Member Noteproperty Virtual_Free $([Math]::round(($System).FreeVirtualMemory /1MB))
-$hash | Add-Member Noteproperty WIN_Dir ($System).WindowsDirectory
-$hash | Add-Member Noteproperty SYS_Dir ($System).SystemDirectory 
-$hash | Add-Member Noteproperty TEMP_Dir $($env:WINDIR + '\TEMP')
-$hash | Add-Member Noteproperty Execution_Policy (Get-ExecutionPolicy -List)
-$hash | Add-Member Noteproperty TEMP_Encrypted $(if (Test-Path -Path D:\@TEMP\) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue OS -InputObject ($System).Caption 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue OS_Build -InputObject ($System).Version
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue SP -InputObject ($System).ServicePackMajorVersion
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Install_Date -InputObject ($System).ConvertToDateTime(($System).InstallDate) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Last_Boot_Time -InputObject (Get-CimInstance -ClassName win32_operatingsystem).lastbootuptime
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue RAM_Total -InputObject $([Math]::round($((Get-WmiObject -Class win32_ComputerSystem).TotalPhysicalMemory /1MB)))
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue RAM_Free -InputObject $([Math]::round(($System).FreePhysicalMemory /1MB))
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Virtual_Total -InputObject $([Math]::round(($System).TotalVirtualMemorySize /1MB))
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Virtual_Free -InputObject $([Math]::round(($System).FreeVirtualMemory /1MB))
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue WIN_Dir -InputObject ($System).WindowsDirectory
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue SYS_Dir -InputObject ($System).SystemDirectory 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue TEMP_Dir -InputObject $($env:WINDIR + '\TEMP')
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Execution_Policy -InputObject (Get-ExecutionPolicy -List)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue TEMP_Encrypted -InputObject $(if (Test-Path -Path D:\@TEMP\) 
   {
     Write-Output -InputObject Y
   }
@@ -65,7 +65,7 @@ $hash | Add-Member Noteproperty TEMP_Encrypted $(if (Test-Path -Path D:\@TEMP\)
     Write-Output -InputObject N
   }
 )
-$hash | Add-Member Noteproperty Protect_Ini $(
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Protect_Ini -InputObject $(
   $a = Get-Content -Path D:\@TEMP\protect.ini
   if ($a -contains '[Protect]' -and $a -contains 'ALGORITHM=WinCros II' -and $a -match 'STRENGTH=' -and $a -match 'KEYLEN=') 
   {
@@ -79,7 +79,7 @@ $hash | Add-Member Noteproperty Protect_Ini $(
   {
     param($file,$attribute)
     $val = [System.IO.FileAttributes]$attribute
-    if((Get-ChildItem $file -Force).Attributes -band $val -eq $val)
+    if((Get-ChildItem -Path $file -Force).Attributes -band $val -eq $val)
     {
       $true
     }
@@ -213,20 +213,20 @@ function Get-DiskFree
           @{
             n = 'Size'
             e = {
-              Format-HumanReadable $_.Size
+              Format-HumanReadable -size $_.Size
             }
           }, 
           @{
             n = 'Used'
             e = {
               Format-HumanReadable `
-              (($_.Size)-($_.FreeSpace))
+              -size (($_.Size)-($_.FreeSpace))
             }
           }, 
           @{
             n = 'Avail'
             e = {
-              Format-HumanReadable $_.FreeSpace
+              Format-HumanReadable -size $_.FreeSpace
             }
           }, 
           @{
@@ -307,14 +307,14 @@ function Get-DiskFree
 }
 
 
-$hash | Add-Member NoteProperty Local_Disks (Get-DiskFree)
-$hash | Add-Member Noteproperty BIOS $(($win32_bios).Version + ' | ' + ($win32_bios).Name)
-$hash | Add-Member Noteproperty BIOS_Date ($win32_bios).ConvertToDateTime(($win32_bios).ReleaseDate)
-$hash | Add-Member Noteproperty System_Locale (Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Nls\Locale').'(Default)'
-$hash | Add-Member Noteproperty Default_Locale (Get-ItemProperty -Path 'Microsoft.Powershell.Core\Registry::HKEY_USERS\.Default\Control Panel\International').'Locale'
-$hash | Add-Member Noteproperty Country (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'iCountry'
-$hash | Add-Member Noteproperty Locale (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'Locale'
-$hash | Add-Member Noteproperty GemPlus_Reader $(if (Test-Path -Path C:\windows\system32\drivers\gemser.sys) 
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Local_Disks -InputObject (Get-DiskFree)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue BIOS -InputObject $(($win32_bios).Version + ' | ' + ($win32_bios).Name)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue BIOS_Date -InputObject ($win32_bios).ConvertToDateTime(($win32_bios).ReleaseDate)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue System_Locale -InputObject (Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Nls\Locale').'(Default)'
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Default_Locale -InputObject (Get-ItemProperty -Path 'Microsoft.Powershell.Core\Registry::HKEY_USERS\.Default\Control Panel\International').'Locale'
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Country -InputObject (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'iCountry'
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Locale -InputObject (Get-ItemProperty -Path 'HKCU:\Control Panel\International').'Locale'
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue GemPlus_Reader -InputObject $(if (Test-Path -Path $env:windir\system32\drivers\gemser.sys) 
   {
     Write-Output -InputObject 'Installed'
   }
@@ -324,7 +324,7 @@ $hash | Add-Member Noteproperty GemPlus_Reader $(if (Test-Path -Path C:\windows\
   }
 )
 
-$hash | Add-Member Noteproperty Dslog_Service $(if (Get-Service -Name Dslog -ErrorAction SilentlyContinue) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Dslog_Service -InputObject $(if (Get-Service -Name Dslog -ErrorAction SilentlyContinue) 
   {
     (Get-Service -Name Dslog -ErrorAction Ignore).status
   }
@@ -350,18 +350,18 @@ foreach($tmp in $AV_Products)
   # ESET
   if($tmp -match 'ESET') 
   {
-    $hash | Add-Member NoteProperty AV_ESET_Product (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductName
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_ESET_Product -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductName
     if((Get-Service -Name ekrn).Status -eq 'running') 
     {
-      $hash | Add-Member NoteProperty AV_ESET_ResidentOn $true
+      $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_ESET_ResidentOn -InputObject $true
     }
     else 
     {
-      $hash | Add-Member NoteProperty AV_ESET_ResidentOn $false
+      $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_ESET_ResidentOn -InputObject $false
     }
-    $hash | Add-Member NoteProperty AV_ESET_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductVersion
-    $hash | Add-Member NoteProperty AV_ESET_Scanner_Build (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerBuild
-    $hash | Add-Member NoteProperty AV_ESET_Scanner_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerVersion
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_ESET_Version -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductVersion
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_ESET_Scanner_Build -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerBuild
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_ESET_Scanner_Version -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerVersion
   }
 
   # Symantec
@@ -369,67 +369,67 @@ foreach($tmp in $AV_Products)
   {
     #ver 12
     #?cteni z registru preklada HEX -> DEC, format - ('{0:x}' -f Get-Item...)
-    $hash | Add-Member NoteProperty AV_SEP_Product (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductName
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_SEP_Product -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductName
     if((Get-Service -Name SepMasterService).Status -eq 'running') 
     {
-      $hash | Add-Member NoteProperty AV_SEP_ResidentOn $true
+      $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_SEP_ResidentOn -InputObject $true
     }
     else 
     {
-      $hash | Add-Member NoteProperty AV_SEP_ResidentOn $false
+      $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_SEP_ResidentOn -InputObject $false
     }
-    $hash | Add-Member NoteProperty AV_SEP_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductVersion
-    $hash | Add-Member NoteProperty AV_SEP_Scanner_Build (Get-Item -Path "$((Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').'Home Directory')$((Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').VirusEngine)" | Select-Object -ExpandProperty VersionInfo).ProductVersion
-    $hash | Add-Member NoteProperty AV_SEP_Scanner_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').ScanEngineVersion
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_SEP_Version -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductVersion
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_SEP_Scanner_Build -InputObject (Get-Item -Path "$((Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').'Home Directory')$((Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').VirusEngine)" | Select-Object -ExpandProperty VersionInfo).ProductVersion
+    $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_SEP_Scanner_Version -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').ScanEngineVersion
   }
 }
 
 # Windows Defender
 #$hash | Add-Member NoteProperty AV_MS Get-MpComputerStatus
 
-$hash | Add-Member NoteProperty AV_MS_Product 'Windows Defender'
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_Product -InputObject 'Windows Defender'
 if((Get-Service -Name WinDefend).Status -ne 'running' -or (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender').DisableAntiSpyware -eq 1 -or (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender').DisableAntiVirus -eq 1) 
 {
-  $hash | Add-Member NoteProperty AV_MS_ResidentOn $false
+  $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_ResidentOn -InputObject $false
 }
 else 
 {
-  $hash | Add-Member NoteProperty AV_MS_ResidentOn $true
+  $hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_ResidentOn -InputObject $true
 }
-$hash | Add-Member NoteProperty AV_MS_Version (Get-Item -Path "$env:ProgramFiles\Windows Defender\MSASCui.exe" | Select-Object -ExpandProperty VersionInfo).ProductVersion
-$hash | Add-Member NoteProperty AV_MS_Scanner_Build (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').EngineVersion
-$hash | Add-Member NoteProperty AV_MS_Scanner_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').AVSignatureVersion
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_Version -InputObject (Get-Item -Path "$env:ProgramFiles\Windows Defender\MSASCui.exe" | Select-Object -ExpandProperty VersionInfo).ProductVersion
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_Scanner_Build -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').EngineVersion
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue AV_MS_Scanner_Version -InputObject (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').AVSignatureVersion
 
 ### LOGS
-$hash | Add-Member Noteproperty System_Log_Length $(if ([IntPtr]::Size -eq 4) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue System_Log_Length -InputObject $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path C:\windows\system32\config\SySEvent.Evt ).Length
+    (Get-ChildItem -Path $env:windir\system32\config\SySEvent.Evt ).Length
   }
   else 
   {
     (Get-ChildItem -Path $env:SystemRoot\System32\Winevt\Logs\System.Evtx).Length
   }
 ) 
-$hash | Add-Member Noteproperty Secrutiy_Log_Length $(if ([IntPtr]::Size -eq 4) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Secrutiy_Log_Length -InputObject $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path C:\windows\system32\config\SecEvent.Evt ).Length
+    (Get-ChildItem -Path $env:windir\system32\config\SecEvent.Evt ).Length
   }
   else 
   {
     (Get-ChildItem -Path $env:SystemRoot\System32\Winevt\Logs\Security.Evtx).Length
   }
 ) 
-$hash | Add-Member Noteproperty Application_Log_Length $(if ([IntPtr]::Size -eq 4) 
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Application_Log_Length -InputObject $(if ([IntPtr]::Size -eq 4) 
   {
-    (Get-ChildItem -Path C:\windows\system32\config\AppEvent.Evt ).Length
+    (Get-ChildItem -Path $env:windir\system32\config\AppEvent.Evt ).Length
   }
   else 
   {
     (Get-ChildItem -Path $env:SystemRoot\System32\Winevt\Logs\Application.evtx).Length
   }
 )
-$hash | Add-Member Noteproperty Setupapi_Length (Get-ChildItem -Path C:\windows\setupapi.log).Length
-$hash | Add-Member NoteProperty NetIPConfiguration (Get-NetIPConfiguration)
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Setupapi_Length -InputObject (Get-ChildItem -Path $env:windir\setupapi.log).Length
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue NetIPConfiguration -InputObject (Get-NetIPConfiguration)
 
 if (Test-Path -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{937A3762-F1D545F3-AA20-F7C5CBA7FBAC')
 {
@@ -439,57 +439,57 @@ else
 {
   $result = 'Not Installed'
 }
-$hash | Add-Member Noteproperty LAPS $result 
-$hash | Add-Member NoteProperty Computer_Root_Certificates (Get-ChildItem -Path Cert:\LocalMachine\Root | Format-List)
-$hash | Add-Member NoteProperty Local_Users (Get-LocalUser)
-$hash | Add-Member NoteProperty Local_Groups (Get-LocalGroup)
-$hash | Add-Member NoteProperty PCinfo (Get-ComputerInfo)
-$hash | Add-Member NoteProperty Logs_Application $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue LAPS -InputObject $result 
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Computer_Root_Certificates -InputObject (Get-ChildItem -Path Cert:\LocalMachine\Root | Format-List)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Local_Users -InputObject (Get-LocalUser)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Local_Groups -InputObject (Get-LocalGroup)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue PCinfo -InputObject (Get-ComputerInfo)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_Application -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'Application'
     level     = 2, 3
     StartTime = $limitlogs
 })
-$hash | Add-Member NoteProperty Logs_System $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_System -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'System'
     level     = 2, 3
     StartTime = $limitlogs
 })
-$hash | Add-Member NoteProperty Logs_LanPCS $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_LanPCS -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'Lanpcs'
     level     = 2, 3
     StartTime = $limitlogs
 })
   
-$hash | Add-Member NoteProperty Logs_AppLocker_EXE $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_AppLocker_EXE -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'Microsoft-Windows-AppLocker/EXE and DLL'
     level     = 2, 3
     StartTime = $limitlogs
 })
   
-$hash | Add-Member NoteProperty Logs_AppLocker_MSI $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_AppLocker_MSI -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'Microsoft-Windows-AppLocker/MSI and Script'
     level     = 2, 3
     StartTime = $limitlogs
 })
   
-$hash | Add-Member NoteProperty Logs_AppLocker_Deploy $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_AppLocker_Deploy -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'Microsoft-Windows-AppLocker/Packaged app-Deployment'
     level     = 2, 3
     StartTime = $limitlogs
 })
   
-$hash | Add-Member NoteProperty Logs_AppLocker_Execution $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Logs_AppLocker_Execution -InputObject $(Get-WinEvent -FilterHashtable @{
     logname   = 'Microsoft-Windows-AppLocker/Packaged app-Execution'
     level     = 2, 3
     StartTime = $limitlogs
 })
 
-$hash | Add-Member noteproperty Scheduled_Tasks (Get-ScheduledTask)
+$hash | Add-Member -NotePropertyName noteproperty -NotePropertyValue Scheduled_Tasks -InputObject (Get-ScheduledTask)
 
 
-$hash | Add-Member NoteProperty Bitlocker (Get-BitLockerVolume)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Bitlocker -InputObject (Get-BitLockerVolume)
 
-$hash | Add-Member NoteProperty UEFIxBIOS (if (Test-Path -Path $env:WINDIR\Panther\setupact.log) {
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue UEFIxBIOS -InputObject (if (Test-Path -Path $env:WINDIR\Panther\setupact.log) {
     (Select-String -Pattern 'Detected boot environment' -Path "$env:WINDIR\Panther\setupact.log"  -AllMatches).line -replace '.*:\s+'
   } else {
     if (Test-Path -Path HKLM:\System\CurrentControlSet\control\SecureBoot\State) 
@@ -501,38 +501,38 @@ $hash | Add-Member NoteProperty UEFIxBIOS (if (Test-Path -Path $env:WINDIR\Panth
       'BIOS'
     }
 })
-$hash | Add-Member NoteProperty UEFI_partition (Get-WmiObject  -Query 'Select * from Win32_DiskPartition Where Type = "GPT: System"' | Select-Object -Property Name, Index, Bootable, BootPartition, PrimaryPartition, @{
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue UEFI_partition -InputObject (Get-WmiObject  -Query 'Select * from Win32_DiskPartition Where Type = "GPT: System"' | Select-Object -Property Name, Index, Bootable, BootPartition, PrimaryPartition, @{
     n = 'SizeInMB'
     e = {
       $_.Size/1MB
     }
 })
-$hash | Add-Member noteproperty SecureBoot (Confirm-SecureBootUEFI)
-$hash | Add-Member noteproperty Hotfixes (Get-HotFix)
+$hash | Add-Member -NotePropertyName noteproperty -NotePropertyValue SecureBoot -InputObject (Confirm-SecureBootUEFI)
+$hash | Add-Member -NotePropertyName noteproperty -NotePropertyValue Hotfixes -InputObject (Get-HotFix)
 if ($System.Caption -like '*Server*') 
 {
-  $hash | Add-Member noteproperty Features (Get-Windowsfeature)
+  $hash | Add-Member -NotePropertyName noteproperty -NotePropertyValue Features -InputObject (Get-Windowsfeature)
 }
 else 
 {
-  $hash | Add-Member noteproperty Features (Get-WindowsOptionalFeature -Online)
+  $hash | Add-Member -NotePropertyName noteproperty -NotePropertyValue Features -InputObject (Get-WindowsOptionalFeature -Online)
 }
-$hash | Add-Member NoteProperty Services (Get-Service)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Services -InputObject (Get-Service)
 
-$hash | Add-Member NoteProperty UWP_Apps (Get-AppxPackage -AllUsers | Select-Object -Property Name, PackageFullName)
-$hash | Add-Member NoteProperty Installed_Apps (Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*)
-$hash | Add-Member NoteProperty Processes (Get-Process)
-$hash | Add-Member NoteProperty UWF ((Get-WmiObject -Namespace 'root\standardcimv2\embedded' -Class uwf_filter).CurrentEnabled)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue UWP_Apps -InputObject (Get-AppxPackage -AllUsers | Select-Object -Property Name, PackageFullName)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Installed_Apps -InputObject (Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue Processes -InputObject (Get-Process)
+$hash | Add-Member -NotePropertyName NoteProperty -NotePropertyValue UWF -InputObject ((Get-WmiObject -Namespace 'root\standardcimv2\embedded' -Class uwf_filter).CurrentEnabled)
 #GP Prevent installation of devices not described by other policy settings
-$hash | Add-Member Noteproperty Deny_UnspecifiedDevices (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions').DenyUnspecified
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Deny_UnspecifiedDevices -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions').DenyUnspecified
 #GP Allow installation of device using drivers that match these device setup classes
-$hash | Add-Member Noteproperty Allow_DeviceClasses (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\AllowDeviceClasses')
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Allow_DeviceClasses -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\AllowDeviceClasses')
 #GP Allow installation of device using drivers that match any of these device IDs
-$hash | Add-Member Noteproperty Allow_DeviceIDs (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\AllowDeviceIDs')
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Allow_DeviceIDs -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\AllowDeviceIDs')
 #GP Prevent installation of device using drivers that match these device setup classes
-$hash | Add-Member Noteproperty Deny_DeviceClasses (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses')
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Deny_DeviceClasses -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses')
 #GP Prevent installation of device using drivers that match any of these device IDs
-$hash | Add-Member Noteproperty Deny_DeviceIDs (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs')
+$hash | Add-Member -NotePropertyName Noteproperty -NotePropertyValue Deny_DeviceIDs -InputObject (Get-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs')
 
 $hash
 
@@ -543,7 +543,31 @@ $hash |
 ConvertTo-Json |
 Out-File -FilePath "hash_sablona$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).json"
 #$hash | Export-Clixml | Out-File "clixml.xml"
-$hash | Out-File -Path "./hash$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
-$hash | Out-File -Path "./templatehash$(env:COMPUTERNAME)-$(Get-Date -Format yyy-MM-dd-hh-mm-ss).json"
+$hash | Out-File -FilePath "./hash$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+$hash | Out-File -FilePath  "./templatehash$(env:COMPUTERNAME)-$(Get-Date -Format yyy-MM-dd-hh-mm-ss).json"
 Read-Host -Prompt 'Template created.. Press any key to exit...'
 exit
+# SIG # Begin signature block
+# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUFVIXLWMuaMxaUnZmNlGQX17C
+# WBugggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU3SXst1OzdZlGb9bF9Y3CthQc0y8w
+# DQYJKoZIhvcNAQEBBQAEgYCXPbaVv3NnL+pTiwCXSXSCAsZCXh3gcFOJn/HDsRjz
+# sm38aP73U0KAp2XG7lbL2ucJDMceevyRmh6pHc2VqDc8u6meZtt0wVCJQt/Gv6MY
+# 2K2+T/9yyq+VPq1Qu5Gbc3ITBCdCdqECvq+vwqE69krPksO1g+gnnVjRUQk1qFTd
+# pQ==
+# SIG # End signature block
