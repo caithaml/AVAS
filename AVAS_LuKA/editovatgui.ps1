@@ -301,7 +301,7 @@ Function Get-FileName($initialDirectory)  {
  
     $SaveFileDialog                  = New-Object -TypeName System.Windows.Forms.SaveFileDialog 
     $SaveFileDialog.initialDirectory = $initialDirectory 
-    $SaveFileDialog.filter           = “Powershell Script (*.ps1)|*.ps1|All files (*.*)|*.*” 
+    $SaveFileDialog.filter           = "Powershell Script (*.ps1)|*.ps1|All files (*.*)|*.*" 
     $SaveFileDialog.ShowDialog() | Out-Null 
     $SaveFileDialog.filename 
           
