@@ -253,13 +253,13 @@ function Get-DiskFree
           foreach ($disk in $disks)
           {
             $diskprops = @{
-              'Volume'     = $disk.DeviceID
-              'Size'       = $disk.Size
-              'Used'       = ($disk.Size - $disk.FreeSpace)
-              'Available'  = $disk.FreeSpace
+              'Volume'   = $disk.DeviceID
+              'Size'     = $disk.Size
+              'Used'     = ($disk.Size - $disk.FreeSpace)
+              'Available' = $disk.FreeSpace
               'FileSystem' = $disk.FileSystem
-              'Type'       = $disk.Description
-              'Computer'   = $disk.SystemName
+              'Type'     = $disk.Description
+              'Computer' = $disk.SystemName
             }
                     
             # Create custom PS object and apply type
@@ -297,7 +297,7 @@ function Get-DiskFree
             $err = $_.Exception.Message
           }
         }
-        Write-Warning "$computer - $err"
+        Write-Warning -Message "$computer - $err"
       } 
     }
   }
@@ -334,43 +334,70 @@ $hash | Add-Member Noteproperty Dslog_Service $(if (Get-Service -Name Dslog -Err
 )
 ### TEST AV
 # OS Windows server
-if($System.ProductType -eq 3) {$AV_Products = Get-WmiObject -Namespace root\cimv2 -Class Win32_Product -Filter "Name like '%Symantec%' or Name like '%ESET%'"}
+if($System.ProductType -eq 3) 
+{
+  $AV_Products = Get-WmiObject -Namespace root\cimv2 -Class Win32_Product -Filter "Name like '%Symantec%' or Name like '%ESET%'"
+}
 # OS Windows client
-else {$AV_Products = (Get-WmiObject -Namespace root\SecurityCenter2 -Class AntiVirusProduct).displayName}
+else 
+{
+  $AV_Products = (Get-WmiObject -Namespace root\SecurityCenter2 -Class AntiVirusProduct).displayName
+}
 
-foreach($tmp in $AV_Products) {
-    # ESET
-    if($tmp -match 'ESET') {
-        $hash | Add-Member NoteProperty AV_ESET_Product (Get-ItemProperty 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductName
-        if((Get-Service -Name ekrn).Status -eq 'running') {$hash | Add-Member NoteProperty AV_ESET_ResidentOn $true}
-        else {$hash | Add-Member NoteProperty AV_ESET_ResidentOn $false}
-        $hash | Add-Member NoteProperty AV_ESET_Version (Get-ItemProperty 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductVersion
-        $hash | Add-Member NoteProperty AV_ESET_Scanner_Build (Get-ItemProperty 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerBuild
-        $hash | Add-Member NoteProperty AV_ESET_Scanner_Version (Get-ItemProperty 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerVersion
+foreach($tmp in $AV_Products) 
+{
+  # ESET
+  if($tmp -match 'ESET') 
+  {
+    $hash | Add-Member NoteProperty AV_ESET_Product (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductName
+    if((Get-Service -Name ekrn).Status -eq 'running') 
+    {
+      $hash | Add-Member NoteProperty AV_ESET_ResidentOn $true
     }
+    else 
+    {
+      $hash | Add-Member NoteProperty AV_ESET_ResidentOn $false
+    }
+    $hash | Add-Member NoteProperty AV_ESET_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ProductVersion
+    $hash | Add-Member NoteProperty AV_ESET_Scanner_Build (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerBuild
+    $hash | Add-Member NoteProperty AV_ESET_Scanner_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\ESET\ESET Security\CurrentVersion\Info').ScannerVersion
+  }
 
-    # Symantec
-    if($tmp -match 'Symantec') {
-        #ver 12
-        #?cteni z registru preklada HEX -> DEC, format - ('{0:x}' -f Get-Item...)
-        $hash | Add-Member NoteProperty AV_SEP_Product (Get-ItemProperty 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductName
-        if((Get-Service -Name SepMasterService).Status -eq 'running') {$hash | Add-Member NoteProperty AV_SEP_ResidentOn $true}
-        else {$hash | Add-Member NoteProperty AV_SEP_ResidentOn $false}
-        $hash | Add-Member NoteProperty AV_SEP_Version (Get-ItemProperty 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductVersion
-        $hash | Add-Member NoteProperty AV_SEP_Scanner_Build (Get-Item -Path "$((Get-ItemProperty 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').'Home Directory')$((Get-ItemProperty 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').VirusEngine)" | Select-Object -ExpandProperty VersionInfo).ProductVersion
-        $hash | Add-Member NoteProperty AV_SEP_Scanner_Version (Get-ItemProperty 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').ScanEngineVersion
+  # Symantec
+  if($tmp -match 'Symantec') 
+  {
+    #ver 12
+    #?cteni z registru preklada HEX -> DEC, format - ('{0:x}' -f Get-Item...)
+    $hash | Add-Member NoteProperty AV_SEP_Product (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductName
+    if((Get-Service -Name SepMasterService).Status -eq 'running') 
+    {
+      $hash | Add-Member NoteProperty AV_SEP_ResidentOn $true
     }
+    else 
+    {
+      $hash | Add-Member NoteProperty AV_SEP_ResidentOn $false
+    }
+    $hash | Add-Member NoteProperty AV_SEP_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\CurrentVersion').ProductVersion
+    $hash | Add-Member NoteProperty AV_SEP_Scanner_Build (Get-Item -Path "$((Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').'Home Directory')$((Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').VirusEngine)" | Select-Object -ExpandProperty VersionInfo).ProductVersion
+    $hash | Add-Member NoteProperty AV_SEP_Scanner_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Symantec\Symantec Endpoint Protection\AV').ScanEngineVersion
+  }
 }
 
 # Windows Defender
 #$hash | Add-Member NoteProperty AV_MS Get-MpComputerStatus
 
 $hash | Add-Member NoteProperty AV_MS_Product 'Windows Defender'
-if((Get-Service -Name WinDefend).Status -ne 'running' -or (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows Defender').DisableAntiSpyware -eq 1 -or (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows Defender').DisableAntiVirus -eq 1) {$hash | Add-Member NoteProperty AV_MS_ResidentOn $false}
-else {$hash | Add-Member NoteProperty AV_MS_ResidentOn $true}
-$hash | Add-Member NoteProperty AV_MS_Version (Get-Item "$env:ProgramFiles\Windows Defender\MSASCui.exe" | Select-Object -ExpandProperty VersionInfo).ProductVersion
-$hash | Add-Member NoteProperty AV_MS_Scanner_Build (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').EngineVersion
-$hash | Add-Member NoteProperty AV_MS_Scanner_Version (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').AVSignatureVersion
+if((Get-Service -Name WinDefend).Status -ne 'running' -or (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender').DisableAntiSpyware -eq 1 -or (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender').DisableAntiVirus -eq 1) 
+{
+  $hash | Add-Member NoteProperty AV_MS_ResidentOn $false
+}
+else 
+{
+  $hash | Add-Member NoteProperty AV_MS_ResidentOn $true
+}
+$hash | Add-Member NoteProperty AV_MS_Version (Get-Item -Path "$env:ProgramFiles\Windows Defender\MSASCui.exe" | Select-Object -ExpandProperty VersionInfo).ProductVersion
+$hash | Add-Member NoteProperty AV_MS_Scanner_Build (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').EngineVersion
+$hash | Add-Member NoteProperty AV_MS_Scanner_Version (Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Signature Updates').AVSignatureVersion
 
 ### LOGS
 $hash | Add-Member Noteproperty System_Log_Length $(if ([IntPtr]::Size -eq 4) 
@@ -417,7 +444,6 @@ $hash | Add-Member NoteProperty Local_Users (Get-LocalUser)
 $hash | Add-Member NoteProperty Local_Groups (Get-LocalGroup)
 $hash | Add-Member NoteProperty PCinfo (Get-ComputerInfo)
 $hash | Add-Member NoteProperty Logs_Application $(Get-WinEvent -FilterHashtable @{
-
     logname   = 'Application'
     level     = 2, 3
     StartTime = $limitlogs
@@ -485,7 +511,8 @@ $hash | Add-Member noteproperty Hotfixes (Get-HotFix)
 if ($System.Caption -like '*Server*') 
 {
   $hash | Add-Member noteproperty Features (Get-Windowsfeature)
-} else 
+}
+else 
 {
   $hash | Add-Member noteproperty Features (Get-WindowsOptionalFeature -Online)
 }
@@ -508,10 +535,14 @@ $hash | Add-Member Noteproperty Deny_DeviceIDs (Get-ItemProperty -Path 'HKLM:\So
 
 $hash
 
-$hash | ConvertTo-Json | Out-File "hash_sablona.json"
-$hash | ConvertTo-Json | Out-File "hash_sablona$(get-date -f yyyy-MM-dd-hh-mm-ss).json"
+$hash |
+ConvertTo-Json |
+Out-File -FilePath 'hash_sablona.json'
+$hash |
+ConvertTo-Json |
+Out-File -FilePath "hash_sablona$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).json"
 #$hash | Export-Clixml | Out-File "clixml.xml"
-$hash | Out-File -Path "./hash$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
-$hash | Out-File -Path "./templatehash$(env:COMPUTERNAME)-$(get-date -f yyy-MM-dd-hh-mm-ss).json"
-Read-Host "Press any key to exit..."
+$hash | Out-File -Path "./hash$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+$hash | Out-File -Path "./templatehash$(env:COMPUTERNAME)-$(Get-Date -Format yyy-MM-dd-hh-mm-ss).json"
+Read-Host -Prompt 'Press any key to exit...'
 exit
