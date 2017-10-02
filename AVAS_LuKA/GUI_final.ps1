@@ -436,7 +436,7 @@ $mbtn_scriptstartup.Anchor   = 'Left,Top'
 $mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptstartup.Add_Click( {
             
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
     })
 $MyForm.Controls.Add($mbtn_scriptstartup) 
          
@@ -449,7 +449,7 @@ $mbtn_scriptshutdown.Anchor  = 'Left,Top'
 $mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptshutdown.Add_Click( {
             
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
              
     })
 $MyForm.Controls.Add($mbtn_scriptshutdown) 
@@ -472,7 +472,7 @@ $mbtn_executionpolicy.Anchor = 'Left,Top'
 $mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
                 
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
                 
     })
 $MyForm.Controls.Add($mbtn_executionpolicy) 
@@ -756,7 +756,7 @@ $mbtn_executionpolicy.Anchor = 'Left,Top'
 $mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
         
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
         
     })
      
@@ -839,7 +839,7 @@ $mbtn_tisk.Add_Click( {
         
         $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
             Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
-        start -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
+        Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
     })
 
 
@@ -854,7 +854,7 @@ $mbtn_vytvoritsablonu.Anchor = 'Left,Top'
 $mbtn_vytvoritsablonu.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_vytvoritsablonu.Add_Click( {
         
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
            
     })
 $MyForm.Controls.Add($mbtn_vytvoritsablonu) 
@@ -867,7 +867,7 @@ $mbtn_icwsc.Anchor           = 'Left,Top'
 $mbtn_icwsc.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_icwsc.Add_Click( {
         
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
            
     })
 $MyForm.Controls.Add($mbtn_icwsc) 
@@ -896,7 +896,7 @@ $mbtn_gui.Anchor             = 'Left,Top'
 $mbtn_gui.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_gui.Add_Click( {
         
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
            
     })
 
@@ -910,7 +910,7 @@ $mbtn_sablonaverze.Anchor    = 'Left,Top'
 $mbtn_sablonaverze.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_sablonaverze.Add_Click( {
         
-        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
            
     })
 $MyForm.Controls.Add($mbtn_sablonaverze) 
@@ -933,7 +933,7 @@ $mbtn_nacistjson.Add_Click( {
         
         #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
         $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
-        $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
+        $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
         $openFileDialog.title            = 'Select Settings Configuration File to Import'   
         $openFileDialog.filter           = 'All files (*.*)| *.*'   
         #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
@@ -982,8 +982,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUzdKtx+wPolDAJIrag4PTNo36
-# oHagggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUDYiGNBTZwxZXBZbc7EfWzmvB
+# 00OgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -997,9 +997,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUSeock1QVcLda81H0dlOAAvK2Bggw
-# DQYJKoZIhvcNAQEBBQAEgYA/fkqc10M2ONVh2Ym1bQMC5NNaXFo/vHvOExpfwpDg
-# EzpOSZRIpSXc/YXlTJOyRYxLCVP6USISXIB02dLpqvMJRxXEfxJNd3crhGU5De+z
-# fpf1bLo6fFd0nlFOsV7t1E67addbksWKZLDgCHHhGPgQGvvYkeJqrTzzNGQbURZA
-# xw==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUEc1lF8B+p29bQLo0dpLWwPv/SQIw
+# DQYJKoZIhvcNAQEBBQAEgYAcpkz9PmgbufCC12p7UeB194j9bdD37aAL9wPIrVgV
+# rMdOSgiHcGbAACpW1j27dS8ZdoaZbgQTR8cOmQy2WkQlpHrY3JF4GQheFctNtXPB
+# G2mk5QLKPLuhrO/nvbZvF2AFA7unGMzRZSDDIm1I7+JKKNEMGaNddvuvkIG3ogSd
+# 4Q==
 # SIG # End signature block
