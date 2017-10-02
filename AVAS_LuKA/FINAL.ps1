@@ -1,915 +1,1005 @@
-﻿Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+﻿Start-Transcript -Path "./transcript$(get-date -Format yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
-$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
-$jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
+Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
+$json                        = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
+$jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
+Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 
-Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
 #overeni ze je uzivatel administrator
-Write-Verbose "Kontroluji admin prava"
+Write-Verbose -Message 'Kontroluji admin prava'
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
-            [Security.Principal.WindowsBuiltInRole] "Administrator")) {
-    Write-Warning "Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!"
+            [Security.Principal.WindowsBuiltInRole] 'Administrator')) {
+    Write-Warning -Message 'Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!'
 }
 
-Write-Host -Object "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
+Write-Verbose -Message "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
 
-Write-Host -Object "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
-Write-Host -Object "$(Get-Date) - Nacitam GUI"
+Write-Verbose -Message "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
+Write-Verbose -Message "$(Get-Date) - Nacitam GUI"
 
 
 #==============================================================================================
 # GUI
 #==============================================================================================
- 
-
      
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
-$MyForm = New-Object System.Windows.Forms.Form 
-$MyForm.Text = "AVAS - porovnani testy "
-$MyForm.Size = New-Object System.Drawing.Size(1024, 800) 
+$MyForm                      = New-Object -TypeName System.Windows.Forms.Form 
+$MyForm.Text                 = 'AVAS' 
+$MyForm.Size                 = New-Object -TypeName System.Drawing.Size -ArgumentList (1024, 850) 
+     
  
-$mlbl_nazevstanice = New-Object System.Windows.Forms.Label 
-$mlbl_nazevstanice.Text = "Nazev stanice" 
-$mlbl_nazevstanice.Top = "41" 
-$mlbl_nazevstanice.Left = "6" 
-$mlbl_nazevstanice.Anchor = "Left,Top" 
-$mlbl_nazevstanice.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_nazevstanice) 
-     
-
-$mtxtbox_nazevstanice = New-Object System.Windows.Forms.RichTextBox 
-$mtxtbox_nazevstanice.Text = "" 
-$mtxtbox_nazevstanice.Top = "41" 
-$mtxtbox_nazevstanice.Left = "111" 
-$mtxtbox_nazevstanice.Anchor = "Left,Top" 
-$mtxtbox_nazevstanice.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mtxtbox_nazevstanice) 
-     
-
-$mlbl_aktivaceprovedenadne = New-Object System.Windows.Forms.Label 
-$mlbl_aktivaceprovedenadne.Text = "Aktivace provedena dne" 
-$mlbl_aktivaceprovedenadne.Top = "74" 
-$mlbl_aktivaceprovedenadne.Left = "8" 
-$mlbl_aktivaceprovedenadne.Anchor = "Left,Top" 
-$mlbl_aktivaceprovedenadne.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_aktivaceprovedenadne) 
-     
-
-$mtxtbox_aktivaceprovedenadne = New-Object System.Windows.Forms.RichTextBox 
-$mtxtbox_aktivaceprovedenadne.Text = "" 
-$mtxtbox_aktivaceprovedenadne.Top = "79" 
-$mtxtbox_aktivaceprovedenadne.Left = "111" 
-$mtxtbox_aktivaceprovedenadne.Anchor = "Left,Top" 
-$mtxtbox_aktivaceprovedenadne.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mtxtbox_aktivaceprovedenadne) 
-     
-
-$mlbl_vypisinfotest = New-Object System.Windows.Forms.Label 
-$mlbl_vypisinfotest.Text = "Vypis informaci o stanici - test!" 
-$mlbl_vypisinfotest.Top = "137" 
-$mlbl_vypisinfotest.Left = "6" 
-$mlbl_vypisinfotest.Anchor = "Left,Top" 
-$mlbl_vypisinfotest.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_vypisinfotest) 
-     
-
-$mlbl_computername = New-Object System.Windows.Forms.Label 
-$mlbl_computername.Text = "ComputerName" 
-$mlbl_computername.Top = "195" 
-$mlbl_computername.Left = "10" 
-$mlbl_computername.Anchor = "Left,Top" 
-$mlbl_computername.Size = New-Object System.Drawing.Size(100, 23) 
+$mlbl_computername           = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_computername.Text      = 'Computer name' 
+$mlbl_computername.Top       = '37' 
+$mlbl_computername.Left      = '10' 
+$mlbl_computername.Anchor    = 'Left,Top' 
+$mlbl_computername.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_computername) 
-     
-
-$mlbl_computernametext = New-Object System.Windows.Forms.Label 
-$mlbl_computernametext.Text = $json.ComputerName
-$mlbl_computernametext.Top = "196" 
-$mlbl_computernametext.Left = "120" 
-$mlbl_computernametext.Anchor = "Left,Top" 
-$mlbl_computernametext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_computernametext) 
-     
-
-$mlbl_date = New-Object System.Windows.Forms.Label 
-$mlbl_date.Text = "Date" 
-$mlbl_date.Top = "227" 
-$mlbl_date.Left = "10" 
-$mlbl_date.Anchor = "Left,Top" 
-$mlbl_date.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_date                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_date.Text              = 'Date' 
+$mlbl_date.Top               = '66' 
+$mlbl_date.Left              = '10' 
+$mlbl_date.Anchor            = 'Left,Top' 
+$mlbl_date.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_date) 
-     
-
-$mlbl_datetext = New-Object System.Windows.Forms.Label 
-$mlbl_datetext.Text = $json.date
-$mlbl_datetext.Top = "231" 
-$mlbl_datetext.Left = "119" 
-$mlbl_datetext.Anchor = "Left,Top" 
-$mlbl_datetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_datetext) 
-     
-
-$mlbl_user = New-Object System.Windows.Forms.Label 
-$mlbl_user.Text = "User" 
-$mlbl_user.Top = "259" 
-$mlbl_user.Left = "10" 
-$mlbl_user.Anchor = "Left,Top" 
-$mlbl_user.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_user                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_user.Text              = 'User' 
+$mlbl_user.Top               = '99' 
+$mlbl_user.Left              = '10' 
+$mlbl_user.Anchor            = 'Left,Top' 
+$mlbl_user.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_user) 
-     
-
-$mlbl_usertext = New-Object System.Windows.Forms.Label 
-$mlbl_usertext.Text = $json.user
-$mlbl_usertext.Top = "264" 
-$mlbl_usertext.Left = "119" 
-$mlbl_usertext.Anchor = "Left,Top" 
-$mlbl_usertext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_usertext) 
-     
-
-$mlbl_lastuser = New-Object System.Windows.Forms.Label 
-$mlbl_lastuser.Text = "Last user" 
-$mlbl_lastuser.Top = "296" 
-$mlbl_lastuser.Left = "10" 
-$mlbl_lastuser.Anchor = "Left,Top" 
-$mlbl_lastuser.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_lastuser               = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_lastuser.Text          = 'Last user' 
+$mlbl_lastuser.Top           = '133' 
+$mlbl_lastuser.Left          = '10' 
+$mlbl_lastuser.Anchor        = 'Left,Top' 
+$mlbl_lastuser.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_lastuser) 
-     
-
-$mlbl_lastusertext = New-Object System.Windows.Forms.Label 
-$mlbl_lastusertext.Text = $json.last_user 
-$mlbl_lastusertext.Top = "298" 
-$mlbl_lastusertext.Left = "119" 
-$mlbl_lastusertext.Anchor = "Left,Top" 
-$mlbl_lastusertext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_lastusertext) 
-     
-
-$mlbl_domain = New-Object System.Windows.Forms.Label 
-$mlbl_domain.Text = "Domain" 
-$mlbl_domain.Top = "331" 
-$mlbl_domain.Left = "10" 
-$mlbl_domain.Anchor = "Left,Top" 
-$mlbl_domain.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_domain                 = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_domain.Text            = 'Domain' 
+$mlbl_domain.Top             = '162' 
+$mlbl_domain.Left            = '10' 
+$mlbl_domain.Anchor          = 'Left,Top' 
+$mlbl_domain.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_domain) 
-     
-
-$mlbl_domaintext = New-Object System.Windows.Forms.Label 
-$mlbl_domaintext.Text = $json.Domain 
-$mlbl_domaintext.Top = "331" 
-$mlbl_domaintext.Left = "118" 
-$mlbl_domaintext.Anchor = "Left,Top" 
-$mlbl_domaintext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_domaintext) 
-     
-
-$mlbl_domaintcp = New-Object System.Windows.Forms.Label 
-$mlbl_domaintcp.Text = "Domain TCP" 
-$mlbl_domaintcp.Top = "364" 
-$mlbl_domaintcp.Left = "10" 
-$mlbl_domaintcp.Anchor = "Left,Top" 
-$mlbl_domaintcp.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_domaintcp              = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_domaintcp.Text         = 'Domain TCP' 
+$mlbl_domaintcp.Top          = '194' 
+$mlbl_domaintcp.Left         = '10' 
+$mlbl_domaintcp.Anchor       = 'Left,Top' 
+$mlbl_domaintcp.Size         = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_domaintcp) 
-     
-
-$mlbl_domaintcptext = New-Object System.Windows.Forms.Label 
-$mlbl_domaintcptext.Text = $json.domain_tcp
-$mlbl_domaintcptext.Top = "363" 
-$mlbl_domaintcptext.Left = "118" 
-$mlbl_domaintcptext.Anchor = "Left,Top" 
-$mlbl_domaintcptext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_domaintcptext) 
-     
-
-$mlbl_domaindhcp = New-Object System.Windows.Forms.Label 
-$mlbl_domaindhcp.Text = "Domain DHCP" 
-$mlbl_domaindhcp.Top = "397" 
-$mlbl_domaindhcp.Left = "10" 
-$mlbl_domaindhcp.Anchor = "Left,Top" 
-$mlbl_domaindhcp.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_domaindhcp             = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_domaindhcp.Text        = 'Domain DHCP' 
+$mlbl_domaindhcp.Top         = '222' 
+$mlbl_domaindhcp.Left        = '10' 
+$mlbl_domaindhcp.Anchor      = 'Left,Top' 
+$mlbl_domaindhcp.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_domaindhcp) 
-     
-
-$mlbl_domaindhcptext = New-Object System.Windows.Forms.Label 
-$mlbl_domaindhcptext.Text = $json.domain_dhcp
-$mlbl_domaindhcptext.Top = "396" 
-$mlbl_domaindhcptext.Left = "118" 
-$mlbl_domaindhcptext.Anchor = "Left,Top" 
-$mlbl_domaindhcptext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_domaindhcptext) 
-     
-
-$mlbl_sitename = New-Object System.Windows.Forms.Label 
-$mlbl_sitename.Text = "Site name" 
-$mlbl_sitename.Top = "428" 
-$mlbl_sitename.Left = "10" 
-$mlbl_sitename.Anchor = "Left,Top" 
-$mlbl_sitename.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sitename) 
-     
-
-$mlbl_sitenametext = New-Object System.Windows.Forms.Label 
-$mlbl_sitenametext.Text = $json.site_name
-$mlbl_sitenametext.Top = "429" 
-$mlbl_sitenametext.Left = "119" 
-$mlbl_sitenametext.Anchor = "Left,Top" 
-$mlbl_sitenametext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sitenametext) 
-     
-
-$mlbl_activedc = New-Object System.Windows.Forms.Label 
-$mlbl_activedc.Text = "Active DC" 
-$mlbl_activedc.Top = "461" 
-$mlbl_activedc.Left = "10" 
-$mlbl_activedc.Anchor = "Left,Top" 
-$mlbl_activedc.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_site                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_site.Text              = 'Site name' 
+$mlbl_site.Top               = '254' 
+$mlbl_site.Left              = '10' 
+$mlbl_site.Anchor            = 'Left,Top' 
+$mlbl_site.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_site) 
+         
+ 
+$mlbl_activedc               = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_activedc.Text          = 'Active DC' 
+$mlbl_activedc.Top           = '284' 
+$mlbl_activedc.Left          = '11' 
+$mlbl_activedc.Anchor        = 'Left,Top' 
+$mlbl_activedc.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_activedc) 
-     
-
-$mlbl_activedctext = New-Object System.Windows.Forms.Label 
-$mlbl_activedctext.Text = $json.active_dc 
-$mlbl_activedctext.Top = "460" 
-$mlbl_activedctext.Left = "119" 
-$mlbl_activedctext.Anchor = "Left,Top" 
-$mlbl_activedctext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_activedctext) 
-     
-
-$mlbl_scriptstartup = New-Object System.Windows.Forms.Label 
-$mlbl_scriptstartup.Text = "Script start up" 
-$mlbl_scriptstartup.Top = "493" 
-$mlbl_scriptstartup.Left = "10" 
-$mlbl_scriptstartup.Anchor = "Left,Top" 
-$mlbl_scriptstartup.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_scriptstartup          = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_scriptstartup.Text     = 'Script start up' 
+$mlbl_scriptstartup.Top      = '315' 
+$mlbl_scriptstartup.Left     = '10' 
+$mlbl_scriptstartup.Anchor   = 'Left,Top' 
+$mlbl_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_scriptstartup) 
-     
-
-$mbtn_scriptstartup = New-Object System.Windows.Forms.Button 
-$mbtn_scriptstartup.Text = "Details" 
-$mbtn_scriptstartup.Top = "487" 
-$mbtn_scriptstartup.Left = "117" 
-$mbtn_scriptstartup.Anchor = "Left,Top" 
-$mbtn_scriptstartup.Add_Click( {
-               
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
-    })
-$mbtn_scriptstartup.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mbtn_scriptstartup) 
-     
-
-$mlbl_scriptshutdown = New-Object System.Windows.Forms.Label 
-$mlbl_scriptshutdown.Text = "Script shutdown" 
-$mlbl_scriptshutdown.Top = "523" 
-$mlbl_scriptshutdown.Left = "10" 
-$mlbl_scriptshutdown.Anchor = "Left,Top" 
-$mlbl_scriptshutdown.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_scriptshutdown         = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_scriptshutdown.Text    = 'Script shutdown' 
+$mlbl_scriptshutdown.Top     = '344' 
+$mlbl_scriptshutdown.Left    = '10' 
+$mlbl_scriptshutdown.Anchor  = 'Left,Top' 
+$mlbl_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_scriptshutdown) 
-     
-
-$mbtn_scriptshutdown = New-Object System.Windows.Forms.Button 
-$mbtn_scriptshutdown.Text = "Details" 
-$mbtn_scriptshutdown.Top = "520" 
-$mbtn_scriptshutdown.Left = "116" 
-$mbtn_scriptshutdown.Anchor = "Left,Top" 
-$mbtn_scriptshutdown.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_os                     = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_os.Text                = 'OS' 
+$mlbl_os.Top                 = '375' 
+$mlbl_os.Left                = '10' 
+$mlbl_os.Anchor              = 'Left,Top' 
+$mlbl_os.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_os) 
+         
+ 
+$mlbl_osbuild                = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_osbuild.Text           = 'OS build' 
+$mlbl_osbuild.Top            = '403' 
+$mlbl_osbuild.Left           = '10' 
+$mlbl_osbuild.Anchor         = 'Left,Top' 
+$mlbl_osbuild.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_osbuild) 
+         
+ 
+$mlbl_servicepack            = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_servicepack.Text       = 'Service pack' 
+$mlbl_servicepack.Top        = '433' 
+$mlbl_servicepack.Left       = '10' 
+$mlbl_servicepack.Anchor     = 'Left,Top' 
+$mlbl_servicepack.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_servicepack) 
+         
+ 
+$mlbl_installdate            = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_installdate.Text       = 'OS Install date' 
+$mlbl_installdate.Top        = '465' 
+$mlbl_installdate.Left       = '10' 
+$mlbl_installdate.Anchor     = 'Left,Top' 
+$mlbl_installdate.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_installdate) 
+         
+ 
+$mlbl_lastboot               = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_lastboot.Text          = 'OS last boot time' 
+$mlbl_lastboot.Top           = '496' 
+$mlbl_lastboot.Left          = '10' 
+$mlbl_lastboot.Anchor        = 'Left,Top' 
+$mlbl_lastboot.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_lastboot) 
+         
+ 
+$mlbl_ramtotal               = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_ramtotal.Text          = 'RAM total' 
+$mlbl_ramtotal.Top           = '530' 
+$mlbl_ramtotal.Left          = '10' 
+$mlbl_ramtotal.Anchor        = 'Left,Top' 
+$mlbl_ramtotal.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_ramtotal) 
+         
+ 
+$mlbl_ramfree                = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_ramfree.Text           = 'RAM free' 
+$mlbl_ramfree.Top            = '558' 
+$mlbl_ramfree.Left           = '10' 
+$mlbl_ramfree.Anchor         = 'Left,Top' 
+$mlbl_ramfree.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_ramfree) 
+         
+ 
+$mlbl_virtualtotal           = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_virtualtotal.Text      = 'Virtual total' 
+$mlbl_virtualtotal.Top       = '588' 
+$mlbl_virtualtotal.Left      = '10' 
+$mlbl_virtualtotal.Anchor    = 'Left,Top' 
+$mlbl_virtualtotal.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_virtualtotal) 
+         
+ 
+$mlbl_virtualfree            = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_virtualfree.Text       = 'Virtual free' 
+$mlbl_virtualfree.Top        = '615' 
+$mlbl_virtualfree.Left       = '10' 
+$mlbl_virtualfree.Anchor     = 'Left,Top' 
+$mlbl_virtualfree.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_virtualfree) 
+         
+ 
+$mlbl_windir                 = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_windir.Text            = 'WIN dir' 
+$mlbl_windir.Top             = '644' 
+$mlbl_windir.Left            = '10' 
+$mlbl_windir.Anchor          = 'Left,Top' 
+$mlbl_windir.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_windir) 
+         
+ 
+$mlbl_sysdir                 = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_sysdir.Text            = 'SYS dir' 
+$mlbl_sysdir.Top             = '672' 
+$mlbl_sysdir.Left            = '10' 
+$mlbl_sysdir.Anchor          = 'Left,Top' 
+$mlbl_sysdir.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_sysdir) 
+         
+ 
+$mlbl_tempdir                = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_tempdir.Text           = 'TEMP dir' 
+$mlbl_tempdir.Top            = '704' 
+$mlbl_tempdir.Left           = '10' 
+$mlbl_tempdir.Anchor         = 'Left,Top' 
+$mlbl_tempdir.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_tempdir) 
+         
+ 
+$mcomputername               = New-Object -TypeName System.Windows.Forms.Label 
+$mcomputername.Text          = $json.ComputerName
+$mcomputername.Top           = '38' 
+$mcomputername.Left          = '115' 
+$mcomputername.Anchor        = 'Left,Top' 
+$mcomputername.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mcomputername) 
+         
+ 
+$mdate                       = New-Object -TypeName System.Windows.Forms.Label 
+$mdate.Text                  = $json.date
+$mdate.Top                   = '71' 
+$mdate.Left                  = '115' 
+$mdate.Anchor                = 'Left,Top' 
+$mdate.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdate) 
+         
+ 
+$muser                       = New-Object -TypeName System.Windows.Forms.Label 
+$muser.Text                  = $json.user
+$muser.Top                   = '103' 
+$muser.Left                  = '115' 
+$muser.Anchor                = 'Left,Top' 
+$muser.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($muser) 
+         
+ 
+$mlastuser                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlastuser.Text              = $json.last_user 
+$mlastuser.Top               = '137' 
+$mlastuser.Left              = '115' 
+$mlastuser.Anchor            = 'Left,Top' 
+$mlastuser.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlastuser) 
+         
+ 
+$mdomain                     = New-Object -TypeName System.Windows.Forms.Label 
+$mdomain.Text                = $json.Domain 
+$mdomain.Top                 = '168' 
+$mdomain.Left                = '115' 
+$mdomain.Anchor              = 'Left,Top' 
+$mdomain.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdomain) 
+         
+ 
+$mdomaintcp                  = New-Object -TypeName System.Windows.Forms.Label 
+$mdomaintcp.Text             = $json.domain_tcp
+$mdomaintcp.Top              = '199' 
+$mdomaintcp.Left             = '115' 
+$mdomaintcp.Anchor           = 'Left,Top' 
+$mdomaintcp.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdomaintcp) 
+         
+ 
+$mdomaindhcp                 = New-Object -TypeName System.Windows.Forms.Label 
+$mdomaindhcp.Text            = $json.domain_dhcp
+$mdomaindhcp.Top             = '226' 
+$mdomaindhcp.Left            = '115' 
+$mdomaindhcp.Anchor          = 'Left,Top' 
+$mdomaindhcp.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdomaindhcp) 
+         
+ 
+$msitename                   = New-Object -TypeName System.Windows.Forms.Label 
+$msitename.Text              = $json.site_name
+$msitename.Top               = '255' 
+$msitename.Left              = '115' 
+$msitename.Anchor            = 'Left,Top' 
+$msitename.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($msitename) 
+         
+ 
+$mactivedc                   = New-Object -TypeName System.Windows.Forms.Label 
+$mactivedc.Text              = $json.active_dc 
+$mactivedc.Top               = '282' 
+$mactivedc.Left              = '115' 
+$mactivedc.Anchor            = 'Left,Top' 
+$mactivedc.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mactivedc) 
+         
+ 
+$mos                         = New-Object -TypeName System.Windows.Forms.Label 
+$mos.Text                    = $json.os
+$mos.Top                     = '376' 
+$mos.Left                    = '115' 
+$mos.Anchor                  = 'Left,Top' 
+$mos.Size                    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mos) 
+         
+ 
+$mosbuild                    = New-Object -TypeName System.Windows.Forms.Label 
+$mosbuild.Text               = $json.os_build 
+$mosbuild.Top                = '408' 
+$mosbuild.Left               = '115' 
+$mosbuild.Anchor             = 'Left,Top' 
+$mosbuild.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mosbuild) 
+         
+ 
+$mservicepack                = New-Object -TypeName System.Windows.Forms.Label 
+$mservicepack.Text           = $json.sp 
+$mservicepack.Top            = '438' 
+$mservicepack.Left           = '115' 
+$mservicepack.Anchor         = 'Left,Top' 
+$mservicepack.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mservicepack) 
+         
+ 
+$mosinstalldate              = New-Object -TypeName System.Windows.Forms.Label 
+$mosinstalldate.Text         = $json.date 
+$mosinstalldate.Top          = '469' 
+$mosinstalldate.Left         = '115' 
+$mosinstalldate.Anchor       = 'Left,Top' 
+$mosinstalldate.Size         = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mosinstalldate) 
+         
+ 
+$moslastboottime             = New-Object -TypeName System.Windows.Forms.Label 
+$moslastboottime.Text        = $json.last_boot_time 
+$moslastboottime.Top         = '497' 
+$moslastboottime.Left        = '115' 
+$moslastboottime.Anchor      = 'Left,Top' 
+$moslastboottime.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($moslastboottime) 
+         
+ 
+$mramtotal                   = New-Object -TypeName System.Windows.Forms.Label 
+$mramtotal.Text              = $json.ram_total 
+$mramtotal.Top               = '531' 
+$mramtotal.Left              = '115' 
+$mramtotal.Anchor            = 'Left,Top' 
+$mramtotal.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mramtotal) 
+         
+ 
+$mramfree                    = New-Object -TypeName System.Windows.Forms.Label 
+$mramfree.Text               = $json.ram_free
+$mramfree.Top                = '560' 
+$mramfree.Left               = '115' 
+$mramfree.Anchor             = 'Left,Top' 
+$mramfree.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mramfree) 
+         
+ 
+$mvirtualtotal               = New-Object -TypeName System.Windows.Forms.Label 
+$mvirtualtotal.Text          = $json.virtual_total
+$mvirtualtotal.Top           = '591' 
+$mvirtualtotal.Left          = '115' 
+$mvirtualtotal.Anchor        = 'Left,Top' 
+$mvirtualtotal.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mvirtualtotal) 
+         
+ 
+$mvirtualfree                = New-Object -TypeName System.Windows.Forms.Label 
+$mvirtualfree.Text           = $json.virtual_free 
+$mvirtualfree.Top            = '619' 
+$mvirtualfree.Left           = '115' 
+$mvirtualfree.Anchor         = 'Left,Top' 
+$mvirtualfree.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mvirtualfree) 
+         
+ 
+$mwindir                     = New-Object -TypeName System.Windows.Forms.Label 
+$mwindir.Text                = $json.win_dir 
+$mwindir.Top                 = '647' 
+$mwindir.Left                = '115' 
+$mwindir.Anchor              = 'Left,Top' 
+$mwindir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mwindir) 
+         
+ 
+$msysdir                     = New-Object -TypeName System.Windows.Forms.Label 
+$msysdir.Text                = $json.sys_dir 
+$msysdir.Top                 = '673' 
+$msysdir.Left                = '115' 
+$msysdir.Anchor              = 'Left,Top' 
+$msysdir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($msysdir) 
+         
+ 
+$mtempdir                    = New-Object -TypeName System.Windows.Forms.Label 
+$mtempdir.Text               = $json.temp_dir
+$mtempdir.Top                = '703' 
+$mtempdir.Left               = '115' 
+$mtempdir.Anchor             = 'Left,Top' 
+$mtempdir.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mtempdir) 
+         
+ 
+$mbtn_scriptstartup          = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_scriptstartup.Text     = 'Script startup' 
+$mbtn_scriptstartup.Top      = '314' 
+$mbtn_scriptstartup.Left     = '115' 
+$mbtn_scriptstartup.Anchor   = 'Left,Top' 
+$mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_scriptstartup.Add_Click( {
+            
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
+    })
+$MyForm.Controls.Add($mbtn_scriptstartup) 
+         
+ 
+$mbtn_scriptshutdown         = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_scriptshutdown.Text    = 'Script shutdown' 
+$mbtn_scriptshutdown.Top     = '345' 
+$mbtn_scriptshutdown.Left    = '115' 
+$mbtn_scriptshutdown.Anchor  = 'Left,Top' 
+$mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptshutdown.Add_Click( {
-       
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
-        
+            
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
+             
     })
 $MyForm.Controls.Add($mbtn_scriptshutdown) 
-     
-
-$mlbl_os = New-Object System.Windows.Forms.Label 
-$mlbl_os.Text = "OS" 
-$mlbl_os.Top = "552" 
-$mlbl_os.Left = "10" 
-$mlbl_os.Anchor = "Left,Top" 
-$mlbl_os.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_os) 
-     
-
-$mlbl_ostext = New-Object System.Windows.Forms.Label 
-$mlbl_ostext.Text = $json.OS 
-$mlbl_ostext.Top = "559" 
-$mlbl_ostext.Left = "115" 
-$mlbl_ostext.Anchor = "Left,Top" 
-$mlbl_ostext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_ostext) 
-     
-
-$mlbl_osbuild = New-Object System.Windows.Forms.Label 
-$mlbl_osbuild.Text = "OS build" 
-$mlbl_osbuild.Top = "580" 
-$mlbl_osbuild.Left = "10" 
-$mlbl_osbuild.Anchor = "Left,Top" 
-$mlbl_osbuild.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_osbuild) 
-     
-
-$mlbl_osbuildtext = New-Object System.Windows.Forms.Label 
-$mlbl_osbuildtext.Text = $json.os_build
-$mlbl_osbuildtext.Top = "585" 
-$mlbl_osbuildtext.Left = "115" 
-$mlbl_osbuildtext.Anchor = "Left,Top" 
-$mlbl_osbuildtext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_osbuildtext) 
-     
-
-$mlbl_sp = New-Object System.Windows.Forms.Label 
-$mlbl_sp.Text = "Service Pack" 
-$mlbl_sp.Top = "615" 
-$mlbl_sp.Left = "10" 
-$mlbl_sp.Anchor = "Left,Top" 
-$mlbl_sp.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sp) 
-     
-
-$mlbl_sptext = New-Object System.Windows.Forms.Label 
-$mlbl_sptext.Text = $json.sp
-$mlbl_sptext.Top = "615" 
-$mlbl_sptext.Left = "116" 
-$mlbl_sptext.Anchor = "Left,Top" 
-$mlbl_sptext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sptext) 
-     
-
-$mlbl_installdate = New-Object System.Windows.Forms.Label 
-$mlbl_installdate.Text = "Install date" 
-$mlbl_installdate.Top = "481" 
-$mlbl_installdate.Left = "312" 
-$mlbl_installdate.Anchor = "Left,Top" 
-$mlbl_installdate.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_installdate) 
-     
-
-$mlbl_installdatetext = New-Object System.Windows.Forms.Label 
-$mlbl_installdatetext.Text = $json.install_date 
-$mlbl_installdatetext.Top = "44" 
-$mlbl_installdatetext.Left = "232" 
-$mlbl_installdatetext.Anchor = "Left,Top" 
-$mlbl_installdatetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_installdatetext) 
-     
-
-$mlbl_lastboottime = New-Object System.Windows.Forms.Label 
-$mlbl_lastboottime.Text = "Last boot time" 
-$mlbl_lastboottime.Top = "682" 
-$mlbl_lastboottime.Left = "10" 
-$mlbl_lastboottime.Anchor = "Left,Top" 
-$mlbl_lastboottime.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_lastboottime) 
-     
-
-$mlbl_lastboottimetext = New-Object System.Windows.Forms.Label 
-$mlbl_lastboottimetext.Text = $json.last_boot_time
-$mlbl_lastboottimetext.Top = "680" 
-$mlbl_lastboottimetext.Left = "115" 
-$mlbl_lastboottimetext.Anchor = "Left,Top" 
-$mlbl_lastboottimetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_lastboottimetext) 
-     
-
-$mlbl_ramtotal = New-Object System.Windows.Forms.Label 
-$mlbl_ramtotal.Text = "RAM total" 
-$mlbl_ramtotal.Top = "714" 
-$mlbl_ramtotal.Left = "10" 
-$mlbl_ramtotal.Anchor = "Left,Top" 
-$mlbl_ramtotal.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_ramtotal) 
-     
-
-$mlbl_ramtotaltext = New-Object System.Windows.Forms.Label 
-$mlbl_ramtotaltext.Text = $json.ram_total
-$mlbl_ramtotaltext.Top = "717" 
-$mlbl_ramtotaltext.Left = "116" 
-$mlbl_ramtotaltext.Anchor = "Left,Top" 
-$mlbl_ramtotaltext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_ramtotaltext) 
-     
-
-$mlbl_ramfree = New-Object System.Windows.Forms.Label 
-$mlbl_ramfree.Text = "RAM free" 
-$mlbl_ramfree.Top = "744" 
-$mlbl_ramfree.Left = "10" 
-$mlbl_ramfree.Anchor = "Left,Top" 
-$mlbl_ramfree.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_ramfree) 
-     
-
-$mlbl_ramfreetext = New-Object System.Windows.Forms.Label 
-$mlbl_ramfreetext.Text = $json.ram_free 
-$mlbl_ramfreetext.Top = "746" 
-$mlbl_ramfreetext.Left = "116" 
-$mlbl_ramfreetext.Anchor = "Left,Top" 
-$mlbl_ramfreetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_ramfreetext) 
-     
-
-$mlbl_virtualtotal = New-Object System.Windows.Forms.Label 
-$mlbl_virtualtotal.Text = "Virtual total" 
-$mlbl_virtualtotal.Top = "192" 
-$mlbl_virtualtotal.Left = "330" 
-$mlbl_virtualtotal.Anchor = "Left,Top" 
-$mlbl_virtualtotal.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_virtualtotal) 
-     
-
-$mlbl_virtualtotaltext = New-Object System.Windows.Forms.Label 
-$mlbl_virtualtotaltext.Text = $json.virtual_total
-$mlbl_virtualtotaltext.Top = "193" 
-$mlbl_virtualtotaltext.Left = "433" 
-$mlbl_virtualtotaltext.Anchor = "Left,Top" 
-$mlbl_virtualtotaltext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_virtualtotaltext) 
-     
-
-$mlbl_virtualfree = New-Object System.Windows.Forms.Label 
-$mlbl_virtualfree.Text = "Virtual free" 
-$mlbl_virtualfree.Top = "226" 
-$mlbl_virtualfree.Left = "332" 
-$mlbl_virtualfree.Anchor = "Left,Top" 
-$mlbl_virtualfree.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_virtualfree) 
-     
-
-$mlbl_virtualfreetext = New-Object System.Windows.Forms.Label 
-$mlbl_virtualfreetext.Text = $json.virtual_free 
-$mlbl_virtualfreetext.Top = "230" 
-$mlbl_virtualfreetext.Left = "434" 
-$mlbl_virtualfreetext.Anchor = "Left,Top" 
-$mlbl_virtualfreetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_virtualfreetext) 
-     
-
-$mlbl_windir = New-Object System.Windows.Forms.Label 
-$mlbl_windir.Text = "Win dir" 
-$mlbl_windir.Top = "260" 
-$mlbl_windir.Left = "334" 
-$mlbl_windir.Anchor = "Left,Top" 
-$mlbl_windir.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_windir) 
-     
-
-$mlbl_windirtext = New-Object System.Windows.Forms.Label 
-$mlbl_windirtext.Text = $json.win_dir 
-$mlbl_windirtext.Top = "261" 
-$mlbl_windirtext.Left = "432" 
-$mlbl_windirtext.Anchor = "Left,Top" 
-$mlbl_windirtext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_windirtext) 
-     
-
-$mlbl_sysdir = New-Object System.Windows.Forms.Label 
-$mlbl_sysdir.Text = "Sys dir" 
-$mlbl_sysdir.Top = "285" 
-$mlbl_sysdir.Left = "326" 
-$mlbl_sysdir.Anchor = "Left,Top" 
-$mlbl_sysdir.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sysdir) 
-     
-
-$mlbl_sysdirtext = New-Object System.Windows.Forms.Label 
-$mlbl_sysdirtext.Text = $json.sys_dir
-$mlbl_sysdirtext.Top = "290" 
-$mlbl_sysdirtext.Left = "434" 
-$mlbl_sysdirtext.Anchor = "Left,Top" 
-$mlbl_sysdirtext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sysdirtext) 
-     
-
-$mlbl_tempdir = New-Object System.Windows.Forms.Label 
-$mlbl_tempdir.Text = "TEMP dir" 
-$mlbl_tempdir.Top = "313" 
-$mlbl_tempdir.Left = "320" 
-$mlbl_tempdir.Anchor = "Left,Top" 
-$mlbl_tempdir.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_tempdir) 
-     
-
-$mlbl_tempdirtext = New-Object System.Windows.Forms.Label 
-$mlbl_tempdirtext.Text = $json.temp_dir 
-$mlbl_tempdirtext.Top = "319" 
-$mlbl_tempdirtext.Left = "435" 
-$mlbl_tempdirtext.Anchor = "Left,Top" 
-$mlbl_tempdirtext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_tempdirtext) 
-     
-
-$mlbl_exepolicy = New-Object System.Windows.Forms.Label 
-$mlbl_exepolicy.Text = "Execution policy" 
-$mlbl_exepolicy.Top = "351" 
-$mlbl_exepolicy.Left = "296" 
-$mlbl_exepolicy.Anchor = "Left,Top" 
-$mlbl_exepolicy.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_exepolicy) 
-     
-
-$mbtn_exepolicy = New-Object System.Windows.Forms.Button 
-$mbtn_exepolicy.Text = "Details" 
-$mbtn_exepolicy.Top = "347" 
-$mbtn_exepolicy.Left = "430" 
-$mbtn_exepolicy.Anchor = "Left,Top" 
-$mbtn_exepolicy.Add_Click( {
+         
+ 
+$mlbl_executionpolicy        = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_executionpolicy.Text   = 'Execution policy' 
+$mlbl_executionpolicy.Top    = '734' 
+$mlbl_executionpolicy.Left   = '8' 
+$mlbl_executionpolicy.Anchor = 'Left,Top' 
+$mlbl_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_executionpolicy) 
+         
+ 
+$mbtn_executionpolicy        = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_executionpolicy.Text   = 'Details' 
+$mbtn_executionpolicy.Top    = '733' 
+$mbtn_executionpolicy.Left   = '117' 
+$mbtn_executionpolicy.Anchor = 'Left,Top' 
+$mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_executionpolicy.Add_Click( {
                 
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
                 
     })
-             
-            
-            
-$mbtn_exepolicy.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mbtn_exepolicy) 
-     
-
-$mlbl_protect = New-Object System.Windows.Forms.Label 
-$mlbl_protect.Text = "Protect ini" 
-$mlbl_protect.Top = "385" 
-$mlbl_protect.Left = "315" 
-$mlbl_protect.Anchor = "Left,Top" 
-$mlbl_protect.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_protect) 
-     
-
-$mlbl_protecttext = New-Object System.Windows.Forms.Label 
-$mlbl_protecttext.Text = $json.protect_ini
-$mlbl_protecttext.Top = "390" 
-$mlbl_protecttext.Left = "432" 
-$mlbl_protecttext.Anchor = "Left,Top" 
-$mlbl_protecttext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_protecttext) 
-     
-
-$mlbl_bios = New-Object System.Windows.Forms.Label 
-$mlbl_bios.Text = "Bios" 
-$mlbl_bios.Top = "418" 
-$mlbl_bios.Left = "317" 
-$mlbl_bios.Anchor = "Left,Top" 
-$mlbl_bios.Size = New-Object System.Drawing.Size(100, 23) 
+$MyForm.Controls.Add($mbtn_executionpolicy) 
+         
+ 
+$mlbl_protectini             = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_protectini.Text        = 'Protect INI' 
+$mlbl_protectini.Top         = '768' 
+$mlbl_protectini.Left        = '9' 
+$mlbl_protectini.Anchor      = 'Left,Top' 
+$mlbl_protectini.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_protectini) 
+         
+ 
+$mlbl_bios                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_bios.Text              = 'BIOS' 
+$mlbl_bios.Top               = '800' 
+$mlbl_bios.Left              = '12' 
+$mlbl_bios.Anchor            = 'Left,Top' 
+$mlbl_bios.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_bios) 
-     
-
-$mlbl_biostext = New-Object System.Windows.Forms.Label 
-$mlbl_biostext.Text = $json.Bios
-$mlbl_biostext.Top = "422" 
-$mlbl_biostext.Left = "435" 
-$mlbl_biostext.Anchor = "Left,Top" 
-$mlbl_biostext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_biostext) 
-     
-
-$mlbl_biosdate = New-Object System.Windows.Forms.Label 
-$mlbl_biosdate.Text = "BIOS date" 
-$mlbl_biosdate.Top = "447" 
-$mlbl_biosdate.Left = "308" 
-$mlbl_biosdate.Anchor = "Left,Top" 
-$mlbl_biosdate.Size = New-Object System.Drawing.Size(100, 23) 
+         
+ 
+$mlbl_biosdate               = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_biosdate.Text          = 'BIOS date' 
+$mlbl_biosdate.Top           = '829' 
+$mlbl_biosdate.Left          = '11' 
+$mlbl_biosdate.Anchor        = 'Left,Top' 
+$mlbl_biosdate.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_biosdate) 
-     
+         
+ 
+$mprotect                    = New-Object -TypeName System.Windows.Forms.Label 
+$mprotect.Text               = $json.protect_ini 
+$mprotect.Top                = '770' 
+$mprotect.Left               = '120' 
+$mprotect.Anchor             = 'Left,Top' 
+$mprotect.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mprotect) 
+         
+ 
+$mbios                       = New-Object -TypeName System.Windows.Forms.Label 
+$mbios.Text                  = $json.Bios
+$mbios.Top                   = '799' 
+$mbios.Left                  = '121' 
+$mbios.Anchor                = 'Left,Top' 
+$mbios.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mbios) 
+         
+ 
+$mbiosdate                   = New-Object -TypeName System.Windows.Forms.Label 
+$mbiosdate.Text              = $json.bios_date 
+$mbiosdate.Top               = '823' 
+$mbiosdate.Left              = '120' 
+$mbiosdate.Anchor            = 'Left,Top' 
+$mbiosdate.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mbiosdate) 
+         
+ 
+      
 
-$mlbl_biosdatetext = New-Object System.Windows.Forms.Label 
-$mlbl_biosdatetext.Text = $json.bios_date
-$mlbl_biosdatetext.Top = "447" 
-$mlbl_biosdatetext.Left = "434" 
-$mlbl_biosdatetext.Anchor = "Left,Top" 
-$mlbl_biosdatetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_biosdatetext) 
-     
-
-$mlbl_installdate = New-Object System.Windows.Forms.Label 
-$mlbl_installdate.Text = "Install date" 
-$mlbl_installdate.Top = "481" 
-$mlbl_installdate.Left = "312" 
-$mlbl_installdate.Anchor = "Left,Top" 
-$mlbl_installdate.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_installdate) 
-     
-
-$mlbl_installdatetext = New-Object System.Windows.Forms.Label 
-$mlbl_installdatetext.Text = $json.install_date 
-$mlbl_installdatetext.Top = "44" 
-$mlbl_installdatetext.Left = "232" 
-$mlbl_installdatetext.Anchor = "Left,Top" 
-$mlbl_installdatetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_installdatetext) 
-     
-
-$mlbl_domaindef = New-Object System.Windows.Forms.Label 
-$mlbl_domaindef.Text = $jsondef.Domain
-$mlbl_domaindef.Top = "332" 
-$mlbl_domaindef.Left = "218" 
-$mlbl_domaindef.Anchor = "Left,Top" 
-$mlbl_domaindef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_domaindef) 
-     
-
-$mlbl_domaintcpdef = New-Object System.Windows.Forms.Label 
-$mlbl_domaintcpdef.Text = $jsondef.domain_tcp 
-$mlbl_domaintcpdef.Top = "368" 
-$mlbl_domaintcpdef.Left = "220" 
-$mlbl_domaintcpdef.Anchor = "Left,Top" 
-$mlbl_domaintcpdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_domaintcpdef) 
-     
-
-$mlbl_domaindhcpdef = New-Object System.Windows.Forms.Label 
-$mlbl_domaindhcpdef.Text = $jsondef.domain_dhcp
-$mlbl_domaindhcpdef.Top = "397" 
-$mlbl_domaindhcpdef.Left = "221" 
-$mlbl_domaindhcpdef.Anchor = "Left,Top" 
-$mlbl_domaindhcpdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_domaindhcpdef) 
-     
-
-$mlbl_sitenamedef = New-Object System.Windows.Forms.Label 
-$mlbl_sitenamedef.Text = $jsondef.site_name
-$mlbl_sitenamedef.Top = "426" 
-$mlbl_sitenamedef.Left = "221" 
-$mlbl_sitenamedef.Anchor = "Left,Top" 
-$mlbl_sitenamedef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sitenamedef) 
-     
-
-$mlbl_activedcdef = New-Object System.Windows.Forms.Label 
-$mlbl_activedcdef.Text = $jsondef.active_dc
-$mlbl_activedcdef.Top = "459" 
-$mlbl_activedcdef.Left = "223" 
-$mlbl_activedcdef.Anchor = "Left,Top" 
-$mlbl_activedcdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_activedcdef) 
-     
-
-$mlbl_osdef = New-Object System.Windows.Forms.Label 
-$mlbl_osdef.Text = $jsondef.OS 
-$mlbl_osdef.Top = "559" 
-$mlbl_osdef.Left = "227" 
-$mlbl_osdef.Anchor = "Left,Top" 
-$mlbl_osdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_osdef) 
-     
-
-$mlbl_osbuilddef = New-Object System.Windows.Forms.Label 
-$mlbl_osbuilddef.Text = $jsondef.os_build
-$mlbl_osbuilddef.Top = "587" 
-$mlbl_osbuilddef.Left = "226" 
-$mlbl_osbuilddef.Anchor = "Left,Top" 
-$mlbl_osbuilddef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_osbuilddef) 
-     
-
-$mlbl_osspdef = New-Object System.Windows.Forms.Label 
-$mlbl_osspdef.Text = $jsondef.sp
-$mlbl_osspdef.Top = "618" 
-$mlbl_osspdef.Left = "229" 
-$mlbl_osspdef.Anchor = "Left,Top" 
-$mlbl_osspdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_osspdef) 
-     
-
-$mlbl_windirdef = New-Object System.Windows.Forms.Label 
-$mlbl_windirdef.Text = $jsondef.win_dir 
-$mlbl_windirdef.Top = "264" 
-$mlbl_windirdef.Left = "538" 
-$mlbl_windirdef.Anchor = "Left,Top" 
-$mlbl_windirdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_windirdef) 
-     
-
-$mlbl_sysdirdef = New-Object System.Windows.Forms.Label 
-$mlbl_sysdirdef.Text = $jsondef.sys_dir
-$mlbl_sysdirdef.Top = "292" 
-$mlbl_sysdirdef.Left = "537" 
-$mlbl_sysdirdef.Anchor = "Left,Top" 
-$mlbl_sysdirdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_sysdirdef) 
-     
-
-$mlbl_tempdirdef = New-Object System.Windows.Forms.Label 
-$mlbl_tempdirdef.Text = $jsondef.temp_dir 
-$mlbl_tempdirdef.Top = "320" 
-$mlbl_tempdirdef.Left = "541" 
-$mlbl_tempdirdef.Anchor = "Left,Top" 
-$mlbl_tempdirdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_tempdirdef) 
-     
-
-$mlbl_protectdef = New-Object System.Windows.Forms.Label 
-$mlbl_protectdef.Text = $jsondef.protect_ini 
-$mlbl_protectdef.Top = "393" 
-$mlbl_protectdef.Left = "541" 
-$mlbl_protectdef.Anchor = "Left,Top" 
-$mlbl_protectdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_protectdef) 
-     
-
-$mlbl_biosdef = New-Object System.Windows.Forms.Label 
-$mlbl_biosdef.Text = $jsondef.Bios
-$mlbl_biosdef.Top = "424" 
-$mlbl_biosdef.Left = "538" 
-$mlbl_biosdef.Anchor = "Left,Top" 
-$mlbl_biosdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_biosdef) 
-     
-
-$mlbl_biosdatedef = New-Object System.Windows.Forms.Label 
-$mlbl_biosdatedef.Text = $jsondef.bios_date
-$mlbl_biosdatedef.Top = "452" 
-$mlbl_biosdatedef.Left = "537" 
-$mlbl_biosdatedef.Anchor = "Left,Top" 
-$mlbl_biosdatedef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_biosdatedef) 
-
-$mlbl_locale = New-Object System.Windows.Forms.Label 
-$mlbl_locale.Text = "Locale" 
-$mlbl_locale.Top = "515" 
-$mlbl_locale.Left = "318" 
-$mlbl_locale.Anchor = "Left,Top" 
-$mlbl_locale.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_locale) 
+##############################x
+# porovnanĂ" sloupec
+################################
 
 
-$mlbl_localetext = New-Object System.Windows.Forms.Label 
-$mlbl_localetext.Text = $json.Locale
-$mlbl_localetext.Top = "518" 
-$mlbl_localetext.Left = "426" 
-$mlbl_localetext.Anchor = "Left,Top" 
-$mlbl_localetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_localetext) 
+$mcomputername               = New-Object -TypeName System.Windows.Forms.Label 
+$mcomputername.Text          = $jsondef.ComputerName
+$mcomputername.Top           = '38' 
+$mcomputername.Left          = '330' 
+$mcomputername.Anchor        = 'Left,Top' 
+$mcomputername.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mcomputername) 
 
 
-$mlbl_localedef = New-Object System.Windows.Forms.Label 
-$mlbl_localedef.Text = $jsondef.locale
-$mlbl_localedef.Top = "520" 
-$mlbl_localedef.Left = "529" 
-$mlbl_localedef.Anchor = "Left,Top" 
-$mlbl_localedef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_localedef) 
+$mdate                       = New-Object -TypeName System.Windows.Forms.Label 
+$mdate.Text                  = $jsondef.date
+$mdate.Top                   = '71' 
+$mdate.Left                  = '330' 
+$mdate.Anchor                = 'Left,Top' 
+$mdate.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdate) 
 
 
-$mlbl_installdatetext = New-Object System.Windows.Forms.Label 
-$mlbl_installdatetext.Text = $json.install_date
-$mlbl_installdatetext.Top = "480" 
-$mlbl_installdatetext.Left = "431" 
-$mlbl_installdatetext.Anchor = "Left,Top" 
-$mlbl_installdatetext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_installdatetext) 
+$muser                       = New-Object -TypeName System.Windows.Forms.Label 
+$muser.Text                  = $jsondef.user
+$muser.Top                   = '103' 
+$muser.Left                  = '330' 
+$muser.Anchor                = 'Left,Top' 
+$muser.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($muser) 
 
 
-$mlbl_laps = New-Object System.Windows.Forms.Label 
-$mlbl_laps.Text = "LAPS" 
-$mlbl_laps.Top = "550" 
-$mlbl_laps.Left = "325" 
-$mlbl_laps.Anchor = "Left,Top" 
-$mlbl_laps.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_laps) 
+$mlastuser                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlastuser.Text              = $jsondef.last_user
+$mlastuser.Top               = '137' 
+$mlastuser.Left              = '330' 
+$mlastuser.Anchor            = 'Left,Top' 
+$mlastuser.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlastuser) 
 
 
-$mlbl_laps_text = New-Object System.Windows.Forms.Label 
-$mlbl_laps_text.Text = $json.LAPS
-$mlbl_laps_text.Top = "552" 
-$mlbl_laps_text.Left = "426" 
-$mlbl_laps_text.Anchor = "Left,Top" 
-$mlbl_laps_text.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_laps_text) 
+$mdomain                     = New-Object -TypeName System.Windows.Forms.Label 
+$mdomain.Text                = $jsondef.Domain 
+$mdomain.Top                 = '168' 
+$mdomain.Left                = '330' 
+$mdomain.Anchor              = 'Left,Top' 
+$mdomain.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdomain) 
 
 
-$mlbl_lapsdef = New-Object System.Windows.Forms.Label 
-$mlbl_lapsdef.Text = $jsondef.LAPS 
-$mlbl_lapsdef.Top = "554" 
-$mlbl_lapsdef.Left = "531" 
-$mlbl_lapsdef.Anchor = "Left,Top" 
-$mlbl_lapsdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_lapsdef) 
+$mdomaintcp                  = New-Object -TypeName System.Windows.Forms.Label 
+$mdomaintcp.Text             = $jsondef.domain_tcp
+$mdomaintcp.Top              = '199' 
+$mdomaintcp.Left             = '330' 
+$mdomaintcp.Anchor           = 'Left,Top' 
+$mdomaintcp.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdomaintcp) 
 
 
-$mlbl_rootcert = New-Object System.Windows.Forms.Label 
-$mlbl_rootcert.Text = "Root certificates" 
-$mlbl_rootcert.Top = "581" 
-$mlbl_rootcert.Left = "328" 
-$mlbl_rootcert.Anchor = "Left,Top" 
-$mlbl_rootcert.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_rootcert) 
+$mdomaindhcp                 = New-Object -TypeName System.Windows.Forms.Label 
+$mdomaindhcp.Text            = $jsondef.domain_dhcp
+$mdomaindhcp.Top             = '226' 
+$mdomaindhcp.Left            = '330' 
+$mdomaindhcp.Anchor          = 'Left,Top' 
+$mdomaindhcp.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mdomaindhcp) 
 
 
-$mbtn_rootcert = New-Object System.Windows.Forms.Button 
-$mbtn_rootcert.Text = "Details" 
-$mbtn_rootcert.Top = "580" 
-$mbtn_rootcert.Left = "431" 
-$mbtn_rootcert.Anchor = "Left,Top" 
-$mbtn_rootcert.Size = New-Object System.Drawing.Size(100, 23) 
-$mbtn_rootcert.Add_Click( {
-       
-        start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+$msitename                   = New-Object -TypeName System.Windows.Forms.Label 
+$msitename.Text              = $jsondef.site_name
+$msitename.Top               = '255' 
+$msitename.Left              = '330' 
+$msitename.Anchor            = 'Left,Top' 
+$msitename.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($msitename) 
+
+
+$mactivedc                   = New-Object -TypeName System.Windows.Forms.Label 
+$mactivedc.Text              = $jsondef.active_dc
+$mactivedc.Top               = '282' 
+$mactivedc.Left              = '330' 
+$mactivedc.Anchor            = 'Left,Top' 
+$mactivedc.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mactivedc) 
+
+
+$mos                         = New-Object -TypeName System.Windows.Forms.Label 
+$mos.Text                    = $jsondef.os 
+$mos.Top                     = '376' 
+$mos.Left                    = '330' 
+$mos.Anchor                  = 'Left,Top' 
+$mos.Size                    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mos) 
+
+
+$mosbuild                    = New-Object -TypeName System.Windows.Forms.Label 
+$mosbuild.Text               = $jsondef.os_build
+$mosbuild.Top                = '408' 
+$mosbuild.Left               = '330' 
+$mosbuild.Anchor             = 'Left,Top' 
+$mosbuild.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mosbuild) 
+
+
+$mservicepack                = New-Object -TypeName System.Windows.Forms.Label 
+$mservicepack.Text           = $jsondef.sp
+$mservicepack.Top            = '438' 
+$mservicepack.Left           = '330' 
+$mservicepack.Anchor         = 'Left,Top' 
+$mservicepack.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mservicepack) 
+
+
+$mosinstalldate              = New-Object -TypeName System.Windows.Forms.Label 
+$mosinstalldate.Text         = $jsondef.Install
+$mosinstalldate.Top          = '469' 
+$mosinstalldate.Left         = '330' 
+$mosinstalldate.Anchor       = 'Left,Top' 
+$mosinstalldate.Size         = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mosinstalldate) 
+
+
+$moslastboottime             = New-Object -TypeName System.Windows.Forms.Label 
+$moslastboottime.Text        = $jsondef.last_boot_time 
+$moslastboottime.Top         = '497' 
+$moslastboottime.Left        = '330' 
+$moslastboottime.Anchor      = 'Left,Top' 
+$moslastboottime.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($moslastboottime) 
+
+
+$mramtotal                   = New-Object -TypeName System.Windows.Forms.Label 
+$mramtotal.Text              = $jsondef.ram_total
+$mramtotal.Top               = '531' 
+$mramtotal.Left              = '330' 
+$mramtotal.Anchor            = 'Left,Top' 
+$mramtotal.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mramtotal) 
+
+
+$mramfree                    = New-Object -TypeName System.Windows.Forms.Label 
+$mramfree.Text               = $jsondef.ram_free
+$mramfree.Top                = '560' 
+$mramfree.Left               = '330' 
+$mramfree.Anchor             = 'Left,Top' 
+$mramfree.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mramfree) 
+
+
+$mvirtualtotal               = New-Object -TypeName System.Windows.Forms.Label 
+$mvirtualtotal.Text          = $jsondef.virtual_total
+$mvirtualtotal.Top           = '591' 
+$mvirtualtotal.Left          = '330' 
+$mvirtualtotal.Anchor        = 'Left,Top' 
+$mvirtualtotal.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mvirtualtotal) 
+
+
+$mvirtualfree                = New-Object -TypeName System.Windows.Forms.Label 
+$mvirtualfree.Text           = $jsondef.virtual_free
+$mvirtualfree.Top            = '619' 
+$mvirtualfree.Left           = '330' 
+$mvirtualfree.Anchor         = 'Left,Top' 
+$mvirtualfree.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mvirtualfree) 
+
+
+$mwindir                     = New-Object -TypeName System.Windows.Forms.Label 
+$mwindir.Text                = $jsondef.win_dir
+$mwindir.Top                 = '647' 
+$mwindir.Left                = '330' 
+$mwindir.Anchor              = 'Left,Top' 
+$mwindir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mwindir) 
+
+
+$msysdir                     = New-Object -TypeName System.Windows.Forms.Label 
+$msysdir.Text                = $jsondef.sys_dir
+$msysdir.Top                 = '673' 
+$msysdir.Left                = '330' 
+$msysdir.Anchor              = 'Left,Top' 
+$msysdir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($msysdir) 
+
+
+$mtempdir                    = New-Object -TypeName System.Windows.Forms.Label 
+$mtempdir.Text               = $jsondef.temp_dir
+$mtempdir.Top                = '703' 
+$mtempdir.Left               = '330' 
+$mtempdir.Anchor             = 'Left,Top' 
+$mtempdir.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mtempdir) 
+
+
+$mbtn_scriptstartup          = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_scriptstartup.Text     = 'Script startup' 
+$mbtn_scriptstartup.Top      = '314' 
+$mbtn_scriptstartup.Left     = '330' 
+$mbtn_scriptstartup.Anchor   = 'Left,Top' 
+$mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mbtn_scriptstartup) 
+
+
+$mbtn_scriptshutdown         = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_scriptshutdown.Text    = 'Script shutdown' 
+$mbtn_scriptshutdown.Top     = '345' 
+$mbtn_scriptshutdown.Left    = '330' 
+$mbtn_scriptshutdown.Anchor  = 'Left,Top' 
+$mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mbtn_scriptshutdown) 
+
+
+
+
+$mbtn_executionpolicy        = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_executionpolicy.Text   = 'Details' 
+$mbtn_executionpolicy.Top    = '733' 
+$mbtn_executionpolicy.Left   = '330' 
+$mbtn_executionpolicy.Anchor = 'Left,Top' 
+$mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_executionpolicy.Add_Click( {
+        
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
         
     })
-$MyForm.Controls.Add($mbtn_rootcert) 
+     
+$MyForm.Controls.Add($mbtn_executionpolicy) 
 
 
-$mlbl_uefixbios = New-Object System.Windows.Forms.Label 
-$mlbl_uefixbios.Text = "UEFIxBIOS" 
-$mlbl_uefixbios.Top = "644" 
-$mlbl_uefixbios.Left = "232" 
-$mlbl_uefixbios.Anchor = "Left,Top" 
-$mlbl_uefixbios.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_uefixbios) 
+$mlbl_protectini             = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_protectini.Text        = $jsondef.protect_ini
+$mlbl_protectini.Top         = '768' 
+$mlbl_protectini.Left        = '330' 
+$mlbl_protectini.Anchor      = 'Left,Top' 
+$mlbl_protectini.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_protectini) 
 
 
-$mlbl_uefixbiostext = New-Object System.Windows.Forms.Label 
-$mlbl_uefixbiostext.Text = $json.UEFIx
-$mlbl_uefixbiostext.Top = "643" 
-$mlbl_uefixbiostext.Left = "331" 
-$mlbl_uefixbiostext.Anchor = "Left,Top" 
-$mlbl_uefixbiostext.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_uefixbiostext) 
+$mlbl_bios                   = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_bios.Text              = $jsondef.Bios
+$mlbl_bios.Top               = '800' 
+$mlbl_bios.Left              = '330' 
+$mlbl_bios.Anchor            = 'Left,Top' 
+$mlbl_bios.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_bios) 
 
 
-$mlbl_uefixbiosdef = New-Object System.Windows.Forms.Label 
-$mlbl_uefixbiosdef.Text = $jsondef.UEFIx
-$mlbl_uefixbiosdef.Top = "643" 
-$mlbl_uefixbiosdef.Left = "434" 
-$mlbl_uefixbiosdef.Anchor = "Left,Top" 
-$mlbl_uefixbiosdef.Size = New-Object System.Drawing.Size(100, 23) 
-$MyForm.Controls.Add($mlbl_uefixbiosdef) 
+$mlbl_biosdate               = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_biosdate.Text          = $jsondef.bios_date
+$mlbl_biosdate.Top           = '829' 
+$mlbl_biosdate.Left          = '11' 
+$mlbl_biosdate.Anchor        = 'Left,Top' 
+$mlbl_biosdate.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_biosdate) 
 
-$mbtn_vytvoritsablonu = New-Object System.Windows.Forms.Button 
-$mbtn_vytvoritsablonu.Text = "Create system template" 
-$mbtn_vytvoritsablonu.Top = "18" 
-$mbtn_vytvoritsablonu.Left = "621" 
-$mbtn_vytvoritsablonu.Anchor = "Left,Top" 
-$mbtn_vytvoritsablonu.Size = New-Object System.Drawing.Size(150, 23) 
-function createtemplate {
+
+$mprotect                    = New-Object -TypeName System.Windows.Forms.Label 
+$mprotect.Text               = $jsondef.protect_ini
+$mprotect.Top                = '770' 
+$mprotect.Left               = '330' 
+$mprotect.Anchor             = 'Left,Top' 
+$mprotect.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mprotect) 
+
+
+$mbios                       = New-Object -TypeName System.Windows.Forms.Label 
+$mbios.Text                  = $jsondef.Bios
+$mbios.Top                   = '799' 
+$mbios.Left                  = '330' 
+$mbios.Anchor                = 'Left,Top' 
+$mbios.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mbios) 
+
+
+$mbiosdate                   = New-Object -TypeName System.Windows.Forms.Label 
+$mbiosdate.Text              = $jsondef.bios_date
+$mbiosdate.Top               = '823' 
+$mbiosdate.Left              = '330' 
+$mbiosdate.Anchor            = 'Left,Top' 
+$mbiosdate.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mbiosdate) 
+
+
+
+
+
+$mbtn_tisk                   = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_tisk.Text              = 'Tisk formulare - ulozi protokol' 
+$mbtn_tisk.Top               = '17' 
+$mbtn_tisk.Left              = '903' 
+$mbtn_tisk.Anchor            = 'Left,Top' 
+$mbtn_tisk.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_tisk.Add_Click( {
+        $a    = '<style>'
+        $a    = $a + 'BODY{background-color:peachpuff;}'
+        $a    = $a + 'TABLE{border-width: 1px;border-style: solid;border-color: black;border-collapse: collapse;}'
+        $a    = $a + 'TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}'
+        $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
+        $a    = $a + '</style>'
+        $tisk = $json.ComputerName
+        $tisk = $tisk + $json.OS
+        $tisk = $tisk + $json.os_build
         
-    "D:\SICZ\avas\avas_luka\icwsc_template.ps1"
-}
-$btnsablona_OnClick = ${function:createtemplate}
+        $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
+            Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
+        Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
+    })
+
+
+$MyForm.Controls.Add($mbtn_tisk) 
+
+
+$mbtn_vytvoritsablonu        = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_vytvoritsablonu.Text   = 'Vytvorit sablonu' 
+$mbtn_vytvoritsablonu.Top    = '51' 
+$mbtn_vytvoritsablonu.Left   = '903' 
+$mbtn_vytvoritsablonu.Anchor = 'Left,Top' 
+$mbtn_vytvoritsablonu.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_vytvoritsablonu.Add_Click( {
-     
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
         
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
+           
+    })
+$MyForm.Controls.Add($mbtn_vytvoritsablonu) 
+
+$mbtn_icwsc                  = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_icwsc.Text             = 'ICWSC script' 
+$mbtn_icwsc.Top              = '88' 
+$mbtn_icwsc.Left             = '903' 
+$mbtn_icwsc.Anchor           = 'Left,Top' 
+$mbtn_icwsc.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_icwsc.Add_Click( {
+        
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
+           
+    })
+$MyForm.Controls.Add($mbtn_icwsc) 
+
+
+$mbtn_patchlevel             = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_patchlevel.Text        = 'Patch level' 
+$mbtn_patchlevel.Top         = '126' 
+$mbtn_patchlevel.Left        = '903' 
+$mbtn_patchlevel.Anchor      = 'Left,Top' 
+$mbtn_patchlevel.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_patchlevel.Add_Click( {
+        $patche = Get-Content -Path 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
+        #$patche
+        $patche | Out-GridView
+        #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+           
+    })
+$MyForm.Controls.Add($mbtn_patchlevel) 
+
+$mbtn_gui                    = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_gui.Text               = 'Upravit GUI' 
+$mbtn_gui.Top                = '163' 
+$mbtn_gui.Left               = '904' 
+$mbtn_gui.Anchor             = 'Left,Top' 
+$mbtn_gui.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_gui.Add_Click( {
+        
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
+           
     })
 
+$MyForm.Controls.Add($mbtn_gui) 
 
-
-$MyForm.Controls.Add($mbtn_vytvoritsablonu)
-
-$mbtn_syslog = New-Object System.Windows.Forms.Button 
-$mbtn_syslog.Text = "Syslog" 
-$mbtn_syslog.Top = "677" 
-$mbtn_syslog.Left = "229" 
-$mbtn_syslog.Anchor = "Left,Top" 
-$mbtn_syslog.Size = New-Object System.Drawing.Size(100, 23) 
-$mbtn_syslog.Add_Click( {
+$mbtn_sablonaverze           = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_sablonaverze.Text      = 'Verzovani sablon' 
+$mbtn_sablonaverze.Top       = '200' 
+$mbtn_sablonaverze.Left      = '903' 
+$mbtn_sablonaverze.Anchor    = 'Left,Top' 
+$mbtn_sablonaverze.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_sablonaverze.Add_Click( {
         
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\syslog.ps1'
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
+           
+    })
+$MyForm.Controls.Add($mbtn_sablonaverze) 
+
+$mlbl_verzesablony           = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_verzesablony.Text      = $json.verzesablony
+$mlbl_verzesablony.Top       = '17' 
+$mlbl_verzesablony.Left      = '751' 
+$mlbl_verzesablony.Anchor    = 'Left,Top' 
+$mlbl_verzesablony.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (150, 40) 
+$MyForm.Controls.Add($mlbl_verzesablony) 
         
-    })
-$MyForm.Controls.Add($mbtn_syslog) 
-
-
-$mbtn_applog = New-Object System.Windows.Forms.Button 
-$mbtn_applog.Text = "Applog" 
-$mbtn_applog.Top = "678" 
-$mbtn_applog.Left = "347" 
-$mbtn_applog.Anchor = "Left,Top" 
-$mbtn_applog.Size = New-Object System.Drawing.Size(100, 23) 
-$mbtn_applog.Add_Click( {
-      
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\applog.ps1'
+$mbtn_nacistjson             = New-Object -TypeName System.Windows.Forms.Button 
+$mbtn_nacistjson.Text        = 'Nacist JSON' 
+$mbtn_nacistjson.Top         = '230' 
+$mbtn_nacistjson.Left        = '902' 
+$mbtn_nacistjson.Anchor      = 'Left,Top' 
+$mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_nacistjson.Add_Click( {
         
+        #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+        $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
+        $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
+        $openFileDialog.title            = 'Select Settings Configuration File to Import'   
+        $openFileDialog.filter           = 'All files (*.*)| *.*'   
+        #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
+        $openFileDialog.ShowHelp         = $True   
+        Write-Verbose -Message 'Select  Settings File... (see FileOpen Dialog)'  
+        $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+        # in ISE you may have to alt-tab or minimize ISE to see dialog box 
+        $result 
+        if ($result -eq 'OK') {    
+            Write-Verbose -Message 'Selected  Settings File:'  
+            $OpenFileDialog.filename   
+            $OpenFileDialog.CheckFileExists 
+                    
+            # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
+            # Unremark the above line if you actually want to perform an import of a publish settings file  
+            Write-Verbose -Message 'Import Settings File Imported!' 
+                  
+        } 
+        else { Write-Verbose -Message 'Import Settings File Cancelled!'} 
     })
-$MyForm.Controls.Add($mbtn_applog) 
+$MyForm.Controls.Add($mbtn_nacistjson) 
+$mlbl_nactenyjson            = New-Object -TypeName System.Windows.Forms.Label 
+$mlbl_nactenyjson.Text       = 'D:\SICZ\hash_luka.json' 
+$mlbl_nactenyjson.Top        = '235' 
+$mlbl_nactenyjson.Left       = '723' 
+$mlbl_nactenyjson.Anchor     = 'Left,Top' 
+$mlbl_nactenyjson.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mlbl_nactenyjson) 
 
-$mbtn_app = New-Object System.Windows.Forms.Button 
-$mbtn_app.Text = "Apps" 
-$mbtn_app.Top = "721" 
-$mbtn_app.Left = "230" 
-$mbtn_app.Anchor = "Left,Top" 
-$mbtn_app.Size = New-Object System.Drawing.Size(100, 23) 
-$mtbn_app.Add_Click( {
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+$mlbl_rootcertifikaty        = New-Object -TypeName System.Windows.Forms.Button 
+$mlbl_rootcertifikaty.Text   = 'Root certifikaty' 
+$mlbl_rootcertifikaty.Top    = '265' 
+$mlbl_rootcertifikaty.Left   = '903' 
+$mlbl_rootcertifikaty.Anchor = 'Left,Top' 
+$mlbl_rootcertifikaty.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mlbl_rootcertifikaty.Add_Click( {
+        #$json.rootcert | Out-GridView
+        $json.Computer_Root_Certificates | Out-GridView
+        #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+         
     })
-$MyForm.Controls.Add($mbtn_app) 
-
-
-$mbtn_services = New-Object System.Windows.Forms.Button 
-$mbtn_services.Text = "Services" 
-$mbtn_services.Top = "725" 
-$mbtn_services.Left = "348" 
-$mbtn_services.Anchor = "Left,Top" 
-$mbtn_services.Size = New-Object System.Drawing.Size(100, 23) 
-$mbtn_services.Add_Click( {
-      
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\services.ps1'
-        
-    })
-$MyForm.Controls.Add($mbtn_services) 
-
+$MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
 $MyForm.ShowDialog()
 
-
+# SIG # Begin signature block
+# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUGG6ah+SeCA1YOh/JoorW67++
+# 2ZmgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU3iRDiTXsntQX67Qfp/BotQrxBB8w
+# DQYJKoZIhvcNAQEBBQAEgYCD1SY7Tcd6xUpg0faOXlrQG8T74H/1EEi4slkT5GFY
+# abdEXFPlLXUkBPL4TvKuPej6qiZ6ee6BIzoPd0jtqERlT077m3wWYVcus5wCJhRl
+# aEKIwTGsUSldabT2gX8thDbJ/63nDuvnk97Sosm4dVjgFta5CGcktqKg1oDViy8o
+# SA==
+# SIG # End signature block
