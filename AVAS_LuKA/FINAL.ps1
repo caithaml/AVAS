@@ -1,4 +1,4 @@
-#requires -Version 3.0
+﻿#requires -Version 3.0
 Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
@@ -532,7 +532,7 @@ $MyForm.Controls.Add($mbiosdate)
       
 
 ##############################x
-# porovnani sloupec
+# porovnanĂ" sloupec
 ################################
 
 
@@ -966,3 +966,29 @@ $mlbl_rootcertifikaty.Add_Click( {
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
 $MyForm.ShowDialog()
+
+
+# SIG # Begin signature block
+  # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+  # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+  # AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUlyJHuxHFEzNej0K/igsgais0
+  # WvagggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+  # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+  # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+  # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+  # w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+  # H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+  # UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+  # HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+  # SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+  # Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+  # DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+  # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+  # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+  # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+  # KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU6kb6XKTdoVoPgRQvkQhmXDDt6XIw
+  # DQYJKoZIhvcNAQEBBQAEgYBYV5StNezT9u+twYam1NPNMXHWQuNpPn3tVHpwrThj
+  # tJkvSq0TMQOCrTbIQKRqbQ+Yw42kuU9aAEhyxXlbRt1WbMMFlN2EzVRS/xZOrP9m
+  # 3NX/3kIUu/6FhL2RXy5OJ1ojuSPvZJtM79JiGwx8WEJhupVQj7xkHAkGAGqdzGQf
+  # 4g==
+# SIG # End signature block
