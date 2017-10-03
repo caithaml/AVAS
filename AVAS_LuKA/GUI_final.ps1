@@ -62,11 +62,11 @@ Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 
 Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
 
-$json = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
+<#$json = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
 $jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
-
+#>
 Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 overeni ze je uzivatel administrator
 Write-Verbose -Message 'Kontroluji admin prava'
@@ -896,7 +896,7 @@ $mbtn_tisk.Add_Click( {
         $tisk = $tisk + $json.OS
         $tisk = $tisk + $json.os_build
         
-        $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
+        $jsondef.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
             Out-File D:\SICZ\avas\AVAS_LuKA\testtisk.html
         start -FilePath chrome -ArgumentList D:\SICZ\avas\AVAS_LuKA\Testtisk.html
     })
@@ -1077,8 +1077,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUpXnWXjSsDlAK2N8busZWPWWM
-# E3OgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUj6p2Jb4L1pOdpKhssIwC2PUL
+# pYmgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1092,9 +1092,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUED8Yofn8l4JuAETmSUrPUboo/gAw
-# DQYJKoZIhvcNAQEBBQAEgYB0eUse8pC3sXESxZUTNmt7AK2PgODzQ/AlHKilJFm8
-# JXtOvaE6QUZ5RVoQGQ361mICbupvbffaqBcOQqKJDtuYp32WieIEKWRzAYamfZ3W
-# mkCN+7sPV43sXs+gcmJ2b+m8ovbzVqdem7XWk8TEqtF67PQCE9T4pIR+KreJm2Wd
-# pw==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUaIuiVbUaDNYz2tt8qLzlu4e8xN0w
+# DQYJKoZIhvcNAQEBBQAEgYB97BiTeyoc7ZRm29pAO9z715Z1sT0+bL01o7gLELQe
+# /MtVunkhRcs8HUUc9/ocHbON3Zu8NdkLUwBUpGYI0u+YWtH8J2LorhMANcYTgnAV
+# WicMaGlIG0kpbF9CCoAESRvMISl91RBXB8brXt8nU2hdzo5B03z/JMVe19Qqga5j
+# Sg==
 # SIG # End signature block
