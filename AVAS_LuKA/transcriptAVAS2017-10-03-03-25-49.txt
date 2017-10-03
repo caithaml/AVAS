@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171003152549
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1'
+Process ID: 15000
+PSVersion: 5.1.16299.15
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.15
+BuildVersion: 10.0.16299.15
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcriptAVAS2017-10-03-03-25-49.txt
+Transcript started, output file is ./AVAS_2017_10_03.log
+PS>TerminatingError(Get-Content): "Cannot bind argument to parameter 'Path' because it is an empty string."
+Get-Content : Cannot bind argument to parameter 'Path' because it is an empty string.
+At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:24 char:50
++ $inputdata                   = Get-Content -Path $inputfile
++                                                  ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Microsoft.PowerShell.Commands.GetCon
+tentCommand
+Get-Content : Cannot bind argument to parameter 'Path' because it is an empty string.
+At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:24 char:50
++ $inputdata                   = Get-Content -Path $inputfile
++                                                  ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Microsoft.PowerShell.Commands.GetC
+   ontentCommand
+
+ConvertFrom-Json : Cannot bind argument to parameter 'InputObject' because it is null.
+At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:26 char:45
++ $json                        = $inputdata | ConvertFrom-Json
++                                             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [ConvertFrom-Json], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ConvertFromJs
+onCommand
+ConvertFrom-Json : Cannot bind argument to parameter 'InputObject' because it is null.
+At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:26 char:45
++ $json                        = $inputdata | ConvertFrom-Json
++                                             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [ConvertFrom-Json], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ConvertFrom
+   JsonCommand
+
+10/03/2017 15:25:53 - Obsah souboru: ()
+Transcript started, output file is ./transcript2017-10-03-03-25-53.txt
+10/03/2017 15:25:53 - Dokonceno nacitani json konfiguracniho souboru
+10/03/2017 15:25:53 - zjisteni zda je uzivatel admin
+WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+10/03/2017 15:25:54 - ukonceno zjistovani zda je uzivatel admin
+10/03/2017 15:25:54 - uzivatel je admin pokracuje dalsi spusteni skriptu
+10/03/2017 15:25:54 - Nacitam GUI
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171003152935
+**********************
