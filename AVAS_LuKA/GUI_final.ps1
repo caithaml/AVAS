@@ -1,23 +1,4 @@
-function Check-Transcript 
-{
-  $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
-  $filelog = Get-Date -UFormat "$($set.logdir)\AVAS_filelog_%Y_%m_%d.csv"
-  if($set.debug -eq '1') 
-  {
-    $script:lasttranscript = (Get-ChildItem -Path "$($set.logdir)" -Filter AVAS_20*.log |
-      Sort-Object -Property LastWriteTime|
-    Select-Object -Last 1).Name
-    if ("$transcriptname.log" -ne "$script:lasttranscript") 
-    {
-      Write-Output -InputObject 'Zastavuji transcript' 
-      Stop-Transcript
-      Write-Output -InputObject ' Vytvarim novy transcript file' 
-      Start-Transcript -Path "$($set.logdir)\$transcriptname.log" -Append
-    }
-  }
-}
 
-Check-Transcript
 
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
