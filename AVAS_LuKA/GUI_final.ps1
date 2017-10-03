@@ -36,13 +36,9 @@ Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 
 Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
 
-<#$json = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
-$jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
-#>
 Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
-#overeni ze je uzivatel administrator
+
 Write-Verbose -Message 'Kontroluji admin prava'
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
             [Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -1051,8 +1047,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUpadFKITdHMroiXEV7ekVCYFU
-# PGSgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUYhimTwx7drHKCOn2M04gonl8
+# YmWgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1066,9 +1062,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUjhXH/6mHH2cx/ANt1ZUIJ98YXSIw
-# DQYJKoZIhvcNAQEBBQAEgYBsfBVgHLS9+Xwe2duL11ytEumA42mX7Vz7sNzjGrkH
-# sTB/Nm9dn1755/FcidkXEtAr4M6dt4qpMKOqElfEwY4rL3dOFAOFZ6JwZWXYp8ie
-# QGLYnp4jgFY+SCHuviLUjov/2qANa5beHvXhJu/f2WgHv8s+FMFTaRhZeEIXPEtx
-# jQ==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU/EGJY7NVp8KrdASizOfbWQajT8ww
+# DQYJKoZIhvcNAQEBBQAEgYBjEns2lXGKdC+1PMTD3yzHclbGgOitOPoRc79h5EXf
+# 2XjGdZcSttyDGsS/m289nX4Jicr5xSL9xuAO+bqvxCYapdPVHB6eQomcLh7cH0fN
+# HoiAkw7qSt1Amwa95UZSXmpSTMY2CdKxN7+4jpOdHfXzhf3BC1w4AaDEzFZlm/dw
+# 6g==
 # SIG # End signature block
