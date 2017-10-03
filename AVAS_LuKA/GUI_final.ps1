@@ -1017,7 +1017,6 @@ $mlbl_rootcertifikaty.Add_Click( {
         #$json.rootcert | Out-GridView
         $json.Computer_Root_Certificates | Out-GridView
         #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
-         
     })
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
