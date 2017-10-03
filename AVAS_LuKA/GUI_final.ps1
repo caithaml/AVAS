@@ -66,7 +66,7 @@ $mlbl_computername.Text      = 'Computer name'
 $mlbl_computername.Top       = '37' 
 $mlbl_computername.Left      = '10' 
 $mlbl_computername.Anchor    = 'Left,Top' 
-$mlbl_computername.Size      = New-Object System.Drawing.Size(100, 23) 
+$mlbl_computername.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_computername) 
          
  
@@ -93,7 +93,7 @@ $mlbl_lastuser.Text          = 'Last user'
 $mlbl_lastuser.Top           = '133' 
 $mlbl_lastuser.Left          = '10' 
 $mlbl_lastuser.Anchor        = 'Left,Top' 
-$mlbl_lastuser.Size          = New-Object System.Drawing.Size(100, 23) 
+$mlbl_lastuser.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_lastuser) 
          
  
@@ -111,7 +111,7 @@ $mlbl_domaintcp.Text         = 'Domain TCP'
 $mlbl_domaintcp.Top          = '194' 
 $mlbl_domaintcp.Left         = '10' 
 $mlbl_domaintcp.Anchor       = 'Left,Top' 
-$mlbl_domaintcp.Size         = New-Object System.Drawing.Size(100, 23) 
+$mlbl_domaintcp.Size         = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_domaintcp) 
          
  
@@ -129,29 +129,29 @@ $mlbl_site.Text              = 'Site name'
 $mlbl_site.Top               = '254' 
 $mlbl_site.Left              = '10' 
 $mlbl_site.Anchor            = 'Left,Top' 
-$mlbl_site.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlbl_site.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_site) 
          
  
-$mlbl_activedc               = New-Object System.Windows.Forms.Label 
+$mlbl_activedc               = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_activedc.Text          = 'Active DC' 
 $mlbl_activedc.Top           = '284' 
 $mlbl_activedc.Left          = '11' 
 $mlbl_activedc.Anchor        = 'Left,Top' 
-$mlbl_activedc.Size          = New-Object System.Drawing.Size(100, 23) 
+$mlbl_activedc.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_activedc) 
          
  
-$mlbl_scriptstartup          = New-Object System.Windows.Forms.Label 
+$mlbl_scriptstartup          = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_scriptstartup.Text     = 'Script start up' 
 $mlbl_scriptstartup.Top      = '315' 
 $mlbl_scriptstartup.Left     = '10' 
 $mlbl_scriptstartup.Anchor   = 'Left,Top' 
-$mlbl_scriptstartup.Size     = New-Object System.Drawing.Size(100, 23) 
+$mlbl_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_scriptstartup) 
          
  
-$mlbl_scriptshutdown         = New-Object System.Windows.Forms.Label 
+$mlbl_scriptshutdown         = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_scriptshutdown.Text    = 'Script shutdown' 
 $mlbl_scriptshutdown.Top     = '344' 
 $mlbl_scriptshutdown.Left    = '10' 
@@ -165,7 +165,7 @@ $mlbl_os.Text                = 'OS'
 $mlbl_os.Top                 = '375' 
 $mlbl_os.Left                = '10' 
 $mlbl_os.Anchor              = 'Left,Top' 
-$mlbl_os.Size                = New-Object System.Drawing.Size(100, 23) 
+$mlbl_os.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_os) 
          
  
@@ -174,7 +174,7 @@ $mlbl_osbuild.Text           = 'OS build'
 $mlbl_osbuild.Top            = '403' 
 $mlbl_osbuild.Left           = '10' 
 $mlbl_osbuild.Anchor         = 'Left,Top' 
-$mlbl_osbuild.Size           = New-Object System.Drawing.Size(100, 23) 
+$mlbl_osbuild.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_osbuild) 
          
  
@@ -183,7 +183,7 @@ $mlbl_servicepack.Text       = 'Service pack'
 $mlbl_servicepack.Top        = '433' 
 $mlbl_servicepack.Left       = '10' 
 $mlbl_servicepack.Anchor     = 'Left,Top' 
-$mlbl_servicepack.Size       = New-Object System.Drawing.Size(100, 23) 
+$mlbl_servicepack.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_servicepack) 
          
  
@@ -192,7 +192,7 @@ $mlbl_installdate.Text       = 'OS Install date'
 $mlbl_installdate.Top        = '465' 
 $mlbl_installdate.Left       = '10' 
 $mlbl_installdate.Anchor     = 'Left,Top' 
-$mlbl_installdate.Size       = New-Object System.Drawing.Size(100, 23) 
+$mlbl_installdate.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_installdate) 
          
  
@@ -201,7 +201,7 @@ $mlbl_lastboot.Text          = 'OS last boot time'
 $mlbl_lastboot.Top           = '496' 
 $mlbl_lastboot.Left          = '10' 
 $mlbl_lastboot.Anchor        = 'Left,Top' 
-$mlbl_lastboot.Size          = New-Object System.Drawing.Size(100, 23) 
+$mlbl_lastboot.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_lastboot) 
          
  
@@ -210,7 +210,7 @@ $mlbl_ramtotal.Text          = 'RAM total'
 $mlbl_ramtotal.Top           = '530' 
 $mlbl_ramtotal.Left          = '10' 
 $mlbl_ramtotal.Anchor        = 'Left,Top' 
-$mlbl_ramtotal.Size          = New-Object System.Drawing.Size(100, 23) 
+$mlbl_ramtotal.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_ramtotal) 
          
  
@@ -219,7 +219,7 @@ $mlbl_ramfree.Text           = 'RAM free'
 $mlbl_ramfree.Top            = '558' 
 $mlbl_ramfree.Left           = '10' 
 $mlbl_ramfree.Anchor         = 'Left,Top' 
-$mlbl_ramfree.Size           = New-Object System.Drawing.Size(100, 23) 
+$mlbl_ramfree.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_ramfree) 
          
  
@@ -228,7 +228,7 @@ $mlbl_virtualtotal.Text      = 'Virtual total'
 $mlbl_virtualtotal.Top       = '588' 
 $mlbl_virtualtotal.Left      = '10' 
 $mlbl_virtualtotal.Anchor    = 'Left,Top' 
-$mlbl_virtualtotal.Size      = New-Object System.Drawing.Size(100, 23) 
+$mlbl_virtualtotal.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_virtualtotal) 
          
  
@@ -237,7 +237,7 @@ $mlbl_virtualfree.Text       = 'Virtual free'
 $mlbl_virtualfree.Top        = '615' 
 $mlbl_virtualfree.Left       = '10' 
 $mlbl_virtualfree.Anchor     = 'Left,Top' 
-$mlbl_virtualfree.Size       = New-Object System.Drawing.Size(100, 23) 
+$mlbl_virtualfree.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_virtualfree) 
          
  
@@ -246,7 +246,7 @@ $mlbl_windir.Text            = 'WIN dir'
 $mlbl_windir.Top             = '644' 
 $mlbl_windir.Left            = '10' 
 $mlbl_windir.Anchor          = 'Left,Top' 
-$mlbl_windir.Size            = New-Object System.Drawing.Size(100, 23) 
+$mlbl_windir.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_windir) 
          
  
@@ -255,7 +255,7 @@ $mlbl_sysdir.Text            = 'SYS dir'
 $mlbl_sysdir.Top             = '672' 
 $mlbl_sysdir.Left            = '10' 
 $mlbl_sysdir.Anchor          = 'Left,Top' 
-$mlbl_sysdir.Size            = New-Object System.Drawing.Size(100, 23) 
+$mlbl_sysdir.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_sysdir) 
          
  
@@ -264,7 +264,7 @@ $mlbl_tempdir.Text           = 'TEMP dir'
 $mlbl_tempdir.Top            = '704' 
 $mlbl_tempdir.Left           = '10' 
 $mlbl_tempdir.Anchor         = 'Left,Top' 
-$mlbl_tempdir.Size           = New-Object System.Drawing.Size(100, 23) 
+$mlbl_tempdir.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_tempdir) 
          
  
@@ -273,7 +273,7 @@ $mcomputername.Text          = $json.ComputerName
 $mcomputername.Top           = '38' 
 $mcomputername.Left          = '115' 
 $mcomputername.Anchor        = 'Left,Top' 
-$mcomputername.Size          = New-Object System.Drawing.Size(100, 23) 
+$mcomputername.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mcomputername) 
          
  
@@ -282,7 +282,7 @@ $mdate.Text                  = $json.date
 $mdate.Top                   = '71' 
 $mdate.Left                  = '115' 
 $mdate.Anchor                = 'Left,Top' 
-$mdate.Size                  = New-Object System.Drawing.Size(100, 23) 
+$mdate.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdate) 
          
  
@@ -291,7 +291,7 @@ $muser.Text                  = $json.user
 $muser.Top                   = '103' 
 $muser.Left                  = '115' 
 $muser.Anchor                = 'Left,Top' 
-$muser.Size                  = New-Object System.Drawing.Size(100, 23) 
+$muser.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($muser) 
          
  
@@ -300,7 +300,7 @@ $mlastuser.Text              = $json.last_user
 $mlastuser.Top               = '137' 
 $mlastuser.Left              = '115' 
 $mlastuser.Anchor            = 'Left,Top' 
-$mlastuser.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlastuser.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlastuser) 
          
  
@@ -309,7 +309,7 @@ $mdomain.Text                = $json.Domain
 $mdomain.Top                 = '168' 
 $mdomain.Left                = '115' 
 $mdomain.Anchor              = 'Left,Top' 
-$mdomain.Size                = New-Object System.Drawing.Size(100, 23) 
+$mdomain.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdomain) 
          
  
@@ -318,7 +318,7 @@ $mdomaintcp.Text             = $json.domain_tcp
 $mdomaintcp.Top              = '199' 
 $mdomaintcp.Left             = '115' 
 $mdomaintcp.Anchor           = 'Left,Top' 
-$mdomaintcp.Size             = New-Object System.Drawing.Size(100, 23) 
+$mdomaintcp.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdomaintcp) 
          
  
@@ -327,7 +327,7 @@ $mdomaindhcp.Text            = $json.domain_dhcp
 $mdomaindhcp.Top             = '226' 
 $mdomaindhcp.Left            = '115' 
 $mdomaindhcp.Anchor          = 'Left,Top' 
-$mdomaindhcp.Size            = New-Object System.Drawing.Size(100, 23) 
+$mdomaindhcp.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdomaindhcp) 
          
  
@@ -336,7 +336,7 @@ $msitename.Text              = $json.site_name
 $msitename.Top               = '255' 
 $msitename.Left              = '115' 
 $msitename.Anchor            = 'Left,Top' 
-$msitename.Size              = New-Object System.Drawing.Size(100, 23) 
+$msitename.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($msitename) 
          
  
@@ -345,7 +345,7 @@ $mactivedc.Text              = $json.active_dc
 $mactivedc.Top               = '282' 
 $mactivedc.Left              = '115' 
 $mactivedc.Anchor            = 'Left,Top' 
-$mactivedc.Size              = New-Object System.Drawing.Size(100, 23) 
+$mactivedc.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mactivedc) 
          
  
@@ -354,7 +354,7 @@ $mos.Text                    = $json.os
 $mos.Top                     = '376' 
 $mos.Left                    = '115' 
 $mos.Anchor                  = 'Left,Top' 
-$mos.Size                    = New-Object System.Drawing.Size(100, 23) 
+$mos.Size                    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mos) 
          
  
@@ -363,7 +363,7 @@ $mosbuild.Text               = $json.os_build
 $mosbuild.Top                = '408' 
 $mosbuild.Left               = '115' 
 $mosbuild.Anchor             = 'Left,Top' 
-$mosbuild.Size               = New-Object System.Drawing.Size(100, 23) 
+$mosbuild.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mosbuild) 
          
  
@@ -372,16 +372,16 @@ $mservicepack.Text           = $json.sp
 $mservicepack.Top            = '438' 
 $mservicepack.Left           = '115' 
 $mservicepack.Anchor         = 'Left,Top' 
-$mservicepack.Size           = New-Object System.Drawing.Size(100, 23) 
+$mservicepack.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mservicepack) 
          
  
-$mosinstalldate              = New-Object System.Windows.Forms.Label 
+$mosinstalldate              = New-Object -TypeName System.Windows.Forms.Label 
 $mosinstalldate.Text         = $json.date 
 $mosinstalldate.Top          = '469' 
 $mosinstalldate.Left         = '115' 
 $mosinstalldate.Anchor       = 'Left,Top' 
-$mosinstalldate.Size         = New-Object System.Drawing.Size(100, 23) 
+$mosinstalldate.Size         = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mosinstalldate) 
          
  
@@ -390,7 +390,7 @@ $moslastboottime.Text        = $json.last_boot_time
 $moslastboottime.Top         = '497' 
 $moslastboottime.Left        = '115' 
 $moslastboottime.Anchor      = 'Left,Top' 
-$moslastboottime.Size        = New-Object System.Drawing.Size(100, 23) 
+$moslastboottime.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($moslastboottime) 
          
  
@@ -399,16 +399,16 @@ $mramtotal.Text              = $json.ram_total
 $mramtotal.Top               = '531' 
 $mramtotal.Left              = '115' 
 $mramtotal.Anchor            = 'Left,Top' 
-$mramtotal.Size              = New-Object System.Drawing.Size(100, 23) 
+$mramtotal.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mramtotal) 
          
  
-$mramfree                    = New-Object System.Windows.Forms.Label 
+$mramfree                    = New-Object -TypeName System.Windows.Forms.Label 
 $mramfree.Text               = $json.ram_free
 $mramfree.Top                = '560' 
 $mramfree.Left               = '115' 
 $mramfree.Anchor             = 'Left,Top' 
-$mramfree.Size               = New-Object System.Drawing.Size(100, 23) 
+$mramfree.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mramfree) 
          
  
@@ -426,7 +426,7 @@ $mvirtualfree.Text           = $json.virtual_free
 $mvirtualfree.Top            = '619' 
 $mvirtualfree.Left           = '115' 
 $mvirtualfree.Anchor         = 'Left,Top' 
-$mvirtualfree.Size           = New-Object System.Drawing.Size(100, 23) 
+$mvirtualfree.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mvirtualfree) 
          
  
@@ -435,7 +435,7 @@ $mwindir.Text                = $json.win_dir
 $mwindir.Top                 = '647' 
 $mwindir.Left                = '115' 
 $mwindir.Anchor              = 'Left,Top' 
-$mwindir.Size                = New-Object System.Drawing.Size(100, 23) 
+$mwindir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mwindir) 
          
  
@@ -444,7 +444,7 @@ $msysdir.Text                = $json.sys_dir
 $msysdir.Top                 = '673' 
 $msysdir.Left                = '115' 
 $msysdir.Anchor              = 'Left,Top' 
-$msysdir.Size                = New-Object System.Drawing.Size(100, 23) 
+$msysdir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($msysdir) 
          
  
@@ -453,16 +453,16 @@ $mtempdir.Text               = $json.temp_dir
 $mtempdir.Top                = '703' 
 $mtempdir.Left               = '115' 
 $mtempdir.Anchor             = 'Left,Top' 
-$mtempdir.Size               = New-Object System.Drawing.Size(100, 23) 
+$mtempdir.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mtempdir) 
          
  
-$mbtn_scriptstartup          = New-Object System.Windows.Forms.Button 
+$mbtn_scriptstartup          = New-Object -TypeName System.Windows.Forms.Button 
 $mbtn_scriptstartup.Text     = 'Script startup' 
 $mbtn_scriptstartup.Top      = '314' 
 $mbtn_scriptstartup.Left     = '115' 
 $mbtn_scriptstartup.Anchor   = 'Left,Top' 
-$mbtn_scriptstartup.Size     = New-Object System.Drawing.Size(100, 23) 
+$mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptstartup.Add_Click( {
             
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
