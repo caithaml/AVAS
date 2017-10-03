@@ -1,12 +1,12 @@
-### ODSTRANIT !!!! - debug
+## ODSTRANIT !!!! - debug
 Write-Host -object "$(get-date) - Obsah souboru: ($json)"
 Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
-### ODSTRANIT !!!! - debug
+## ODSTRANIT !!!! - debug
 
 $transcriptname              = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
-#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-#Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 Function Get-FileName($initialDirectory)
@@ -19,27 +19,27 @@ Function Get-FileName($initialDirectory)
   $null                            = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                   = Get-FileName 'D:\SICZ\avas\' #defaultni adresar
+$inputfile                   = Get-FileName 'D:\SICZ\avas\' defaultni adresar
 $inputdata                   = Get-Content $inputfile
 
 $json                        = $inputdata | ConvertFrom-Json
 $jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-### ODSTRANIT !!!! - debug
+## ODSTRANIT !!!! - debug
 Write-Host -object "$(get-date) - Obsah souboru: ($json)"
 Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
-### ODSTRANIT !!!! - debug
+## ODSTRANIT !!!! - debug
 
 
 Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
 
-#$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
-#$jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
+$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
+$jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
-#overeni ze je uzivatel administrator
+overeni ze je uzivatel administrator
 Write-Verbose "Kontroluji admin prava"
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
             [Security.Principal.WindowsBuiltInRole] "Administrator")) {
@@ -50,9 +50,9 @@ Write-Host -Object "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
 Write-Host -Object "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
 Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
-#==============================================================================================
-# GUI
-#==============================================================================================
+==============================================================================================
+ GUI
+==============================================================================================
      
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
@@ -563,9 +563,9 @@ $MyForm.Controls.Add($mbiosdate)
  
       
 
-##############################x
-# porovnaný sloupec
-################################
+#############################x
+ porovnani sloupec
+###############################
 
 
 $mcomputername               = New-Object System.Windows.Forms.Label 
@@ -910,9 +910,9 @@ $mbtn_patchlevel.Anchor      = "Left,Top"
 $mbtn_patchlevel.Size        = New-Object System.Drawing.Size(100, 23) 
 $mbtn_patchlevel.Add_Click( {
         $patche = Get-Content "D:\SICZ\avas\AVAS_LuKA\hotfixy.csv" | ConvertFrom-Csv
-        #$patche
+        $patche
         $patche | Out-GridView
-        #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+           start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
            
     })
 $MyForm.Controls.Add($mbtn_patchlevel) 
@@ -958,46 +958,46 @@ $mbtn_nacistjson.Top         = "230"
 $mbtn_nacistjson.Left        = "902" 
 $mbtn_nacistjson.Anchor      = "Left,Top" 
 $mbtn_nacistjson.Size        = New-Object System.Drawing.Size(100, 23) 
-#$mbtn_nacistjson.Add_Click( {
- #       
-        #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
-  #      $openFileDialog = New-Object windows.forms.openfiledialog   
-   #     $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
-    #    $openFileDialog.title = "Select Settings Configuration File to Import"   
-     #   $openFileDialog.filter = "All files (*.*)| *.*"   
-        #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
-      #  $openFileDialog.ShowHelp = $True   
-       # Write-Host "Select  Settings File... (see FileOpen Dialog)" -ForegroundColor Green  
-        #$result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
-        # in ISE you may have to alt-tab or minimize ISE to see dialog box 
-        #$result 
-        #if ($result -eq "OK") {    
-         #   Write-Host "Selected  Settings File:"  -ForegroundColor Green  
-          #  $OpenFileDialog.filename   
-           # $OpenFileDialog.CheckFileExists 
+$mbtn_nacistjson.Add_Click( {
+        
+        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+        $openFileDialog = New-Object windows.forms.openfiledialog   
+        $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
+        $openFileDialog.title = "Select Settings Configuration File to Import"   
+        $openFileDialog.filter = "All files (*.*)| *.*"   
+        $openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
+        $openFileDialog.ShowHelp = $True   
+        Write-Host "Select  Settings File... (see FileOpen Dialog)" -ForegroundColor Green  
+        $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+         in ISE you may have to alt-tab or minimize ISE to see dialog box 
+        $result 
+        if ($result -eq "OK") {    
+            Write-Host "Selected  Settings File:"  -ForegroundColor Green  
+            $OpenFileDialog.filename   
+            $OpenFileDialog.CheckFileExists 
                     
-            # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
-            # Unremark the above line if you actually want to perform an import of a publish settings file  
-            #Write-Host "Import Settings File Imported!" -ForegroundColor Green 
+             Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
+             Unremark the above line if you actually want to perform an import of a publish settings file  
+            Write-Host "Import Settings File Imported!" -ForegroundColor Green 
                   
-        #} 
-        #else { Write-Host "Import Settings File Cancelled!" -ForegroundColor Yellow} 
-    #})
+        } 
+        else { Write-Host "Import Settings File Cancelled!" -ForegroundColor Yellow} 
+    })
 
-    #$mbtn_nacistjson.Add_Click(
-     #  {
-    #Function Get-FileName($initialDirectory)
-     #   {
-      #    $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
-       #   $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
-        #  $OpenFileDialog.initialDirectory = $initialDirectory
-         # $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
-          #$null = $OpenFileDialog.ShowDialog()
-          #$OpenFileDialog.filename
-        #}
-        #$null = $OpenFileDialog.ShowDialog()
-    #}
-    #)
+    $mbtn_nacistjson.Add_Click(
+       {
+    Function Get-FileName($initialDirectory)
+        {
+          $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
+          $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
+          $OpenFileDialog.initialDirectory = $initialDirectory
+          $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
+          $null = $OpenFileDialog.ShowDialog()
+          $OpenFileDialog.filename
+        }
+        $null = $OpenFileDialog.ShowDialog()
+    }
+    )
 $MyForm.Controls.Add($mbtn_nacistjson) 
 $mlbl_nactenyjson            = New-Object System.Windows.Forms.Label 
 $mlbl_nactenyjson.Text       = "D:\SICZ\hash_luka.json" 
@@ -1014,9 +1014,9 @@ $mlbl_rootcertifikaty.Left   = "903"
 $mlbl_rootcertifikaty.Anchor = "Left,Top" 
 $mlbl_rootcertifikaty.Size   = New-Object System.Drawing.Size(100, 23) 
 $mlbl_rootcertifikaty.Add_Click( {
-        #$json.rootcert | Out-GridView
+        $json.rootcert | Out-GridView
         $json.Computer_Root_Certificates | Out-GridView
-        #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+        start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
     })
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
@@ -1036,10 +1036,10 @@ $mButton1.Left               = "657"
 $mButton1.Anchor             = "Left,Top" 
 $mButton1.Size               = New-Object System.Drawing.Size(100,23) 
 $mButton1.Add_Click( {
-    #$json.rootcert | Out-GridView
+    $json.rootcert | Out-GridView
     
     start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
-    #$appsps= start powershell.exe -ArgumentList "D:\SICZ\avas\avas_luka\apps.ps1"
+    $appsps= start powershell.exe -ArgumentList "D:\SICZ\avas\avas_luka\apps.ps1"
     $json.installed_apps | Out-GridView
 })
 
