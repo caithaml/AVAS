@@ -5,7 +5,35 @@ Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).
 
 $transcriptname              = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
-Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+
+<#try
+{
+  Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+}
+# NOTE: When you use a SPECIFIC catch block, exceptions thrown by -ErrorAction Stop MAY LACK
+# some InvocationInfo details such as ScriptLineNumber.
+# REMEDY: If that affects you, remove the SPECIFIC exception type [System.Management.Automation.CommandNotFoundException] in the code below
+# and use ONE generic catch block instead. Such a catch block then handles ALL error types, so you would need to
+# add the logic to handle different error types differently by yourself.
+catch [System.Management.Automation.CommandNotFoundException]
+{
+  # get error record
+  [Management.Automation.ErrorRecord]$e = $_
+
+  # retrieve information about runtime error
+  $info = [PSCustomObject]@{
+    Exception = $e.Exception.Message
+    Reason    = $e.CategoryInfo.Reason
+    Target    = $e.CategoryInfo.TargetName
+    Script    = $e.InvocationInfo.ScriptName
+    Line      = $e.InvocationInfo.ScriptLineNumber
+    Column    = $e.InvocationInfo.OffsetInLine
+  }
+  
+  # output information. Post-process collected info, and log info (optional)
+  $info
+}
+#>
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
@@ -1069,7 +1097,7 @@ $mButton1.Add_Click( {
     $json.rootcert | Out-GridView
     
     start -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
-    $appsps= start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+   # $appsps= start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
     $json.installed_apps | Out-GridView
 })
 
@@ -1077,8 +1105,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUC4YgtIvcpq+PP6PtSWl/hCTJ
-# aZKgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU+ARQn4X8sxDRrD6bQJGgAEb+
+# SwqgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1092,9 +1120,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU0TWIXVFoz+DxDXSib9B/JkUjstIw
-# DQYJKoZIhvcNAQEBBQAEgYBq55lEgcYLQA6fGVpMVKYu14pEf+c4iQXLiNszatdh
-# cL5mhsG66poKQ9jZLlBG3+w1os5XgN4FjwXbMnOH3gTCyaQx1PUNqG3DcZCW6+rH
-# VH+BpnV2YaXOSWf7wQXytF9D/BcRz8zJhANkTp6k95dxoV+NcwKquCwXLC81t2Bi
-# QA==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUUdFG35bn7PWLmxmMvwGfP0CWEJQw
+# DQYJKoZIhvcNAQEBBQAEgYBGonuA3qYuoSmkWpRRRHKd09RzsN4yPc2b9RjqfAsC
+# b3ynNmVcWBdV+hTdftqiHSqpTK5JIhAAQCJBrbDaP5zslu5ifoYgNyj1c93i7mSS
+# 5ogsU6h8aebE1gsVAwSN9PCg6AKnJWx/wFeLzvcGJ0PwHXj/LhGBQ4Sk8Zpl+h7h
+# BQ==
 # SIG # End signature block
