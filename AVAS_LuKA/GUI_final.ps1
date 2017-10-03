@@ -22,6 +22,11 @@ $inputdata                                   = Get-Content $inputfile
 $json                                        = $inputdata | ConvertFrom-Json
 $jsondef                                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
+### ODSTRANIT !!!! - debug
+Write-Host -object "$(get-date) - Obsah souboru: ($json)"
+### ODSTRANIT !!!! - debug
+
+
 Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
 
 #$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
