@@ -76,16 +76,16 @@ Function Get-FileName($initialDirectory)
   $null                            = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                   = Get-FileName -initialDirectory 'D:\SICZ\avas\' defaultni adresar
+$inputfile                   = Get-FileName -initialDirectory 'D:\SICZ\avas\' #defaultni adresar
 $inputdata                   = Get-Content -Path $inputfile
 
 $json                        = $inputdata | ConvertFrom-Json
 $jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-## ODSTRANIT !!!! - debug
+## ODSTRANIT !!!! - pouze pro  debug
 Write-Host -object "$(get-date) - Obsah souboru: ($json)"
 Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
-## ODSTRANIT !!!! - debug
+## ODSTRANIT !!!! - pouze pro debug
 
 
 Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
@@ -1105,8 +1105,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU+ARQn4X8sxDRrD6bQJGgAEb+
-# SwqgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU7dzrdEmHv6DnTHjg0eZL2MiK
+# ISygggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1120,9 +1120,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUUdFG35bn7PWLmxmMvwGfP0CWEJQw
-# DQYJKoZIhvcNAQEBBQAEgYBGonuA3qYuoSmkWpRRRHKd09RzsN4yPc2b9RjqfAsC
-# b3ynNmVcWBdV+hTdftqiHSqpTK5JIhAAQCJBrbDaP5zslu5ifoYgNyj1c93i7mSS
-# 5ogsU6h8aebE1gsVAwSN9PCg6AKnJWx/wFeLzvcGJ0PwHXj/LhGBQ4Sk8Zpl+h7h
-# BQ==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU5ZE94O4UQt7YIWMeWlF0ZVg3Tmcw
+# DQYJKoZIhvcNAQEBBQAEgYCFouBSSop8wSAZ2Bl4xnRUoHZ+5xSPZSqhQN9JdjdV
+# h2/KG0Fu8ZFrF9mUNvZGcdhFrCXBJMHQ+QpbNy7sINxcYE5lrAKu5uRF6fY6vbtx
+# 6KCGMXis9FZYavcdr8ZdkucT/MRc0Q58L0Piyv6g5Sc+eMStKkp9YwqEYMjW8GfK
+# DQ==
 # SIG # End signature block
