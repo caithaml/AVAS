@@ -868,8 +868,8 @@ $mbtn_tisk.Add_Click( {
         $tisk = $tisk + $json.os_build
         
         $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
-            Out-File C:\SICZ\Testtisk.html
-        start chrome C:\SICZ\Testtisk.html
+            Out-File D:\SICZ\avas\AVAS_LuKA\testtisk.html
+        start chrome D:\SICZ\avas\AVAS_LuKA\Testtisk.html
     })
 
 
@@ -937,7 +937,7 @@ $mbtn_sablonaverze.Text      = 'Verzovani sablon'
 $mbtn_sablonaverze.Top       = '200' 
 $mbtn_sablonaverze.Left      = '903' 
 $mbtn_sablonaverze.Anchor    = 'Left,Top' 
-$mbtn_sablonaverze.Size      = New-Object System.Drawing.Size(100, 23) 
+$mbtn_sablonaverze.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_sablonaverze.Add_Click( {
         
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
@@ -945,7 +945,7 @@ $mbtn_sablonaverze.Add_Click( {
     })
 $MyForm.Controls.Add($mbtn_sablonaverze) 
 
-$mlbl_verzesablony           = New-Object System.Windows.Forms.Label 
+$mlbl_verzesablony           = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_verzesablony.Text      = $json.verzesablony
 $mlbl_verzesablony.Top       = '17' 
 $mlbl_verzesablony.Left      = '751' 
@@ -958,11 +958,11 @@ $mbtn_nacistjson.Text        = 'Nacist JSON'
 $mbtn_nacistjson.Top         = '230' 
 $mbtn_nacistjson.Left        = '902' 
 $mbtn_nacistjson.Anchor      = 'Left,Top' 
-$mbtn_nacistjson.Size        = New-Object System.Drawing.Size(100, 23) 
+$mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
         
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
-        $openFileDialog = New-Object windows.forms.openfiledialog   
+ <#       start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+        $openFileDialog = New-Object -TypeName windows.forms.openfiledialog   
         $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
         $openFileDialog.title = 'Select Settings Configuration File to Import'   
         $openFileDialog.filter = 'All files (*.*)| *.*'   
@@ -996,7 +996,7 @@ $mbtn_nacistjson.Add_Click( {
           $null = $OpenFileDialog.ShowDialog()
           $OpenFileDialog.filename
         }
-        $null = $OpenFileDialog.ShowDialog()
+        $null = $OpenFileDialog.ShowDialog()#>
     }
     )
 $MyForm.Controls.Add($mbtn_nacistjson) 
@@ -1005,7 +1005,7 @@ $mlbl_nactenyjson.Text       = 'D:\SICZ\hash_luka.json'
 $mlbl_nactenyjson.Top        = '235' 
 $mlbl_nactenyjson.Left       = '723' 
 $mlbl_nactenyjson.Anchor     = 'Left,Top' 
-$mlbl_nactenyjson.Size       = New-Object System.Drawing.Size(100, 23) 
+$mlbl_nactenyjson.Size       = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_nactenyjson) 
 
 $mlbl_rootcertifikaty        = New-Object System.Windows.Forms.Button 
@@ -1013,7 +1013,7 @@ $mlbl_rootcertifikaty.Text   = 'Root certifikaty'
 $mlbl_rootcertifikaty.Top    = '265' 
 $mlbl_rootcertifikaty.Left   = '903' 
 $mlbl_rootcertifikaty.Anchor = 'Left,Top' 
-$mlbl_rootcertifikaty.Size   = New-Object System.Drawing.Size(100, 23) 
+$mlbl_rootcertifikaty.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mlbl_rootcertifikaty.Add_Click( {
         $json.rootcert | Out-GridView
         $json.Computer_Root_Certificates | Out-GridView
@@ -1026,7 +1026,7 @@ $mLabel1.Text                = 'Rozdilne app'
 $mLabel1.Top                 = '64' 
 $mLabel1.Left                = '555' 
 $mLabel1.Anchor              = 'Left,Top' 
-$mLabel1.Size                = New-Object System.Drawing.Size(100,23) 
+$mLabel1.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100,23) 
 $MyForm.Controls.Add($mLabel1) 
 
 
@@ -1035,7 +1035,7 @@ $mButton1.Text               = 'Detail - apps'
 $mButton1.Top                = '63' 
 $mButton1.Left               = '657' 
 $mButton1.Anchor             = 'Left,Top' 
-$mButton1.Size               = New-Object System.Drawing.Size(100,23) 
+$mButton1.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100,23) 
 $mButton1.Add_Click( {
     $json.rootcert | Out-GridView
     
