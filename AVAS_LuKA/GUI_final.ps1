@@ -14,10 +14,8 @@ Function Get-FileName($initialDirectory)
   $null = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                                   = Get-FileName 'C:\SICZ'
+$inputfile                                   = Get-FileName 'C:\SICZ' #defaultni adresar
 $inputdata                                   = Get-Content $inputfile
-
-
 
 $json                                        = $inputdata | ConvertFrom-Json
 $jsondef                                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
