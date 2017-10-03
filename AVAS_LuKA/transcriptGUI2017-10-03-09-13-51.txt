@@ -30,3 +30,10 @@ Transcript started, output file is ./transcriptGUI2017-10-03-09-13-51.txt
 10
 11
 12
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171003092137
+**********************
