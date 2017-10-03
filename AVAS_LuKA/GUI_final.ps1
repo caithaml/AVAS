@@ -1,7 +1,7 @@
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+#Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 Function Get-FileName($initialDirectory)
@@ -22,7 +22,8 @@ $inputdata                                   = Get-Content $inputfile
 $json                                        = $inputdata | ConvertFrom-Json
 $jsondef                                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-#Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
+Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
+
 #$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
 #$jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
