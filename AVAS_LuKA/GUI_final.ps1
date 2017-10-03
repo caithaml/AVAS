@@ -19,7 +19,7 @@ Function Get-FileName($initialDirectory)
   $null = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                                   = Get-FileName 'C:\SICZ' #defaultni adresar
+$inputfile                                   = Get-FileName 'D:\SICZ\avas\' #defaultni adresar
 $inputdata                                   = Get-Content $inputfile
 
 $json                                        = $inputdata | ConvertFrom-Json
