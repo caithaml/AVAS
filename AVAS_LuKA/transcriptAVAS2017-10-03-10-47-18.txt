@@ -16,6 +16,7 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
+Transcript started, output file is ./transcriptAVAS2017-10-03-10-47-18.txt
 Transcript started, output file is ./AVAS_2017_10_03.log
 10/03/2017 10:47:18 - Nacitani json konfiguracniho souboru
 PS>TerminatingError(Get-Content): "Cannot bind argument to parameter 'Path' because it is an empty string."
