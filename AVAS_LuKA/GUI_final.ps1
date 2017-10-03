@@ -6,66 +6,12 @@ Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).
 $transcriptname              = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
 
-<#try
-{
-  Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-}
-# NOTE: When you use a SPECIFIC catch block, exceptions thrown by -ErrorAction Stop MAY LACK
-# some InvocationInfo details such as ScriptLineNumber.
-# REMEDY: If that affects you, remove the SPECIFIC exception type [System.Management.Automation.CommandNotFoundException] in the code below
-# and use ONE generic catch block instead. Such a catch block then handles ALL error types, so you would need to
-# add the logic to handle different error types differently by yourself.
-catch [System.Management.Automation.CommandNotFoundException]
-{
-  # get error record
-  [Management.Automation.ErrorRecord]$e = $_
-
-  # retrieve information about runtime error
-  $info = [PSCustomObject]@{
-    Exception = $e.Exception.Message
-    Reason    = $e.CategoryInfo.Reason
-    Target    = $e.CategoryInfo.TargetName
-    Script    = $e.InvocationInfo.ScriptName
-    Line      = $e.InvocationInfo.ScriptLineNumber
-    Column    = $e.InvocationInfo.OffsetInLine
-  }
-  
-  # output information. Post-process collected info, and log info (optional)
-  $info
-}
-#>
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 Function Get-FileName($initialDirectory)
 {
-  <#
-    .SYNOPSIS
-    Describe purpose of "Get-FileName" in 1-2 sentences.
-
-    .DESCRIPTION
-    Add a more complete description of what the function does.
-
-    .PARAMETER initialDirectory
-    Describe parameter -initialDirectory.
-
-    .EXAMPLE
-    Get-FileName -initialDirectory Value
-    Describe what this call does
-
-    .NOTES
-    Place additional notes here.
-
-    .LINK
-    URLs to related sites
-    The first link is opened by Get-Help -Online Get-FileName
-
-    .INPUTS
-    List of input types that are accepted by this function.
-
-    .OUTPUTS
-    List of output types produced by this function.
-  #>
+ 
 
 
   $null                            = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
@@ -1105,8 +1051,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU7dzrdEmHv6DnTHjg0eZL2MiK
-# ISygggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUpadFKITdHMroiXEV7ekVCYFU
+# PGSgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1120,9 +1066,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU5ZE94O4UQt7YIWMeWlF0ZVg3Tmcw
-# DQYJKoZIhvcNAQEBBQAEgYCFouBSSop8wSAZ2Bl4xnRUoHZ+5xSPZSqhQN9JdjdV
-# h2/KG0Fu8ZFrF9mUNvZGcdhFrCXBJMHQ+QpbNy7sINxcYE5lrAKu5uRF6fY6vbtx
-# 6KCGMXis9FZYavcdr8ZdkucT/MRc0Q58L0Piyv6g5Sc+eMStKkp9YwqEYMjW8GfK
-# DQ==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUjhXH/6mHH2cx/ANt1ZUIJ98YXSIw
+# DQYJKoZIhvcNAQEBBQAEgYBsfBVgHLS9+Xwe2duL11ytEumA42mX7Vz7sNzjGrkH
+# sTB/Nm9dn1755/FcidkXEtAr4M6dt4qpMKOqElfEwY4rL3dOFAOFZ6JwZWXYp8ie
+# QGLYnp4jgFY+SCHuviLUjov/2qANa5beHvXhJu/f2WgHv8s+FMFTaRhZeEIXPEtx
+# jQ==
 # SIG # End signature block
