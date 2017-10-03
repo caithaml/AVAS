@@ -1,14 +1,14 @@
 ## ODSTRANIT !!!! - debug
-Write-Host -object "$(get-date) - Obsah souboru: ($json)"
+Write-Verbose -Message "$(get-date) - Obsah souboru: ($json)"
 Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 ## ODSTRANIT !!!! - debug
 
 $transcriptname              = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
 Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 
-Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 Function Get-FileName($initialDirectory)
 {
   $null                            = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
@@ -19,8 +19,8 @@ Function Get-FileName($initialDirectory)
   $null                            = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                   = Get-FileName 'D:\SICZ\avas\' defaultni adresar
-$inputdata                   = Get-Content $inputfile
+$inputfile                   = Get-FileName -initialDirectory 'D:\SICZ\avas\' defaultni adresar
+$inputdata                   = Get-Content -Path $inputfile
 
 $json                        = $inputdata | ConvertFrom-Json
 $jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
@@ -33,14 +33,14 @@ Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 
 Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
 
-$json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
+$json = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
 $jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
 overeni ze je uzivatel administrator
-Write-Verbose 'Kontroluji admin prava'
+Write-Verbose -Message 'Kontroluji admin prava'
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
             [Security.Principal.WindowsBuiltInRole] 'Administrator')) {
     Write-Warning 'Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!'
@@ -56,12 +56,12 @@ Write-Host -Object "$(Get-Date) - Nacitam GUI"
      
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
-$MyForm                      = New-Object System.Windows.Forms.Form 
+$MyForm                      = New-Object -TypeName System.Windows.Forms.Form 
 $MyForm.Text                 = 'AVAS' 
-$MyForm.Size                 = New-Object System.Drawing.Size(1024, 850) 
+$MyForm.Size                 = New-Object -TypeName System.Drawing.Size -ArgumentList (1024, 850) 
      
  
-$mlbl_computername           = New-Object System.Windows.Forms.Label 
+$mlbl_computername           = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_computername.Text      = 'Computer name' 
 $mlbl_computername.Top       = '37' 
 $mlbl_computername.Left      = '10' 
@@ -70,25 +70,25 @@ $mlbl_computername.Size      = New-Object System.Drawing.Size(100, 23)
 $MyForm.Controls.Add($mlbl_computername) 
          
  
-$mlbl_date                   = New-Object System.Windows.Forms.Label 
+$mlbl_date                   = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_date.Text              = 'Date' 
 $mlbl_date.Top               = '66' 
 $mlbl_date.Left              = '10' 
 $mlbl_date.Anchor            = 'Left,Top' 
-$mlbl_date.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlbl_date.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_date) 
          
  
-$mlbl_user                   = New-Object System.Windows.Forms.Label 
+$mlbl_user                   = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_user.Text              = 'User' 
 $mlbl_user.Top               = '99' 
 $mlbl_user.Left              = '10' 
 $mlbl_user.Anchor            = 'Left,Top' 
-$mlbl_user.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlbl_user.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_user) 
          
  
-$mlbl_lastuser               = New-Object System.Windows.Forms.Label 
+$mlbl_lastuser               = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_lastuser.Text          = 'Last user' 
 $mlbl_lastuser.Top           = '133' 
 $mlbl_lastuser.Left          = '10' 
@@ -97,16 +97,16 @@ $mlbl_lastuser.Size          = New-Object System.Drawing.Size(100, 23)
 $MyForm.Controls.Add($mlbl_lastuser) 
          
  
-$mlbl_domain                 = New-Object System.Windows.Forms.Label 
+$mlbl_domain                 = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_domain.Text            = 'Domain' 
 $mlbl_domain.Top             = '162' 
 $mlbl_domain.Left            = '10' 
 $mlbl_domain.Anchor          = 'Left,Top' 
-$mlbl_domain.Size            = New-Object System.Drawing.Size(100, 23) 
+$mlbl_domain.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_domain) 
          
  
-$mlbl_domaintcp              = New-Object System.Windows.Forms.Label 
+$mlbl_domaintcp              = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_domaintcp.Text         = 'Domain TCP' 
 $mlbl_domaintcp.Top          = '194' 
 $mlbl_domaintcp.Left         = '10' 
@@ -115,16 +115,16 @@ $mlbl_domaintcp.Size         = New-Object System.Drawing.Size(100, 23)
 $MyForm.Controls.Add($mlbl_domaintcp) 
          
  
-$mlbl_domaindhcp             = New-Object System.Windows.Forms.Label 
+$mlbl_domaindhcp             = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_domaindhcp.Text        = 'Domain DHCP' 
 $mlbl_domaindhcp.Top         = '222' 
 $mlbl_domaindhcp.Left        = '10' 
 $mlbl_domaindhcp.Anchor      = 'Left,Top' 
-$mlbl_domaindhcp.Size        = New-Object System.Drawing.Size(100, 23) 
+$mlbl_domaindhcp.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_domaindhcp) 
          
  
-$mlbl_site                   = New-Object System.Windows.Forms.Label 
+$mlbl_site                   = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_site.Text              = 'Site name' 
 $mlbl_site.Top               = '254' 
 $mlbl_site.Left              = '10' 
@@ -156,7 +156,7 @@ $mlbl_scriptshutdown.Text    = 'Script shutdown'
 $mlbl_scriptshutdown.Top     = '344' 
 $mlbl_scriptshutdown.Left    = '10' 
 $mlbl_scriptshutdown.Anchor  = 'Left,Top' 
-$mlbl_scriptshutdown.Size    = New-Object System.Drawing.Size(100, 23) 
+$mlbl_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_scriptshutdown) 
          
  
@@ -286,7 +286,7 @@ $mdate.Size                  = New-Object System.Drawing.Size(100, 23)
 $MyForm.Controls.Add($mdate) 
          
  
-$muser                       = New-Object System.Windows.Forms.Label 
+$muser                       = New-Object -TypeName System.Windows.Forms.Label 
 $muser.Text                  = $json.user
 $muser.Top                   = '103' 
 $muser.Left                  = '115' 
@@ -417,7 +417,7 @@ $mvirtualtotal.Text          = $json.virtual_total
 $mvirtualtotal.Top           = '591' 
 $mvirtualtotal.Left          = '115' 
 $mvirtualtotal.Anchor        = 'Left,Top' 
-$mvirtualtotal.Size          = New-Object System.Drawing.Size(100, 23) 
+$mvirtualtotal.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mvirtualtotal) 
          
  
@@ -922,7 +922,7 @@ $mbtn_gui.Text               = 'Upravit GUI'
 $mbtn_gui.Top                = '163' 
 $mbtn_gui.Left               = '904' 
 $mbtn_gui.Anchor             = 'Left,Top' 
-$mbtn_gui.Size               = New-Object System.Drawing.Size(100, 23) 
+$mbtn_gui.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_gui.Add_Click( {
         
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
@@ -999,7 +999,7 @@ $mbtn_nacistjson.Add_Click( {
     }
     )
 $MyForm.Controls.Add($mbtn_nacistjson) 
-$mlbl_nactenyjson            = New-Object System.Windows.Forms.Label 
+$mlbl_nactenyjson            = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_nactenyjson.Text       = 'D:\SICZ\hash_luka.json' 
 $mlbl_nactenyjson.Top        = '235' 
 $mlbl_nactenyjson.Left       = '723' 
@@ -1038,8 +1038,8 @@ $mButton1.Size               = New-Object System.Drawing.Size(100,23)
 $mButton1.Add_Click( {
     $json.rootcert | Out-GridView
     
-    start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
-    $appsps= start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+    start -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+    $appsps= start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
     $json.installed_apps | Out-GridView
 })
 
