@@ -896,7 +896,7 @@ $mbtn_tisk.Add_Click( {
         $tisk = $tisk + $json.OS
         $tisk = $tisk + $json.os_build
         
-        $jsondef.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
+        $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
             Out-File D:\SICZ\avas\AVAS_LuKA\testtisk.html
         start -FilePath chrome -ArgumentList D:\SICZ\avas\AVAS_LuKA\Testtisk.html
     })
@@ -1077,8 +1077,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUk+Wae0PrtpZskoNVHIeWG6Dn
-# CfigggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUC4YgtIvcpq+PP6PtSWl/hCTJ
+# aZKgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1092,9 +1092,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUrJ2VGDrpgP8g0dxqN4RCCiADkakw
-# DQYJKoZIhvcNAQEBBQAEgYBBBvdb4hZUbmAME2pzUsTuXpVGRiz+qmrg2Yq9Y5Pr
-# WmvXXImSDjzjbJ1VuYv/fSiAF4QDQ7SdopbhOx8bXc0y3omEZuRTc7iXwfxYXSyU
-# uHH9PyFsTB6NxsdDhH1okA9rbIzMR5WIV+YJe0+5w4+A42wCGXDfcQAMUsiMCwPZ
-# Pg==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU0TWIXVFoz+DxDXSib9B/JkUjstIw
+# DQYJKoZIhvcNAQEBBQAEgYBq55lEgcYLQA6fGVpMVKYu14pEf+c4iQXLiNszatdh
+# cL5mhsG66poKQ9jZLlBG3+w1os5XgN4FjwXbMnOH3gTCyaQx1PUNqG3DcZCW6+rH
+# VH+BpnV2YaXOSWf7wQXytF9D/BcRz8zJhANkTp6k95dxoV+NcwKquCwXLC81t2Bi
+# QA==
 # SIG # End signature block
