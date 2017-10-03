@@ -1,3 +1,8 @@
+### ODSTRANIT !!!! - debug
+Write-Host -object "$(get-date) - Obsah souboru: ($json)"
+Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+### ODSTRANIT !!!! - debug
+
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 Start-Transcript -Path "./$transcriptname.log"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
@@ -22,6 +27,7 @@ $jsondef                                     = Get-Content -Path D:\SICZ\hash_lu
 
 ### ODSTRANIT !!!! - debug
 Write-Host -object "$(get-date) - Obsah souboru: ($json)"
+Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 ### ODSTRANIT !!!! - debug
 
 

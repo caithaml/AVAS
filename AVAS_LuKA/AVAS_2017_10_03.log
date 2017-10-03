@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20171003101610
+Start time: 20171003102634
 Username: DESKTOP-TBE27PS\lukas
 RunAs User: DESKTOP-TBE27PS\lukas
 Configuration Name: 
 Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16299.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1'
-Process ID: 15064
+Process ID: 11928
 PSVersion: 5.1.16299.0
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.0
@@ -17,19 +17,20 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is ./AVAS_2017_10_03.log
-10/03/2017 10:16:10 - Nacitani json konfiguracniho souboru
-10/03/2017 10:16:19 - Obsah souboru: (@{ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=09/05/2017 06:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=})
-10/03/2017 10:16:19 - Dokonceno nacitani json konfiguracniho souboru
-10/03/2017 10:16:19 - Dokonce nacitani json konfiguracniho souboru
-10/03/2017 10:16:19 - zjisteni zda je uzivatel admin
+10/03/2017 10:26:34 - Nacitani json konfiguracniho souboru
+10/03/2017 10:26:48 - Obsah souboru: (@{ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=09/05/2017 06:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=})
+Transcript started, output file is ./transcript2017-10-03-10-26-48.txt
+10/03/2017 10:26:48 - Dokonceno nacitani json konfiguracniho souboru
+10/03/2017 10:26:48 - Dokonce nacitani json konfiguracniho souboru
+10/03/2017 10:26:48 - zjisteni zda je uzivatel admin
 WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
-10/03/2017 10:16:19 - ukonceno zjistovani zda je uzivatel admin
-10/03/2017 10:16:19 - uzivatel je admin pokracuje dalsi spusteni skriptu
-10/03/2017 10:16:19 - Nacitam GUI
+10/03/2017 10:26:48 - ukonceno zjistovani zda je uzivatel admin
+10/03/2017 10:26:48 - uzivatel je admin pokracuje dalsi spusteni skriptu
+10/03/2017 10:26:48 - Nacitam GUI
 Cancel
 PS>$global:?
 True
 **********************
 Windows PowerShell transcript end
-End time: 20171003101625
+End time: 20171003102652
 **********************
