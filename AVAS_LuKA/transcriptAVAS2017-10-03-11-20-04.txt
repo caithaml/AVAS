@@ -16,6 +16,7 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
+Transcript started, output file is ./transcriptAVAS2017-10-03-11-20-04.txt
 Transcript started, output file is ./AVAS_2017_10_03.log
 Nacteni : The term 'Nacteni' is not recognized as the name of a cmdlet, function, script file, or operable program. Chec
 k the spelling of the name, or if a path was included, verify that the path is correct and try again.

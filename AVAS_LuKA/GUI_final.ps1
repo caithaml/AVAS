@@ -867,7 +867,7 @@ $mbtn_tisk.Add_Click( {
         $tisk = $tisk + $json.OS
         $tisk = $tisk + $json.os_build
         
-        $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
+        $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
             Out-File D:\SICZ\avas\AVAS_LuKA\testtisk.html
         start chrome D:\SICZ\avas\AVAS_LuKA\Testtisk.html
     })
