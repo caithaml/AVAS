@@ -16,9 +16,11 @@ function Check-Transcript
     }
   }
 }
+
 Check-Transcript
 
-Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
+$transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
+Start-Transcript -Path "./$transcriptname.log"
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
 $json = Get-Content D:\SICZ\hash_mica.json | ConvertFrom-Json
