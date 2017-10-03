@@ -11,6 +11,35 @@ Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 Function Get-FileName($initialDirectory)
 {
+  <#
+    .SYNOPSIS
+    Describe purpose of "Get-FileName" in 1-2 sentences.
+
+    .DESCRIPTION
+    Add a more complete description of what the function does.
+
+    .PARAMETER initialDirectory
+    Describe parameter -initialDirectory.
+
+    .EXAMPLE
+    Get-FileName -initialDirectory Value
+    Describe what this call does
+
+    .NOTES
+    Place additional notes here.
+
+    .LINK
+    URLs to related sites
+    The first link is opened by Get-Help -Online Get-FileName
+
+    .INPUTS
+    List of input types that are accepted by this function.
+
+    .OUTPUTS
+    List of output types produced by this function.
+  #>
+
+
   $null                            = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
     
   $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
@@ -798,7 +827,7 @@ $mlbl_protectini.Text        = $jsondef.protect_ini
 $mlbl_protectini.Top         = '768' 
 $mlbl_protectini.Left        = '330' 
 $mlbl_protectini.Anchor      = 'Left,Top' 
-$mlbl_protectini.Size        = New-Object System.Drawing.Size(100, 23) 
+$mlbl_protectini.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_protectini) 
 
 
@@ -807,7 +836,7 @@ $mlbl_bios.Text              = $jsondef.Bios
 $mlbl_bios.Top               = '800' 
 $mlbl_bios.Left              = '330' 
 $mlbl_bios.Anchor            = 'Left,Top' 
-$mlbl_bios.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlbl_bios.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_bios) 
 
 
@@ -816,7 +845,7 @@ $mlbl_biosdate.Text          = $jsondef.bios_date
 $mlbl_biosdate.Top           = '829' 
 $mlbl_biosdate.Left          = '11' 
 $mlbl_biosdate.Anchor        = 'Left,Top' 
-$mlbl_biosdate.Size          = New-Object System.Drawing.Size(100, 23) 
+$mlbl_biosdate.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_biosdate) 
 
 
@@ -825,7 +854,7 @@ $mprotect.Text               = $jsondef.protect_ini
 $mprotect.Top                = '770' 
 $mprotect.Left               = '330' 
 $mprotect.Anchor             = 'Left,Top' 
-$mprotect.Size               = New-Object System.Drawing.Size(100, 23) 
+$mprotect.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mprotect) 
 
 
@@ -834,16 +863,16 @@ $mbios.Text                  = $jsondef.Bios
 $mbios.Top                   = '799' 
 $mbios.Left                  = '330' 
 $mbios.Anchor                = 'Left,Top' 
-$mbios.Size                  = New-Object System.Drawing.Size(100, 23) 
+$mbios.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mbios) 
 
 
-$mbiosdate                   = New-Object System.Windows.Forms.Label 
+$mbiosdate                   = New-Object -TypeName System.Windows.Forms.Label 
 $mbiosdate.Text              = $jsondef.bios_date
 $mbiosdate.Top               = '823' 
 $mbiosdate.Left              = '330' 
 $mbiosdate.Anchor            = 'Left,Top' 
-$mbiosdate.Size              = New-Object System.Drawing.Size(100, 23) 
+$mbiosdate.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mbiosdate) 
 
 
@@ -855,7 +884,7 @@ $mbtn_tisk.Text              = 'Tisk formulare - ulozi protokol'
 $mbtn_tisk.Top               = '17' 
 $mbtn_tisk.Left              = '903' 
 $mbtn_tisk.Anchor            = 'Left,Top' 
-$mbtn_tisk.Size              = New-Object System.Drawing.Size(100, 23) 
+$mbtn_tisk.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_tisk.Add_Click( {
         $a    = '<style>'
         $a    = $a + 'BODY{background-color:peachpuff;}'
@@ -869,19 +898,19 @@ $mbtn_tisk.Add_Click( {
         
         $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
             Out-File D:\SICZ\avas\AVAS_LuKA\testtisk.html
-        start chrome D:\SICZ\avas\AVAS_LuKA\Testtisk.html
+        start -FilePath chrome -ArgumentList D:\SICZ\avas\AVAS_LuKA\Testtisk.html
     })
 
 
 $MyForm.Controls.Add($mbtn_tisk) 
 
 
-$mbtn_vytvoritsablonu        = New-Object System.Windows.Forms.Button 
+$mbtn_vytvoritsablonu        = New-Object -TypeName System.Windows.Forms.Button 
 $mbtn_vytvoritsablonu.Text   = 'Vytvorit sablonu' 
 $mbtn_vytvoritsablonu.Top    = '51' 
 $mbtn_vytvoritsablonu.Left   = '903' 
 $mbtn_vytvoritsablonu.Anchor = 'Left,Top' 
-$mbtn_vytvoritsablonu.Size   = New-Object System.Drawing.Size(100, 23) 
+$mbtn_vytvoritsablonu.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_vytvoritsablonu.Add_Click( {
         
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
@@ -894,7 +923,7 @@ $mbtn_icwsc.Text             = 'ICWSC script'
 $mbtn_icwsc.Top              = '88' 
 $mbtn_icwsc.Left             = '903' 
 $mbtn_icwsc.Anchor           = 'Left,Top' 
-$mbtn_icwsc.Size             = New-Object System.Drawing.Size(100, 23) 
+$mbtn_icwsc.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_icwsc.Add_Click( {
         
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
@@ -903,12 +932,12 @@ $mbtn_icwsc.Add_Click( {
 $MyForm.Controls.Add($mbtn_icwsc) 
 
 
-$mbtn_patchlevel             = New-Object System.Windows.Forms.Button 
+$mbtn_patchlevel             = New-Object -TypeName System.Windows.Forms.Button 
 $mbtn_patchlevel.Text        = 'Patch level' 
 $mbtn_patchlevel.Top         = '126' 
 $mbtn_patchlevel.Left        = '903' 
 $mbtn_patchlevel.Anchor      = 'Left,Top' 
-$mbtn_patchlevel.Size        = New-Object System.Drawing.Size(100, 23) 
+$mbtn_patchlevel.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_patchlevel.Add_Click( {
         $patche = Get-Content 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
         $patche
@@ -950,7 +979,7 @@ $mlbl_verzesablony.Text      = $json.verzesablony
 $mlbl_verzesablony.Top       = '17' 
 $mlbl_verzesablony.Left      = '751' 
 $mlbl_verzesablony.Anchor    = 'Left,Top' 
-$mlbl_verzesablony.Size      = New-Object System.Drawing.Size(150, 40) 
+$mlbl_verzesablony.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (150, 40) 
 $MyForm.Controls.Add($mlbl_verzesablony) 
         
 $mbtn_nacistjson             = New-Object System.Windows.Forms.Button 
@@ -1045,3 +1074,27 @@ $mButton1.Add_Click( {
 })
 
 $MyForm.ShowDialog()
+# SIG # Begin signature block
+# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUpXnWXjSsDlAK2N8busZWPWWM
+# E3OgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUED8Yofn8l4JuAETmSUrPUboo/gAw
+# DQYJKoZIhvcNAQEBBQAEgYB0eUse8pC3sXESxZUTNmt7AK2PgODzQ/AlHKilJFm8
+# JXtOvaE6QUZ5RVoQGQ361mICbupvbffaqBcOQqKJDtuYp32WieIEKWRzAYamfZ3W
+# mkCN+7sPV43sXs+gcmJ2b+m8ovbzVqdem7XWk8TEqtF67PQCE9T4pIR+KreJm2Wd
+# pw==
+# SIG # End signature block

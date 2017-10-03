@@ -107,3 +107,10 @@ At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:567 char:2
     + CategoryInfo          : ObjectNotFound: (porovnani:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171003112734
+**********************
