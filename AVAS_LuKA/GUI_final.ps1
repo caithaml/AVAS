@@ -68,7 +68,7 @@ $jsondef = Get-Content D:\SICZ\hash_luka.json | ConvertFrom-Json
 Write-Host -Object "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 #>
 Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
-overeni ze je uzivatel administrator
+#overeni ze je uzivatel administrator
 Write-Verbose -Message 'Kontroluji admin prava'
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
             [Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -79,9 +79,9 @@ Write-Host -Object "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
 Write-Host -Object "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
 Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
-==============================================================================================
- GUI
-==============================================================================================
+#==============================================================================================
+# GUI
+#==============================================================================================
      
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
@@ -593,7 +593,7 @@ $MyForm.Controls.Add($mbiosdate)
       
 
 #############################x
- porovnani sloupec
+# porovnani sloupec
 ###############################
 
 
@@ -737,7 +737,7 @@ $mramfree.Text               = $jsondef.ram_free
 $mramfree.Top                = '560' 
 $mramfree.Left               = '330' 
 $mramfree.Anchor             = 'Left,Top' 
-$mramfree.Size               = New-Object System.Drawing.Size(100, 23) 
+$mramfree.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mramfree) 
 
 
@@ -746,7 +746,7 @@ $mvirtualtotal.Text          = $jsondef.virtual_total
 $mvirtualtotal.Top           = '591' 
 $mvirtualtotal.Left          = '330' 
 $mvirtualtotal.Anchor        = 'Left,Top' 
-$mvirtualtotal.Size          = New-Object System.Drawing.Size(100, 23) 
+$mvirtualtotal.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mvirtualtotal) 
 
 
@@ -755,7 +755,7 @@ $mvirtualfree.Text           = $jsondef.virtual_free
 $mvirtualfree.Top            = '619' 
 $mvirtualfree.Left           = '330' 
 $mvirtualfree.Anchor         = 'Left,Top' 
-$mvirtualfree.Size           = New-Object System.Drawing.Size(100, 23) 
+$mvirtualfree.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mvirtualfree) 
 
 
@@ -764,7 +764,7 @@ $mwindir.Text                = $jsondef.win_dir
 $mwindir.Top                 = '647' 
 $mwindir.Left                = '330' 
 $mwindir.Anchor              = 'Left,Top' 
-$mwindir.Size                = New-Object System.Drawing.Size(100, 23) 
+$mwindir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mwindir) 
 
 
@@ -773,7 +773,7 @@ $msysdir.Text                = $jsondef.sys_dir
 $msysdir.Top                 = '673' 
 $msysdir.Left                = '330' 
 $msysdir.Anchor              = 'Left,Top' 
-$msysdir.Size                = New-Object System.Drawing.Size(100, 23) 
+$msysdir.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($msysdir) 
 
 
@@ -782,7 +782,7 @@ $mtempdir.Text               = $jsondef.temp_dir
 $mtempdir.Top                = '703' 
 $mtempdir.Left               = '330' 
 $mtempdir.Anchor             = 'Left,Top' 
-$mtempdir.Size               = New-Object System.Drawing.Size(100, 23) 
+$mtempdir.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mtempdir) 
 
 
@@ -791,7 +791,7 @@ $mbtn_scriptstartup.Text     = 'Script startup'
 $mbtn_scriptstartup.Top      = '314' 
 $mbtn_scriptstartup.Left     = '330' 
 $mbtn_scriptstartup.Anchor   = 'Left,Top' 
-$mbtn_scriptstartup.Size     = New-Object System.Drawing.Size(100, 23) 
+$mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mbtn_scriptstartup) 
 
 
@@ -800,7 +800,7 @@ $mbtn_scriptshutdown.Text    = 'Script shutdown'
 $mbtn_scriptshutdown.Top     = '345' 
 $mbtn_scriptshutdown.Left    = '330' 
 $mbtn_scriptshutdown.Anchor  = 'Left,Top' 
-$mbtn_scriptshutdown.Size    = New-Object System.Drawing.Size(100, 23) 
+$mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mbtn_scriptshutdown) 
 
 
@@ -812,10 +812,10 @@ $mbtn_executionpolicy.Top    = '733'
 $mbtn_executionpolicy.Left   = '330' 
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
 $mbtn_executionpolicy.Size   = 
-New-Object System.Drawing.Size(100, 23) 
+New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
         
-        start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+        start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
         
     })
      
@@ -942,7 +942,7 @@ $mbtn_patchlevel.Add_Click( {
         $patche = Get-Content 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
         $patche
         $patche | Out-GridView
-           start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+         #  start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
            
     })
 $MyForm.Controls.Add($mbtn_patchlevel) 
@@ -1077,8 +1077,8 @@ $MyForm.ShowDialog()
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUj6p2Jb4L1pOdpKhssIwC2PUL
-# pYmgggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUk+Wae0PrtpZskoNVHIeWG6Dn
+# CfigggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -1092,9 +1092,9 @@ $MyForm.ShowDialog()
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUaIuiVbUaDNYz2tt8qLzlu4e8xN0w
-# DQYJKoZIhvcNAQEBBQAEgYB97BiTeyoc7ZRm29pAO9z715Z1sT0+bL01o7gLELQe
-# /MtVunkhRcs8HUUc9/ocHbON3Zu8NdkLUwBUpGYI0u+YWtH8J2LorhMANcYTgnAV
-# WicMaGlIG0kpbF9CCoAESRvMISl91RBXB8brXt8nU2hdzo5B03z/JMVe19Qqga5j
-# Sg==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUrJ2VGDrpgP8g0dxqN4RCCiADkakw
+# DQYJKoZIhvcNAQEBBQAEgYBBBvdb4hZUbmAME2pzUsTuXpVGRiz+qmrg2Yq9Y5Pr
+# WmvXXImSDjzjbJ1VuYv/fSiAF4QDQ7SdopbhOx8bXc0y3omEZuRTc7iXwfxYXSyU
+# uHH9PyFsTB6NxsdDhH1okA9rbIzMR5WIV+YJe0+5w4+A42wCGXDfcQAMUsiMCwPZ
+# Pg==
 # SIG # End signature block
