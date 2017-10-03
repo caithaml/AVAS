@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20171003113426
+Start time: 20171003113746
 Username: DESKTOP-TBE27PS\lukas
 RunAs User: DESKTOP-TBE27PS\lukas
 Configuration Name: 
 Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16299.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1'
-Process ID: 11508
+Process ID: 17132
 PSVersion: 5.1.16299.0
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.0
@@ -63,86 +63,11 @@ At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:54 char:45
     + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.ConvertFrom
    JsonCommand
 
-10/03/2017 11:34:34 - Obsah souboru: ()
-Transcript started, output file is ./transcript2017-10-03-11-34-34.txt
-10/03/2017 11:34:34 - Dokonceno nacitani json konfiguracniho souboru
-10/03/2017 11:34:34 - zjisteni zda je uzivatel admin
+10/03/2017 11:37:52 - Obsah souboru: ()
+Transcript started, output file is ./transcript2017-10-03-11-37-52.txt
+10/03/2017 11:37:52 - Dokonceno nacitani json konfiguracniho souboru
+10/03/2017 11:37:52 - zjisteni zda je uzivatel admin
 WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
-10/03/2017 11:34:34 - ukonceno zjistovani zda je uzivatel admin
-10/03/2017 11:34:34 - uzivatel je admin pokracuje dalsi spusteni skriptu
-10/03/2017 11:34:34 - Nacitam GUI
-============================================================================================== : The term '=============
-=================================================================================' is not recognized as the name of a cm
-dlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that
- the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:82 char:1
-+ ===================================================================== ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (===============...===============:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-============================================================================================== : The term '============
-==================================================================================' is not recognized as the name of a
-cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify t
-hat the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:82 char:1
-+ ===================================================================== ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (===============...===============:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-GUI : The term 'GUI' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the sp
-elling of the name, or if a path was included, verify that the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:83 char:2
-+  GUI
-+  ~~~
-    + CategoryInfo          : ObjectNotFound: (GUI:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-GUI : The term 'GUI' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the s
-pelling of the name, or if a path was included, verify that the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:83 char:2
-+  GUI
-+  ~~~
-    + CategoryInfo          : ObjectNotFound: (GUI:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-============================================================================================== : The term '=============
-=================================================================================' is not recognized as the name of a cm
-dlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that
- the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:84 char:1
-+ ===================================================================== ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (===============...===============:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-============================================================================================== : The term '============
-==================================================================================' is not recognized as the name of a
-cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify t
-hat the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:84 char:1
-+ ===================================================================== ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (===============...===============:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-porovnani : The term 'porovnani' is not recognized as the name of a cmdlet, function, script file, or operable program. 
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:596 char:2
-+  porovnani sloupec
-+  ~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (porovnani:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-porovnani : The term 'porovnani' is not recognized as the name of a cmdlet, function, script file, or operable program.
- Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-At D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1:596 char:2
-+  porovnani sloupec
-+  ~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (porovnani:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Cancel
-PS>$global:?
-True
-**********************
-Windows PowerShell transcript end
-End time: 20171003113448
-**********************
+10/03/2017 11:37:52 - ukonceno zjistovani zda je uzivatel admin
+10/03/2017 11:37:52 - uzivatel je admin pokracuje dalsi spusteni skriptu
+10/03/2017 11:37:52 - Nacitam GUI
