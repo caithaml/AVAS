@@ -22,3 +22,8 @@ Transcript started, output file is ./transcript2017-10-03-01-29-59.txt
 10/03/2017 13:29:59 - ukonceno zjistovani zda je uzivatel admin
 10/03/2017 13:29:59 - uzivatel je admin pokracuje dalsi spusteni skriptu
 10/03/2017 13:29:59 - Nacitam GUI
+Cancel
+**********************
+Windows PowerShell transcript end
+End time: 20171003133531
+**********************
