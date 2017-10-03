@@ -23,7 +23,7 @@ function appdiff
   }
     
   $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
-  $Diff
+
 }
 appdiff
 
