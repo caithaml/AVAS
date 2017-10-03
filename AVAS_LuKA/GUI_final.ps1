@@ -866,7 +866,7 @@ $mbtn_tisk.Add_Click( {
         $tisk = $tisk + $json.OS
         $tisk = $tisk + $json.os_build
         
-        $json.Services | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
+        $json.Installed_apps | ConvertTo-HTML -head $a -body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
             Out-File C:\SICZ\Testtisk.html
         start chrome C:\SICZ\Testtisk.html
     })
@@ -958,31 +958,46 @@ $mbtn_nacistjson.Top = "230"
 $mbtn_nacistjson.Left = "902" 
 $mbtn_nacistjson.Anchor = "Left,Top" 
 $mbtn_nacistjson.Size = New-Object System.Drawing.Size(100, 23) 
-$mbtn_nacistjson.Add_Click( {
-        
+#$mbtn_nacistjson.Add_Click( {
+ #       
         #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
-        $openFileDialog = New-Object windows.forms.openfiledialog   
-        $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
-        $openFileDialog.title = "Select Settings Configuration File to Import"   
-        $openFileDialog.filter = "All files (*.*)| *.*"   
+  #      $openFileDialog = New-Object windows.forms.openfiledialog   
+   #     $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
+    #    $openFileDialog.title = "Select Settings Configuration File to Import"   
+     #   $openFileDialog.filter = "All files (*.*)| *.*"   
         #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
-        $openFileDialog.ShowHelp = $True   
-        Write-Host "Select  Settings File... (see FileOpen Dialog)" -ForegroundColor Green  
-        $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+      #  $openFileDialog.ShowHelp = $True   
+       # Write-Host "Select  Settings File... (see FileOpen Dialog)" -ForegroundColor Green  
+        #$result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
         # in ISE you may have to alt-tab or minimize ISE to see dialog box 
-        $result 
-        if ($result -eq "OK") {    
-            Write-Host "Selected  Settings File:"  -ForegroundColor Green  
-            $OpenFileDialog.filename   
-            $OpenFileDialog.CheckFileExists 
+        #$result 
+        #if ($result -eq "OK") {    
+         #   Write-Host "Selected  Settings File:"  -ForegroundColor Green  
+          #  $OpenFileDialog.filename   
+           # $OpenFileDialog.CheckFileExists 
                     
             # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
             # Unremark the above line if you actually want to perform an import of a publish settings file  
-            Write-Host "Import Settings File Imported!" -ForegroundColor Green 
+            #Write-Host "Import Settings File Imported!" -ForegroundColor Green 
                   
-        } 
-        else { Write-Host "Import Settings File Cancelled!" -ForegroundColor Yellow} 
-    })
+        #} 
+        #else { Write-Host "Import Settings File Cancelled!" -ForegroundColor Yellow} 
+    #})
+
+    #$mbtn_nacistjson.Add_Click(
+     #  {
+    #Function Get-FileName($initialDirectory)
+     #   {
+      #    $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
+       #   $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
+        #  $OpenFileDialog.initialDirectory = $initialDirectory
+         # $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
+          #$null = $OpenFileDialog.ShowDialog()
+          #$OpenFileDialog.filename
+        #}
+        #$null = $OpenFileDialog.ShowDialog()
+    #}
+    #)
 $MyForm.Controls.Add($mbtn_nacistjson) 
 $mlbl_nactenyjson = New-Object System.Windows.Forms.Label 
 $mlbl_nactenyjson.Text = "D:\SICZ\hash_luka.json" 
