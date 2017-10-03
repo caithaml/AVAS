@@ -475,7 +475,7 @@ $mbtn_scriptshutdown.Text    = 'Script shutdown'
 $mbtn_scriptshutdown.Top     = '345' 
 $mbtn_scriptshutdown.Left    = '115' 
 $mbtn_scriptshutdown.Anchor  = 'Left,Top' 
-$mbtn_scriptshutdown.Size    = New-Object System.Drawing.Size(100, 23) 
+$mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptshutdown.Add_Click( {
             
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
@@ -489,7 +489,7 @@ $mlbl_executionpolicy.Text   = 'Execution policy'
 $mlbl_executionpolicy.Top    = '734' 
 $mlbl_executionpolicy.Left   = '8' 
 $mlbl_executionpolicy.Anchor = 'Left,Top' 
-$mlbl_executionpolicy.Size   = New-Object System.Drawing.Size(100, 23) 
+$mlbl_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_executionpolicy) 
          
  
@@ -498,7 +498,7 @@ $mbtn_executionpolicy.Text   = 'Details'
 $mbtn_executionpolicy.Top    = '733' 
 $mbtn_executionpolicy.Left   = '117' 
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
-$mbtn_executionpolicy.Size   = New-Object System.Drawing.Size(100, 23) 
+$mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
                 
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
@@ -512,7 +512,7 @@ $mlbl_protectini.Text        = 'Protect INI'
 $mlbl_protectini.Top         = '768' 
 $mlbl_protectini.Left        = '9' 
 $mlbl_protectini.Anchor      = 'Left,Top' 
-$mlbl_protectini.Size        = New-Object System.Drawing.Size(100, 23) 
+$mlbl_protectini.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_protectini) 
          
  
@@ -521,7 +521,7 @@ $mlbl_bios.Text              = 'BIOS'
 $mlbl_bios.Top               = '800' 
 $mlbl_bios.Left              = '12' 
 $mlbl_bios.Anchor            = 'Left,Top' 
-$mlbl_bios.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlbl_bios.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_bios) 
          
  
@@ -530,7 +530,7 @@ $mlbl_biosdate.Text          = 'BIOS date'
 $mlbl_biosdate.Top           = '829' 
 $mlbl_biosdate.Left          = '11' 
 $mlbl_biosdate.Anchor        = 'Left,Top' 
-$mlbl_biosdate.Size          = New-Object System.Drawing.Size(100, 23) 
+$mlbl_biosdate.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlbl_biosdate) 
          
  
@@ -539,7 +539,7 @@ $mprotect.Text               = $json.protect_ini
 $mprotect.Top                = '770' 
 $mprotect.Left               = '120' 
 $mprotect.Anchor             = 'Left,Top' 
-$mprotect.Size               = New-Object System.Drawing.Size(100, 23) 
+$mprotect.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mprotect) 
          
  
@@ -548,7 +548,7 @@ $mbios.Text                  = $json.Bios
 $mbios.Top                   = '799' 
 $mbios.Left                  = '121' 
 $mbios.Anchor                = 'Left,Top' 
-$mbios.Size                  = New-Object System.Drawing.Size(100, 23) 
+$mbios.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mbios) 
          
  
@@ -557,7 +557,7 @@ $mbiosdate.Text              = $json.bios_date
 $mbiosdate.Top               = '823' 
 $mbiosdate.Left              = '120' 
 $mbiosdate.Anchor            = 'Left,Top' 
-$mbiosdate.Size              = New-Object System.Drawing.Size(100, 23) 
+$mbiosdate.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mbiosdate) 
          
  
@@ -573,7 +573,7 @@ $mcomputername.Text          = $jsondef.ComputerName
 $mcomputername.Top           = '38' 
 $mcomputername.Left          = '330' 
 $mcomputername.Anchor        = 'Left,Top' 
-$mcomputername.Size          = New-Object System.Drawing.Size(100, 23) 
+$mcomputername.Size          = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mcomputername) 
 
 
@@ -582,7 +582,7 @@ $mdate.Text                  = $jsondef.date
 $mdate.Top                   = '71' 
 $mdate.Left                  = '330' 
 $mdate.Anchor                = 'Left,Top' 
-$mdate.Size                  = New-Object System.Drawing.Size(100, 23) 
+$mdate.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdate) 
 
 
@@ -591,7 +591,7 @@ $muser.Text                  = $jsondef.user
 $muser.Top                   = '103' 
 $muser.Left                  = '330' 
 $muser.Anchor                = 'Left,Top' 
-$muser.Size                  = New-Object System.Drawing.Size(100, 23) 
+$muser.Size                  = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($muser) 
 
 
@@ -600,16 +600,16 @@ $mlastuser.Text              = $jsondef.last_user
 $mlastuser.Top               = '137' 
 $mlastuser.Left              = '330' 
 $mlastuser.Anchor            = 'Left,Top' 
-$mlastuser.Size              = New-Object System.Drawing.Size(100, 23) 
+$mlastuser.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mlastuser) 
 
 
-$mdomain                     = New-Object System.Windows.Forms.Label 
+$mdomain                     = New-Object -TypeName System.Windows.Forms.Label 
 $mdomain.Text                = $jsondef.Domain 
 $mdomain.Top                 = '168' 
 $mdomain.Left                = '330' 
 $mdomain.Anchor              = 'Left,Top' 
-$mdomain.Size                = New-Object System.Drawing.Size(100, 23) 
+$mdomain.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdomain) 
 
 
@@ -618,7 +618,7 @@ $mdomaintcp.Text             = $jsondef.domain_tcp
 $mdomaintcp.Top              = '199' 
 $mdomaintcp.Left             = '330' 
 $mdomaintcp.Anchor           = 'Left,Top' 
-$mdomaintcp.Size             = New-Object System.Drawing.Size(100, 23) 
+$mdomaintcp.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdomaintcp) 
 
 
@@ -627,7 +627,7 @@ $mdomaindhcp.Text            = $jsondef.domain_dhcp
 $mdomaindhcp.Top             = '226' 
 $mdomaindhcp.Left            = '330' 
 $mdomaindhcp.Anchor          = 'Left,Top' 
-$mdomaindhcp.Size            = New-Object System.Drawing.Size(100, 23) 
+$mdomaindhcp.Size            = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mdomaindhcp) 
 
 
@@ -636,16 +636,16 @@ $msitename.Text              = $jsondef.site_name
 $msitename.Top               = '255' 
 $msitename.Left              = '330' 
 $msitename.Anchor            = 'Left,Top' 
-$msitename.Size              = New-Object System.Drawing.Size(100, 23) 
+$msitename.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($msitename) 
 
 
-$mactivedc                   = New-Object System.Windows.Forms.Label 
+$mactivedc                   = New-Object -TypeName System.Windows.Forms.Label 
 $mactivedc.Text              = $jsondef.active_dc
 $mactivedc.Top               = '282' 
 $mactivedc.Left              = '330' 
 $mactivedc.Anchor            = 'Left,Top' 
-$mactivedc.Size              = New-Object System.Drawing.Size(100, 23) 
+$mactivedc.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mactivedc) 
 
 
@@ -654,7 +654,7 @@ $mos.Text                    = $jsondef.os
 $mos.Top                     = '376' 
 $mos.Left                    = '330' 
 $mos.Anchor                  = 'Left,Top' 
-$mos.Size                    = New-Object System.Drawing.Size(100, 23) 
+$mos.Size                    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mos) 
 
 
@@ -663,7 +663,7 @@ $mosbuild.Text               = $jsondef.os_build
 $mosbuild.Top                = '408' 
 $mosbuild.Left               = '330' 
 $mosbuild.Anchor             = 'Left,Top' 
-$mosbuild.Size               = New-Object System.Drawing.Size(100, 23) 
+$mosbuild.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mosbuild) 
 
 
@@ -672,7 +672,7 @@ $mservicepack.Text           = $jsondef.sp
 $mservicepack.Top            = '438' 
 $mservicepack.Left           = '330' 
 $mservicepack.Anchor         = 'Left,Top' 
-$mservicepack.Size           = New-Object System.Drawing.Size(100, 23) 
+$mservicepack.Size           = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mservicepack) 
 
 
@@ -681,7 +681,7 @@ $mosinstalldate.Text         = $jsondef.Install
 $mosinstalldate.Top          = '469' 
 $mosinstalldate.Left         = '330' 
 $mosinstalldate.Anchor       = 'Left,Top' 
-$mosinstalldate.Size         = New-Object System.Drawing.Size(100, 23) 
+$mosinstalldate.Size         = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mosinstalldate) 
 
 
@@ -690,7 +690,7 @@ $moslastboottime.Text        = $jsondef.last_boot_time
 $moslastboottime.Top         = '497' 
 $moslastboottime.Left        = '330' 
 $moslastboottime.Anchor      = 'Left,Top' 
-$moslastboottime.Size        = New-Object System.Drawing.Size(100, 23) 
+$moslastboottime.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($moslastboottime) 
 
 
@@ -699,7 +699,7 @@ $mramtotal.Text              = $jsondef.ram_total
 $mramtotal.Top               = '531' 
 $mramtotal.Left              = '330' 
 $mramtotal.Anchor            = 'Left,Top' 
-$mramtotal.Size              = New-Object System.Drawing.Size(100, 23) 
+$mramtotal.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $MyForm.Controls.Add($mramtotal) 
 
 
@@ -777,12 +777,13 @@ $MyForm.Controls.Add($mbtn_scriptshutdown)
 
 
 
-$mbtn_executionpolicy        = New-Object System.Windows.Forms.Button 
+$mbtn_executionpolicy        = New-Object -TypeName System.Windows.Forms.Button 
 $mbtn_executionpolicy.Text   = 'Details' 
 $mbtn_executionpolicy.Top    = '733' 
 $mbtn_executionpolicy.Left   = '330' 
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
-$mbtn_executionpolicy.Size   = New-Object System.Drawing.Size(100, 23) 
+$mbtn_executionpolicy.Size   = 
+New-Object System.Drawing.Size(100, 23) 
 $mbtn_executionpolicy.Add_Click( {
         
         start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
