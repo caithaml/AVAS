@@ -855,6 +855,7 @@ $mbtn_tisk.Add_Click( {
     $a    = $a + 'TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}'
     $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
     $a    = $a + '</style>'
+
     $tisk = $json.ComputerName
     $tisk = $tisk + $json.OS
     $tisk = $tisk + $json.os_build
