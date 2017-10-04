@@ -1,0 +1,44 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171004102210
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\WINDOWS\system32\windowspowershell\v1.0\powershell.exe -sta -noprofile -executionpolicy bypass -encodedcommand JAB4AD0AJwA3AGUAOAA1ADYAYQBkADgALQAyADkAMgBmAC0ANAAyAGYAMAAtADgAZAA5ADIALQBkADkAZgBjADYAMwBjAGIANAAyAGUANAAnADsAJAB5AD0AJwBEADoAXABTAEkAQwBaAFwAYQB2AGEAcwBcAGUAeABlAC4AZQB4AGUAJwA7AHQAcgB5ACAAewANAAoAIAAgAGkAZgAgACgAWwBFAG4AdgBpAHIAbwBuAG0AZQBuAHQAXQA6ADoAVgBlAHIAcwBpAG8AbgAuAE0AYQBqAG8AcgAgAC0AZwBlACAANAApAA0ACgAgACAAewAgACQAbgB1AGwAbAAgAD0AIABbAFIAZQBmAGwAZQBjAHQAaQBvAG4ALgBBAHMAcwBlAG0AYgBsAHkAXQA6ADoAVQBuAHMAYQBmAGUATABvAGEAZABGAHIAbwBtACgAJAB5ACkAIAB9ACAAZQBsAHMAZQAgAHsAIAAkAG4AdQBsAGwAIAA9ACAAWwBSAGUAZgBsAGUAYwB0AGkAbwBuAC4AQQBzAHMAZQBtAGIAbAB5AF0AOgA6AEwAbwBhAGQARgBpAGwAZQAoACQAeQApAH0ADQAKACAAIAAuACAAKABbAF8AMwAyAC4AXwA4ADgAXQA6ADoAXwA3ADQAKAAkAHgAKQApAA0ACgAgACAAZQB4AGkAdAAgACQATABBAFMAVABFAFgASQBUAEMATwBEAEUADQAKAH0AIAANAAoAYwBhAHQAYwBoACAAWwBOAG8AdABTAHUAcABwAG8AcgB0AGUAZABFAHgAYwBlAHAAdABpAG8AbgBdAA0ACgB7AA0ACgAgACAAVwByAGkAdABlAC0ASABvAHMAdAAgACcAQQBwAHAAbABpAGMAYQB0AGkAbwBuACAAbABvAGMAYQB0AGkAbwBuACAAaQBzACAAdQBuAHQAcgB1AHMAdABlAGQALgAgAEMAbwBwAHkAIABmAGkAbABlACAAdABvACAAYQAgAGwAbwBjAGEAbAAgAGQAcgBpAHYAZQAsACAAYQBuAGQAIAB0AHIAeQAgAGEAZwBhAGkAbgAuACcAIAAtAEYAbwByAGUAZwByAG8AdQBuAGQAQwBvAGwAbwByACAAUgBlAGQADQAKAH0ADQAKAGMAYQB0AGMAaAAgAHsADQAKACAAIABXAHIAaQB0AGUALQBIAG8AcwB0ACAAKAAiAEUAcgByAG8AcgA6ACAAIgAgACsAIAAkAF8ALgBFAHgAYwBlAHAAdABpAG8AbgAuAE0AZQBzAHMAYQBnAGUAKQAgAC0ARgBvAHIAZQAgAFIAZQBkACAADQAKAH0A
+Process ID: 8836
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./AVAS_2017_10_04.log
+Get-Content : Cannot find path 'D:\SICZ\avas\OK' because it does not exist.
+At D:\SICZ\avas\exe.exe:25 char:32
++ $inputdata                   = Get-Content -Path $inputfile
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\SICZ\avas\OK:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'D:\SICZ\avas\OK' because it does not exist.
+At D:\SICZ\avas\exe.exe:25 char:32
++ $inputdata                   = Get-Content -Path $inputfile
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\SICZ\avas\OK:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+10/04/2017 10:22:18 - Obsah souboru: (@{verzesablony=; ComputerName=DESKTOP-TBE27PS; Date=; User=lukas; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.17004; SP=0; Install_Date=; Last_Boot_Time=10/04/2017 08:00:08; RAM_Total=16289; RAM_Free=11; Virtual_Total=19; Virtual_Free=14; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; AV_MS_Product=Windows Defender; AV_MS_ResidentOn=False; AV_MS_Version=4.12.17004.1000; AV_MS_Scanner_Build=1.1.14201.0; AV_MS_Scanner_Version=1.251.927.0; System_Log_Length=1118208; Secrutiy_Log_Length=7409664; Application_Log_Length=2166784; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; Bitlocker=; UEFI_partition=; Hotfixes=; Services=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=})
+Transcript started, output file is ./transcript2017-10-04-10-22-18.txt
+10/04/2017 10:22:18 - Dokonceno nacitani json konfiguracniho souboru
+10/04/2017 10:22:18 - zjisteni zda je uzivatel admin
+10/04/2017 10:22:18 - ukonceno zjistovani zda je uzivatel admin
+10/04/2017 10:22:18 - uzivatel je admin pokracuje dalsi spusteni skriptu
+10/04/2017 10:22:18 - Nacitam GUI
+Cancel
+**********************
+Windows PowerShell transcript end
+End time: 20171004102221
+**********************
