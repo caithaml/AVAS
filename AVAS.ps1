@@ -1,15 +1,42 @@
 #requires -Version 3.0
-Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
-#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+## ODSTRANIT !!!! - debug
+Write-Verbose -Message "$(Get-Date) - Obsah souboru: ($json)"
+Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+## ODSTRANIT !!!! - debug
+
+$transcriptname              = Get-Date -UFormat 'AVAS_%Y_%m_%d'
+Start-Transcript -Path "./$transcriptname.log"
+
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
-$json                        = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
+
+Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
+Function Get-FileName($initialDirectory)
+{
+  $null                            = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
+    
+  $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
+  $OpenFileDialog.initialDirectory = $initialDirectory
+  $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
+  $null                            = $OpenFileDialog.ShowDialog()
+  $OpenFileDialog.filename
+}
+$inputfile                   = Get-FileName -initialDirectory 'D:\SICZ\avas\' #defaultni adresar
+$inputdata                   = Get-Content -Path $inputfile
+
+$json                        = $inputdata | ConvertFrom-Json
 $jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
+## ODSTRANIT !!!! - pouze pro  debug
+Write-Host -Object "$(Get-Date) - Obsah souboru: ($json)"
+Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+## ODSTRANIT !!!! - pouze pro debug
 
 
-Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
-#overeni ze je uzivatel administrator
+Write-Host -Object "$(Get-Date) - Dokonceno nacitani json konfiguracniho souboru"
+
+
+Write-Host -Object "$(Get-Date) - zjisteni zda je uzivatel admin"
+
 Write-Verbose -Message 'Kontroluji admin prava'
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
 [Security.Principal.WindowsBuiltInRole] 'Administrator')) 
@@ -17,11 +44,9 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
   Write-Warning -Message 'Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!'
 }
 
-Write-Verbose -Message "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
-
-Write-Verbose -Message "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
-Write-Verbose -Message "$(Get-Date) - Nacitam GUI"
-
+Write-Host -Object "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
+Write-Host -Object "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
+Write-Host -Object "$(Get-Date) - Nacitam GUI"
 
 #==============================================================================================
 # GUI
@@ -531,9 +556,9 @@ $MyForm.Controls.Add($mbiosdate)
  
       
 
-##############################x
+#############################x
 # porovnani sloupec
-################################
+###############################
 
 
 $mcomputername               = New-Object -TypeName System.Windows.Forms.Label 
@@ -750,7 +775,9 @@ $mbtn_executionpolicy.Text   = 'Details'
 $mbtn_executionpolicy.Top    = '733' 
 $mbtn_executionpolicy.Left   = '330' 
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
-$mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mbtn_executionpolicy.Size   = 
+New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+
 $mbtn_executionpolicy.Add_Click( {
     Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
 })
@@ -828,14 +855,15 @@ $mbtn_tisk.Add_Click( {
     $a    = $a + 'TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}'
     $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
     $a    = $a + '</style>'
+
     $tisk = $json.ComputerName
     $tisk = $tisk + $json.OS
     $tisk = $tisk + $json.os_build
         
-    $json.Services |
-    ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date)</H2>" | 
-    Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
-    Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
+    $json.Installed_apps |
+    ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
+    Out-File -FilePath D:\SICZ\avas\AVAS_LuKA\testtisk.html
+    Start-Process -FilePath chrome -ArgumentList D:\SICZ\avas\AVAS_LuKA\Testtisk.html
 })
 
 
@@ -873,9 +901,9 @@ $mbtn_patchlevel.Anchor      = 'Left,Top'
 $mbtn_patchlevel.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_patchlevel.Add_Click( {
     $patche = Get-Content -Path 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
-    #$patche
+    $patche
     $patche | Out-GridView
-    #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+    #  start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
 })
 $MyForm.Controls.Add($mbtn_patchlevel) 
 
@@ -917,32 +945,44 @@ $mbtn_nacistjson.Left        = '902'
 $mbtn_nacistjson.Anchor      = 'Left,Top' 
 $mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
-    #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
-    $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
-    $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
-    $openFileDialog.title            = 'Select Settings Configuration File to Import'   
-    $openFileDialog.filter           = 'All files (*.*)| *.*'   
-    #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
-    $openFileDialog.ShowHelp         = $True   
-    Write-Verbose -Message 'Select  Settings File... (see FileOpen Dialog)'  
-    $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
-    # in ISE you may have to alt-tab or minimize ISE to see dialog box 
-    $result 
-    if ($result -eq 'OK') 
-    {    
-      Write-Verbose -Message 'Selected  Settings File:'  
-      $openFileDialog.filename   
-      $openFileDialog.CheckFileExists 
+    <#       start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+        $openFileDialog = New-Object -TypeName windows.forms.openfiledialog   
+        $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
+        $openFileDialog.title = 'Select Settings Configuration File to Import'   
+        $openFileDialog.filter = 'All files (*.*)| *.*'   
+        $openFileDialog.filter = 'PublishSettings Files|*.publishsettings|All Files|*.*' 
+        $openFileDialog.ShowHelp = $True   
+        Write-Host 'Select  Settings File... (see FileOpen Dialog)' -ForegroundColor Green  
+        $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+        in ISE you may have to alt-tab or minimize ISE to see dialog box 
+        $result 
+        if ($result -eq 'OK') {    
+        Write-Host 'Selected  Settings File:'  -ForegroundColor Green  
+        $OpenFileDialog.filename   
+        $OpenFileDialog.CheckFileExists 
                     
-      # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
-      # Unremark the above line if you actually want to perform an import of a publish settings file  
-      Write-Verbose -Message 'Import Settings File Imported!'
-    } 
-    else 
-    {
-      Write-Verbose -Message 'Import Settings File Cancelled!'
-    } 
-})
+        Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
+        Unremark the above line if you actually want to perform an import of a publish settings file  
+        Write-Host 'Import Settings File Imported!' -ForegroundColor Green 
+                  
+        } 
+        else { Write-Host 'Import Settings File Cancelled!' -ForegroundColor Yellow} 
+        })
+
+        $mbtn_nacistjson.Add_Click(
+        {
+        Function Get-FileName($initialDirectory)
+        {
+        $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
+        $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
+        $OpenFileDialog.initialDirectory = $initialDirectory
+        $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
+        $null = $OpenFileDialog.ShowDialog()
+        $OpenFileDialog.filename
+        }
+    $null = $OpenFileDialog.ShowDialog()#>
+  }
+)
 $MyForm.Controls.Add($mbtn_nacistjson) 
 $mlbl_nactenyjson            = New-Object -TypeName System.Windows.Forms.Label 
 $mlbl_nactenyjson.Text       = 'D:\SICZ\hash_luka.json' 
@@ -959,10 +999,35 @@ $mlbl_rootcertifikaty.Left   = '903'
 $mlbl_rootcertifikaty.Anchor = 'Left,Top' 
 $mlbl_rootcertifikaty.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mlbl_rootcertifikaty.Add_Click( {
-    #$json.rootcert | Out-GridView
+    $json.rootcert | Out-GridView
     $json.Computer_Root_Certificates | Out-GridView
-    #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+    Start-Process -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
 })
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
+$mLabel1                     = New-Object -TypeName System.Windows.Forms.Label 
+$mLabel1.Text                = 'Rozdilne app' 
+$mLabel1.Top                 = '64' 
+$mLabel1.Left                = '555' 
+$mLabel1.Anchor              = 'Left,Top' 
+$mLabel1.Size                = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$MyForm.Controls.Add($mLabel1) 
+
+
+$mButton1                    = New-Object -TypeName System.Windows.Forms.Button 
+$mButton1.Text               = 'Detail - apps' 
+$mButton1.Top                = '63' 
+$mButton1.Left               = '657' 
+$mButton1.Anchor             = 'Left,Top' 
+$mButton1.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mButton1.Add_Click( {
+    $json.rootcert | Out-GridView
+    
+    Start-Process -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+    # $appsps= start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+    $json.installed_apps | Out-GridView
+})
+
 $MyForm.ShowDialog()
+
+
