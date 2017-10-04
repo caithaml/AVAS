@@ -945,42 +945,7 @@ $mbtn_nacistjson.Left        = '902'
 $mbtn_nacistjson.Anchor      = 'Left,Top' 
 $mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
-    <#       start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
-        $openFileDialog = New-Object -TypeName windows.forms.openfiledialog   
-        $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
-        $openFileDialog.title = 'Select Settings Configuration File to Import'   
-        $openFileDialog.filter = 'All files (*.*)| *.*'   
-        $openFileDialog.filter = 'PublishSettings Files|*.publishsettings|All Files|*.*' 
-        $openFileDialog.ShowHelp = $True   
-        Write-Host 'Select  Settings File... (see FileOpen Dialog)' -ForegroundColor Green  
-        $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
-        in ISE you may have to alt-tab or minimize ISE to see dialog box 
-        $result 
-        if ($result -eq 'OK') {    
-        Write-Host 'Selected  Settings File:'  -ForegroundColor Green  
-        $OpenFileDialog.filename   
-        $OpenFileDialog.CheckFileExists 
-                    
-        Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
-        Unremark the above line if you actually want to perform an import of a publish settings file  
-        Write-Host 'Import Settings File Imported!' -ForegroundColor Green 
-                  
-        } 
-        else { Write-Host 'Import Settings File Cancelled!' -ForegroundColor Yellow} 
-        })
-
-        $mbtn_nacistjson.Add_Click(
-        {
-        Function Get-FileName($initialDirectory)
-        {
-        $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
-        $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
-        $OpenFileDialog.initialDirectory = $initialDirectory
-        $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
-        $null = $OpenFileDialog.ShowDialog()
-        $OpenFileDialog.filename
-        }
-    $null = $OpenFileDialog.ShowDialog()#>
+   
   }
 )
 $MyForm.Controls.Add($mbtn_nacistjson) 
@@ -1004,6 +969,7 @@ $mlbl_rootcertifikaty.Add_Click( {
     Start-Process -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
 })
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
+
 
 $mLabel1                     = New-Object -TypeName System.Windows.Forms.Label 
 $mLabel1.Text                = 'Rozdilne app' 
