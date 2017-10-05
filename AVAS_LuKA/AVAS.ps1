@@ -1,4 +1,4 @@
-#requires -Version 3.0
+﻿#requires -Version 3.0
 ## ODSTRANIT !!!! - debug
 Write-Verbose -Message "$(Get-Date) - Obsah souboru: ($json)"
 Start-Transcript -Path "./transcriptAVAS$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
@@ -945,7 +945,42 @@ $mbtn_nacistjson.Left        = '902'
 $mbtn_nacistjson.Anchor      = 'Left,Top' 
 $mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
-   
+    <#       start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+        $openFileDialog = New-Object -TypeName windows.forms.openfiledialog   
+        $openFileDialog.initialDirectory = [System.IO.Directory]::GetCurrentDirectory()   
+        $openFileDialog.title = 'Select Settings Configuration File to Import'   
+        $openFileDialog.filter = 'All files (*.*)| *.*'   
+        $openFileDialog.filter = 'PublishSettings Files|*.publishsettings|All Files|*.*' 
+        $openFileDialog.ShowHelp = $True   
+        Write-Host 'Select  Settings File... (see FileOpen Dialog)' -ForegroundColor Green  
+        $result = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+        in ISE you may have to alt-tab or minimize ISE to see dialog box 
+        $result 
+        if ($result -eq 'OK') {    
+        Write-Host 'Selected  Settings File:'  -ForegroundColor Green  
+        $OpenFileDialog.filename   
+        $OpenFileDialog.CheckFileExists 
+                    
+        Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
+        Unremark the above line if you actually want to perform an import of a publish settings file  
+        Write-Host 'Import Settings File Imported!' -ForegroundColor Green 
+                  
+        } 
+        else { Write-Host 'Import Settings File Cancelled!' -ForegroundColor Yellow} 
+        })
+
+        $mbtn_nacistjson.Add_Click(
+        {
+        Function Get-FileName($initialDirectory)
+        {
+        $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
+        $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
+        $OpenFileDialog.initialDirectory = $initialDirectory
+        $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
+        $null = $OpenFileDialog.ShowDialog()
+        $OpenFileDialog.filename
+        }
+    $null = $OpenFileDialog.ShowDialog()#>
   }
 )
 $MyForm.Controls.Add($mbtn_nacistjson) 
@@ -970,7 +1005,6 @@ $mlbl_rootcertifikaty.Add_Click( {
 })
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
-
 $mLabel1                     = New-Object -TypeName System.Windows.Forms.Label 
 $mLabel1.Text                = 'Rozdilne app' 
 $mLabel1.Top                 = '64' 
@@ -994,6 +1028,47 @@ $mButton1.Add_Click( {
     $json.installed_apps | Out-GridView
 })
 
+
+$mButton1ns                    = New-Object -TypeName System.Windows.Forms.Button 
+$mButton1ns.Text               = 'Nova sablona' 
+$mButton1ns.Top                = '263' 
+$mButton1ns.Left               = '620' 
+$mButton1ns.Anchor             = 'Left,Top' 
+$mButton1ns.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mButton1ns.Add_Click( {
+    # $json.rootcert | Out-GridView
+    
+    Start-Process -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\vytvorenisablony_new.ps1'
+    # $appsps= start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+    # $json.installed_apps | Out-GridView
+})
+$MyForm.Controls.Add($mButton1ns)
+
 $MyForm.ShowDialog()
 
 
+
+# SIG # Begin signature block
+# MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUfU7igTH3voSV23oHUusKvId+
+# BNigggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
+# MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
+# MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
+# w2XCvRla7bI5idyFp4/4voJ15FsYZqldLYIh2O78M+fmH1mb+Rh61E+Bn/NlV88T
+# H/H4fygqjDC6YjuTJRVsFp/uosTkDWKkKyp596dtNFoc86ZJ4aRD9pasJ14zXMW0
+# UhCNAhR9gaRDT/3UZQIDAQABo0YwRDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNV
+# HQ4EFgQUtEk3bGdVsA6tSNyvrPu3dejsd7UwDgYDVR0PAQH/BAQDAgeAMA0GCSqG
+# SIb3DQEBBQUAA4GBAFs5K1cObLWgA37VO5OWsF4mCUasA9lOLlxeKIXI1flYjJAr
+# Fn9xrSc9jF5u0MmivVzo3W3gWJVMCGmmuvN2X/NVh19XwpNdFrzuFx1MkLEELL6h
+# DHeAofdRyRo3ZNer43N0DPKwnhazoL5LrEgOL+SaZAD3pMpRCRBp6Il8uMwkMYIB
+# UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
+# +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
+# ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQU+4saMPsZOXBezofyGNyS9q5g1Cow
+# DQYJKoZIhvcNAQEBBQAEgYCEnexrPKx9ETb2onERhdjtoJ3AHnrqzts+CBG8Q0SK
+# hjyB5Lh/VaHJ22PeSWiACNlbIQSN7KBZAH7xgDyPBJTikWpCjFKWnyWSdP04D7YY
+# NT5kRCe219RSjPk19Z4XUVeGwummhCVV2y3SJUehNvcDVq9D9MLTTrzVaHOUx1N1
+# xA==
+# SIG # End signature block
