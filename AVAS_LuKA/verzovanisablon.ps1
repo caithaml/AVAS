@@ -1,16 +1,4 @@
-#requires -Version 3.0 -Modules Appx, BitLocker, CimCmdlets, Dism, Microsoft.PowerShell.LocalAccounts, Microsoft.PowerShell.Management, NetTCPIP, SecureBoot, ScheduledTasks
-<#..............................................................
-    Script name: icwsc_object.ps1
-    Creation Date: 01.11.2013
-    Last Modified: sobota 19. srpna 2017 19:07:42
-    Version: 0.1
-    **************************************************************
-    Description: ICWSC skript pro ziskani informaci o pc
-    **************************************************************
-    Authors: 
-    mica S.ICZ 
-    LuKa S.ICZ                                            
-..............................................................#>
+
 
 Clear-Host
 $ErrorActionPreference = 'SilentlyContinue'
@@ -553,8 +541,8 @@ exit
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUgKZjGMfpTdH6ASXkXTwXQnXQ
-# Xm+gggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUR/pXtvjopPK07gQoQVJZXBsw
+# huugggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -568,9 +556,9 @@ exit
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUwlQn/nmD6e8CuAUgNDW8jVlBbfUw
-# DQYJKoZIhvcNAQEBBQAEgYBJADXHin/hRKzZ0Ewuc6MxerrF6erVhWpSjqmG+u7O
-# 2JYk7YeTMuQMA15d049MqCFmGF4fgb7KNjJFjSD140xZ9gl8ucXhe500lwp9w8gC
-# FOatPoG5CT6ZMSycePUPxkpq99AUI/KAafpUAUJU9F5LPnRBjrmN9gdFS1JGeZBv
-# yw==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUqFW80OLqh2zm49ZNR2dylSxA7+4w
+# DQYJKoZIhvcNAQEBBQAEgYA5rPlCFz4PkIVtVmMNFd8u5AJ3WQMtrRxYhw24qafB
+# eUYLrgTno9F6yhs8K/66cOODLiGbNOqAMnHrc8QbLhmloi6Of1Gr8ObXVEgyc6by
+# w/zITBa1UeXQPsHmUOJve6/YlWxtDsALT57K4GiKXKNEAQmMaawJwZ1zPCN0SggE
+# Dg==
 # SIG # End signature block
