@@ -532,7 +532,7 @@ $MyForm.Controls.Add($mbiosdate)
       
 
 ##############################x
-# porovnan√" sloupec
+# porovnani sloupec
 ################################
 
 
