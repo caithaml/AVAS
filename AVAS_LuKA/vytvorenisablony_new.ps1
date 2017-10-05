@@ -1,5 +1,4 @@
-﻿#requires -Version 3.0 -Modules Appx, BitLocker, CimCmdlets, Dism, Microsoft.PowerShell.LocalAccounts, Microsoft.PowerShell.Management, NetTCPIP, SecureBoot, ScheduledTasks
-<#..............................................................
+﻿<#..............................................................
     Script name: icwsc_object.ps1
     Creation Date: 01.11.2013
     Last Modified: sobota 19. srpna 2017 19:07:42
@@ -551,8 +550,8 @@ exit
 # SIG # Begin signature block
 # MIID7QYJKoZIhvcNAQcCoIID3jCCA9oCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUxVgDas/tnktDpBYfcYokwlkd
-# UqigggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUb/b2aXTPBfrFYS1g7KVdjG9p
+# UbigggIHMIICAzCCAWygAwIBAgIQZDdTxzu4+YFMYeyTtmLtgDANBgkqhkiG9w0B
 # AQUFADAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWjAeFw0xNzEwMDIwNzMw
 # MzRaFw0yMTEwMDIwMDAwMDBaMBwxGjAYBgNVBAMMEUx1S2FzIEthcmFiZWMgSUNa
 # MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCapIWqwo94eQlMVMdxEPR947uo
@@ -566,9 +565,9 @@ exit
 # UDCCAUwCAQEwMDAcMRowGAYDVQQDDBFMdUthcyBLYXJhYmVjIElDWgIQZDdTxzu4
 # +YFMYeyTtmLtgDAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKA
 # ADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYK
-# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUORuNPfwNfSgU1bmCpPqOXdaOCQQw
-# DQYJKoZIhvcNAQEBBQAEgYBRth7n+QYBvZ/8d0HiCiV1JynVrb91M1uBZl0fnFe/
-# YAXztw0QDmB1o1M8yyKIxq/2pdBOhgXgeirb7YpgGpb3udzmJxF3nVLcwJiC2V94
-# GlYf0eVhWpGL8ltaQQre/ltVOpzXzYpOi1ol2kPL2paeYNE6Kea6Sc2NX0wq+qPz
-# wQ==
+# KwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUzdhcRp7ftcQo2mDmPsSLXtlNCvgw
+# DQYJKoZIhvcNAQEBBQAEgYB/EvKvlC2VaXHyA2Q6RFfDfiZ7EqsJP3D+WCIEViOc
+# eSm//X30yTgZlhxbpdkErJedXV8Fv7dgFm/rCvMaKK5+QywINXHuQCyGtKKop68X
+# wrCCW7e/bobqbUM0SwtI848+IJyiYe4ikGiFevydhljFCeQnsTm5lJ5yu0f/ASkC
+# pw==
 # SIG # End signature block
