@@ -1028,6 +1028,22 @@ $mButton1.Add_Click( {
     $json.installed_apps | Out-GridView
 })
 
+
+$mButton1ns                    = New-Object -TypeName System.Windows.Forms.Button 
+$mButton1ns.Text               = 'Nova sablona' 
+$mButton1ns.Top                = '263' 
+$mButton1ns.Left               = '620' 
+$mButton1ns.Anchor             = 'Left,Top' 
+$mButton1ns.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mButton1ns.Add_Click( {
+    # $json.rootcert | Out-GridView
+    
+    Start-Process -FilePath powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\vytvorenisablony_new.ps1'
+    # $appsps= start -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\apps.ps1'
+    # $json.installed_apps | Out-GridView
+})
+$MyForm.Controls.Add($mButton1ns)
+
 $MyForm.ShowDialog()
 
 
