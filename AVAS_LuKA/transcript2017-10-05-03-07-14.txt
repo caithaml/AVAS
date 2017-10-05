@@ -18,3 +18,10 @@ SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is ./transcript2017-10-05-03-07-14.txt
 WARNING: Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171005151146
+**********************
