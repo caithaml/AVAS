@@ -856,9 +856,7 @@ $mbtn_tisk.Add_Click( {
     $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
     $a    = $a + '</style>'
 
-    $tisk = $json.ComputerName
-    $tisk = $tisk + $json.OS
-    $tisk = $tisk + $json.os_build
+   
         
     $json.Installed_apps |
     ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
