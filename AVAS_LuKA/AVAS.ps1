@@ -839,9 +839,6 @@ $mbiosdate.Size              = New-Object -TypeName System.Drawing.Size -Argumen
 $MyForm.Controls.Add($mbiosdate) 
 
 
-
-
-
 $mbtn_tisk                   = New-Object -TypeName System.Windows.Forms.Button 
 $mbtn_tisk.Text              = 'Tisk formulare - ulozi protokol' 
 $mbtn_tisk.Top               = '17' 
@@ -856,11 +853,7 @@ $mbtn_tisk.Add_Click( {
     $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
     $a    = $a + '</style>'
 
-   
-        
-    $json.Installed_apps |
-    ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | 
-    Out-File -FilePath D:\SICZ\avas\AVAS_LuKA\testtisk.html
+    $json.Installed_apps | ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | Out-File -FilePath D:\SICZ\avas\AVAS_LuKA\testtisk.html
     Start-Process -FilePath chrome -ArgumentList D:\SICZ\avas\AVAS_LuKA\Testtisk.html
 })
 
@@ -901,7 +894,6 @@ $mbtn_patchlevel.Add_Click( {
     $patche = Get-Content -Path 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
     $patche
     $patche | Out-GridView
-    #  start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
 })
 $MyForm.Controls.Add($mbtn_patchlevel) 
 
