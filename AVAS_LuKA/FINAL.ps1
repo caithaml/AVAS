@@ -32,15 +32,7 @@ if (!(Test-Path -Path "$scriptpath\config.ini"))
   exit
 }
 
-Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
-  $set = @{}
-} -Process {
-  $k = [regex]::split($_,'=')
-  if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true)) 
-  {
-    $set.Add($k[0], $k[1])
-  }
-}
+Get-Content -Path "$scriptpath\config.ini" | foreach-object -begin {$h=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $h.Add($k[0], $k[1]) } }
 
 
 if($set.debug -eq '1') 
