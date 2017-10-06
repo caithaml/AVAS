@@ -29,7 +29,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
 
     if($set.debug -eq '1')
   {
-   Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+   Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).log"
     }
     
     else
