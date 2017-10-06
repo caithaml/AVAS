@@ -21,6 +21,8 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 #nacteni konfigurace z ini souboru
 
+
+
 $scriptpath="D:\SICZ\avas\AVAS_LuKA"
 
 if (!(Test-Path -Path "$scriptpath\config.ini")) 

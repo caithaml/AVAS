@@ -28,3 +28,19 @@ PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObjec
 Transcript started, output file is D:\SICZ\avas\AVAS_LuKA\AVAS_2017_10_06.log
 PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
 Cancel
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-06-10-36-14.txt"
+Transcript started, output file is ./transcript2017-10-06-10-36-14.txt
+WARNING: Skript je nutne spustit s opravneni Administrator! Spustne skript znovu!
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_LuKA\AVAS_2017_10_06.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_LuKA\AVAS_2017_10_06.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-06-10-40-37.txt"
+Transcript started, output file is ./transcript2017-10-06-10-40-37.txt
+WARNING: Skript je nutne spustit s opravneni Administrator! Spustne skript znovu!
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_LuKA\AVAS_2017_10_06.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_LuKA\AVAS_2017_10_06.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
