@@ -1,5 +1,18 @@
 ﻿#requires -Version 3.0
+
+
+$transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
+
+
+Start-Transcript -Path "$scriptpath\$transcriptname.log" -Append
+
+## debug transcript - debug vymazat!!
+
 Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+
+######
+
+
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
 $json                        = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
@@ -21,9 +34,9 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 #nacteni konfigurace z ini souboru
 
+$scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 
-
-$scriptpath = 'D:\SICZ\avas\AVAS_LuKA'
+#$scriptpath = 'D:\SICZ\avas\AVAS_LuKA'
 
 if (!(Test-Path -Path "$scriptpath\config.ini")) 
 {
@@ -32,7 +45,7 @@ if (!(Test-Path -Path "$scriptpath\config.ini"))
   exit
 }
 
-Get-Content -Path "$scriptpath\config.ini" | foreach-object -begin {$h=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $h.Add($k[0], $k[1]) } }
+Get-Content -Path "D:\SICZ\avas\avas_luka\config.ini" | foreach-object -begin {$h=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $h.Add($k[0], $k[1]) } }
 
 
 if($set.debug -eq '1') 
@@ -55,11 +68,16 @@ if($set.debug -eq '1')
     }
    
 
-
-$transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
-
-
-Start-Transcript -Path "$scriptpath\$transcriptname.log" -Append
+   
+    if($set.spust -eq '1')
+  {
+    $vypispreference=Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+    }
+    
+    else
+    {
+    $vypispreference='Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"'
+    }
 
 
 
