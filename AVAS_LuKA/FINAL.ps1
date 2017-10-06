@@ -14,7 +14,7 @@ Write-Verbose -Message 'Kontroluji admin prava'
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
 [Security.Principal.WindowsBuiltInRole] 'Administrator'))
 {
-  Write-Warning "Skrtip je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
+  Write-Warning "Skript je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
   #Break 
   # z duvodu vyvoje není povoleno zastaveni!!
 }
@@ -39,7 +39,7 @@ Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
     $set.Add($k[0], $k[1])
   }
 }
-<#if($set.debug -eq '1') 
+if($set.debug -eq '1') 
     {
     $DebugPreference = 'Continue'
     }
@@ -47,23 +47,23 @@ Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
     {
     $DebugPreference = 'SilentlyContinue'
     }
-#>
+
+    if($set.vypis -eq '1')
+    {
+      $vypispreference=Start-Transcript -Path "./vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+    }
+    
+    else
+    {
+      $vypispreference=Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
+    }
+    
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
-$DPDestination = $set.DPdestination
+
 
 Start-Transcript -Path "$scriptpath\$transcriptname.log" -Append
 
-<#if (!(Test-Path -Path "$scriptpath\install.zip")) 
-    {
-    Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\install.zip `r"
-    Stop-Transcript
-    exit
-    }
 
-    Write-Verbose -Message "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
-
-    Write-Verbose -Message "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
-#>
 
 Write-Verbose -Message "$(get-date) - logovani zapnuto, uzivatel je admin pokracuju..."
 Write-Verbose -Message "$(Get-Date) - Nacitam GUI"
