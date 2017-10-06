@@ -2,7 +2,7 @@
     Add-Type -AssemblyName System.Windows.Forms 
     Add-Type -AssemblyName System.Drawing 
     $MyForm = New-Object System.Windows.Forms.Form 
-    $MyForm.Text="oknoformulare" 
+    $MyForm.Text="START - debug rozhrani" 
   $MyForm.Size = New-Object System.Drawing.Size(300,300) 
    
  
@@ -37,7 +37,7 @@
         $mbtn_sablony.Anchor="Left,Top" 
     $mbtn_sablony.Size = New-Object System.Drawing.Size(100,23) 
     $mbtn_sablony.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\sablony.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\sprava_sablon.ps1'
 })
     $MyForm.Controls.Add($mbtn_sablony) 
     $MyForm.ShowDialog()
