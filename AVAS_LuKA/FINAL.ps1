@@ -43,7 +43,7 @@ Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
 }
 
 
-<#if($set.debug -eq '1') 
+if($set.debug -eq '1') 
     {
     $DebugPreference = 'Continue'
     }
@@ -61,7 +61,7 @@ Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
     {
     $vypispreference=Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
     }
-#>    
+   
 
 
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
