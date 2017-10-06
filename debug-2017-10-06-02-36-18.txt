@@ -1102,3 +1102,213 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+-message debug log neni aktivni, pokracuji dal
+-message pokracuji ve zpracovani
+-message pokracuji ve zpracovani bez testu applikaci
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
