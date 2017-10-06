@@ -11,15 +11,61 @@ Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho soubo
 Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
 #overeni ze je uzivatel administrator
 Write-Verbose -Message 'Kontroluji admin prava'
-If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
-[Security.Principal.WindowsBuiltInRole] 'Administrator')) 
+if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
+[Security.Principal.WindowsBuiltInRole] 'Administrator'))
 {
-  Write-Warning -Message 'Ujistete se ze spoustite AVAS jako administrator! Provedte spusteni jako administrator nebo nemusi vse fungovat korektne!!'
+  Write-Warning "Skrtip je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
+  #Break 
+  # z duvodu vyvoje není povoleno zastaveni!!
 }
 
-Write-Verbose -Message "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
+#nacteni konfigurace z ini souboru
 
-Write-Verbose -Message "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
+$scriptpath="D:\SICZ\avas\AVAS_LuKA"
+
+if (!(Test-Path -Path "$scriptpath\config.ini")) 
+{
+  Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
+  Stop-Transcript
+  exit
+}
+
+Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
+  $set = @{}
+} -Process {
+  $k = [regex]::split($_,'=')
+  if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true)) 
+  {
+    $set.Add($k[0], $k[1])
+  }
+}
+<#if($set.debug -eq '1') 
+    {
+    $DebugPreference = 'Continue'
+    }
+    else 
+    {
+    $DebugPreference = 'SilentlyContinue'
+    }
+#>
+$transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
+$DPDestination = $set.DPdestination
+
+Start-Transcript -Path "$scriptpath\$transcriptname.log" -Append
+
+<#if (!(Test-Path -Path "$scriptpath\install.zip")) 
+    {
+    Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\install.zip `r"
+    Stop-Transcript
+    exit
+    }
+
+    Write-Verbose -Message "$(Get-Date) - ukonceno zjistovani zda je uzivatel admin"
+
+    Write-Verbose -Message "$(Get-Date) - uzivatel je admin pokracuje dalsi spusteni skriptu"
+#>
+
+Write-Verbose -Message "$(get-date) - logovani zapnuto, uzivatel je admin pokracuju..."
 Write-Verbose -Message "$(Get-Date) - Nacitam GUI"
 
 
