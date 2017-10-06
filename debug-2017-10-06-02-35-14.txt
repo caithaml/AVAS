@@ -994,3 +994,170 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-38-17.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-38-23.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-42-53.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-42-58.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-42-59.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-43-03.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-43-38.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-43-43.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Start-Transcript"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Start-Transcript                                   3.0.0.0    Microsoft.PowerShell.Host
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Start-Transcript"
+
+NAME
+    Start-Transcript
+
+SYNOPSIS
+    Creates a record of all or part of a Windows PowerShell session to a text file.
+
+
+SYNTAX
+    Start-Transcript [[-LiteralPath] <String>] [-Append] [-Confirm] [-Force] [-IncludeInvocationHeader] [-NoClobber] [-WhatIf] [<CommonParameters>]
+
+    Start-Transcript [[-OutputDirectory] <String>] [-Append] [-Confirm] [-Force] [-IncludeInvocationHeader] [-NoClobber] [-WhatIf] [<CommonParameters>]
+
+    Start-Transcript [[-Path] <String>] [-Append] [-Confirm] [-Force] [-IncludeInvocationHeader] [-NoClobber] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Start-Transcript cmdlet creates a record of all or part of a Windows PowerShell session to a text file. The transcript includes all command that the user types and all output that appears on the console.
+
+    Starting in Windows PowerShell 5.0, Start-Transcript includes the host name in the generated file name of all transcripts. This is especially useful when your enterprise's logging is centralized. Files that are cr
+    eated by the Start-Transcript cmdlet include random characters in names to prevent potential overwrites or duplication when two or more transcripts are started simultaneously. This also prevents unauthorized disco
+    very of transcripts that are stored in a centralized file share. Additionally in Windows PowerShell 5.0, the Start-Transcript cmdlet works in Windows PowerShell ISE.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821532
+    Stop-Transcript
+
+REMARKS
+    To see the examples, type: "get-help Start-Transcript -examples".
+    For more information, type: "get-help Start-Transcript -detailed".
+    For technical information, type: "get-help Start-Transcript -full".
+    For online help, type: "get-help Start-Transcript -online"
+
+

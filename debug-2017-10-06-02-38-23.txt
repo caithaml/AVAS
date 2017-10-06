@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20171006143638
+Start time: 20171006143823
 Username: DESKTOP-TBE27PS\lukas
 RunAs User: DESKTOP-TBE27PS\lukas
 Configuration Name: 
@@ -16,79 +16,6 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-38.txt
-WARNING: Kontroluji admin prava
-WARNING: Skript je nutne spustit s opravneni Administrator!
-PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      14500
-computerName                   DESKTOP-TBE27PS
-instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
-
-
-PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
-Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-39.txt
-WARNING: Kontroluji admin prava
-WARNING: Skript je nutne spustit s opravneni Administrator!
-PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      14500
-computerName                   DESKTOP-TBE27PS
-instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
-
-
-PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
-PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
-Start-Transcript : Transcription cannot be started.
-At D:\SICZ\avas\avas.ps1:32 char:4
-+    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
-+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
-    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
-Start-Transcript : Transcription cannot be started.
-At D:\SICZ\avas\avas.ps1:32 char:4
-+    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
-+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
-    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
-
-WARNING: Kontroluji admin prava
-WARNING: Skript je nutne spustit s opravneni Administrator!
-PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      14500
-computerName                   DESKTOP-TBE27PS
-instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
-
-
-PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
-Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-38-17.txt
-WARNING: Kontroluji admin prava
-WARNING: Skript je nutne spustit s opravneni Administrator!
-PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
-
-Name                           Value
-----                           -----
-processId                      14500
-computerName                   DESKTOP-TBE27PS
-instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
-
-
-PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
->> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
->> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
 Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-38-23.txt
 WARNING: Kontroluji admin prava
 WARNING: Skript je nutne spustit s opravneni Administrator!
