@@ -36,7 +36,6 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 
-#$scriptpath = 'D:\SICZ\avas\AVAS_LuKA'
 
 if (!(Test-Path -Path "$scriptpath\config.ini")) 
 {
@@ -45,7 +44,7 @@ if (!(Test-Path -Path "$scriptpath\config.ini"))
   # exit
 }
 
-Get-Content -Path "D:\SICZ\avas\avas_luka\config.ini"  | ForEach-Object -Begin {
+Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
   $set = @{}
 } -Process {
   $k = [regex]::split($_,'=')
@@ -67,7 +66,7 @@ Get-Content -Path "D:\SICZ\avas\avas_luka\config.ini"  | ForEach-Object -Begin {
 #>
     if($set.vypis -eq '1')
   {
-   Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+   Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
     else
@@ -79,7 +78,7 @@ Get-Content -Path "D:\SICZ\avas\avas_luka\config.ini"  | ForEach-Object -Begin {
 <#   
     if($set.spust -eq '1')
   {
-    Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
     else{
@@ -507,7 +506,7 @@ $mbtn_scriptstartup.Left     = '115'
 $mbtn_scriptstartup.Anchor   = 'Left,Top' 
 $mbtn_scriptstartup.Size     = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptstartup.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\startup.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\startup.ps1'
 })
 $MyForm.Controls.Add($mbtn_scriptstartup) 
          
@@ -519,7 +518,7 @@ $mbtn_scriptshutdown.Left    = '115'
 $mbtn_scriptshutdown.Anchor  = 'Left,Top' 
 $mbtn_scriptshutdown.Size    = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_scriptshutdown.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\shutdown.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\shutdown.ps1'
 })
 $MyForm.Controls.Add($mbtn_scriptshutdown) 
          
@@ -540,7 +539,7 @@ $mbtn_executionpolicy.Left   = '117'
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
 $mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\execpolicy.ps1'
 })
 $MyForm.Controls.Add($mbtn_executionpolicy) 
          
@@ -822,7 +821,7 @@ $mbtn_executionpolicy.Left   = '330'
 $mbtn_executionpolicy.Anchor = 'Left,Top' 
 $mbtn_executionpolicy.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_executionpolicy.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\execpolicy.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\execpolicy.ps1'
 })
      
 $MyForm.Controls.Add($mbtn_executionpolicy) 
@@ -919,7 +918,7 @@ $mbtn_vytvoritsablonu.Left   = '903'
 $mbtn_vytvoritsablonu.Anchor = 'Left,Top' 
 $mbtn_vytvoritsablonu.Size   = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_vytvoritsablonu.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc_template.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\icwsc_template.ps1'
 })
 $MyForm.Controls.Add($mbtn_vytvoritsablonu) 
 
@@ -930,7 +929,7 @@ $mbtn_icwsc.Left             = '903'
 $mbtn_icwsc.Anchor           = 'Left,Top' 
 $mbtn_icwsc.Size             = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_icwsc.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\icwsc.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\icwsc.ps1'
 })
 $MyForm.Controls.Add($mbtn_icwsc) 
 
@@ -942,10 +941,10 @@ $mbtn_patchlevel.Left        = '903'
 $mbtn_patchlevel.Anchor      = 'Left,Top' 
 $mbtn_patchlevel.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_patchlevel.Add_Click( {
-    $patche = Get-Content -Path 'D:\SICZ\avas\AVAS_LuKA\hotfixy.csv' | ConvertFrom-Csv
+    $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFrom-Csv
     #$patche
     $patche | Out-GridView
-    #   start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\patche.ps1'
+    #   start powershell.exe -ArgumentList '$scriptpath\patche.ps1'
 })
 $MyForm.Controls.Add($mbtn_patchlevel) 
 
@@ -956,7 +955,7 @@ $mbtn_gui.Left               = '904'
 $mbtn_gui.Anchor             = 'Left,Top' 
 $mbtn_gui.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_gui.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\editovatgui.ps1'
 })
 
 $MyForm.Controls.Add($mbtn_gui) 
@@ -968,7 +967,7 @@ $mbtn_sablonaverze.Left      = '903'
 $mbtn_sablonaverze.Anchor    = 'Left,Top' 
 $mbtn_sablonaverze.Size      = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_sablonaverze.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\verzovanisablon.ps1'
+    Start-Process -FilePath powershell.exe -ArgumentList '$scriptpath\verzovanisablon.ps1'
 })
 $MyForm.Controls.Add($mbtn_sablonaverze) 
 
@@ -987,7 +986,7 @@ $mbtn_nacistjson.Left        = '902'
 $mbtn_nacistjson.Anchor      = 'Left,Top' 
 $mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
-    #start powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\openfiledialog.ps1'
+    #start powershell.exe -ArgumentList '$scriptpath\openfiledialog.ps1'
     $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
     $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
     $openFileDialog.title            = 'Select Settings Configuration File to Import'   
@@ -1031,7 +1030,7 @@ $mlbl_rootcertifikaty.Size   = New-Object -TypeName System.Drawing.Size -Argumen
 $mlbl_rootcertifikaty.Add_Click( {
     #$json.rootcert | Out-GridView
     $json.Computer_Root_Certificates | Out-GridView
-    #start powershell.exe  -ArgumentList 'D:\SICZ\avas\avas_luka\rootcert.ps1' 
+    #start powershell.exe  -ArgumentList '$scriptpath\rootcert.ps1' 
 })
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
