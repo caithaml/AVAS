@@ -65,3 +65,58 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-03-30-48.txt
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
