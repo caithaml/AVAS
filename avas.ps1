@@ -98,3 +98,43 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
 
 
     
+        if($set.servicesdifftest -eq '1')
+        {
+          Write-Host "spoustim test services diff"
+          function appdiff
+          {
+            $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
+            $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
+          
+            $Diff = ForEach ($line1 in $app)   
+            {
+              ForEach ($line2 in $app2)   
+              {
+                IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
+                {
+                  IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
+                  {        
+                    New-Object -TypeName PSObject -Property @{
+                      DisplayName    = $line1.DisplayName
+                      DisplayVersion = $line1.DisplayVersion
+                      Publisher      = $line1.Publisher
+                    }  
+                  }
+                }
+              }                                                
+            }
+              
+            $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
+          
+          }
+    appdiff
+    $apps = appdiff
+    
+            }      
+          
+          else
+          {
+         Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
+          }
+  
+  
