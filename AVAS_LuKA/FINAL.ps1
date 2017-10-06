@@ -53,13 +53,13 @@ if($set.debug -eq '1')
     }
 
     if($set.vypis -eq '1')
-    {
-    $vypispreference=Start-Transcript -Path "./vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+  {
+    $vypispreference=Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
     else
     {
-    $vypispreference=Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
+    $vypispreference='Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"'
     }
    
 
