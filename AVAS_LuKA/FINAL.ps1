@@ -28,7 +28,7 @@ $scriptpath="D:\SICZ\avas\AVAS_LuKA"
 if (!(Test-Path -Path "$scriptpath\config.ini")) 
 {
   Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
-  Stop-Transcript
+ # Stop-Transcript
   exit
 }
 
@@ -41,7 +41,9 @@ Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
     $set.Add($k[0], $k[1])
   }
 }
-if($set.debug -eq '1') 
+
+
+<#if($set.debug -eq '1') 
     {
     $DebugPreference = 'Continue'
     }
@@ -59,7 +61,9 @@ if($set.debug -eq '1')
     {
       $vypispreference=Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
     }
-    
+#>    
+
+
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 
 
