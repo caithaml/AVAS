@@ -1,0 +1,148 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171006154054
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1507295530-da56ed89-a4c7-4128-86f5-2a3db7ed31c61507295515145\EditorServices.log' -SessionDetailsPath 'C:\Users\lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-14276-130434' -FeatureFlags @()
+Process ID: 17524
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-03-40-54.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicediff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        servicediff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="servicediff"
+
+NAME
+    servicediff
+
+SYNTAX
+    servicediff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-03-41-04.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> servicediff
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> compare-object servicediff appdiff
+
+InputObject SideIndicator
+----------- -------------
+appdiff     =>
+servicediff <=
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+

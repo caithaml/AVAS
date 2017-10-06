@@ -101,7 +101,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         if($set.servicesdifftest -eq '1')
         {
           Write-Host "spoustim test services diff"
-          function appdiff
+          function servicediff
           {
             $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
             $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
@@ -127,8 +127,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
             $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
           
           }
-    appdiff
-    $apps = appdiff
+    servicediff
+    $apps = servicediff
     
             }      
           

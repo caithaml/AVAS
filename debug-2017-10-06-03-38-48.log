@@ -145,3 +145,434 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-03-39-50.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>
+    ] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [
+    -Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <switch>] [-Stream <string>] [-Wait] [-UseTransacti
+    on] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and returns a collection of objects, each of which rep
+    resents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to another file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, type "Get-Help Get-Content -Path $null" or see Get-C
+    ontent at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-03-40-54.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="servicediff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        servicediff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="servicediff"
+
+NAME
+    servicediff
+
+SYNTAX
+    servicediff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-03-41-04.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> servicediff
+
+DisplayName                                 DisplayVersion Publisher
+-----------                                 -------------- ---------
+Universal CRT Extension SDK                 10.0.26624     Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.1.15063.468 Microsoft Corporation
+Universal CRT Headers Libraries and Sources 10.0.26624     Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25506    Microsoft Corporation
+Visual C++ Library CRT Appx Package         14.11.25507    Microsoft Corporation
+Universal CRT Extension SDK                 10.1.15063.468 Microsoft Corporation
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
+PS D:\SICZ\avas> compare-object servicediff appdiff
+
+InputObject SideIndicator
+----------- -------------
+appdiff     =>
+servicediff <=
+
+
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      17524
+computerName                   DESKTOP-TBE27PS
+instanceId                     68423bc2-2cec-4282-86a7-20bd5dedeb3b
+
+
