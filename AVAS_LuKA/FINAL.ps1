@@ -42,13 +42,21 @@ if (!(Test-Path -Path "$scriptpath\config.ini"))
 {
   Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
   # Stop-Transcript
-  exit
+  # exit
 }
 
-Get-Content -Path "D:\SICZ\avas\avas_luka\config.ini" | foreach-object -begin {$h=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $h.Add($k[0], $k[1]) } }
+Get-Content -Path "D:\SICZ\avas\avas_luka\config.ini"  | ForEach-Object -Begin {
+  $set = @{}
+} -Process {
+  $k = [regex]::split($_,'=')
+  if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true)) 
+  {
+    $set.Add($k[0], $k[1])
+  }
+}
 
 
-if($set.debug -eq '1') 
+<#if($set.debug -eq '1') 
     {
     $DebugPreference = 'Continue'
     }
@@ -56,28 +64,28 @@ if($set.debug -eq '1')
     {
     $DebugPreference = 'SilentlyContinue'
     }
-
+#>
     if($set.vypis -eq '1')
   {
-    $vypispreference=Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+   Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
     else
     {
-    $vypispreference='Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"'
+   Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
     }
    
 
-   
+<#   
     if($set.spust -eq '1')
   {
-    $vypispreference=Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+    Start-Transcript -Path "D:/SICZ/avas/avas_luka/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
-    else
-    {
-    $vypispreference='Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"'
-    }
+    else{
+    
+    Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
+    }#>
 
 
 
