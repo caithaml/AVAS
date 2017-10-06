@@ -3,7 +3,7 @@
     Add-Type -AssemblyName System.Drawing 
     $MyForm = New-Object System.Windows.Forms.Form 
     $MyForm.Text="START - debug rozhrani" 
-  $MyForm.Size = New-Object System.Drawing.Size(300,300) 
+    $MyForm.Size = New-Object System.Drawing.Size(300,300) 
    
  
     $mbtn_final = New-Object System.Windows.Forms.Button 
@@ -13,8 +13,8 @@
         $mbtn_final.Anchor="Left,Top" 
     $mbtn_final.Size = New-Object System.Drawing.Size(100,23) 
     $mbtn_final.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\final.ps1'
-})
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\final.ps1'
+    })
     $MyForm.Controls.Add($mbtn_final) 
      
  
@@ -25,8 +25,8 @@
         $mbtn_test.Anchor="Left,Top" 
     $mbtn_test.Size = New-Object System.Drawing.Size(100,23) 
     $mbtn_test.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\avas.ps1'
-})
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\avas.ps1'
+    })
     $MyForm.Controls.Add($mbtn_test) 
      
  
@@ -37,7 +37,23 @@
         $mbtn_sablony.Anchor="Left,Top" 
     $mbtn_sablony.Size = New-Object System.Drawing.Size(100,23) 
     $mbtn_sablony.Add_Click( {
-    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\sprava_sablon.ps1'
-})
+        Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\sprava_sablon.ps1'
+    })
     $MyForm.Controls.Add($mbtn_sablony) 
+
+
+     $mbtn_guiedit = New-Object System.Windows.Forms.Button 
+        $mbtn_guiedit.Text="Edit GUI" 
+        $mbtn_guiedit.Top="172" 
+        $mbtn_guiedit.Left="136" 
+        $mbtn_guiedit.Anchor="Left,Top" 
+    $mbtn_guiedit.Size = New-Object System.Drawing.Size(100,23) 
+    $mbtn_guiedit.Add_Click( {
+    Start-Process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\editovatgui.ps1'
+})
+    $MyForm.Controls.Add($mbtn_guiedit) 
+
+
+
+
     $MyForm.ShowDialog()
