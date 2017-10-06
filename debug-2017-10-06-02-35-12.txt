@@ -1293,3 +1293,108 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Second <Int32>] [-Year <Int32>] [
+    <CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Second <Int32>] [-UFormat <String>] [-Year <Int32>]
+    [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX formats. You can use Get-Date to generate a date
+    or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-49-41.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-49-43.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-49-44.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-50-03.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
