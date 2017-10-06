@@ -2,6 +2,10 @@
 #NACTENI KONFIGURACE
 ##########################################
 #nacteni konfigurace z ini souboru
+#popis konfigurace v ini souboru
+#
+#
+#################################################################################################
 
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 
@@ -25,7 +29,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
 
     if($set.debug -eq '1')
   {
-   Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+   Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
     else
@@ -91,4 +95,6 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         {
        Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
         }
+
+
      

@@ -1261,3 +1261,1845 @@ computerName                   DESKTOP-TBE27PS
 instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
 
 
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Select-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Select-Object                                      3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Select-Object"
+
+NAME
+    Select-Object
+
+SYNOPSIS
+    Selects objects or object properties.
+
+
+SYNTAX
+    Select-Object [[-Property] <Object[]>] [-ExcludeProperty <String[]>] [-ExpandProperty <String>] [-First <Int32>] [-InputObject <PSObject>] [-Last <Int32>] [-Skip <Int32>] [-Unique] [-Wait] [<CommonParameters>]
+
+    Select-Object [[-Property] <Object[]>] [-ExcludeProperty <String[]>] [-ExpandProperty <String>] [-InputObject <PSObject>] [-SkipLast <Int32>] [-Unique] [<CommonParameters>]
+
+    Select-Object [-Index <Int32[]>] [-InputObject <PSObject>] [-Unique] [-Wait] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Select-Object cmdlet selects specified properties of an object or set of objects. It can also select unique objects, a specified number of objects, or objects in a specified position in an array.
+
+    To select objects from a collection, use the First , Last , Unique , Skip , and Index parameters. To select object properties, use the Property parameter. When you select properties, Select-Object returns new obje
+    cts that have only the specified properties.
+
+    Beginning in Windows PowerShell 3.0, Select-Object includes an optimization feature that prevents commands from creating and processing objects that are not used. When you include a Select-Object command with the
+    First or Index parameter in a command pipeline, Windows PowerShell stops the command that generates the objects as soon as the selected number of objects is generated, even when the command that generates the obje
+    cts appears before the Select-Object command in the pipeline. To turn off this optimizing behavior, use the Wait parameter.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821852
+    Group-Object
+    Sort-Object
+
+REMARKS
+    To see the examples, type: "get-help Select-Object -examples".
+    For more information, type: "get-help Select-Object -detailed".
+    For technical information, type: "get-help Select-Object -full".
+    For online help, type: "get-help Select-Object -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Write-Host"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Write-Host                                         3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>
+    ] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [
+    -Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <switch>] [-Stream <string>] [-Wait] [-UseTransacti
+    on] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and returns a collection of objects, each of which rep
+    resents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to another file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, type "Get-Help Get-Content -Path $null" or see Get-C
+    ontent at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Content"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Content                                        3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Content"
+
+NAME
+    Get-Content
+
+SYNOPSIS
+    Gets the contents of a file.
+
+
+SYNTAX
+    Get-Content [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Exclude <String[]>
+    ] [-Filter <String>] [-Force] [-Include <String[]>] -LiteralPath <String[]> [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Path] <String[]> [-Credential <PSCredential>] [-Delimiter <String>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [
+    -Exclude <String[]>] [-Filter <String>] [-Force] [-Include <String[]>] [-Raw] [-ReadCount <Int64>] [-Stream <String>] [-Tail <Int32>] [-TotalCount <Int64>] [-UseTransaction] [-Wait] [<CommonParameters>]
+
+    Get-Content [-Delimiter <string>] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem}] [-Force] [-Raw <switch>] [-Stream <string>] [-Wait] [-UseTransacti
+    on] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Content cmdlet gets the content of the item at the location specified by the path, such as the text in a file. It reads the content one line at a time and returns a collection of objects, each of which rep
+    resents a line of content.
+
+    Beginning in Windows PowerShell 3.0, this cmdlet can also get a specified number of lines from the beginning or end of an item.
+    In file system drives, you can use the the Get-Content cmdlet to get content that you display at the command line, save in a variable for processing, or write to another file. It is not valid on folders.
+
+    Note: This custom cmdlet help file explains how the Get-Content cmdlet works in a file system drive. For information about the Get-Content cmdlet in all drives, type "Get-Help Get-Content -Path $null" or see Get-C
+    ontent at http://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+RELATED LINKS
+    Online version: http://technet.microsoft.com/library/hh847788(v=wps.630).aspx
+    Get-Content (generic); http://go.microsoft.com/fwlink/?LinkID=113310
+    FileSystem Provider
+    Clear-Content
+    Get-Content
+    Get-ChildItem
+    Get-Content
+    Get-Item
+    Remove-Item
+    Set-Content
+    Test-Path
+
+REMARKS
+    To see the examples, type: "get-help Get-Content -examples".
+    For more information, type: "get-help Get-Content -detailed".
+    For technical information, type: "get-help Get-Content -full".
+    For online help, type: "get-help Get-Content -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-41.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="appdiff"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        appdiff
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="appdiff"
+
+NAME
+    appdiff
+
+SYNTAX
+    appdiff
+
+
+ALIASES
+    None
+
+
+REMARKS
+    None
+
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-45.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-47.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-50.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-51.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-52.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:28 char:4
++    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-M ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:28 char:4
++    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-M ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-53.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-54.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-55.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-56.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-57.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:28 char:4
++    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-M ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:28 char:4
++    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-M ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-31-59.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-00.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-01.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-03.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-04.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-05.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-06.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-07.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:28 char:4
++    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-M ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:28 char:4
++    Start-Transcript -Path "$scriptpath/vypis$(Get-Date -Format yyyy-M ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-08.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-09.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/vypis2017-10-06-02-32-10.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Get-Date"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Date                                           3.1.0.0    Microsoft.PowerShell.Utility
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Get-Date"
+
+NAME
+    Get-Date
+
+SYNOPSIS
+    Gets the current date and time.
+
+
+SYNTAX
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Format <String>] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Second <Int32>] [-Year <Int32>] [
+    <CommonParameters>]
+
+    Get-Date [[-Date] <DateTime>] [-Day <Int32>] [-DisplayHint {Date | Time | DateTime}] [-Hour <Int32>] [-Millisecond <Int32>] [-Minute <Int32>] [-Month <Int32>] [-Second <Int32>] [-UFormat <String>] [-Year <Int32>]
+    [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Date cmdlet gets a DateTime object that represents the current date or a date that you specify. It can format the date and time in several Windows and UNIX formats. You can use Get-Date to generate a date
+    or time character string, and then send the string to other cmdlets or programs.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821781
+    New-TimeSpan
+    Set-Date
+
+REMARKS
+    To see the examples, type: "get-help Get-Date -examples".
+    For more information, type: "get-help Get-Date -detailed".
+    For technical information, type: "get-help Get-Date -full".
+    For online help, type: "get-help Get-Date -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="ForEach-Object"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          ForEach-Object                                     3.0.0.0    Microsoft.PowerShell.Core
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="ForEach-Object"
+
+NAME
+    ForEach-Object
+
+SYNOPSIS
+    Performs an operation against each item in a collection of input objects.
+
+
+SYNTAX
+    ForEach-Object [-MemberName] <String> [-ArgumentList <Object[]>] [-Confirm] [-InputObject <PSObject>] [-WhatIf] [<CommonParameters>]
+
+    ForEach-Object [-Process] <ScriptBlock[]> [-Begin <ScriptBlock>] [-Confirm] [-End <ScriptBlock>] [-InputObject <PSObject>] [-RemainingScripts <ScriptBlock[]>] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The ForEach-Object cmdlet performs an operation on each item in a collection of input objects. The input objects can be piped to the cmdlet or specified by using the InputObject parameter.
+
+    Starting in Windows PowerShell 3.0, there are two different ways to construct a ForEach-Object command. Script block . You can use a script block to specify the operation. Within the script block, use the $_ varia
+    ble to represent the current object. The script block is the value of the Process parameter. The script block can contain any Windows PowerShell script.
+
+    For example, the following command gets the value of the ProcessName property of each process on the computer.
+
+    `Get-Process | ForEach-Object {$_.ProcessName}` Operation statement . You can also write an operation statement, which is much more like natural language. You can use the operation statement to specify a property
+    value or call a method. Operation statements were introduced in Windows PowerShell 3.0.
+
+    For example, the following command also gets the value of the ProcessName property of each process on the computer.
+
+    `Get-Process | ForEach-Object ProcessName`
+
+    When using the script block format, in addition to using the script block that describes the operations that are performed on each input object, you can provide two additional script blocks. The Begin script block
+    , which is the value of the Begin parameter, runs before this cmdlet processes the first input object. The End script block, which is the value of the End parameter, runs after this cmdlet processes the last input
+     object.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821481
+
+REMARKS
+    To see the examples, type: "get-help ForEach-Object -examples".
+    For more information, type: "get-help ForEach-Object -detailed".
+    For technical information, type: "get-help ForEach-Object -full".
+    For online help, type: "get-help ForEach-Object -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-06.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-07.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-08.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-09.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-10.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-12.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-13.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-14.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-15.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-16.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-17.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-18.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-19.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-20.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-21.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-22.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-23.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-24.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-35-25.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-16.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-18.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-18.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-19.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-21.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-21.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-22.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-23.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-24.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-24.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-25.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-26.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-27.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Command): name="Name"; value="Start-Transcript"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Start-Transcript                                   3.0.0.0    Microsoft.PowerShell.Host
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-Help): "Get-Help"
+>> ParameterBinding(Get-Help): name="ErrorAction"; value="Ignore"
+>> ParameterBinding(Get-Help): name="Name"; value="Start-Transcript"
+
+NAME
+    Start-Transcript
+
+SYNOPSIS
+    Creates a record of all or part of a Windows PowerShell session to a text file.
+
+
+SYNTAX
+    Start-Transcript [[-LiteralPath] <String>] [-Append] [-Confirm] [-Force] [-IncludeInvocationHeader] [-NoClobber] [-WhatIf] [<CommonParameters>]
+
+    Start-Transcript [[-OutputDirectory] <String>] [-Append] [-Confirm] [-Force] [-IncludeInvocationHeader] [-NoClobber] [-WhatIf] [<CommonParameters>]
+
+    Start-Transcript [[-Path] <String>] [-Append] [-Confirm] [-Force] [-IncludeInvocationHeader] [-NoClobber] [-WhatIf] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Start-Transcript cmdlet creates a record of all or part of a Windows PowerShell session to a text file. The transcript includes all command that the user types and all output that appears on the console.
+
+    Starting in Windows PowerShell 5.0, Start-Transcript includes the host name in the generated file name of all transcripts. This is especially useful when your enterprise's logging is centralized. Files that are cr
+    eated by the Start-Transcript cmdlet include random characters in names to prevent potential overwrites or duplication when two or more transcripts are started simultaneously. This also prevents unauthorized disco
+    very of transcripts that are stored in a centralized file share. Additionally in Windows PowerShell 5.0, the Start-Transcript cmdlet works in Windows PowerShell ISE.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821532
+    Stop-Transcript
+
+REMARKS
+    To see the examples, type: "get-help Start-Transcript -examples".
+    For more information, type: "get-help Start-Transcript -detailed".
+    For technical information, type: "get-help Start-Transcript -full".
+    For online help, type: "get-help Start-Transcript -online"
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-29.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-30.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-31.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-32.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-33.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-34.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-35.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-36.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-36.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-37.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-38.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-38.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-06-02-36-39.txt
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
+PS D:\SICZ\avas> CommandInvocation(Get-PSBreakpoint): "Get-PSBreakpoint"
+>> ParameterBinding(Get-PSBreakpoint): name="Type"; value="Command"
+>> CommandInvocation(Remove-PSBreakpoint): "Remove-PSBreakpoint"
+PS D:\SICZ\avas> TerminatingError(Start-Transcript): "Transcription cannot be started."
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+Start-Transcript : Transcription cannot be started.
+At D:\SICZ\avas\avas.ps1:32 char:4
++    Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy- ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
+    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
+
+WARNING: Kontroluji admin prava
+WARNING: Skript je nutne spustit s opravneni Administrator!
+PS D:\SICZ\avas> @{ 'computerName' = $env:ComputerName; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      14500
+computerName                   DESKTOP-TBE27PS
+instanceId                     d383c525-ed6e-400f-b2f4-5236cca6be7e
+
+
