@@ -34,7 +34,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
     
     else
     {
-   Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
+   Write-Host -message "debug log neni aktivni, pokracuji dal"
     }
    
 
