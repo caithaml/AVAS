@@ -853,7 +853,9 @@ $mbtn_tisk.Add_Click( {
     $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
     $a    = $a + '</style>'
 
-    $json.Installed_apps | ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" | Out-File -FilePath D:\SICZ\avas\AVAS_LuKA\testtisk.html
+    $json.Installed_apps |
+    ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze instalovane app!! Formular pripraven $(Get-Date)</H2>" |
+    Out-File -FilePath D:\SICZ\avas\AVAS_LuKA\testtisk.html
     Start-Process -FilePath chrome -ArgumentList D:\SICZ\avas\AVAS_LuKA\Testtisk.html
 })
 
@@ -998,5 +1000,22 @@ $mButton1ns.Add_Click( {
     # $json.installed_apps | Out-GridView
 })
 $MyForm.Controls.Add($mButton1ns)
+
+
+$mButton1final                    = New-Object -TypeName System.Windows.Forms.Button 
+$mButton1final.Text               = 'Final' 
+$mButton1final.Top                = '290' 
+$mButton1final.Left               = '620' 
+$mButton1final.Anchor             = 'Left,Top' 
+$mButton1final.Size               = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
+$mButton1final.Add_Click( {
+    # $json.rootcert | Out-GridView
+    $argument = Get-Process
+    #Start-Process -FilePath powershell.exe  -ArgumentList $argument #'D:\SICZ\avas\avas_luka\vytvorenisablony_new.ps1'
+     start-process -FilePath powershell.exe -ArgumentList 'D:\SICZ\avas\avas_luka\avas_final.ps1'
+    # $json.installed_apps | Out-GridView
+})
+$MyForm.Controls.Add($mButton1final)
+
 
 $MyForm.ShowDialog()
