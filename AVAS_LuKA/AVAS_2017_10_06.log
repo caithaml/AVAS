@@ -52,3 +52,7 @@ PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObjec
 Transcript started, output file is D:\SICZ\avas\AVAS_LuKA\AVAS_2017_10_06.log
 PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
 Cancel
+**********************
+Windows PowerShell transcript end
+End time: 20171006105036
+**********************

@@ -14,7 +14,7 @@ Write-Verbose -Message 'Kontroluji admin prava'
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
 [Security.Principal.WindowsBuiltInRole] 'Administrator'))
 {
-  Write-Warning "Skript je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
+  Write-Warning -Message "Skript je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
   #Break 
   # z duvodu vyvoje není povoleno zastaveni!!
 }
@@ -23,12 +23,12 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 
 
-$scriptpath="D:\SICZ\avas\AVAS_LuKA"
+$scriptpath = 'D:\SICZ\avas\AVAS_LuKA'
 
 if (!(Test-Path -Path "$scriptpath\config.ini")) 
 {
   Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
- # Stop-Transcript
+  # Stop-Transcript
   exit
 }
 
@@ -54,12 +54,12 @@ Get-Content -Path "$scriptpath\config.ini" | ForEach-Object -Begin {
 
     if($set.vypis -eq '1')
     {
-      $vypispreference=Start-Transcript -Path "./vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+    $vypispreference=Start-Transcript -Path "./vypis$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
     }
     
     else
     {
-      $vypispreference=Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
+    $vypispreference=Write-Host -message "zvlastni vypis neni aktivni, pokracuji dal"
     }
 #>    
 
@@ -71,7 +71,7 @@ Start-Transcript -Path "$scriptpath\$transcriptname.log" -Append
 
 
 
-Write-Verbose -Message "$(get-date) - logovani zapnuto, uzivatel je admin pokracuju..."
+Write-Verbose -Message "$(Get-Date) - logovani zapnuto, uzivatel je admin pokracuju..."
 Write-Verbose -Message "$(Get-Date) - Nacitam GUI"
 
 
@@ -975,7 +975,7 @@ $mbtn_nacistjson.Add_Click( {
     $openFileDialog.title            = 'Select Settings Configuration File to Import'   
     $openFileDialog.filter           = 'All files (*.*)| *.*'   
     #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
-    $openFileDialog.ShowHelp         = $True   
+    $openFileDialog.ShowHelp         = $true   
     Write-Verbose -Message 'Select  Settings File... (see FileOpen Dialog)'  
     $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
     # in ISE you may have to alt-tab or minimize ISE to see dialog box 
