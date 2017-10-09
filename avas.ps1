@@ -36,7 +36,7 @@ $inputdata                                   = Get-Content $inputfile
 
 
 $json                                        = $inputdata | ConvertFrom-Json
-$jsondef                                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
+$jsondef                                     = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json
 
 #jsondef je nastaven na pevnou cestu!!! nutno zmìnit pøi zmìnì PC!!!! nebo nastavit open file dialog pro druhý soubor
 
