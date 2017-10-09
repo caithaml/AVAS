@@ -191,7 +191,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function hotfixdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
           $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
 
           $app=$def.hotfixes
