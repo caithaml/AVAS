@@ -122,11 +122,13 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         Write-Host "spoustim test app diff"
         function appdiff
         {
-          $def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
+          <#$def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json#>  
+          
+          
 
-          $app=$def.installed_apps
-          $app2=$new.installed_apps
+          $app=$jsondef.installed_apps
+          $app2=$json.installed_apps
         
           $Diff = ForEach ($line1 in $app)   
           {
@@ -169,11 +171,11 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function servdiff
         {
-          $def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
-          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
+          <#$def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json#>  
 
-          $app=$def.services
-          $app2=$new.services
+          $app=$jsondef.services
+          $app2=$json.services
         
           $Diff = ForEach ($line1 in $app)   
           {
@@ -211,11 +213,11 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function schedulediff
         {
-          $def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
-          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
+          <#$def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json#>  
 
-          $app=$def.scheduled_tasks
-          $app2=$new.scheduled_tasks
+          $app=$jsondef.scheduled_tasks
+          $app2=$json.scheduled_tasks
         
           $Diff = ForEach ($line1 in $app)   
           {
