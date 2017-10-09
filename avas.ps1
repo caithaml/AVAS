@@ -38,7 +38,7 @@ $inputdata                                   = Get-Content $inputfile
 $json                                        = $inputdata | ConvertFrom-Json
 $jsondef                                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
 
-#jsondef je nastaven na pevnou cestu!!! nutno zmìnit pøi zmìnì PC!!!!
+#jsondef je nastaven na pevnou cestu!!! nutno zmìnit pøi zmìnì PC!!!! nebo nastavit open file dialog pro druhý soubor
 
 
 
@@ -48,7 +48,7 @@ $jsondef                                     = Get-Content -Path D:\SICZ\hash_lu
 Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 
-Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
+<#Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
 #overeni ze je uzivatel administrator
 Write-Verbose -Message 'Kontroluji admin prava'
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
@@ -59,7 +59,7 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
   # z duvodu vyvoje není povoleno zastaveni!!
 }
 
-
+#>
 
 
 
