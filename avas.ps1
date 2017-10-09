@@ -6,6 +6,64 @@
 #
 #
 #################################################################################################
+$transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
+
+
+Start-Transcript -Path "$scriptpath\$transcriptname.log" -Append
+
+## debug transcript - debug vymazat!!
+
+Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
+
+######
+
+
+#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
+Function Get-FileName($initialDirectory)
+{
+  $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
+    
+  $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
+  $OpenFileDialog.initialDirectory = $initialDirectory
+  $OpenFileDialog.filter           = 'JSON (*.json)| *.json'
+  $null = $OpenFileDialog.ShowDialog()
+  $OpenFileDialog.filename
+}
+$inputfile                                   = Get-FileName 'C:\SICZ'
+$inputdata                                   = Get-Content $inputfile
+
+
+
+$json                                        = $inputdata | ConvertFrom-Json
+$jsondef                                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
+
+
+
+
+
+#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
+Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
+$json                        = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
+$jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
+
+Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
+
+
+Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
+#overeni ze je uzivatel administrator
+Write-Verbose -Message 'Kontroluji admin prava'
+if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
+[Security.Principal.WindowsBuiltInRole] 'Administrator'))
+{
+  Write-Warning -Message "Skript je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
+  #Break 
+  # z duvodu vyvoje není povoleno zastaveni!!
+}
+
+
+
+
 
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 
@@ -257,8 +315,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         
         }
 
-  processesdiff  
-  $hash | Add-Member Noteproperty processes (processesdiff)
+    processesdiff  
+    $hash | Add-Member Noteproperty processes (processesdiff)
 #>   
    
 
