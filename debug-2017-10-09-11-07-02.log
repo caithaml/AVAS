@@ -33691,3 +33691,29 @@ PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObjec
 
 
 
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-09-12-09-36.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-09-12-09-36.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual J# 2.0 Redistributable Package - SE (x64); DisplayVersion=; Publisher=Microsoft Corporation}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Speccy; DisplayVersion=1.29; Publisher=Piriform}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=1.0.0.0; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=1.0.0.0; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Rapid Storage Technology; DisplayVersion=14.8.1.1043; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Rapid Storage Technology; DisplayVersion=14.8.1.1043; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel® Trusted Connect Service Client; DisplayVersion=1.42.17.0; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=11.0.0.1163; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Rapid Storage Technology; DisplayVersion=14.8.1.1043; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Rapid Storage Technology; DisplayVersion=14.8.1.1043; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=1.0.0.0; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Intel(R) Management Engine Components; DisplayVersion=1.0.0.0; Publisher=Intel Corporation}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual J# 2.0 Redistributable Package - SE (x64); DisplayVersion=2.0.50728; Publisher=Microsoft Corporation}"

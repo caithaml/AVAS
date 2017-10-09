@@ -64,8 +64,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         Write-Host "spoustim test app diff"
         function appdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
           $app=$def.installed_apps
           $app2=$new.installed_apps
@@ -111,8 +111,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function servdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
           $app=$def.services
           $app2=$new.services
@@ -153,8 +153,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function schedulediff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
-          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
           $app=$def.scheduled_tasks
           $app2=$new.scheduled_tasks
@@ -191,8 +191,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function hotfixdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
 
           $app=$def.hotfixes
           $app2=$new.hotfixes
@@ -229,8 +229,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function processesdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
-          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
           $app=$def.processes
           $app2=$new.processes
@@ -266,8 +266,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function uwpdiff
         {
-          $def = Get-Content -Path  D:\SICZ\avas\mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path  D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path  $scriptpath\mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path  $scriptpath\hash_mica.json | ConvertFrom-Json  
 
           $app=$def.uwp_apps
           $app2=$new.uwp_apps
