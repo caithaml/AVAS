@@ -251,11 +251,11 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function hotfixdiff
         {
-          $def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
+          <#$def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
           $new = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
 
-          $app=$def.hotfixes
-          $app2=$new.hotfixes
+#>          $app=$jsondef.hotfixes
+          $app2=$json.hotfixes
         
           $Diff = ForEach ($line1 in $app)   
           {
@@ -328,11 +328,11 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function uwpdiff
         {
-          $def = Get-Content -Path  $scriptpath\mica.json | ConvertFrom-Json  
+          <#$def = Get-Content -Path  $scriptpath\mica.json | ConvertFrom-Json  
           $new = Get-Content -Path  $scriptpath\hash_mica.json | ConvertFrom-Json  
-
-          $app=$def.uwp_apps
-          $app2=$new.uwp_apps
+#>
+          $app=$jsondef.uwp_apps
+          $app2=$json.uwp_apps
         
           $Diff = ForEach ($line1 in $app)   
           {
