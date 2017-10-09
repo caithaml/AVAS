@@ -153,7 +153,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function schedulediff
         {
-          $def = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
           $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
           $app=$def.scheduled_tasks
@@ -163,9 +163,9 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
           {
             ForEach ($line2 in $app2)   
             {
-              IF ($line1.FormatEntryinfo -eq $line2.formatentryinfo)   # If stejny nazev
+              IF ($line1.FormatEntryinfo -eq $line2.FormatEntryInfo)   # If stejny nazev
               {
-                IF ($line1.outofband -ne $line2.outofband)   # If jina verze
+                IF ($line1.Outofband -ne $line2.Outofband)   # If jina verze
                 {        
                   New-Object -TypeName PSObject -Property @{
                     formatentryinfo    = $line1.formatentryinfo
@@ -180,7 +180,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
           $Diff | Select-Object -Property formatentryinfo, outofband
         
         }
-  servdiff  
+  schedulediff  
    $hash | Add-Member Noteproperty scheduledtasks (schedulediff)    
 
 
