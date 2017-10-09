@@ -1,0 +1,4 @@
+1) nacti si ty json soubory hned na zacatku at to nedelas 5x. zbytecne to zdrzuje script
+2) services - zajima me I zda jsou sluzby nastaveny na automatic, manul, disabled atd.
+3) hotifex - zkus to pustit na jine verzi Win 10. 1703 napr. at muzeme porovnat jestli to funguje
+4) process asi nepujdou takhle kontrolovat. na ty se vykasli
