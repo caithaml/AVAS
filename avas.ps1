@@ -297,39 +297,3 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
    $hash | Add-Member Noteproperty uwp (uwpdiff)
    
 
-
-    if($set.uwpdiff -eq '1')
-      {
-        Write-Host "spoustim test uwp apps diff"
-      }
-        function uwpdiff
-        {
-          $def = Get-Content -Path  D:\SICZ\avas\mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path  D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
-
-          $app=$def.uwp_apps
-          $app2=$new.uwp_apps
-        
-          $Diff = ForEach ($line1 in $app)   
-          {
-            ForEach ($line2 in $app2)   
-            {
-              IF ($line1.Name-eq $line2.Name)   # If stejny nazev
-              {
-                IF ($line1.PackageFullName -ne $line2.PackageFullName)   # If jina verze
-                {        
-                  New-Object -TypeName PSObject -Property @{
-                    Name    = $line1.Name
-                   PackageFullName = $line1.PackageFullName
-                    #Publisher      = $line1.Publisher
-                  }  
-                }
-              }
-            }                                                
-          }
-            
-          $Diff | Select-Object -Property Name, PackageFullName
-        
-        }
-  uwpdiff  
-   $hash | Add-Member Noteproperty uwp (uwpdiff)

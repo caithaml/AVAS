@@ -2167,3 +2167,12 @@ At D:\SICZ\avas\avas.ps1:335 char:12
 
 
 
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-09-11-07-02.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-09-11-07-02.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+spoustim test services diff
