@@ -123,19 +123,19 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
             {
               IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
               {
-                IF ($line1.ServiceName -ne $line2.ServiceName)   # If jina verze
+                IF ($line1.StartType -ne $line2.StartType)   # If jina verze
                 {        
                   New-Object -TypeName PSObject -Property @{
                     DisplayName    = $line1.DisplayName
                     ServiceName = $line1.ServiceName
-                    #Publisher      = $line1.Publisher
+                    #StartType     = $line1.StartType
                   }  
                 }
               }
             }                                                
           }
             
-          $Diff | Select-Object -Property DisplayName, ServiceName
+          $Diff | Select-Object -Property DisplayName, StartType
         
         }
   servdiff  
