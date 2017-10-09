@@ -64,7 +64,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         Write-Host "spoustim test app diff"
         function appdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
           $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
 
           $app=$def.installed_apps
@@ -111,7 +111,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function servdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
           $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
 
           $app=$def.services
@@ -153,7 +153,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function schedulediff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
           $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
 
           $app=$def.scheduled_tasks
@@ -191,7 +191,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function hotfixdiff
         {
-          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $def = Get-Content -Path D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
           $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
 
           $app=$def.hotfixes
@@ -267,7 +267,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         function uwpdiff
         {
           $def = Get-Content -Path  D:\SICZ\avas\mica.json | ConvertFrom-Json  
-          $new = Get-Content -Path  D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path  D:\SICZ\avas\hash_mica.json | ConvertFrom-Json  
 
           $app=$def.uwp_apps
           $app2=$new.uwp_apps
