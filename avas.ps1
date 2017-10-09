@@ -30,7 +30,7 @@ Function Get-FileName($initialDirectory)
   $null = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                                   = Get-FileName 'C:\SICZ'
+$inputfile                                   = Get-FileName 'D:\SICZ'
 $inputdata                                   = Get-Content $inputfile
 
 
@@ -42,10 +42,8 @@ $jsondef                                     = Get-Content -Path D:\SICZ\hash_lu
 
 
 
-#Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
-Write-Verbose -Message "$(Get-Date) - Nacitani json konfiguracniho souboru"
-$json                        = Get-Content -Path D:\SICZ\hash_mica.json | ConvertFrom-Json
-$jsondef                     = Get-Content -Path D:\SICZ\hash_luka.json | ConvertFrom-Json
+
+
 
 Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
