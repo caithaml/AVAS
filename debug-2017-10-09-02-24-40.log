@@ -1145,3 +1145,21 @@ Microsoft Visual J# 2.0 Redistributable Package - SE (x64) 2.0.50728      Micros
 
 
 
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+>> $hash
+
+
+Apps           : {@{DisplayName=Microsoft Visual J# 2.0 Redistributable Package - SE (x64); DisplayVersion=; Publisher=Microsoft Corporation}, @{DisplayName=Speccy; DisplayVersion=1.29; Publisher=Piriform},
+                  @{DisplayName=Intel(R) Management Engine Components; DisplayVersion=1.0.0.0; Publisher=Intel Corporation}, @{DisplayName=Intel(R) Management Engine Components; DisplayVersion=1.0.0.0; Publ
+                 isher=Intel Corporation}...}
+services       :
+scheduledtasks :
+hotfix         :
+processes      : {@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsof
+                 t® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}...}
+uwp            : {@{Name=Microsoft.BioEnrollment; PackageFullName=Microsoft.BioEnrollment_10.0.14393.0_neutral__cw5n1h2txyewy}, @{Name=Microsoft.Windows.CloudExperienceHost; PackageFullName=Microsoft.Window
+                 s.CloudExperienceHost_10.0.14393.0_neutral_neutral_cw5n1h2txyewy}, @{Name=Microsoft.NET.Native.Runtime.1.3; PackageFullName=Microsoft.NET.Native.Runtime.1.3_1.3.23901.0_x86__8wekyb3d8bbwe},
+                  @{Name=Microsoft.NET.Native.Runtime.1.3; PackageFullName=Microsoft.NET.Native.Runtime.1.3_1.3.23901.0_x64__8wekyb3d8bbwe}...}
+
+
+
