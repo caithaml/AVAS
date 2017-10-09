@@ -223,7 +223,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
    
 
 
-    if($set.processesdiff -eq '1')
+    <#if($set.processesdiff -eq '1')
       {
         Write-Host "spoustim test services diff"
       }
@@ -256,8 +256,10 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
           $Diff | Select-Object -Property Product, Description
         
         }
+
   processesdiff  
-   $hash | Add-Member Noteproperty processes (processesdiff)
+  $hash | Add-Member Noteproperty processes (processesdiff)
+#>   
    
 
    if($set.uwpdiff -eq '1')
