@@ -48,19 +48,6 @@ $jsondef                                     = Get-Content -Path D:\SICZ\hash_lu
 Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho souboru"
 
 
-<#Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
-#overeni ze je uzivatel administrator
-Write-Verbose -Message 'Kontroluji admin prava'
-if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
-[Security.Principal.WindowsBuiltInRole] 'Administrator'))
-{
-  Write-Warning -Message "Skript je nutne spustit s opravneni Administrator! Spustne skript znovu! `n"
-  #Break 
-  # z duvodu vyvoje není povoleno zastaveni!!
-}
-
-#>
-
 
 
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
