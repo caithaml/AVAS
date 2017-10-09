@@ -9,6 +9,8 @@
 
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 
+$hash                  = New-Object -TypeName PSObject 
+
 
 if (!(Test-Path -Path "$scriptpath\config.ini")) 
 {
@@ -62,8 +64,11 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         Write-Host "spoustim test app diff"
         function appdiff
         {
-          $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
-          $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
+          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+
+          $app=$def.installed_apps
+          $app2=$new.installed_apps
         
           $Diff = ForEach ($line1 in $app)   
           {
@@ -95,207 +100,236 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         {
        Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
         }
+        $hash | Add-Member Noteproperty Apps (appdiff)
 
 
     
-        if($set.servicesdifftest -eq '1')
-        {
-          Write-Host "spoustim test services diff"
-          function servicediff
-          {
-            $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
-            $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
-          
-            $Diff = ForEach ($line1 in $app)   
-            {
-              ForEach ($line2 in $app2)   
-              {
-                IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-                {
-                  IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
-                  {        
-                    New-Object -TypeName PSObject -Property @{
-                      DisplayName    = $line1.DisplayName
-                      DisplayVersion = $line1.DisplayVersion
-                      Publisher      = $line1.Publisher
-                    }  
-                  }
-                }
-              }                                                
-            }
-              
-            $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
-          
-          }
-    servicediff
-    $apps = servicediff
     
-            }      
-          
-          else
-          {
-         Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
-          }
-  
-  
+      if($set.servdiff -eq '1')
+      {
+        Write-Host "spoustim test services diff"
+      }
+        function servdiff
+        {
+          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
 
-             
-        if($set.osdifftest -eq '1')
-        {
-          Write-Host "spoustim test os diff"
-          function servicediff
+          $app=$def.services
+          $app2=$new.services
+        
+          $Diff = ForEach ($line1 in $app)   
           {
-            $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
-            $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
-          
-            $Diff = ForEach ($line1 in $app)   
+            ForEach ($line2 in $app2)   
             {
-              ForEach ($line2 in $app2)   
+              IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
               {
-                IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-                {
-                  IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
-                  {        
-                    New-Object -TypeName PSObject -Property @{
-                      DisplayName    = $line1.DisplayName
-                      DisplayVersion = $line1.DisplayVersion
-                      Publisher      = $line1.Publisher
-                    }  
-                  }
+                IF ($line1.ServiceName -ne $line2.ServiceName)   # If jina verze
+                {        
+                  New-Object -TypeName PSObject -Property @{
+                    DisplayName    = $line1.DisplayName
+                    ServiceName = $line1.ServiceName
+                    #Publisher      = $line1.Publisher
+                  }  
                 }
-              }                                                
-            }
-              
-            $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
-          
+              }
+            }                                                
           }
-    servicediff
-    $apps = servicediff
-    
-            }      
-          
-          else
-          {
-         Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
-          }
-  
-             
-        if($set.osbuildtest -eq '1')
+            
+          $Diff | Select-Object -Property DisplayName, ServiceName
+        
+        }
+  servdiff  
+   $hash | Add-Member Noteproperty services (servdiff)
+      
+
+
+
+      
+      
+           
+     if($set.schedulediff -eq '1')
+      {
+        Write-Host "spoustim test scheduled tasks diff"
+      }
+        function schedulediff
         {
-          Write-Host "spoustim test os build diff"
-          function servicediff
+          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+
+          $app=$def.scheduled_tasks
+          $app2=$new.scheduled_tasks
+        
+          $Diff = ForEach ($line1 in $app)   
           {
-            $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
-            $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
-          
-            $Diff = ForEach ($line1 in $app)   
+            ForEach ($line2 in $app2)   
             {
-              ForEach ($line2 in $app2)   
+              IF ($line1.FormatEntryinfo -eq $line2.formatentryinfo)   # If stejny nazev
               {
-                IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-                {
-                  IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
-                  {        
-                    New-Object -TypeName PSObject -Property @{
-                      DisplayName    = $line1.DisplayName
-                      DisplayVersion = $line1.DisplayVersion
-                      Publisher      = $line1.Publisher
-                    }  
-                  }
+                IF ($line1.outofband -ne $line2.outofband)   # If jina verze
+                {        
+                  New-Object -TypeName PSObject -Property @{
+                    formatentryinfo    = $line1.formatentryinfo
+                    outofband = $line1.outofband
+                    #Publisher      = $line1.Publisher
+                  }  
                 }
-              }                                                
-            }
-              
-            $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
-          
+              }
+            }                                                
           }
-    servicediff
-    $apps = servicediff
-    
-            }      
-          
-          else
-          {
-         Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
-          }
-  
-             
-        if($set.osversiontest -eq '1')
+            
+          $Diff | Select-Object -Property formatentryinfo, outofband
+        
+        }
+  servdiff  
+   $hash | Add-Member Noteproperty scheduledtasks (schedulediff)    
+
+
+
+    if($set.hotfixdiff -eq '1')
+      {
+        Write-Host "spoustim test hotfix diff"
+      }
+        function hotfixdiff
         {
-          Write-Host "spoustim test os version diff"
-          function servicediff
+          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+
+          $app=$def.hotfixes
+          $app2=$new.hotfixes
+        
+          $Diff = ForEach ($line1 in $app)   
           {
-            $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
-            $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
-          
-            $Diff = ForEach ($line1 in $app)   
+            ForEach ($line2 in $app2)   
             {
-              ForEach ($line2 in $app2)   
+              IF ($line1.HotfixID -eq $line2.HotfixID)   # If stejny nazev
               {
-                IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-                {
-                  IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
-                  {        
-                    New-Object -TypeName PSObject -Property @{
-                      DisplayName    = $line1.DisplayName
-                      DisplayVersion = $line1.DisplayVersion
-                      Publisher      = $line1.Publisher
-                    }  
-                  }
+                IF ($line1.Description -ne $line2.Description)   # If jina verze
+                {        
+                  New-Object -TypeName PSObject -Property @{
+                    HotfixID    = $line1.HotfixID
+                    Description = $line1.Description
+                    #Publisher      = $line1.Publisher
+                  }  
                 }
-              }                                                
-            }
-              
-            $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
-          
+              }
+            }                                                
           }
-    servicediff
-    $apps = servicediff
-    
-            }      
-          
-          else
-          {
-         Write-Host -message "pokracuji ve zpracovani bez testu applikaci"
-          }
-  
-             
-        if($set.tasksdifftest -eq '1')
+            
+          $Diff | Select-Object -Property HotfixID, Description
+        
+        }
+  hotfixdiff  
+   $hash | Add-Member Noteproperty hotfix (hotfixdiff)
+   
+
+
+    if($set.processesdiff -eq '1')
+      {
+        Write-Host "spoustim test services diff"
+      }
+        function processesdiff
         {
-          Write-Host "spoustim test tasks diff"
-          function servicediff
+          $def = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+          $new = Get-Content -Path D:\SICZ\avas\mica.json | ConvertFrom-Json  
+
+          $app=$def.processes
+          $app2=$new.processes
+        
+          $Diff = ForEach ($line1 in $app)   
           {
-            $app = Get-Content -Path D:\SICZ\app_default.json | ConvertFrom-Json  
-            $app2 = Get-Content -Path D:\SICZ\app.json | ConvertFrom-Json  
-          
-            $Diff = ForEach ($line1 in $app)   
+            ForEach ($line2 in $app2)   
             {
-              ForEach ($line2 in $app2)   
+              IF ($line1.Product -eq $line2.Product)   # If stejny nazev
               {
-                IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-                {
-                  IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
-                  {        
-                    New-Object -TypeName PSObject -Property @{
-                      DisplayName    = $line1.DisplayName
-                      DisplayVersion = $line1.DisplayVersion
-                      Publisher      = $line1.Publisher
-                    }  
-                  }
+                IF ($line1.Description -ne $line2.Description)   # If jina verze
+                {        
+                  New-Object -TypeName PSObject -Property @{
+                    Product    = $line1.Product
+                    Description = $line1.Description
+                    #Publisher      = $line1.Publisher
+                  }  
                 }
-              }                                                
-            }
-              
-            $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher 
-          
+              }
+            }                                                
           }
-    servicediff
-    $apps = servicediff
-    
-            }      
-          
-          else
+            
+          $Diff | Select-Object -Property Product, Description
+        
+        }
+  processesdiff  
+   $hash | Add-Member Noteproperty processes (processesdiff)
+   
+
+   if($set.uwpdiff -eq '1')
+      {
+        Write-Host "spoustim test uwp apps diff"
+      }
+        function uwpdiff
+        {
+          $def = Get-Content -Path  D:\SICZ\avas\mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path  D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+
+          $app=$def.uwp_apps
+          $app2=$new.uwp_apps
+        
+          $Diff = ForEach ($line1 in $app)   
           {
-         Write-Host -message "pokracuji ve zpracovani bez testu naplanovanych uloh"
+            ForEach ($line2 in $app2)   
+            {
+              IF ($line1.Name-eq $line2.Name)   # If stejny nazev
+              {
+                IF ($line1.PackageFullName -ne $line2.PackageFullName)   # If jina verze
+                {        
+                  New-Object -TypeName PSObject -Property @{
+                    Name    = $line1.Name
+                   PackageFullName = $line1.PackageFullName
+                    #Publisher      = $line1.Publisher
+                  }  
+                }
+              }
+            }                                                
           }
-  
+            
+          $Diff | Select-Object -Property Name, PackageFullName
+        
+        }
+  uwpdiff  
+   $hash | Add-Member Noteproperty uwp (uwpdiff)
+   
+
+
+    if($set.uwpdiff -eq '1')
+      {
+        Write-Host "spoustim test uwp apps diff"
+      }
+        function uwpdiff
+        {
+          $def = Get-Content -Path  D:\SICZ\avas\mica.json | ConvertFrom-Json  
+          $new = Get-Content -Path  D:\SICZ\avas\hash_luka.json | ConvertFrom-Json  
+
+          $app=$def.uwp_apps
+          $app2=$new.uwp_apps
+        
+          $Diff = ForEach ($line1 in $app)   
+          {
+            ForEach ($line2 in $app2)   
+            {
+              IF ($line1.Name-eq $line2.Name)   # If stejny nazev
+              {
+                IF ($line1.PackageFullName -ne $line2.PackageFullName)   # If jina verze
+                {        
+                  New-Object -TypeName PSObject -Property @{
+                    Name    = $line1.Name
+                   PackageFullName = $line1.PackageFullName
+                    #Publisher      = $line1.Publisher
+                  }  
+                }
+              }
+            }                                                
+          }
+            
+          $Diff | Select-Object -Property Name, PackageFullName
+        
+        }
+  uwpdiff  
+   $hash | Add-Member Noteproperty uwp (uwpdiff)
