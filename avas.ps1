@@ -111,7 +111,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
       }
         function servdiff
         {
-          $def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
+          $def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
           $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
           $app=$def.services
@@ -127,8 +127,8 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
                 {        
                   New-Object -TypeName PSObject -Property @{
                     DisplayName    = $line1.DisplayName
-                    ServiceName = $line1.ServiceName
-                    #StartType     = $line1.StartType
+                    StartType = $line1.StartType
+                    
                   }  
                 }
               }
