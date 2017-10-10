@@ -1,0 +1,170 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171010160037
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 14724
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-04-00-37.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=
+PS>TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas.ps1:358 char:78
++ ... rty hdd_rozdil (Compare-Object $json.Local_disks $jsondef.Localdisks)
++                                                      ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'DifferenceObject' because it is null.
+At D:\SICZ\avas\avas.ps1:358 char:78
++ ... rty hdd_rozdil (Compare-Object $json.Local_disks $jsondef.Localdisks)
++                                                      ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObjectCommand
+
+
+
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> TerminatingError(Get-WinEvent): "The parameter is incorrect"
+>> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Confirm-SecureBootUEFI): "Cmdlet not supported on this platform: 0xC0000002"
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcriptAVAS2017-10-10-04-03-30.txt"
+Transcript started, output file is ./transcriptAVAS2017-10-10-04-03-30.txt
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./AVAS_2017_10_10.log"
+Transcript started, output file is ./AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> TerminatingError(ConvertFrom-Json): "Cannot convert the JSON string because a dictionary that was converted from the string contains the duplicated keys 'value' and 'Value'."
+10/10/2017 16:03:36 - Obsah souboru: (@{verzesablony=Verze sablony 1.0 test LuKa čtvrtek 7. září 2017 15:38:19; ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=09/05/2017 06:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=})
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-04-03-36.txt"
+Transcript started, output file is ./transcript2017-10-10-04-03-36.txt
+10/10/2017 16:03:36 - Dokonceno nacitani json konfiguracniho souboru
+10/10/2017 16:03:36 - zjisteni zda je uzivatel admin
+10/10/2017 16:03:36 - ukonceno zjistovani zda je uzivatel admin
+10/10/2017 16:03:36 - uzivatel je admin pokracuje dalsi spusteni skriptu
+10/10/2017 16:03:36 - Nacitam GUI
+PS C:\WINDOWS\system32> TerminatingError(Out-File): "Could not find a part of the path 'D:\SICZ\avas\AVAS_LuKA\testtisk.html'."
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
