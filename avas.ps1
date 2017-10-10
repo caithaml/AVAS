@@ -341,8 +341,8 @@ $hash | Add-Member Noteproperty Applocker ($json.AppLocker)
 $hash | Add-Member Noteproperty BIOS ($json.BIOS)
 $hash | Add-Member Noteproperty Bios_dater ($json.BIOS_Date)
 $hash | Add-Member Noteproperty Bitlocker ($json.Bitlocker)
-$json.Computer_Root_Certificates
-$json.ComputerName
+$hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_Root_Certificates) #duplikace s výpisem certifikátù -> jejihc porovnání viz. výše
+$hash | Add-Member Noteproperty ComputerName ($json.ComputerName)
 $json.Country
 $json.Date
 $json.Default_Locale
