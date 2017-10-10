@@ -1,0 +1,1473 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171010133736
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 11316
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-37-36.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-37-36.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="18944000"
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+18944000
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 "
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="MICA"
+MICA
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-01-38-11.txt"
+Transcript started, output file is ./transcript2017-10-10-01-38-11.txt
+10/10/2017 13:38:11 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-38-19.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-38-19.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="18944000"
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+18944000
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 "
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="MICA"
+MICA
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=07.09.2017 13:38:19; DisplayHint=2; DateTime=čtvrtek 7. září 2017 15:38:19}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="00000409"
+00000409
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-01-38-54.txt"
+Transcript started, output file is ./transcript2017-10-10-01-38-54.txt
+10/10/2017 13:38:55 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-39-03.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-39-03.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="18944000"
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+18944000
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 "
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="MICA"
+MICA
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=07.09.2017 13:38:19; DisplayHint=2; DateTime=čtvrtek 7. září 2017 15:38:19}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="00000409"
+00000409
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="sicz.local"
+sicz.local
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+
+
+PS C:\WINDOWS\system32> Install-Module -Name ISEScriptAnalyzerAddOn 
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> TerminatingError(Install-Module): "A parameter cannot be found that matches parameter name 'Name'."
+PS C:\WINDOWS\system32> Install-Module -Name ISEScriptAnalyzerAddOn 
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> TerminatingError(Install-Module): "A parameter cannot be found that matches parameter name 'Name'."
+PS C:\WINDOWS\system32> Save-Module -Name ISEScriptAnalyzerAddOn
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> Install-Module -Name ISEScriptAnalyzerAddOn 
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+A
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-01-41-58.txt"
+Transcript started, output file is ./transcript2017-10-10-01-41-58.txt
+10/10/2017 13:41:58 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-42-11.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-42-11.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="18944000"
+18944000
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 "
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="MICA"
+MICA
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=07.09.2017 13:38:19; DisplayHint=2; DateTime=čtvrtek 7. září 2017 15:38:19}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="00000409"
+00000409
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="sicz.local"
+sicz.local
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+
+
+PS C:\WINDOWS\system32> $hash.uwp
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> $hash.Apps
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+
+
+PS C:\WINDOWS\system32> $hash.hotfix
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-01-43-15.txt"
+Transcript started, output file is ./transcript2017-10-10-01-43-15.txt
+10/10/2017 13:43:15 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-43-24.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-43-24.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="18944000"
+18944000
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 "
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="MICA"
+MICA
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=07.09.2017 13:38:19; DisplayHint=2; DateTime=čtvrtek 7. září 2017 15:38:19}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="00000409"
+00000409
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="sicz.local"
+sicz.local
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+
+
+PS C:\WINDOWS\system32> $hash.Active_DC
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-01-44-04.txt"
+Transcript started, output file is ./transcript2017-10-10-01-44-04.txt
+10/10/2017 13:44:04 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-44-13.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-44-13.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="18944000"
+18944000
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 "
+DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="MICA"
+MICA
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=07.09.2017 13:38:19; DisplayHint=2; DateTime=čtvrtek 7. září 2017 15:38:19}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="00000409"
+00000409
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="sicz.local"
+sicz.local
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-01-45-18.txt"
+Transcript started, output file is ./transcript2017-10-10-01-45-18.txt
+10/10/2017 13:45:18 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-45-24.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-01-45-24.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Mozilla Maintenance Service; DisplayVersion=58.0a1; Publisher=Mozilla}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell Touchpad; DisplayVersion=10.2207.101.108; Publisher=ALPS ELECTRIC CO., LTD.}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft Corporation}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows PushToInstall Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 6222004 | Default System BIOS"
+DisplayName                                  DisplayVersion  Publisher
+-----------                                  --------------  ---------
+Mozilla Maintenance Service                  58.0a1          Mozilla
+Dell Touchpad                                10.2207.101.108 ALPS ELECTRIC CO., LTD.
+Microsoft Visual Studio Code                 1.17.0          Microsoft Corporation
+Background Intelligent Transfer Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows PushToInstall Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+DELL   - 6222004 | Default System BIOS
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=12.08.2015 0:00:00; DateTime=středa 12. srpna 2015 2:00:00}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{ComputerName=DESKTOP-V056PHL; MountPoint=C:; EncryptionMethod=0; AutoUnlockEnabled=; AutoUnlockKeyStored=; MetadataVersion=0; VolumeStatus=0; ProtectionStatus=0; LockStatus=0; EncryptionPercentage=0; WipePercentage=0; VolumeType=0; CapacityGB=465,223633; KeyProtector=System.Object[]}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=4ec4f0187cb04f4cb6973460dfe252df}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=cf522b78d86c486691226b40aa69e95c}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DESKTOP-V056PHL"
+DESKTOP-V056PHL
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="420"
+420
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=08.09.2017 12:27:44; DisplayHint=2; DateTime=pátek 8. září 2017 14:27:44}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="00000409"
+00000409
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="sicz.local"
+sicz.local
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+
+
+PS C:\WINDOWS\system32> $hash.Active_DC
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"

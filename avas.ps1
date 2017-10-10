@@ -236,7 +236,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
           <#$def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
           $new = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
 
-#>          $app=$jsondef.hotfixes
+  #>          $app=$jsondef.hotfixes
           $app2=$json.hotfixes
         
           $Diff = ForEach ($line1 in $app)   
@@ -312,7 +312,7 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
         {
           <#$def = Get-Content -Path  $scriptpath\mica.json | ConvertFrom-Json  
           $new = Get-Content -Path  $scriptpath\hash_mica.json | ConvertFrom-Json  
-#>
+  #>
           $app=$jsondef.uwp_apps
           $app2=$json.uwp_apps
         
@@ -341,3 +341,24 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
    $hash | Add-Member Noteproperty uwp (uwpdiff)
    
 
+
+ $hash | Add-Member Noteproperty Active_DC ($json.Active_DC)
+ $hash | Add-Member Noteproperty Allow_deviceclasses ($json.Allow_DeviceClasses)
+ $hash | Add-Member Noteproperty Allow_deviceids ($json.Allow_DeviceIDs)
+ $hash | Add-Member Noteproperty Application_log_length ($json.Application_Log_Length)
+ $hash | Add-Member Noteproperty Applocker ($json.AppLocker)
+ $json.BIOS
+ $json.BIOS_Date
+ $json.Bitlocker
+ $json.Computer_Root_Certificates
+ $json.ComputerName
+ $json.Country
+ $json.Date
+ $json.Default_Locale
+ $json.Deny_DeviceClasses
+ $json.Deny_DeviceIDs
+ $json.Deny_UnspecifiedDevices
+ $json.Domain
+ $json.Domain_DHCP
+ $json.Domain_TCP
+ 
