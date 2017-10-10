@@ -1080,3 +1080,330 @@ Dell Touchpad                10.2207.101.108 ALPS ELECTRIC CO., LTD.
 Microsoft Visual Studio Code 1.17.0          Microsoft Corporation
 
 
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-04-29-06.txt"
+Transcript started, output file is ./transcript2017-10-10-04-29-06.txt
+10/10/2017 16:29:06 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-04-29-13.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-04-29-13.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Mozilla Maintenance Service; DisplayVersion=58.0a1; Publisher=Mozilla}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell Touchpad; DisplayVersion=10.2207.101.108; Publisher=ALPS ELECTRIC CO., LTD.}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft Corporation}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows PushToInstall Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+DESKTOP-V056PHL <=           
+
+
+"
+DisplayName                                  DisplayVersion  Publisher
+-----------                                  --------------  ---------
+Mozilla Maintenance Service                  58.0a1          Mozilla
+Dell Touchpad                                10.2207.101.108 ALPS ELECTRIC CO., LTD.
+Microsoft Visual Studio Code                 1.17.0          Microsoft Corporation
+Background Intelligent Transfer Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows PushToInstall Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+DESKTOP-V056PHL <=
+PS C:\WINDOWS\system32> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=16281.1000.amd64fre.rs3_release.170829-1438; WindowsCurrentVersion=6.3; WindowsEditionId=Enterprise; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=06.09.2017 8:41:09; WindowsProductId=00329-00000-00003-AA661; WindowsProductName=Windows 10 Enterprise Insider Preview; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\Windows; WindowsVersion=1703; BiosCharacteristics=; BiosBIOSVersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCurrentLanguage=; BiosDescription=; BiosEmbeddedControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; BiosFirmwareType=; BiosIdentificationCode=; BiosInstallableLanguages=; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=; BiosManufacturer=; BiosName=; BiosOtherTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=; BiosSMBIOSBIOSVersion=; BiosSMBIOSMajorVersion=; BiosSMBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwareElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSystemBiosMinorVersion=; BiosTargetOperatingSystem=; BiosVersion=; CsAdminPasswordStatus=; CsAutomaticManagedPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=; CsBootStatus=; CsBootupState=; CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZone=; CsDaylightInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; CsDomainRole=; CsEnableDaylightSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfraredSupported=; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=; CsLastLoadInfo=; CsManufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabled=; CsNumberOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMStringArray=; CsPartOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPowerState=; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapability=; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysicalMemory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=; OsType=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotFixes=; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive=; OsWindowsDirectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; OsLocalDateTime=; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecutionPreventionAvailable=; OsDataExecutionPrevention32BitApplications=; OsDataExecutionPreventionDrivers=; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=; OsEncryptionLevel=; OsForegroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFreePhysicalMemory=; OsTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemory=; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=; OsFreeSpaceInPagingFiles=; OsPagingFiles=; OsHardwareAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumberOfProcesses=; OsMaxProcessMemorySize=; OsMuiLanguages=; OsNumberOfLicensedUsers=; OsNumberOfProcesses=; OsNumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=; OsProductSuites=; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=; OsPrimary=; OsProductType=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorVersion=; OsServicePackMinorVersion=; OsStatus=; OsSuites=; OsServerLevel=; KeyboardLayout=; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\DESKTOP-V056PHL; PowerPlatformRole=2; HyperVisorPresent=; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+
+
+PS C:\WINDOWS\system32> history
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Start-Steroids"
+
+  Id CommandLine
+  -- -----------
+   2 Start-Steroids
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1'"
+   3 . 'D:\SICZ\avas\AVAS_LuKA\GUI_final.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS.ps1'"
+   4 . 'D:\SICZ\avas\AVAS.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\editovatgui.ps1'"
+   5 . 'D:\SICZ\avas\AVAS_LuKA\editovatgui.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\FINAL.ps1'"
+   6 . 'D:\SICZ\avas\AVAS_LuKA\FINAL.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\patche.ps1'"
+   7 . 'D:\SICZ\avas\AVAS_LuKA\patche.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\verzovanisablon.ps1'"
+   8 . 'D:\SICZ\avas\AVAS_LuKA\verzovanisablon.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$json.installed_apps"
+   9 $json.installed_apps
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$jsondef"
+  10 $jsondef
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\ICWSC\ICWSC.ps1'"
+  11 . 'D:\SICZ\ICWSC\ICWSC.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash"
+  12 $hash
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash | exrportto-json "
+  13 $hash | exrportto-json
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-ItemProperty"
+  14 Get-ItemProperty
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-StartApps"
+  15 Get-StartApps
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-ResultantSetofPolicy"
+  16 Get-ResultantSetofPolicy
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-ExecutionPolicy"
+  17 Get-ExecutionPolicy
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-WinEvent -list "
+  18 Get-WinEvent -list
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-WinEvent -listlog"
+  19 Get-WinEvent -listlog
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-EventLog -list"
+  20 Get-EventLog -list
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-Eventlog Security"
+  21 Get-Eventlog Security
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-Eventlog Application"
+  22 Get-Eventlog Application
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-Eventlog system"
+  23 Get-Eventlog system
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-WmiObject"
+  24 Get-WmiObject
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-ghelp Get-WmiObject"
+  25 Get-ghelp Get-WmiObject
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-help Get-WmiObject"
+  26 Get-help Get-WmiObject
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-help Get-EventLog"
+  27 Get-help Get-EventLog
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-help Get-WinEvent"
+  28 Get-help Get-WinEvent
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-help Get-WinEvent -full"
+  29 Get-help Get-WinEvent -full
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\vytvorenisablony_new.ps1'"
+  30 . 'D:\SICZ\avas\AVAS_LuKA\vytvorenisablony_new.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\Skript-ps-bitlocker\bitlocker.ps1'"
+  31 . 'D:\SICZ\Skript-ps-bitlocker\bitlocker.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\Skript-ps-bitlocker\skript.ps1'"
+  32 . 'D:\SICZ\Skript-ps-bitlocker\skript.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Get-BitLockerVolume"
+  33 Get-BitLockerVolume
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\avas_LuKa.ps1'"
+  34 . 'D:\SICZ\avas\AVAS_LuKA\avas_LuKa.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\avas_openfile_onstartup.ps1'"
+  35 . 'D:\SICZ\avas\AVAS_LuKA\avas_openfile_onstartup.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\AVAS_LuKA\AVAS.ps1'"
+  36 . 'D:\SICZ\avas\AVAS_LuKA\AVAS.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="servdiff"
+  37 servdiff
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Apps"
+  38 $hash.Apps
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.services"
+  39 $hash.services
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.processes"
+  40 $hash.processes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.hotfix"
+  41 $hash.hotfix
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.scheduledtasks"
+  42 $hash.scheduledtasks
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.uwp"
+  43 $hash.uwp
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=". 'D:\SICZ\avas\ICWSC.ps1'"
+  44 . 'D:\SICZ\avas\ICWSC.ps1'
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Install-Module -Name ISEScriptAnalyzerAddOn "
+  45 Install-Module -Name ISEScriptAnalyzerAddOn
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Save-Module -Name ISEScriptAnalyzerAddOn"
+  46 Save-Module -Name ISEScriptAnalyzerAddOn
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Active_DC"
+  47 $hash.Active_DC
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.AV_MS_product"
+  48 $hash.AV_MS_product
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="history"
+  49 history
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Bios_dater"
+  50 $hash.Bios_dater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Applocker"
+  51 $hash.Applocker
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.rozdily"
+  52 $hash.rozdily
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Local_Disks"
+  53 $hash.Local_Disks
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$has.hdd"
+  54 $has.hdd
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.hdd | Out-String"
+  55 $hash.hdd | Out-String
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.hdd_rozdil"
+  56 $hash.hdd_rozdil
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Start-Steroids"
+  57 Start-Steroids
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\avas.ps1"
+  58 D:\SICZ\avas\avas.ps1
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\temp\avas-puvodni verze\verzovanisablon.ps1"
+  59 D:\SICZ\avas\temp\avas-puvodni verze\verzovanisablon.ps1
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\temp\avas-puvodni verze\AVAS.ps1"
+  60 D:\SICZ\avas\temp\avas-puvodni verze\AVAS.ps1
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\avas.ps1"
+  61 D:\SICZ\avas\avas.ps1
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Start-Transcript D:\SICZ\avas\ts1.txt"
+  62 Start-Transcript D:\SICZ\avas\ts1.txt
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\avas.ps1"
+  63 D:\SICZ\avas\avas.ps1
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="history"
+  64 history
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash"
+  65 $hash
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Apps"
+  66 $hash.Apps
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\avas.ps1"
+  67 D:\SICZ\avas\avas.ps1
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="$hash.Apps"
+  68 $hash.Apps
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="D:\SICZ\avas\avas.ps1"
+  69 D:\SICZ\avas\avas.ps1
+
+
+PS C:\WINDOWS\system32> $hash.Apps
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Mozilla Maintenance Service; DisplayVersion=58.0a1; Publisher=Mozilla}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell Touchpad; DisplayVersion=10.2207.101.108; Publisher=ALPS ELECTRIC CO., LTD.}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft Corporation}"
+DisplayName                  DisplayVersion  Publisher
+-----------                  --------------  ---------
+Mozilla Maintenance Service  58.0a1          Mozilla
+Dell Touchpad                10.2207.101.108 ALPS ELECTRIC CO., LTD.
+Microsoft Visual Studio Code 1.17.0          Microsoft Corporation
+
+
+PS C:\WINDOWS\system32> $hash.Application_log_length
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="5312512"
+5312512
+PS C:\WINDOWS\system32> $hash.AV_MS_version
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="4.12.16281.1000"
+4.12.16281.1000
+PS C:\WINDOWS\system32> $hash.AV_MS_product
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Windows Defender"
+Windows Defender
+PS C:\WINDOWS\system32> $has.
+Missing property name after reference operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingPropertyName
+
+PS C:\WINDOWS\system32> $hash.AV_MS_residenton
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="False"
+False
+PS C:\WINDOWS\system32> $hash.AV_MS_scanner_build
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="1.1.14104.0"
+1.1.14104.0
+PS C:\WINDOWS\system32> $hash
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Apps=System.Object[]; services=System.Object[]; scheduledtasks=; hotfix=; uwp=; Active_DC=; Allow_deviceclasses=; Allow_deviceids=; Application_log_length=5312512; Applocker=System.Object[]; BIOS=DELL   - 6222004 | Default System BIOS; Bios_date=; Bitlocker=; Computerturen_root_certifikates=System.Object[]; ComputerName=DESKTOP-V056PHL; Country=420; Date=; Default_locale=00000409; Deny_deviceclasses=; Deny_deviceids=; deny_UnspecifiedDevices=; Domain=; Domain_dhcp=sicz.local; Domain_tcp=; AV_MS_product=Windows Defender; AV_MS_residenton=False; AV_MS_scanner_build=1.1.14104.0; AV_MS_scanner_version=1.251.613.0; AV_MS_version=4.12.16281.1000; rozdily=System.Object[]; hdd=; pcinfo=}"
+
+
+Apps                            : {@{DisplayName=Mozilla Maintenance Service; DisplayVersion=58.0a1; Publisher=Mozilla}, @{DisplayName=Dell Touchpad; DisplayVersion=10.2207.101.108; Publisher=ALPS ELECTRIC
+                                  CO., LTD.}, @{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft Corporation}}
+services                        : {@{DisplayName=Background Intelligent Transfer Service; StartType=3}, @{DisplayName=File History Service; StartType=2}, @{DisplayName=IKE and AuthIP IPsec Keying Modules; S
+                                  tartType=2}, @{DisplayName=Windows PushToInstall Service; StartType=3}...}
+scheduledtasks                  :
+hotfix                          :
+uwp                             :
+Active_DC                       :
+Allow_deviceclasses             :
+Allow_deviceids                 :
+Application_log_length          : 5312512
+Applocker                       : {}
+BIOS                            : DELL   - 6222004 | Default System BIOS
+Bios_date                       : @{value=12.08.2015 0:00:00; DateTime=středa 12. srpna 2015 2:00:00}
+Bitlocker                       : @{ComputerName=DESKTOP-V056PHL; MountPoint=C:; EncryptionMethod=0; AutoUnlockEnabled=; AutoUnlockKeyStored=; MetadataVersion=0; VolumeStatus=0; ProtectionStatus=0; LockStat
+                                  us=0; EncryptionPercentage=0; WipePercentage=0; VolumeType=0; CapacityGB=465,223633; KeyProtector=System.Object[]}
+Computerturen_root_certifikates : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3
+                                  c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=
+                                  Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{fo
+                                  rmatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002f
+                                  a4af63c}...}
+ComputerName                    : DESKTOP-V056PHL
+Country                         : 420
+Date                            : @{value=08.09.2017 12:27:44; DisplayHint=2; DateTime=pátek 8. září 2017 14:27:44}
+Default_locale                  : 00000409
+Deny_deviceclasses              :
+Deny_deviceids                  :
+deny_UnspecifiedDevices         :
+Domain                          :
+Domain_dhcp                     : sicz.local
+Domain_tcp                      :
+AV_MS_product                   : Windows Defender
+AV_MS_residenton                : False
+AV_MS_scanner_build             : 1.1.14104.0
+AV_MS_scanner_version           : 1.251.613.0
+AV_MS_version                   : 4.12.16281.1000
+rozdily                         : {@{InputObject=DESKTOP-TBE27PS; SideIndicator==>}, @{InputObject=DESKTOP-V056PHL; SideIndicator=<=}}
+hdd                             : @{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=415967141888; Computer=DESKTOP-V056PHL; Used=83562926080; Size=499530067968}
+pcinfo                          : @{WindowsBuildLabEx=16281.1000.amd64fre.rs3_release.170829-1438; WindowsCurrentVersion=6.3; WindowsEditionId=Enterprise; WindowsInstallationType=Client; WindowsInstallDateF
+                                  romRegistry=06.09.2017 8:41:09; WindowsProductId=00329-00000-00003-AA661; WindowsProductName=Windows 10 Enterprise Insider Preview; WindowsRegisteredOrganization=; WindowsR
+                                  egisteredOwner=Windows User; WindowsSystemRoot=C:\Windows; WindowsVersion=1703; BiosCharacteristics=; BiosBIOSVersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCu
+                                  rrentLanguage=; BiosDescription=; BiosEmbeddedControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; BiosFirmwareType=; BiosIdentificationCode=; BiosInstallableLangu
+                                  ages=; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=; BiosManufacturer=; BiosName=; BiosOtherTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=;
+                                   BiosSMBIOSBIOSVersion=; BiosSMBIOSMajorVersion=; BiosSMBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwareElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSyst
+                                  emBiosMinorVersion=; BiosTargetOperatingSystem=; BiosVersion=; CsAdminPasswordStatus=; CsAutomaticManagedPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=
+                                  ; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=; CsBootStatus=; CsBootupState=; CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZo
+                                  ne=; CsDaylightInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; CsDomainRole=; CsEnableDaylightSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfrared
+                                  Supported=; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=; CsLastLoadInfo=; CsManufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabl
+                                  ed=; CsNumberOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMStringArray=; CsPartOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPower
+                                  ManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPowerState=; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapa
+                                  bility=; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysic
+                                  alMemory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=; OsType=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotF
+                                  ixes=; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive=; OsWindowsDirectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; OsLocalDateTime=
+                                  ; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecutionPreventionAvailable=; OsDataExecutionPrevention32BitApplications=; OsDataExecutionPreventionDrivers
+                                  =; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=; OsEncryptionLevel=; OsForegroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFreePhysicalMemory=; O
+                                  sTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemory=; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=; OsFreeSpaceInPagingFiles=; OsPagingFiles=; OsHardw
+                                  areAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumberOfProcesses=; OsMaxProcessMemorySize=; OsMuiLanguages=; OsNumberOfLicensedUsers=; OsNumberOfProcesses=; Os
+                                  NumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=; OsProductSuites=; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=; OsPrimary=; OsProductTy
+                                  pe=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorVersion=; OsServicePackMinorVersion=; OsStatus=; OsSuites=; OsServerLevel=; KeyboardLayout=; TimeZone=(UTC+01:00)
+                                   Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\DESKTOP-V056PHL; PowerPlatformRole=2; HyperVisorPresent=; HyperVRequirementDataExecutionPreventionAvailabl
+                                  e=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; D
+                                  eviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCode
+                                  IntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}
+
+
+
+PS C:\WINDOWS\system32> $hash.AV_MS_scanner_version
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="1.251.613.0"
+1.251.613.0
+PS C:\WINDOWS\system32> $hash.hdd
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=415967141888; Computer=DESKTOP-V056PHL; Used=83562926080; Size=499530067968}"
+
+
+FileSystem : NTFS
+Type       : Local Fixed Disk
+Volume     : C:
+Available  : 415967141888
+Computer   : DESKTOP-V056PHL
+Used       : 83562926080
+Size       : 499530067968
+
+
+

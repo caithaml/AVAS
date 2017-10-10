@@ -105,10 +105,6 @@ if($set.appdifftest -eq '1')
   Write-Host -Object 'spoustim test app diff'
   function appdiff
   {
-   
-          
-          
-
     $app = $jsondef.installed_apps
     $app2 = $json.installed_apps
         
@@ -151,8 +147,6 @@ if($set.servdiff -eq '1')
 }
 function servdiff
 {
-  
-
   $app = $jsondef.services
   $app2 = $json.services
         
@@ -189,8 +183,7 @@ if($set.schedulediff -eq '1')
   Write-Host -Object 'spoustim test scheduled tasks diff'
 }
 function schedulediff
-{  
-
+{
   $app = $jsondef.scheduled_tasks
   $app2 = $json.scheduled_tasks
         
@@ -224,7 +217,7 @@ if($set.hotfixdiff -eq '1')
 }
 function hotfixdiff
 {
-        $app = $jsondef.hotfixes
+  $app = $jsondef.hotfixes
   $app2 = $json.hotfixes
         
   $Diff = ForEach ($line1 in $app)   
@@ -351,13 +344,13 @@ $hash | Add-Member Noteproperty AV_MS_scanner_build ($json.AV_MS_Scanner_Build)
 $hash | Add-Member Noteproperty AV_MS_scanner_version ($json.AV_MS_Scanner_Version)
 $hash | Add-Member Noteproperty AV_MS_version ($json.AV_MS_Version)
 
-$hash | Add-member Noteproperty rozdily (Compare-Object $json.ComputerName $jsondef.ComputerName)
+$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
 $hash.rozdily | Out-String
 
 $hash | Add-Member Noteproperty hdd ($json.local_disks)
-$hash | add-member noteproperty hdd_rozdil (Compare-Object $json.Local_disks $jsondef.Localdisks)
+$hash | Add-Member noteproperty hdd_rozdil (Compare-Object -ReferenceObject $json.Local_disks -DifferenceObject $jsondef.Localdisks)
 #$hash.hdd | Out-String
-$hash.hdd_rozdil| out-string 
+$hash.hdd_rozdil| Out-String 
 
 $hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
 $hash.PCinfo
@@ -891,7 +884,7 @@ $MyForm.Controls.Add($mbiosdate)
       
 
 ##############################x
-# porovnan√" sloupec
+# porovnani sloupec
 ################################
 
 
@@ -1277,21 +1270,21 @@ $mbtn_nacistjson.Anchor      = 'Left,Top'
 $mbtn_nacistjson.Size        = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_nacistjson.Add_Click( {
     #start powershell.exe -ArgumentList '$scriptpath\openfiledialog.ps1'
-    $openFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
-    $openFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
-    $openFileDialog.title            = 'Select Settings Configuration File to Import'   
-    $openFileDialog.filter           = 'All files (*.*)| *.*'   
+    $OpenFileDialog                  = New-Object -TypeName windows.forms.openfiledialog   
+    $OpenFileDialog.initialDirectory = [IO.Directory]::GetCurrentDirectory()   
+    $OpenFileDialog.title            = 'Select Settings Configuration File to Import'   
+    $OpenFileDialog.filter           = 'All files (*.*)| *.*'   
     #$openFileDialog.filter = "PublishSettings Files|*.publishsettings|All Files|*.*" 
-    $openFileDialog.ShowHelp         = $true   
+    $OpenFileDialog.ShowHelp         = $true   
     Write-Verbose -Message 'Select  Settings File... (see FileOpen Dialog)'  
-    $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
+    $result                          = $OpenFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
     # in ISE you may have to alt-tab or minimize ISE to see dialog box 
     $result 
     if ($result -eq 'OK') 
     {    
       Write-Verbose -Message 'Selected  Settings File:'  
-      $openFileDialog.filename   
-      $openFileDialog.CheckFileExists 
+      $OpenFileDialog.filename   
+      $OpenFileDialog.CheckFileExists 
                     
       # Import-AzurePublishSettingsFile -PublishSettingsFile $openFileDialog.filename  
       # Unremark the above line if you actually want to perform an import of a publish settings file  
