@@ -345,11 +345,12 @@ $hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_
 $hash | Add-Member Noteproperty ComputerName ($json.ComputerName)
 $hash | Add-Member Noteproperty Country ($json.Country)
 $hash | Add-Member Noteproperty Date ($json.Date)
-$json.Default_Locale
-$json.Deny_DeviceClasses
-$json.Deny_DeviceIDs
-$json.Deny_UnspecifiedDevices
-$json.Domain
-$json.Domain_DHCP
-$json.Domain_TCP
+$hash | Add-Member Noteproperty Default_locale ($json.Default_Locale)
+$hash | Add-Member Noteproperty Deny_deviceclasses ($json.Deny_DeviceClasses)
+$hash | Add-Member Noteproperty Deny_deviceids ($json.Deny_DeviceIDs)
+$hash | Add-Member Noteproperty deny_UnspecifiedDevices ($json.Deny_UnspecifiedDevices)
+$hash | Add-Member Noteproperty Domain ($json.Domain)
+$hash | Add-Member Noteproperty Domain_dhcp ($json.Domain_DHCP)
+$hash | Add-Member Noteproperty Domain_tcp ($json.Domain_TCP)
+
  
