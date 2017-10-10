@@ -358,3 +358,6 @@ $hash | Add-Member Noteproperty hdd ($json.local_disks)
 $hash | add-member noteproperty hdd_rozdil (Compare-Object $json.Local_disks $jsondef.Localdisks)
 #$hash.hdd | Out-String
 $hash.hdd_rozdil| out-string 
+
+$hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
+$hash.PCinfo
