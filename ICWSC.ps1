@@ -574,4 +574,4 @@ $hash | Add-Member Noteproperty Deny_DeviceIDs (Get-ItemProperty -Path 'HKLM:\So
 
 $hash
 
-$hash | ConvertTo-Json | Out-File -path '.D:\SICZC\avas\icwsc$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).json'
+$hash | ConvertTo-Json | Out-File -path '.D:\SICZC\avas\icwsc.json'
