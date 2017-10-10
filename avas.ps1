@@ -353,3 +353,8 @@ $hash | Add-Member Noteproperty AV_MS_version ($json.AV_MS_Version)
 
 $hash | Add-member Noteproperty rozdily (Compare-Object $json.ComputerName $jsondef.ComputerName)
 $hash.rozdily | Out-String
+
+$hash | Add-Member Noteproperty hdd ($json.local_disks)
+$hash | add-member noteproperty hdd_rozdil (Compare-Object $json.Local_disks $jsondef.Localdisks)
+#$hash.hdd | Out-String
+$hash.hdd_rozdil| out-string 
