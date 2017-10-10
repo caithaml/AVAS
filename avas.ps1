@@ -339,7 +339,7 @@ $hash | Add-Member Noteproperty Allow_deviceids ($json.Allow_DeviceIDs)
 $hash | Add-Member Noteproperty Application_log_length ($json.Application_Log_Length)
 $hash | Add-Member Noteproperty Applocker ($json.AppLocker)
 $hash | Add-Member Noteproperty BIOS ($json.BIOS)
-$hash | Add-Member Noteproperty Bios_dater ($json.BIOS_Date)
+$hash | Add-Member Noteproperty Bios_date ($json.BIOS_Date)
 $hash | Add-Member Noteproperty Bitlocker ($json.Bitlocker)
 $hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_Root_Certificates) #duplikace s výpisem certifikátù -> jejihc porovnání viz. výše
 $hash | Add-Member Noteproperty ComputerName ($json.ComputerName)
@@ -355,7 +355,7 @@ $hash | Add-Member Noteproperty Domain_tcp ($json.Domain_TCP)
 $hash | Add-Member Noteproperty AV_MS_product ($json.AV_MS_Product)
 $hash | Add-Member Noteproperty AV_MS_residenton ($json.AV_MS_ResidentOn)
 $hash | Add-Member Noteproperty AV_MS_scanner_build ($json.AV_MS_Scanner_Build)
-$json.AV_MS_Scanner_Version
-$json.AV_MS_Version
+$hash | Add-Member Noteproperty AV_MS_scanner_version ($json.AV_MS_Scanner_Version)
+$hash | Add-Member Noteproperty AV_MS_version ($json.AV_MS_Version)
 
  
