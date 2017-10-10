@@ -352,5 +352,10 @@ $hash | Add-Member Noteproperty deny_UnspecifiedDevices ($json.Deny_UnspecifiedD
 $hash | Add-Member Noteproperty Domain ($json.Domain)
 $hash | Add-Member Noteproperty Domain_dhcp ($json.Domain_DHCP)
 $hash | Add-Member Noteproperty Domain_tcp ($json.Domain_TCP)
+$hash | Add-Member Noteproperty AV_MS_product ($json.AV_MS_Product)
+$hash | Add-Member Noteproperty AV_MS_residenton ($json.AV_MS_ResidentOn)
+$hash | Add-Member Noteproperty AV_MS_scanner_build ($json.AV_MS_Scanner_Build)
+$json.AV_MS_Scanner_Version
+$json.AV_MS_Version
 
  
