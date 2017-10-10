@@ -105,8 +105,7 @@ if($set.appdifftest -eq '1')
   Write-Host -Object 'spoustim test app diff'
   function appdiff
   {
-    <#$def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
-    $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json#>  
+   
           
           
 
@@ -152,8 +151,7 @@ if($set.servdiff -eq '1')
 }
 function servdiff
 {
-  <#$def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
-  $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json#>  
+  
 
   $app = $jsondef.services
   $app2 = $json.services
@@ -191,9 +189,7 @@ if($set.schedulediff -eq '1')
   Write-Host -Object 'spoustim test scheduled tasks diff'
 }
 function schedulediff
-{
-  <#$def = Get-Content -Path $scriptpath\hash_luka_admin.json | ConvertFrom-Json  
-  $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json#>  
+{  
 
   $app = $jsondef.scheduled_tasks
   $app2 = $json.scheduled_tasks
@@ -228,10 +224,7 @@ if($set.hotfixdiff -eq '1')
 }
 function hotfixdiff
 {
-  <#$def = Get-Content -Path $scriptpath\hash_mica.json | ConvertFrom-Json  
-      $new = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
-
-  #>          $app = $jsondef.hotfixes
+        $app = $jsondef.hotfixes
   $app2 = $json.hotfixes
         
   $Diff = ForEach ($line1 in $app)   
@@ -358,4 +351,5 @@ $hash | Add-Member Noteproperty AV_MS_scanner_build ($json.AV_MS_Scanner_Build)
 $hash | Add-Member Noteproperty AV_MS_scanner_version ($json.AV_MS_Scanner_Version)
 $hash | Add-Member Noteproperty AV_MS_version ($json.AV_MS_Version)
 
- 
+$hash | Add-member Noteproperty rozdily (Compare-Object $json.ComputerName $jsondef.ComputerName)
+$hash.rozdily | Out-String

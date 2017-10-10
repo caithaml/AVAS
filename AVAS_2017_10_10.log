@@ -7698,3 +7698,749 @@ spoustim test scheduled tasks diff
 spoustim test hotfix diff
 
 
+PS C:\WINDOWS\system32> $hash.Applocker
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-38-04.txt"
+Transcript started, output file is ./transcript2017-10-10-02-38-04.txt
+10/10/2017 14:38:04 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-38-18.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-38-18.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-46-45.txt"
+Transcript started, output file is ./transcript2017-10-10-02-46-45.txt
+10/10/2017 14:46:45 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-46-59.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-46-59.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-47-33.txt"
+Transcript started, output file is ./transcript2017-10-10-02-47-33.txt
+10/10/2017 14:47:33 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-47-49.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-47-49.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-48-24.txt"
+Transcript started, output file is ./transcript2017-10-10-02-48-24.txt
+10/10/2017 14:48:24 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-48-40.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-48-40.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-49-15.txt"
+Transcript started, output file is ./transcript2017-10-10-02-49-15.txt
+10/10/2017 14:49:15 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-49-27.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-49-27.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> TerminatingError(ConvertFrom-Json): "Invalid JSON primitive: ."
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-49-57.txt"
+Transcript started, output file is ./transcript2017-10-10-02-49-57.txt
+10/10/2017 14:49:57 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-50-13.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-50-13.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=DESKTOP-TBE27PS; SideIndicator==>}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=MICA; SideIndicator=<=}"
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>
+MICA            <=
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-51-20.txt"
+Transcript started, output file is ./transcript2017-10-10-02-51-20.txt
+10/10/2017 14:51:20 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-51-33.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-51-33.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Apps=System.Object[]; services=System.Object[]; scheduledtasks=; hotfix=; uwp=; Active_DC=; Allow_deviceclasses=; Allow_deviceids=; Application_log_length=18944000; Applocker=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; Bios_date=; Bitlocker=System.Object[]; Computerturen_root_certifikates=System.Object[]; ComputerName=MICA; Country=420; Date=; Default_locale=00000409; Deny_deviceclasses=; Deny_deviceids=; deny_UnspecifiedDevices=; Domain=; Domain_dhcp=sicz.local; Domain_tcp=; AV_MS_product=; AV_MS_residenton=; AV_MS_scanner_build=; AV_MS_scanner_version=; AV_MS_version=; rozdily=System.Object[]}"
+
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=DESKTOP-TBE27PS; SideIndicator==>}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=MICA; SideIndicator=<=}"
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>
+MICA            <=
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-52-00.txt"
+Transcript started, output file is ./transcript2017-10-10-02-52-00.txt
+10/10/2017 14:52:00 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-52-11.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-52-11.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=DESKTOP-TBE27PS; SideIndicator==>}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=MICA; SideIndicator=<=}"
+
+
+
+PS C:\WINDOWS\system32> $hash.rozdily
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=DESKTOP-TBE27PS; SideIndicator==>}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{InputObject=MICA; SideIndicator=<=}"
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>
+MICA            <=
+
+
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-53-18.txt"
+Transcript started, output file is ./transcript2017-10-10-02-53-18.txt
+10/10/2017 14:53:18 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-53-32.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-53-32.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-53-40.txt"
+Transcript started, output file is ./transcript2017-10-10-02-53-40.txt
+10/10/2017 14:53:40 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-53-53.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-53-53.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_10.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-10-02-54-10.txt"
+Transcript started, output file is ./transcript2017-10-10-02-54-10.txt
+10/10/2017 14:54:10 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-54-25.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-10-02-54-25.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=           
+
+
+"
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=
+
+
