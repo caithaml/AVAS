@@ -143,3 +143,158 @@ Deny_DeviceIDs             :
 
 
 
+PS C:\WINDOWS\system32> $hash.BIOS
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00 "
+DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+PS C:\WINDOWS\system32> $hash
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{ComputerName=DESKTOP-TBE27PS; Date=10.10.2017 15:27:13; User=lukas; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.17004; SP=0; Install_Date=03.10.2017 16:58:36; Last_Boot_Time=10.10.2017 13:24:00; RAM_Total=16289; RAM_Free=2; Virtual_Total=25; Virtual_Free=10; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00 ; BIOS_Date=08.05.2017 2:00:00; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=2166784; Secrutiy_Log_Length=37818368; Application_Log_Length=4263936; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=Microsoft.PowerShell.Commands.ComputerInfo; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Collections.Generic.Dictionary`2+ValueCollection[System.String,Microsoft.Security.ApplicationId.PolicyManagement.PolicyModel.RuleCollection]; Bitlocker=System.Object[]; UEFI_partition=; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}"
+
+
+ComputerName               : DESKTOP-TBE27PS
+Date                       : 10.10.2017 15:27:13
+User                       : lukas
+Last_User                  :
+Domain                     :
+Domain_TCP                 :
+Domain_DHCP                :
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Pro
+OS_Build                   : 10.0.17004
+SP                         : 0
+Install_Date               : 03.10.2017 16:58:36
+Last_Boot_Time             : 10.10.2017 13:24:00
+RAM_Total                  : 16289
+RAM_Free                   : 2
+Virtual_Total              : 25
+Virtual_Free               : 10
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=MachinePolicy; ExecutionPolicy=Undefined}, @{Scope=UserPolicy; ExecutionPolicy=Undefined}, @{Scope=Process; ExecutionPolicy=Bypass}, @{Scope=CurrentUser; ExecutionPolic
+                             y=RemoteSigned}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=9559818240; Computer=DESKTOP-TBE27PS; Used=117896687616; Size=127456505856}, @{FileSystem=NTFS; Type=Local Fixed
+                             Disk; Volume=D:; Available=55662903296; Computer=DESKTOP-TBE27PS; Used=444308615168; Size=499971518464}}
+BIOS                       : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+BIOS_Date                  : 08.05.2017 2:00:00
+Default_Locale             : 00000409
+Country                    : 420
+Locale                     : 00000405
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+SEP_Protection             :
+SEP_RegVersion             : Not Installed
+SEP_Version                :
+SEP_Service                :
+SEP_ClientType             :
+SEP_PolicyMode             :
+SEP_Infected               : 2
+SEP_Definition_Status      : Not Installed
+System_Log_Length          : 2166784
+Secrutiy_Log_Length        : 37818368
+Application_Log_Length     : 4263936
+Setupapi_Length            : 0
+NetIPConfiguration         : {NetIPConfiguration, NetIPConfiguration, NetIPConfiguration, NetIPConfiguration...}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData, Microsoft.PowerShell.Commands.Internal.Format.Forma
+                             tEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Users                : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData, Microsoft.PowerShell.Commands.Internal.Format.Forma
+                             tEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Groups               : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData, Microsoft.PowerShell.Commands.Internal.Format.Forma
+                             tEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+PCinfo                     : Microsoft.PowerShell.Commands.ComputerInfo
+Logs_Application           : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Even
+                             ting.Reader.EventLogRecord...}
+Logs_System                : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Even
+                             ting.Reader.EventLogRecord...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Even
+                             ting.Reader.EventLogRecord...}
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData, Microsoft.PowerShell.Commands.Internal.Format.Forma
+                             tEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+AppLocker                  : {}
+Bitlocker                  : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData, Microsoft.PowerShell.Commands.Internal.Format.Forma
+                             tEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+UEFI_partition             :
+Services                   : {AJRouter, ALG, ApHidMonitorService, AppIDSvc...}
+UWP_Apps                   : {@{Name=Microsoft.Windows.SecondaryTileExperience; PackageFullName=Microsoft.Windows.SecondaryTileExperience_10.0.0.0_neutral__cw5n1h2txyewy}, @{Name=Windows.MiracastView; Packa
+                             geFullName=Windows.MiracastView_6.3.0.0_neutral_neutral_cw5n1h2txyewy}, @{Name=Windows.PrintDialog; PackageFullName=Windows.PrintDialog_6.2.0.0_neutral_neutral_cw5n1h2txyewy}, @
+                             {Name=Microsoft.NET.Native.Framework.1.3; PackageFullName=Microsoft.NET.Native.Framework.1.3_1.3.24201.0_x64__8wekyb3d8bbwe}...}
+Installed_Apps             : {@{UninstallString=rundll32.exe C:\PROGRA~1\DIFX\4CBAA680AB78144E\DIFxAppA.dll, DIFxARPUninstallDriverPackage C:\WINDOWS\System32\DriverStore\FileRepository\mobilerecovery.inf_a
+                             md64_2b4a0baa79346797\mobilerecovery.inf; DisplayName=Windows Driver Package - Microsoft USBDevice  (02/19/2016 1.0.0.0); DisplayIcon=C:\PROGRA~1\DIFX\4CBAA680AB78144E\DIFxAppA.
+                             dll,0; DisplayVersion=02/19/2016 1.0.0.0; Publisher=Microsoft; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\
+                             01D4AA89568B59E5941907D403E3B682EE413AB7; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=01
+                             D4AA89568B59E5941907D403E3B682EE413AB7; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Android Studio; DisplayVersion=1.0; Publisher=Google Inc.; UR
+                             LInfoAbout=http://developer.android.com; DisplayIcon=D:\Program Files\Android\Android Studio\bin\studio.exe; UninstallString=D:\Program Files\Android\Android Studio\uninstall.ex
+                             e; NoModify=1; NoRepair=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Android Studio; PSParentPath=Microso
+                             ft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Android Studio; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Co
+                             re\Registry}, @{SystemComponent=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager; PSParent
+                             Path=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Connection Manager; PSDrive=HKLM; PSProvider=Microso
+                             ft.PowerShell.Core\Registry}, @{InstallLocation=C:\Program Files\Dell\SupportAssist\; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Cu
+                             rrentVersion\Uninstall\Dell Support Center; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=
+                             Dell Support Center; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}...}
+Processes                  : {System.Diagnostics.Process (ApMsgFwd), System.Diagnostics.Process (ApntEx), System.Diagnostics.Process (Apoint), System.Diagnostics.Process (AppleMobileDeviceService)...}
+UWF                        :
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+
+
+PS C:\WINDOWS\system32> $hash.Dslog_Service
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Not Installed"
+Not Installed
+PS C:\WINDOWS\system32> $hash.Bitlocker
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Microsoft.PowerShell.Commands.Internal.Format.FormatStartData"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Microsoft.PowerShell.Commands.Internal.Format.GroupStartData"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData"
+ComputerName         : DESKTOP-TBE27PS
+MountPoint           : D:
+EncryptionMethod     : None
+AutoUnlockEnabled    :
+AutoUnlockKeyStored  :
+MetadataVersion      : 0
+VolumeStatus         : FullyDecrypted
+ProtectionStatus     : Off
+LockStatus           : Unlocked
+EncryptionPercentage : 0
+WipePercentage       : 0
+VolumeType           : Data
+CapacityGB           : 465,6348
+KeyProtector         : {}
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData"
+ComputerName         : DESKTOP-TBE27PS
+MountPoint           : C:
+EncryptionMethod     : None
+AutoUnlockEnabled    :
+AutoUnlockKeyStored  :
+MetadataVersion      : 0
+VolumeStatus         : FullyDecrypted
+ProtectionStatus     : Off
+LockStatus           : Unlocked
+EncryptionPercentage : 0
+WipePercentage       : 0
+VolumeType           : OperatingSystem
+CapacityGB           : 118,7031
+KeyProtector         : {}
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Microsoft.PowerShell.Commands.Internal.Format.GroupEndData"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Microsoft.PowerShell.Commands.Internal.Format.FormatEndData"
+
