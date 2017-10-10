@@ -343,8 +343,8 @@ $hash | Add-Member Noteproperty Bios_dater ($json.BIOS_Date)
 $hash | Add-Member Noteproperty Bitlocker ($json.Bitlocker)
 $hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_Root_Certificates) #duplikace s výpisem certifikátù -> jejihc porovnání viz. výše
 $hash | Add-Member Noteproperty ComputerName ($json.ComputerName)
-$json.Country
-$json.Date
+$hash | Add-Member Noteproperty Country ($json.Country)
+$hash | Add-Member Noteproperty Date ($json.Date)
 $json.Default_Locale
 $json.Deny_DeviceClasses
 $json.Deny_DeviceIDs
