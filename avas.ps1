@@ -38,7 +38,7 @@ $inputdata                                   = Get-Content $inputfile
 $json                                        = $inputdata | ConvertFrom-Json
 $jsondef                                     = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json
 
-#jsondef je nastaven na pevnou cestu!!! nutno zmìnit pøi zmìnì PC!!!! nebo nastavit open file dialog pro druhý soubor
+#jsondef je nastaven na pevnou cestu!!! nutno zmï¿½nit pï¿½i zmï¿½nï¿½ PC!!!! nebo nastavit open file dialog pro druhï¿½ soubor
 
 
 
@@ -327,7 +327,7 @@ $hash | Add-Member Noteproperty Applocker ($json.AppLocker)
 $hash | Add-Member Noteproperty BIOS ($json.BIOS)
 $hash | Add-Member Noteproperty Bios_date ($json.BIOS_Date)
 $hash | Add-Member Noteproperty Bitlocker ($json.Bitlocker)
-$hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_Root_Certificates) #duplikace s výpisem certifikátù -> jejihc porovnání viz. výše
+$hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_Root_Certificates) #duplikace s vï¿½pisem certifikï¿½tï¿½ -> jejihc porovnï¿½nï¿½ viz. vï¿½ï¿½e
 $hash | Add-Member Noteproperty ComputerName ($json.ComputerName)
 $hash | Add-Member Noteproperty Country ($json.Country)
 $hash | Add-Member Noteproperty Date ($json.Date)
@@ -354,21 +354,6 @@ $hash.hdd_rozdil| Out-String
 
 $hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
 $hash.PCinfo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

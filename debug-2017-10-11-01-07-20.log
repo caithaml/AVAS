@@ -61,3 +61,2690 @@ PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObjec
 
 PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=16281.1000.amd64fre.rs3_release.170829-1438; WindowsCurrentVersion=6.3; WindowsEditionId=Enterprise; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=06.09.2017 8:41:09; WindowsProductId=00329-00000-00003-AA661; WindowsProductName=Windows 10 Enterprise Insider Preview; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\Windows; WindowsVersion=1703; BiosCharacteristics=; BiosBIOSVersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCurrentLanguage=; BiosDescription=; BiosEmbeddedControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; BiosFirmwareType=; BiosIdentificationCode=; BiosInstallableLanguages=; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=; BiosManufacturer=; BiosName=; BiosOtherTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=; BiosSMBIOSBIOSVersion=; BiosSMBIOSMajorVersion=; BiosSMBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwareElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSystemBiosMinorVersion=; BiosTargetOperatingSystem=; BiosVersion=; CsAdminPasswordStatus=; CsAutomaticManagedPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=; CsBootStatus=; CsBootupState=; CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZone=; CsDaylightInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; CsDomainRole=; CsEnableDaylightSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfraredSupported=; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=; CsLastLoadInfo=; CsManufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabled=; CsNumberOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMStringArray=; CsPartOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPowerState=; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapability=; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysicalMemory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=; OsType=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotFixes=; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive=; OsWindowsDirectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; OsLocalDateTime=; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecutionPreventionAvailable=; OsDataExecutionPrevention32BitApplications=; OsDataExecutionPreventionDrivers=; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=; OsEncryptionLevel=; OsForegroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFreePhysicalMemory=; OsTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemory=; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=; OsFreeSpaceInPagingFiles=; OsPagingFiles=; OsHardwareAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumberOfProcesses=; OsMaxProcessMemorySize=; OsMuiLanguages=; OsNumberOfLicensedUsers=; OsNumberOfProcesses=; OsNumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=; OsProductSuites=; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=; OsPrimary=; OsProductType=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorVersion=; OsServicePackMinorVersion=; OsStatus=; OsSuites=; OsServerLevel=; KeyboardLayout=; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\DESKTOP-V056PHL; PowerPlatformRole=2; HyperVisorPresent=; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
 
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_11.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_11.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-11-01-16-30.txt"
+Transcript started, output file is ./transcript2017-10-11-01-16-30.txt
+10/11/2017 13:16:30 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-11-01-16-35.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-11-01-16-35.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Mozilla Maintenance Service; DisplayVersion=58.0a1; Publisher=Mozilla}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell Touchpad; DisplayVersion=10.2207.101.108; Publisher=ALPS ELECTRIC CO., LTD.}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft Corporation}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows PushToInstall Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+DESKTOP-V056PHL <=           
+
+
+"
+DisplayName                                  DisplayVersion  Publisher
+-----------                                  --------------  ---------
+Mozilla Maintenance Service                  58.0a1          Mozilla
+Dell Touchpad                                10.2207.101.108 ALPS ELECTRIC CO., LTD.
+Microsoft Visual Studio Code                 1.17.0          Microsoft Corporation
+Background Intelligent Transfer Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows PushToInstall Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+DESKTOP-V056PHL <=
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=16281.1000.amd64fre.rs3_release.170829-1438; WindowsCurrentVersion=6.3; WindowsEditionId=Enterprise; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=06.09.2017 8:41:09; WindowsProductId=00329-00000-00003-AA661; WindowsProductName=Windows 10 Enterprise Insider Preview; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\Windows; WindowsVersion=1703; BiosCharacteristics=; BiosBIOSVersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCurrentLanguage=; BiosDescription=; BiosEmbeddedControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; BiosFirmwareType=; BiosIdentificationCode=; BiosInstallableLanguages=; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=; BiosManufacturer=; BiosName=; BiosOtherTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=; BiosSMBIOSBIOSVersion=; BiosSMBIOSMajorVersion=; BiosSMBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwareElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSystemBiosMinorVersion=; BiosTargetOperatingSystem=; BiosVersion=; CsAdminPasswordStatus=; CsAutomaticManagedPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=; CsBootStatus=; CsBootupState=; CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZone=; CsDaylightInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; CsDomainRole=; CsEnableDaylightSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfraredSupported=; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=; CsLastLoadInfo=; CsManufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabled=; CsNumberOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMStringArray=; CsPartOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPowerState=; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapability=; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysicalMemory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=; OsType=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotFixes=; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive=; OsWindowsDirectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; OsLocalDateTime=; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecutionPreventionAvailable=; OsDataExecutionPrevention32BitApplications=; OsDataExecutionPreventionDrivers=; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=; OsEncryptionLevel=; OsForegroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFreePhysicalMemory=; OsTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemory=; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=; OsFreeSpaceInPagingFiles=; OsPagingFiles=; OsHardwareAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumberOfProcesses=; OsMaxProcessMemorySize=; OsMuiLanguages=; OsNumberOfLicensedUsers=; OsNumberOfProcesses=; OsNumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=; OsProductSuites=; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=; OsPrimary=; OsProductType=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorVersion=; OsServicePackMinorVersion=; OsStatus=; OsSuites=; OsServerLevel=; KeyboardLayout=; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\DESKTOP-V056PHL; PowerPlatformRole=2; HyperVisorPresent=; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
+
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundExce
+ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist."
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundExce
+ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist."
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundExce
+ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist."
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundExce
+ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist."
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundExce
+ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist."
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundExce
+ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist."
+Get-Content : Cannot find path 'C:\WINDOWS\system32\$scriptpath\hotfixy.csv' because it does not exist.
+At D:\SICZ\avas\avas.ps1:1227 char:15
++     $patche = Get-Content -Path '$scriptpath\hotfixy.csv' | ConvertFr ...
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\syst...ath\hotfixy.csv:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_11.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_11.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-11-01-17-14.txt"
+Transcript started, output file is ./transcript2017-10-11-01-17-14.txt
+10/11/2017 13:17:14 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-11-01-17-23.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-11-01-17-23.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=           
+
+
+"
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=15063.0.amd64fre.rs2_release.170317-1834; WindowsCurrentVersion=6.3; WindowsEditionId=Professional; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=24.03.2017 19:35:51; WindowsProductId=00330-80000-00000-AA628; WindowsProductName=Windows 10 Pro; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\WINDOWS; WindowsVersion=1703; BiosCharacteristics=System.Object[]; BiosBIOSVersion=System.Object[]; BiosBuildNumber=; BiosCaption=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosCodeSet=; BiosCurrentLanguage=en|US|iso8859-1; BiosDescription=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosEmbeddedControllerMajorVersion=255; BiosEmbeddedControllerMinorVersion=255; BiosFirmwareType=1; BiosIdentificationCode=; BiosInstallableLanguages=1; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=System.Object[]; BiosManufacturer=Dell Inc.; BiosName=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosOtherTargetOS=; BiosPrimaryBIOS=True; BiosReleaseDate=22.12.2016 0:00:00; BiosSeralNumber=H0PMD12; BiosSMBIOSBIOSVersion=A20; BiosSMBIOSMajorVersion=2; BiosSMBIOSMinorVersion=7; BiosSMBIOSPresent=True; BiosSoftwareElementState=3; BiosStatus=OK; BiosSystemBiosMajorVersion=65; BiosSystemBiosMinorVersion=20; BiosTargetOperatingSystem=0; BiosVersion=DELL   - 1072009; CsAdminPasswordStatus=0; CsAutomaticManagedPagefile=False; CsAutomaticResetBootOption=True; CsAutomaticResetCapability=True; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=True; CsBootStatus=System.Object[]; CsBootupState=Normal boot; CsCaption=MICA; CsChassisBootupState=3; CsChassisSKUNumber=To be filled by O.E.M.; CsCurrentTimeZone=120; CsDaylightInEffect=True; CsDescription=AT/AT COMPATIBLE; CsDNSHostName=mica; CsDomain=WORKGROUP; CsDomainRole=0; CsEnableDaylightSavingsTime=True; CsFrontPanelResetStatus=0; CsHypervisorPresent=True; CsInfraredSupported=False; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=0; CsLastLoadInfo=; CsManufacturer=Dell Inc.; CsModel=Latitude E7440; CsName=MICA; CsNetworkAdapters=System.Object[]; CsNetworkServerModeEnabled=True; CsNumberOfLogicalProcessors=4; CsNumberOfProcessors=1; CsProcessors=System.Object[]; CsOEMStringArray=System.Object[]; CsPartOfDomain=False; CsPauseAfterReset=-1; CsPCSystemType=2; CsPCSystemTypeEx=2; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=0; CsPowerState=0; CsPowerSupplyState=3; CsPrimaryOwnerContact=; CsPrimaryOwnerName=Windows User; CsResetCapability=1; CsResetCount=-1; CsResetLimit=-1; CsRoles=System.Object[]; CsStatus=OK; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=05CB; CsSystemType=x64-based PC; CsThermalState=3; CsTotalPhysicalMemory=17080684544; CsPhyicallyInstalledMemory=16777216; CsUserName=MICA\caith; CsWakeUpType=6; CsWorkgroup=WORKGROUP; OsName=Microsoft Windows 10 Pro; OsType=18; OsOperatingSystemSKU=48; OsVersion=10.0.15063; OsCSDVersion=; OsBuildNumber=15063; OsHotFixes=System.Object[]; OsBootDevice=\Device\HarddiskVolume3; OsSystemDevice=\Device\HarddiskVolume2; OsSystemDirectory=C:\WINDOWS\system32; OsSystemDrive=C:; OsWindowsDirectory=C:\WINDOWS; OsCountryCode=420; OsCurrentTimeZone=120; OsLocaleID=0405; OsLocale=cs-CZ; OsLocalDateTime=07.09.2017 13:38:28; OsLastBootUpTime=05.09.2017 6:09:54; OsUptime=; OsBuildType=Multiprocessor Free; OsCodeSet=1250; OsDataExecutionPreventionAvailable=True; OsDataExecutionPrevention32BitApplications=True; OsDataExecutionPreventionDrivers=True; OsDataExecutionPreventionSupportPolicy=2; OsDebug=False; OsDistributed=False; OsEncryptionLevel=256; OsForegroundApplicationBoost=2; OsTotalVisibleMemorySize=16680356; OsFreePhysicalMemory=8156388; OsTotalVirtualMemorySize=34506148; OsFreeVirtualMemory=22165628; OsInUseVirtualMemory=12340520; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=17825792; OsFreeSpaceInPagingFiles=17698596; OsPagingFiles=System.Object[]; OsHardwareAbstractionLayer=10.0.15063.502; OsInstallDate=24.03.2017 20:35:51; OsManufacturer=Microsoft Corporation; OsMaxNumberOfProcesses=4294967295; OsMaxProcessMemorySize=137438953344; OsMuiLanguages=System.Object[]; OsNumberOfLicensedUsers=0; OsNumberOfProcesses=254; OsNumberOfUsers=2; OsOrganization=; OsArchitecture=64-bit; OsLanguage=en-US; OsProductSuites=System.Object[]; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=False; OsPrimary=True; OsProductType=1; OsRegisteredUser=Windows User; OsSerialNumber=00330-80000-00000-AA628; OsServicePackMajorVersion=0; OsServicePackMinorVersion=0; OsStatus=OK; OsSuites=System.Object[]; OsServerLevel=; KeyboardLayout=00020405; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\MICA; PowerPlatformRole=2; HyperVisorPresent=True; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+
+
+PS C:\WINDOWS\system32> $textfile = "c:\temp\url.txt"
+ 
+ForEach ($url in Get-Content $textfile) {
+    $IE=new-object -com microsoft-edge:
+    $IE.navigate2($url)
+    $IE.visible=$true
+}
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:5
++     $IE.visible=$true
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge:
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> $textfile = "c:\temp\url.txt"
+ 
+ForEach ($url in Get-Content $textfile) {
+    $IE=new-object -com microsoft-edge
+    $IE.navigate2($url)
+   $IE.visible=$true
+}
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com microsoft-edge
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> $textfile = "c:\temp\url.txt"
+ 
+ForEach ($url in Get-Content $textfile) {
+    $IE=new-object -com chrome
+    $IE.navigate2($url)
+   $IE.visible=$true
+}
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x8004
+0154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="You cannot call a method on a null-valued expression."
+You cannot call a method on a null-valued expression.
+At line:5 char:5
++     $IE.navigate2($url)
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="The property 'visible' cannot be found on this object. Verify that the property exists and can be set."
+The property 'visible' cannot be found on this object. Verify that the property exists and can be set.
+At line:6 char:4
++    $IE.visible=$true
++    ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+>> TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG))."
+new-object : Retrieving the COM class factory for component with CLSID {00000000-0000-0000-0000-000000000000} failed due
+ to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+At line:4 char:9
++     $IE=new-object -com chrome
++         ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [New-Object], COMException
+    + FullyQualifiedErrorId : NoCOMClassIdentified,Microsoft.PowerShell.Commands.NewObjectCommand
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> $textfile = "c:\temp\url.txt"
+ 
+ForEach ($url in Get-Content $textfile) {
+    $IE=new-object -com internetexplorer.application
+    $IE.navigate2($url)
+    $IE.visible=$true
+}
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086608
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086608
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086608
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086608
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.086624
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0867218
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0868262
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0868262
+Start-Process -FilePath chrome -ArgumentList	https://www.google.cz/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+pivovar+Strahov/@50.0868262
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
