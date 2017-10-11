@@ -348,7 +348,7 @@ $hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.C
 $hash.rozdily | Out-String
 
 $hash | Add-Member Noteproperty hdd ($json.local_disks)
-$hash | Add-Member noteproperty hdd_rozdil (Compare-Object -ReferenceObject $json.Local_disks -DifferenceObject $jsondef.Localdisks)
+#$hash | Add-Member noteproperty hdd_rozdil (Compare-Object -ReferenceObject $json.Local_disks -DifferenceObject $jsondef.Localdisks)
 #$hash.hdd | Out-String
 $hash.hdd_rozdil| Out-String 
 
