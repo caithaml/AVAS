@@ -129,9 +129,9 @@ if($set.appdifftest -eq '1')
     $Diff | Select-Object -Property DisplayName, DisplayVersion, Publisher
   }
   appdiff
-  $apps = appdiff
+ 
 }      
-        
+     $apps=appdiff   
 else
 {
   Write-Host -message 'pokracuji ve zpracovani bez testu applikaci'
