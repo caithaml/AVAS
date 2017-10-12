@@ -30,7 +30,7 @@ Function Get-FileName($initialDirectory)
   $null = $OpenFileDialog.ShowDialog()
   $OpenFileDialog.filename
 }
-$inputfile                                   = Get-FileName -initialDirectory 'D:\SICZ'
+$inputfile                                   = Get-FileName -initialDirectory 'D:\SICZ\avas\'
 $inputdata                                   = Get-Content $inputfile
 
 
@@ -348,7 +348,7 @@ $hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.C
 $hash.rozdily | Out-String
 
 $hash | Add-Member Noteproperty hdd ($json.local_disks)
-#$hash | Add-Member noteproperty hdd_rozdil (Compare-Object -ReferenceObject $json.Local_disks -DifferenceObject $jsondef.Localdisks)
+$hash | Add-Member noteproperty hdd_rozdil (Compare-Object -ReferenceObject $json.Local_disks -DifferenceObject $jsondef.Localdisks)
 #$hash.hdd | Out-String
 $hash.hdd_rozdil| Out-String 
 
@@ -359,9 +359,9 @@ $hash | Add-Member NoteProperty Local_groups ($json.Local_Groups)
 
 $hash
 
-$json
+<#$json
 $jsondef
-
+#>
 
 <#
 
