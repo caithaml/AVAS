@@ -1,0 +1,1132 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171012132543
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 7124
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-12-01-25-43.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-12-01-25-43.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Mozilla Maintenance Service; DisplayVersion=58.0a1; Publisher=Mozilla}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell Touchpad; DisplayVersion=10.2207.101.108; Publisher=ALPS ELECTRIC CO., LTD.}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft Corporation}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows PushToInstall Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+DESKTOP-V056PHL <=           
+
+
+"
+DisplayName                                  DisplayVersion  Publisher
+-----------                                  --------------  ---------
+Mozilla Maintenance Service                  58.0a1          Mozilla
+Dell Touchpad                                10.2207.101.108 ALPS ELECTRIC CO., LTD.
+Microsoft Visual Studio Code                 1.17.0          Microsoft Corporation
+Background Intelligent Transfer Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows PushToInstall Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+DESKTOP-V056PHL <=
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=16281.1000.amd64fre.rs3_release.170829-1438; WindowsCurrentVersion=6.3; WindowsEditionId=Enterprise; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=06.09.2017 8:41:09; WindowsProductId=00329-00000-00003-AA661; WindowsProductName=Windows 10 Enterprise Insider Preview; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\Windows; WindowsVersion=1703; BiosCharacteristics=; BiosBIOSVersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCurrentLanguage=; BiosDescription=; BiosEmbeddedControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; BiosFirmwareType=; BiosIdentificationCode=; BiosInstallableLanguages=; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=; BiosManufacturer=; BiosName=; BiosOtherTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=; BiosSMBIOSBIOSVersion=; BiosSMBIOSMajorVersion=; BiosSMBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwareElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSystemBiosMinorVersion=; BiosTargetOperatingSystem=; BiosVersion=; CsAdminPasswordStatus=; CsAutomaticManagedPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=; CsBootStatus=; CsBootupState=; CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZone=; CsDaylightInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; CsDomainRole=; CsEnableDaylightSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfraredSupported=; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=; CsLastLoadInfo=; CsManufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabled=; CsNumberOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMStringArray=; CsPartOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPowerState=; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapability=; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysicalMemory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=; OsType=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotFixes=; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive=; OsWindowsDirectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; OsLocalDateTime=; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecutionPreventionAvailable=; OsDataExecutionPrevention32BitApplications=; OsDataExecutionPreventionDrivers=; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=; OsEncryptionLevel=; OsForegroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFreePhysicalMemory=; OsTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemory=; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=; OsFreeSpaceInPagingFiles=; OsPagingFiles=; OsHardwareAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumberOfProcesses=; OsMaxProcessMemorySize=; OsMuiLanguages=; OsNumberOfLicensedUsers=; OsNumberOfProcesses=; OsNumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=; OsProductSuites=; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=; OsPrimary=; OsProductType=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorVersion=; OsServicePackMinorVersion=; OsStatus=; OsSuites=; OsServerLevel=; KeyboardLayout=; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\DESKTOP-V056PHL; PowerPlatformRole=2; HyperVisorPresent=; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Apps=System.Object[]; services=System.Object[]; scheduledtasks=; hotfix=; uwp=; Active_DC=; Allow_deviceclasses=; Allow_deviceids=; Application_log_length=5312512; Applocker=System.Object[]; BIOS=DELL   - 6222004 | Default System BIOS; Bios_date=; Bitlocker=; Computerturen_root_certifikates=System.Object[]; ComputerName=DESKTOP-V056PHL; Country=420; Date=; Default_locale=00000409; Deny_deviceclasses=; Deny_deviceids=; deny_UnspecifiedDevices=; Domain=; Domain_dhcp=sicz.local; Domain_tcp=; AV_MS_product=Windows Defender; AV_MS_residenton=False; AV_MS_scanner_build=1.1.14104.0; AV_MS_scanner_version=1.251.613.0; AV_MS_version=4.12.16281.1000; rozdily=System.Object[]; hdd=; pcinfo=; Local_groups=System.Object[]}"
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+
+
+PS C:\WINDOWS\system32> $hash.Local_groups
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group can remotely query authorization attributes and permissions for resources on this computer.; Name=Access Control Assistance Operators; SID=S-1-5-32-579; PrincipalSource=1; ObjectClass=Group}"
+
+
+Description     : Members of this group can remotely query authorization attributes and permissions for resources on this computer.
+Name            : Access Control Assistance Operators
+SID             : S-1-5-32-579
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Administrators have complete and unrestricted access to the computer/domain; Name=Administrators; SID=S-1-5-32-544; PrincipalSource=1; ObjectClass=Group}"
+Description     : Administrators have complete and unrestricted access to the computer/domain
+Name            : Administrators
+SID             : S-1-5-32-544
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Backup Operators can override security restrictions for the sole purpose of backing up or restoring files; Name=Backup Operators; SID=S-1-5-32-551; PrincipalSource=1; ObjectClass=Group}"
+Description     : Backup Operators can override security restrictions for the sole purpose of backing up or restoring files
+Name            : Backup Operators
+SID             : S-1-5-32-551
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members are authorized to perform cryptographic operations.; Name=Cryptographic Operators; SID=S-1-5-32-569; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members are authorized to perform cryptographic operations.
+Name            : Cryptographic Operators
+SID             : S-1-5-32-569
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members are allowed to launch, activate and use Distributed COM objects on this machine.; Name=Distributed COM Users; SID=S-1-5-32-562; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members are allowed to launch, activate and use Distributed COM objects on this machine.
+Name            : Distributed COM Users
+SID             : S-1-5-32-562
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group can read event logs from local machine; Name=Event Log Readers; SID=S-1-5-32-573; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members of this group can read event logs from local machine
+Name            : Event Log Readers
+SID             : S-1-5-32-573
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted; Name=Guests; SID=S-1-5-32-546; PrincipalSource=1; ObjectClass=Group}"
+Description     : Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted
+Name            : Guests
+SID             : S-1-5-32-546
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group have complete and unrestricted access to all features of Hyper-V.; Name=Hyper-V Administrators; SID=S-1-5-32-578; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members of this group have complete and unrestricted access to all features of Hyper-V.
+Name            : Hyper-V Administrators
+SID             : S-1-5-32-578
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Built-in group used by Internet Information Services.; Name=IIS_IUSRS; SID=S-1-5-32-568; PrincipalSource=1; ObjectClass=Group}"
+Description     : Built-in group used by Internet Information Services.
+Name            : IIS_IUSRS
+SID             : S-1-5-32-568
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members in this group can have some administrative privileges to manage configuration of networking features; Name=Network Configuration Operators; SID=S-1-5-32-556; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members in this group can have some administrative privileges to manage configuration of networking features
+Name            : Network Configuration Operators
+SID             : S-1-5-32-556
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer; Name=Performance Log Users; SID=S-1-5-32-559; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer
+Name            : Performance Log Users
+SID             : S-1-5-32-559
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group can access performance counter data locally and remotely; Name=Performance Monitor Users; SID=S-1-5-32-558; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members of this group can access performance counter data locally and remotely
+Name            : Performance Monitor Users
+SID             : S-1-5-32-558
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Power Users are included for backwards compatibility and possess limited administrative powers; Name=Power Users; SID=S-1-5-32-547; PrincipalSource=1; ObjectClass=Group}"
+Description     : Power Users are included for backwards compatibility and possess limited administrative powers
+Name            : Power Users
+SID             : S-1-5-32-547
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members in this group are granted the right to logon remotely; Name=Remote Desktop Users; SID=S-1-5-32-555; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members in this group are granted the right to logon remotely
+Name            : Remote Desktop Users
+SID             : S-1-5-32-555
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user.; Name=Remote Management Users; SID=S-1-5-32-580; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant a
+                  ccess to the user.
+Name            : Remote Management Users
+SID             : S-1-5-32-580
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Supports file replication in a domain; Name=Replicator; SID=S-1-5-32-552; PrincipalSource=1; ObjectClass=Group}"
+Description     : Supports file replication in a domain
+Name            : Replicator
+SID             : S-1-5-32-552
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Members of this group are managed by the system.; Name=System Managed Accounts Group; SID=S-1-5-32-581; PrincipalSource=1; ObjectClass=Group}"
+Description     : Members of this group are managed by the system.
+Name            : System Managed Accounts Group
+SID             : S-1-5-32-581
+PrincipalSource : 1
+ObjectClass     : Group
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Description=Users are prevented from making accidental or intentional system-wide changes and can run most applications; Name=Users; SID=S-1-5-32-545; PrincipalSource=1; ObjectClass=Group}"
+Description     : Users are prevented from making accidental or intentional system-wide changes and can run most applications
+Name            : Users
+SID             : S-1-5-32-545
+PrincipalSource : 1
+ObjectClass     : Group
+
+
+
+PS C:\WINDOWS\system32> $hash.scheduledtasks
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> $hash.Bitlocker
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{ComputerName=DESKTOP-V056PHL; MountPoint=C:; EncryptionMethod=0; AutoUnlockEnabled=; AutoUnlockKeyStored=; MetadataVersion=0; VolumeStatus=0; ProtectionStatus=0; LockStatus=0; EncryptionPercentage=0; WipePercentage=0; VolumeType=0; CapacityGB=465,223633; KeyProtector=System.Object[]}"
+
+
+ComputerName         : DESKTOP-V056PHL
+MountPoint           : C:
+EncryptionMethod     : 0
+AutoUnlockEnabled    :
+AutoUnlockKeyStored  :
+MetadataVersion      : 0
+VolumeStatus         : 0
+ProtectionStatus     : 0
+LockStatus           : 0
+EncryptionPercentage : 0
+WipePercentage       : 0
+VolumeType           : 0
+CapacityGB           : 465,223633
+KeyProtector         : {}
+
+
+
+PS C:\WINDOWS\system32> $hash.hdd
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=415967141888; Computer=DESKTOP-V056PHL; Used=83562926080; Size=499530067968}"
+
+
+FileSystem : NTFS
+Type       : Local Fixed Disk
+Volume     : C:
+Available  : 415967141888
+Computer   : DESKTOP-V056PHL
+Used       : 83562926080
+Size       : 499530067968
+
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_12.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_12.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-12-01-28-37.txt"
+Transcript started, output file is ./transcript2017-10-12-01-28-37.txt
+10/12/2017 13:28:37 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-12-01-28-45.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-12-01-28-45.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=           
+
+
+"
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=15063.0.amd64fre.rs2_release.170317-1834; WindowsCurrentVersion=6.3; WindowsEditionId=Professional; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=24.03.2017 19:35:51; WindowsProductId=00330-80000-00000-AA628; WindowsProductName=Windows 10 Pro; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\WINDOWS; WindowsVersion=1703; BiosCharacteristics=System.Object[]; BiosBIOSVersion=System.Object[]; BiosBuildNumber=; BiosCaption=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosCodeSet=; BiosCurrentLanguage=en|US|iso8859-1; BiosDescription=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosEmbeddedControllerMajorVersion=255; BiosEmbeddedControllerMinorVersion=255; BiosFirmwareType=1; BiosIdentificationCode=; BiosInstallableLanguages=1; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=System.Object[]; BiosManufacturer=Dell Inc.; BiosName=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosOtherTargetOS=; BiosPrimaryBIOS=True; BiosReleaseDate=22.12.2016 0:00:00; BiosSeralNumber=H0PMD12; BiosSMBIOSBIOSVersion=A20; BiosSMBIOSMajorVersion=2; BiosSMBIOSMinorVersion=7; BiosSMBIOSPresent=True; BiosSoftwareElementState=3; BiosStatus=OK; BiosSystemBiosMajorVersion=65; BiosSystemBiosMinorVersion=20; BiosTargetOperatingSystem=0; BiosVersion=DELL   - 1072009; CsAdminPasswordStatus=0; CsAutomaticManagedPagefile=False; CsAutomaticResetBootOption=True; CsAutomaticResetCapability=True; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=True; CsBootStatus=System.Object[]; CsBootupState=Normal boot; CsCaption=MICA; CsChassisBootupState=3; CsChassisSKUNumber=To be filled by O.E.M.; CsCurrentTimeZone=120; CsDaylightInEffect=True; CsDescription=AT/AT COMPATIBLE; CsDNSHostName=mica; CsDomain=WORKGROUP; CsDomainRole=0; CsEnableDaylightSavingsTime=True; CsFrontPanelResetStatus=0; CsHypervisorPresent=True; CsInfraredSupported=False; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=0; CsLastLoadInfo=; CsManufacturer=Dell Inc.; CsModel=Latitude E7440; CsName=MICA; CsNetworkAdapters=System.Object[]; CsNetworkServerModeEnabled=True; CsNumberOfLogicalProcessors=4; CsNumberOfProcessors=1; CsProcessors=System.Object[]; CsOEMStringArray=System.Object[]; CsPartOfDomain=False; CsPauseAfterReset=-1; CsPCSystemType=2; CsPCSystemTypeEx=2; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=0; CsPowerState=0; CsPowerSupplyState=3; CsPrimaryOwnerContact=; CsPrimaryOwnerName=Windows User; CsResetCapability=1; CsResetCount=-1; CsResetLimit=-1; CsRoles=System.Object[]; CsStatus=OK; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=05CB; CsSystemType=x64-based PC; CsThermalState=3; CsTotalPhysicalMemory=17080684544; CsPhyicallyInstalledMemory=16777216; CsUserName=MICA\caith; CsWakeUpType=6; CsWorkgroup=WORKGROUP; OsName=Microsoft Windows 10 Pro; OsType=18; OsOperatingSystemSKU=48; OsVersion=10.0.15063; OsCSDVersion=; OsBuildNumber=15063; OsHotFixes=System.Object[]; OsBootDevice=\Device\HarddiskVolume3; OsSystemDevice=\Device\HarddiskVolume2; OsSystemDirectory=C:\WINDOWS\system32; OsSystemDrive=C:; OsWindowsDirectory=C:\WINDOWS; OsCountryCode=420; OsCurrentTimeZone=120; OsLocaleID=0405; OsLocale=cs-CZ; OsLocalDateTime=07.09.2017 13:38:28; OsLastBootUpTime=05.09.2017 6:09:54; OsUptime=; OsBuildType=Multiprocessor Free; OsCodeSet=1250; OsDataExecutionPreventionAvailable=True; OsDataExecutionPrevention32BitApplications=True; OsDataExecutionPreventionDrivers=True; OsDataExecutionPreventionSupportPolicy=2; OsDebug=False; OsDistributed=False; OsEncryptionLevel=256; OsForegroundApplicationBoost=2; OsTotalVisibleMemorySize=16680356; OsFreePhysicalMemory=8156388; OsTotalVirtualMemorySize=34506148; OsFreeVirtualMemory=22165628; OsInUseVirtualMemory=12340520; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=17825792; OsFreeSpaceInPagingFiles=17698596; OsPagingFiles=System.Object[]; OsHardwareAbstractionLayer=10.0.15063.502; OsInstallDate=24.03.2017 20:35:51; OsManufacturer=Microsoft Corporation; OsMaxNumberOfProcesses=4294967295; OsMaxProcessMemorySize=137438953344; OsMuiLanguages=System.Object[]; OsNumberOfLicensedUsers=0; OsNumberOfProcesses=254; OsNumberOfUsers=2; OsOrganization=; OsArchitecture=64-bit; OsLanguage=en-US; OsProductSuites=System.Object[]; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=False; OsPrimary=True; OsProductType=1; OsRegisteredUser=Windows User; OsSerialNumber=00330-80000-00000-AA628; OsServicePackMajorVersion=0; OsServicePackMinorVersion=0; OsStatus=OK; OsSuites=System.Object[]; OsServerLevel=; KeyboardLayout=00020405; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\MICA; PowerPlatformRole=2; HyperVisorPresent=True; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Apps=System.Object[]; services=System.Object[]; scheduledtasks=; hotfix=; uwp=; Active_DC=; Allow_deviceclasses=; Allow_deviceids=; Application_log_length=18944000; Applocker=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; Bios_date=; Bitlocker=System.Object[]; Computerturen_root_certifikates=System.Object[]; ComputerName=MICA; Country=420; Date=; Default_locale=00000409; Deny_deviceclasses=; Deny_deviceids=; deny_UnspecifiedDevices=; Domain=; Domain_dhcp=sicz.local; Domain_tcp=; AV_MS_product=; AV_MS_residenton=; AV_MS_scanner_build=; AV_MS_scanner_version=; AV_MS_version=; rozdily=System.Object[]; hdd=System.Object[]; pcinfo=; Local_groups=System.Object[]}"
+
+
+
+PS C:\WINDOWS\system32> $hash.scheduledtasks
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> $hash.hdd
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=18977058816; Computer=MICA; Used=108479447040; Size=127456505856}"
+
+
+FileSystem : NTFS
+Type       : Local Fixed Disk
+Volume     : C:
+Available  : 18977058816
+Computer   : MICA
+Used       : 108479447040
+Size       : 127456505856
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=D:; Available=155963895808; Computer=MICA; Used=344007622656; Size=499971518464}"
+FileSystem : NTFS
+Type       : Local Fixed Disk
+Volume     : D:
+Available  : 155963895808
+Computer   : MICA
+Used       : 344007622656
+Size       : 499971518464
+
+
+
+PS C:\WINDOWS\system32> $hash.uwp
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> $hash.Apps
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+
+
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_12.log"
+Transcript started, output file is D:\SICZ\avas\AVAS_2017_10_12.log
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-12-01-31-16.txt"
+Transcript started, output file is ./transcript2017-10-12-01-31-16.txt
+10/12/2017 13:31:16 - Nacitani json konfiguracniho souboru
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\avas/debug-2017-10-12-01-31-25.log"
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-12-01-31-25.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Dell SupportAssist; DisplayVersion=2.0.6875.668; Publisher=Dell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Total Commander 64-bit (Remove or Repair); DisplayVersion=9.0a; Publisher=Ghisler Software GmbH}"
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+DisplayName                               DisplayVersion Publisher
+-----------                               -------------- ---------
+Dell SupportAssist                        2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair) 9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+Offline Files
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Connected User Experiences and Telemetry; StartType=2}"
+Connected User Experiences and Telemetry
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Diagnostic Policy Service; StartType=2}"
+Diagnostic Policy Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+File History Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+IKE and AuthIP IPsec Keying Modules
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Geolocation Service; StartType=3}"
+Geolocation Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Net.Tcp Port Sharing Service; StartType=4}"
+Net.Tcp Port Sharing Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Remote Access Connection Manager; StartType=2}"
+Remote Access Connection Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Routing and Remote Access; StartType=4}"
+Routing and Remote Access
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shell Hardware Detection; StartType=2}"
+Shell Hardware Detection
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Shared PC Account Manager; StartType=4}"
+Shared PC Account Manager
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Image Acquisition (WIA); StartType=2}"
+Windows Image Acquisition (WIA)
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+Touch Keyboard and Handwriting Panel S...
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Themes; StartType=2}"
+Themes
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Auto Time Zone Updater; StartType=4}"
+Auto Time Zone Updater
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Time; StartType=3}"
+Windows Time
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+Windows Event Collector
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+Windows Defender Antivirus Service
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+Windows Remote Management (WS-Management)
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=           
+
+
+"
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value=""
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{WindowsBuildLabEx=15063.0.amd64fre.rs2_release.170317-1834; WindowsCurrentVersion=6.3; WindowsEditionId=Professional; WindowsInstallationType=Client; WindowsInstallDateFromRegistry=24.03.2017 19:35:51; WindowsProductId=00330-80000-00000-AA628; WindowsProductName=Windows 10 Pro; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; WindowsSystemRoot=C:\WINDOWS; WindowsVersion=1703; BiosCharacteristics=System.Object[]; BiosBIOSVersion=System.Object[]; BiosBuildNumber=; BiosCaption=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosCodeSet=; BiosCurrentLanguage=en|US|iso8859-1; BiosDescription=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosEmbeddedControllerMajorVersion=255; BiosEmbeddedControllerMinorVersion=255; BiosFirmwareType=1; BiosIdentificationCode=; BiosInstallableLanguages=1; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=System.Object[]; BiosManufacturer=Dell Inc.; BiosName=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosOtherTargetOS=; BiosPrimaryBIOS=True; BiosReleaseDate=22.12.2016 0:00:00; BiosSeralNumber=H0PMD12; BiosSMBIOSBIOSVersion=A20; BiosSMBIOSMajorVersion=2; BiosSMBIOSMinorVersion=7; BiosSMBIOSPresent=True; BiosSoftwareElementState=3; BiosStatus=OK; BiosSystemBiosMajorVersion=65; BiosSystemBiosMinorVersion=20; BiosTargetOperatingSystem=0; BiosVersion=DELL   - 1072009; CsAdminPasswordStatus=0; CsAutomaticManagedPagefile=False; CsAutomaticResetBootOption=True; CsAutomaticResetCapability=True; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=True; CsBootStatus=System.Object[]; CsBootupState=Normal boot; CsCaption=MICA; CsChassisBootupState=3; CsChassisSKUNumber=To be filled by O.E.M.; CsCurrentTimeZone=120; CsDaylightInEffect=True; CsDescription=AT/AT COMPATIBLE; CsDNSHostName=mica; CsDomain=WORKGROUP; CsDomainRole=0; CsEnableDaylightSavingsTime=True; CsFrontPanelResetStatus=0; CsHypervisorPresent=True; CsInfraredSupported=False; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=0; CsLastLoadInfo=; CsManufacturer=Dell Inc.; CsModel=Latitude E7440; CsName=MICA; CsNetworkAdapters=System.Object[]; CsNetworkServerModeEnabled=True; CsNumberOfLogicalProcessors=4; CsNumberOfProcessors=1; CsProcessors=System.Object[]; CsOEMStringArray=System.Object[]; CsPartOfDomain=False; CsPauseAfterReset=-1; CsPCSystemType=2; CsPCSystemTypeEx=2; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=0; CsPowerState=0; CsPowerSupplyState=3; CsPrimaryOwnerContact=; CsPrimaryOwnerName=Windows User; CsResetCapability=1; CsResetCount=-1; CsResetLimit=-1; CsRoles=System.Object[]; CsStatus=OK; CsSupportContactDescription=; CsSystemFamily=; CsSystemSKUNumber=05CB; CsSystemType=x64-based PC; CsThermalState=3; CsTotalPhysicalMemory=17080684544; CsPhyicallyInstalledMemory=16777216; CsUserName=MICA\caith; CsWakeUpType=6; CsWorkgroup=WORKGROUP; OsName=Microsoft Windows 10 Pro; OsType=18; OsOperatingSystemSKU=48; OsVersion=10.0.15063; OsCSDVersion=; OsBuildNumber=15063; OsHotFixes=System.Object[]; OsBootDevice=\Device\HarddiskVolume3; OsSystemDevice=\Device\HarddiskVolume2; OsSystemDirectory=C:\WINDOWS\system32; OsSystemDrive=C:; OsWindowsDirectory=C:\WINDOWS; OsCountryCode=420; OsCurrentTimeZone=120; OsLocaleID=0405; OsLocale=cs-CZ; OsLocalDateTime=07.09.2017 13:38:28; OsLastBootUpTime=05.09.2017 6:09:54; OsUptime=; OsBuildType=Multiprocessor Free; OsCodeSet=1250; OsDataExecutionPreventionAvailable=True; OsDataExecutionPrevention32BitApplications=True; OsDataExecutionPreventionDrivers=True; OsDataExecutionPreventionSupportPolicy=2; OsDebug=False; OsDistributed=False; OsEncryptionLevel=256; OsForegroundApplicationBoost=2; OsTotalVisibleMemorySize=16680356; OsFreePhysicalMemory=8156388; OsTotalVirtualMemorySize=34506148; OsFreeVirtualMemory=22165628; OsInUseVirtualMemory=12340520; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=17825792; OsFreeSpaceInPagingFiles=17698596; OsPagingFiles=System.Object[]; OsHardwareAbstractionLayer=10.0.15063.502; OsInstallDate=24.03.2017 20:35:51; OsManufacturer=Microsoft Corporation; OsMaxNumberOfProcesses=4294967295; OsMaxProcessMemorySize=137438953344; OsMuiLanguages=System.Object[]; OsNumberOfLicensedUsers=0; OsNumberOfProcesses=254; OsNumberOfUsers=2; OsOrganization=; OsArchitecture=64-bit; OsLanguage=en-US; OsProductSuites=System.Object[]; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=False; OsPrimary=True; OsProductType=1; OsRegisteredUser=Windows User; OsSerialNumber=00330-80000-00000-AA628; OsServicePackMajorVersion=0; OsServicePackMinorVersion=0; OsStatus=OK; OsSuites=System.Object[]; OsServerLevel=; KeyboardLayout=00020405; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\MICA; PowerPlatformRole=2; HyperVisorPresent=True; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}"
+
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Apps=System.Object[]; services=System.Object[]; scheduledtasks=; hotfix=; uwp=; Active_DC=; Allow_deviceclasses=; Allow_deviceids=; Application_log_length=18944000; Applocker=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; Bios_date=; Bitlocker=System.Object[]; Computerturen_root_certifikates=System.Object[]; ComputerName=MICA; Country=420; Date=; Default_locale=00000409; Deny_deviceclasses=; Deny_deviceids=; deny_UnspecifiedDevices=; Domain=; Domain_dhcp=sicz.local; Domain_tcp=; AV_MS_product=; AV_MS_residenton=; AV_MS_scanner_build=; AV_MS_scanner_version=; AV_MS_version=; rozdily=System.Object[]; hdd=System.Object[]; pcinfo=; Local_groups=System.Object[]}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{verzesablony=Verze sablony 1.0 test LuKa čtvrtek 7. září 2017 15:38:19; ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=05.09.2017 6:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{ComputerName=DESKTOP-TBE27PS; Date=; User=lukas; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.17004; SP=0; Install_Date=; Last_Boot_Time=09.10.2017 7:08:52; RAM_Total=16289; RAM_Free=10; Virtual_Total=19; Virtual_Free=12; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00 ; BIOS_Date=; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=1118208; Secrutiy_Log_Length=5312512; Application_Log_Length=1118208; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=; UEFI_partition=; Services=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}"
+
+
+
+PS C:\WINDOWS\system32> $json
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{verzesablony=Verze sablony 1.0 test LuKa čtvrtek 7. září 2017 15:38:19; ComputerName=MICA; Date=; User=caith; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=sicz.local; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.15063; SP=0; Install_Date=; Last_Boot_Time=05.09.2017 6:09:54; RAM_Total=16289; RAM_Free=8; Virtual_Total=33; Virtual_Free=21; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BIOS_Date=; System_Locale=00000405; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=20975616; Secrutiy_Log_Length=20975616; Application_Log_Length=18944000; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=System.Object[]; UEFI_partition=; Hotfixes=System.Object[]; Services=System.Object[]; UWP_Apps=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=False; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}"
+
+
+verzesablony               : Verze sablony 1.0 test LuKa čtvrtek 7. září 2017 15:38:19
+ComputerName               : MICA
+Date                       : @{value=07.09.2017 13:38:19; DisplayHint=2; DateTime=čtvrtek 7. září 2017 15:38:19}
+User                       : caith
+Last_User                  :
+Domain                     :
+Domain_TCP                 :
+Domain_DHCP                : sicz.local
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Pro
+OS_Build                   : 10.0.15063
+SP                         : 0
+Install_Date               : @{value=24.03.2017 20:35:51; DateTime=pátek 24. března 2017 21:35:51}
+Last_Boot_Time             : 05.09.2017 6:09:54
+RAM_Total                  : 16289
+RAM_Free                   : 8
+Virtual_Total              : 33
+Virtual_Free               : 21
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=4; ExecutionPolicy=5}, @{Scope=3; ExecutionPolicy=5}, @{Scope=0; ExecutionPolicy=4}, @{Scope=1; ExecutionPolicy=5}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=18977058816; Computer=MICA; Used=108479447040; Size=127456505856}, @{FileSystem=NTFS; Type=Local Fixed Disk; Volu
+                             me=D:; Available=155963895808; Computer=MICA; Used=344007622656; Size=499971518464}}
+BIOS                       : DELL   - 1072009 | BIOS Date: 12/22/16 01:25:40 Ver: A20.00
+BIOS_Date                  : @{value=22.12.2016 0:00:00; DateTime=čtvrtek 22. prosince 2016 1:00:00}
+System_Locale              : 00000405
+Default_Locale             : 00000409
+Country                    : 420
+Locale                     : 00000405
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+SEP_Protection             :
+SEP_RegVersion             : Not Installed
+SEP_Version                :
+SEP_Service                :
+SEP_ClientType             :
+SEP_PolicyMode             :
+SEP_Infected               : 2
+SEP_Definition_Status      : Not Installed
+System_Log_Length          : 20975616
+Secrutiy_Log_Length        : 20975616
+Application_Log_Length     : 18944000
+Setupapi_Length            : 0
+NetIPConfiguration         : {@{Detailed=False; ComputerName=MICA; InterfaceAlias=Ethernet; InterfaceIndex=16; InterfaceDescription=Intel(R) Ethernet Connection I218-LM; CompartmentId=1; NetAdapter=MSFT_Net
+                             Adapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{EC0F20BC-9120-46AD-9753-F8DAB10863FB}", SystemCreationClassName = "CIM_NetworkPort", SystemName = "mica"); NetCompar
+                             tment=MSFT_NetCompartment (InstanceID = ";55;"); NetIPv6Interface=MSFT_NetIPInterface (Name = ";@55??55;", CreationClassName = "", SystemCreationClassName = "", SystemName = "")
+                             ; NetIPv4Interface=MSFT_NetIPInterface (Name = ";@55?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetProfile=MSFT_NetConnectionProfile (Instance
+                             ID = "{EC0F20BC-9120-46AD-9753-F8DAB10863FB}"); AllIPAddresses=192.168.1.98 fe80::48a0:fc17:8510:a4cd%16; IPv6Address=; IPv6TemporaryAddress=; IPv6LinkLocalAddress=fe80::48a0:fc
+                             17:8510:a4cd%16; IPv4Address=192.168.1.98; IPv6DefaultGateway=; IPv4DefaultGateway=MSFT_NetRoute (InstanceID = ":8:8:8:9:55;@55;C?8;@B8;8???55;"); DNSServer=MSFT_DNSClientServer
+                             Address (Name = "16", CreationClassName = "", SystemCreationClassName = "", SystemName = "23") MSFT_DNSClientServerAddress (Name = "16", CreationClassName = "", SystemCreationCl
+                             assName = "", SystemName = "2")}, @{Detailed=False; ComputerName=MICA; InterfaceAlias=ICZ VPN; InterfaceIndex=42; InterfaceDescription=; CompartmentId=1; NetAdapter=; NetCompart
+                             ment=MSFT_NetCompartment (InstanceID = ";55;"); NetIPv6Interface=; NetIPv4Interface=MSFT_NetIPInterface (Name = "??55?55;", CreationClassName = "", SystemCreationClassName = "",
+                              SystemName = ""); NetProfile=MSFT_NetConnectionProfile (InstanceID = "{1CBF6FBF-6E5E-426D-89FC-A2C75647EEE5}"); AllIPAddresses=10.0.8.137; IPv6Address=; IPv6TemporaryAddress=;
+                             IPv6LinkLocalAddress=; IPv4Address=10.0.8.137; IPv6DefaultGateway=; IPv4DefaultGateway=; DNSServer=MSFT_DNSClientServerAddress (Name = "42", CreationClassName = "", SystemCreati
+                             onClassName = "", SystemName = "23") MSFT_DNSClientServerAddress (Name = "42", CreationClassName = "", SystemCreationClassName = "", SystemName = "2")}, @{Detailed=False; Comput
+                             erName=MICA; InterfaceAlias=Wi-Fi; InterfaceIndex=17; InterfaceDescription=Intel(R) Dual Band Wireless-AC 7260; CompartmentId=1; NetAdapter=MSFT_NetAdapter (CreationClassName =
+                             "MSFT_NetAdapter", DeviceID = "{F4D2589D-DFBB-4B27-A4BA-72C0FEC7177F}", SystemCreationClassName = "CIM_NetworkPort", SystemName = "mica"); NetCompartment=MSFT_NetCompartment (In
+                             stanceID = ";55;"); NetIPv6Interface=MSFT_NetIPInterface (Name = ";A55??55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetIPv4Interface=MSFT_NetIP
+                             Interface (Name = ";A55?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetProfile=; AllIPAddresses=169.254.212.90 fe80::31f6:1af3:13d5:d45a%17; IP
+                             v6Address=; IPv6TemporaryAddress=; IPv6LinkLocalAddress=fe80::31f6:1af3:13d5:d45a%17; IPv4Address=169.254.212.90; IPv6DefaultGateway=; IPv4DefaultGateway=; DNSServer=MSFT_DNSCli
+                             entServerAddress (Name = "17", CreationClassName = "", SystemCreationClassName = "", SystemName = "23") MSFT_DNSClientServerAddress (Name = "17", CreationClassName = "", SystemC
+                             reationClassName = "", SystemName = "2")}}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+Local_Users                : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+Local_Groups               : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+PCinfo                     : @{WindowsBuildLabEx=15063.0.amd64fre.rs2_release.170317-1834; WindowsCurrentVersion=6.3; WindowsEditionId=Professional; WindowsInstallationType=Client; WindowsInstallDateFromReg
+                             istry=24.03.2017 19:35:51; WindowsProductId=00330-80000-00000-AA628; WindowsProductName=Windows 10 Pro; WindowsRegisteredOrganization=; WindowsRegisteredOwner=Windows User; Wind
+                             owsSystemRoot=C:\WINDOWS; WindowsVersion=1703; BiosCharacteristics=System.Object[]; BiosBIOSVersion=System.Object[]; BiosBuildNumber=; BiosCaption=BIOS Date: 12/22/16 01:25:40 V
+                             er: A20.00 ; BiosCodeSet=; BiosCurrentLanguage=en|US|iso8859-1; BiosDescription=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosEmbeddedControllerMajorVersion=255; BiosEmbeddedCo
+                             ntrollerMinorVersion=255; BiosFirmwareType=1; BiosIdentificationCode=; BiosInstallableLanguages=1; BiosInstallDate=; BiosLanguageEdition=; BiosListOfLanguages=System.Object[]; B
+                             iosManufacturer=Dell Inc.; BiosName=BIOS Date: 12/22/16 01:25:40 Ver: A20.00 ; BiosOtherTargetOS=; BiosPrimaryBIOS=True; BiosReleaseDate=22.12.2016 0:00:00; BiosSeralNumber=H0PM
+                             D12; BiosSMBIOSBIOSVersion=A20; BiosSMBIOSMajorVersion=2; BiosSMBIOSMinorVersion=7; BiosSMBIOSPresent=True; BiosSoftwareElementState=3; BiosStatus=OK; BiosSystemBiosMajorVersion
+                             =65; BiosSystemBiosMinorVersion=20; BiosTargetOperatingSystem=0; BiosVersion=DELL   - 1072009; CsAdminPasswordStatus=0; CsAutomaticManagedPagefile=False; CsAutomaticResetBootOpt
+                             ion=True; CsAutomaticResetCapability=True; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupported=True; CsBootStatus=System.Object[]; CsBootupState=Normal boot; CsCap
+                             tion=MICA; CsChassisBootupState=3; CsChassisSKUNumber=To be filled by O.E.M.; CsCurrentTimeZone=120; CsDaylightInEffect=True; CsDescription=AT/AT COMPATIBLE; CsDNSHostName=mica;
+                              CsDomain=WORKGROUP; CsDomainRole=0; CsEnableDaylightSavingsTime=True; CsFrontPanelResetStatus=0; CsHypervisorPresent=True; CsInfraredSupported=False; CsInitialLoadInfo=; CsInst
+                             allDate=; CsKeyboardPasswordStatus=0; CsLastLoadInfo=; CsManufacturer=Dell Inc.; CsModel=Latitude E7440; CsName=MICA; CsNetworkAdapters=System.Object[]; CsNetworkServerModeEnabl
+                             ed=True; CsNumberOfLogicalProcessors=4; CsNumberOfProcessors=1; CsProcessors=System.Object[]; CsOEMStringArray=System.Object[]; CsPartOfDomain=False; CsPauseAfterReset=-1; CsPCS
+                             ystemType=2; CsPCSystemTypeEx=2; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=0; CsPowerState=0; CsPowerSupplyState=3; CsPrimaryOwnerCont
+                             act=; CsPrimaryOwnerName=Windows User; CsResetCapability=1; CsResetCount=-1; CsResetLimit=-1; CsRoles=System.Object[]; CsStatus=OK; CsSupportContactDescription=; CsSystemFamily=
+                             ; CsSystemSKUNumber=05CB; CsSystemType=x64-based PC; CsThermalState=3; CsTotalPhysicalMemory=17080684544; CsPhyicallyInstalledMemory=16777216; CsUserName=MICA\caith; CsWakeUpTyp
+                             e=6; CsWorkgroup=WORKGROUP; OsName=Microsoft Windows 10 Pro; OsType=18; OsOperatingSystemSKU=48; OsVersion=10.0.15063; OsCSDVersion=; OsBuildNumber=15063; OsHotFixes=System.Obje
+                             ct[]; OsBootDevice=\Device\HarddiskVolume3; OsSystemDevice=\Device\HarddiskVolume2; OsSystemDirectory=C:\WINDOWS\system32; OsSystemDrive=C:; OsWindowsDirectory=C:\WINDOWS; OsCou
+                             ntryCode=420; OsCurrentTimeZone=120; OsLocaleID=0405; OsLocale=cs-CZ; OsLocalDateTime=07.09.2017 13:38:28; OsLastBootUpTime=05.09.2017 6:09:54; OsUptime=; OsBuildType=Multiproce
+                             ssor Free; OsCodeSet=1250; OsDataExecutionPreventionAvailable=True; OsDataExecutionPrevention32BitApplications=True; OsDataExecutionPreventionDrivers=True; OsDataExecutionPreven
+                             tionSupportPolicy=2; OsDebug=False; OsDistributed=False; OsEncryptionLevel=256; OsForegroundApplicationBoost=2; OsTotalVisibleMemorySize=16680356; OsFreePhysicalMemory=8156388;
+                             OsTotalVirtualMemorySize=34506148; OsFreeVirtualMemory=22165628; OsInUseVirtualMemory=12340520; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=17825792; OsFreeSpaceInPagingFil
+                             es=17698596; OsPagingFiles=System.Object[]; OsHardwareAbstractionLayer=10.0.15063.502; OsInstallDate=24.03.2017 20:35:51; OsManufacturer=Microsoft Corporation; OsMaxNumberOfProc
+                             esses=4294967295; OsMaxProcessMemorySize=137438953344; OsMuiLanguages=System.Object[]; OsNumberOfLicensedUsers=0; OsNumberOfProcesses=254; OsNumberOfUsers=2; OsOrganization=; Os
+                             Architecture=64-bit; OsLanguage=en-US; OsProductSuites=System.Object[]; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=False; OsPrimary=True; OsProductType=1;
+                              OsRegisteredUser=Windows User; OsSerialNumber=00330-80000-00000-AA628; OsServicePackMajorVersion=0; OsServicePackMinorVersion=0; OsStatus=OK; OsSuites=System.Object[]; OsServer
+                             Level=; KeyboardLayout=00020405; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\MICA; PowerPlatformRole=2; HyperVisorPresent=True; HyperVR
+                             equirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExte
+                             nsions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecuritySe
+                             rvicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}
+Logs_Application           : {@{Id=8233; Version=0; Qualifiers=16384; Level=3; Task=0; Opcode=0; Keywords=36028797018963968; RecordId=22767; ProviderName=Microsoft-Windows-Security-SPP; ProviderId=e23b33b0-
+                             c8c9-472c-a5f9-f2bdfea0f156; LogName=Application; ProcessId=0; ThreadId=0; MachineName=mica; UserId=; TimeCreated=07.09.2017 12:53:49; ActivityId=; RelatedActivityId=; Container
+                             Log=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=; TaskDisplayName=; KeywordsDisplayName
+                             s=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.D
+                             iagnostics.Eventing.Reader.EventProperty; Message=The rules engine reported a failed VL activation attempt.
+                             Reason:0x8007232B
+                             AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+                             Trigger=TimerEvent}, @{Id=8233; Version=0; Qualifiers=16384; Level=3; Task=0; Opcode=0; Keywords=36028797018963968; RecordId=22765; ProviderName=Microsoft-Windows-Security-SPP;
+                             ProviderId=e23b33b0-c8c9-472c-a5f9-f2bdfea0f156; LogName=Application; ProcessId=0; ThreadId=0; MachineName=mica; UserId=; TimeCreated=07.09.2017 10:53:49; ActivityId=; RelatedAc
+                             tivityId=; ContainerLog=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=; TaskDisplayName=;
+                              KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.Ev
+                             entProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=The rules engine reported a failed VL activation attempt.
+                             Reason:0x8007232B
+                             AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+                             Trigger=TimerEvent}, @{Id=10031; Version=0; Qualifiers=0; Level=2; Task=0; Opcode=0; Keywords=-9187343239835811840; RecordId=22764; ProviderName=Microsoft-Windows-COMRuntime; Pr
+                             oviderId=bf406804-6afa-46e7-8a48-6c357e1d6d61; LogName=Application; ProcessId=9776; ThreadId=1160; MachineName=mica; UserId=; TimeCreated=07.09.2017 10:37:34; ActivityId=; Relat
+                             edActivityId=; ContainerLog=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Error; OpcodeDisplayName=Info; TaskDisplay
+                             Name=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty; Message=An unmarshaling policy check was performed when unmarshaling a custom m
+                             arshaled object and the class {45FB4600-E6E8-4928-B25E-50476FF79425} was rejected}, @{Id=8233; Version=0; Qualifiers=16384; Level=3; Task=0; Opcode=0; Keywords=36028797018963968
+                             ; RecordId=22761; ProviderName=Microsoft-Windows-Security-SPP; ProviderId=e23b33b0-c8c9-472c-a5f9-f2bdfea0f156; LogName=Application; ProcessId=0; ThreadId=0; MachineName=mica; U
+                             serId=; TimeCreated=07.09.2017 8:53:49; ActivityId=; RelatedActivityId=; ContainerLog=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; L
+                             evelDisplayName=Warning; OpcodeDisplayName=; TaskDisplayName=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Event
+                             ing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=The rules engine reported a failed VL activat
+                             ion attempt.
+                             Reason:0x8007232B
+                             AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+                             Trigger=TimerEvent}...}
+Logs_System                : {@{Id=10016; Version=0; Qualifiers=0; Level=2; Task=0; Opcode=0; Keywords=-9187343239835811840; RecordId=52871; ProviderName=Microsoft-Windows-DistributedCOM; ProviderId=1b562e8
+                             6-b7aa-4131-badc-b6f3a001407e; LogName=System; ProcessId=640; ThreadId=19308; MachineName=mica; UserId=S-1-5-18; TimeCreated=07.09.2017 13:12:30; ActivityId=; RelatedActivityId=
+                             ; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Error; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDis
+                             playNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty
+                             System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Re
+                             ader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diag
+                             nostics.Eventing.Reader.EventProperty; Message=The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID
+                             {D63B10C5-BB46-4990-A94F-E40B9D520160}
+                              and APPID
+                             {9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+                              to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission
+                             can be modified using the Component Services administrative tool.}, @{Id=10016; Version=0; Qualifiers=0; Level=2; Task=0; Opcode=0; Keywords=-9187343239835811840; RecordId=52837
+                             ; ProviderName=Microsoft-Windows-DistributedCOM; ProviderId=1b562e86-b7aa-4131-badc-b6f3a001407e; LogName=System; ProcessId=640; ThreadId=23688; MachineName=mica; UserId=S-1-5-1
+                             8; TimeCreated=07.09.2017 11:38:29; ActivityId=; RelatedActivityId=; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDispl
+                             ayName=Error; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Rea
+                             der.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagn
+                             ostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventPr
+                             operty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=The application-specific permission settings do not grant Local
+                              Activation permission for the COM Server application with CLSID
+                             {D63B10C5-BB46-4990-A94F-E40B9D520160}
+                              and APPID
+                             {9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+                              to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission
+                             can be modified using the Component Services administrative tool.}, @{Id=10016; Version=0; Qualifiers=0; Level=2; Task=0; Opcode=0; Keywords=-9187343239835811840; RecordId=52830
+                             ; ProviderName=Microsoft-Windows-DistributedCOM; ProviderId=1b562e86-b7aa-4131-badc-b6f3a001407e; LogName=System; ProcessId=640; ThreadId=19308; MachineName=mica; UserId=S-1-5-1
+                             8; TimeCreated=07.09.2017 11:17:37; ActivityId=; RelatedActivityId=; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDispl
+                             ayName=Error; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Rea
+                             der.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagn
+                             ostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventPr
+                             operty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=The application-specific permission settings do not grant Local
+                              Activation permission for the COM Server application with CLSID
+                             {D63B10C5-BB46-4990-A94F-E40B9D520160}
+                              and APPID
+                             {9CA88EE3-ACB7-47C8-AFC4-AB702511C276}
+                              to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission
+                             can be modified using the Component Services administrative tool.}, @{Id=1014; Version=0; Qualifiers=; Level=3; Task=1014; Opcode=0; Keywords=4611686018695823360; RecordId=52813
+                             ; ProviderName=Microsoft-Windows-DNS-Client; ProviderId=1c95126e-7eea-49a9-a3fe-a378b03ddb4d; LogName=System; ProcessId=2104; ThreadId=9056; MachineName=mica; UserId=S-1-5-20; T
+                             imeCreated=07.09.2017 10:38:12; ActivityId=; RelatedActivityId=; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayNa
+                             me=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.Event
+                             Property System.Diagnostics.Eventing.Reader.EventProperty; Message=Name resolution for the name _collab-edge._tls.i.cz. timed out after none of the configured DNS servers respon
+                             ded.}...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         : {@{Id=8009; Version=0; Qualifiers=; Level=3; Task=0; Opcode=0; Keywords=4611686018427387904; RecordId=1356; ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f
+                             69-9578-be14aa540d22; LogName=Microsoft-Windows-AppLocker/MSI and Script; ProcessId=22156; ThreadId=23572; MachineName=mica; UserId=S-1-5-21-716442958-959604295-1742849095-1001;
+                              TimeCreated=06.09.2017 15:20:54; ActivityId=94ee8fa4-260d-0002-7a04-0c950d26d301; RelatedActivityId=; ContainerLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=;
+                              Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnost
+                             ics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLocker component not available on this SKU.}, @{Id=8009; Version=0; Qu
+                             alifiers=; Level=3; Task=0; Opcode=0; Keywords=4611686018427387904; RecordId=1355; ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f69-9578-be14aa540d22; Log
+                             Name=Microsoft-Windows-AppLocker/MSI and Script; ProcessId=22156; ThreadId=23572; MachineName=mica; UserId=S-1-5-21-716442958-959604295-1742849095-1001; TimeCreated=06.09.2017 1
+                             5:20:54; ActivityId=94ee8fa4-260d-0002-7a04-0c950d26d301; RelatedActivityId=; ContainerLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=; Bookmark=System.Diagnost
+                             ics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.Event
+                             Property System.Diagnostics.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLocker component not available on this SKU.}, @{Id=8009; Version=0; Qualifiers=; Level=3; Task=
+                             0; Opcode=0; Keywords=4611686018427387904; RecordId=1354; ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f69-9578-be14aa540d22; LogName=Microsoft-Windows-Ap
+                             pLocker/MSI and Script; ProcessId=22156; ThreadId=23572; MachineName=mica; UserId=S-1-5-21-716442958-959604295-1742849095-1001; TimeCreated=06.09.2017 15:20:54; ActivityId=94ee8
+                             fa4-260d-0002-7a04-0c950d26d301; RelatedActivityId=; ContainerLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.Event
+                             Bookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnosti
+                             cs.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLocker component not available on this SKU.}, @{Id=8009; Version=0; Qualifiers=; Level=3; Task=0; Opcode=0; Keywords=461
+                             1686018427387904; RecordId=1353; ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f69-9578-be14aa540d22; LogName=Microsoft-Windows-AppLocker/MSI and Script; P
+                             rocessId=22156; ThreadId=23572; MachineName=mica; UserId=S-1-5-18; TimeCreated=06.09.2017 15:19:53; ActivityId=94ee8fa4-260d-0003-9183-02950d26d301; RelatedActivityId=; Containe
+                             rLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; T
+                             askDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLock
+                             er component not available on this SKU.}...}
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+AppLocker                  : {}
+Bitlocker                  : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+UEFI_partition             :
+Hotfixes                   : {@{Scope=System.Management.ManagementScope; Path=\\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4022405",ServicePackInEffect=""; Options=System.Management.ObjectGetOpti
+                             ons; ClassPath=\\MICA\root\cimv2:Win32_QuickFixEngineering; Properties=System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Manage
+                             ment.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData Syst
+                             em.Management.PropertyData System.Management.PropertyData; SystemProperties=System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.M
+                             anagement.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData
+                              System.Management.PropertyData; Qualifiers=System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData; Site
+                             =; Container=; PSComputerName=MICA; InstalledOn=; __GENUS=2; __CLASS=Win32_QuickFixEngineering; __SUPERCLASS=CIM_LogicalElement; __DYNASTY=CIM_ManagedSystemElement; __RELPATH=Wi
+                             n32_QuickFixEngineering.HotFixID="KB4022405",ServicePackInEffect=""; __PROPERTY_COUNT=11; __DERIVATION=CIM_LogicalElement CIM_ManagedSystemElement; __SERVER=MICA; __NAMESPACE=ro
+                             ot\cimv2; __PATH=\\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4022405",ServicePackInEffect=""; Caption=http://support.microsoft.com/?kbid=4022405; CSName=MICA; Descri
+                             ption=Update; FixComments=; HotFixID=KB4022405; InstallDate=; InstalledBy=NT AUTHORITY\SYSTEM; Name=; ServicePackInEffect=; Status=}, @{Scope=System.Management.ManagementScope;
+                             Path=\\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB4034662",ServicePackInEffect=""; Options=System.Management.ObjectGetOptions; ClassPath=\\MICA\root\cimv2:Win32_Quick
+                             FixEngineering; Properties=System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Property
+                             Data System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management
+                             .PropertyData; SystemProperties=System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Pro
+                             pertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData; Qualifiers=
+                             System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData System.Management.QualifierData; Site=; Container=; PSComputerName=MICA; Installe
+                             dOn=; __GENUS=2; __CLASS=Win32_QuickFixEngineering; __SUPERCLASS=CIM_LogicalElement; __DYNASTY=CIM_ManagedSystemElement; __RELPATH=Win32_QuickFixEngineering.HotFixID="KB4034662"
+                             ,ServicePackInEffect=""; __PROPERTY_COUNT=11; __DERIVATION=CIM_LogicalElement CIM_ManagedSystemElement; __SERVER=MICA; __NAMESPACE=root\cimv2; __PATH=\\MICA\root\cimv2:Win32_Qui
+                             ckFixEngineering.HotFixID="KB4034662",ServicePackInEffect=""; Caption=http://support.microsoft.com/?kbid=4034662; CSName=MICA; Description=Security Update; FixComments=; HotFixI
+                             D=KB4034662; InstallDate=; InstalledBy=NT AUTHORITY\SYSTEM; Name=; ServicePackInEffect=; Status=}, @{Scope=System.Management.ManagementScope; Path=\\MICA\root\cimv2:Win32_QuickF
+                             ixEngineering.HotFixID="KB4034674",ServicePackInEffect=""; Options=System.Management.ObjectGetOptions; ClassPath=\\MICA\root\cimv2:Win32_QuickFixEngineering; Properties=System.M
+                             anagement.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData
+                              System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData; SystemProperties=Sys
+                             tem.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.Propert
+                             yData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData System.Management.PropertyData; Qualifiers=System.Management.QualifierData Sys
+                             tem.Management.QualifierData System.Management.QualifierData System.Management.QualifierData; Site=; Container=; PSComputerName=MICA; InstalledOn=; __GENUS=2; __CLASS=Win32_Quic
+                             kFixEngineering; __SUPERCLASS=CIM_LogicalElement; __DYNASTY=CIM_ManagedSystemElement; __RELPATH=Win32_QuickFixEngineering.HotFixID="KB4034674",ServicePackInEffect=""; __PROPERTY
+                             _COUNT=11; __DERIVATION=CIM_LogicalElement CIM_ManagedSystemElement; __SERVER=MICA; __NAMESPACE=root\cimv2; __PATH=\\MICA\root\cimv2:Win32_QuickFixEngineering.HotFixID="KB403467
+                             4",ServicePackInEffect=""; Caption=http://support.microsoft.com/?kbid=4034674; CSName=MICA; Description=Security Update; FixComments=; HotFixID=KB4034674; InstallDate=; Installe
+                             dBy=NT AUTHORITY\SYSTEM; Name=; ServicePackInEffect=; Status=}}
+Services                   : {@{CanPauseAndContinue=False; CanShutdown=False; CanStop=True; DisplayName=Adobe Acrobat Update Service; DependentServices=; MachineName=.; ServiceName=AdobeARMservice; Services
+                             DependedOn=; ServiceHandle=SafeServiceHandle; Status=4; ServiceType=16; StartType=2; Site=; Container=; Name=AdobeARMservice; RequiredServices=}, @{CanPauseAndContinue=False; Ca
+                             nShutdown=False; CanStop=False; DisplayName=Microsoft Monitoring Agent Audit Forwarding; DependentServices=; MachineName=.; ServiceName=AdtAgent; ServicesDependedOn=eventlog dns
+                             cache; ServiceHandle=SafeServiceHandle; Status=1; ServiceType=16; StartType=4; Site=; Container=; Name=AdtAgent; RequiredServices=eventlog dnscache}, @{CanPauseAndContinue=False
+                             ; CanShutdown=False; CanStop=False; DisplayName=AllJoyn Router Service; DependentServices=; MachineName=.; ServiceName=AJRouter; ServicesDependedOn=; ServiceHandle=SafeServiceHa
+                             ndle; Status=1; ServiceType=32; StartType=3; Site=; Container=; Name=AJRouter; RequiredServices=}, @{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=App
+                             lication Layer Gateway Service; DependentServices=; MachineName=.; ServiceName=ALG; ServicesDependedOn=; ServiceHandle=SafeServiceHandle; Status=1; ServiceType=16; StartType=3;
+                             Site=; Container=; Name=ALG; RequiredServices=}...}
+UWP_Apps                   : {@{Name=Microsoft.BioEnrollment; PackageFullName=Microsoft.BioEnrollment_10.0.14393.0_neutral__cw5n1h2txyewy}, @{Name=Microsoft.Windows.CloudExperienceHost; PackageFullName=Micr
+                             osoft.Windows.CloudExperienceHost_10.0.14393.0_neutral_neutral_cw5n1h2txyewy}, @{Name=Microsoft.Windows.SecondaryTileExperience; PackageFullName=Microsoft.Windows.SecondaryTileE
+                             xperience_10.0.0.0_neutral__cw5n1h2txyewy}, @{Name=windows.immersivecontrolpanel; PackageFullName=windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy}...}
+Installed_Apps             : {@{DisplayName=7-Zip 16.02 (x64); DisplayVersion=16.02; DisplayIcon=C:\Program Files\7-Zip\7zFM.exe; InstallLocation=C:\Program Files\7-Zip\; UninstallString=C:\Program Files\7-
+                             Zip\Uninstall.exe; NoModify=1; NoRepair=1; EstimatedSize=4865; VersionMajor=16; VersionMinor=2; Publisher=Igor Pavlov; sEstimatedSize2=4865; PSPath=Microsoft.PowerShell.Core\Reg
+                             istry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\7-Zip; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windo
+                             ws\CurrentVersion\Uninstall; PSChildName=7-Zip; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{SystemComponent=1; PSPath=Microsoft.PowerShell.Core\Registry::HKE
+                             Y_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Wi
+                             ndows\CurrentVersion\Uninstall; PSChildName=Connection Manager; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{InstallLocation=C:\Program Files\Dell\SupportAssi
+                             st\; sEstimatedSize2=0; EstimatedSize=110314; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Dell Support Cent
+                             er; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Dell Support Center; PSDrive=HKLM; PSPro
+                             vider=Microsoft.PowerShell.Core\Registry}, @{Inno Setup: Setup Version=5.5.9 (u); Inno Setup: App Path=C:\Program Files\Git; InstallLocation=C:\Program Files\Git\; Inno Setup: I
+                             con Group=Git; Inno Setup: User=caith; Inno Setup: Setup Type=default; Inno Setup: Selected Components=ext,ext\shellhere,ext\guihere,assoc,assoc_sh; Inno Setup: Deselected Compo
+                             nents=icons,icons\desktop,consolefont; Inno Setup: Language=default; DisplayName=Git version 2.12.0; DisplayIcon=C:\Program Files\Git\mingw64\share\git\git-for-windows.ico; Unin
+                             stallString="C:\Program Files\Git\unins000.exe"; QuietUninstallString="C:\Program Files\Git\unins000.exe" /SILENT; DisplayVersion=2.12.0; Publisher=The Git Development Community
+                             ; URLInfoAbout=https://git-for-windows.github.io/; HelpLink=https://github.com/git-for-windows/git/wiki/Contact; NoModify=1; NoRepair=1; InstallDate=20170314; MajorVersion=2; Mi
+                             norVersion=12; EstimatedSize=419778; Inno Setup CodeFile: Path Option=Cmd; Inno Setup CodeFile: SSH Option=OpenSSH; Inno Setup CodeFile: CRLF Option=CRLFAlways; Inno Setup CodeF
+                             ile: Bash Terminal Option=MinTTY; Inno Setup CodeFile: Performance Tweaks FSCache=Enabled; Inno Setup CodeFile: Use Credential Manager=Enabled; Inno Setup CodeFile: Enable Symli
+                             nks=Disabled; sEstimatedSize2=209889; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1; PSParentPath=Mic
+                             rosoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Git_is1; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\
+                             Registry}...}
+Processes                  : {@{BasePriority=8; ExitCode=; HasExited=False; ExitTime=; Handle=5140; SafeHandle=Microsoft.Win32.SafeHandles.SafeProcessHandle; HandleCount=46; Id=4284; MachineName=.; MainWind
+                             owHandle=0; MainWindowTitle=; MainModule=System.Diagnostics.ProcessModule (agentwrap.exe); MaxWorkingSet=1413120; MinWorkingSet=204800; Modules=System.Diagnostics.ProcessModule
+                             (agentwrap.exe) System.Diagnostics.ProcessModule (ntdll.dll) System.Diagnostics.ProcessModule (KERNEL32.DLL) System.Diagnostics.ProcessModule (KERNELBASE.dll) System.Diagnostics
+                             .ProcessModule (ADVAPI32.dll) System.Diagnostics.ProcessModule (msvcrt.dll) System.Diagnostics.ProcessModule (sechost.dll) System.Diagnostics.ProcessModule (RPCRT4.dll) System.D
+                             iagnostics.ProcessModule (ucrtbase.dll) System.Diagnostics.ProcessModule (VCRUNTIME140.dll); NonpagedSystemMemorySize=3800; NonpagedSystemMemorySize64=3800; PagedMemorySize=7004
+                             16; PagedMemorySize64=700416; PagedSystemMemorySize=27224; PagedSystemMemorySize64=27224; PeakPagedMemorySize=753664; PeakPagedMemorySize64=753664; PeakWorkingSet=3526656; PeakW
+                             orkingSet64=3526656; PeakVirtualMemorySize=18976768; PeakVirtualMemorySize64=18976768; PriorityBoostEnabled=True; PriorityClass=32; PrivateMemorySize=700416; PrivateMemorySize64
+                             =700416; PrivilegedProcessorTime=00:00:00; ProcessName=agentwrap; ProcessorAffinity=15; Responding=True; SessionId=0; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=05
+                             .09.2017 6:10:01; SynchronizingObject=; Threads=System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=00:00:00; UserProcessorTime=00:00:00; Virtu
+                             alMemorySize=16879616; VirtualMemorySize64=16879616; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; WorkingSet=2830336; WorkingSet64=2830336; Site=;
+                              Container=; Name=agentwrap; SI=0; Handles=46; VM=16879616; WS=2830336; PM=700416; NPM=3800; Path=C:\Program Files\Microsoft Dependency Agent\bin\agentwrap.exe; Company=Microsof
+                             t; CPU=0; FileVersion=9.0.4.682; ProductVersion=9.0.4.682; Description=Dependency Agent Service Wrapper; Product=Dependency Agent; __NounName=Process}, @{BasePriority=8; ExitCod
+                             e=; HasExited=False; ExitTime=; Handle=4492; SafeHandle=Microsoft.Win32.SafeHandles.SafeProcessHandle; HandleCount=135; Id=8560; MachineName=.; MainWindowHandle=0; MainWindowTit
+                             le=; MainModule=System.Diagnostics.ProcessModule (ApMsgFwd.exe); MaxWorkingSet=1413120; MinWorkingSet=204800; Modules=System.Diagnostics.ProcessModule (ApMsgFwd.exe) System.Diag
+                             nostics.ProcessModule (ntdll.dll) System.Diagnostics.ProcessModule (KERNEL32.DLL) System.Diagnostics.ProcessModule (KERNELBASE.dll) System.Diagnostics.ProcessModule (ADVAPI32.dl
+                             l) System.Diagnostics.ProcessModule (msvcrt.dll) System.Diagnostics.ProcessModule (sechost.dll) System.Diagnostics.ProcessModule (RPCRT4.dll) System.Diagnostics.ProcessModule (U
+                             SER32.dll) System.Diagnostics.ProcessModule (win32u.dll) System.Diagnostics.ProcessModule (GDI32.dll) System.Diagnostics.ProcessModule (gdi32full.dll) System.Diagnostics.Process
+                             Module (msvcp_win.dll) System.Diagnostics.ProcessModule (ucrtbase.dll) System.Diagnostics.ProcessModule (SHLWAPI.dll) System.Diagnostics.ProcessModule (combase.dll) System.Diagn
+                             ostics.ProcessModule (bcryptPrimitives.dll) System.Diagnostics.ProcessModule (SHELL32.dll) System.Diagnostics.ProcessModule (cfgmgr32.dll) System.Diagnostics.ProcessModule (shco
+                             re.dll) System.Diagnostics.ProcessModule (windows.storage.dll) System.Diagnostics.ProcessModule (kernel.appcore.dll) System.Diagnostics.ProcessModule (powrprof.dll) System.Diagn
+                             ostics.ProcessModule (profapi.dll) System.Diagnostics.ProcessModule (SETUPAPI.dll) System.Diagnostics.ProcessModule (IMM32.DLL) System.Diagnostics.ProcessModule (Apoint.dll) Sys
+                             tem.Diagnostics.ProcessModule (ole32.dll) System.Diagnostics.ProcessModule (PSAPI.DLL) System.Diagnostics.ProcessModule (VERSION.dll) System.Diagnostics.ProcessModule (Vxdif.dll
+                             ) System.Diagnostics.ProcessModule (DEVOBJ.dll) System.Diagnostics.ProcessModule (WINTRUST.dll) System.Diagnostics.ProcessModule (MSASN1.dll) System.Diagnostics.ProcessModule (C
+                             RYPT32.dll) System.Diagnostics.ProcessModule (uxtheme.dll) System.Diagnostics.ProcessModule (MSCTF.dll) System.Diagnostics.ProcessModule (OLEAUT32.dll) System.Diagnostics.Proces
+                             sModule (dwmapi.dll); NonpagedSystemMemorySize=10120; NonpagedSystemMemorySize64=10120; PagedMemorySize=1810432; PagedMemorySize64=1810432; PagedSystemMemorySize=182784; PagedSy
+                             stemMemorySize64=182784; PeakPagedMemorySize=2015232; PeakPagedMemorySize64=2015232; PeakWorkingSet=7479296; PeakWorkingSet64=7479296; PeakVirtualMemorySize=105684992; PeakVirtu
+                             alMemorySize64=105684992; PriorityBoostEnabled=True; PriorityClass=32; PrivateMemorySize=1810432; PrivateMemorySize64=1810432; PrivilegedProcessorTime=00:04:55.3281250; ProcessN
+                             ame=ApMsgFwd; ProcessorAffinity=15; Responding=True; SessionId=1; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=05.09.2017 6:10:08; SynchronizingObject=; Threads=Syst
+                             em.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=00:05:54.6406250; UserProcessorTime=00:00:59.3125000; VirtualMemorySize=97439744; VirtualMemory
+                             Size64=97439744; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; WorkingSet=6610944; WorkingSet64=6610944; Site=; Container=; Name=ApMsgFwd; SI=1; Ha
+                             ndles=135; VM=97439744; WS=6610944; PM=1810432; NPM=10120; Path=C:\Program Files\DellTPad\ApMsgFwd.exe; Company=Alps Electric Co., Ltd.; CPU=354,640625; FileVersion=8, 1, 0, 46;
+                              ProductVersion=8, 1, 0, 46; Description=ApMsgFwd; Product=ApMsgFwd; __NounName=Process}, @{BasePriority=8; ExitCode=; HasExited=False; ExitTime=; Handle=5668; SafeHandle=Micros
+                             oft.Win32.SafeHandles.SafeProcessHandle; HandleCount=144; Id=8936; MachineName=.; MainWindowHandle=0; MainWindowTitle=; MainModule=System.Diagnostics.ProcessModule (Apntex.exe);
+                              MaxWorkingSet=1413120; MinWorkingSet=204800; Modules=System.Diagnostics.ProcessModule (Apntex.exe) System.Diagnostics.ProcessModule (ntdll.dll) System.Diagnostics.ProcessModule
+                              (KERNEL32.DLL) System.Diagnostics.ProcessModule (KERNELBASE.dll) System.Diagnostics.ProcessModule (ADVAPI32.dll) System.Diagnostics.ProcessModule (msvcrt.dll) System.Diagnostic
+                             s.ProcessModule (sechost.dll) System.Diagnostics.ProcessModule (RPCRT4.dll) System.Diagnostics.ProcessModule (USER32.dll) System.Diagnostics.ProcessModule (win32u.dll) System.Di
+                             agnostics.ProcessModule (GDI32.dll) System.Diagnostics.ProcessModule (gdi32full.dll) System.Diagnostics.ProcessModule (msvcp_win.dll) System.Diagnostics.ProcessModule (ucrtbase.
+                             dll) System.Diagnostics.ProcessModule (SHELL32.dll) System.Diagnostics.ProcessModule (cfgmgr32.dll) System.Diagnostics.ProcessModule (shcore.dll) System.Diagnostics.ProcessModul
+                             e (combase.dll) System.Diagnostics.ProcessModule (bcryptPrimitives.dll) System.Diagnostics.ProcessModule (windows.storage.dll) System.Diagnostics.ProcessModule (shlwapi.dll) Sys
+                             tem.Diagnostics.ProcessModule (kernel.appcore.dll) System.Diagnostics.ProcessModule (powrprof.dll) System.Diagnostics.ProcessModule (profapi.dll) System.Diagnostics.ProcessModul
+                             e (IMM32.DLL) System.Diagnostics.ProcessModule (VXDIF.DLL) System.Diagnostics.ProcessModule (Apoint.DLL) System.Diagnostics.ProcessModule (ole32.dll) System.Diagnostics.ProcessM
+                             odule (SETUPAPI.dll) System.Diagnostics.ProcessModule (PSAPI.DLL) System.Diagnostics.ProcessModule (VERSION.dll) System.Diagnostics.ProcessModule (uxtheme.dll) System.Diagnostic
+                             s.ProcessModule (MSCTF.dll) System.Diagnostics.ProcessModule (OLEAUT32.dll) System.Diagnostics.ProcessModule (dwmapi.dll) System.Diagnostics.ProcessModule (Comctl32.dll) System.
+                             Diagnostics.ProcessModule (WINSTA.dll); NonpagedSystemMemorySize=10120; NonpagedSystemMemorySize64=10120; PagedMemorySize=1888256; PagedMemorySize64=1888256; PagedSystemMemorySi
+                             ze=177880; PagedSystemMemorySize64=177880; PeakPagedMemorySize=3067904; PeakPagedMemorySize64=3067904; PeakWorkingSet=7860224; PeakWorkingSet64=7860224; PeakVirtualMemorySize=98
+                             000896; PeakVirtualMemorySize64=98000896; PriorityBoostEnabled=True; PriorityClass=32; PrivateMemorySize=1888256; PrivateMemorySize64=1888256; PrivilegedProcessorTime=00:06:06.0
+                             312500; ProcessName=ApntEx; ProcessorAffinity=15; Responding=True; SessionId=1; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=05.09.2017 6:10:09; SynchronizingObject=
+                             ; Threads=System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=00:07:33.625000
+                             0; UserProcessorTime=00:01:27.5937500; VirtualMemorySize=96473088; VirtualMemorySize64=96473088; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; Work
+                             ingSet=7557120; WorkingSet64=7557120; Site=; Container=; Name=ApntEx; SI=1; Handles=144; VM=96473088; WS=7557120; PM=1888256; NPM=10120; Path=C:\Program Files\DellTPad\Apntex.ex
+                             e; Company=Alps Electric Co., Ltd.; CPU=453,625; FileVersion=8, 1, 0, 34; ProductVersion=8, 1, 0, 34; Description=Alps Pointing-device Driver for Windows; Product=Alps Pointing-
+                             device Driver for Windows; __NounName=Process}, @{BasePriority=8; ExitCode=; HasExited=False; ExitTime=; Handle=4268; SafeHandle=Microsoft.Win32.SafeHandles.SafeProcessHandle; H
+                             andleCount=357; Id=6668; MachineName=.; MainWindowHandle=0; MainWindowTitle=; MainModule=System.Diagnostics.ProcessModule (Apoint.exe); MaxWorkingSet=1413120; MinWorkingSet=2048
+                             00; Modules=System.Diagnostics.ProcessModule (Apoint.exe) System.Diagnostics.ProcessModule (ntdll.dll) System.Diagnostics.ProcessModule (KERNEL32.DLL) System.Diagnostics.Process
+                             Module (KERNELBASE.dll) System.Diagnostics.ProcessModule (ADVAPI32.dll) System.Diagnostics.ProcessModule (msvcrt.dll) System.Diagnostics.ProcessModule (sechost.dll) System.Diagn
+                             ostics.ProcessModule (RPCRT4.dll) System.Diagnostics.ProcessModule (USER32.dll) System.Diagnostics.ProcessModule (win32u.dll) System.Diagnostics.ProcessModule (GDI32.dll) System
+                             .Diagnostics.ProcessModule (gdi32full.dll) System.Diagnostics.ProcessModule (msvcp_win.dll) System.Diagnostics.ProcessModule (ucrtbase.dll) System.Diagnostics.ProcessModule (SHE
+                             LL32.dll) System.Diagnostics.ProcessModule (cfgmgr32.dll) System.Diagnostics.ProcessModule (shcore.dll) System.Diagnostics.ProcessModule (combase.dll) System.Diagnostics.Process
+                             Module (bcryptPrimitives.dll) System.Diagnostics.ProcessModule (windows.storage.dll) System.Diagnostics.ProcessModule (shlwapi.dll) System.Diagnostics.ProcessModule (kernel.appc
+                             ore.dll) System.Diagnostics.ProcessModule (powrprof.dll) System.Diagnostics.ProcessModule (profapi.dll) System.Diagnostics.ProcessModule (PSAPI.DLL) System.Diagnostics.ProcessMo
+                             dule (SETUPAPI.dll) System.Diagnostics.ProcessModule (WINMM.dll) System.Diagnostics.ProcessModule (WINMMBASE.dll) System.Diagnostics.ProcessModule (IMM32.DLL) System.Diagnostics
+                             .ProcessModule (DEVOBJ.dll) System.Diagnostics.ProcessModule (WINTRUST.dll) System.Diagnostics.ProcessModule (MSASN1.dll) System.Diagnostics.ProcessModule (CRYPT32.dll) System.D
+                             iagnostics.ProcessModule (uxtheme.dll) System.Diagnostics.ProcessModule (Apoint.dll) System.Diagnostics.ProcessModule (ole32.dll) System.Diagnostics.ProcessModule (VERSION.dll)
+                             System.Diagnostics.ProcessModule (Vxdif.dll) System.Diagnostics.ProcessModule (EzAuto.dll) System.Diagnostics.ProcessModule (ApSearch.dll) System.Diagnostics.ProcessModule (OLEA
+                             UT32.dll) System.Diagnostics.ProcessModule (clbcatq.dll) System.Diagnostics.ProcessModule (propsys.dll) System.Diagnostics.ProcessModule (LINKINFO.dll) System.Diagnostics.Proces
+                             sModule (ntshrui.dll) System.Diagnostics.ProcessModule (SspiCli.dll) System.Diagnostics.ProcessModule (srvcli.dll) System.Diagnostics.ProcessModule (cscapi.dll) System.Diagnosti
+                             cs.ProcessModule (DUI70.dll) System.Diagnostics.ProcessModule (Comctl32.dll) System.Diagnostics.ProcessModule (DUser.dll) System.Diagnostics.ProcessModule (CHARTV.dll) System.Di
+                             agnostics.ProcessModule (gdiplus.dll) System.Diagnostics.ProcessModule (MSCTF.dll) System.Diagnostics.ProcessModule (dwmapi.dll) System.Diagnostics.ProcessModule (OLEACC.dll) Sy
+                             stem.Diagnostics.ProcessModule (atlthunk.dll) System.Diagnostics.ProcessModule (WTSAPI32.dll) System.Diagnostics.ProcessModule (WINSTA.dll) System.Diagnostics.ProcessModule (ntm
+                             arta.dll) System.Diagnostics.ProcessModule (apphelp.dll) System.Diagnostics.ProcessModule (TortoiseGitStub.dll) System.Diagnostics.ProcessModule (TortoiseGit.dll) System.Diagnos
+                             tics.ProcessModule (libgit2_tgit.dll) System.Diagnostics.ProcessModule (WS2_32.dll) System.Diagnostics.ProcessModule (gitdll.dll) System.Diagnostics.ProcessModule (MSVCP140.dll)
+                              System.Diagnostics.ProcessModule (VCRUNTIME140.dll) System.Diagnostics.ProcessModule (WINHTTP.dll) System.Diagnostics.ProcessModule (zlib1_tgit.dll) System.Diagnostics.ProcessM
+                             odule (bcrypt.dll) System.Diagnostics.ProcessModule (crshhndl.dll) System.Diagnostics.ProcessModule (TortoiseStub.dll) System.Diagnostics.ProcessModule (TortoiseSVN.dll) System.
+                             Diagnostics.ProcessModule (WININET.dll) System.Diagnostics.ProcessModule (libsvn_tsvn.dll) System.Diagnostics.ProcessModule (libapr_tsvn.dll) System.Diagnostics.ProcessModule (i
+                             ntl3_tsvn.dll) System.Diagnostics.ProcessModule (libsasl.dll) System.Diagnostics.ProcessModule (MSWSOCK.dll) System.Diagnostics.ProcessModule (Secur32.dll) System.Diagnostics.Pr
+                             ocessModule (libaprutil_tsvn.dll) System.Diagnostics.ProcessModule (WLDAP32.dll) System.Diagnostics.ProcessModule (crshhndl.dll) System.Diagnostics.ProcessModule (netutils.dll)
+                             System.Diagnostics.ProcessModule (coml2.dll) System.Diagnostics.ProcessModule (MPR.dll) System.Diagnostics.ProcessModule (drprov.dll) System.Diagnostics.ProcessModule (ntlanman.
+                             dll) System.Diagnostics.ProcessModule (davclnt.dll) System.Diagnostics.ProcessModule (DAVHLPR.dll) System.Diagnostics.ProcessModule (wkscli.dll) System.Diagnostics.ProcessModule
+                              (edputil.dll) System.Diagnostics.ProcessModule (urlmon.dll) System.Diagnostics.ProcessModule (iertutil.dll) System.Diagnostics.ProcessModule (CRYPTBASE.DLL) System.Diagnostics.
+                             ProcessModule (msiso.dll) System.Diagnostics.ProcessModule (pcacli.dll) System.Diagnostics.ProcessModule (sfc_os.dll) System.Diagnostics.ProcessModule (DEVRTL.dll); NonpagedSyst
+                             emMemorySize=25800; NonpagedSystemMemorySize64=25800; PagedMemorySize=5791744; PagedMemorySize64=5791744; PagedSystemMemorySize=308512; PagedSystemMemorySize64=308512; PeakPaged
+                             MemorySize=6201344; PeakPagedMemorySize64=6201344; PeakWorkingSet=29245440; PeakWorkingSet64=29245440; PeakVirtualMemorySize=183521280; PeakVirtualMemorySize64=183521280; Priori
+                             tyBoostEnabled=True; PriorityClass=32; PrivateMemorySize=5791744; PrivateMemorySize64=5791744; PrivilegedProcessorTime=00:02:00.5781250; ProcessName=Apoint; ProcessorAffinity=15
+                             ; Responding=True; SessionId=1; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=05.09.2017 6:10:05; SynchronizingObject=; Threads=System.Diagnostics.ProcessThread Syste
+                             m.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=00:02:29.2187500; UserProcesso
+                             rTime=00:00:28.6406250; VirtualMemorySize=163012608; VirtualMemorySize64=163012608; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; WorkingSet=208363
+                             52; WorkingSet64=20836352; Site=; Container=; Name=Apoint; SI=1; Handles=357; VM=163012608; WS=20836352; PM=5791744; NPM=25800; Path=C:\Program Files\DellTPad\Apoint.exe; Compan
+                             y=Alps Electric Co., Ltd.; CPU=149,21875; FileVersion=10, 1, 101, 214; ProductVersion=10, 1, 101, 214; Description=Alps Pointing-device Driver; Product=Alps Pointing-device Driv
+                             er; __NounName=Process}...}
+UWF                        : False
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+
+
+PS C:\WINDOWS\system32> $jsondef
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{ComputerName=DESKTOP-TBE27PS; Date=; User=lukas; Last_User=; Domain=; Domain_TCP=; Domain_DHCP=; Site_Name=; Active_DC=; Script_StartUp=; Script_ShutDown=; OS=Microsoft Windows 10 Pro; OS_Build=10.0.17004; SP=0; Install_Date=; Last_Boot_Time=09.10.2017 7:08:52; RAM_Total=16289; RAM_Free=10; Virtual_Total=19; Virtual_Free=12; WIN_Dir=C:\WINDOWS; SYS_Dir=C:\WINDOWS\system32; TEMP_Dir=C:\WINDOWS\TEMP; Execution_Policy=System.Object[]; TEMP_Encrypted=N; Protect_Ini=NN; Local_Disks=System.Object[]; BIOS=DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00 ; BIOS_Date=; Default_Locale=00000409; Country=420; Locale=00000405; GemPlus_Reader=Not Installed; Dslog_Service=Not Installed; SEP_Protection=; SEP_RegVersion=Not Installed; SEP_Version=; SEP_Service=; SEP_ClientType=; SEP_PolicyMode=; SEP_Infected=2; SEP_Definition_Status=Not Installed; System_Log_Length=1118208; Secrutiy_Log_Length=5312512; Application_Log_Length=1118208; Setupapi_Length=0; NetIPConfiguration=System.Object[]; LAPS=Not Installed; Computer_Root_Certificates=System.Object[]; Local_Users=System.Object[]; Local_Groups=System.Object[]; PCinfo=; Logs_Application=System.Object[]; Logs_System=System.Object[]; Logs_LanPCS=; Logs_AppLocker_EXE=; Logs_AppLocker_MSI=System.Object[]; Logs_AppLocker_Deploy=; Logs_AppLocker_Execution=; Scheduled_Tasks=System.Object[]; AppLocker=System.Object[]; Bitlocker=; UEFI_partition=; Services=System.Object[]; Installed_Apps=System.Object[]; Processes=System.Object[]; UWF=; Deny_UnspecifiedDevices=; Allow_DeviceClasses=; Allow_DeviceIDs=; Deny_DeviceClasses=; Deny_DeviceIDs=}"
+
+
+ComputerName               : DESKTOP-TBE27PS
+Date                       : @{value=09.10.2017 8:56:09; DisplayHint=2; DateTime=pondělí 9. října 2017 10:56:09}
+User                       : lukas
+Last_User                  :
+Domain                     :
+Domain_TCP                 :
+Domain_DHCP                :
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Pro
+OS_Build                   : 10.0.17004
+SP                         : 0
+Install_Date               : @{value=03.10.2017 14:58:36; DateTime=úterý 3. října 2017 16:58:36}
+Last_Boot_Time             : 09.10.2017 7:08:52
+RAM_Total                  : 16289
+RAM_Free                   : 10
+Virtual_Total              : 19
+Virtual_Free               : 12
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=4; ExecutionPolicy=5}, @{Scope=3; ExecutionPolicy=5}, @{Scope=0; ExecutionPolicy=4}, @{Scope=1; ExecutionPolicy=1}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=24753836032; Computer=DESKTOP-TBE27PS; Used=102702669824; Size=127456505856}, @{FileSystem=NTFS; Type=Local Fixed
+                              Disk; Volume=D:; Available=69784735744; Computer=DESKTOP-TBE27PS; Used=430186782720; Size=499971518464}, @{FileSystem=NTFS; Type=Network Connection; Volume=K:; Available=565639
+                             9302656; Computer=DESKTOP-TBE27PS; Used=6236694138880; Size=11893093441536}, @{FileSystem=NTFS; Type=Network Connection; Volume=X:; Available=5656399302656; Computer=DESKTOP-TBE
+                             27PS; Used=6236694138880; Size=11893093441536}...}
+BIOS                       : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+BIOS_Date                  : @{value=08.05.2017 0:00:00; DateTime=pondělí 8. května 2017 2:00:00}
+Default_Locale             : 00000409
+Country                    : 420
+Locale                     : 00000405
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+SEP_Protection             :
+SEP_RegVersion             : Not Installed
+SEP_Version                :
+SEP_Service                :
+SEP_ClientType             :
+SEP_PolicyMode             :
+SEP_Infected               : 2
+SEP_Definition_Status      : Not Installed
+System_Log_Length          : 1118208
+Secrutiy_Log_Length        : 5312512
+Application_Log_Length     : 1118208
+Setupapi_Length            : 0
+NetIPConfiguration         : {@{Detailed=False; ComputerName=DESKTOP-TBE27PS; InterfaceAlias=Wi-Fi; InterfaceIndex=16; InterfaceDescription=Intel(R) Dual Band Wireless-AC 7260; CompartmentId=1; NetAdapter=M
+                             SFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{DF3F5582-6E01-4839-9810-3652F51B3D68}", SystemCreationClassName = "CIM_NetworkPort", SystemName = "DESKTOP-TB
+                             E27PS"); NetCompartment=MSFT_NetCompartment (InstanceID = ";55;"); NetIPv6Interface=MSFT_NetIPInterface (Name = ";@55??55;", CreationClassName = "", SystemCreationClassName = ""
+                             , SystemName = ""); NetIPv4Interface=MSFT_NetIPInterface (Name = ";@55?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetProfile=MSFT_NetConnectio
+                             nProfile (InstanceID = "{DF3F5582-6E01-4839-9810-3652F51B3D68}"); AllIPAddresses=192.168.2.85 fe80::d91c:11c3:7e33:e40c%16; IPv6Address=; IPv6TemporaryAddress=; IPv6LinkLocalAdd
+                             ress=fe80::d91c:11c3:7e33:e40c%16; IPv4Address=192.168.2.85; IPv6DefaultGateway=; IPv4DefaultGateway=MSFT_NetRoute (InstanceID = ":8:8:8:9:55;@55;C?8;@B8?8???55;"); DNSServer=MS
+                             FT_DNSClientServerAddress (Name = "16", CreationClassName = "", SystemCreationClassName = "", SystemName = "23") MSFT_DNSClientServerAddress (Name = "16", CreationClassName = ""
+                             , SystemCreationClassName = "", SystemName = "2")}, @{Detailed=False; ComputerName=DESKTOP-TBE27PS; InterfaceAlias=VMware Network Adapter VMnet1; InterfaceIndex=18; InterfaceDes
+                             cription=VMware Virtual Ethernet Adapter for VMnet1; CompartmentId=1; NetAdapter=MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{F474D080-E1B3-42C9-B951-401
+                             43A965795}", SystemCreationClassName = "CIM_NetworkPort", SystemName = "DESKTOP-TBE27PS"); NetCompartment=MSFT_NetCompartment (InstanceID = ";55;"); NetIPv6Interface=MSFT_NetIPI
+                             nterface (Name = ";B55??55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetIPv4Interface=MSFT_NetIPInterface (Name = ";B55?55;", CreationClassName
+                             = "", SystemCreationClassName = "", SystemName = ""); NetProfile=; AllIPAddresses=192.168.226.1 fe80::8d40:55b1:6b6e:29e9%18; IPv6Address=; IPv6TemporaryAddress=; IPv6LinkLocalA
+                             ddress=fe80::8d40:55b1:6b6e:29e9%18; IPv4Address=192.168.226.1; IPv6DefaultGateway=; IPv4DefaultGateway=; DNSServer=MSFT_DNSClientServerAddress (Name = "18", CreationClassName =
+                              "", SystemCreationClassName = "", SystemName = "23") MSFT_DNSClientServerAddress (Name = "18", CreationClassName = "", SystemCreationClassName = "", SystemName = "2")}, @{Detai
+                             led=False; ComputerName=DESKTOP-TBE27PS; InterfaceAlias=VMware Network Adapter VMnet8; InterfaceIndex=7; InterfaceDescription=VMware Virtual Ethernet Adapter for VMnet8; Compart
+                             mentId=1; NetAdapter=MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{729AB6C7-9622-45B7-9E16-68630E0EECF3}", SystemCreationClassName = "CIM_NetworkPort", Sy
+                             stemName = "DESKTOP-TBE27PS"); NetCompartment=MSFT_NetCompartment (InstanceID = ";55;"); NetIPv6Interface=MSFT_NetIPInterface (Name = "A55??55;", CreationClassName = "", SystemC
+                             reationClassName = "", SystemName = ""); NetIPv4Interface=MSFT_NetIPInterface (Name = "A55?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetProfi
+                             le=; AllIPAddresses=192.168.153.1 fe80::ac72:9efb:c053:591a%7; IPv6Address=; IPv6TemporaryAddress=; IPv6LinkLocalAddress=fe80::ac72:9efb:c053:591a%7; IPv4Address=192.168.153.1;
+                             IPv6DefaultGateway=; IPv4DefaultGateway=; DNSServer=MSFT_DNSClientServerAddress (Name = "7", CreationClassName = "", SystemCreationClassName = "", SystemName = "23") MSFT_DNSCli
+                             entServerAddress (Name = "7", CreationClassName = "", SystemCreationClassName = "", SystemName = "2")}, @{Detailed=False; ComputerName=DESKTOP-TBE27PS; InterfaceAlias=Ethernet;
+                             InterfaceIndex=12; InterfaceDescription=Intel(R) Ethernet Connection I218-LM; CompartmentId=1; NetAdapter=MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{A1
+                             603342-8AD4-42E6-A60A-89BBFF7B0FFE}", SystemCreationClassName = "CIM_NetworkPort", SystemName = "DESKTOP-TBE27PS"); NetCompartment=MSFT_NetCompartment (InstanceID = ";55;"); Net
+                             IPv6Interface=MSFT_NetIPInterface (Name = ";?55??55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetIPv4Interface=MSFT_NetIPInterface (Name = ";?55
+                             ?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = ""); NetProfile=; AllIPAddresses=192.168.1.21 fe80::e0c1:7389:488a:e4e4%12; IPv6Address=; IPv6Temporary
+                             Address=; IPv6LinkLocalAddress=fe80::e0c1:7389:488a:e4e4%12; IPv4Address=192.168.1.21; IPv6DefaultGateway=; IPv4DefaultGateway=MSFT_NetRoute (InstanceID = ":8:8:8:9:55;?55;C?8;@
+                             B8;8???55;"); DNSServer=MSFT_DNSClientServerAddress (Name = "12", CreationClassName = "", SystemCreationClassName = "", SystemName = "23") MSFT_DNSClientServerAddress (Name = "1
+                             2", CreationClassName = "", SystemCreationClassName = "", SystemName = "2")}}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+Local_Users                : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+Local_Groups               : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=M
+                             icrosoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+PCinfo                     : @{WindowsBuildLabEx=17004.1000.amd64fre.rs_prerelease.170922-2229; WindowsCurrentVersion=6.3; WindowsEditionId=Professional; WindowsInstallationType=Client; WindowsInstallDateFr
+                             omRegistry=03.10.2017 12:58:36; WindowsProductId=00330-80000-00000-AA671; WindowsProductName=Windows 10 Pro; WindowsRegisteredOrganization=; WindowsRegisteredOwner=; WindowsSyst
+                             emRoot=C:\WINDOWS; WindowsVersion=1709; BiosCharacteristics=; BiosBIOSVersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCurrentLanguage=; BiosDescription=; BiosEmbedde
+                             dControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; BiosFirmwareType=; BiosIdentificationCode=; BiosInstallableLanguages=; BiosInstallDate=; BiosLanguageEdition=; Bio
+                             sListOfLanguages=; BiosManufacturer=; BiosName=; BiosOtherTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=; BiosSMBIOSBIOSVersion=; BiosSMBIOSMajorVersion=; BiosS
+                             MBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwareElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSystemBiosMinorVersion=; BiosTargetOperatingSystem=; BiosVersion
+                             =; CsAdminPasswordStatus=; CsAutomaticManagedPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=; CsBootOptionOnLimit=; CsBootOptionOnWatchDog=; CsBootROMSupport
+                             ed=; CsBootStatus=; CsBootupState=; CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZone=; CsDaylightInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; C
+                             sDomainRole=; CsEnableDaylightSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfraredSupported=; CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=;
+                             CsLastLoadInfo=; CsManufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabled=; CsNumberOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMSt
+                             ringArray=; CsPartOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPowerManagementCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPow
+                             erState=; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapability=; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=;
+                             CsSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysicalMemory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=; OsTy
+                             pe=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotFixes=System.Object[]; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive=; OsWindowsD
+                             irectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; OsLocalDateTime=; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecutionPreventionAvailab
+                             le=; OsDataExecutionPrevention32BitApplications=; OsDataExecutionPreventionDrivers=; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=; OsEncryptionLevel=; OsFor
+                             egroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFreePhysicalMemory=; OsTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemory=; OsTotalSwapSpaceSize=; OsSize
+                             StoredInPagingFiles=; OsFreeSpaceInPagingFiles=; OsPagingFiles=; OsHardwareAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumberOfProcesses=; OsMaxProcessMemorySize=;
+                             OsMuiLanguages=; OsNumberOfLicensedUsers=; OsNumberOfProcesses=; OsNumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=; OsProductSuites=; OsOtherTypeDescription=; OsPA
+                             EEnabled=; OsPortableOperatingSystem=; OsPrimary=; OsProductType=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorVersion=; OsServicePackMinorVersion=; OsStatus=; OsSuite
+                             s=; OsServerLevel=; KeyboardLayout=; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonServer=\\DESKTOP-TBE27PS; PowerPlatformRole=2; HyperVisorPresen
+                             t=; HyperVRequirementDataExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; HyperVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMoni
+                             torModeExtensions=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvailableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuar
+                             dSecurityServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus=}
+Logs_Application           : {@{Id=8233; Version=0; Qualifiers=16384; Level=3; Task=0; Opcode=0; Keywords=36028797018963968; RecordId=6744; ProviderName=Microsoft-Windows-Security-SPP; ProviderId=e23b33b0-c
+                             8c9-472c-a5f9-f2bdfea0f156; LogName=Application; ProcessId=0; ThreadId=0; MachineName=DESKTOP-TBE27PS; UserId=; TimeCreated=09.10.2017 7:40:56; ActivityId=; RelatedActivityId=;
+                             ContainerLog=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=; TaskDisplayName=; KeywordsDi
+                             splayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty
+                              System.Diagnostics.Eventing.Reader.EventProperty; Message=The rules engine reported a failed VL activation attempt.
+                             Reason:0x8007232B
+                             AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+                             Trigger=NetworkAvailable}, @{Id=8233; Version=0; Qualifiers=16384; Level=3; Task=0; Opcode=0; Keywords=36028797018963968; RecordId=6687; ProviderName=Microsoft-Windows-Security-
+                             SPP; ProviderId=e23b33b0-c8c9-472c-a5f9-f2bdfea0f156; LogName=Application; ProcessId=0; ThreadId=0; MachineName=DESKTOP-TBE27PS; UserId=; TimeCreated=09.10.2017 7:09:53; Activit
+                             yId=; RelatedActivityId=; ContainerLog=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=; Ta
+                             skDisplayName=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eve
+                             nting.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=The rules engine reported a failed VL activation attempt.
+                             Reason:0x8007232B
+                             AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+                             Trigger=NetworkAvailable}, @{Id=8233; Version=0; Qualifiers=16384; Level=3; Task=0; Opcode=0; Keywords=36028797018963968; RecordId=6680; ProviderName=Microsoft-Windows-Security-
+                             SPP; ProviderId=e23b33b0-c8c9-472c-a5f9-f2bdfea0f156; LogName=Application; ProcessId=0; ThreadId=0; MachineName=DESKTOP-TBE27PS; UserId=; TimeCreated=09.10.2017 7:09:35; Activit
+                             yId=; RelatedActivityId=; ContainerLog=application; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=; Ta
+                             skDisplayName=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eve
+                             nting.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=The rules engine reported a failed VL activation attempt.
+                             Reason:0x8007232B
+                             AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+                             Trigger=UserLogon(1)}, @{Id=1000; Version=; Qualifiers=0; Level=2; Task=100; Opcode=; Keywords=36028797018963968; RecordId=6672; ProviderName=Application Error; ProviderId=; Log
+                             Name=Application; ProcessId=; ThreadId=; MachineName=DESKTOP-TBE27PS; UserId=; TimeCreated=09.10.2017 7:09:21; ActivityId=; RelatedActivityId=; ContainerLog=application; Matched
+                             QueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Error; OpcodeDisplayName=Info; TaskDisplayName=Application Crashing Events; KeywordsDispla
+                             yNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty Sys
+                             tem.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reade
+                             r.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnos
+                             tics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProp
+                             erty System.Diagnostics.Eventing.Reader.EventProperty; Message=Faulting application name: taskhostw.exe, version: 10.0.17004.1000, time stamp: 0x39d93f90
+                             Faulting module name: ntdll.dll, version: 10.0.17004.1000, time stamp: 0xd4a2d84b
+                             Exception code: 0xc0000005
+                             Fault offset: 0x000000000002678a
+                             Faulting process id: 0x1ea4
+                             Faulting application start time: 0x01d340cd7d2757d2
+                             Faulting application path: c:\windows\system32\taskhostw.exe
+                             Faulting module path: C:\WINDOWS\SYSTEM32\ntdll.dll
+                             Report Id: 5e7a9766-dfbe-41ef-a70b-b4d13f4095d5
+                             Faulting package full name:
+                             Faulting package-relative application ID: }...}
+Logs_System                : {@{Id=7034; Version=0; Qualifiers=49152; Level=2; Task=0; Opcode=0; Keywords=-9187343239835811840; RecordId=3649; ProviderName=Service Control Manager; ProviderId=555908d1-a6d7-
+                             4695-8e1e-26931d2012f4; LogName=System; ProcessId=868; ThreadId=5496; MachineName=DESKTOP-TBE27PS; UserId=; TimeCreated=09.10.2017 7:56:44; ActivityId=; RelatedActivityId=; Cont
+                             ainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Error; OpcodeDisplayName=; TaskDisplayName=; KeywordsDisplayNames=
+                             Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=T
+                             he Downloaded Maps Manager service terminated unexpectedly.  It has done this 1 time(s).}, @{Id=1014; Version=0; Qualifiers=; Level=3; Task=1014; Opcode=0; Keywords=461168601869
+                             5823360; RecordId=3648; ProviderName=Microsoft-Windows-DNS-Client; ProviderId=1c95126e-7eea-49a9-a3fe-a378b03ddb4d; LogName=System; ProcessId=2652; ThreadId=2848; MachineName=DE
+                             SKTOP-TBE27PS; UserId=S-1-5-20; TimeCreated=09.10.2017 7:56:30; ActivityId=; RelatedActivityId=; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Read
+                             er.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.D
+                             iagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=Name resolution for the name api.github.com timed out after none of the config
+                             ured DNS servers responded.}, @{Id=1014; Version=0; Qualifiers=; Level=3; Task=1014; Opcode=0; Keywords=4611686018695823360; RecordId=3645; ProviderName=Microsoft-Windows-DNS-Cl
+                             ient; ProviderId=1c95126e-7eea-49a9-a3fe-a378b03ddb4d; LogName=System; ProcessId=2652; ThreadId=2976; MachineName=DESKTOP-TBE27PS; UserId=S-1-5-20; TimeCreated=09.10.2017 7:40:4
+                             3; ActivityId=; RelatedActivityId=; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName
+                             =Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.E
+                             venting.Reader.EventProperty; Message=Name resolution for the name wpad timed out after none of the configured DNS servers responded.}, @{Id=27; Version=; Qualifiers=40964; Leve
+                             l=3; Task=0; Opcode=; Keywords=36028797018963968; RecordId=3644; ProviderName=e1dexpress; ProviderId=; LogName=System; ProcessId=; ThreadId=; MachineName=DESKTOP-TBE27PS; UserId
+                             =; TimeCreated=09.10.2017 7:40:36; ActivityId=; RelatedActivityId=; ContainerLog=system; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDispla
+                             yName=Warning; OpcodeDisplayName=; TaskDisplayName=; KeywordsDisplayNames=Classic; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader
+                             .EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=Intel(R) Ethernet Connection I218-LM
+                              Network link is disconnected.
+                             }...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         : {@{Id=8009; Version=0; Qualifiers=; Level=3; Task=0; Opcode=0; Keywords=4611686018427387904; RecordId=320; ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f6
+                             9-9578-be14aa540d22; LogName=Microsoft-Windows-AppLocker/MSI and Script; ProcessId=3772; ThreadId=15232; MachineName=DESKTOP-TBE27PS; UserId=S-1-5-18; TimeCreated=09.10.2017 7:1
+                             4:26; ActivityId=769cbbbe-40cd-0001-3e3e-bc76cd40d301; RelatedActivityId=; ContainerLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=; Bookmark=System.Diagnostics
+                             .Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventPro
+                             perty System.Diagnostics.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLocker component not available on this SKU.}, @{Id=8009; Version=0; Qualifiers=; Level=3; Task=0;
+                             Opcode=0; Keywords=4611686018427387904; RecordId=319; ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f69-9578-be14aa540d22; LogName=Microsoft-Windows-AppLoc
+                             ker/MSI and Script; ProcessId=3772; ThreadId=15232; MachineName=DESKTOP-TBE27PS; UserId=S-1-5-18; TimeCreated=09.10.2017 7:14:26; ActivityId=769cbbbe-40cd-0001-3e3e-bc76cd40d301
+                             ; RelatedActivityId=; ContainerLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warn
+                             ing; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventPropert
+                             y; Message=srpapi.dll: AppLocker component not available on this SKU.}, @{Id=8009; Version=0; Qualifiers=; Level=3; Task=0; Opcode=0; Keywords=4611686018427387904; RecordId=318;
+                              ProviderName=Microsoft-Windows-AppLocker; ProviderId=cbda4dbf-8d5d-4f69-9578-be14aa540d22; LogName=Microsoft-Windows-AppLocker/MSI and Script; ProcessId=3772; ThreadId=15232; M
+                             achineName=DESKTOP-TBE27PS; UserId=S-1-5-18; TimeCreated=09.10.2017 7:14:26; ActivityId=769cbbbe-40cd-0001-3e3e-bc76cd40d301; RelatedActivityId=; ContainerLog=microsoft-windows-
+                             applocker/msi and script; MatchedQueryIds=; Bookmark=System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; Keywor
+                             dsDisplayNames=; Properties=System.Diagnostics.Eventing.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLocker component not availa
+                             ble on this SKU.}, @{Id=8009; Version=0; Qualifiers=; Level=3; Task=0; Opcode=0; Keywords=4611686018427387904; RecordId=317; ProviderName=Microsoft-Windows-AppLocker; ProviderId
+                             =cbda4dbf-8d5d-4f69-9578-be14aa540d22; LogName=Microsoft-Windows-AppLocker/MSI and Script; ProcessId=3772; ThreadId=15232; MachineName=DESKTOP-TBE27PS; UserId=S-1-5-18; TimeCrea
+                             ted=09.10.2017 7:14:26; ActivityId=769cbbbe-40cd-0001-3e3e-bc76cd40d301; RelatedActivityId=; ContainerLog=microsoft-windows-applocker/msi and script; MatchedQueryIds=; Bookmark=
+                             System.Diagnostics.Eventing.Reader.EventBookmark; LevelDisplayName=Warning; OpcodeDisplayName=Info; TaskDisplayName=; KeywordsDisplayNames=; Properties=System.Diagnostics.Eventi
+                             ng.Reader.EventProperty System.Diagnostics.Eventing.Reader.EventProperty; Message=srpapi.dll: AppLocker component not available on this SKU.}...}
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99d3c9529
+                             18aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.
+                             PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=t
+                             estovaci.uloha; outOfBand=True; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+AppLocker                  : {}
+Bitlocker                  :
+UEFI_partition             :
+Services                   : {@{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=AllJoyn Router Service; DependentServices=; MachineName=.; ServiceName=AJRouter; ServicesDependedOn=;
+                              ServiceHandle=; Status=1; ServiceType=32; StartType=3; Site=; Container=; Name=AJRouter; RequiredServices=}, @{CanPauseAndContinue=False; CanShutdown=False; CanStop=False; Disp
+                             layName=Application Layer Gateway Service; DependentServices=; MachineName=.; ServiceName=ALG; ServicesDependedOn=; ServiceHandle=; Status=1; ServiceType=16; StartType=3; Site=;
+                              Container=; Name=ALG; RequiredServices=}, @{CanPauseAndContinue=False; CanShutdown=True; CanStop=True; DisplayName=Alps HID Monitor Service; DependentServices=; MachineName=.;
+                             ServiceName=ApHidMonitorService; ServicesDependedOn=; ServiceHandle=; Status=4; ServiceType=16; StartType=2; Site=; Container=; Name=ApHidMonitorService; RequiredServices=}, @{C
+                             anPauseAndContinue=False; CanShutdown=False; CanStop=False; DisplayName=Application Identity; DependentServices=applockerfltr; MachineName=.; ServiceName=AppIDSvc; ServicesDepen
+                             dedOn=RpcSs CryptSvc AppID; ServiceHandle=; Status=1; ServiceType=32; StartType=3; Site=; Container=; Name=AppIDSvc; RequiredServices=RpcSs CryptSvc AppID}...}
+Installed_Apps             : {@{UninstallString=rundll32.exe C:\PROGRA~1\DIFX\4CBAA680AB78144E\DIFxAppA.dll, DIFxARPUninstallDriverPackage C:\WINDOWS\System32\DriverStore\FileRepository\mobilerecovery.inf_a
+                             md64_2b4a0baa79346797\mobilerecovery.inf; DisplayName=Windows Driver Package - Microsoft USBDevice  (02/19/2016 1.0.0.0); DisplayIcon=C:\PROGRA~1\DIFX\4CBAA680AB78144E\DIFxAppA.
+                             dll,0; DisplayVersion=02/19/2016 1.0.0.0; Publisher=Microsoft; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\
+                             01D4AA89568B59E5941907D403E3B682EE413AB7; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=01
+                             D4AA89568B59E5941907D403E3B682EE413AB7; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Android Studio; DisplayVersion=1.0; Publisher=Google Inc.; UR
+                             LInfoAbout=http://developer.android.com; DisplayIcon=D:\Program Files\Android\Android Studio\bin\studio.exe; UninstallString=D:\Program Files\Android\Android Studio\uninstall.ex
+                             e; NoModify=1; NoRepair=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Android Studio; PSParentPath=Microso
+                             ft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Android Studio; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Co
+                             re\Registry}, @{SystemComponent=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager; PSParent
+                             Path=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Connection Manager; PSDrive=HKLM; PSProvider=Microso
+                             ft.PowerShell.Core\Registry}, @{InstallLocation=C:\Program Files\Dell\SupportAssist\; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Cu
+                             rrentVersion\Uninstall\Dell Support Center; PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=
+                             Dell Support Center; PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}...}
+Processes                  : {@{BasePriority=8; ExitCode=; HasExited=; ExitTime=; Handle=; SafeHandle=; HandleCount=129; Id=7384; MachineName=.; MainWindowHandle=0; MainWindowTitle=; MainModule=; MaxWorking
+                             Set=; MinWorkingSet=; Modules=; NonpagedSystemMemorySize=10056; NonpagedSystemMemorySize64=10056; PagedMemorySize=1798144; PagedMemorySize64=1798144; PagedSystemMemorySize=19040
+                             0; PagedSystemMemorySize64=190400; PeakPagedMemorySize=1912832; PeakPagedMemorySize64=1912832; PeakWorkingSet=8232960; PeakWorkingSet64=8232960; PeakVirtualMemorySize=135098368;
+                              PeakVirtualMemorySize64=135098368; PriorityBoostEnabled=; PriorityClass=; PrivateMemorySize=1798144; PrivateMemorySize64=1798144; PrivilegedProcessorTime=00:00:19.2500000; Proc
+                             essName=ApMsgFwd; ProcessorAffinity=; Responding=True; SessionId=1; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=09.10.2017 7:09:02; SynchronizingObject=; Threads=Sy
+                             stem.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=00:00:23.0937500; UserProcessorTime=00:00:03.8437500; VirtualMemorySize=131952640; VirtualMem
+                             orySize64=131952640; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; WorkingSet=7749632; WorkingSet64=7749632; Site=; Container=; Name=ApMsgFwd; SI=1
+                             ; Handles=129; VM=131952640; WS=7749632; PM=1798144; NPM=10056; Path=; Company=; CPU=23,09375; FileVersion=; ProductVersion=; Description=; Product=; __NounName=Process}, @{Base
+                             Priority=8; ExitCode=; HasExited=False; ExitTime=; Handle=6020; SafeHandle=Microsoft.Win32.SafeHandles.SafeProcessHandle; HandleCount=141; Id=7620; MachineName=.; MainWindowHand
+                             le=0; MainWindowTitle=; MainModule=System.Diagnostics.ProcessModule (Apntex.exe); MaxWorkingSet=1413120; MinWorkingSet=204800; Modules=System.Diagnostics.ProcessModule (Apntex.e
+                             xe) System.Diagnostics.ProcessModule (ntdll.dll) System.Diagnostics.ProcessModule (KERNEL32.DLL) System.Diagnostics.ProcessModule (KERNELBASE.dll) System.Diagnostics.ProcessModu
+                             le (ADVAPI32.dll) System.Diagnostics.ProcessModule (msvcrt.dll) System.Diagnostics.ProcessModule (sechost.dll) System.Diagnostics.ProcessModule (RPCRT4.dll) System.Diagnostics.P
+                             rocessModule (USER32.dll) System.Diagnostics.ProcessModule (win32u.dll) System.Diagnostics.ProcessModule (GDI32.dll) System.Diagnostics.ProcessModule (gdi32full.dll) System.Diag
+                             nostics.ProcessModule (msvcp_win.dll) System.Diagnostics.ProcessModule (ucrtbase.dll) System.Diagnostics.ProcessModule (SHELL32.dll) System.Diagnostics.ProcessModule (cfgmgr32.d
+                             ll) System.Diagnostics.ProcessModule (shcore.dll) System.Diagnostics.ProcessModule (combase.dll) System.Diagnostics.ProcessModule (bcryptPrimitives.dll) System.Diagnostics.Proce
+                             ssModule (windows.storage.dll) System.Diagnostics.ProcessModule (shlwapi.dll) System.Diagnostics.ProcessModule (kernel.appcore.dll) System.Diagnostics.ProcessModule (powrprof.dl
+                             l) System.Diagnostics.ProcessModule (profapi.dll) System.Diagnostics.ProcessModule (IMM32.DLL) System.Diagnostics.ProcessModule (VXDIF.DLL) System.Diagnostics.ProcessModule (Apo
+                             int.DLL) System.Diagnostics.ProcessModule (ole32.dll) System.Diagnostics.ProcessModule (SETUPAPI.dll) System.Diagnostics.ProcessModule (PSAPI.DLL) System.Diagnostics.ProcessModu
+                             le (VERSION.dll) System.Diagnostics.ProcessModule (uxtheme.dll) System.Diagnostics.ProcessModule (MSCTF.dll) System.Diagnostics.ProcessModule (OLEAUT32.dll) System.Diagnostics.P
+                             rocessModule (dwmapi.dll) System.Diagnostics.ProcessModule (Comctl32.dll) System.Diagnostics.ProcessModule (WINSTA.dll); NonpagedSystemMemorySize=9712; NonpagedSystemMemorySize6
+                             4=9712; PagedMemorySize=1765376; PagedMemorySize64=1765376; PagedSystemMemorySize=184328; PagedSystemMemorySize64=184328; PeakPagedMemorySize=3076096; PeakPagedMemorySize64=3076
+                             096; PeakWorkingSet=8347648; PeakWorkingSet64=8347648; PeakVirtualMemorySize=133033984; PeakVirtualMemorySize64=133033984; PriorityBoostEnabled=True; PriorityClass=32; PrivateMe
+                             morySize=1765376; PrivateMemorySize64=1765376; PrivilegedProcessorTime=00:00:04.8906250; ProcessName=ApntEx; ProcessorAffinity=15; Responding=True; SessionId=1; StartInfo=System
+                             .Diagnostics.ProcessStartInfo; StartTime=09.10.2017 7:09:03; SynchronizingObject=; Threads=System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=
+                             00:00:06.5156250; UserProcessorTime=00:00:01.6250000; VirtualMemorySize=128761856; VirtualMemorySize64=128761856; EnableRaisingEvents=False; StandardInput=; StandardOutput=; Sta
+                             ndardError=; WorkingSet=8048640; WorkingSet64=8048640; Site=; Container=; Name=ApntEx; SI=1; Handles=141; VM=128761856; WS=8048640; PM=1765376; NPM=9712; Path=C:\Program Files\D
+                             ellTPad\Apntex.exe; Company=Alps Electric Co., Ltd.; CPU=6,515625; FileVersion=8, 1, 0, 34; ProductVersion=8, 1, 0, 34; Description=Alps Pointing-device Driver for Windows; Prod
+                             uct=Alps Pointing-device Driver for Windows; __NounName=Process}, @{BasePriority=8; ExitCode=; HasExited=False; ExitTime=; Handle=2824; SafeHandle=Microsoft.Win32.SafeHandles.Sa
+                             feProcessHandle; HandleCount=365; Id=7152; MachineName=.; MainWindowHandle=0; MainWindowTitle=; MainModule=System.Diagnostics.ProcessModule (Apoint.exe); MaxWorkingSet=1413120;
+                             MinWorkingSet=204800; Modules=System.Diagnostics.ProcessModule (Apoint.exe) System.Diagnostics.ProcessModule (ntdll.dll) System.Diagnostics.ProcessModule (KERNEL32.DLL) System.D
+                             iagnostics.ProcessModule (KERNELBASE.dll) System.Diagnostics.ProcessModule (ADVAPI32.dll) System.Diagnostics.ProcessModule (msvcrt.dll) System.Diagnostics.ProcessModule (sechost
+                             .dll) System.Diagnostics.ProcessModule (RPCRT4.dll) System.Diagnostics.ProcessModule (USER32.dll) System.Diagnostics.ProcessModule (win32u.dll) System.Diagnostics.ProcessModule
+                             (GDI32.dll) System.Diagnostics.ProcessModule (gdi32full.dll) System.Diagnostics.ProcessModule (msvcp_win.dll) System.Diagnostics.ProcessModule (ucrtbase.dll) System.Diagnostics.
+                             ProcessModule (SHELL32.dll) System.Diagnostics.ProcessModule (cfgmgr32.dll) System.Diagnostics.ProcessModule (shcore.dll) System.Diagnostics.ProcessModule (combase.dll) System.D
+                             iagnostics.ProcessModule (bcryptPrimitives.dll) System.Diagnostics.ProcessModule (windows.storage.dll) System.Diagnostics.ProcessModule (shlwapi.dll) System.Diagnostics.ProcessM
+                             odule (kernel.appcore.dll) System.Diagnostics.ProcessModule (powrprof.dll) System.Diagnostics.ProcessModule (profapi.dll) System.Diagnostics.ProcessModule (PSAPI.DLL) System.Dia
+                             gnostics.ProcessModule (SETUPAPI.dll) System.Diagnostics.ProcessModule (WINMM.dll) System.Diagnostics.ProcessModule (WINMMBASE.dll) System.Diagnostics.ProcessModule (IMM32.DLL)
+                             System.Diagnostics.ProcessModule (DEVOBJ.dll) System.Diagnostics.ProcessModule (WINTRUST.dll) System.Diagnostics.ProcessModule (MSASN1.dll) System.Diagnostics.ProcessModule (CRY
+                             PT32.dll) System.Diagnostics.ProcessModule (uxtheme.dll) System.Diagnostics.ProcessModule (Apoint.dll) System.Diagnostics.ProcessModule (ole32.dll) System.Diagnostics.ProcessMod
+                             ule (VERSION.dll) System.Diagnostics.ProcessModule (Vxdif.dll) System.Diagnostics.ProcessModule (EzAuto.dll) System.Diagnostics.ProcessModule (ApSearch.dll) System.Diagnostics.P
+                             rocessModule (OLEAUT32.dll) System.Diagnostics.ProcessModule (CLDAPI.dll) System.Diagnostics.ProcessModule (FLTLIB.DLL) System.Diagnostics.ProcessModule (AEPIC.dll) System.Diagn
+                             ostics.ProcessModule (ntmarta.dll) System.Diagnostics.ProcessModule (bcrypt.dll) System.Diagnostics.ProcessModule (cryptsp.dll) System.Diagnostics.ProcessModule (clbcatq.dll) Sy
+                             stem.Diagnostics.ProcessModule (propsys.dll) System.Diagnostics.ProcessModule (LINKINFO.dll) System.Diagnostics.ProcessModule (ntshrui.dll) System.Diagnostics.ProcessModule (Ssp
+                             iCli.dll) System.Diagnostics.ProcessModule (srvcli.dll) System.Diagnostics.ProcessModule (cscapi.dll) System.Diagnostics.ProcessModule (DUI70.dll) System.Diagnostics.ProcessModu
+                             le (Comctl32.dll) System.Diagnostics.ProcessModule (DUser.dll) System.Diagnostics.ProcessModule (CHARTV.dll) System.Diagnostics.ProcessModule (gdiplus.dll) System.Diagnostics.Pr
+                             ocessModule (MSCTF.dll) System.Diagnostics.ProcessModule (dwmapi.dll) System.Diagnostics.ProcessModule (OLEACC.dll) System.Diagnostics.ProcessModule (atlthunk.dll) System.Diagno
+                             stics.ProcessModule (WTSAPI32.dll) System.Diagnostics.ProcessModule (WINSTA.dll) System.Diagnostics.ProcessModule (apphelp.dll) System.Diagnostics.ProcessModule (TortoiseStub.dl
+                             l) System.Diagnostics.ProcessModule (TortoiseSVN.dll) System.Diagnostics.ProcessModule (WININET.dll) System.Diagnostics.ProcessModule (libapr_tsvn.dll) System.Diagnostics.Proces
+                             sModule (libsvn_tsvn.dll) System.Diagnostics.ProcessModule (WS2_32.dll) System.Diagnostics.ProcessModule (VCRUNTIME140.dll) System.Diagnostics.ProcessModule (MSWSOCK.dll) System
+                             .Diagnostics.ProcessModule (libaprutil_tsvn.dll) System.Diagnostics.ProcessModule (MSVCP140.dll) System.Diagnostics.ProcessModule (intl3_tsvn.dll) System.Diagnostics.ProcessModu
+                             le (Secur32.dll) System.Diagnostics.ProcessModule (CRYPTBASE.DLL) System.Diagnostics.ProcessModule (libsasl.dll) System.Diagnostics.ProcessModule (WLDAP32.dll) System.Diagnostic
+                             s.ProcessModule (DragExt64.dll) System.Diagnostics.ProcessModule (netutils.dll) System.Diagnostics.ProcessModule (coml2.dll) System.Diagnostics.ProcessModule (edputil.dll) Syste
+                             m.Diagnostics.ProcessModule (urlmon.dll) System.Diagnostics.ProcessModule (imagehlp.dll) System.Diagnostics.ProcessModule (iertutil.dll) System.Diagnostics.ProcessModule (msiso.
+                             dll) System.Diagnostics.ProcessModule (CoreMessaging.dll) System.Diagnostics.ProcessModule (MPR.dll) System.Diagnostics.ProcessModule (pcacli.dll) System.Diagnostics.ProcessModu
+                             le (sfc_os.dll); NonpagedSystemMemorySize=23624; NonpagedSystemMemorySize64=23624; PagedMemorySize=4988928; PagedMemorySize64=4988928; PagedSystemMemorySize=323376; PagedSystemM
+                             emorySize64=323376; PeakPagedMemorySize=5500928; PeakPagedMemorySize64=5500928; PeakWorkingSet=30187520; PeakWorkingSet64=30187520; PeakVirtualMemorySize=213639168; PeakVirtualM
+                             emorySize64=213639168; PriorityBoostEnabled=True; PriorityClass=32; PrivateMemorySize=4988928; PrivateMemorySize64=4988928; PrivilegedProcessorTime=00:00:04.2031250; ProcessName
+                             =Apoint; ProcessorAffinity=15; Responding=True; SessionId=1; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=09.10.2017 7:09:01; SynchronizingObject=; Threads=System.Di
+                             agnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=00:00:05.2343750; UserProcessorTime=00:00:01.0312500; VirtualMemory
+                             Size=192139264; VirtualMemorySize64=192139264; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; WorkingSet=23556096; WorkingSet64=23556096; Site=; Con
+                             tainer=; Name=Apoint; SI=1; Handles=365; VM=192139264; WS=23556096; PM=4988928; NPM=23624; Path=C:\Program Files\DellTPad\Apoint.exe; Company=Alps Electric Co., Ltd.; CPU=5,2343
+                             75; FileVersion=10, 1, 101, 214; ProductVersion=10, 1, 101, 214; Description=Alps Pointing-device Driver; Product=Alps Pointing-device Driver; __NounName=Process}, @{BasePriorit
+                             y=8; ExitCode=; HasExited=; ExitTime=; Handle=; SafeHandle=; HandleCount=285; Id=5132; MachineName=.; MainWindowHandle=0; MainWindowTitle=; MainModule=; MaxWorkingSet=; MinWorki
+                             ngSet=; Modules=; NonpagedSystemMemorySize=20368; NonpagedSystemMemorySize64=20368; PagedMemorySize=4280320; PagedMemorySize64=4280320; PagedSystemMemorySize=248360; PagedSystem
+                             MemorySize64=248360; PeakPagedMemorySize=4767744; PeakPagedMemorySize64=4767744; PeakWorkingSet=17850368; PeakWorkingSet64=17850368; PeakVirtualMemorySize=186789888; PeakVirtual
+                             MemorySize64=186789888; PriorityBoostEnabled=; PriorityClass=; PrivateMemorySize=4280320; PrivateMemorySize64=4280320; PrivilegedProcessorTime=; ProcessName=AppleMobileDeviceSer
+                             vice; ProcessorAffinity=; Responding=True; SessionId=0; StartInfo=System.Diagnostics.ProcessStartInfo; StartTime=; SynchronizingObject=; Threads=System.Diagnostics.ProcessThread
+                              System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diag
+                             nostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread System.Diagnostics.ProcessThread; TotalProcessorTime=; U
+                             serProcessorTime=; VirtualMemorySize=166125568; VirtualMemorySize64=166125568; EnableRaisingEvents=False; StandardInput=; StandardOutput=; StandardError=; WorkingSet=16728064; W
+                             orkingSet64=16728064; Site=; Container=; Name=AppleMobileDeviceService; SI=0; Handles=285; VM=166125568; WS=16728064; PM=4280320; NPM=20368; Path=; Company=; CPU=; FileVersion=;
+                              ProductVersion=; Description=; Product=; __NounName=Process}...}
+UWF                        :
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+
+
+PS C:\WINDOWS\system32> $json.Logs_AppLocker_EXE
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
