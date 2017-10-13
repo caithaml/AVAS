@@ -1,0 +1,39 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171013102018
+Username: LUKA-NTB\lukas
+RunAs User: LUKA-NTB\lukas
+Configuration Name: 
+Machine: LUKA-NTB (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\avas.ps1'
+Process ID: 15924
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+10/13/2017 10:20:18 - Nacitani json konfiguracniho souboru
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At D:\SICZ\avas\avas.ps1:67 char:46
++ $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
++                                              ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathComm
+and
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At D:\SICZ\avas\avas.ps1:67 char:46
++ $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
++                                              ~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+10/13/2017 10:20:23 - Nelze najit soubor \config.ini
+**********************
+Windows PowerShell transcript end
+End time: 20171013102023
+**********************
