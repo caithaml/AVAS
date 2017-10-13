@@ -1,0 +1,326 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171013105145
+Username: LUKA-NTB\lukas
+RunAs User: LUKA-NTB\lukas
+Configuration Name: 
+Machine: LUKA-NTB (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\avas.ps1'
+Process ID: 15780
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-10-13-10-51-45.txt
+10/13/2017 10:51:45 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-13-10-51-50.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+
+
+
+WindowsBuildLabEx                                       : 17004.1000.amd64fre.rs_prerelease.170922-2229
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : Professional
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 03.10.2017 12:58:36
+WindowsProductId                                        : 00330-80000-00000-AA671
+WindowsProductName                                      : Windows 10 Pro
+WindowsRegisteredOrganization                           :
+WindowsRegisteredOwner                                  :
+WindowsSystemRoot                                       : C:\WINDOWS
+WindowsVersion                                          : 1709
+BiosCharacteristics                                     :
+BiosBIOSVersion                                         :
+BiosBuildNumber                                         :
+BiosCaption                                             :
+BiosCodeSet                                             :
+BiosCurrentLanguage                                     :
+BiosDescription                                         :
+BiosEmbeddedControllerMajorVersion                      :
+BiosEmbeddedControllerMinorVersion                      :
+BiosFirmwareType                                        :
+BiosIdentificationCode                                  :
+BiosInstallableLanguages                                :
+BiosInstallDate                                         :
+BiosLanguageEdition                                     :
+BiosListOfLanguages                                     :
+BiosManufacturer                                        :
+BiosName                                                :
+BiosOtherTargetOS                                       :
+BiosPrimaryBIOS                                         :
+BiosReleaseDate                                         :
+BiosSeralNumber                                         :
+BiosSMBIOSBIOSVersion                                   :
+BiosSMBIOSMajorVersion                                  :
+BiosSMBIOSMinorVersion                                  :
+BiosSMBIOSPresent                                       :
+BiosSoftwareElementState                                :
+BiosStatus                                              :
+BiosSystemBiosMajorVersion                              :
+BiosSystemBiosMinorVersion                              :
+BiosTargetOperatingSystem                               :
+BiosVersion                                             :
+CsAdminPasswordStatus                                   :
+CsAutomaticManagedPagefile                              :
+CsAutomaticResetBootOption                              :
+CsAutomaticResetCapability                              :
+CsBootOptionOnLimit                                     :
+CsBootOptionOnWatchDog                                  :
+CsBootROMSupported                                      :
+CsBootStatus                                            :
+CsBootupState                                           :
+CsCaption                                               :
+CsChassisBootupState                                    :
+CsChassisSKUNumber                                      :
+CsCurrentTimeZone                                       :
+CsDaylightInEffect                                      :
+CsDescription                                           :
+CsDNSHostName                                           :
+CsDomain                                                :
+CsDomainRole                                            :
+CsEnableDaylightSavingsTime                             :
+CsFrontPanelResetStatus                                 :
+CsHypervisorPresent                                     :
+CsInfraredSupported                                     :
+CsInitialLoadInfo                                       :
+CsInstallDate                                           :
+CsKeyboardPasswordStatus                                :
+CsLastLoadInfo                                          :
+CsManufacturer                                          :
+CsModel                                                 :
+CsName                                                  :
+CsNetworkAdapters                                       :
+CsNetworkServerModeEnabled                              :
+CsNumberOfLogicalProcessors                             :
+CsNumberOfProcessors                                    :
+CsProcessors                                            :
+CsOEMStringArray                                        :
+CsPartOfDomain                                          :
+CsPauseAfterReset                                       :
+CsPCSystemType                                          :
+CsPCSystemTypeEx                                        :
+CsPowerManagementCapabilities                           :
+CsPowerManagementSupported                              :
+CsPowerOnPasswordStatus                                 :
+CsPowerState                                            :
+CsPowerSupplyState                                      :
+CsPrimaryOwnerContact                                   :
+CsPrimaryOwnerName                                      :
+CsResetCapability                                       :
+CsResetCount                                            :
+CsResetLimit                                            :
+CsRoles                                                 :
+CsStatus                                                :
+CsSupportContactDescription                             :
+CsSystemFamily                                          :
+CsSystemSKUNumber                                       :
+CsSystemType                                            :
+CsThermalState                                          :
+CsTotalPhysicalMemory                                   :
+CsPhyicallyInstalledMemory                              :
+CsUserName                                              :
+CsWakeUpType                                            :
+CsWorkgroup                                             :
+OsName                                                  :
+OsType                                                  :
+OsOperatingSystemSKU                                    :
+OsVersion                                               :
+OsCSDVersion                                            :
+OsBuildNumber                                           :
+OsHotFixes                                              : {Test.hotfixu1, test, Microsoft.PowerShell.test2, test...}
+OsBootDevice                                            :
+OsSystemDevice                                          :
+OsSystemDirectory                                       :
+OsSystemDrive                                           :
+OsWindowsDirectory                                      :
+OsCountryCode                                           :
+OsCurrentTimeZone                                       :
+OsLocaleID                                              :
+OsLocale                                                :
+OsLocalDateTime                                         :
+OsLastBootUpTime                                        :
+OsUptime                                                :
+OsBuildType                                             :
+OsCodeSet                                               :
+OsDataExecutionPreventionAvailable                      :
+OsDataExecutionPrevention32BitApplications              :
+OsDataExecutionPreventionDrivers                        :
+OsDataExecutionPreventionSupportPolicy                  :
+OsDebug                                                 :
+OsDistributed                                           :
+OsEncryptionLevel                                       :
+OsForegroundApplicationBoost                            :
+OsTotalVisibleMemorySize                                :
+OsFreePhysicalMemory                                    :
+OsTotalVirtualMemorySize                                :
+OsFreeVirtualMemory                                     :
+OsInUseVirtualMemory                                    :
+OsTotalSwapSpaceSize                                    :
+OsSizeStoredInPagingFiles                               :
+OsFreeSpaceInPagingFiles                                :
+OsPagingFiles                                           :
+OsHardwareAbstractionLayer                              :
+OsInstallDate                                           :
+OsManufacturer                                          :
+OsMaxNumberOfProcesses                                  :
+OsMaxProcessMemorySize                                  :
+OsMuiLanguages                                          :
+OsNumberOfLicensedUsers                                 :
+OsNumberOfProcesses                                     :
+OsNumberOfUsers                                         :
+OsOrganization                                          :
+OsArchitecture                                          :
+OsLanguage                                              :
+OsProductSuites                                         :
+OsOtherTypeDescription                                  :
+OsPAEEnabled                                            :
+OsPortableOperatingSystem                               :
+OsPrimary                                               :
+OsProductType                                           :
+OsRegisteredUser                                        :
+OsSerialNumber                                          :
+OsServicePackMajorVersion                               :
+OsServicePackMinorVersion                               :
+OsStatus                                                :
+OsSuites                                                :
+OsServerLevel                                           :
+KeyboardLayout                                          :
+TimeZone                                                : (UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+LogonServer                                             : \\DESKTOP-TBE27PS
+PowerPlatformRole                                       : 2
+HyperVisorPresent                                       :
+HyperVRequirementDataExecutionPreventionAvailable       :
+HyperVRequirementSecondLevelAddressTranslation          :
+HyperVRequirementVirtualizationFirmwareEnabled          :
+HyperVRequirementVMMonitorModeExtensions                :
+DeviceGuardSmartStatus                                  : 0
+DeviceGuardRequiredSecurityProperties                   :
+DeviceGuardAvailableSecurityProperties                  :
+DeviceGuardSecurityServicesConfigured                   :
+DeviceGuardSecurityServicesRunning                      :
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         :
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus :
+
+Apps                            :
+services                        :
+scheduledtasks                  :
+hotfix                          :
+uwp                             :
+Active_DC                       :
+Allow_deviceclasses             :
+Allow_deviceids                 :
+Application_log_length          : 1118208
+Applocker                       : {}
+BIOS                            : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+Bios_date                       : @{value=08.05.2017 0:00:00; DateTime=pondělí 8. května 2017 2:00:00}
+Bitlocker                       :
+Computerturen_root_certifikates : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.
+                                  Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99
+                                  d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; Clas
+                                  sId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryI
+                                  nfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; wri
+                                  teStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}
+                                  , @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outO
+                                  fBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709
+                                  f6b4002fa4af63c}...}
+ComputerName                    : DESKTOP-TBE27PS
+Country                         : 420
+Date                            : @{value=09.10.2017 8:56:09; DisplayHint=2; DateTime=pondělí 9. října 2017 10:56:09}
+Default_locale                  : 00000409
+Deny_deviceclasses              :
+Deny_deviceids                  :
+deny_UnspecifiedDevices         :
+Domain                          :
+Domain_dhcp                     :
+Domain_tcp                      :
+AV_MS_product                   :
+AV_MS_residenton                :
+AV_MS_scanner_build             :
+AV_MS_scanner_version           :
+AV_MS_version                   :
+rozdily                         :
+hdd                             : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=24753836032; Computer
+                                  =DESKTOP-TBE27PS; Used=102702669824; Size=127456505856}, @{FileSystem=NTFS; Type=Loca
+                                  l Fixed Disk; Volume=D:; Available=69784735744; Computer=DESKTOP-TBE27PS; Used=430186
+                                  782720; Size=499971518464}, @{FileSystem=NTFS; Type=Network Connection; Volume=K:; Av
+                                  ailable=5656399302656; Computer=DESKTOP-TBE27PS; Used=6236694138880; Size=11893093441
+                                  536}, @{FileSystem=NTFS; Type=Network Connection; Volume=X:; Available=5656399302656;
+                                   Computer=DESKTOP-TBE27PS; Used=6236694138880; Size=11893093441536}...}
+pcinfo                          : @{WindowsBuildLabEx=17004.1000.amd64fre.rs_prerelease.170922-2229; WindowsCurrentVers
+                                  ion=6.3; WindowsEditionId=Professional; WindowsInstallationType=Client; WindowsInstal
+                                  lDateFromRegistry=03.10.2017 12:58:36; WindowsProductId=00330-80000-00000-AA671; Wind
+                                  owsProductName=Windows 10 Pro; WindowsRegisteredOrganization=; WindowsRegisteredOwner
+                                  =; WindowsSystemRoot=C:\WINDOWS; WindowsVersion=1709; BiosCharacteristics=; BiosBIOSV
+                                  ersion=; BiosBuildNumber=; BiosCaption=; BiosCodeSet=; BiosCurrentLanguage=; BiosDesc
+                                  ription=; BiosEmbeddedControllerMajorVersion=; BiosEmbeddedControllerMinorVersion=; B
+                                  iosFirmwareType=; BiosIdentificationCode=; BiosInstallableLanguages=; BiosInstallDate
+                                  =; BiosLanguageEdition=; BiosListOfLanguages=; BiosManufacturer=; BiosName=; BiosOthe
+                                  rTargetOS=; BiosPrimaryBIOS=; BiosReleaseDate=; BiosSeralNumber=; BiosSMBIOSBIOSVersi
+                                  on=; BiosSMBIOSMajorVersion=; BiosSMBIOSMinorVersion=; BiosSMBIOSPresent=; BiosSoftwa
+                                  reElementState=; BiosStatus=; BiosSystemBiosMajorVersion=; BiosSystemBiosMinorVersion
+                                  =; BiosTargetOperatingSystem=; BiosVersion=; CsAdminPasswordStatus=; CsAutomaticManag
+                                  edPagefile=; CsAutomaticResetBootOption=; CsAutomaticResetCapability=; CsBootOptionOn
+                                  Limit=; CsBootOptionOnWatchDog=; CsBootROMSupported=; CsBootStatus=; CsBootupState=;
+                                  CsCaption=; CsChassisBootupState=; CsChassisSKUNumber=; CsCurrentTimeZone=; CsDayligh
+                                  tInEffect=; CsDescription=; CsDNSHostName=; CsDomain=; CsDomainRole=; CsEnableDayligh
+                                  tSavingsTime=; CsFrontPanelResetStatus=; CsHypervisorPresent=; CsInfraredSupported=;
+                                  CsInitialLoadInfo=; CsInstallDate=; CsKeyboardPasswordStatus=; CsLastLoadInfo=; CsMan
+                                  ufacturer=; CsModel=; CsName=; CsNetworkAdapters=; CsNetworkServerModeEnabled=; CsNum
+                                  berOfLogicalProcessors=; CsNumberOfProcessors=; CsProcessors=; CsOEMStringArray=; CsP
+                                  artOfDomain=; CsPauseAfterReset=; CsPCSystemType=; CsPCSystemTypeEx=; CsPowerManageme
+                                  ntCapabilities=; CsPowerManagementSupported=; CsPowerOnPasswordStatus=; CsPowerState=
+                                  ; CsPowerSupplyState=; CsPrimaryOwnerContact=; CsPrimaryOwnerName=; CsResetCapability
+                                  =; CsResetCount=; CsResetLimit=; CsRoles=; CsStatus=; CsSupportContactDescription=; C
+                                  sSystemFamily=; CsSystemSKUNumber=; CsSystemType=; CsThermalState=; CsTotalPhysicalMe
+                                  mory=; CsPhyicallyInstalledMemory=; CsUserName=; CsWakeUpType=; CsWorkgroup=; OsName=
+                                  ; OsType=; OsOperatingSystemSKU=; OsVersion=; OsCSDVersion=; OsBuildNumber=; OsHotFix
+                                  es=System.Object[]; OsBootDevice=; OsSystemDevice=; OsSystemDirectory=; OsSystemDrive
+                                  =; OsWindowsDirectory=; OsCountryCode=; OsCurrentTimeZone=; OsLocaleID=; OsLocale=; O
+                                  sLocalDateTime=; OsLastBootUpTime=; OsUptime=; OsBuildType=; OsCodeSet=; OsDataExecut
+                                  ionPreventionAvailable=; OsDataExecutionPrevention32BitApplications=; OsDataExecution
+                                  PreventionDrivers=; OsDataExecutionPreventionSupportPolicy=; OsDebug=; OsDistributed=
+                                  ; OsEncryptionLevel=; OsForegroundApplicationBoost=; OsTotalVisibleMemorySize=; OsFre
+                                  ePhysicalMemory=; OsTotalVirtualMemorySize=; OsFreeVirtualMemory=; OsInUseVirtualMemo
+                                  ry=; OsTotalSwapSpaceSize=; OsSizeStoredInPagingFiles=; OsFreeSpaceInPagingFiles=; Os
+                                  PagingFiles=; OsHardwareAbstractionLayer=; OsInstallDate=; OsManufacturer=; OsMaxNumb
+                                  erOfProcesses=; OsMaxProcessMemorySize=; OsMuiLanguages=; OsNumberOfLicensedUsers=; O
+                                  sNumberOfProcesses=; OsNumberOfUsers=; OsOrganization=; OsArchitecture=; OsLanguage=;
+                                   OsProductSuites=; OsOtherTypeDescription=; OsPAEEnabled=; OsPortableOperatingSystem=
+                                  ; OsPrimary=; OsProductType=; OsRegisteredUser=; OsSerialNumber=; OsServicePackMajorV
+                                  ersion=; OsServicePackMinorVersion=; OsStatus=; OsSuites=; OsServerLevel=; KeyboardLa
+                                  yout=; TimeZone=(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague; LogonS
+                                  erver=\\DESKTOP-TBE27PS; PowerPlatformRole=2; HyperVisorPresent=; HyperVRequirementDa
+                                  taExecutionPreventionAvailable=; HyperVRequirementSecondLevelAddressTranslation=; Hyp
+                                  erVRequirementVirtualizationFirmwareEnabled=; HyperVRequirementVMMonitorModeExtension
+                                  s=; DeviceGuardSmartStatus=0; DeviceGuardRequiredSecurityProperties=; DeviceGuardAvai
+                                  lableSecurityProperties=; DeviceGuardSecurityServicesConfigured=; DeviceGuardSecurity
+                                  ServicesRunning=; DeviceGuardCodeIntegrityPolicyEnforcementStatus=; DeviceGuardUserMo
+                                  deCodeIntegrityPolicyEnforcementStatus=}
+Local_groups                    : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.
+                                  Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=; ClassId2e4f51ef21dd47e99
+                                  d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=; Clas
+                                  sId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryI
+                                  nfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False; wri
+                                  teStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}
+                                  , @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outO
+                                  fBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709
+                                  f6b4002fa4af63c}...}
+
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171013105151
+**********************
