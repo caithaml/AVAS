@@ -6,6 +6,11 @@
 #
 #
 #################################################################################################
+
+New-EventLog -LogName Application -Source "AVAS"
+Write-EventLog -LogName "Application" -Source "AVAS" -EventId 3001 -EntryType Information -Message "Probehlo spusteni AVAS " -Category 1 
+
+
 $transcriptname = Get-Date -UFormat 'AVAS_%Y_%m_%d'
 
 
