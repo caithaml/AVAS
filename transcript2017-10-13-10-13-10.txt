@@ -1,0 +1,43 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171013101310
+Username: LUKA-NTB\lukas
+RunAs User: LUKA-NTB\lukas
+Configuration Name: 
+Machine: LUKA-NTB (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\avas.ps1'
+Process ID: 18096
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-10-13-10-13-10.txt
+10/13/2017 10:13:10 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-13-10-13-16.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Touch Keyboard and Handwriting Panel Service
+
+
+
+
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171013101317
+**********************

@@ -1,0 +1,103 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171013101340
+Username: LUKA-NTB\lukas
+RunAs User: LUKA-NTB\lukas
+Configuration Name: 
+Machine: LUKA-NTB (Microsoft Windows NT 10.0.17004.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\avas\avas.ps1'
+Process ID: 16748
+PSVersion: 5.1.17004.1000
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17004.1000
+BuildVersion: 10.0.17004.1000
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-10-13-10-13-40.txt
+10/13/2017 10:13:40 - Nacitani json konfiguracniho souboru
+PS>TerminatingError(ConvertFrom-Json): "Cannot convert the JSON string because a dictionary that was converted from the string contains the duplicated keys 'value' and 'Value'."
+ConvertFrom-Json : Cannot convert the JSON string because a dictionary that was converted from the string contains the d
+uplicated keys 'value' and 'Value'.
+At D:\SICZ\avas\avas.ps1:43 char:61
++ ...                                       = $inputdata | ConvertFrom-Json
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [ConvertFrom-Json], InvalidOperationException
+    + FullyQualifiedErrorId : DuplicateKeysInJsonString,Microsoft.PowerShell.Commands.ConvertFromJsonCommand
+ConvertFrom-Json : Cannot convert the JSON string because a dictionary that was converted from the string contains the
+duplicated keys 'value' and 'Value'.
+At D:\SICZ\avas\avas.ps1:43 char:61
++ ...                                       = $inputdata | ConvertFrom-Json
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [ConvertFrom-Json], InvalidOperationException
+    + FullyQualifiedErrorId : DuplicateKeysInJsonString,Microsoft.PowerShell.Commands.ConvertFromJsonCommand
+
+Transcript started, output file is D:\SICZ\avas/debug-2017-10-13-10-13-46.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS>TerminatingError(Compare-Object): "Cannot bind argument to parameter 'ReferenceObject' because it is null."
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas.ps1:352 char:74
++ ... y rozdily (Compare-Object -ReferenceObject $json.ComputerName -Differ ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObject
+Command
+Compare-Object : Cannot bind argument to parameter 'ReferenceObject' because it is null.
+At D:\SICZ\avas\avas.ps1:352 char:74
++ ... y rozdily (Compare-Object -ReferenceObject $json.ComputerName -Differ ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Compare-Object], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.CompareObje
+   ctCommand
+
+
+
+
+
+Apps                            :
+services                        :
+scheduledtasks                  :
+hotfix                          :
+uwp                             :
+Active_DC                       :
+Allow_deviceclasses             :
+Allow_deviceids                 :
+Application_log_length          :
+Applocker                       :
+BIOS                            :
+Bios_date                       :
+Bitlocker                       :
+Computerturen_root_certifikates :
+ComputerName                    :
+Country                         :
+Date                            :
+Default_locale                  :
+Deny_deviceclasses              :
+Deny_deviceids                  :
+deny_UnspecifiedDevices         :
+Domain                          :
+Domain_dhcp                     :
+Domain_tcp                      :
+AV_MS_product                   :
+AV_MS_residenton                :
+AV_MS_scanner_build             :
+AV_MS_scanner_version           :
+AV_MS_version                   :
+hdd                             :
+pcinfo                          :
+Local_groups                    :
+
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171013101346
+**********************
