@@ -335,6 +335,10 @@ function uwpdiff
 uwpdiff  
 $hash | Add-Member Noteproperty uwp (uwpdiff)
    
+   
+   if($set.hash -eq '1')
+{
+  Write-Host -Object 'pridavam hash noteproperty'
 
 
 $hash | Add-Member Noteproperty Active_DC ($json.Active_DC)
@@ -361,6 +365,7 @@ $hash | Add-Member Noteproperty AV_MS_residenton ($json.AV_MS_ResidentOn)
 $hash | Add-Member Noteproperty AV_MS_scanner_build ($json.AV_MS_Scanner_Build)
 $hash | Add-Member Noteproperty AV_MS_scanner_version ($json.AV_MS_Scanner_Version)
 $hash | Add-Member Noteproperty AV_MS_version ($json.AV_MS_Version)
+}
 
 #$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
 #$hash.rozdily | Out-String
@@ -377,7 +382,9 @@ $hash
 
 
 
-
+   
+   if($set.formular -eq '1')
+{
 
 $vysledek=$hash.Apps | out-string
 $vysledek2=$hash.services 
@@ -409,7 +416,14 @@ $vysledkytestu=$hash.Apps,$hash.processes,$hash.hotfix,$hash.services,$hash.sche
     Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
     Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
 
+ }
+   
 
+
+
+
+   if($set.gui -eq '1')
+{
 #==============================================================================================
 # GUI
 #==============================================================================================
@@ -1353,3 +1367,5 @@ $mlbl_rootcertifikaty.Add_Click( {
 $MyForm.Controls.Add($mlbl_rootcertifikaty) 
 
 $MyForm.ShowDialog()
+
+}

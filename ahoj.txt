@@ -1,0 +1,50 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171002100130
+Username: DESKTOP-TBE27PS\lukas
+RunAs User: DESKTOP-TBE27PS\lukas
+Configuration Name: 
+Machine: DESKTOP-TBE27PS (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 7524
+PSVersion: 5.1.16299.0
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.0
+BuildVersion: 10.0.16299.0
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is C:\sICZ\ahoj.txt"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+PS C:\WINDOWS\system32> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is ./transcript2017-10-02-10-38-46.txt"
+Transcript started, output file is ./transcript2017-10-02-10-38-46.txt
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Cancel"
+Cancel
+PS C:\WINDOWS\system32> D:\SICZ\avas\AVAS_LuKA\editovatgui.ps1
+At D:\SICZ\avas\AVAS_LuKA\editovatgui.ps1:250 char:19
++     $MyForm.Text="oknoformulare"
++                   ~~~~~~~~~~~~~~
+Unexpected token 'oknoformulare"
+    $MyForm.Size = New-Object System.Drawing.Size("+$mFormObj.SizeX+','+$mFormObj.SizeY+')
+    '' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32> D:\SICZ\avas\AVAS_LuKA\editovatgui.ps1
+At D:\SICZ\avas\AVAS_LuKA\editovatgui.ps1:250 char:19
++     $MyForm.Text="oknoformulare"
++                   ~~~~~~~~~~~~~~
+Unexpected token 'oknoformulare"
+    $MyForm.Size = New-Object System.Drawing.Size("+$mFormObj.SizeX+','+$mFormObj.SizeY+')
+    '' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+**********************
+Windows PowerShell transcript end
+End time: 20171002110859
+**********************
