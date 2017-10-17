@@ -53,17 +53,8 @@ Write-Verbose -Message "$(Get-Date) - Dokonce nacitani json konfiguracniho soubo
 
 
 
-$scriptpath = $MyInvocation.MyCommand.Path | Split-Path
-
-$hash                  = New-Object -TypeName PSObject 
 
 
-if (!(Test-Path -Path "$scriptpath\config.ini")) 
-{
-  Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
-  Stop-Transcript
-  exit
-}
 $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 
 $hash                  = New-Object -TypeName PSObject 
@@ -660,7 +651,7 @@ $tisk=$tisk+'WIN adresář'
 		$tisk=$tisk+'  UEFI x BIOS'
 		$tisk=$tisk+'</th>'
      $tisk=$tisk+' <td>'
-		$tisk=$tisk+$json.UEFI_partition
+		$tisk=$tisk+$json.UEFI_partition | Out-String
 		$tisk=$tisk+'</td>'
    $tisk=$tisk+' </tr>'
    $tisk=$tisk+' <tr>'
