@@ -498,8 +498,8 @@ $tisk=$tisk+'</footer>'
 
      $final|
     ConvertTo-Html -Head "$header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 
-    Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
-    Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
+    Out-File -FilePath D:\SICZ\AVAS\Testtisk.html
+    Start-Process -FilePath chrome -ArgumentList D:\SICZ\AVAS\Testtisk.html
 
  }
    
