@@ -731,11 +731,11 @@ $tisk=$tisk+'	&nbsp;'
 $tisk=$tisk+'	</p>'
 $tisk=$tisk+'	<footer class="footer">'
 $tisk=$tisk+'		Dokument vygenerován dne '
-$tisk=$tisk+'		$datum '
+$tisk=$tisk+	$(Get-date)
 $tisk=$tisk+'		uživatelem '
-$tisk=$tisk+'		$uzivatel '
+$tisk=$tisk+$env:UserName
 $tisk=$tisk+'		na stanici '
-$tisk=$tisk+'		$stanice'
+$tisk=$tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
 $tisk=$tisk+'	</footer>'
 
  $final|
