@@ -357,14 +357,7 @@ if($set.hash -eq '1')
   $hash | Add-Member Noteproperty OS ($json.OS)
 }
 
-<#$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
-    $hash.rozdily | Out-String
 
-    $hash | Add-Member Noteproperty hdd ($json.local_disks)
-    $hash.hdd_rozdil| Out-String 
-    $hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
-    $hash.PCinfo
-#>
 $hash | Add-Member NoteProperty Local_groups ($json.Local_Groups)
 
 $hash
