@@ -646,7 +646,7 @@ $tisk = $tisk+' <th align="left" scope="row">'
 $tisk = $tisk+'  UEFI x BIOS'
 $tisk = $tisk+'</th>'
 $tisk = $tisk+' <td>'
-$tisk = $tisk+$json.UEFI_partition | Out-String
+$tisk = $tisk+$json.UEFI_partition #| Out-String
 $tisk = $tisk+'</td>'
 $tisk = $tisk+' </tr>'
 $tisk = $tisk+' <tr>'
@@ -679,7 +679,7 @@ $tisk = $tisk+'<h3>'
 $tisk = $tisk+'Seznam instalovaného softwaru'
 $tisk = $tisk+'</h3>'
 $tisk = $tisk+'<p>'
-$tisk = $tisk+$json.Installed_Apps | Out-String
+$tisk = $tisk+$json.Installed_Apps | Format-Table
 $tisk = $tisk+'</p>'
 $tisk = $tisk+'<p>'
 $tisk = $tisk+'&nbsp;'
@@ -691,9 +691,12 @@ $tisk = $tisk+'</h3>'
 $tisk = $tisk+'<p>'
 $tisk = $tisk+$json.Scheduled_Tasks
 $tisk = $tisk+'</p>'
-$tisk = $tisk+'<p>'
-$tisk = $tisk+$json.Scheduled_Tasks
-$tisk = $tisk+'	</p>'
+
+<#$tisk = $tisk+'<p>'
+    $tisk = $tisk+$json.Scheduled_Tasks
+    $tisk = $tisk+'	</p>'
+#>
+
 $tisk = $tisk+'<p>'
 $tisk = $tisk+'	Applocker'
 $tisk = $tisk+'	</p>'
