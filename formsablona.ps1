@@ -729,6 +729,8 @@ $tisk=$tisk+'		na stanici '
 $tisk=$tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
 $tisk=$tisk+'	</footer>'
 
+
+
  $final|
     ConvertTo-Html -Head "$header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 
     Out-File -FilePath D:\SICZ\AVAS\Testtisk.html

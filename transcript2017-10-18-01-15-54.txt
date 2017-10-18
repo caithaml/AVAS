@@ -1,0 +1,20 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171018131554
+Username: DESKTOP-SOQV869\Lukas
+RunAs User: DESKTOP-SOQV869\Lukas
+Configuration Name: 
+Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\Lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\scripts\Start-EditorServices.ps1' -EditorServicesVersion '1.4.1' -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '1.4.3' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'C:\Users\Lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'C:\Users\Lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\logs\1508357687-8a12a1d1-6467-4c09-83b1-767962a741c41508357685387\EditorServices.log' -SessionDetailsPath 'C:\Users\Lukas\.vscode\extensions\ms-vscode.powershell-1.4.3\sessions\PSES-VSCode-11344-424893' -FeatureFlags @()
+Process ID: 4700
+PSVersion: 5.1.16299.15
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.15
+BuildVersion: 10.0.16299.15
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcript2017-10-18-01-15-54.txt
+10/18/2017 13:15:54 - Nacitani json konfiguracniho souboru
