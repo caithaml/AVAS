@@ -357,14 +357,14 @@ if($set.hash -eq '1')
   $hash | Add-Member Noteproperty OS ($json.OS)
 }
 
-$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
-$hash.rozdily | Out-String
+<#$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
+    $hash.rozdily | Out-String
 
-$hash | Add-Member Noteproperty hdd ($json.local_disks)
-$hash.hdd_rozdil| Out-String 
-$hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
-$hash.PCinfo
-
+    $hash | Add-Member Noteproperty hdd ($json.local_disks)
+    $hash.hdd_rozdil| Out-String 
+    $hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
+    $hash.PCinfo
+#>
 $hash | Add-Member NoteProperty Local_groups ($json.Local_Groups)
 
 $hash
@@ -646,7 +646,7 @@ $tisk = $tisk+' <th align="left" scope="row">'
 $tisk = $tisk+'  UEFI x BIOS'
 $tisk = $tisk+'</th>'
 $tisk = $tisk+' <td>'
-$tisk = $tisk+$json.UEFI_partition #| Out-String
+$tisk = $tisk+'UEFI'
 $tisk = $tisk+'</td>'
 $tisk = $tisk+' </tr>'
 $tisk = $tisk+' <tr>'
@@ -679,7 +679,7 @@ $tisk = $tisk+'<h3>'
 $tisk = $tisk+'Seznam instalovaného softwaru'
 $tisk = $tisk+'</h3>'
 $tisk = $tisk+'<p>'
-$tisk = $tisk+$json.Installed_Apps | Format-Table
+$tisk = $tisk+$json.Installed_Apps
 $tisk = $tisk+'</p>'
 $tisk = $tisk+'<p>'
 $tisk = $tisk+'&nbsp;'
@@ -725,7 +725,6 @@ $tisk = $tisk+'		uživatelem '
 $tisk = $tisk+$env:UserName
 $tisk = $tisk+'		na stanici '
 $tisk = $tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
-$tisk = $tisk+'	</footer>'
 
 $final|
 ConvertTo-Html -Head "$Header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 

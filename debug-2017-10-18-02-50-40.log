@@ -1,0 +1,2188 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171018145040
+Username: DESKTOP-SOQV869\Lukas
+RunAs User: DESKTOP-SOQV869\Lukas
+Configuration Name: 
+Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 8656
+PSVersion: 5.1.16299.19
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.19
+BuildVersion: 10.0.16299.19
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-18-02-50-40.log"
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-18-02-50-40.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Background Intelligent Transfer Service; StartType=3}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Offline Files; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Optimize drives; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Device Association Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Delivery Optimization; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=File History Service; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=IKE and AuthIP IPsec Keying Modules; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Touch Keyboard and Handwriting Panel Service; StartType=4}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Event Collector; StartType=2}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Defender Antivirus Service; StartType=3}"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{DisplayName=Windows Remote Management (WS-Management); StartType=3}"
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+DisplayName                                  StartType
+-----------                                  ---------
+Background Intelligent Transfer Service              3
+Offline Files                                        2
+Optimize drives                                      3
+Device Association Service                           2
+Delivery Optimization                                2
+File History Service                                 2
+IKE and AuthIP IPsec Keying Modules                  2
+Touch Keyboard and Handwriting Panel Service         4
+Windows Event Collector                              2
+Windows Defender Antivirus Service                   3
+Windows Remote Management (WS-Management)            3
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Background Task Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Console Window Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=COM Surrogate}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Explorer}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Intel(R) Common User Interface; Description=igfxHK Module}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Defender notification icon}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Notepad}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft OneNote; Description=OneNote}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft OneNote; Description=OneNote}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows PowerShell}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Reminders WinRT OOP Server}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Runtime Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Search and Cortana application}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Setting Synchronization}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Windows Shell Experience Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Shell Infrastructure Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Skype; Description=Skype }"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Skype; Description=Skype }"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Skype; Description=Skype Browser Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Skype; Description=Skype Browser Host}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Services}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Settings}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=System Settings Broker}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Product=Microsoft® Windows® Operating System; Description=Host Process for Windows Tasks}"
+
+pridavam hash noteproperty
+PS C:\WINDOWS\system32> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{Apps=; services=System.Object[]; scheduledtasks=; hotfix=; processes=System.Object[]; uwp=; Active_DC=; Allow_deviceclasses=; Allow_deviceids=; Application_log_length=1118208; Applocker=System.Object[]; BIOS=DELL   - 1072009 | 1.4.3; Bios_date=; Bitlocker=; Computerturen_root_certifikates=System.Object[]; ComputerName=MICA; Country=420; Date=; Default_locale=00000409; Deny_deviceclasses=; Deny_deviceids=; deny_UnspecifiedDevices=; Domain=; Domain_dhcp=sicz.local; Domain_tcp=; AV_MS_product=; AV_MS_residenton=; AV_MS_scanner_build=; AV_MS_scanner_version=; AV_MS_version=; OS=Microsoft Windows 10 Enterprise; Local_groups=System.Object[]}"
+
+
+
+PS C:\WINDOWS\system32> $hash.Apps
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+PS C:\WINDOWS\system32> $json.BIOS_Date
+>> CommandInvocation(Trace-SteroidsOutput): "Trace-SteroidsOutput"
+>> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="@{value=11/05/2017 00:00:00; DateTime=čtvrtek 11. května 2017 2:00:00}"
+
+value               DateTime
+-----               --------
+11/05/2017 00:00:00 čtvrtek 11. května 2017 2:00:00
+
+
