@@ -1,4 +1,4 @@
-﻿
+
 ##########################################
 #NACTENI KONFIGURACE
 ##########################################
@@ -361,13 +361,14 @@ $hash | Add-Member Noteproperty OS ($json.OS)
 
 }
 
-$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
-$hash.rozdily | Out-String
+#$hash | Add-Member Noteproperty rozdily (Compare-Object -ReferenceObject $json.ComputerName -DifferenceObject $jsondef.ComputerName)
+#$hash.rozdily | Out-String
 
-$hash | Add-Member Noteproperty hdd ($json.local_disks)
-$hash.hdd_rozdil| Out-String 
-$hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
-$hash.PCinfo
+#$hash | Add-Member Noteproperty hdd ($json.local_disks)
+#$hash.hdd_rozdil| Out-String 
+
+#$hash | Add-Member Noteproperty pcinfo ($json.pcinfo)
+#$hash.PCinfo
 
 $hash | Add-Member NoteProperty Local_groups ($json.Local_Groups)
 
@@ -727,6 +728,8 @@ $tisk=$tisk+$env:UserName
 $tisk=$tisk+'		na stanici '
 $tisk=$tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
 $tisk=$tisk+'	</footer>'
+
+
 
  $final|
     ConvertTo-Html -Head "$header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 
