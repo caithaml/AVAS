@@ -1,0 +1,10177 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171019152042
+Username: DESKTOP-SOQV869\Lukas
+RunAs User: DESKTOP-SOQV869\Lukas
+Configuration Name: 
+Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 5844
+PSVersion: 5.1.16299.19
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.19
+BuildVersion: 10.0.16299.19
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-20-42.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-03-21-53.txt
+10/19/2017 15:21:53 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-22-00.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+PS C:\WINDOWS\system32> TerminatingError(Get-ItemProperty): "Cannot bind argument to parameter 'Path' because it is null."
+PS C:\WINDOWS\system32> TerminatingError(Get-WinEvent): "The parameter is incorrect"
+PS C:\WINDOWS\system32> TerminatingError(Confirm-SecureBootUEFI): "Cmdlet not supported on this platform: 0xC0000002"
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+
+
+ComputerName               : DESKTOP-SOQV869
+Date                       : 19/10/2017 15:22:26
+User                       : Lukas
+Last_User                  :
+Domain                     :
+Domain_TCP                 :
+Domain_DHCP                :
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Pro
+OS_Build                   : 10.0.16299
+SP                         : 0
+Install_Date               : 18/10/2017 17:46:04
+Last_Boot_Time             : 19/10/2017 14:48:55
+RAM_Total                  : 16289
+RAM_Free                   : 4
+Virtual_Total              : 19
+Virtual_Free               : 6
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=MachinePolicy; ExecutionPolicy=Undefined}, @{Scope=UserPolicy; ExecutionPolicy=Undefined}, @{Scope=Process; ExecutionPolicy=Undefined}, @{Scope=CurrentUser;
+                             ExecutionPolicy=Undefined}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=77212422144; Computer=DESKTOP-SOQV869; Used=50244083712; Size=127456505856}, @{FileSystem=NTFS; Type=Local Fixed
+                             Disk; Volume=D:; Available=20304834560; Computer=DESKTOP-SOQV869; Used=479666683904; Size=499971518464}}
+BIOS                       : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+BIOS_Date                  : 08/05/2017 02:00:00
+Default_Locale             : 00000409
+Country                    : 44
+Locale                     : 00000809
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+SEP_Protection             :
+SEP_RegVersion             : Not Installed
+SEP_Version                :
+SEP_Service                :
+SEP_ClientType             :
+SEP_PolicyMode             :
+SEP_Infected               : 2
+SEP_Definition_Status      : Not Installed
+System_Log_Length          : 1118208
+Secrutiy_Log_Length        : 6361088
+Application_Log_Length     : 2166784
+Setupapi_Length            : 0
+NetIPConfiguration         : {NetIPConfiguration, NetIPConfiguration, NetIPConfiguration, NetIPConfiguration...}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Users                : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Groups               : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+PCinfo                     : Microsoft.PowerShell.Commands.ComputerInfo
+Logs_Application           : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_System                : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+AppLocker                  : {}
+Bitlocker                  : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+UEFI_partition             :
+Services                   : {AdobeARMservice, AJRouter, ALG, ApHidMonitorService...}
+UWP_Apps                   : {@{Name=1527c705-839a-4832-9118-54d4Bd6a0c89; PackageFullName=1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=c5e2524a-ea46-4f67-841f-6a9465d9d515; PackageFullName=c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=E2A4F912-2574-4A75-9BB0-0D023378592B; PackageFullName=E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE; PackageFullName=F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.16299.15_neutral_neutral_cw5n1h2txyewy}...}
+Installed_Apps             : {@{SystemComponent=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Connection Manager; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}, @{Inno Setup: Setup Version=5.5.9 (u); Inno Setup: App Path=C:\Program Files\Git; InstallLocation=C:\Program Files\Git\; Inno Setup:
+                             Icon Group=Git; Inno Setup: User=Lukas; Inno Setup: Setup Type=default; Inno Setup: Selected Components=assoc,assoc_sh; Inno Setup: Deselected
+                             Components=icons,icons\desktop,ext,ext\shellhere,ext\guihere,gitlfs,consolefont; Inno Setup: Language=default; DisplayName=Git version 2.14.1; DisplayIcon=C:\Program
+                             Files\Git\mingw64\share\git\git-for-windows.ico; UninstallString="C:\Program Files\Git\unins000.exe"; QuietUninstallString="C:\Program Files\Git\unins000.exe" /SILENT;
+                             DisplayVersion=2.14.1; Publisher=The Git Development Community; URLInfoAbout=https://git-for-windows.github.io/; HelpLink=https://github.com/git-for-windows/git/wiki/Contact;
+                             NoModify=1; NoRepair=1; InstallDate=20171018; MajorVersion=2; MinorVersion=14; EstimatedSize=217981; Inno Setup CodeFile: Path Option=Cmd; Inno Setup CodeFile: SSH Option=OpenSSH;
+                             Inno Setup CodeFile: CURL Option=OpenSSL; Inno Setup CodeFile: CRLF Option=CRLFAlways; Inno Setup CodeFile: Bash Terminal Option=MinTTY; Inno Setup CodeFile: Performance Tweaks
+                             FSCache=Enabled; Inno Setup CodeFile: Use Credential Manager=Enabled; Inno Setup CodeFile: Enable Symlinks=Disabled;
+                             PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Git_is1; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Microsoft Azure Compute Emulator - v2.9.5.3; DisplayIcon=C:\PROGRA~1\MICROS~3\Azure\Emulator\CSMONI~1.EXE,0;
+                             DisplayVersion=2.9.8699.20; InstallDate=18/10/2017; InstallLocation=; InstallSource=C:\Users\Lukas\AppData\Local\Temp\\{BB44C8F9-C555-45CF-B6DA-80131B139165}\; Language=1033;
+                             ModifyPath=msiexec /i{bb44c8f9-c555-45cf-b6da-80131b139165} REINSTALLMODE=vamus; NoModify=0; Publisher=Microsoft Corporation; UninstallString=msiexec
+                             /x{bb44c8f9-c555-45cf-b6da-80131b139165}; VersionMajor=2; VersionMinor=9; WindowsInstaller=0;
+                             PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Azure Compute Emulator - v2.9.5.3;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Microsoft Azure Compute Emulator - v2.9.5.3;
+                             PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Mozilla Maintenance Service; UninstallString="C:\Program Files (x86)\Mozilla Maintenance
+                             Service\uninstall.exe"; DisplayIcon=C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe,0; DisplayVersion=58.0a1; Publisher=Mozilla; Comments=Mozilla Maintenance
+                             Service; NoModify=1; EstimatedSize=278; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=MozillaMaintenanceService; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}...}
+Processes                  : {System.Diagnostics.Process (ApMsgFwd), System.Diagnostics.Process (ApntEx), System.Diagnostics.Process (Apoint), System.Diagnostics.Process (ApplicationFrameHost)...}
+UWF                        :
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+PS C:\WINDOWS\system32> TerminatingError(Out-File): "A parameter cannot be found that matches parameter name 'Path'."
+
+
+PS C:\WINDOWS\system32> $hash | ConvertTo-Json | Out-File -FilePath "D:\SICZ\AVAS\hashtest3.json"
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-03-24-02.txt
+10/19/2017 15:24:02 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-24-08.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-03-25-23.txt
+10/19/2017 15:25:23 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-25-30.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+PS C:\WINDOWS\system32> $hash
+
+
+Apps                            : {@{DisplayName=VMware Player; DisplayVersion=12.5.7; Publisher=VMware, Inc.}, @{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft
+                                  Corporation}}
+services                        : {@{DisplayName=Offline Files; StartType=2}, @{DisplayName=Device Association Service; StartType=2}, @{DisplayName=File History Service; StartType=2}, @{DisplayName=IKE and
+                                  AuthIP IPsec Keying Modules; StartType=2}...}
+scheduledtasks                  :
+hotfix                          :
+processes                       : {@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host},
+                                  @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}...}
+uwp                             :
+Active_DC                       :
+Allow_deviceclasses             :
+Allow_deviceids                 :
+Application_log_length          : 2166784
+Applocker                       : {}
+BIOS                            : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+Bios_date                       : @{value=08/05/2017 00:00:00; DateTime=08 May 2017 02:00:00}
+Bitlocker                       : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False;
+                                  writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry;
+                                  outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+Computerturen_root_certifikates : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False;
+                                  writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry;
+                                  outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+ComputerName                    : DESKTOP-SOQV869
+Country                         : 44
+Date                            : @{value=19/10/2017 13:22:26; DisplayHint=2; DateTime=19 October 2017 15:22:26}
+Default_locale                  : 00000409
+Deny_deviceclasses              :
+Deny_deviceids                  :
+deny_UnspecifiedDevices         :
+Domain                          :
+Domain_dhcp                     :
+Domain_tcp                      :
+AV_MS_product                   :
+AV_MS_residenton                :
+AV_MS_scanner_build             :
+AV_MS_scanner_version           :
+AV_MS_version                   :
+OS                              : Microsoft Windows 10 Pro
+Local_groups                    : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False;
+                                  writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry;
+                                  outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+
+
+
+PS C:\WINDOWS\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 Get-Acl
+   2 Get-Process
+   3 $hash.apps
+   4 D:\SICZ\AVAS\icwsc-updated2.ps1
+   5 $hash.Installed_Apps | SELECT NAME
+   6 $hash.Installed_Apps | SELECT displayNAME
+   7 $hash
+   8 $hash | ConvertTo-Json | Out-File -FilePath "D:\SICZ\AVAS\hashtest.json"
+   9 D:\SICZ\AVAS\avas.ps1
+  10 D:\SICZ\AVAS\formular.ps1
+  11 D:\SICZ\AVAS\formular.ps1
+  12 D:\SICZ\AVAS\formsablona.ps1
+  13 D:\SICZ\AVAS\formsablona.ps1
+  14 D:\SICZ\AVAS\icwsc-updated2.ps1
+  15 $hash | ConvertTo-Json | Out-File -FilePath "D:\SICZ\AVAS\hashtest2.json"
+  16 D:\SICZ\AVAS\formsablona.ps1
+  17 D:\SICZ\AVAS\formsablona.ps1
+  18 D:\SICZ\AVAS\ICWSC.ps1
+  19 $hash | ConvertTo-Json | Out-File -FilePath "D:\SICZ\AVAS\hashtest3.json"
+  20 D:\SICZ\AVAS\formsablona.ps1
+  21 D:\SICZ\AVAS\formsablona.ps1
+  22 $hash
+
+
+PS C:\WINDOWS\system32> $hash
+
+
+Apps                            : {@{DisplayName=VMware Player; DisplayVersion=12.5.7; Publisher=VMware, Inc.}, @{DisplayName=Microsoft Visual Studio Code; DisplayVersion=1.17.0; Publisher=Microsoft
+                                  Corporation}}
+services                        : {@{DisplayName=Offline Files; StartType=2}, @{DisplayName=Device Association Service; StartType=2}, @{DisplayName=File History Service; StartType=2}, @{DisplayName=IKE and
+                                  AuthIP IPsec Keying Modules; StartType=2}...}
+scheduledtasks                  :
+hotfix                          :
+processes                       : {@{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host},
+                                  @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}, @{Product=Microsoft® Windows® Operating System; Description=Application Frame Host}...}
+uwp                             :
+Active_DC                       :
+Allow_deviceclasses             :
+Allow_deviceids                 :
+Application_log_length          : 2166784
+Applocker                       : {}
+BIOS                            : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+Bios_date                       : @{value=08/05/2017 00:00:00; DateTime=08 May 2017 02:00:00}
+Bitlocker                       : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False;
+                                  writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry;
+                                  outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+Computerturen_root_certifikates : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False;
+                                  writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry;
+                                  outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+ComputerName                    : DESKTOP-SOQV869
+Country                         : 44
+Date                            : @{value=19/10/2017 13:22:26; DisplayHint=2; DateTime=19 October 2017 15:22:26}
+Default_locale                  : 00000409
+Deny_deviceclasses              :
+Deny_deviceids                  :
+deny_UnspecifiedDevices         :
+Domain                          :
+Domain_dhcp                     :
+Domain_tcp                      :
+AV_MS_product                   :
+AV_MS_residenton                :
+AV_MS_scanner_build             :
+AV_MS_scanner_version           :
+AV_MS_version                   :
+OS                              : Microsoft Windows 10 Pro
+Local_groups                    : {@{pageHeaderEntry=; pageFooterEntry=; autosizeInfo=; shapeInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=033ecb2bc07a4d43b5ef94ed5a35d280}, @{shapeInfo=; groupingEntry=;
+                                  ClassId2e4f51ef21dd47e99d3c952918aff9cd=9e210fe47d09416682b841769c78b8a3}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry; outOfBand=False;
+                                  writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}, @{formatEntryInfo=Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry;
+                                  outOfBand=False; writeStream=0; ClassId2e4f51ef21dd47e99d3c952918aff9cd=27c87ef9bbda4f709f6b4002fa4af63c}...}
+
+
+
+PS C:\WINDOWS\system32> $has.
+Missing property name after reference operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingPropertyName
+
+PS C:\WINDOWS\system32> $hash.uwp
+PS C:\WINDOWS\system32> $hash.Apps
+
+DisplayName                  DisplayVersion Publisher
+-----------                  -------------- ---------
+VMware Player                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code 1.17.0         Microsoft Corporation
+
+
+PS C:\WINDOWS\system32> TerminatingError(Get-ItemProperty): "Cannot bind argument to parameter 'Path' because it is null."
+PS C:\WINDOWS\system32> TerminatingError(Get-WinEvent): "The parameter is incorrect"
+PS C:\WINDOWS\system32> TerminatingError(Confirm-SecureBootUEFI): "Cmdlet not supported on this platform: 0xC0000002"
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+
+
+ComputerName               : DESKTOP-SOQV869
+Date                       : 19/10/2017 15:27:59
+User                       : Lukas
+Last_User                  :
+Domain                     :
+Domain_TCP                 :
+Domain_DHCP                :
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Pro
+OS_Build                   : 10.0.16299
+SP                         : 0
+Install_Date               : 18/10/2017 17:46:04
+Last_Boot_Time             : 19/10/2017 14:48:55
+RAM_Total                  : 16289
+RAM_Free                   : 3
+Virtual_Total              : 19
+Virtual_Free               : 5
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=MachinePolicy; ExecutionPolicy=Undefined}, @{Scope=UserPolicy; ExecutionPolicy=Undefined}, @{Scope=Process; ExecutionPolicy=Undefined}, @{Scope=CurrentUser;
+                             ExecutionPolicy=Undefined}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=77201997824; Computer=DESKTOP-SOQV869; Used=50254508032; Size=127456505856}, @{FileSystem=NTFS; Type=Local Fixed
+                             Disk; Volume=D:; Available=20229165056; Computer=DESKTOP-SOQV869; Used=479742353408; Size=499971518464}}
+BIOS                       : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+BIOS_Date                  : 08/05/2017 02:00:00
+Default_Locale             : 00000409
+Country                    : 44
+Locale                     : 00000809
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+SEP_Protection             :
+SEP_RegVersion             : Not Installed
+SEP_Version                :
+SEP_Service                :
+SEP_ClientType             :
+SEP_PolicyMode             :
+SEP_Infected               : 2
+SEP_Definition_Status      : Not Installed
+System_Log_Length          : 1118208
+Secrutiy_Log_Length        : 6361088
+Application_Log_Length     : 2166784
+Setupapi_Length            : 0
+NetIPConfiguration         : {NetIPConfiguration, NetIPConfiguration, NetIPConfiguration, NetIPConfiguration...}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Users                : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Groups               : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+PCinfo                     : Microsoft.PowerShell.Commands.ComputerInfo
+Logs_Application           : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_System                : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+AppLocker                  : {}
+Bitlocker                  : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+UEFI_partition             :
+Services                   : {AdobeARMservice, AJRouter, ALG, ApHidMonitorService...}
+UWP_Apps                   : {@{Name=1527c705-839a-4832-9118-54d4Bd6a0c89; PackageFullName=1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=c5e2524a-ea46-4f67-841f-6a9465d9d515; PackageFullName=c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=E2A4F912-2574-4A75-9BB0-0D023378592B; PackageFullName=E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE; PackageFullName=F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.16299.15_neutral_neutral_cw5n1h2txyewy}...}
+Installed_Apps             : {@{SystemComponent=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Connection Manager; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}, @{Inno Setup: Setup Version=5.5.9 (u); Inno Setup: App Path=C:\Program Files\Git; InstallLocation=C:\Program Files\Git\; Inno Setup:
+                             Icon Group=Git; Inno Setup: User=Lukas; Inno Setup: Setup Type=default; Inno Setup: Selected Components=assoc,assoc_sh; Inno Setup: Deselected
+                             Components=icons,icons\desktop,ext,ext\shellhere,ext\guihere,gitlfs,consolefont; Inno Setup: Language=default; DisplayName=Git version 2.14.1; DisplayIcon=C:\Program
+                             Files\Git\mingw64\share\git\git-for-windows.ico; UninstallString="C:\Program Files\Git\unins000.exe"; QuietUninstallString="C:\Program Files\Git\unins000.exe" /SILENT;
+                             DisplayVersion=2.14.1; Publisher=The Git Development Community; URLInfoAbout=https://git-for-windows.github.io/; HelpLink=https://github.com/git-for-windows/git/wiki/Contact;
+                             NoModify=1; NoRepair=1; InstallDate=20171018; MajorVersion=2; MinorVersion=14; EstimatedSize=217981; Inno Setup CodeFile: Path Option=Cmd; Inno Setup CodeFile: SSH Option=OpenSSH;
+                             Inno Setup CodeFile: CURL Option=OpenSSL; Inno Setup CodeFile: CRLF Option=CRLFAlways; Inno Setup CodeFile: Bash Terminal Option=MinTTY; Inno Setup CodeFile: Performance Tweaks
+                             FSCache=Enabled; Inno Setup CodeFile: Use Credential Manager=Enabled; Inno Setup CodeFile: Enable Symlinks=Disabled;
+                             PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Git_is1; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Microsoft Azure Compute Emulator - v2.9.5.3; DisplayIcon=C:\PROGRA~1\MICROS~3\Azure\Emulator\CSMONI~1.EXE,0;
+                             DisplayVersion=2.9.8699.20; InstallDate=18/10/2017; InstallLocation=; InstallSource=C:\Users\Lukas\AppData\Local\Temp\\{BB44C8F9-C555-45CF-B6DA-80131B139165}\; Language=1033;
+                             ModifyPath=msiexec /i{bb44c8f9-c555-45cf-b6da-80131b139165} REINSTALLMODE=vamus; NoModify=0; Publisher=Microsoft Corporation; UninstallString=msiexec
+                             /x{bb44c8f9-c555-45cf-b6da-80131b139165}; VersionMajor=2; VersionMinor=9; WindowsInstaller=0;
+                             PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Azure Compute Emulator - v2.9.5.3;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Microsoft Azure Compute Emulator - v2.9.5.3;
+                             PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Mozilla Maintenance Service; UninstallString="C:\Program Files (x86)\Mozilla Maintenance
+                             Service\uninstall.exe"; DisplayIcon=C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe,0; DisplayVersion=58.0a1; Publisher=Mozilla; Comments=Mozilla Maintenance
+                             Service; NoModify=1; EstimatedSize=278; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=MozillaMaintenanceService; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}...}
+Processes                  : {System.Diagnostics.Process (ApMsgFwd), System.Diagnostics.Process (ApntEx), System.Diagnostics.Process (Apoint), System.Diagnostics.Process (ApplicationFrameHost)...}
+UWF                        :
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+PS C:\WINDOWS\system32> TerminatingError(Out-File): "A parameter cannot be found that matches parameter name 'Path'."
+
+
+PS C:\WINDOWS\system32> $hash | ConvertTo-Json | Out-File -FilePath "D:\SICZ\AVAS\hashtest4.json"
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-03-29-38.txt
+10/19/2017 15:29:38 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-29-43.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+PS C:\WINDOWS\system32> $hash.Active_DC
+PS C:\WINDOWS\system32> $hash.Domain_dhcp
+PS C:\WINDOWS\system32> $hash.Domain_tcp
+
+PS C:\WINDOWS\system32> $hash.Domain
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-03-31-05.txt
+10/19/2017 15:31:05 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-31-11.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+PS C:\WINDOWS\system32> $hash.Application_log
+PS C:\WINDOWS\system32> $hash.processes
+
+Product                              Description
+-------                              -----------
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Intel(R) Common User Interface       igfxHK Module
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft OneNote                    OneNote
+Microsoft OneNote                    OneNote
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Host Process for Setting Synchronization
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Skype                                Skype
+Skype                                Skype
+Skype                                Skype Browser Host
+Skype                                Skype Browser Host
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+
+
+PS C:\WINDOWS\system32> $hash.Apps
+
+DisplayName                  DisplayVersion Publisher
+-----------                  -------------- ---------
+VMware Player                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code 1.17.0         Microsoft Corporation
+
+
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-03-56-07.txt
+10/19/2017 15:56:07 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-03-56-18.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+VMware Player                                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code                 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Windows Image Acquisition (WIA)
+Storage Service
+Touch Keyboard and Handwriting Panel Service
+Windows Event Collector
+Windows Defender Antivirus Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-04-01-10.txt
+10/19/2017 16:01:10 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-04-01-16.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+
+Product                              Description
+-------                              -----------
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Application Frame Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Background Task Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System Console Window Host
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System COM Surrogate
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Microsoft® Windows® Operating System Windows Explorer
+Intel(R) Common User Interface       igfxHK Module
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Windows Defender notification icon
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft® Windows® Operating System Notepad
+Microsoft OneNote                    OneNote
+Microsoft OneNote                    OneNote
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Windows PowerShell
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Reminders WinRT OOP Server
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Runtime Broker
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Search and Cortana application
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Host Process for Setting Synchr...
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Windows Shell Experience Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Microsoft® Windows® Operating System Shell Infrastructure Host
+Skype                                Skype
+Skype                                Skype
+Skype                                Skype Browser Host
+Skype                                Skype Browser Host
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Host Process for Windows Services
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System Settings
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System System Settings Broker
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+Microsoft® Windows® Operating System Host Process for Windows Tasks
+pridavam hash noteproperty
+
+
+
+PS C:\WINDOWS\system32> $hash.Apps
+PS C:\WINDOWS\system32> $hash.uwp
