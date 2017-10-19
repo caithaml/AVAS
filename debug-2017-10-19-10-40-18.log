@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20171019101609
+Start time: 20171019104018
 Username: DESKTOP-SOQV869\Lukas
 RunAs User: DESKTOP-SOQV869\Lukas
 Configuration Name: 
 Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
-Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
-Process ID: 3892
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\AVAS\formsablona.ps1'
+Process ID: 7396
 PSVersion: 5.1.16299.19
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.19
@@ -16,7 +16,7 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-10-16-09.log
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-10-40-18.log
 -message pokracuji ve zpracovani
 spoustim test app diff
 spoustim test services diff
@@ -1101,29 +1101,9 @@ pridavam hash noteproperty
 
 
 
-PS C:\WINDOWS\system32> $hash.hotfix
-PS C:\WINDOWS\system32> $json.Local_Disks
-
-
-FileSystem : NTFS
-Type       : Local Fixed Disk
-Volume     : C:
-Available  : 106330128384
-Computer   : MICA
-Used       : 72786571264
-Size       : 179116699648
-
-FileSystem : NTFS
-Type       : Local Fixed Disk
-Volume     : D:
-Available  : 160850657280
-Computer   : MICA
-Used       : 171546882048
-Size       : 332397539328
-
-
-
+PS>$global:?
+True
 **********************
 Windows PowerShell transcript end
-End time: 20171019103625
+End time: 20171019104032
 **********************
