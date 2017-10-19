@@ -5922,3 +5922,4471 @@ Microsoft.WindowsFeedbackHub                Microsoft.WindowsFeedbackHub_1.1708.
 SpotifyAB.SpotifyMusic                      SpotifyAB.SpotifyMusic_1.64.403.0_x86__zpdnekdrzrea0
 
 
+PS C:\WINDOWS\system32> TerminatingError(Get-ItemProperty): "Cannot bind argument to parameter 'Path' because it is null."
+PS C:\WINDOWS\system32> TerminatingError(Get-WinEvent): "The parameter is incorrect"
+PS C:\WINDOWS\system32> TerminatingError(Confirm-SecureBootUEFI): "Cmdlet not supported on this platform: 0xC0000002"
+PS C:\WINDOWS\system32> TerminatingError(Add-Member): "Cannot validate argument on parameter 'NotePropertyName'. The parameter NotePropertyName cannot take values that could be converted to the type System.Management.Automation.PSMemberTypes. To define the name of a member with those values, use Add-Member, and specify the member type."
+
+
+ComputerName               : DESKTOP-SOQV869
+Date                       : 19/10/2017 13:40:19
+User                       : Lukas
+Last_User                  :
+Domain                     :
+Domain_TCP                 :
+Domain_DHCP                :
+Site_Name                  :
+Active_DC                  :
+Script_StartUp             :
+Script_ShutDown            :
+OS                         : Microsoft Windows 10 Pro
+OS_Build                   : 10.0.16299
+SP                         : 0
+Install_Date               : 18/10/2017 08:46:04
+Last_Boot_Time             : 19/10/2017 09:16:07
+RAM_Total                  : 16289
+RAM_Free                   : 3
+Virtual_Total              : 19
+Virtual_Free               : 4
+WIN_Dir                    : C:\WINDOWS
+SYS_Dir                    : C:\WINDOWS\system32
+TEMP_Dir                   : C:\WINDOWS\TEMP
+Execution_Policy           : {@{Scope=MachinePolicy; ExecutionPolicy=Undefined}, @{Scope=UserPolicy; ExecutionPolicy=Undefined}, @{Scope=Process; ExecutionPolicy=Undefined}, @{Scope=CurrentUser;
+                             ExecutionPolicy=Undefined}...}
+TEMP_Encrypted             : N
+Protect_Ini                : NN
+Local_Disks                : {@{FileSystem=NTFS; Type=Local Fixed Disk; Volume=C:; Available=78238687232; Computer=DESKTOP-SOQV869; Used=49217818624; Size=127456505856}, @{FileSystem=NTFS; Type=Local Fixed
+                             Disk; Volume=D:; Available=23432245248; Computer=DESKTOP-SOQV869; Used=476539273216; Size=499971518464}}
+BIOS                       : DELL   - 1072009 | BIOS Date: 05/08/17 02:04:05 Ver: A21.00
+BIOS_Date                  : 07/05/2017 17:00:00
+Default_Locale             : 00000409
+Country                    : 44
+Locale                     : 00000809
+GemPlus_Reader             : Not Installed
+Dslog_Service              : Not Installed
+SEP_Protection             :
+SEP_RegVersion             : Not Installed
+SEP_Version                :
+SEP_Service                :
+SEP_ClientType             :
+SEP_PolicyMode             :
+SEP_Infected               : 2
+SEP_Definition_Status      : Not Installed
+System_Log_Length          : 1118208
+Secrutiy_Log_Length        : 4263936
+Application_Log_Length     : 2166784
+Setupapi_Length            : 0
+NetIPConfiguration         : {NetIPConfiguration, NetIPConfiguration, NetIPConfiguration, NetIPConfiguration...}
+LAPS                       : Not Installed
+Computer_Root_Certificates : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Users                : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+Local_Groups               : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+PCinfo                     : Microsoft.PowerShell.Commands.ComputerInfo
+Logs_Application           : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_System                : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_LanPCS                :
+Logs_AppLocker_EXE         :
+Logs_AppLocker_MSI         : {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics.Eventing.Reader.EventLogRecord,
+                             System.Diagnostics.Eventing.Reader.EventLogRecord...}
+Logs_AppLocker_Deploy      :
+Logs_AppLocker_Execution   :
+Scheduled_Tasks            : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+AppLocker                  : {}
+Bitlocker                  : {Microsoft.PowerShell.Commands.Internal.Format.FormatStartData, Microsoft.PowerShell.Commands.Internal.Format.GroupStartData,
+                             Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData, Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData...}
+UEFI_partition             :
+Services                   : {AdobeARMservice, AJRouter, ALG, ApHidMonitorService...}
+UWP_Apps                   : {@{Name=1527c705-839a-4832-9118-54d4Bd6a0c89; PackageFullName=1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=c5e2524a-ea46-4f67-841f-6a9465d9d515; PackageFullName=c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=E2A4F912-2574-4A75-9BB0-0D023378592B; PackageFullName=E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.16299.15_neutral_neutral_cw5n1h2txyewy},
+                             @{Name=F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE; PackageFullName=F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.16299.15_neutral_neutral_cw5n1h2txyewy}...}
+Installed_Apps             : {@{SystemComponent=1; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Connection Manager; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}, @{Inno Setup: Setup Version=5.5.9 (u); Inno Setup: App Path=C:\Program Files\Git; InstallLocation=C:\Program Files\Git\; Inno Setup:
+                             Icon Group=Git; Inno Setup: User=Lukas; Inno Setup: Setup Type=default; Inno Setup: Selected Components=assoc,assoc_sh; Inno Setup: Deselected
+                             Components=icons,icons\desktop,ext,ext\shellhere,ext\guihere,gitlfs,consolefont; Inno Setup: Language=default; DisplayName=Git version 2.14.1; DisplayIcon=C:\Program
+                             Files\Git\mingw64\share\git\git-for-windows.ico; UninstallString="C:\Program Files\Git\unins000.exe"; QuietUninstallString="C:\Program Files\Git\unins000.exe" /SILENT;
+                             DisplayVersion=2.14.1; Publisher=The Git Development Community; URLInfoAbout=https://git-for-windows.github.io/; HelpLink=https://github.com/git-for-windows/git/wiki/Contact;
+                             NoModify=1; NoRepair=1; InstallDate=20171018; MajorVersion=2; MinorVersion=14; EstimatedSize=217981; Inno Setup CodeFile: Path Option=Cmd; Inno Setup CodeFile: SSH Option=OpenSSH;
+                             Inno Setup CodeFile: CURL Option=OpenSSL; Inno Setup CodeFile: CRLF Option=CRLFAlways; Inno Setup CodeFile: Bash Terminal Option=MinTTY; Inno Setup CodeFile: Performance Tweaks
+                             FSCache=Enabled; Inno Setup CodeFile: Use Credential Manager=Enabled; Inno Setup CodeFile: Enable Symlinks=Disabled;
+                             PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Git_is1; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Microsoft Azure Compute Emulator - v2.9.5.3; DisplayIcon=C:\PROGRA~1\MICROS~3\Azure\Emulator\CSMONI~1.EXE,0;
+                             DisplayVersion=2.9.8699.20; InstallDate=18/10/2017; InstallLocation=; InstallSource=C:\Users\Lukas\AppData\Local\Temp\\{BB44C8F9-C555-45CF-B6DA-80131B139165}\; Language=1033;
+                             ModifyPath=msiexec /i{bb44c8f9-c555-45cf-b6da-80131b139165} REINSTALLMODE=vamus; NoModify=0; Publisher=Microsoft Corporation; UninstallString=msiexec
+                             /x{bb44c8f9-c555-45cf-b6da-80131b139165}; VersionMajor=2; VersionMinor=9; WindowsInstaller=0;
+                             PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Azure Compute Emulator - v2.9.5.3;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=Microsoft Azure Compute Emulator - v2.9.5.3;
+                             PSDrive=HKLM; PSProvider=Microsoft.PowerShell.Core\Registry}, @{DisplayName=Mozilla Maintenance Service; UninstallString="C:\Program Files (x86)\Mozilla Maintenance
+                             Service\uninstall.exe"; DisplayIcon=C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe,0; DisplayVersion=58.0a1; Publisher=Mozilla; Comments=Mozilla Maintenance
+                             Service; NoModify=1; EstimatedSize=278; PSPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService;
+                             PSParentPath=Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall; PSChildName=MozillaMaintenanceService; PSDrive=HKLM;
+                             PSProvider=Microsoft.PowerShell.Core\Registry}...}
+Processes                  : {System.Diagnostics.Process (ApMsgFwd), System.Diagnostics.Process (ApntEx), System.Diagnostics.Process (Apoint), System.Diagnostics.Process (ApplicationFrameHost)...}
+UWF                        :
+Deny_UnspecifiedDevices    :
+Allow_DeviceClasses        :
+Allow_DeviceIDs            :
+Deny_DeviceClasses         :
+Deny_DeviceIDs             :
+
+PS C:\WINDOWS\system32> TerminatingError(Out-File): "A parameter cannot be found that matches parameter name 'Path'."
+
+
+PS C:\WINDOWS\system32> $hash.Installed_Apps
+
+
+SystemComponent : 1
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : Connection Manager
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+Inno Setup: Setup Version                       : 5.5.9 (u)
+Inno Setup: App Path                            : C:\Program Files\Git
+InstallLocation                                 : C:\Program Files\Git\
+Inno Setup: Icon Group                          : Git
+Inno Setup: User                                : Lukas
+Inno Setup: Setup Type                          : default
+Inno Setup: Selected Components                 : assoc,assoc_sh
+Inno Setup: Deselected Components               : icons,icons\desktop,ext,ext\shellhere,ext\guihere,gitlfs,consolefont
+Inno Setup: Language                            : default
+DisplayName                                     : Git version 2.14.1
+DisplayIcon                                     : C:\Program Files\Git\mingw64\share\git\git-for-windows.ico
+UninstallString                                 : "C:\Program Files\Git\unins000.exe"
+QuietUninstallString                            : "C:\Program Files\Git\unins000.exe" /SILENT
+DisplayVersion                                  : 2.14.1
+Publisher                                       : The Git Development Community
+URLInfoAbout                                    : https://git-for-windows.github.io/
+HelpLink                                        : https://github.com/git-for-windows/git/wiki/Contact
+NoModify                                        : 1
+NoRepair                                        : 1
+InstallDate                                     : 20171018
+MajorVersion                                    : 2
+MinorVersion                                    : 14
+EstimatedSize                                   : 217981
+Inno Setup CodeFile: Path Option                : Cmd
+Inno Setup CodeFile: SSH Option                 : OpenSSH
+Inno Setup CodeFile: CURL Option                : OpenSSL
+Inno Setup CodeFile: CRLF Option                : CRLFAlways
+Inno Setup CodeFile: Bash Terminal Option       : MinTTY
+Inno Setup CodeFile: Performance Tweaks FSCache : Enabled
+Inno Setup CodeFile: Use Credential Manager     : Enabled
+Inno Setup CodeFile: Enable Symlinks            : Disabled
+PSPath                                          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1
+PSParentPath                                    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName                                     : Git_is1
+PSDrive                                         : HKLM
+PSProvider                                      : Microsoft.PowerShell.Core\Registry
+
+DisplayName      : Microsoft Azure Compute Emulator - v2.9.5.3
+DisplayIcon      : C:\PROGRA~1\MICROS~3\Azure\Emulator\CSMONI~1.EXE,0
+DisplayVersion   : 2.9.8699.20
+InstallDate      : 18/10/2017
+InstallLocation  :
+InstallSource    : C:\Users\Lukas\AppData\Local\Temp\\{BB44C8F9-C555-45CF-B6DA-80131B139165}\
+Language         : 1033
+ModifyPath       : msiexec /i{bb44c8f9-c555-45cf-b6da-80131b139165} REINSTALLMODE=vamus
+NoModify         : 0
+Publisher        : Microsoft Corporation
+UninstallString  : msiexec /x{bb44c8f9-c555-45cf-b6da-80131b139165}
+VersionMajor     : 2
+VersionMinor     : 9
+WindowsInstaller : 0
+PSPath           : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Azure Compute Emulator - v2.9.5.3
+PSParentPath     : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName      : Microsoft Azure Compute Emulator - v2.9.5.3
+PSDrive          : HKLM
+PSProvider       : Microsoft.PowerShell.Core\Registry
+
+DisplayName     : Mozilla Maintenance Service
+UninstallString : "C:\Program Files (x86)\Mozilla Maintenance Service\uninstall.exe"
+DisplayIcon     : C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe,0
+DisplayVersion  : 58.0a1
+Publisher       : Mozilla
+Comments        : Mozilla Maintenance Service
+NoModify        : 1
+EstimatedSize   : 278
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : MozillaMaintenanceService
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+Comments        : Nightly 58.0a1 (x64 cs)
+DisplayIcon     : C:\Program Files\Nightly\firefox.exe,0
+DisplayName     : Nightly 58.0a1 (x64 cs)
+DisplayVersion  : 58.0a1
+HelpLink        : https://support.mozilla.org
+InstallLocation : C:\Program Files\Nightly
+Publisher       : Mozilla
+UninstallString : "C:\Program Files\Nightly\uninstall\helper.exe"
+URLInfoAbout    : https://www.mozilla.org
+NoModify        : 1
+NoRepair        : 1
+EstimatedSize   : 152312
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nightly 58.0a1 (x64 cs)
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : Nightly 58.0a1 (x64 cs)
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+Publisher                : Microsoft Corporation
+CacheLocation            : D:\MSOCache\All Users
+DisplayIcon              : C:\Program Files\Common Files\Microsoft Shared\OFFICE16\Office Setup Controller\OSETUP.DLL,1
+DisplayName              : Microsoft Office Professional Plus 2016
+DisplayVersion           : 16.0.4266.1001
+InstallLocation          : D:\Program Files\Microsoft Office
+ModifyPath               : "C:\Program Files\Common Files\Microsoft Shared\OFFICE16\Office Setup Controller\setup.exe" /modify PROPLUS /dll OSETUP.DLL
+NoElevateOnModify        : 0
+NoModify                 : 0
+NoRemove                 : 0
+NoRepair                 : 1
+PackageRefs              : {OfficeMUI.cs-cz, OneNoteMUI.cs-cz, AccessMUI.cs-cz, Proof.de-de...}
+ProductCodes             : {{90160000-001F-0409-1000-0000000FF1CE}, {90160000-006E-0405-1000-0000000FF1CE}, {90160000-002C-0405-1000-0000000FF1CE}, {90160000-012B-0405-1000-0000000FF1CE}...}
+ShellUITransformLanguage : cs-cz
+SkuComponents            : {C:\Program Files\Common Files\Microsoft Shared\OFFICE16\Office Setup Controller\PROPLUS\setup.xml, C:\Program Files\Common Files\Microsoft Shared\OFFICE16\Office Setup
+                           Controller\Publisher.cs-cz\setup.xml, C:\Program Files\Common Files\Microsoft Shared\OFFICE16\Office Setup Controller\Word.cs-cz\setup.xml, C:\Program Files\Common Files\Microsoft
+                           Shared\OFFICE16\Office Setup Controller\InfoPath.cs-cz\setup.xml...}
+SPPSkuId                 : {D450596F-894D-49E0-966A-FD39ED4C4C64}
+UninstallString          : "C:\Program Files\Common Files\Microsoft Shared\OFFICE16\Office Setup Controller\setup.exe" /uninstall PROPLUS /dll OSETUP.DLL
+VersionMajor             : 16
+VersionMinor             : 0
+ProductID                : 00339-10000-00000-AA051
+PSPath                   : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Office16.PROPLUS
+PSParentPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName              : Office16.PROPLUS
+PSDrive                  : HKLM
+PSProvider               : Microsoft.PowerShell.Core\Registry
+
+tap             : installed
+DisplayName     : OpenVPN 2.4.4-I601
+UninstallString : C:\Program Files\OpenVPN\Uninstall.exe
+DisplayIcon     : C:\Program Files\OpenVPN\icon.ico
+DisplayVersion  : 2.4.4-I601
+HelpLink        : https://openvpn.net/index.php/open-source.html
+InstallLocation : C:\Program Files\OpenVPN\
+Language        : 1033
+NoModify        : 1
+NoRepair        : 1
+Publisher       : OpenVPN Technologies, Inc.
+URLInfoAbout    : https://openvpn.net
+EstimatedSize   : 6690
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenVPN
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : OpenVPN
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+DisplayName     : TAP-Windows 9.21.2
+UninstallString : C:\Program Files\TAP-Windows\Uninstall.exe
+DisplayIcon     : C:\Program Files\TAP-Windows\icon.ico
+DisplayVersion  : 9.21.2
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\TAP-Windows
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : TAP-Windows
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+NoRemove     : 1
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\WIC
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName  : WIC
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 15.117.26914
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.TeamFoundation.OfficeIntegration.Resources,version=15.117.26914.0,chip=x64,language=en-US\
+ModifyPath          : MsiExec.exe /I{00F95938-351A-34E9-BC9E-614205A7179E}
+Publisher           : Microsoft
+Readme              :
+Size                :
+EstimatedSize       : 832
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{00F95938-351A-34E9-BC9E-614205A7179E}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 15
+VersionMinor        : 117
+WindowsInstaller    : 1
+Version             : 259352866
+Language            : 1033
+DisplayName         : Microsoft Visual Studio Team Foundation Server 2017 RC Office Integration Language Pack (x64) - ENU
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{00F95938-351A-34E9-BC9E-614205A7179E}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {00F95938-351A-34E9-BC9E-614205A7179E}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+DisplayName     : IIS Express Application Compatibility Database for x64
+UninstallString : C:\WINDOWS\system32\sdbinst.exe -u "C:\WINDOWS\AppPatch\CustomSDB\{08274920-8908-45c2-9258-8ad67ff77b09}.sdb"
+SystemComponent : 1
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{08274920-8908-45c2-9258-8ad67ff77b09}.sdb
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : {08274920-8908-45c2-9258-8ad67ff77b09}.sdb
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 2.9.8699.20
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.Azure.AuthoringTools.Msi,version=2.9.8699.20,chip=x64\
+ModifyPath          : MsiExec.exe /I{086C537B-DE1A-4A11-8441-6AAF076174B8}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 12520
+UninstallString     : MsiExec.exe /I{086C537B-DE1A-4A11-8441-6AAF076174B8}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 2
+VersionMinor        : 9
+WindowsInstaller    : 1
+Version             : 34152955
+Language            : 1033
+DisplayName         : Microsoft Azure Authoring Tools - v2.9.5.3
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{086C537B-DE1A-4A11-8441-6AAF076174B8}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {086C537B-DE1A-4A11-8441-6AAF076174B8}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.16299.15
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{09215AC7-B15F-A151-B90A-6B432EAD80A8}v10.1.16299.15\Installers\
+ModifyPath          : MsiExec.exe /I{09215AC7-B15F-A151-B90A-6B432EAD80A8}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 7028
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{09215AC7-B15F-A151-B90A-6B432EAD80A8}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167853995
+Language            : 1033
+DisplayName         : Windows App Certification Kit Native Components
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{09215AC7-B15F-A151-B90A-6B432EAD80A8}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {09215AC7-B15F-A151-B90A-6B432EAD80A8}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 15.0.26621
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.Graphics.Msi,version=15.0.26621.2,chip=x64\
+ModifyPath          : MsiExec.exe /I{134E1F55-10CB-4837-9F43-C8145933AA3E}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 4233
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{134E1F55-10CB-4837-9F43-C8145933AA3E}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 15
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 251684861
+Language            : 1033
+DisplayName         : vs_Graphics_Singletonx64
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{134E1F55-10CB-4837-9F43-C8145933AA3E}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {134E1F55-10CB-4837-9F43-C8145933AA3E}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 11.3.6518.0
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=191752
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\sqlncli,version=15.1.61707.200,chip=x64,language=en-US\
+ModifyPath          : MsiExec.exe /I{1385D3DB-8E80-427B-91D2-B7535862B8E4}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 9944
+UninstallString     : MsiExec.exe /I{1385D3DB-8E80-427B-91D2-B7535862B8E4}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 11
+VersionMinor        : 3
+WindowsInstaller    : 1
+Version             : 184752502
+Language            : 1033
+DisplayName         : Microsoft SQL Server 2012 Native Client
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{1385D3DB-8E80-427B-91D2-B7535862B8E4}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {1385D3DB-8E80-427B-91D2-B7535862B8E4}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.15063.468
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{1469EBEB-CA1A-5EB6-0CC0-DC51EF53E1C3}v10.1.15063.468\Installers\
+ModifyPath          : MsiExec.exe /I{1469EBEB-CA1A-5EB6-0CC0-DC51EF53E1C3}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 5132
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{1469EBEB-CA1A-5EB6-0CC0-DC51EF53E1C3}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167852759
+Language            : 1033
+DisplayName         : Windows SDK for Windows Store Apps DirectX x64 Remote
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{1469EBEB-CA1A-5EB6-0CC0-DC51EF53E1C3}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {1469EBEB-CA1A-5EB6-0CC0-DC51EF53E1C3}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 8.0.39737
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{1F57119A-E76E-4BE9-9110-0E09933FB3F9}v8.0.39737\
+ModifyPath          : MsiExec.exe /I{1F57119A-E76E-4BE9-9110-0E09933FB3F9}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 172104
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{1F57119A-E76E-4BE9-9110-0E09933FB3F9}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 8
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 134257465
+Language            : 1033
+DisplayName         : Microsoft .NET Core SDK - 2.0.2 (x64)
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{1F57119A-E76E-4BE9-9110-0E09933FB3F9}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {1F57119A-E76E-4BE9-9110-0E09933FB3F9}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.15063.468
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{2D7C1671-6F3D-2AA7-DAA3-91C96B60B919}v10.1.15063.468\Installers\
+ModifyPath          : MsiExec.exe /I{2D7C1671-6F3D-2AA7-DAA3-91C96B60B919}
+Publisher           : Microsoft
+Readme              :
+Size                :
+EstimatedSize       : 1756
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{2D7C1671-6F3D-2AA7-DAA3-91C96B60B919}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167852759
+Language            : 1033
+DisplayName         : Application Verifier x64 External Package
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{2D7C1671-6F3D-2AA7-DAA3-91C96B60B919}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {2D7C1671-6F3D-2AA7-DAA3-91C96B60B919}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 15.0.26823
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.DiagnosticsHub.Collection.Service,version=15.0.26823.1,chip=x64\
+ModifyPath          : MsiExec.exe /I{311C382C-6FDC-45ED-A04C-629A852D6148}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1025
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{311C382C-6FDC-45ED-A04C-629A852D6148}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 15
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 251685063
+Language            : 1033
+DisplayName         : DiagnosticsHub_CollectionService
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{311C382C-6FDC-45ED-A04C-629A852D6148}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {311C382C-6FDC-45ED-A04C-629A852D6148}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.16299.15
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{45D32E0E-27C5-82DE-B739-6A9608A2411A}v10.1.16299.15\Installers\
+ModifyPath          : MsiExec.exe /I{45D32E0E-27C5-82DE-B739-6A9608A2411A}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 5064
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{45D32E0E-27C5-82DE-B739-6A9608A2411A}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167853995
+Language            : 1033
+DisplayName         : Windows SDK for Windows Store Apps DirectX x64 Remote
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{45D32E0E-27C5-82DE-B739-6A9608A2411A}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {45D32E0E-27C5-82DE-B739-6A9608A2411A}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 13.1.4001.0
+HelpLink            : http://go.microsoft.com/fwlink/?LinkID=525611
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\sql_adalsql,version=15.1.61707.200,chip=x64,language=en-US\
+ModifyPath          : MsiExec.exe /I{52D1FCFD-1052-4D75-B3FB-9906901AFD98}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1800
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{52D1FCFD-1052-4D75-B3FB-9906901AFD98}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 13
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 218173345
+Language            : 1033
+DisplayName         : Active Directory Authentication Library for SQL Server
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{52D1FCFD-1052-4D75-B3FB-9906901AFD98}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {52D1FCFD-1052-4D75-B3FB-9906901AFD98}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 2.0.11926.0
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{53F12DF1-23C7-3C4B-92AB-FCE8A6ABC3AB}v2.0.11926.0\
+ModifyPath          : MsiExec.exe /X{53F12DF1-23C7-3C4B-92AB-FCE8A6ABC3AB}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 52680
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{53F12DF1-23C7-3C4B-92AB-FCE8A6ABC3AB}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 2
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 33566358
+Language            : 1033
+DisplayName         : Microsoft ASP.NET Core 2.0.0 Runtime Package Store (x64)
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{53F12DF1-23C7-3C4B-92AB-FCE8A6ABC3AB}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {53F12DF1-23C7-3C4B-92AB-FCE8A6ABC3AB}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 9.0.30729.6161
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : d:\4196709bad4de38e1ae0\
+ModifyPath          : MsiExec.exe /X{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}
+NoModify            : 1
+NoRepair            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 13532
+UninstallString     : MsiExec.exe /X{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 9
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 151025673
+Language            : 1033
+DisplayName         : Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.0.1981
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.WebDeploy.Msi,version=15.0.26823.1,chip=x64\
+ModifyPath          : MsiExec.exe /I{65C71B09-C33D-4F60-93EA-DF3AD1D40600}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 12171
+UninstallString     : MsiExec.exe /I{65C71B09-C33D-4F60-93EA-DF3AD1D40600}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 167774141
+Language            : 1033
+DisplayName         : Microsoft Web Deploy 3.6
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{65C71B09-C33D-4F60-93EA-DF3AD1D40600}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {65C71B09-C33D-4F60-93EA-DF3AD1D40600}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             : Microsoft Corporation
+DisplayVersion      : 1.0.1982
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.Ancm.IISExpress.Msi,version=1.0.1982,chip=x64\
+ModifyPath          : MsiExec.exe /X{694484C1-5E4D-4191-8E51-70A5EF8888C7}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 328
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{694484C1-5E4D-4191-8E51-70A5EF8888C7}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 1
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 16779198
+Language            : 1033
+DisplayName         : Microsoft ASP.NET Core Module for IIS Express
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{694484C1-5E4D-4191-8E51-70A5EF8888C7}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {694484C1-5E4D-4191-8E51-70A5EF8888C7}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 15.0.26621
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.Icecap.Collection.Msi.Targeted,version=15.0.26621.2,chip=x64\
+ModifyPath          : MsiExec.exe /I{6BC73140-3CB6-486A-8350-BF35F54EFA19}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 5497
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{6BC73140-3CB6-486A-8350-BF35F54EFA19}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 15
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 251684861
+Language            : 1033
+DisplayName         : icecap_collection_x64
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{6BC73140-3CB6-486A-8350-BF35F54EFA19}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {6BC73140-3CB6-486A-8350-BF35F54EFA19}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 15.117.26914
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.TeamFoundation.OfficeIntegration,version=15.117.26914.0,chip=x64\
+ModifyPath          : MsiExec.exe /I{6D967DD2-4A1E-31B1-B146-A1E1658C8C2E}
+Publisher           : Microsoft
+Readme              :
+Size                :
+EstimatedSize       : 29700
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{6D967DD2-4A1E-31B1-B146-A1E1658C8C2E}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 15
+VersionMinor        : 117
+WindowsInstaller    : 1
+Version             : 259352866
+Language            : 1033
+DisplayName         : Microsoft Visual Studio Team Foundation Server 2017 RC Office Integration (x64)
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{6D967DD2-4A1E-31B1-B146-A1E1658C8C2E}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {6D967DD2-4A1E-31B1-B146-A1E1658C8C2E}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+DisplayIcon     : "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe"
+DisplayName     : Microsoft Visual Studio 2017
+DisplayVersion  : 1.12.111.1002
+EstimatedSize   : 0
+InstallLocation : "C:\Program Files (x86)\Microsoft Visual Studio\Installer"
+InstallDate     : 20171018
+ModifyPath      : "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe"
+NoRepair        : 1
+Publisher       : Microsoft Corporation
+UninstallString : "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" /uninstall
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{6F320B93-EE3C-4826-85E0-ADF79F8D4C61}
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : {6F320B93-EE3C-4826-85E0-ADF79F8D4C61}
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.71.0
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.Debugger.JustInTime.Msi,version=15.0.26711.1,chip=x64\
+ModifyPath          : MsiExec.exe /I{75068E51-7C37-4003-84C2-C67461C8D60A}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 2147
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{75068E51-7C37-4003-84C2-C67461C8D60A}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268435527
+Language            : 1033
+DisplayName         : VS JIT Debugger
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{75068E51-7C37-4003-84C2-C67461C8D60A}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {75068E51-7C37-4003-84C2-C67461C8D60A}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0011-0000-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0011-0000-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1766306
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0011-0000-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 0
+DisplayName         : Microsoft Office Professional Plus 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0011-0000-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0011-0000-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0015-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0015-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 12873
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0015-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Access MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0015-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0015-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0016-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0016-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 29573
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0016-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Excel MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0016-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0016-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0018-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0018-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 23573
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0018-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft PowerPoint MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0018-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0018-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0019-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0019-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 13146
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0019-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Publisher MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0019-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0019-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-001A-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-001A-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 16236
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-001A-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Outlook MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-001A-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-001A-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-001B-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-001B-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 30049
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-001B-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Word MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-001B-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-001B-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-002C-0405-1000-0000000FF1CE}-D\Proof.cs\
+ModifyPath          : MsiExec.exe /X{90160000-001F-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 19820
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-001F-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Nástroje kontroly pravopisu pro Microsoft Office 2016 – čeština
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-001F-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-001F-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-002C-0405-1000-0000000FF1CE}-D\Proof.de\
+ModifyPath          : MsiExec.exe /X{90160000-001F-0407-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 37942
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-001F-0407-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1031
+DisplayName         : Microsoft Office Korrekturhilfen 2016 – Deutsch
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-001F-0407-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-001F-0407-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-002C-0405-1000-0000000FF1CE}-D\Proof.en\
+ModifyPath          : MsiExec.exe /X{90160000-001F-0409-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 21923
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-001F-0409-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1033
+DisplayName         : Microsoft Office Proofing Tools 2016 - English
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-001F-0409-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-001F-0409-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-002C-0405-1000-0000000FF1CE}-D\Proof.sk\
+ModifyPath          : MsiExec.exe /X{90160000-001F-041B-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 5190
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-001F-041B-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1051
+DisplayName         : Nástroje korektúry balíka Microsoft Office 2016 - slovenčina
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-001F-041B-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-001F-041B-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-002C-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-002C-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1370
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-002C-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Office Proofing (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-002C-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-002C-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0044-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0044-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 2986
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0044-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft InfoPath MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0044-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0044-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-006E-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-006E-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 18927
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-006E-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Office Shared MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-006E-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-006E-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0090-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-0090-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 418
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-0090-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft DCF MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-0090-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-0090-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-00A1-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-00A1-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 5225
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-00A1-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft OneNote MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00A1-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-00A1-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-00BA-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-00BA-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 8854
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-00BA-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Groove MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00BA-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-00BA-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-0011-0000-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-00C1-0000-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 147804
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-00C1-0000-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 0
+DisplayName         : Microsoft Office 32-bit Components 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00C1-0000-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-00C1-0000-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-00C1-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-00C1-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 14917
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-00C1-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Office Shared 32-bit MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00C1-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-00C1-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-00E1-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-00E1-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1534
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-00E1-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Office OSM MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00E1-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-00E1-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-00E2-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-00E2-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 8406
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-00E2-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Office OSM UX MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00E2-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-00E2-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.4266.1001
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     : D:\Program Files\Microsoft Office\
+InstallSource       : D:\MSOCache\All Users\{90160000-012B-0405-1000-0000000FF1CE}-D\
+ModifyPath          : MsiExec.exe /X{90160000-012B-0405-1000-0000000FF1CE}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 5288
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{90160000-012B-0405-1000-0000000FF1CE}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268439722
+Language            : 1029
+DisplayName         : Microsoft Skype for Business MUI (Czech) 2016
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-012B-0405-1000-0000000FF1CE}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {90160000-012B-0405-1000-0000000FF1CE}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 13.1.4001.0
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=230480
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\sqllocaldb,version=15.1.61707.200,chip=x64,language=en-US\
+ModifyPath          : MsiExec.exe /I{9097BF1A-13A0-4A4A-A1F8-473E2A669863}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 239232
+UninstallString     : MsiExec.exe /I{9097BF1A-13A0-4A4A-A1F8-473E2A669863}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 13
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 218173345
+Language            : 1033
+DisplayName         : Microsoft SQL Server 2016 LocalDB
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9097BF1A-13A0-4A4A-A1F8-473E2A669863}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {9097BF1A-13A0-4A4A-A1F8-473E2A669863}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 11.3.6020.0
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=90955
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\sqlcmdlnutils,version=15.1.61707.200,chip=x64,language=en-US\
+ModifyPath          : MsiExec.exe /I{9198AD57-6396-4DF8-8D0C-20EA764F7986}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 2440
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{9198AD57-6396-4DF8-8D0C-20EA764F7986}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 11
+VersionMinor        : 3
+WindowsInstaller    : 1
+Version             : 184752004
+Language            : 1033
+DisplayName         : Microsoft SQL Server 2012 Command Line Utilities
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9198AD57-6396-4DF8-8D0C-20EA764F7986}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {9198AD57-6396-4DF8-8D0C-20EA764F7986}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            : Caution. Removing this product might prevent some applications from running.
+Contact             :
+DisplayVersion      : 12.0.21005
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=133405
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{929FBD26-9020-399B-9A7A-751D61F0B942}v12.0.21005\packages\vcRuntimeAdditional_amd64\
+ModifyPath          : MsiExec.exe /X{929FBD26-9020-399B-9A7A-751D61F0B942}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 11784
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{929FBD26-9020-399B-9A7A-751D61F0B942}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 12
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 201347597
+Language            : 1033
+DisplayName         : Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{929FBD26-9020-399B-9A7A-751D61F0B942}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {929FBD26-9020-399B-9A7A-751D61F0B942}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 14.0.600.250
+HelpLink            : https://go.microsoft.com/fwlink/?LinkId=TestMSI
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\sqlsysclrtypes,version=15.1.61707.200,chip=x64,language=en-US\
+ModifyPath          : MsiExec.exe /I{9BAD8F82-A221-42CE-AFF0-7CAB825790C9}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 7188
+UninstallString     : MsiExec.exe /I{9BAD8F82-A221-42CE-AFF0-7CAB825790C9}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 14
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 234881624
+Language            : 1033
+DisplayName         : Microsoft System CLR Types for SQL Server 2017 CTP2.1
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9BAD8F82-A221-42CE-AFF0-7CAB825790C9}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {9BAD8F82-A221-42CE-AFF0-7CAB825790C9}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+UninstallString : "C:\Program Files\DellTPad\Uninstap.exe" ADDREMOVE
+DisplayName     : Dell Touchpad
+DisplayIcon     : "C:\Program Files\DellTPad\DellTouchpad.exe"
+DisplayVersion  : 10.2207.101.108
+Publisher       : ALPS ELECTRIC CO., LTD.
+InstallLocation : C:\Program Files\DellTPad
+VersionMajor    : 10
+VersionMinor    : 1207
+(default)       :
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9F72EF8B-AEC9-4CA5-B483-143980AFD6FD}
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : {9F72EF8B-AEC9-4CA5-B483-143980AFD6FD}
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.0.1738
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.IISExpress.Msi,version=15.0.26621.2,chip=x64\
+ModifyPath          : MsiExec.exe /X{A54DCC30-E1EA-4912-A7F9-6C5A3AF1FB3A}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 38173
+UninstallString     : MsiExec.exe /X{A54DCC30-E1EA-4912-A7F9-6C5A3AF1FB3A}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 167773898
+Language            : 1033
+DisplayName         : IIS 10.0 Express
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A54DCC30-E1EA-4912-A7F9-6C5A3AF1FB3A}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {A54DCC30-E1EA-4912-A7F9-6C5A3AF1FB3A}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.16299.15
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{A60760B2-EF83-1EB6-BC8E-B9A7EC91D3D6}v10.1.16299.15\Installers\
+ModifyPath          : MsiExec.exe /I{A60760B2-EF83-1EB6-BC8E-B9A7EC91D3D6}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1492
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{A60760B2-EF83-1EB6-BC8E-B9A7EC91D3D6}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167853995
+Language            : 1033
+DisplayName         : Windows SDK DirectX x64 Remote
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A60760B2-EF83-1EB6-BC8E-B9A7EC91D3D6}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {A60760B2-EF83-1EB6-BC8E-B9A7EC91D3D6}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            : Caution. Removing this product might prevent some applications from running.
+Contact             :
+DisplayVersion      : 12.0.21005
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=133405
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{A749D8E6-B613-3BE3-8F5F-045C84EBA29B}v12.0.21005\packages\vcRuntimeMinimum_amd64\
+ModifyPath          : MsiExec.exe /X{A749D8E6-B613-3BE3-8F5F-045C84EBA29B}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 2532
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{A749D8E6-B613-3BE3-8F5F-045C84EBA29B}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 12
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 201347597
+Language            : 1033
+DisplayName         : Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A749D8E6-B613-3BE3-8F5F-045C84EBA29B}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {A749D8E6-B613-3BE3-8F5F-045C84EBA29B}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.71.0
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.Debugger.Script.Msi,version=15.0.26711.1,chip=x64\
+ModifyPath          : MsiExec.exe /I{A9ED1B56-3819-4B14-A929-89DD3E16E216}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 4526
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{A9ED1B56-3819-4B14-A929-89DD3E16E216}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268435527
+Language            : 1033
+DisplayName         : VS Script Debugging Common
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A9ED1B56-3819-4B14-A929-89DD3E16E216}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {A9ED1B56-3819-4B14-A929-89DD3E16E216}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+DisplayName     : IIS Express Application Compatibility Database for x86
+UninstallString : C:\WINDOWS\system32\sdbinst.exe -u "C:\WINDOWS\AppPatch\CustomSDB\{ad846bae-d44b-4722-abad-f7420e08bcd9}.sdb"
+SystemComponent : 1
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{ad846bae-d44b-4722-abad-f7420e08bcd9}.sdb
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName     : {ad846bae-d44b-4722-abad-f7420e08bcd9}.sdb
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            : Caution. Removing this product might prevent some applications from running.
+Contact             :
+DisplayVersion      : 14.11.25325
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=133405
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{B0037450-526D-3448-A370-CACBD87769A0}v14.11.25325\packages\vcRuntimeMinimum_amd64\
+ModifyPath          : MsiExec.exe /X{B0037450-526D-3448-A370-CACBD87769A0}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 2040
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{B0037450-526D-3448-A370-CACBD87769A0}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 14
+VersionMinor        : 11
+WindowsInstaller    : 1
+Version             : 235627245
+Language            : 1033
+DisplayName         : Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.11.25325
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{B0037450-526D-3448-A370-CACBD87769A0}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {B0037450-526D-3448-A370-CACBD87769A0}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+DisplayIcon         : C:\Program Files (x86)\VMware\VMware Player\vmplayer.exe
+ModifyPath          : msiexec.exe /l{B0E6FB2F-AAD0-4C2C-89E2-FF8F93F7F653}
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 14.0.0
+HelpLink            : www.vmware.com/support
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\Program Files (x86)\Common Files\VMware\InstallerCache\
+NoRemove            : 1
+NoRepair            : 1
+Publisher           : VMware, Inc.
+Readme              :
+Size                :
+EstimatedSize       : 230933
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 14
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 234881024
+Language            : 1033
+DisplayName         : VMware Player
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{B0E6FB2F-AAD0-4C2C-89E2-FF8F93F7F653}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {B0E6FB2F-AAD0-4C2C-89E2-FF8F93F7F653}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            : Caution. Removing this product might prevent some applications from running.
+Contact             :
+DisplayVersion      : 14.11.25325
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=133405
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{B13B3E11-1555-353F-A63A-8933EE104FBD}v14.11.25325\packages\vcRuntimeAdditional_amd64\
+ModifyPath          : MsiExec.exe /X{B13B3E11-1555-353F-A63A-8933EE104FBD}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 12624
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{B13B3E11-1555-353F-A63A-8933EE104FBD}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 14
+VersionMinor        : 11
+WindowsInstaller    : 1
+Version             : 235627245
+Language            : 1033
+DisplayName         : Microsoft Visual C++ 2017 x64 Additional Runtime - 14.11.25325
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{B13B3E11-1555-353F-A63A-8933EE104FBD}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {B13B3E11-1555-353F-A63A-8933EE104FBD}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 2.9.8699.20
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\Users\Lukas\AppData\Local\Temp\{BB44C8F9-C555-45CF-B6DA-80131B139165}\
+ModifyPath          : MsiExec.exe /I{BB44C8F9-C555-45CF-B6DA-80131B139165}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 13916
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{BB44C8F9-C555-45CF-B6DA-80131B139165}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 2
+VersionMinor        : 9
+WindowsInstaller    : 1
+Version             : 34152955
+Language            : 1033
+DisplayName         : Microsoft Azure Compute Emulator - v2.9.5.3
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{BB44C8F9-C555-45CF-B6DA-80131B139165}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {BB44C8F9-C555-45CF-B6DA-80131B139165}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.25521
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{BE54D79A-4E7F-4F5D-AB22-9CD46397F2F3}v16.0.25521\
+ModifyPath          : MsiExec.exe /X{BE54D79A-4E7F-4F5D-AB22-9CD46397F2F3}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 63196
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{BE54D79A-4E7F-4F5D-AB22-9CD46397F2F3}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268460977
+Language            : 1033
+DisplayName         : Microsoft .NET Core Runtime - 2.0.0 (x64)
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{BE54D79A-4E7F-4F5D-AB22-9CD46397F2F3}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {BE54D79A-4E7F-4F5D-AB22-9CD46397F2F3}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            : Caution. Removing this product might prevent some applications from running.
+Contact             :
+DisplayVersion      : 14.11.25325
+HelpLink            : http://go.microsoft.com/fwlink/?LinkId=133405
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualCpp.RuntimeDebug.14,version=14.11.25325,chip=x64\
+ModifyPath          : MsiExec.exe /X{BE990041-4C0C-3A51-BEEE-50E4ABFC9AA6}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 26906
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{BE990041-4C0C-3A51-BEEE-50E4ABFC9AA6}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 14
+VersionMinor        : 11
+WindowsInstaller    : 1
+Version             : 235627245
+Language            : 1033
+DisplayName         : Microsoft Visual C++ 2017 x64 Debug Runtime - 14.11.25325
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{BE990041-4C0C-3A51-BEEE-50E4ABFC9AA6}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {BE990041-4C0C-3A51-BEEE-50E4ABFC9AA6}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            : Microsoft Azure Libraries for .NET v2.9 - build 2.9.0127.060
+Contact             :
+DisplayVersion      : 3.0.0127.060
+HelpLink            : http://www.microsoft.com/windowsazure/sdk
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.Azure.ClientLibs.Msi,version=3.0.127.61,chip=x64\
+ModifyPath          : MsiExec.exe /I{C5C91AA6-3E83-430E-8B7A-6B790083F28D}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 69372
+UninstallString     : MsiExec.exe /I{C5C91AA6-3E83-430E-8B7A-6B790083F28D}
+URLInfoAbout        : http://www.microsoft.com/windowsazure/support
+URLUpdateInfo       : http://www.microsoft.com/windowsazure/sdk
+VersionMajor        : 3
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 50331775
+Language            : 1033
+DisplayName         : Microsoft Azure Libraries for .NET – v2.9
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{C5C91AA6-3E83-430E-8B7A-6B790083F28D}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {C5C91AA6-3E83-430E-8B7A-6B790083F28D}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.25521
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{CC604AD5-82F0-47C4-BC0E-635DC1092828}v16.0.25521\
+ModifyPath          : MsiExec.exe /X{CC604AD5-82F0-47C4-BC0E-635DC1092828}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 144
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{CC604AD5-82F0-47C4-BC0E-635DC1092828}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268460977
+Language            : 1033
+DisplayName         : Microsoft .NET Core Host - 2.0.0 (x64)
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{CC604AD5-82F0-47C4-BC0E-635DC1092828}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {CC604AD5-82F0-47C4-BC0E-635DC1092828}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.16299.15
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{D9908CED-5ABB-FEE9-FC84-743F4D38637C}v10.1.16299.15\Installers\
+ModifyPath          : MsiExec.exe /I{D9908CED-5ABB-FEE9-FC84-743F4D38637C}
+Publisher           : Microsoft
+Readme              :
+Size                :
+EstimatedSize       : 7324
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{D9908CED-5ABB-FEE9-FC84-743F4D38637C}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167853995
+Language            : 1033
+DisplayName         : Application Verifier x64 External Package
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{D9908CED-5ABB-FEE9-FC84-743F4D38637C}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {D9908CED-5ABB-FEE9-FC84-743F4D38637C}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 10.1.16299.15
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{E053089E-7953-3219-814F-F485FC151C54}v10.1.16299.15\Installers\
+ModifyPath          : MsiExec.exe /I{E053089E-7953-3219-814F-F485FC151C54}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 1756
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{E053089E-7953-3219-814F-F485FC151C54}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 10
+VersionMinor        : 1
+WindowsInstaller    : 1
+Version             : 167853995
+Language            : 1033
+DisplayName         : Universal CRT Tools x64
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{E053089E-7953-3219-814F-F485FC151C54}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {E053089E-7953-3219-814F-F485FC151C54}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+Inno Setup: Setup Version    : 5.5.6 (u)
+Inno Setup: App Path         : C:\Program Files\Microsoft VS Code
+InstallLocation              : C:\Program Files\Microsoft VS Code\
+Inno Setup: Icon Group       : Visual Studio Code
+Inno Setup: User             : Lukas
+Inno Setup: Selected Tasks   : desktopicon,addcontextmenufiles,addcontextmenufolders,addtopath
+Inno Setup: Deselected Tasks : associatewithfiles
+Inno Setup: Language         : english
+DisplayName                  : Microsoft Visual Studio Code
+DisplayIcon                  : C:\Program Files\Microsoft VS Code\Code.exe
+UninstallString              : "C:\Program Files\Microsoft VS Code\unins000.exe"
+QuietUninstallString         : "C:\Program Files\Microsoft VS Code\unins000.exe" /SILENT
+DisplayVersion               : 1.17.2
+Publisher                    : Microsoft Corporation
+URLInfoAbout                 : https://code.visualstudio.com/
+HelpLink                     : https://code.visualstudio.com/
+URLUpdateInfo                : https://code.visualstudio.com/
+NoModify                     : 1
+NoRepair                     : 1
+InstallDate                  : 20171018
+MajorVersion                 : 1
+MinorVersion                 : 17
+EstimatedSize                : 191611
+PSPath                       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{EA457B21-F73E-494C-ACAB-524FDE069978}_is1
+PSParentPath                 : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName                  : {EA457B21-F73E-494C-ACAB-524FDE069978}_is1
+PSDrive                      : HKLM
+PSProvider                   : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 16.0.25521
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Package Cache\{EFF72D79-E9BA-44B2-8187-DBC6D69E7F22}v16.0.25521\
+ModifyPath          : MsiExec.exe /X{EFF72D79-E9BA-44B2-8187-DBC6D69E7F22}
+NoModify            : 1
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 296
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /X{EFF72D79-E9BA-44B2-8187-DBC6D69E7F22}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 16
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 268460977
+Language            : 1033
+DisplayName         : Microsoft .NET Core Host FX Resolver - 2.0.0 (x64)
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{EFF72D79-E9BA-44B2-8187-DBC6D69E7F22}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {EFF72D79-E9BA-44B2-8187-DBC6D69E7F22}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+AuthorizedCDFPrefix :
+Comments            :
+Contact             :
+DisplayVersion      : 15.0.25.0
+HelpLink            :
+HelpTelephone       :
+InstallDate         : 20171018
+InstallLocation     :
+InstallSource       : C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.IntelliTrace.ProfilerProxy.Msi.x64,version=15.0.25.0,chip=x64\
+ModifyPath          : MsiExec.exe /I{F371B2C2-54DE-4483-8676-202CBFC10DDD}
+Publisher           : Microsoft Corporation
+Readme              :
+Size                :
+EstimatedSize       : 17
+SystemComponent     : 1
+UninstallString     : MsiExec.exe /I{F371B2C2-54DE-4483-8676-202CBFC10DDD}
+URLInfoAbout        :
+URLUpdateInfo       :
+VersionMajor        : 15
+VersionMinor        : 0
+WindowsInstaller    : 1
+Version             : 251658265
+Language            : 1033
+DisplayName         : IntelliTraceProfilerProxy
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{F371B2C2-54DE-4483-8676-202CBFC10DDD}
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall
+PSChildName         : {F371B2C2-54DE-4483-8676-202CBFC10DDD}
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+
+
+PS C:\WINDOWS\system32> $hash.Installed_Apps | select Displayname
+
+Displayname
+-----------
+
+Git version 2.14.1
+Microsoft Azure Compute Emulator - v2.9.5.3
+Mozilla Maintenance Service
+Nightly 58.0a1 (x64 cs)
+Microsoft Office Professional Plus 2016
+OpenVPN 2.4.4-I601
+TAP-Windows 9.21.2
+
+Microsoft Visual Studio Team Foundation Server 2017 RC Office Integration Language Pack (x64) - ENU
+IIS Express Application Compatibility Database for x64
+Microsoft Azure Authoring Tools - v2.9.5.3
+Windows App Certification Kit Native Components
+vs_Graphics_Singletonx64
+Microsoft SQL Server 2012 Native Client
+Windows SDK for Windows Store Apps DirectX x64 Remote
+Microsoft .NET Core SDK - 2.0.2 (x64)
+Application Verifier x64 External Package
+DiagnosticsHub_CollectionService
+Windows SDK for Windows Store Apps DirectX x64 Remote
+Active Directory Authentication Library for SQL Server
+Microsoft ASP.NET Core 2.0.0 Runtime Package Store (x64)
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161
+Microsoft Web Deploy 3.6
+Microsoft ASP.NET Core Module for IIS Express
+icecap_collection_x64
+Microsoft Visual Studio Team Foundation Server 2017 RC Office Integration (x64)
+Microsoft Visual Studio 2017
+VS JIT Debugger
+Microsoft Office Professional Plus 2016
+Microsoft Access MUI (Czech) 2016
+Microsoft Excel MUI (Czech) 2016
+Microsoft PowerPoint MUI (Czech) 2016
+Microsoft Publisher MUI (Czech) 2016
+Microsoft Outlook MUI (Czech) 2016
+Microsoft Word MUI (Czech) 2016
+Nástroje kontroly pravopisu pro Microsoft Office 2016 – čeština
+Microsoft Office Korrekturhilfen 2016 – Deutsch
+Microsoft Office Proofing Tools 2016 - English
+Nástroje korektúry balíka Microsoft Office 2016 - slovenčina
+Microsoft Office Proofing (Czech) 2016
+Microsoft InfoPath MUI (Czech) 2016
+Microsoft Office Shared MUI (Czech) 2016
+Microsoft DCF MUI (Czech) 2016
+Microsoft OneNote MUI (Czech) 2016
+Microsoft Groove MUI (Czech) 2016
+Microsoft Office 32-bit Components 2016
+Microsoft Office Shared 32-bit MUI (Czech) 2016
+Microsoft Office OSM MUI (Czech) 2016
+Microsoft Office OSM UX MUI (Czech) 2016
+Microsoft Skype for Business MUI (Czech) 2016
+Microsoft SQL Server 2016 LocalDB
+Microsoft SQL Server 2012 Command Line Utilities
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Microsoft System CLR Types for SQL Server 2017 CTP2.1
+Dell Touchpad
+IIS 10.0 Express
+Windows SDK DirectX x64 Remote
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+VS Script Debugging Common
+IIS Express Application Compatibility Database for x86
+Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.11.25325
+VMware Player
+Microsoft Visual C++ 2017 x64 Additional Runtime - 14.11.25325
+Microsoft Azure Compute Emulator - v2.9.5.3
+Microsoft .NET Core Runtime - 2.0.0 (x64)
+Microsoft Visual C++ 2017 x64 Debug Runtime - 14.11.25325
+Microsoft Azure Libraries for .NET – v2.9
+Microsoft .NET Core Host - 2.0.0 (x64)
+Application Verifier x64 External Package
+Universal CRT Tools x64
+Microsoft Visual Studio Code
+Microsoft .NET Core Host FX Resolver - 2.0.0 (x64)
+IntelliTraceProfilerProxy
+
+
+PS C:\WINDOWS\system32> $hash.Local_Disks
+
+
+FileSystem : NTFS
+Type       : Local Fixed Disk
+Volume     : C:
+Available  : 78238687232
+Computer   : DESKTOP-SOQV869
+Used       : 49217818624
+Size       : 127456505856
+
+FileSystem : NTFS
+Type       : Local Fixed Disk
+Volume     : D:
+Available  : 23432245248
+Computer   : DESKTOP-SOQV869
+Used       : 476539273216
+Size       : 499971518464
+
+
+
+PS C:\WINDOWS\system32> $hash.GemPlus_Reader
+Not Installed
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-01-49-32.txt
+10/19/2017 13:49:32 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-01-49-41.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  StartType
+-----------                                  ---------
+Background Intelligent Transfer Service              3
+Offline Files                                        2
+Optimize drives                                      3
+Device Association Service                           2
+Delivery Optimization                                2
+File History Service                                 2
+IKE and AuthIP IPsec Keying Modules                  2
+Touch Keyboard and Handwriting Panel Service         4
+Windows Event Collector                              2
+Windows Defender Antivirus Service                   3
+Windows Remote Management (WS-Management)            3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
+Transcript started, output file is D:\SICZ\AVAS\AVAS_2017_10_19.log
+Transcript started, output file is ./transcript2017-10-19-01-57-43.txt
+10/19/2017 13:57:43 - Nacitani json konfiguracniho souboru
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-19-01-57-52.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+spoustim test services diff
+
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  StartType
+-----------                                  ---------
+Background Intelligent Transfer Service              3
+Offline Files                                        2
+Optimize drives                                      3
+Device Association Service                           2
+Delivery Optimization                                2
+File History Service                                 2
+IKE and AuthIP IPsec Keying Modules                  2
+Touch Keyboard and Handwriting Panel Service         4
+Windows Event Collector                              2
+Windows Defender Antivirus Service                   3
+Windows Remote Management (WS-Management)            3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+
+
