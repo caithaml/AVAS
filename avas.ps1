@@ -38,7 +38,7 @@ Function Get-FileName($initialDirectory)
 $inputfile                                   = Get-FileName -initialDirectory 'D:\SICZ\avas\'
 $inputdata                                   = Get-Content $inputfile
 
-
+;
 
 $json                                        = $inputdata | ConvertFrom-Json
 $jsondef                                     = Get-Content -Path D:\SICZ\avas\hash_luka.json | ConvertFrom-Json
@@ -416,7 +416,7 @@ $Header = @"
 "@
 
 #############
-#telo
+#telo formulare
 #############
 
 $tisk = $tisk+'<p>'
