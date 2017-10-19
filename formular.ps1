@@ -395,12 +395,15 @@ $vysledek2=$hash.services
 $vysledkytestu=$hash.Apps,$hash.processes,$hash.hotfix,$hash.services,$hash.scheduledtasks,$hash.uwp
 
 
+#####################################################################
+# FORMULAR 
+#####################################################################
+
 $Header = @"
 <meta charset="utf-8">
 <title>Avas formulář</title>
 <style type="text/css">
-@media screen{
-}
+
 .header {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 24px;
@@ -420,85 +423,340 @@ $Header = @"
 #telo
 #############
 
-$tisk=$tisk+'<p>'
- $tisk=$tisk+' <header class="header">'
- $tisk=$tisk+'AVAS výsledek testu'
- $tisk=$tisk+'</header>'
-$tisk=$tisk+'</p>'
-$tisk=$tisk+'<table width="100%" border="1">'
- $tisk=$tisk+'<tbody>'
- $tisk=$tisk+'  <tr>'
- $tisk=$tisk+'    <th scope="row">'
- $tisk=$tisk+'Název počítače'
- $tisk=$tisk+'</th>'
-  $tisk=$tisk+'<td>'
-  $tisk=$tisk+$hash.computername
-  $tisk=$tisk+'</td>'
-    $tisk=$tisk+'  <td>'
-    $tisk=$tisk+'&nbsp;'
-    $tisk=$tisk+'</td>'
-    $tisk=$tisk+'</tr>'
-    $tisk=$tisk+'<tr>'
-      $tisk=$tisk+'<th scope="row">'
-      $tisk=$tisk+'Operační systém'
-      $tisk=$tisk+'</th>'
-      $tisk=$tisk+'<td>'
-      $tisk=$tisk+$hash.os
-      $tisk=$tisk+'</td>'
-      $tisk=$tisk+'<td>'
-      $tisk=$tisk+'&nbsp;'
-      $tisk=$tisk+'</td>'
-    $tisk=$tisk+'</tr>'
-    $tisk=$tisk+'<tr>'
-      $tisk=$tisk+'<th scope="row">'
-      $tisk=$tisk+'Doména'
-      $tisk=$tisk+'</th>'
-      $tisk=$tisk+'<td>'
-      $tisk=$tisk+$hash.domain
-      $tisk=$tisk+'</td>'
-      $tisk=$tisk+'<td>'
-      $tisk=$tisk+'&nbsp;'
-      $tisk=$tisk+'</td>'
-    $tisk=$tisk+'</tr>'
-$tisk=$tisk+'  </tbody>'
-$tisk=$tisk+'</table>'
-$tisk=$tisk+'<h3>'
-$tisk=$tisk+'Seznam instalovaného softwaru'
-$tisk=$tisk+'</h3>'
-$tisk=$tisk+'<p>'
-$tisk=$tisk+'instalovany_software'
-$tisk=$tisk+'</p>'
-$tisk=$tisk+'<p>'
-$tisk=$tisk+'&nbsp;'
-$tisk=$tisk+'</p>'
-$tisk=$tisk+'<h3>'
-$tisk=$tisk+'Seznam naplánovaných úloh'
-$tisk=$tisk+'</h3>'
-$tisk=$tisk+'<p>'
-$tisk=$tisk+'seznam_naplanovanych_uloh'
-$tisk=$tisk+'</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+' <header class="header">'
+$tisk = $tisk+'  AVAS výsledek testu'+$json.ComputerName
+$tisk = $tisk+'	</header>'
+$tisk = $tisk+'</p>'
+$tisk = $tisk+'<table width="100%" border="1">'
+$tisk = $tisk+' <tbody>'
+$tisk = $tisk+'  <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Název počítače'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+  $hash.computername
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Uživatel'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'  <td>'
+$tisk = $tisk+$json.User
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'      <th align="left" scope="row">'
+$tisk = $tisk+'  Poslední uživatel'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Last_User
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  Doména'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+'  <td>'
+$tisk = $tisk+$json.Domain
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Doména TCP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Domain_TCP
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Doména DHCP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Domain_DHCP
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Název sítě'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+'   <td>'
+$tisk = $tisk+$json.Site_Name
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  Aktivní DC'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'   <td>'
+$tisk = $tisk+$json.Active_DC
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Operační systém'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.OS
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Operační systém - build'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.OS_Build
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Datum instalace'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Install_Date
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  RAM celkem'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.RAM_Total+'MB'
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  Virtualni paměť'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Virtual_Total+'GB'
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'WIN adresář'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.WIN_Dir
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  SYS dir'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.SYS_Dir
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  TEMP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.TEMP_Dir
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'Execution policy'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Execution_Policy
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'<th align="left" scope="row">'
+$tisk = $tisk+'Šifrování TEMP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.TEMP_Encrypted
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  Protect .ini'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Protect_Ini
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  BIOS'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'  <td>'
+$tisk = $tisk+$json.BIOS
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+' Lokalizace systému'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.Locale
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Výchozí lokalizace'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Default_Locale
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  GemPlus reader'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.GemPlus_Reader
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+' SEP ochrana'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.SEP_ClientType
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'<th align="left" scope="row">'
+$tisk = $tisk+'  NetIP konfigurace'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.NetIPConfiguration
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'	  LAPS'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.LAPS
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Místní uživatelé'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Local_Users
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'  </tr>'
+$tisk = $tisk+'  <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Místní skupiny'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Local_Groups
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  Bitlocker'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Bitlocker
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  UEFI x BIOS'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+'UEFI'
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  UEFI oddíl'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.UEFI_partition
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  SecureBoot'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.secureboot
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  UWF'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.uwp
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' </tbody>'
+$tisk = $tisk+'</table>'
+$tisk = $tisk+'<h3>'
+$tisk = $tisk+'Seznam instalovaného softwaru'
+$tisk = $tisk+'</h3>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.Installed_Apps
+$tisk = $tisk+'</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'&nbsp;'
+	
+$tisk = $tisk+'</p>'
+$tisk = $tisk+'<h3>'
+$tisk = $tisk+'	Seznam naplánovaných úloh'
+$tisk = $tisk+'</h3>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.Scheduled_Tasks
+$tisk = $tisk+'</p>'
 
-$tisk=$tisk+'<p>'
-$tisk=$tisk+'&nbsp;'
-$tisk=$tisk+' </p>'
-$tisk=$tisk+'	<footer class="footer">'
-$tisk=$tisk+'Dokument vygenerován dne' 
-$tisk=$tisk+'$datum'
-$tisk=$tisk+' uživatelem'
-$tisk=$tisk+' $uzivatel'
-$tisk=$tisk+' na stanici'
-$tisk=$tisk+' $stanice'
-$tisk=$tisk+'</footer>'
+<#$tisk = $tisk+'<p>'
+    $tisk = $tisk+$json.Scheduled_Tasks
+    $tisk = $tisk+'	</p>'
+#>
+
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	Applocker'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.AppLocker
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	UWP apps'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.UWP_Apps
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	&nbsp;'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	&nbsp;'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	&nbsp;'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'	<footer class="footer">'
+$tisk = $tisk+'		Dokument vygenerován dne '
+$tisk = $tisk+	$(Get-Date)
+$tisk = $tisk+'		uživatelem '
+$tisk = $tisk+$env:UserName
+$tisk = $tisk+'		na stanici '
+$tisk = $tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
+
+$final|
+ConvertTo-Html -Head "$Header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 
+Out-File -FilePath D:\SICZ\AVAS\Testtisk.html
+Start-Process -FilePath chrome -ArgumentList D:\SICZ\AVAS\Testtisk.html
 
 
 
-
-
-   
-
-     $final|
-    ConvertTo-Html -Head "$header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 
-    Out-File -FilePath D:\SICZ\AVAS\Testtisk.html
+############################################################################################################
+# FORMULAR - KONEC
+############################################################################################################
     Start-Process -FilePath chrome -ArgumentList D:\SICZ\AVAS\Testtisk.html
 
  }
@@ -1308,19 +1566,368 @@ $mbtn_tisk.Left              = '903'
 $mbtn_tisk.Anchor            = 'Left,Top' 
 $mbtn_tisk.Size              = New-Object -TypeName System.Drawing.Size -ArgumentList (100, 23) 
 $mbtn_tisk.Add_Click( {
-    $a    = '<style>'
-    $a    = $a + 'BODY{background-color:peachpuff;}'
-    $a    = $a + 'TABLE{border-width: 1px;border-style: solid;border-color: black;border-collapse: collapse;}'
-    $a    = $a + 'TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}'
-    $a    = $a + 'TD{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:PaleGoldenrod}'
-    $a    = $a + '</style>'
-    $tisk = $json.ComputerName
-    $tisk = $tisk + $json.OS
-    $tisk = $tisk + $json.os_build
-        
-    $json.Services |
-    ConvertTo-Html -Head $a -Body "<H2>Test tisku formulare-pouze procesy!! Formular pripraven $(Get-Date) $(vysledektestu)</H2>" | 
-    Out-File -FilePath $env:HOMEDRIVE\SICZ\Testtisk.html
+   #####################################################################
+# FORMULAR 
+#####################################################################
+
+$Header = @"
+<meta charset="utf-8">
+<title>Avas formulář</title>
+<style type="text/css">
+
+.header {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 24px;
+	font-style: oblique;
+}
+	
+.footer {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 12px;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+"@
+
+#############
+#telo
+#############
+
+$tisk = $tisk+'<p>'
+$tisk = $tisk+' <header class="header">'
+$tisk = $tisk+'  AVAS výsledek testu'+$json.ComputerName
+$tisk = $tisk+'	</header>'
+$tisk = $tisk+'</p>'
+$tisk = $tisk+'<table width="100%" border="1">'
+$tisk = $tisk+' <tbody>'
+$tisk = $tisk+'  <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Název počítače'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+  $hash.computername
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Uživatel'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'  <td>'
+$tisk = $tisk+$json.User
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'      <th align="left" scope="row">'
+$tisk = $tisk+'  Poslední uživatel'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Last_User
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  Doména'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+'  <td>'
+$tisk = $tisk+$json.Domain
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Doména TCP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Domain_TCP
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Doména DHCP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Domain_DHCP
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'   <th align="left" scope="row">'
+$tisk = $tisk+'	  Název sítě'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+'   <td>'
+$tisk = $tisk+$json.Site_Name
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  Aktivní DC'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'   <td>'
+$tisk = $tisk+$json.Active_DC
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Operační systém'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.OS
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Operační systém - build'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.OS_Build
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Datum instalace'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Install_Date
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  RAM celkem'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.RAM_Total+'MB'
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  Virtualni paměť'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Virtual_Total+'GB'
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'WIN adresář'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.WIN_Dir
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  SYS dir'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.SYS_Dir
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  TEMP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.TEMP_Dir
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'Execution policy'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Execution_Policy
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'<th align="left" scope="row">'
+$tisk = $tisk+'Šifrování TEMP'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.TEMP_Encrypted
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  Protect .ini'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Protect_Ini
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  BIOS'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'  <td>'
+$tisk = $tisk+$json.BIOS
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+' Lokalizace systému'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.Locale
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Výchozí lokalizace'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Default_Locale
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  GemPlus reader'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+'<td>'
+$tisk = $tisk+$json.GemPlus_Reader
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+' SEP ochrana'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.SEP_ClientType
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'<th align="left" scope="row">'
+$tisk = $tisk+'  NetIP konfigurace'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.NetIPConfiguration
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'	  LAPS'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.LAPS
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Místní uživatelé'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Local_Users
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'  </tr>'
+$tisk = $tisk+'  <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'  Místní skupiny'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Local_Groups
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  Bitlocker'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.Bitlocker
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  UEFI x BIOS'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+'UEFI'
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  UEFI oddíl'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.UEFI_partition
+$tisk = $tisk+'</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+'<tr>'
+$tisk = $tisk+' <th align="left" scope="row">'
+$tisk = $tisk+'  SecureBoot'
+$tisk = $tisk+'</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.secureboot
+$tisk = $tisk+'	</td>'
+$tisk = $tisk+' </tr>'
+$tisk = $tisk+' <tr>'
+$tisk = $tisk+'  <th align="left" scope="row">'
+$tisk = $tisk+'	  UWF'
+$tisk = $tisk+'	</th>'
+$tisk = $tisk+' <td>'
+$tisk = $tisk+$json.uwp
+$tisk = $tisk+'</td>'
+$tisk = $tisk+'</tr>'
+$tisk = $tisk+' </tbody>'
+$tisk = $tisk+'</table>'
+$tisk = $tisk+'<h3>'
+$tisk = $tisk+'Seznam instalovaného softwaru'
+$tisk = $tisk+'</h3>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.Installed_Apps
+$tisk = $tisk+'</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'&nbsp;'
+	
+$tisk = $tisk+'</p>'
+$tisk = $tisk+'<h3>'
+$tisk = $tisk+'	Seznam naplánovaných úloh'
+$tisk = $tisk+'</h3>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.Scheduled_Tasks
+$tisk = $tisk+'</p>'
+
+<#$tisk = $tisk+'<p>'
+    $tisk = $tisk+$json.Scheduled_Tasks
+    $tisk = $tisk+'	</p>'
+#>
+
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	Applocker'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.AppLocker
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	UWP apps'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+$json.UWP_Apps
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	&nbsp;'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	&nbsp;'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'<p>'
+$tisk = $tisk+'	&nbsp;'
+$tisk = $tisk+'	</p>'
+$tisk = $tisk+'	<footer class="footer">'
+$tisk = $tisk+'		Dokument vygenerován dne '
+$tisk = $tisk+	$(Get-Date)
+$tisk = $tisk+'		uživatelem '
+$tisk = $tisk+$env:UserName
+$tisk = $tisk+'		na stanici '
+$tisk = $tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
+
+$final|
+ConvertTo-Html -Head "$Header" -Body "<H2>Výsledek AVAS $(Get-Date)</H2> $tisk " | 
+Out-File -FilePath D:\SICZ\AVAS\Testtisk.html
+Start-Process -FilePath chrome -ArgumentList D:\SICZ\AVAS\Testtisk.html
+
+
+
+############################################################################################################
+# FORMULAR - KONEC
+############################################################################################################
     Start-Process -FilePath chrome -ArgumentList $env:HOMEDRIVE\SICZ\Testtisk.html
 })
 
