@@ -25,8 +25,7 @@ Start-Transcript -Path "./transcript$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).txt"
 
 #Nacteni JSON souboru s exportovanymi informacemi ze zkusebniho rozhrani
 Write-Host -Object "$(Get-Date) - Nacitani json konfiguracniho souboru"
-Function Get-FileName($initialDirectory)
-{
+Function Get-FileName($initialDirectory) {
   $null = [System.Reflection.Assembly]::LoadWithPartialName('System.windows.forms')
     
   $OpenFileDialog                  = New-Object -TypeName System.Windows.Forms.OpenFileDialog
@@ -57,8 +56,7 @@ $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 $hash                  = New-Object -TypeName PSObject 
 
 
-if (!(Test-Path -Path "$scriptpath\config.ini")) 
-{
+if (!(Test-Path -Path "$scriptpath\config.ini")) {
   Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
   Stop-Transcript
   exit
@@ -68,8 +66,7 @@ $scriptpath = $MyInvocation.MyCommand.Path | Split-Path
 $hash                  = New-Object -TypeName PSObject 
 
 
-if (!(Test-Path -Path "$scriptpath\config.ini")) 
-{
+if (!(Test-Path -Path "$scriptpath\config.ini")) {
   Write-Host -Object "$(Get-Date) - Nelze najit soubor $scriptpath\config.ini `r"
   Stop-Transcript
   exit
@@ -79,61 +76,49 @@ Get-Content -Path "$scriptpath\config.ini"  | ForEach-Object -Begin {
   $set = @{}
 } -Process {
   $k = [regex]::split($_,'=')
-  if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true)) 
-  {
+  if(($k[0].CompareTo('') -ne 0) -and ($k[0].StartsWith('#') -ne $true)) {
     $set.Add($k[0], $k[1])
   }
 }
 
-if($set.debug -eq '1')
-{
+if($set.debug -eq '1') {
   Start-Transcript -Path "$scriptpath/debug-$(Get-Date -Format yyyy-MM-dd-hh-mm-ss).log"
 }
     
-else
-{
+else {
   Write-Host -message 'debug log neni aktivni, pokracuji dal'
 }
    
 
 
 
-if($set.admin -eq '1')
-{
+if($set.admin -eq '1') {
   Write-Verbose -Message "$(Get-Date) - zjisteni zda je uzivatel admin"
   #overeni ze je uzivatel administrator
   Write-Warning -Message 'Kontroluji admin prava'
   if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
-  [Security.Principal.WindowsBuiltInRole] 'Administrator'))
-  {
+  [Security.Principal.WindowsBuiltInRole] 'Administrator')) {
     Write-Warning -Message "Skript je nutne spustit s opravneni Administrator!  `n"
     Break 
   }
 }
       
-else
-{
+else {
   Write-Host -message 'pokracuji ve zpracovani'
 }
      
 
 
-if($set.appdifftest -eq '1')
-{
+if($set.appdifftest -eq '1') {
   Write-Host -Object 'spoustim test app diff'
-  function appdiff
-  {
+  function appdiff {
     $app = $jsondef.installed_apps
     $app2 = $json.installed_apps
         
-    $Diff = ForEach ($line1 in $app)   
-    {
-      ForEach ($line2 in $app2)   
-      {
-        IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-        {
-          IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze
-          {        
+    $Diff = ForEach ($line1 in $app) {
+      ForEach ($line2 in $app2) {
+        IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev {
+          IF ($line1.DisplayVersion -ne $line2.DisplayVersion)   # If jina verze {        
             New-Object -TypeName PSObject -Property @{
               DisplayName    = $line1.DisplayName
               DisplayVersion = $line1.DisplayVersion
@@ -150,8 +135,7 @@ if($set.appdifftest -eq '1')
  
 }  
      
-else
-{
+else {
   Write-Host -message 'pokracuji ve zpracovani bez testu applikaci'
 }
 $hash | Add-Member Noteproperty Apps (appdiff)
@@ -159,23 +143,17 @@ $hash | Add-Member Noteproperty Apps (appdiff)
 
     
     
-if($set.servdiff -eq '1')
-{
+if($set.servdiff -eq '1') {
   Write-Host -Object 'spoustim test services diff'
 }
-function servdiff
-{
+function servdiff {
   $app = $jsondef.services
   $app2 = $json.services
         
-  $Diff = ForEach ($line1 in $app)   
-  {
-    ForEach ($line2 in $app2)   
-    {
-      IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev
-      {
-        IF ($line1.StartType -ne $line2.StartType)   # If jina verze
-        {        
+  $Diff = ForEach ($line1 in $app) {
+    ForEach ($line2 in $app2) {
+      IF ($line1.DisplayName -eq $line2.DisplayName)   # If stejny nazev {
+        IF ($line1.StartType -ne $line2.StartType)   # If jina verze {        
           New-Object -TypeName PSObject -Property @{
             DisplayName = $line1.DisplayName
             StartType   = $line1.StartType
@@ -196,23 +174,17 @@ $hash | Add-Member Noteproperty services (servdiff)
       
       
            
-if($set.schedulediff -eq '1')
-{
+if($set.schedulediff -eq '1') {
   Write-Host -Object 'spoustim test scheduled tasks diff'
 }
-function schedulediff
-{
+function schedulediff {
   $app = $jsondef.scheduled_tasks
   $app2 = $json.scheduled_tasks
         
-  $Diff = ForEach ($line1 in $app)   
-  {
-    ForEach ($line2 in $app2)   
-    {
-      IF ($line1.FormatEntryinfo -eq $line2.FormatEntryInfo)   # If stejny nazev
-      {
-        IF ($line1.Outofband -ne $line2.Outofband)   # If jina verze
-        {        
+  $Diff = ForEach ($line1 in $app) {
+    ForEach ($line2 in $app2) {
+      IF ($line1.FormatEntryinfo -eq $line2.FormatEntryInfo)   # If stejny nazev {
+        IF ($line1.Outofband -ne $line2.Outofband)   # If jina verze {        
           New-Object -TypeName PSObject -Property @{
             formatentryinfo = $line1.formatentryinfo
             outofband       = $line1.outofband
@@ -229,23 +201,17 @@ $hash | Add-Member Noteproperty scheduledtasks (schedulediff)
 
 
 
-if($set.hotfixdiff -eq '1')
-{
+if($set.hotfixdiff -eq '1') {
   Write-Host -Object 'spoustim test hotfix diff'
 }
-function hotfixdiff
-{
+function hotfixdiff {
   $app = $jsondef.hotfixes
   $app2 = $json.hotfixes
         
-  $Diff = ForEach ($line1 in $app)   
-  {
-    ForEach ($line2 in $app2)   
-    {
-      IF ($line1.HotfixID -eq $line2.HotfixID)   # If stejny nazev
-      {
-        IF ($line1.Description -ne $line2.Description)   # If jina verze
-        {        
+  $Diff = ForEach ($line1 in $app) {
+    ForEach ($line2 in $app2) {
+      IF ($line1.HotfixID -eq $line2.HotfixID)   # If stejny nazev {
+        IF ($line1.Description -ne $line2.Description)   # If jina verze {        
           New-Object -TypeName PSObject -Property @{
             HotfixID    = $line1.HotfixID
             Description = $line1.Description
@@ -262,26 +228,20 @@ $hash | Add-Member Noteproperty hotfix (hotfixdiff)
    
 
 
-if($set.processesdiff -eq '1')
-    {
+if($set.processesdiff -eq '1') {
     Write-Host "spoustim test services diff"
     }
-    function processesdiff
-    {
+    function processesdiff {
     $def = Get-Content -Path $scriptpath\hash_luka.json | ConvertFrom-Json  
     $new = Get-Content -Path $scriptpath\mica.json | ConvertFrom-Json  
 
     $app=$def.processes
     $app2=$new.processes
         
-    $Diff = ForEach ($line1 in $app)   
-    {
-    ForEach ($line2 in $app2)   
-    {
-    IF ($line1.Product -eq $line2.Product)   # If stejny nazev
-    {
-    IF ($line1.Description -ne $line2.Description)   # If jina verze
-    {        
+    $Diff = ForEach ($line1 in $app) {
+    ForEach ($line2 in $app2) {
+    IF ($line1.Product -eq $line2.Product)   # If stejny nazev {
+    IF ($line1.Description -ne $line2.Description)   # If jina verze {        
     New-Object -TypeName PSObject -Property @{
     Product    = $line1.Product
     Description = $line1.Description
@@ -301,26 +261,20 @@ if($set.processesdiff -eq '1')
  
    
 
-if($set.uwpdiff -eq '1')
-{
+if($set.uwpdiff -eq '1') {
   Write-Host -Object 'spoustim test uwp apps diff'
 }
-function uwpdiff
-{
+function uwpdiff {
   <#$def = Get-Content -Path  $scriptpath\mica.json | ConvertFrom-Json  
       $new = Get-Content -Path  $scriptpath\hash_mica.json | ConvertFrom-Json  
   #>
   $app = $jsondef.uwp_apps
   $app2 = $json.uwp_apps
         
-  $Diff = ForEach ($line1 in $app)   
-  {
-    ForEach ($line2 in $app2)   
-    {
-      IF ($line1.Name -eq $line2.Name)   # If stejny nazev
-      {
-        IF ($line1.PackageFullName -ne $line2.PackageFullName)   # If jina verze
-        {        
+  $Diff = ForEach ($line1 in $app) {
+    ForEach ($line2 in $app2) {
+      IF ($line1.Name -eq $line2.Name)   # If stejny nazev {
+        IF ($line1.PackageFullName -ne $line2.PackageFullName)   # If jina verze {        
           New-Object -TypeName PSObject -Property @{
             Name            = $line1.Name
             PackageFullName = $line1.PackageFullName
@@ -336,8 +290,7 @@ uwpdiff
 $hash | Add-Member Noteproperty uwp (uwpdiff)
    
    
-   if($set.hash -eq '1')
-{
+   if($set.hash -eq '1') {
   Write-Host -Object 'pridavam hash noteproperty'
 
 
@@ -383,8 +336,7 @@ $hash
 
 
    
-   if($set.formular -eq '1')
-{
+   if($set.formular -eq '1') {
 
 $vysledek=$hash.Apps | out-string
 $vysledek2=$hash.services 
@@ -751,8 +703,7 @@ $tisk = $tisk+$env:COMPUTERNAME+'/'+$env:UserDomain
 
  }
    
-   if($set.gui -eq '1')
-{
+   if($set.gui -eq '1') {
 #==============================================================================================
 # GUI
 #==============================================================================================
@@ -1658,8 +1609,7 @@ $mbtn_nacistjson.Add_Click( {
     $result                          = $openFileDialog.ShowDialog()   # Display the Dialog / Wait for user response 
     # in ISE you may have to alt-tab or minimize ISE to see dialog box 
     $result 
-    if ($result -eq 'OK') 
-    {    
+    if ($result -eq 'OK') {    
       Write-Verbose -Message 'Selected  Settings File:'  
       $openFileDialog.filename   
       $openFileDialog.CheckFileExists 
@@ -1668,8 +1618,7 @@ $mbtn_nacistjson.Add_Click( {
       # Unremark the above line if you actually want to perform an import of a publish settings file  
       Write-Verbose -Message 'Import Settings File Imported!'
     } 
-    else 
-    {
+    else {
       Write-Verbose -Message 'Import Settings File Cancelled!'
     } 
 })

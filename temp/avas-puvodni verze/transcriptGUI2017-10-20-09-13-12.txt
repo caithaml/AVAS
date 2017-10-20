@@ -1,0 +1,246 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171020091312
+Username: DESKTOP-SOQV869\Lukas
+RunAs User: DESKTOP-SOQV869\Lukas
+Configuration Name: 
+Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1'
+Process ID: 11460
+PSVersion: 5.1.16299.19
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.19
+BuildVersion: 10.0.16299.19
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./transcriptGUI2017-10-20-09-13-12.txt
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:67 char:3
++   $mList.AddRange($mElementsArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:67 char:3
++   $mList.AddRange($mElementsArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:69 char:3
++   $mElemetnsGrid.Columns[1].ReadOnly   = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:69 char:3
++   $mElemetnsGrid.Columns[1].ReadOnly   = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+Cannot index into a null array.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:72 char:3
++   [array]$mPropertyArr                 = $mFormObj.Elements[$mElemetn ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+Cannot index into a null array.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:72 char:3
++   [array]$mPropertyArr                 = $mFormObj.Elements[$mElemetn ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:73 char:3
++   $mList2.AddRange($mPropertyArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:73 char:3
++   $mList2.AddRange($mPropertyArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:75 char:3
++   $mPropertiesGrid.Columns[0].ReadOnly = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:75 char:3
++   $mPropertiesGrid.Columns[0].ReadOnly = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:67 char:3
++   $mList.AddRange($mElementsArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:67 char:3
++   $mList.AddRange($mElementsArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:69 char:3
++   $mElemetnsGrid.Columns[1].ReadOnly   = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:69 char:3
++   $mElemetnsGrid.Columns[1].ReadOnly   = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+Cannot index into a null array.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:72 char:3
++   [array]$mPropertyArr                 = $mFormObj.Elements[$mElemetn ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+Cannot index into a null array.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:72 char:3
++   [array]$mPropertyArr                 = $mFormObj.Elements[$mElemetn ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:73 char:3
++   $mList2.AddRange($mPropertyArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:73 char:3
++   $mList2.AddRange($mPropertyArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:75 char:3
++   $mPropertiesGrid.Columns[0].ReadOnly = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:75 char:3
++   $mPropertiesGrid.Columns[0].ReadOnly = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:67 char:3
++   $mList.AddRange($mElementsArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:67 char:3
++   $mList.AddRange($mElementsArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:69 char:3
++   $mElemetnsGrid.Columns[1].ReadOnly   = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:69 char:3
++   $mElemetnsGrid.Columns[1].ReadOnly   = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+Cannot index into a null array.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:72 char:3
++   [array]$mPropertyArr                 = $mFormObj.Elements[$mElemetn ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+Cannot index into a null array.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:72 char:3
++   [array]$mPropertyArr                 = $mFormObj.Elements[$mElemetn ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:73 char:3
++   $mList2.AddRange($mPropertyArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+Exception calling "AddRange" with "1" argument(s): "Collection cannot be null.
+Parameter name: c"
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:73 char:3
++   $mList2.AddRange($mPropertyArr)
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentNullException
+
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:75 char:3
++   $mPropertiesGrid.Columns[0].ReadOnly = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'ReadOnly' cannot be found on this object. Verify that the property exists and can be set.
+At D:\SICZ\AVAS\temp\avas-puvodni verze\editovatgui.ps1:75 char:3
++   $mPropertiesGrid.Columns[0].ReadOnly = $true
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+Cancel
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20171020095334
+**********************

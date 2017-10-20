@@ -1,0 +1,30 @@
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\bin\Debug\AVAS GUI.exe.config
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\bin\Debug\AVAS GUI.exe
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\bin\Debug\AVAS GUI.pdb
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.csprojResolveAssemblyReference.cache
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\MainWindow.g.cs
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\App.g.cs
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI_MarkupCompile.cache
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI_MarkupCompile.lref
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\MainWindow.baml
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.g.resources
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS_GUI.Properties.Resources.resources
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.csproj.GenerateResource.Cache
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.exe
+C:\Users\lukas\OneDrive\Documents\GitHub\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.pdb
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\bin\Debug\AVAS GUI.exe.config
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\bin\Debug\AVAS GUI.exe
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\bin\Debug\AVAS GUI.pdb
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.csprojResolveAssemblyReference.cache
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\MainWindow.g.cs
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\App.g.cs
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI_MarkupCompile.cache
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI_MarkupCompile.lref
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\MainWindow.baml
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.g.resources
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS_GUI.Properties.Resources.resources
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.csproj.GenerateResource.Cache
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.csproj.CoreCompileInputs.cache
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.exe
+d:\SICZ\AVAS\AVAS GUI\AVAS GUI\obj\Debug\AVAS GUI.pdb
