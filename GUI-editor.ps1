@@ -1,5 +1,6 @@
 ﻿<#
 Editor GUI rozhraní pro powershell skripty použitý pro zobrazení jednotlivých C# winform prvků. Zkrácená verze pro potřebu využití vytvoření GUI AVAS.
+Aktuální verze je k dispozici u mě na GItu
 
 
 #>
