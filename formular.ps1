@@ -5,6 +5,8 @@
 #popis konfigurace v ini souboru
 #
 #
+#slouží k zobrazen í GUI rozhraní a tiskového rozhraní formuláře
+# GUI je popsáno níže, stejně tak HTML verze skriptu pro tisk formuláře
 #################################################################################################
 
 New-EventLog -LogName Application -Source "AVAS"

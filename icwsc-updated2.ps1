@@ -8,7 +8,8 @@
     **************************************************************
     Authors: 
     mica S.ICZ 
-    LuKa S.ICZ                                            
+    LuKa S.ICZ      
+    přidány úpravy podle posledních požadavků... opraveny některé chyby, kdy se nezobrazovala dat apři zpracování avas                                      
 ..............................................................#>
 
 Clear-Host

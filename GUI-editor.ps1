@@ -1,3 +1,9 @@
+﻿<#
+Editor GUI rozhraní pro powershell skripty použitý pro zobrazení jednotlivých C# winform prvků. Zkrácená verze pro potřebu využití vytvoření GUI AVAS.
+
+
+#>
+
 Start-Transcript -Path "./transcript$(get-date -f yyyy-MM-dd-hh-mm-ss).txt"
 Add-Type -AssemblyName System.Windows.Forms 
 Add-Type -AssemblyName System.Drawing 
@@ -301,7 +307,7 @@ Function Get-FileName($initialDirectory)  {
  
     $SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog 
     $SaveFileDialog.initialDirectory = $initialDirectory 
-    $SaveFileDialog.filter = “Powershell Script (*.ps1)|*.ps1|All files (*.*)|*.*” 
+    $SaveFileDialog.filter = â€œPowershell Script (*.ps1)|*.ps1|All files (*.*)|*.*â€ 
     $SaveFileDialog.ShowDialog() | Out-Null 
     $SaveFileDialog.filename 
           
