@@ -524,12 +524,12 @@ $hash | Add-Member NoteProperty Logs_AppLocker_Execution $(Get-WinEvent -FilterH
     StartTime = $limitlogs
 })
 
-<#$hash | Add-Member NoteProperty Logs_Application $(Get-WinEvent -FilterHashtable @{
+$hash | Add-Member NoteProperty Logs_Application $(Get-WinEvent -FilterHashtable @{
     logname   = 'Application'
     level     = 2, 3
     StartTime = $limitlogs
     })
-#>
+
 
 $hash | Add-Member noteproperty Scheduled_Tasks (Get-ScheduledTask |Format-List)
 $hash | Add-Member NoteProperty AppLocker_Policy (Get-AppLockerPolicy -Effective).rulecollections
@@ -548,7 +548,7 @@ $hash | Add-Member NoteProperty UEFIxBIOS (if (Test-Path -Path $env:WINDIR\Panth
 })
 $hash | Add-Member NoteProperty UEFI_partition (Get-WmiObject  -Query 'Select * from Win32_DiskPartition Where Type = "GPT: System"' | Select-Object -Property Name, Index, Bootable, BootPartition, PrimaryPartition, @{
     n = 'SizeInMB'
-    e = {
+    e = {$has
       $_.Size/1MB
     }
 })

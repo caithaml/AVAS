@@ -349,7 +349,7 @@ $hash | Add-Member Noteproperty Applocker ($json.AppLocker)
 $hash | Add-Member Noteproperty BIOS ($json.BIOS)
 $hash | Add-Member Noteproperty Bios_date ($json.BIOS_Date)
 $hash | Add-Member Noteproperty Bitlocker ($json.Bitlocker)
-$hash | Add-Member Noteproperty Computerturen_root_certifikates ($json.Computer_Root_Certificates) 
+$hash | Add-Member Noteproperty Computer_root_certifikates ($json.Computer_Root_Certificates) 
 $hash | Add-Member Noteproperty ComputerName ($json.ComputerName)
 $hash | Add-Member Noteproperty Country ($json.Country)
 $hash | Add-Member Noteproperty Date ($json.Date)
@@ -366,6 +366,7 @@ $hash | Add-Member Noteproperty AV_MS_scanner_build ($json.AV_MS_Scanner_Build)
 $hash | Add-Member Noteproperty AV_MS_scanner_version ($json.AV_MS_Scanner_Version)
 $hash | Add-Member Noteproperty AV_MS_version ($json.AV_MS_Version)
 $hash | Add-Member Noteproperty OS ($json.OS)
+$hash | Add-Member NoteProperty InstallDate ($json.Install_Date)
 
 }
 
@@ -815,7 +816,7 @@ Start-Process -FilePath chrome -ArgumentList D:\SICZ\AVAS\Testtisk.html
      
  
     $maktivaceprovedenadne = New-Object System.Windows.Forms.Label 
-        $maktivaceprovedenadne.Text="Label4" 
+        $maktivaceprovedenadne.Text=$json.Install_Date 
         $maktivaceprovedenadne.Top="63" 
         $maktivaceprovedenadne.Left="108" 
         $maktivaceprovedenadne.Anchor="Left,Top" 
@@ -896,7 +897,7 @@ Start-Process -FilePath chrome -ArgumentList D:\SICZ\AVAS\Testtisk.html
      
  
     $mLabel12 = New-Object System.Windows.Forms.Label 
-        $mLabel12.Text="Číslo zásuvbky" 
+        $mLabel12.Text="Číslo zásuvky" 
         $mLabel12.Top="92" 
         $mLabel12.Left="210" 
         $mLabel12.Anchor="Left,Top" 

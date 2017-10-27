@@ -1,0 +1,2335 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171026135905
+Username: DESKTOP-SOQV869\karabecl
+RunAs User: DESKTOP-SOQV869\karabecl
+Configuration Name: 
+Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 9200
+PSVersion: 5.1.16299.19
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.19
+BuildVersion: 10.0.16299.19
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-26-01-59-05.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+DisplayName                  DisplayVersion Publisher
+-----------                  -------------- ---------
+VMware Player                12.5.7         VMware, Inc.
+Microsoft Visual Studio Code 1.17.0         Microsoft Corporation
+Offline Files
+Device Association Service
+File History Service
+IKE and AuthIP IPsec Keyi...
+Windows Image Acquisition...
+Storage Service
+Touch Keyboard and Handwr...
+Windows Event Collector
+Windows Defender Antiviru...
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+spoustim test services diff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pridavam hash noteproperty
+
+Cancel
+
+
+PS C:\WINDOWS\system32> Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+
+Timestamp                 CounterSamples
+---------                 --------------
+26/10/2017 13:59:47       \\desktop-soqv869\memory\available mbytes :
+                          3217
+
+
+26/10/2017 13:59:48       \\desktop-soqv869\memory\available mbytes :
+                          3216
+
+
+26/10/2017 13:59:49       \\desktop-soqv869\memory\available mbytes :
+                          3226
+
+
+26/10/2017 13:59:50       \\desktop-soqv869\memory\available mbytes :
+                          3233
+
+
+26/10/2017 13:59:51       \\desktop-soqv869\memory\available mbytes :
+                          3236
+
+
+26/10/2017 13:59:52       \\desktop-soqv869\memory\available mbytes :
+                          3231
+
+
+26/10/2017 13:59:53       \\desktop-soqv869\memory\available mbytes :
+                          3234
+
+
+26/10/2017 13:59:54       \\desktop-soqv869\memory\available mbytes :
+                          3237
+
+
+26/10/2017 13:59:55       \\desktop-soqv869\memory\available mbytes :
+                          3236
+
+
+26/10/2017 13:59:56       \\desktop-soqv869\memory\available mbytes :
+                          3237
+
+
+26/10/2017 13:59:57       \\desktop-soqv869\memory\available mbytes :
+                          3236
+
+
+26/10/2017 13:59:58       \\desktop-soqv869\memory\available mbytes :
+                          3239
+
+
+26/10/2017 13:59:59       \\desktop-soqv869\memory\available mbytes :
+                          3240
+
+
+26/10/2017 14:00:00       \\desktop-soqv869\memory\available mbytes :
+                          3238
+
+
+26/10/2017 14:00:01       \\desktop-soqv869\memory\available mbytes :
+                          3240
+
+
+26/10/2017 14:00:02       \\desktop-soqv869\memory\available mbytes :
+                          3247
+
+
+26/10/2017 14:00:03       \\desktop-soqv869\memory\available mbytes :
+                          3242
+
+
+26/10/2017 14:00:04       \\desktop-soqv869\memory\available mbytes :
+                          3240
+
+
+26/10/2017 14:00:05       \\desktop-soqv869\memory\available mbytes :
+                          3234
+
+
+26/10/2017 14:00:06       \\desktop-soqv869\memory\available mbytes :
+                          3226
+
+
+26/10/2017 14:00:08       \\desktop-soqv869\memory\available mbytes :
+                          3223
+
+
+26/10/2017 14:00:09       \\desktop-soqv869\memory\available mbytes :
+                          3221
+
+
+26/10/2017 14:00:10       \\desktop-soqv869\memory\available mbytes :
+                          3223
+
+
+26/10/2017 14:00:11       \\desktop-soqv869\memory\available mbytes :
+                          3229
+
+
+26/10/2017 14:00:12       \\desktop-soqv869\memory\available mbytes :
+                          3242
+
+
+26/10/2017 14:00:13       \\desktop-soqv869\memory\available mbytes :
+                          3241
+
+
+26/10/2017 14:00:14       \\desktop-soqv869\memory\available mbytes :
+                          3251
+
+
+26/10/2017 14:00:15       \\desktop-soqv869\memory\available mbytes :
+                          3242
+
+
+26/10/2017 14:00:16       \\desktop-soqv869\memory\available mbytes :
+                          3244
+
+
+26/10/2017 14:00:17       \\desktop-soqv869\memory\available mbytes :
+                          3244
+
+
+26/10/2017 14:00:18       \\desktop-soqv869\memory\available mbytes :
+                          3246
+
+
+26/10/2017 14:00:19       \\desktop-soqv869\memory\available mbytes :
+                          3253
+
+
+26/10/2017 14:00:20       \\desktop-soqv869\memory\available mbytes :
+                          3250
+
+
+26/10/2017 14:00:21       \\desktop-soqv869\memory\available mbytes :
+                          3257
+
+
+26/10/2017 14:00:22       \\desktop-soqv869\memory\available mbytes :
+                          3250
+
+
+26/10/2017 14:00:23       \\desktop-soqv869\memory\available mbytes :
+                          3246
+
+
+26/10/2017 14:00:24       \\desktop-soqv869\memory\available mbytes :
+                          3248
+
+
+26/10/2017 14:00:25       \\desktop-soqv869\memory\available mbytes :
+                          3246
+
+
+26/10/2017 14:00:26       \\desktop-soqv869\memory\available mbytes :
+                          3248
+
+
+26/10/2017 14:00:27       \\desktop-soqv869\memory\available mbytes :
+                          3249
+
+
+26/10/2017 14:00:28       \\desktop-soqv869\memory\available mbytes :
+                          3241
+
+
+26/10/2017 14:00:29       \\desktop-soqv869\memory\available mbytes :
+                          3243
+
+
+26/10/2017 14:00:30       \\desktop-soqv869\memory\available mbytes :
+                          3234
+
+
+26/10/2017 14:00:31       \\desktop-soqv869\memory\available mbytes :
+                          3235
+
+
+26/10/2017 14:00:32       \\desktop-soqv869\memory\available mbytes :
+                          3230
+
+
+26/10/2017 14:00:33       \\desktop-soqv869\memory\available mbytes :
+                          3235
+
+
+26/10/2017 14:00:34       \\desktop-soqv869\memory\available mbytes :
+                          3230
+
+
+26/10/2017 14:00:35       \\desktop-soqv869\memory\available mbytes :
+                          3229
+
+
+26/10/2017 14:00:36       \\desktop-soqv869\memory\available mbytes :
+                          3228
+
+
+26/10/2017 14:00:37       \\desktop-soqv869\memory\available mbytes :
+                          3228
+
+
+26/10/2017 14:00:38       \\desktop-soqv869\memory\available mbytes :
+                          3226
+
+
+26/10/2017 14:00:39       \\desktop-soqv869\memory\available mbytes :
+                          3228
+
+
+26/10/2017 14:00:40       \\desktop-soqv869\memory\available mbytes :
+                          3230
+
+
+26/10/2017 14:00:41       \\desktop-soqv869\memory\available mbytes :
+                          3236
+
+
+26/10/2017 14:00:42       \\desktop-soqv869\memory\available mbytes :
+                          3235
+
+
+26/10/2017 14:00:43       \\desktop-soqv869\memory\available mbytes :
+                          3176
+
+
+26/10/2017 14:00:44       \\desktop-soqv869\memory\available mbytes :
+                          3165
+
+
+26/10/2017 14:00:45       \\desktop-soqv869\memory\available mbytes :
+                          3171
+
+
+26/10/2017 14:00:46       \\desktop-soqv869\memory\available mbytes :
+                          3173
+
+
+26/10/2017 14:00:47       \\desktop-soqv869\memory\available mbytes :
+                          3173
+
+
+26/10/2017 14:00:48       \\desktop-soqv869\memory\available mbytes :
+                          3178
+
+
+26/10/2017 14:00:49       \\desktop-soqv869\memory\available mbytes :
+                          3181
+
+
+26/10/2017 14:00:50       \\desktop-soqv869\memory\available mbytes :
+                          3174
+
+
+26/10/2017 14:00:51       \\desktop-soqv869\memory\available mbytes :
+                          3169
+
+
+26/10/2017 14:00:52       \\desktop-soqv869\memory\available mbytes :
+                          3186
+
+
+26/10/2017 14:00:53       \\desktop-soqv869\memory\available mbytes :
+                          3184
+
+
+26/10/2017 14:00:54       \\desktop-soqv869\memory\available mbytes :
+                          3180
+
+
+26/10/2017 14:00:55       \\desktop-soqv869\memory\available mbytes :
+                          3182
+
+
+26/10/2017 14:00:56       \\desktop-soqv869\memory\available mbytes :
+                          3190
+
+
+26/10/2017 14:00:57       \\desktop-soqv869\memory\available mbytes :
+                          3191
+
+
+26/10/2017 14:00:58       \\desktop-soqv869\memory\available mbytes :
+                          3184
+
+
+26/10/2017 14:00:59       \\desktop-soqv869\memory\available mbytes :
+                          3187
+
+
+26/10/2017 14:01:00       \\desktop-soqv869\memory\available mbytes :
+                          3229
+
+
+26/10/2017 14:01:01       \\desktop-soqv869\memory\available mbytes :
+                          3227
+
+
+26/10/2017 14:01:02       \\desktop-soqv869\memory\available mbytes :
+                          3224
+
+
+26/10/2017 14:01:03       \\desktop-soqv869\memory\available mbytes :
+                          3217
+
+
+26/10/2017 14:01:04       \\desktop-soqv869\memory\available mbytes :
+                          3216
+
+
+26/10/2017 14:01:05       \\desktop-soqv869\memory\available mbytes :
+                          3208
+
+
+26/10/2017 14:01:06       \\desktop-soqv869\memory\available mbytes :
+                          3215
+
+
+26/10/2017 14:01:07       \\desktop-soqv869\memory\available mbytes :
+                          3214
+
+
+26/10/2017 14:01:08       \\desktop-soqv869\memory\available mbytes :
+                          3205
+
+
+26/10/2017 14:01:09       \\desktop-soqv869\memory\available mbytes :
+                          3211
+
+
+26/10/2017 14:01:10       \\desktop-soqv869\memory\available mbytes :
+                          3215
+
+
+26/10/2017 14:01:11       \\desktop-soqv869\memory\available mbytes :
+                          3209
+
+
+26/10/2017 14:01:12       \\desktop-soqv869\memory\available mbytes :
+                          3204
+
+
+26/10/2017 14:01:13       \\desktop-soqv869\memory\available mbytes :
+                          3212
+
+
+26/10/2017 14:01:14       \\desktop-soqv869\memory\available mbytes :
+                          3209
+
+
+26/10/2017 14:01:15       \\desktop-soqv869\memory\available mbytes :
+                          3206
+
+
+26/10/2017 14:01:16       \\desktop-soqv869\memory\available mbytes :
+                          3213
+
+
+26/10/2017 14:01:17       \\desktop-soqv869\memory\available mbytes :
+                          3217
+
+
+26/10/2017 14:01:18       \\desktop-soqv869\memory\available mbytes :
+                          3214
+
+
+26/10/2017 14:01:19       \\desktop-soqv869\memory\available mbytes :
+                          3212
+
+
+26/10/2017 14:01:20       \\desktop-soqv869\memory\available mbytes :
+                          3209
+
+
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> Start-Transcript C:\powershell.txt
+Transcript started, output file is C:\powershell.txt
+PS C:\WINDOWS\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 Get-Process
+   2 D:\SICZ\AVAS\avas.ps1
+   3 D:\SICZ\AVAS\avas_backup.ps1
+   4 D:\SICZ\AVAS\avas_backup.ps1
+   5 Get-Counter -Counter "\memory\available mbytes"  -SampleInterval 1
+   6 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+   7 D:\SICZ\AVAS\icwsc-updated2.ps1
+   8 $hash.Active_DC
+   9 $hash
+  10 $hash.Installed_Apps
+  11 history
+  12 D:\SICZ\AVAS\formular.ps1
+  13 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+  14 Start-Transcript C:\powershell.txt
+
+
+PS C:\WINDOWS\system32> Get-process
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+    876      77    39388      68300      16.27   9448   1 acrobatproDC_00000000000000000000000405
+    129      10     1804       6312      15.05   6308   1 ApMsgFwd
+    141       9     1716       6520       3.92   6536   1 ApntEx
+    348      20     4512      18688       3.16   5896   1 Apoint
+    471      25    14860      33628       5.09   6032   1 ApplicationFrameHost
+    229      14     9740      18276       4.88   3276   0 audiodg
+    784      28    10168      28552       2.50   7856   1 backgroundTaskHost
+    598      26     7436      35744       0.67   8576   1 browser_broker
+    646      40    23764      42748     552.84   6044   1 CheckPointVpnPluginApp
+    133       9     5568       6424       0.06   6584   1 conhost
+    573      21     1636       4632               512   0 csrss
+    611      22     2488       5112               628   1 csrss
+    475      17     4496      15924      11.69   5680   1 ctfmon
+    295      19     5020      12948       0.63   3764   1 dllhost
+   1051      43   106836     107824              1032   1 dwm
+   2413      79    49384     119036      45.00   5968   1 explorer
+     68       9     4148       4284               452   1 fontdrvhost
+     45       6     1532       2596               856   0 fontdrvhost
+     80       7     1144       4536       0.02   6508   1 hidfind
+    107       7     1176       4504              3844   0 HidMonitorSvc
+   1112      55    88000     106488      30.45   8156   1 HxOutlook
+    734      43    74924     111096     224.75  12192   1 HxTsr
+     75       5      932       3364              3884   0 ibtsiva
+      0       0       52          8                 0   0 Idle
+    185       9     1936       7604              2192   0 igfxCUIService
+    209      13     3448      10624       0.11   5736   1 igfxEM
+    130       9     2276       7612       0.03   5748   1 igfxHK
+    249      15     7728      11176              3900   0 IpOverUsbSvc
+    461      24    16468      35840       0.45    808   1 LockApp
+   1804      31    11288      22952               704   0 lsass
+      0       0      540     106244              1876   0 Memory Compression
+   1339     166   147744     206512     164.14   2800   1 MicrosoftEdge
+    956      54    44348      84140       1.52   5672   1 MicrosoftEdgeCP
+    516      23     5908      26824       0.11  10888   1 MicrosoftEdgeCP
+    535      24     5936      27248       0.14  11916   1 MicrosoftEdgeCP
+   1148      64    61840      97444      10.33  12284   1 MicrosoftEdgeCP
+    419      19     5720      24760       2.17  13140   1 MicrosoftEdgeCP
+    748      70   139496      90024              4136   0 MsMpEng
+    317     201    14892       9960              7268   0 NisSrv
+    132       9     1476       1356       0.06   4056   1 ONENOTEM
+   1543     110   650128     575092     130.00   9200   1 powershell_ise
+    221      26    25072      13016              5140   0 PresentationFontCache
+    398      33    17408       4124       0.28   2552   1 RAVBg64
+    281      14     5708       9476              2584   1 RAVBg64
+    285      14     5652       9780       0.05   8952   1 RAVBg64
+    348      21     9852      16260       0.42   7372   1 RemindersServer
+    162       8     1672       6568              2536   0 RtkAudioService64
+    355      14     4340      11040       0.20   8880   1 RtkNGUI64
+    117       7     1568       6584       0.00    876   1 RuntimeBroker
+    172       9     2072       9440       0.11   3540   1 RuntimeBroker
+    182      10     2644      11620       0.38   4624   1 RuntimeBroker
+    374      20     7132      26360       0.52   6744   1 RuntimeBroker
+    477      26     7944      20544       1.95   7152   1 RuntimeBroker
+    523      26     7988      29804       0.86   7308   1 RuntimeBroker
+    130       7     1872       7092       0.08   7956   1 RuntimeBroker
+    590      27    10624      45864       5.17   8000   1 RuntimeBroker
+    412     517    74108      87064     252.53  10788   1 RuntimeBroker
+    467      24     8636      20664       2.89  11832   1 RuntimeBroker
+    282      17     5432      22992       0.27  12136   1 RuntimeBroker
+    137       8     2184       9268              4732   0 SearchFilterHost
+    825      75    57280      53448              2828   0 SearchIndexer
+    376      13     2932      14040              4164   0 SearchProtocolHost
+   1307      94   109760      90024      13.94   6920   1 SearchUI
+    318      15     3620      13920              3228   0 SecurityHealthService
+    688      12     4920       9132               692   0 services
+    767     169   217236     101100     968.56   7720   1 SettingSyncHost
+   1059      46    46748      62464      13.98   6800   1 ShellExperienceHost
+    793      19    10508      31020      10.59   4724   1 sihost
+   1581      82   119576     102012      37.52   7484   1 Skype
+    592      58    40860      53360      32.63   1580   1 SkypeBrowserHost
+    541      37    15772      28480       1.61   9856   1 SkypeBrowserHost
+     52       3      472        972               360   0 smss
+    526      26    21540      27832       0.70   4324   1 SpeechRuntime
+    396      21     5228      10172              3392   0 spoolsv
+    235      12     3300      10492               552   0 svchost
+     77       5      916       3436               820   0 svchost
+   1222      25    13016      26724               848   0 svchost
+   1284      22    21708      28072               936   0 svchost
+    335      10     2844       7780               980   0 svchost
+    397      14     3656       9888              1060   0 svchost
+    160      10     1916       6660              1116   0 svchost
+    187      11     2172      12212              1232   0 svchost
+    164      10     2288      11028              1240   0 svchost
+    379      17     5448      13080              1260   0 svchost
+    223      12     2508       9720              1356   0 svchost
+    113       9     1504       5220              1396   0 svchost
+    799      10     2396       8504              1512   0 svchost
+    491      34    14052      16448              1560   0 svchost
+    163      10     1764       6592              1572   0 svchost
+    199       9     1796       6040              1724   0 svchost
+    209      10     1968       7668              1780   0 svchost
+    442      23    15556      18056              1788   0 svchost
+    150      31     6300       9192              1816   0 svchost
+    382      16     3276      14172              1832   0 svchost
+    225       7     1368       5268              1900   0 svchost
+    208      11     2396      11532              1908   0 svchost
+    158       9     1876       6744              1916   0 svchost
+    176      11     1992       7396              1940   0 svchost
+    199      14     2120       7972              2116   0 svchost
+    223      13     2192       7696              2144   0 svchost
+    130       9     1740       7664              2248   0 svchost
+    158       9     1724       6768              2256   0 svchost
+    208      11     2504       9372              2296   0 svchost
+    361      14     7684      15484              2448   0 svchost
+    314      13     3068      11732              2468   0 svchost
+    140       8     1652       7196              2548   0 svchost
+    185       9     2664      10336              2620   0 svchost
+    444      18     3772      11692              2628   0 svchost
+    233      14     3736       8404              2636   0 svchost
+    231      10     2696       7160              2648   0 svchost
+    134      10     1788       5912              2656   0 svchost
+    376      19     5172      12236              2732   0 svchost
+    370      18     5140      11924              2848   0 svchost
+    436      12     3356       8868              2960   0 svchost
+    119       9     1572       5792              3180   0 svchost
+    124       7     1352       5404              3196   0 svchost
+    245      16     2804       8484              3252   0 svchost
+    175      10     1956       7064              3280   0 svchost
+    234      15     2548      11892              3296   0 svchost
+    340      18     3792      11856              3320   0 svchost
+    153       8     1748       6012              3660   0 svchost
+    196      22     3032       9716              3892   0 svchost
+    522      26    26316      40356              3908   0 svchost
+    349      23    26028      32596              3920   0 svchost
+    479      19     3872      11592              3960   0 svchost
+    229      13     2592       6724              3968   0 svchost
+    193      12     2324       7876              4020   0 svchost
+    172      10     2200      11188              4068   0 svchost
+    402      20     4728      19560              4144   0 svchost
+     97       7     1288       4808              4560   0 svchost
+    683      42    10612      25356              4668   0 svchost
+    159       9     1820       7016              4772   0 svchost
+    392      18     5700      21524       0.41   4784   1 svchost
+    463      24     8092      32928       3.98   5112   1 svchost
+    206      10     2264       7692              5192   0 svchost
+    273      14     3836      16308              5356   0 svchost
+    155       8     1704       6720              5512   0 svchost
+    149       9     1820       7216              5676   0 svchost
+    203      11     3588       7444              6320   0 svchost
+    142       9     1700       7452              7136   0 svchost
+    784      31    22528      40912      70.86   7416   1 svchost
+    214      13     2844      11288              7604   0 svchost
+    142       9     1964       7596              7884   0 svchost
+    392      26     6240      16192              8604   0 svchost
+    148      10     1888       8808              9116   0 svchost
+    377      17     4880      16284             10792   0 svchost
+    238      22     2180       7084             10796   0 svchost
+    538      17     5332      15048             10824   0 svchost
+    184      11     2064       8024             11136   0 svchost
+    183      11     2128       9252             11792   0 svchost
+    185      11     2504      13216             12348   0 svchost
+   4520       0      156        136                 4   0 System
+    427      20     6344      23552       0.22   8768   1 SystemSettingsBroker
+    368      35     9360      19024      12.30   5292   1 taskhostw
+    743      32    26228      45640      60.61   9180   1 Taskmgr
+    560      27    14072      34812      40.34   7496   1 TOTALCMD64
+    173      19     2548       7228              3512   0 vmnat
+     78       7     7424       4528              3316   0 vmnetdhcp
+    510      38    18472      43864       4.45   9604   1 vmplayer
+    330      19     5096      11240               380   0 vmware-authd
+    242      20     4712      14840       0.11  10008   1 vmware-unity-helper
+    206      11     2444       8568              3628   0 vmware-usbarbitrator64
+    543      29    68812    5019536   6,005.22  10100   1 vmware-vmx
+    825      46    54228      80388       9.95    396   1 WhatsApp
+    344      21    69688      69148       4.25   7468   1 WhatsApp
+    433      48   114056     130232      14.70   7920   1 WhatsApp
+    182      12     5728      10940       0.02  12440   1 WhatsApp
+    103       6     1168       5120              5496   0 Windows.WARP.JITService
+    146      10     1360       5408               620   0 wininit
+    239      12     2712       9072               336   1 winlogon
+    311      12     2668       7692              1416   0 WUDFHost
+
+
+PS C:\WINDOWS\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 Get-Process
+   2 D:\SICZ\AVAS\avas.ps1
+   3 D:\SICZ\AVAS\avas_backup.ps1
+   4 D:\SICZ\AVAS\avas_backup.ps1
+   5 Get-Counter -Counter "\memory\available mbytes"  -SampleInterval 1
+   6 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+   7 D:\SICZ\AVAS\icwsc-updated2.ps1
+   8 $hash.Active_DC
+   9 $hash
+  10 $hash.Installed_Apps
+  11 history
+  12 D:\SICZ\AVAS\formular.ps1
+  13 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+  14 Start-Transcript C:\powershell.txt
+  15 history
+  16 Get-process
+
+
+PS C:\WINDOWS\system32> Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+
+Timestamp                 CounterSamples
+---------                 --------------
+26/10/2017 14:02:02       \\desktop-soqv869\memory\available mbytes :
+                          3259
+
+
+26/10/2017 14:02:03       \\desktop-soqv869\memory\available mbytes :
+                          3263
+
+
+26/10/2017 14:02:04       \\desktop-soqv869\memory\available mbytes :
+                          3264
+
+
+26/10/2017 14:02:05       \\desktop-soqv869\memory\available mbytes :
+                          3266
+
+
+26/10/2017 14:02:06       \\desktop-soqv869\memory\available mbytes :
+                          3256
+
+
+26/10/2017 14:02:07       \\desktop-soqv869\memory\available mbytes :
+                          3255
+
+
+26/10/2017 14:02:08       \\desktop-soqv869\memory\available mbytes :
+                          3255
+
+
+26/10/2017 14:02:09       \\desktop-soqv869\memory\available mbytes :
+                          3256
+
+
+26/10/2017 14:02:10       \\desktop-soqv869\memory\available mbytes :
+                          3254
+
+
+26/10/2017 14:02:11       \\desktop-soqv869\memory\available mbytes :
+                          3248
+
+
+26/10/2017 14:02:12       \\desktop-soqv869\memory\available mbytes :
+                          3254
+
+
+26/10/2017 14:02:13       \\desktop-soqv869\memory\available mbytes :
+                          3259
+
+
+26/10/2017 14:02:14       \\desktop-soqv869\memory\available mbytes :
+                          3260
+
+
+26/10/2017 14:02:15       \\desktop-soqv869\memory\available mbytes :
+                          3264
+
+
+26/10/2017 14:02:16       \\desktop-soqv869\memory\available mbytes :
+                          3251
+
+
+26/10/2017 14:02:17       \\desktop-soqv869\memory\available mbytes :
+                          3246
+
+
+26/10/2017 14:02:18       \\desktop-soqv869\memory\available mbytes :
+                          3249
+
+
+26/10/2017 14:02:19       \\desktop-soqv869\memory\available mbytes :
+                          3248
+
+
+26/10/2017 14:02:20       \\desktop-soqv869\memory\available mbytes :
+                          3258
+
+
+26/10/2017 14:02:21       \\desktop-soqv869\memory\available mbytes :
+                          3253
+
+
+26/10/2017 14:02:22       \\desktop-soqv869\memory\available mbytes :
+                          3260
+
+
+26/10/2017 14:02:23       \\desktop-soqv869\memory\available mbytes :
+                          3273
+
+
+26/10/2017 14:02:25       \\desktop-soqv869\memory\available mbytes :
+                          3281
+
+
+26/10/2017 14:02:26       \\desktop-soqv869\memory\available mbytes :
+                          3260
+
+
+26/10/2017 14:02:27       \\desktop-soqv869\memory\available mbytes :
+                          3282
+
+
+26/10/2017 14:02:28       \\desktop-soqv869\memory\available mbytes :
+                          3276
+
+
+26/10/2017 14:02:29       \\desktop-soqv869\memory\available mbytes :
+                          3165
+
+
+26/10/2017 14:02:30       \\desktop-soqv869\memory\available mbytes :
+                          3102
+
+
+26/10/2017 14:02:31       \\desktop-soqv869\memory\available mbytes :
+                          3132
+
+
+26/10/2017 14:02:32       \\desktop-soqv869\memory\available mbytes :
+                          3064
+
+
+26/10/2017 14:02:33       \\desktop-soqv869\memory\available mbytes :
+                          3041
+
+
+26/10/2017 14:02:34       \\desktop-soqv869\memory\available mbytes :
+                          3069
+
+
+26/10/2017 14:02:35       \\desktop-soqv869\memory\available mbytes :
+                          3095
+
+
+26/10/2017 14:02:36       \\desktop-soqv869\memory\available mbytes :
+                          3110
+
+
+26/10/2017 14:02:37       \\desktop-soqv869\memory\available mbytes :
+                          3125
+
+
+26/10/2017 14:02:38       \\desktop-soqv869\memory\available mbytes :
+                          3019
+
+
+26/10/2017 14:02:39       \\desktop-soqv869\memory\available mbytes :
+                          3050
+
+
+26/10/2017 14:02:40       \\desktop-soqv869\memory\available mbytes :
+                          3062
+
+
+26/10/2017 14:02:41       \\desktop-soqv869\memory\available mbytes :
+                          3072
+
+
+26/10/2017 14:02:42       \\desktop-soqv869\memory\available mbytes :
+                          3055
+
+
+26/10/2017 14:02:43       \\desktop-soqv869\memory\available mbytes :
+                          3062
+
+
+26/10/2017 14:02:44       \\desktop-soqv869\memory\available mbytes :
+                          3080
+
+
+26/10/2017 14:02:45       \\desktop-soqv869\memory\available mbytes :
+                          3100
+
+
+26/10/2017 14:02:46       \\desktop-soqv869\memory\available mbytes :
+                          3108
+
+
+26/10/2017 14:02:47       \\desktop-soqv869\memory\available mbytes :
+                          3103
+
+
+26/10/2017 14:02:48       \\desktop-soqv869\memory\available mbytes :
+                          3096
+
+
+26/10/2017 14:02:49       \\desktop-soqv869\memory\available mbytes :
+                          3099
+
+
+26/10/2017 14:02:50       \\desktop-soqv869\memory\available mbytes :
+                          3100
+
+
+26/10/2017 14:02:51       \\desktop-soqv869\memory\available mbytes :
+                          3108
+
+
+26/10/2017 14:02:52       \\desktop-soqv869\memory\available mbytes :
+                          3114
+
+
+26/10/2017 14:02:53       \\desktop-soqv869\memory\available mbytes :
+                          3134
+
+
+26/10/2017 14:02:54       \\desktop-soqv869\memory\available mbytes :
+                          3136
+
+
+26/10/2017 14:02:55       \\desktop-soqv869\memory\available mbytes :
+                          3143
+
+
+26/10/2017 14:02:56       \\desktop-soqv869\memory\available mbytes :
+                          3157
+
+
+26/10/2017 14:02:57       \\desktop-soqv869\memory\available mbytes :
+                          3157
+
+
+26/10/2017 14:02:58       \\desktop-soqv869\memory\available mbytes :
+                          3145
+
+
+26/10/2017 14:02:59       \\desktop-soqv869\memory\available mbytes :
+                          3148
+
+
+26/10/2017 14:03:00       \\desktop-soqv869\memory\available mbytes :
+                          3150
+
+
+26/10/2017 14:03:01       \\desktop-soqv869\memory\available mbytes :
+                          3164
+
+
+26/10/2017 14:03:02       \\desktop-soqv869\memory\available mbytes :
+                          3161
+
+
+26/10/2017 14:03:03       \\desktop-soqv869\memory\available mbytes :
+                          3161
+
+
+26/10/2017 14:03:04       \\desktop-soqv869\memory\available mbytes :
+                          3166
+
+
+26/10/2017 14:03:05       \\desktop-soqv869\memory\available mbytes :
+                          3170
+
+
+26/10/2017 14:03:06       \\desktop-soqv869\memory\available mbytes :
+                          3172
+
+
+26/10/2017 14:03:07       \\desktop-soqv869\memory\available mbytes :
+                          3175
+
+
+26/10/2017 14:03:08       \\desktop-soqv869\memory\available mbytes :
+                          3181
+
+
+26/10/2017 14:03:09       \\desktop-soqv869\memory\available mbytes :
+                          3191
+
+
+26/10/2017 14:03:10       \\desktop-soqv869\memory\available mbytes :
+                          3190
+
+
+26/10/2017 14:03:11       \\desktop-soqv869\memory\available mbytes :
+                          3185
+
+
+26/10/2017 14:03:12       \\desktop-soqv869\memory\available mbytes :
+                          3187
+
+
+26/10/2017 14:03:13       \\desktop-soqv869\memory\available mbytes :
+                          3191
+
+
+26/10/2017 14:03:14       \\desktop-soqv869\memory\available mbytes :
+                          3189
+
+
+26/10/2017 14:03:15       \\desktop-soqv869\memory\available mbytes :
+                          3186
+
+
+26/10/2017 14:03:16       \\desktop-soqv869\memory\available mbytes :
+                          3191
+
+
+26/10/2017 14:03:17       \\desktop-soqv869\memory\available mbytes :
+                          3190
+
+
+26/10/2017 14:03:18       \\desktop-soqv869\memory\available mbytes :
+                          3188
+
+
+26/10/2017 14:03:19       \\desktop-soqv869\memory\available mbytes :
+                          3191
+
+
+26/10/2017 14:03:20       \\desktop-soqv869\memory\available mbytes :
+                          3190
+
+
+26/10/2017 14:03:21       \\desktop-soqv869\memory\available mbytes :
+                          3195
+
+
+26/10/2017 14:03:22       \\desktop-soqv869\memory\available mbytes :
+                          3188
+
+
+26/10/2017 14:03:23       \\desktop-soqv869\memory\available mbytes :
+                          3190
+
+
+26/10/2017 14:03:24       \\desktop-soqv869\memory\available mbytes :
+                          3194
+
+
+26/10/2017 14:03:26       \\desktop-soqv869\memory\available mbytes :
+                          3197
+
+
+26/10/2017 14:03:27       \\desktop-soqv869\memory\available mbytes :
+                          3190
+
+
+26/10/2017 14:03:28       \\desktop-soqv869\memory\available mbytes :
+                          3195
+
+
+26/10/2017 14:03:29       \\desktop-soqv869\memory\available mbytes :
+                          3199
+
+
+26/10/2017 14:03:30       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:03:31       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:03:32       \\desktop-soqv869\memory\available mbytes :
+                          3202
+
+
+26/10/2017 14:03:33       \\desktop-soqv869\memory\available mbytes :
+                          3211
+
+
+26/10/2017 14:03:34       \\desktop-soqv869\memory\available mbytes :
+                          3209
+
+
+26/10/2017 14:03:35       \\desktop-soqv869\memory\available mbytes :
+                          3193
+
+
+26/10/2017 14:03:36       \\desktop-soqv869\memory\available mbytes :
+                          3198
+
+
+26/10/2017 14:03:37       \\desktop-soqv869\memory\available mbytes :
+                          3205
+
+
+26/10/2017 14:03:38       \\desktop-soqv869\memory\available mbytes :
+                          3204
+
+
+26/10/2017 14:03:39       \\desktop-soqv869\memory\available mbytes :
+                          3200
+
+
+26/10/2017 14:03:40       \\desktop-soqv869\memory\available mbytes :
+                          3202
+
+
+26/10/2017 14:03:41       \\desktop-soqv869\memory\available mbytes :
+                          3205
+
+
+26/10/2017 14:03:42       \\desktop-soqv869\memory\available mbytes :
+                          3202
+
+
+26/10/2017 14:03:43       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:03:44       \\desktop-soqv869\memory\available mbytes :
+                          3204
+
+
+26/10/2017 14:03:45       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:03:46       \\desktop-soqv869\memory\available mbytes :
+                          3206
+
+
+26/10/2017 14:03:47       \\desktop-soqv869\memory\available mbytes :
+                          3200
+
+
+26/10/2017 14:03:48       \\desktop-soqv869\memory\available mbytes :
+                          3203
+
+
+26/10/2017 14:03:49       \\desktop-soqv869\memory\available mbytes :
+                          3206
+
+
+26/10/2017 14:03:50       \\desktop-soqv869\memory\available mbytes :
+                          3203
+
+
+26/10/2017 14:03:51       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:03:52       \\desktop-soqv869\memory\available mbytes :
+                          3208
+
+
+26/10/2017 14:03:53       \\desktop-soqv869\memory\available mbytes :
+                          3202
+
+
+26/10/2017 14:03:54       \\desktop-soqv869\memory\available mbytes :
+                          3203
+
+
+26/10/2017 14:03:55       \\desktop-soqv869\memory\available mbytes :
+                          3202
+
+
+26/10/2017 14:03:56       \\desktop-soqv869\memory\available mbytes :
+                          3205
+
+
+26/10/2017 14:03:57       \\desktop-soqv869\memory\available mbytes :
+                          3215
+
+
+26/10/2017 14:03:58       \\desktop-soqv869\memory\available mbytes :
+                          3206
+
+
+26/10/2017 14:03:59       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:04:00       \\desktop-soqv869\memory\available mbytes :
+                          3204
+
+
+26/10/2017 14:04:01       \\desktop-soqv869\memory\available mbytes :
+                          3197
+
+
+26/10/2017 14:04:02       \\desktop-soqv869\memory\available mbytes :
+                          3195
+
+
+26/10/2017 14:04:03       \\desktop-soqv869\memory\available mbytes :
+                          3192
+
+
+26/10/2017 14:04:04       \\desktop-soqv869\memory\available mbytes :
+                          3201
+
+
+26/10/2017 14:04:05       \\desktop-soqv869\memory\available mbytes :
+                          3209
+
+
+26/10/2017 14:04:06       \\desktop-soqv869\memory\available mbytes :
+                          3211
+
+
+26/10/2017 14:04:07       \\desktop-soqv869\memory\available mbytes :
+                          3215
+
+
+26/10/2017 14:04:08       \\desktop-soqv869\memory\available mbytes :
+                          3212
+
+
+26/10/2017 14:04:09       \\desktop-soqv869\memory\available mbytes :
+                          3219
+
+
+26/10/2017 14:04:10       \\desktop-soqv869\memory\available mbytes :
+                          3216
+
+
+26/10/2017 14:04:11       \\desktop-soqv869\memory\available mbytes :
+                          3217
+
+
+26/10/2017 14:04:12       \\desktop-soqv869\memory\available mbytes :
+                          3225
+
+
+26/10/2017 14:04:13       \\desktop-soqv869\memory\available mbytes :
+                          3230
+
+
+26/10/2017 14:04:14       \\desktop-soqv869\memory\available mbytes :
+                          3228
+
+
+26/10/2017 14:04:15       \\desktop-soqv869\memory\available mbytes :
+                          3235
+
+
+26/10/2017 14:04:16       \\desktop-soqv869\memory\available mbytes :
+                          3236
+
+
+26/10/2017 14:04:17       \\desktop-soqv869\memory\available mbytes :
+                          3245
+
+
+26/10/2017 14:04:18       \\desktop-soqv869\memory\available mbytes :
+                          3245
+
+
+26/10/2017 14:04:19       \\desktop-soqv869\memory\available mbytes :
+                          3252
+
+
+26/10/2017 14:04:20       \\desktop-soqv869\memory\available mbytes :
+                          3248
+
+
+26/10/2017 14:04:21       \\desktop-soqv869\memory\available mbytes :
+                          3241
+
+
+26/10/2017 14:04:22       \\desktop-soqv869\memory\available mbytes :
+                          3233
+
+
+26/10/2017 14:04:23       \\desktop-soqv869\memory\available mbytes :
+                          3241
+
+
+26/10/2017 14:04:24       \\desktop-soqv869\memory\available mbytes :
+                          3244
+
+
+26/10/2017 14:04:26       \\desktop-soqv869\memory\available mbytes :
+                          3248
+
+
+26/10/2017 14:04:27       \\desktop-soqv869\memory\available mbytes :
+                          3230
+
+
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 Get-Process
+   2 D:\SICZ\AVAS\avas.ps1
+   3 D:\SICZ\AVAS\avas_backup.ps1
+   4 D:\SICZ\AVAS\avas_backup.ps1
+   5 Get-Counter -Counter "\memory\available mbytes"  -SampleInterval 1
+   6 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+   7 D:\SICZ\AVAS\icwsc-updated2.ps1
+   8 $hash.Active_DC
+   9 $hash
+  10 $hash.Installed_Apps
+  11 history
+  12 D:\SICZ\AVAS\formular.ps1
+  13 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+  14 Start-Transcript C:\powershell.txt
+  15 history
+  16 Get-process
+  17 history
+  18 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+
+
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+>> Start-Transcript -path "C:\powershell.txt"
+Transcript started, output file is C:\powershell.txt
+PS C:\WINDOWS\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 Get-Process
+   2 D:\SICZ\AVAS\avas.ps1
+   3 D:\SICZ\AVAS\avas_backup.ps1
+   4 D:\SICZ\AVAS\avas_backup.ps1
+   5 Get-Counter -Counter "\memory\available mbytes"  -SampleInterval 1
+   6 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+   7 D:\SICZ\AVAS\icwsc-updated2.ps1
+   8 $hash.Active_DC
+   9 $hash
+  10 $hash.Installed_Apps
+  11 history
+  12 D:\SICZ\AVAS\formular.ps1
+  13 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+  14 Start-Transcript C:\powershell.txt
+  15 history
+  16 Get-process
+  17 history
+  18 Get-Counter -Counter "\memory\available mbytes" -MaxSamples 999 -SampleInterval 1
+  19 history
+  20 Start-Transcript -path "C:\powershell.txt"
+
+

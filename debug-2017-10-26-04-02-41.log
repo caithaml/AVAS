@@ -1,0 +1,63 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171026160241
+Username: DESKTOP-SOQV869\karabecl
+RunAs User: DESKTOP-SOQV869\karabecl
+Configuration Name: 
+Machine: DESKTOP-SOQV869 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 4860
+PSVersion: 5.1.16299.19
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.19
+BuildVersion: 10.0.16299.19
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\SICZ\AVAS/debug-2017-10-26-04-02-41.log
+-message pokracuji ve zpracovani
+spoustim test app diff
+
+spoustim test services diff
+spoustim test scheduled tasks diff
+spoustim test hotfix diff
+DisplayName                                  DisplayVersion Publisher
+-----------                                  -------------- ---------
+Dell SupportAssist                           2.0.6875.668   Dell
+Total Commander 64-bit (Remove or Repair)    9.0a           Ghisler Software GmbH
+Background Intelligent Transfer Service
+Offline Files
+Connected User Experiences and Telemetry
+Diagnostic Policy Service
+File History Service
+IKE and AuthIP IPsec Keying Modules
+Geolocation Service
+Net.Tcp Port Sharing Service
+Remote Access Connection Manager
+Routing and Remote Access
+Shell Hardware Detection
+Shared PC Account Manager
+Windows Image Acquisition (WIA)
+Touch Keyboard and Handwriting Panel Service
+Themes
+Auto Time Zone Updater
+Windows Time
+Windows Event Collector
+Windows Defender Antivirus Service
+Windows Remote Management (WS-Management)
+
+InputObject     SideIndicator
+-----------     -------------
+DESKTOP-TBE27PS =>           
+MICA            <=
+PS C:\WINDOWS\system32> TerminatingError(Compare-Object): "Cannot bind argument to parameter 'DifferenceObject' because it is null."
+
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20171026160427
+**********************
